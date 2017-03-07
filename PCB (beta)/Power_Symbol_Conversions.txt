@@ -1,0 +1,6 @@
+Intel		RoboJackets
+
++VDD1	->	VCC
++VSYS	->	V+
++VDD3	->	VDD
++VBUS	->	VCCIO
