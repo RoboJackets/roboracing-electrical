@@ -9,11 +9,12 @@ PI3USB302-AZBEX			done
 TCE0806G-900-2P-T200		done
 TCE1608G-900-4P			done
 TCE0806S-350-2P-T200		done
-0.47 uH, 4.5 A, 23MOHM Inductor
-AON1606
-IP4856CX25/CZ-ND
-M24M02-DRMN6TP
-FPF2495UCX
+
+
+
+IP4856CX25/CZ-ND	done	http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4856CX25-CZ/?qs=sV%252bQJnSpgu%2FUar136R41%2FA%3D%3D)
+M24M02-DRMN6TP 		done
+FPF2495UCX		done
 FPF3042UCX
 ECMF02-2BF3
 FAN48623UC50X
@@ -28,6 +29,7 @@ DF40C-100DS-0.4V(51)
 PJ-002AH-SMT-TR
 DM3ND-SF-PEJ (850)
 692122030100
-AUSB0269-P004A01
 2173157-3
 TL3304AF160QJ
+AON1606 Mosfet possible alternative (http://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K56CT,L3F/SSM3K56CTL3FCT-ND/6154563)
+0.47 uH, 4.5 A, 23MOHM Inductor (found one of 24MOHM http://www.digikey.com/product-detail/en/vishay-dale/IHHP1008ABERR47M01/541-2674-1-ND/5592254)
