@@ -1907,6 +1907,18 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <smd name="D4" x="0.6" y="-0.6" dx="0.2" dy="0.2" layer="1" roundness="100"/>
 <text x="-0.8" y="1.2" size="0.4" layer="25">&gt;Name</text>
 </package>
+<package name="5-WLCSP">
+<wire x1="-0.415" y1="0.615" x2="0.415" y2="0.615" width="0.04" layer="21"/>
+<wire x1="0.415" y1="0.615" x2="0.415" y2="-0.615" width="0.04" layer="21"/>
+<wire x1="0.415" y1="-0.615" x2="-0.415" y2="-0.615" width="0.04" layer="21"/>
+<wire x1="-0.415" y1="-0.615" x2="-0.415" y2="0.615" width="0.04" layer="21"/>
+<smd name="A1" x="-0.2" y="0.4" dx="0.22" dy="0.22" layer="1" roundness="100"/>
+<smd name="A2" x="0.2" y="0.4" dx="0.22" dy="0.22" layer="1" roundness="100"/>
+<smd name="B1" x="-0.2" y="0" dx="0.22" dy="0.22" layer="1" roundness="100"/>
+<smd name="B2" x="0.2" y="0" dx="0.22" dy="0.22" layer="1" roundness="100"/>
+<smd name="GND" x="0.2" y="-0.4" dx="0.22" dy="0.22" layer="1" roundness="100"/>
+<text x="-0.4" y="0.8" size="0.4" layer="25">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IND">
@@ -2753,6 +2765,18 @@ Switches electronic signals</description>
 <pin name="VOUT_1" x="15.24" y="17.78" length="middle" rot="R180"/>
 <text x="-2.54" y="-22.86" size="1.27" layer="94">&gt;Name</text>
 </symbol>
+<symbol name="ECMF02-2BF3">
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="OUT1" x="-12.7" y="5.08" length="middle"/>
+<pin name="OUT2" x="-12.7" y="0" length="middle"/>
+<pin name="IN1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="IN2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.778" layer="94">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SSM-120-S-DV" prefix="J">
@@ -3395,6 +3419,25 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="VOUT_2" pad="A3"/>
 <connect gate="G$1" pin="VOUT_3" pad="B3"/>
 <connect gate="G$1" pin="VOUT_4" pad="C3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECMF02-2BF3">
+<gates>
+<gate name="G$1" symbol="ECMF02-2BF3" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="5-WLCSP">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN1" pad="A2"/>
+<connect gate="G$1" pin="IN2" pad="B2"/>
+<connect gate="G$1" pin="OUT1" pad="A1"/>
+<connect gate="G$1" pin="OUT2" pad="B1"/>
 </connects>
 <technologies>
 <technology name=""/>

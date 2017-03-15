@@ -16,7 +16,7 @@ IP4856CX25/CZ-ND	done	http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4
 M24M02-DRMN6TP 		done
 FPF2495UCX		done
 FPF3042UCX		done
-ECMF02-2BF3
+ECMF02-2BF3		done
 FAN48623UC50X
 
 Probably Alternatives:
