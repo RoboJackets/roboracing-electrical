@@ -2777,6 +2777,28 @@ Switches electronic signals</description>
 <pin name="GND" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <text x="-2.54" y="10.16" size="1.778" layer="94">&gt;Name</text>
 </symbol>
+<symbol name="FAN48623UC50X_SWITCHING_REGULATOR">
+<wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<pin name="EN" x="-20.32" y="-17.78" length="middle"/>
+<pin name="VSEL" x="-20.32" y="-15.24" length="middle"/>
+<pin name="BYP_N" x="-20.32" y="-20.32" length="middle"/>
+<pin name="AGND" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="VIN" x="-20.32" y="15.24" length="middle"/>
+<pin name="VIN1" x="-20.32" y="12.7" length="middle"/>
+<pin name="SW" x="-20.32" y="0" length="middle"/>
+<pin name="SW1" x="-20.32" y="-2.54" length="middle"/>
+<pin name="VOUT" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="VOUT1" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="PG" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="PGND" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="PGND1" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="PGND2" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="NC_PGND" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="NC_PGND1" x="20.32" y="-20.32" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SSM-120-S-DV" prefix="J">
@@ -3438,6 +3460,36 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="IN2" pad="B2"/>
 <connect gate="G$1" pin="OUT1" pad="A1"/>
 <connect gate="G$1" pin="OUT2" pad="B1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FAN48623UC50X_SWITCHING_REGULATOR">
+<gates>
+<gate name="G$1" symbol="FAN48623UC50X_SWITCHING_REGULATOR" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="16-WLCSP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="D1"/>
+<connect gate="G$1" pin="BYP_N" pad="C1"/>
+<connect gate="G$1" pin="EN" pad="A1"/>
+<connect gate="G$1" pin="NC_PGND" pad="B2"/>
+<connect gate="G$1" pin="NC_PGND1" pad="C2"/>
+<connect gate="G$1" pin="PG" pad="A2"/>
+<connect gate="G$1" pin="PGND" pad="D2"/>
+<connect gate="G$1" pin="PGND1" pad="D4"/>
+<connect gate="G$1" pin="PGND2" pad="D3"/>
+<connect gate="G$1" pin="SW" pad="C3"/>
+<connect gate="G$1" pin="SW1" pad="C4"/>
+<connect gate="G$1" pin="VIN" pad="A3"/>
+<connect gate="G$1" pin="VIN1" pad="A4"/>
+<connect gate="G$1" pin="VOUT" pad="B3"/>
+<connect gate="G$1" pin="VOUT1" pad="B4"/>
+<connect gate="G$1" pin="VSEL" pad="B1"/>
 </connects>
 <technologies>
 <technology name=""/>
