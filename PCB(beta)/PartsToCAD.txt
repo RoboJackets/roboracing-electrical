@@ -22,8 +22,8 @@ FAN48623UC50X		done
 Probably Alternatives:
 
 FH19SC-24S-0.5SH(05)		not needed / removed
-TSM-102-01-L-DV-TR
-YQSMTSO-51732-ET
+TSM-102-01-L-DV-TR	done	
+YQSMTSO-51732-ET Alternative refer to https://communities.intel.com/thread/110825 or 	
 292228-3
 DF40C-100DS-0.4V(51)
 PJ-002AH-SMT-TR
