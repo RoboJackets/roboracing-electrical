@@ -1,0 +1,37 @@
+Library Devices:
+
+BK-916-TR
+LXES15AAA1-100			done	
+LFTVS18-1F3			done
+PS8203TQFN32GTR-A3		hdmi component? need more details
+BQ25892RTWT			done
+PI3USB302-AZBEX			done
+TCE0806G-900-2P-T200		done
+TCE1608G-900-4P			done
+TCE0806S-350-2P-T200		done
+
+
+
+IP4856CX25/CZ-ND	done	http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4856CX25-CZ/?qs=sV%252bQJnSpgu%2FUar136R41%2FA%3D%3D)
+M24M02-DRMN6TP 		done
+FPF2495UCX		done
+FPF3042UCX		done
+ECMF02-2BF3		done
+FAN48623UC50X		done
+
+Probably Alternatives:
+
+FH19SC-24S-0.5SH(05)		not needed / removed
+TSM-102-01-L-DV-TR	done	
+YQSMTSO-51732-ET Alternative refer to https://communities.intel.com/thread/110825 or 	
+292228-3
+DF40C-100DS-0.4V(51) found https://www.digikey.com/product-detail/en/Hirose-Electric-Co-Ltd/DF40C-100DS-0.4V(51)/H11615DKR-ND/1969514
+PJ-002AH-SMT-TR
+DM3ND-SF-PEJ (850) don’t want
+AMP 2199230-3 added, found http://www.mouser.com/ProductDetail/TE-Connectivity-AMP/2199230-3/?qs=sGAEpiMZZMtWxQ3D3EXBNxFJxnIXBjROjEcYOrSl4Qo%3d
+RVD400-M22280-256G added, found https://www.amazon.com/Toshiba-OCZ-RD400-Solid-RVD400-M22280-256G/dp/B01G3HLP0C/ref=sr_1_1?s=pc&ie=UTF8&qid=1491264546&sr=1-1&refinements=p_n_feature_keywords_four_browse-bin%3A6009678011
+692122030100
+2173157-3
+TL3304AF160QJ found https://www.questcomp.com/QuestDetails.aspx?pn=TL3304AF160QJ&pnid=748637&stock=YesOnly&utm_source=octopart&utm_medium=industry-cpc&utm_campaign=partsearch
+AON1606 Mosfet possible alternative (http://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K56CT,L3F/SSM3K56CTL3FCT-ND/6154563)
+0.47 uH, 4.5 A, 23MOHM Inductor (found one of 24MOHM http://www.digikey.com/product-detail/en/vishay-dale/IHHP1008ABERR47M01/541-2674-1-ND/5592254)
