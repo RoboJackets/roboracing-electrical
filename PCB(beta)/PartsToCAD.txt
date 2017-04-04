@@ -26,10 +26,10 @@ TSM-102-01-L-DV-TR	done
 YQSMTSO-51732-ET 	done named 92320A282_1/8_spacer Alternative refer to https://communities.intel.com/thread/110825 or https://www.mcmaster.com/#catalog/123/3290/=171jb9y
 292228-3	http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292228-3/A101008CT-ND/2273006
 DF40C-100DS-0.4V(51)
-PJ-002AH-SMT-TR
+PJ-002AH-SMT-TR    https://www.snapeda.com/parts/PJ-002AH-SMT-TR/CUI/view-part/
 DM3ND-SF-PEJ (850)
-692122030100
-2173157-3
+692122030100   https://www.diymodules.org/eagle-show-library?type=usr&id=1012210707&part=Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL.lbr
+2173157-3     X
 TL3304AF160QJ
 AON1606 Mosfet possible alternative (http://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K56CT,L3F/SSM3K56CTL3FCT-ND/6154563)
 0.47 uH, 4.5 A, 23MOHM Inductor (found one of 24MOHM http://www.digikey.com/product-detail/en/vishay-dale/IHHP1008ABERR47M01/541-2674-1-ND/5592254)
