@@ -1,6 +1,6 @@
 Library Devices:
 
-BK-916-TR
+BK-916-TR		done
 LXES15AAA1-100		done	
 LFTVS18-1F3		done
 PS8203TQFN32GTR-A3		hdmi component? need more details
