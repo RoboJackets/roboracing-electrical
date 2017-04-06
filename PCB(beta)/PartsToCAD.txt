@@ -4,7 +4,7 @@ BK-916-TR		done
 LXES15AAA1-100		done	
 LFTVS18-1F3		done
 PS8203TQFN32GTR-A3		hdmi component? need more details
-BQ25892RTWT			done
+BQ25892RTWT			done ********I don’t see it?*********
 PI3USB302-AZBEX			done
 TCE0806G-900-2P-T200		done
 TCE1608G-900-4P			done
