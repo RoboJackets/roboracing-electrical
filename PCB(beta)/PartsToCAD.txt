@@ -1,4 +1,4 @@
-Library Devices:
+﻿Library Devices:
 
 BK-916-TR		done
 LXES15AAA1-100		done	
@@ -25,7 +25,7 @@ FH19SC-24S-0.5SH(05)		not needed / removed
 TSM-102-01-L-DV-TR	done	
 YQSMTSO-51732-ET 	done named 92320A282_1/8_spacer Alternative refer to https://communities.intel.com/thread/110825 or https://www.mcmaster.com/#catalog/123/3290/=171jb9y
 292228-3	http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292228-3/A101008CT-ND/2273006
-DF40C-100DS-0.4V(51)
+DF40C-100DS-0.4V(51)	done	
 PJ-002AH-SMT-TR    https://www.snapeda.com/parts/PJ-002AH-SMT-TR/CUI/view-part/
 DM3ND-SF-PEJ (850)
 692122030100   https://www.diymodules.org/eagle-show-library?type=usr&id=1012210707&part=Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL.lbr
