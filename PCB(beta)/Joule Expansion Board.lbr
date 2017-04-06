@@ -1939,6 +1939,10 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <smd name="P$2" x="-7.65" y="0" dx="2.5" dy="5.1" layer="1" rot="R180"/>
 <smd name="P$3" x="0" y="0" dx="10.2" dy="10.2" layer="1" roundness="100" rot="R180"/>
 </package>
+<package name="ASPIAIG-S8050">
+<smd name="1" x="-72.39" y="-10.16" dx="2.2" dy="7.5" layer="1"/>
+<smd name="2" x="-66.04" y="-10.16" dx="2.2" dy="7.5" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IND">
@@ -2869,6 +2873,36 @@ Switches electronic signals</description>
 <pin name="+" x="0" y="10.16" length="middle" rot="R270"/>
 <pin name="-" x="0" y="-7.62" length="middle" rot="R90"/>
 </symbol>
+<symbol name="BQ25892RTWT">
+<wire x1="-12.7" y1="30.48" x2="7.62" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="30.48" x2="7.62" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-12.7" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="30.48" width="0.4064" layer="94"/>
+<pin name="VBUS" x="-17.78" y="27.94" length="middle"/>
+<pin name="PSEL" x="-17.78" y="22.86" length="middle"/>
+<pin name="PMID" x="-17.78" y="25.4" length="middle"/>
+<pin name="PG*" x="-17.78" y="20.32" length="middle"/>
+<pin name="ILIM" x="-17.78" y="17.78" length="middle"/>
+<pin name="STAT" x="-17.78" y="15.24" length="middle"/>
+<pin name="SDA" x="-17.78" y="12.7" length="middle"/>
+<pin name="SCL" x="-17.78" y="10.16" length="middle"/>
+<pin name="INT" x="-17.78" y="7.62" length="middle"/>
+<pin name="OTG" x="-17.78" y="5.08" length="middle"/>
+<pin name="CE*" x="-17.78" y="2.54" length="middle"/>
+<pin name="NC" x="-17.78" y="0" length="middle"/>
+<pin name="SW_1" x="12.7" y="27.94" length="middle" rot="R180"/>
+<pin name="SW_2" x="12.7" y="25.4" length="middle" rot="R180"/>
+<pin name="BTST" x="12.7" y="22.86" length="middle" rot="R180"/>
+<pin name="REGN" x="12.7" y="20.32" length="middle" rot="R180"/>
+<pin name="SYS_1" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="SYS_2" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="BAT_1" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="BAT_2" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="QON*" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="TS" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="PGND_1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="EP_GND" x="12.7" y="0" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SSM-120-S-DV" prefix="J">
@@ -3626,6 +3660,60 @@ Switches electronic signals</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ASPIAIG-S8050">
+<gates>
+<gate name="G$1" symbol="IND" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="ASPIAIG-S8050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ25892RTWT">
+<gates>
+<gate name="G$1" symbol="BQ25892RTWT" x="2.54" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="WQFN-24">
+<connects>
+<connect gate="G$1" pin="BAT_1" pad="13"/>
+<connect gate="G$1" pin="BAT_2" pad="14"/>
+<connect gate="G$1" pin="BTST" pad="21"/>
+<connect gate="G$1" pin="CE*" pad="9"/>
+<connect gate="G$1" pin="EP_GND" pad="EP"/>
+<connect gate="G$1" pin="ILIM" pad="10"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="NC" pad="24"/>
+<connect gate="G$1" pin="OTG" pad="8"/>
+<connect gate="G$1" pin="PG*" pad="3"/>
+<connect gate="G$1" pin="PGND_1" pad="17 18"/>
+<connect gate="G$1" pin="PMID" pad="23"/>
+<connect gate="G$1" pin="PSEL" pad="2"/>
+<connect gate="G$1" pin="QON*" pad="12"/>
+<connect gate="G$1" pin="REGN" pad="22"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="STAT" pad="4"/>
+<connect gate="G$1" pin="SW_1" pad="19"/>
+<connect gate="G$1" pin="SW_2" pad="20"/>
+<connect gate="G$1" pin="SYS_1" pad="15"/>
+<connect gate="G$1" pin="SYS_2" pad="16"/>
+<connect gate="G$1" pin="TS" pad="11"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
