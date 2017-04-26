@@ -9813,8 +9813,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="I2C0_SDA" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="11"/>
-<wire x1="-66.04" y1="175.26" x2="-76.2" y2="175.26" width="0.1524" layer="91"/>
-<label x="-76.2" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-66.04" y1="175.26" x2="-78.74" y2="175.26" width="0.1524" layer="91"/>
+<label x="-78.74" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="ENCODER" gate="G$1" pin="3"/>
