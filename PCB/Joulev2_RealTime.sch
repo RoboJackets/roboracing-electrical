@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12129,27 +12129,6 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="55.88" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MISO_3P3V" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="29"/>
-<wire x1="-66.04" y1="15.24" x2="-73.66" y2="15.24" width="0.1524" layer="91"/>
-<label x="-73.66" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MOSI_3P3V" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="27"/>
-<wire x1="-66.04" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
-<label x="-73.66" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SCK_3P3V" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="25"/>
-<wire x1="-66.04" y1="25.4" x2="-73.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="-73.66" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="3P3V_MODE_SEL_GPIO0" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="35"/>
@@ -12216,12 +12195,17 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <label x="68.58" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="5V_MODE_SELECT" class="0">
+<net name="MODE_SELECT_5V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="P1"/>
 <wire x1="86.36" y1="104.14" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="88.9" y="109.22" size="1.778" layer="95" font="vector" xref="yes"/>
 <wire x1="86.36" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U9" gate="A" pin="B1"/>
+<wire x1="256.54" y1="154.94" x2="266.7" y2="154.94" width="0.1524" layer="91"/>
+<label x="266.7" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO_5V" class="0">
@@ -12310,6 +12294,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="38.1" y1="96.52" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
 <label x="10.16" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U9" gate="A" pin="B2"/>
+<wire x1="256.54" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
+<label x="264.16" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -12413,6 +12402,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="200.66" y1="139.7" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
 <label x="180.34" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="27"/>
+<wire x1="-66.04" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="-73.66" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="MISO_JOULE" class="0">
 <segment>
@@ -12420,12 +12414,22 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="200.66" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <label x="198.12" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="29"/>
+<wire x1="-66.04" y1="15.24" x2="-73.66" y2="15.24" width="0.1524" layer="91"/>
+<label x="-73.66" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCK_JOULE" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="A8"/>
 <wire x1="200.66" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="180.34" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="25"/>
+<wire x1="-66.04" y1="25.4" x2="-73.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="-73.66" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESTOP_5V" class="0">
@@ -12448,6 +12452,20 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="C59" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MODE_SELECT_3V3" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="A1"/>
+<wire x1="200.66" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
+<label x="193.04" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RC_CH3_3V3" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="A2"/>
+<wire x1="200.66" y1="149.86" x2="180.34" y2="149.86" width="0.1524" layer="91"/>
+<label x="180.34" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
