@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1123,7 +1123,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <smd name="PAD3" x="0" y="0" dx="2.4" dy="1.65" layer="1"/>
 <smd name="PAD1" x="0" y="0.25" dx="3.8" dy="0.28" layer="1"/>
 <smd name="PAD2" x="0" y="-0.25" dx="3.8" dy="0.28" layer="1"/>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-1.2" y="0.825"/>
 <vertex x="-1.2" y="0.39"/>
 <vertex x="-1.9" y="0.39"/>
@@ -1165,7 +1165,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <smd name="8_2" x="0" y="-1.2" dx="0.28" dy="0.28" layer="1" roundness="100"/>
 <smd name="9_2" x="0.5" y="-1.2" dx="0.28" dy="0.28" layer="1" roundness="100"/>
 <smd name="10_2" x="1" y="-1.2" dx="0.28" dy="0.28" layer="1" roundness="100"/>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="1.14" y="1.9"/>
 <vertex x="0.86" y="1.9"/>
 <vertex x="0.86" y="1.19" curve="90"/>
@@ -1174,7 +1174,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="1.01" y="1.06" curve="90"/>
 <vertex x="1.14" y="1.19"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="0.64" y="1.9"/>
 <vertex x="0.36" y="1.9"/>
 <vertex x="0.36" y="1.19" curve="94.242584"/>
@@ -1182,7 +1182,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="0.51" y="1.06" curve="90"/>
 <vertex x="0.64" y="1.19"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="0.14" y="1.9"/>
 <vertex x="-0.14" y="1.9"/>
 <vertex x="-0.14" y="1.19" curve="90"/>
@@ -1191,7 +1191,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="0.01" y="1.06" curve="90"/>
 <vertex x="0.14" y="1.19"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-0.36" y="1.9"/>
 <vertex x="-0.64" y="1.9"/>
 <vertex x="-0.64" y="1.19" curve="90"/>
@@ -1200,7 +1200,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="-0.49" y="1.06" curve="90"/>
 <vertex x="-0.36" y="1.19"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-0.86" y="1.9"/>
 <vertex x="-1.14" y="1.9"/>
 <vertex x="-1.14" y="1.19" curve="90"/>
@@ -1209,7 +1209,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="-0.99" y="1.06" curve="90"/>
 <vertex x="-0.86" y="1.19"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-1.14" y="-1.19" curve="-90"/>
 <vertex x="-1.01" y="-1.06"/>
 <vertex x="-1" y="-1.06"/>
@@ -1218,7 +1218,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="-0.86" y="-1.9"/>
 <vertex x="-1.14" y="-1.9"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-0.64" y="-1.19" curve="-90"/>
 <vertex x="-0.51" y="-1.06"/>
 <vertex x="-0.5" y="-1.06"/>
@@ -1227,7 +1227,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="-0.36" y="-1.9"/>
 <vertex x="-0.64" y="-1.9"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="-0.14" y="-1.19" curve="-90"/>
 <vertex x="-0.01" y="-1.06"/>
 <vertex x="0" y="-1.06"/>
@@ -1236,7 +1236,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="0.14" y="-1.9"/>
 <vertex x="-0.14" y="-1.9"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="0.36" y="-1.19" curve="-90"/>
 <vertex x="0.49" y="-1.06"/>
 <vertex x="0.5" y="-1.06"/>
@@ -1245,7 +1245,7 @@ Source: http://www.gennum.com/video/pdf/36655DOC.pdf</description>
 <vertex x="0.64" y="-1.9"/>
 <vertex x="0.36" y="-1.9"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.002540625" layer="1">
 <vertex x="0.86" y="-1.19" curve="-90"/>
 <vertex x="0.99" y="-1.06"/>
 <vertex x="1" y="-1.06"/>
@@ -2250,6 +2250,39 @@ package type TQ</description>
 <wire x1="13.14" y1="2.71" x2="13.14" y2="-7.57" width="0.127" layer="21"/>
 <wire x1="0" y1="-7.57" x2="13.14" y2="-7.57" width="0.127" layer="21"/>
 </package>
+<package name="SOT89R_INFINEON">
+<description>&lt;b&gt;Small Outline Transistor; 3 leads&lt;/b&gt; Reflow soldering&lt;p&gt;
+INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
+<wire x1="2.235" y1="-1.145" x2="-2.235" y2="-1.145" width="0.1524" layer="51"/>
+<wire x1="2.235" y1="1.319" x2="2.235" y2="-1.145" width="0.1524" layer="51"/>
+<wire x1="-2.235" y1="-1.145" x2="-2.235" y2="1.319" width="0.1524" layer="51"/>
+<wire x1="-2.235" y1="1.319" x2="2.235" y2="1.319" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.6748" x2="-0.3556" y2="2.1066" width="0.2032" layer="51"/>
+<wire x1="-0.3556" y1="2.1066" x2="0.3556" y2="2.1066" width="0.2032" layer="51"/>
+<wire x1="0.3556" y1="2.1066" x2="0.7874" y2="1.6748" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.6748" x2="0.7874" y2="1.3954" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.3954" x2="-0.7874" y2="1.3954" width="0.2032" layer="51"/>
+<wire x1="-0.7874" y1="1.3954" x2="-0.7874" y2="1.6748" width="0.2032" layer="51"/>
+<smd name="1" x="-1.5" y="-1.6" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.05" dx="0.8" dy="2.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="1.5" y="-1.6" dx="0.8" dy="1.2" layer="1"/>
+<smd name="4" x="0" y="1.25" dx="2" dy="2.5" layer="1"/>
+<text x="-2.29" y="2.775" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.3051" y="-3.7449" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7272" y1="-2.0082" x2="-1.27" y2="-1.17" layer="51"/>
+<rectangle x1="1.27" y1="-2.0082" x2="1.7272" y2="-1.17" layer="51"/>
+<rectangle x1="-0.2794" y1="-2.0082" x2="0.2794" y2="-1.17" layer="51"/>
+<rectangle x1="-0.4" y1="-2.2" x2="0.4" y2="-1" layer="31"/>
+<rectangle x1="-0.5" y1="-2.3" x2="0.5" y2="-0.9" layer="29"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3954"/>
+<vertex x="-0.7874" y="1.6748"/>
+<vertex x="-0.3556" y="2.1066"/>
+<vertex x="0.3556" y="2.1066"/>
+<vertex x="0.7874" y="1.6748"/>
+<vertex x="0.7874" y="1.3954"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD3">
@@ -2833,6 +2866,17 @@ package type TQ</description>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="AZ1117CR-3.3TRG1DICT-ND">
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<pin name="VI" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="VO" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<text x="-9.906" y="3.048" size="1.27" layer="94">&gt;NAME</text>
+<text x="-9.906" y="-9.398" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3773,6 +3817,18 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AZ1117CR-3.3TRG1DICT-ND">
+<gates>
+<gate name="G$1" symbol="AZ1117CR-3.3TRG1DICT-ND" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT89R_INFINEON">
 <technologies>
 <technology name=""/>
 </technologies>
