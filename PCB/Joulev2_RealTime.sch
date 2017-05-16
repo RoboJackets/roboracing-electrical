@@ -22727,6 +22727,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="10"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="U10" library="Roboracing" deviceset="ZXGD3009DY" device=""/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="500"/>
 </parts>
 <sheets>
 <sheet>
@@ -23475,6 +23476,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY19" gate="G$1" x="91.44" y="5.08" rot="R90"/>
 <instance part="R29" gate="G$1" x="147.32" y="0"/>
 <instance part="U10" gate="G$1" x="114.3" y="0"/>
+<instance part="R28" gate="G$1" x="91.44" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -23619,11 +23621,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="-"/>
 <wire x1="134.62" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <label x="147.32" y="53.34" size="1.778" layer="95" font="vector" xref="yes"/>
-<label x="96.52" y="0" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="IN"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RC_CH3_3V3" class="0">
@@ -23713,6 +23714,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="157.48" y1="0" x2="152.4" y2="0" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="-12.7" x2="157.48" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="IN"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
