@@ -22606,28 +22606,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="1nF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="1000pF"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value="220@100MHz"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0603" value="1nF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0603" value="1000pF"/>
 <part name="C12" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C13" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="FB2" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value="220@100MHz"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0603" value="1nF"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0603" value="1000pF"/>
 <part name="C15" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C16" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="FB3" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value="220@100MHz"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0603" value="1nF"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0603" value="1000pF"/>
 <part name="C18" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C19" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
