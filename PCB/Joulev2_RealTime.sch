@@ -1660,6 +1660,7 @@ package type TQ</description>
 <wire x1="0" y1="2.71" x2="0" y2="-7.57" width="0.127" layer="21"/>
 <wire x1="13.14" y1="2.71" x2="13.14" y2="-7.57" width="0.127" layer="21"/>
 <wire x1="0" y1="-7.57" x2="13.14" y2="-7.57" width="0.127" layer="21"/>
+<text x="0" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="SOIC8">
 <description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
@@ -2018,6 +2019,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&gt; Data sheet
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="10.414" size="1.778" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="ADP1706-08">
 <wire x1="-2.54" y1="12.7" x2="17.78" y2="12.7" width="0.4064" layer="94"/>
@@ -22585,8 +22588,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="C61" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340?-*" device="S" technology="05" value="LM340S-05"/>
-<part name="IMU" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 <part name="ENCODER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
+<part name="IMU" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 <part name="U$1" library="Roboracing" deviceset="TUSB4041" device=""/>
 <part name="U5" library="Roboracing" deviceset="TPS2561DRCT" device=""/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4.7k"/>
@@ -22786,8 +22789,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND48" gate="1" x="231.14" y="50.8"/>
 <instance part="C61" gate="G$1" x="165.1" y="-10.16"/>
 <instance part="IC3" gate="A" x="114.3" y="172.72"/>
-<instance part="IMU" gate="A" x="68.58" y="182.88"/>
-<instance part="ENCODER" gate="A" x="68.58" y="162.56"/>
+<instance part="ENCODER" gate="A" x="68.58" y="182.88"/>
+<instance part="IMU" gate="A" x="68.58" y="162.56"/>
 <instance part="C3" gate="G$1" x="213.36" y="60.96"/>
 <instance part="C47" gate="G$1" x="248.92" y="60.96"/>
 <instance part="GND45" gate="1" x="213.36" y="50.8"/>
@@ -22899,8 +22902,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.56" y1="175.26" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
 <junction x="27.94" y="175.26"/>
 <wire x1="66.04" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="A" pin="3"/>
-<pinref part="ENCODER" gate="A" pin="1"/>
+<pinref part="ENCODER" gate="A" pin="3"/>
+<pinref part="IMU" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -23061,14 +23064,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="66.04" y1="185.42" x2="15.24" y2="185.42" width="0.1524" layer="91"/>
 <label x="15.24" y="185.42" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="IMU" gate="A" pin="2"/>
+<pinref part="ENCODER" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="35"/>
+<wire x1="-66.04" y1="114.3" x2="-73.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="-73.66" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BCHANNEL_5V" class="0">
 <segment>
 <wire x1="66.04" y1="180.34" x2="15.24" y2="180.34" width="0.1524" layer="91"/>
 <label x="15.24" y="180.34" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="IMU" gate="A" pin="4"/>
+<pinref part="ENCODER" gate="A" pin="4"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="33"/>
+<wire x1="-66.04" y1="119.38" x2="-73.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="-73.66" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V3P3V" class="0">
@@ -23119,7 +23132,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="66.04" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
 <label x="40.64" y="162.56" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="ENCODER" gate="A" pin="3"/>
+<pinref part="IMU" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="I2C0_SCL" class="0">
@@ -23130,7 +23143,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <label x="55.88" y="160.02" size="1.778" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="ENCODER" gate="A" pin="4"/>
+<pinref part="IMU" gate="A" pin="4"/>
 <wire x1="55.88" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23221,18 +23234,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="279.4" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NSS_5V" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PB2(SS/OC1B)"/>
-<wire x1="78.74" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
-<label x="86.36" y="-20.32" size="1.778" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U9" gate="A" pin="B5"/>
-<wire x1="256.54" y1="142.24" x2="264.16" y2="142.24" width="0.1524" layer="91"/>
-<label x="264.16" y="142.24" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
@@ -23262,7 +23263,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="45.72" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="172.72" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<pinref part="ENCODER" gate="A" pin="2"/>
+<pinref part="IMU" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
@@ -23338,7 +23339,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="45.72" y1="195.58" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="5V"/>
-<pinref part="IMU" gate="A" pin="1"/>
+<pinref part="ENCODER" gate="A" pin="1"/>
 <wire x1="45.72" y1="187.96" x2="66.04" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23354,13 +23355,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="213.36" y1="66.04" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="213.36" y="66.04"/>
-</segment>
-</net>
-<net name="NSS_JOULE" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="A5"/>
-<wire x1="200.66" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<label x="198.12" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI_JOULE" class="0">
@@ -25002,6 +24996,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="102,3,60.96,83.82,+3V3,3.3V,,,,"/>
 <approved hash="102,3,-38.1,-40.64,+3V3,3.3V,,,,"/>
 <approved hash="102,3,-40.64,10.16,+3V3,1.1V,,,,"/>
+<approved hash="102,3,-60.96,132.08,+3V3,3.3V,,,,"/>
+<approved hash="102,3,-5.08,132.08,V+,1.1V,,,,"/>
+<approved hash="201,3,-60.96,132.08,+3V3,3.3V\, 1.1V,,,,"/>
 <approved hash="201,3,-40.64,10.16,+3V3,3.3V\, 1.1V,,,,"/>
 <approved hash="201,3,-38.1,-40.64,+3V3,3.3V\, 1.1V,,,,"/>
 <approved hash="201,3,60.96,83.82,+3V3,3.3V\, 1.1V,,,,"/>
@@ -25012,6 +25009,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="201,3,157.48,5.08,+3V3,3.3V\, 1.1V,,,,"/>
 <approved hash="201,3,157.48,60.96,+3V3,3.3V\, 1.1V,,,,"/>
 <approved hash="201,3,157.48,116.84,+3V3,3.3V\, 1.1V,,,,"/>
+<approved hash="104,1,200.66,152.4,U9,VCCA,3.3V,,,"/>
+<approved hash="104,1,256.54,152.4,U9,VCCB,5V,,,"/>
+<approved hash="113,1,155.177,118.241,JP4,,,,,"/>
+<approved hash="113,1,155.177,100.461,JP5,,,,,"/>
+<approved hash="113,1,38.3371,72.5212,JP2,,,,,"/>
+<approved hash="113,1,38.3371,57.2812,JP3,,,,,"/>
+<approved hash="113,1,38.3371,100.461,JP1,,,,,"/>
+<approved hash="113,1,68.5897,185.551,ENCODER,,,,,"/>
+<approved hash="113,1,66.2771,165.231,IMU,,,,,"/>
+<approved hash="113,1,158.75,178.38,D1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
