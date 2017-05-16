@@ -23013,28 +23013,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="165.1" y="-5.08"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="2"/>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="147.32" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
-<junction x="147.32" y="116.84"/>
-<wire x1="147.32" y1="116.84" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="38.1" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="38.1" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<junction x="25.4" y="71.12"/>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="38.1" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="116.84" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<junction x="25.4" y="99.06"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -23355,6 +23333,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="213.36" y1="66.04" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="213.36" y="66.04"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="2"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="147.32" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
+<junction x="147.32" y="116.84"/>
+<wire x1="147.32" y1="116.84" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="38.1" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="38.1" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="71.12" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<junction x="25.4" y="71.12"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="38.1" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="116.84" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<junction x="25.4" y="99.06"/>
 </segment>
 </net>
 <net name="MOSI_JOULE" class="0">
