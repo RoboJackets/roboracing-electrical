@@ -4560,6 +4560,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="IV_SENSOR" library="Roboracing" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4616,6 +4617,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+10" gate="VCC" x="172.72" y="147.32"/>
 <instance part="P+8" gate="VCC" x="304.8" y="116.84"/>
 <instance part="P+9" gate="VCC" x="30.48" y="88.9"/>
+<instance part="IV_SENSOR" gate="A" x="299.72" y="-10.16"/>
 </instances>
 <busses>
 </busses>
@@ -4763,6 +4765,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="160.02" y1="137.16" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
 <junction x="160.02" y="134.62"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IV_SENSOR" gate="A" pin="3"/>
+<wire x1="297.18" y1="-12.7" x2="292.1" y2="-12.7" width="0.1524" layer="91"/>
+<label x="292.1" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -4984,6 +4991,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MBED" gate="G$1" pin="P$2"/>
 <wire x1="30.48" y1="86.36" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="I_SENSE" class="0">
+<segment>
+<pinref part="IV_SENSOR" gate="A" pin="1"/>
+<wire x1="297.18" y1="-7.62" x2="292.1" y2="-7.62" width="0.1524" layer="91"/>
+<label x="292.1" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MBED" gate="G$1" pin="P$17"/>
+<wire x1="38.1" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
+<label x="35.56" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="V_SENSE" class="0">
+<segment>
+<pinref part="IV_SENSOR" gate="A" pin="2"/>
+<wire x1="297.18" y1="-10.16" x2="279.4" y2="-10.16" width="0.1524" layer="91"/>
+<label x="279.4" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MBED" gate="G$1" pin="P$16"/>
+<wire x1="38.1" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="20.32" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
