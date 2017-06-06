@@ -4540,13 +4540,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OSMC" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2510-" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="MOCD20*M" device="" technology="8"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -4561,6 +4559,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="IV_SENSOR" library="Roboracing" deviceset="PINHD-1X3" device=""/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4593,18 +4593,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="OSMC" gate="-8" x="266.7" y="45.72"/>
 <instance part="OSMC" gate="-9" x="266.7" y="43.18"/>
 <instance part="OSMC" gate="-10" x="266.7" y="40.64"/>
-<instance part="GND4" gate="1" x="193.04" y="17.78"/>
-<instance part="GND7" gate="1" x="215.9" y="10.16"/>
-<instance part="R1" gate="G$1" x="215.9" y="20.32" rot="R90"/>
-<instance part="OK1" gate="A" x="203.2" y="-10.16"/>
-<instance part="R2" gate="G$1" x="215.9" y="-17.78" rot="R90"/>
-<instance part="GND8" gate="1" x="215.9" y="-27.94"/>
-<instance part="GND9" gate="1" x="190.5" y="-20.32"/>
+<instance part="GND7" gate="1" x="215.9" y="12.7"/>
+<instance part="R1" gate="G$1" x="215.9" y="30.48" rot="R90"/>
+<instance part="OK1" gate="A" x="203.2" y="-12.7"/>
+<instance part="R2" gate="G$1" x="215.9" y="-5.08" rot="R90"/>
+<instance part="GND8" gate="1" x="215.9" y="-22.86"/>
 <instance part="GND10" gate="1" x="279.4" y="35.56"/>
 <instance part="P+7" gate="1" x="284.48" y="73.66"/>
-<instance part="P+4" gate="1" x="215.9" y="38.1"/>
-<instance part="P+5" gate="1" x="215.9" y="0"/>
-<instance part="OK1" gate="B" x="203.2" y="27.94"/>
+<instance part="P+4" gate="1" x="215.9" y="40.64"/>
+<instance part="P+5" gate="1" x="215.9" y="5.08"/>
+<instance part="OK1" gate="B" x="203.2" y="22.86"/>
 <instance part="LIGHTS" gate="A" x="314.96" y="106.68"/>
 <instance part="GND11" gate="1" x="304.8" y="99.06"/>
 <instance part="E-STOP" gate="G$1" x="284.48" y="17.78" rot="R180"/>
@@ -4618,6 +4616,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+8" gate="VCC" x="304.8" y="116.84"/>
 <instance part="P+9" gate="VCC" x="30.48" y="88.9"/>
 <instance part="IV_SENSOR" gate="A" x="299.72" y="-10.16"/>
+<instance part="+3V3" gate="G$1" x="187.96" y="33.02"/>
+<instance part="+3V4" gate="G$1" x="187.96" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -4711,27 +4711,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="254" y1="86.36" x2="254" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="193.04" y1="25.4" x2="193.04" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="OK1" gate="B" pin="C"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="12.7" x2="215.9" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="A" pin="C"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="193.04" y1="-12.7" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-12.7" x2="190.5" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="-25.4" x2="215.9" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="OSMC" gate="-10" pin="KL"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="271.78" y1="40.64" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
@@ -4771,6 +4750,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="297.18" y1="-12.7" x2="292.1" y2="-12.7" width="0.1524" layer="91"/>
 <label x="292.1" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="B" pin="EMIT"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="210.82" y1="20.32" x2="215.9" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="20.32" x2="215.9" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="EMIT"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="210.82" y1="-15.24" x2="215.9" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-15.24" x2="215.9" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -4792,6 +4783,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="114.3" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="81.28" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="B" pin="A"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="193.04" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="25.4" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="193.04" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-10.16" x2="187.96" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DRIVE_PWM_3V3" class="0">
 <segment>
@@ -4800,9 +4803,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="116.84" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="193.04" y1="30.48" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="185.42" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="OK1" gate="B" pin="A"/>
+<pinref part="OK1" gate="B" pin="C"/>
+<wire x1="193.04" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="187.96" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="STEER_PWM" class="0">
@@ -4875,44 +4878,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="DRIVE_PWM_12V" class="0">
 <segment>
-<wire x1="210.82" y1="25.4" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
-<junction x="215.9" y="25.4"/>
-<label x="223.52" y="25.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="OK1" gate="B" pin="EMIT"/>
-</segment>
-<segment>
 <pinref part="OSMC" gate="-6" pin="KL"/>
 <wire x1="271.78" y1="50.8" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
 <label x="289.56" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="B" pin="COL"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="25.4" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="25.4" x2="220.98" y2="25.4" width="0.1524" layer="91"/>
+<junction x="215.9" y="25.4"/>
+<label x="220.98" y="25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DRIVE_DIR_12V" class="0">
-<segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
-<wire x1="210.82" y1="-12.7" x2="215.9" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="-12.7" x2="223.52" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="215.9" y="-12.7"/>
-<label x="223.52" y="-12.7" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="OSMC" gate="-8" pin="KL"/>
 <wire x1="271.78" y1="45.72" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="289.56" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="A" pin="COL"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="-10.16" x2="215.9" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-10.16" x2="223.52" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="215.9" y="-10.16"/>
+<label x="223.52" y="-10.16" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DRIVE_DIR_3V3" class="0">
-<segment>
-<pinref part="OK1" gate="A" pin="A"/>
-<wire x1="193.04" y1="-7.62" x2="185.42" y2="-7.62" width="0.1524" layer="91"/>
-<label x="185.42" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="MBED" gate="G$1" pin="P$22"/>
 <wire x1="114.3" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="139.7" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="C"/>
+<wire x1="193.04" y1="-15.24" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
+<label x="187.96" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -4937,16 +4940,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="284.48" y="53.34"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="30.48" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="OK1" gate="B" pin="COL"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="38.1" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="A" pin="COL"/>
-<wire x1="210.82" y1="-7.62" x2="215.9" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-7.62" x2="215.9" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="0" x2="215.9" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NEOPIXEL_CONTROL" class="0">
