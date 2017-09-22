@@ -9668,11 +9668,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </sheets>
 <errors>
 <approved hash="101,1,271.78,58.42,OSMC-3,KL,,,,"/>
-<approved hash="113,1,218.677,59.8212,STEER,,,,,"/>
-<approved hash="113,1,216.577,84.8953,ENCODER,,,,,"/>
-<approved hash="113,1,264.397,90.3012,POT,,,,,"/>
-<approved hash="113,1,312.872,108.081,LIGHTS,,,,,"/>
-<approved hash="113,1,280.077,15.0453,E-STOP,,,,,"/>
 </errors>
 </schematic>
 </drawing>
