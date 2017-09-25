@@ -11587,12 +11587,9 @@ Source: AVX .. aphvc.pdf</description>
 </sheets>
 <errors>
 <approved hash="101,1,271.78,58.42,OSMC-3,KL,,,,"/>
-<<<<<<< HEAD
 <approved hash="113,1,216.577,84.8953,ENCODER,,,,,"/>
 <approved hash="113,1,264.397,90.3012,POT,,,,,"/>
 <approved hash="113,1,280.077,15.0453,E-STOP,,,,,"/>
-=======
->>>>>>> fe9d7d3e7ec2d919cc8a7432bb60d7c21d272657
 </errors>
 </schematic>
 </drawing>
