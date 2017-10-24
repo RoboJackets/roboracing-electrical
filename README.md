@@ -1,11 +1,12 @@
 # RoboRacing Electrical
 This is a repository for the RoboJackets' RoboRacing Electrical team.
 
-## PCB
-This directory contains circuit boards being designed by the team.
-**Roboracing.lbr** contains the *EAGLE* library containing components for the team.
+## bigoli
+Contains current files associated with Bigoli, including the mbed shield and system diagram (coming soon).
 
+## macaroni
+Contains current files associated with Macaroni, including the system diagram (coming soon).
 
-## Docs 
-This directory contains documentation for the Joule.
-`Major focus: supply power to the Joule`
+## discont
+Contains old files no longer in use on the current robots.
+
