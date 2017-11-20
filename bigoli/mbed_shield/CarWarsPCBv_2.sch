@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10687,7 +10687,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ENCODER" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 <part name="POT" library="Roboracing" deviceset="PINHD-1X3" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OSMC" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2510-" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="10K"/>
@@ -10713,11 +10712,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="62"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="62"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="1000PF"/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10739,7 +10739,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND5" gate="1" x="190.5" y="81.28"/>
 <instance part="ENCODER" gate="G$1" x="220.98" y="86.36" rot="R180"/>
 <instance part="POT" gate="A" x="266.7" y="88.9"/>
-<instance part="P+3" gate="1" x="241.3" y="96.52"/>
 <instance part="GND6" gate="1" x="254" y="78.74"/>
 <instance part="OSMC" gate="-1" x="266.7" y="63.5"/>
 <instance part="OSMC" gate="-2" x="266.7" y="60.96"/>
@@ -10783,6 +10782,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="P+6" gate="1" x="187.96" y="45.72"/>
 <instance part="P+11" gate="1" x="187.96" y="12.7"/>
 <instance part="C2" gate="G$1" x="172.72" y="134.62"/>
+<instance part="+3V3" gate="G$1" x="241.3" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -10946,6 +10946,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="88.9" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="91.44" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="POT" gate="A" pin="2"/>
+<wire x1="264.16" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="88.9" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="DRIVE_PWM_3V3" class="0">
 <segment>
@@ -11012,12 +11018,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="213.36" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="83.82" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="POT" gate="A" pin="2"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="264.16" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="88.9" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
