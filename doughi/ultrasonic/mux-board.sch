@@ -17487,6 +17487,10 @@ Power Connector
 <text x="160.02" y="170.18" size="1.778" layer="97">Level Shifters</text>
 <text x="10.16" y="170.18" size="1.778" layer="97">Sensor Connectors</text>
 <text x="7.62" y="48.26" size="1.778" layer="97">Power Source/Indicator LED</text>
+<wire x1="66.04" y1="5.08" x2="66.04" y2="53.34" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="5.08" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="5.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="175.26" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="US1" gate="G$1" x="38.1" y="139.7" rot="R180"/>
@@ -18220,15 +18224,6 @@ Power Connector
 <label x="213.36" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="213.36" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <junction x="215.9" y="66.04"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="154.94" y1="175.26" x2="154.94" y2="53.34" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="154.94" y1="53.34" x2="154.94" y2="3.81" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="154.94" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="68.58" y1="53.34" x2="3.81" y2="53.34" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="3.81" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="N$10" class="0">
