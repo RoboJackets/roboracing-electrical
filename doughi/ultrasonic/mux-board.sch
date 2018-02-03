@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -75,7 +75,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
@@ -16952,9 +16952,11 @@ Power Connector
 <sheets>
 <sheet>
 <plain>
-<text x="10.16" y="170.18" size="1.778" layer="91">Microcontroller</text>
-<text x="165.1" y="170.18" size="1.778" layer="91">Multiplexors</text>
-<text x="7.62" y="40.64" size="1.778" layer="91">USB Connector</text>
+<text x="10.16" y="170.18" size="1.778" layer="97">Microcontroller</text>
+<text x="165.1" y="170.18" size="1.778" layer="97">Multiplexers</text>
+<text x="7.62" y="40.64" size="1.778" layer="97">USB Connector</text>
+<wire x1="161.29" y1="45.72" x2="3.8862" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="161.29" y1="22.86" x2="161.29" y2="175.26" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="93.98" y="101.6"/>
@@ -17477,24 +17479,14 @@ Power Connector
 <label x="134.62" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="161.29" y1="24.13" x2="161.29" y2="175.26" width="0.1524" layer="91" style="shortdash"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="3.81" y1="45.72" x2="161.29" y2="45.72" width="0.1524" layer="91" style="shortdash"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<text x="73.66" y="48.26" size="1.778" layer="91">Voltage Regulator</text>
-<text x="160.02" y="170.18" size="1.778" layer="91">Level Shifters</text>
-<text x="10.16" y="170.18" size="1.778" layer="91">Sensor Connectors</text>
-<text x="7.62" y="48.26" size="1.778" layer="91">Power Source/Indicator LED</text>
+<text x="73.66" y="48.26" size="1.778" layer="97">Voltage Regulator</text>
+<text x="160.02" y="170.18" size="1.778" layer="97">Level Shifters</text>
+<text x="10.16" y="170.18" size="1.778" layer="97">Sensor Connectors</text>
+<text x="7.62" y="48.26" size="1.778" layer="97">Power Source/Indicator LED</text>
 </plain>
 <instances>
 <instance part="US1" gate="G$1" x="38.1" y="139.7" rot="R180"/>
