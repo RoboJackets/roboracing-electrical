@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16948,6 +16948,8 @@ Power Connector
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="STATUS-LED" library="card" deviceset="LED" device="SML0603"/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16983,6 +16985,8 @@ Power Connector
 <instance part="SUPPLY11" gate="+5V" x="193.04" y="101.6"/>
 <instance part="SUPPLY12" gate="+5V" x="193.04" y="165.1"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
+<instance part="STATUS-LED" gate="G$1" x="144.78" y="86.36" rot="R90"/>
+<instance part="SUPPLY17" gate="GND" x="157.48" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -17056,6 +17060,12 @@ Power Connector
 <wire x1="193.04" y1="124.46" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <junction x="193.04" y="124.46"/>
+</segment>
+<segment>
+<pinref part="STATUS-LED" gate="G$1" pin="C"/>
+<wire x1="149.86" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+<wire x1="157.48" y1="83.82" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17477,6 +17487,13 @@ Power Connector
 <pinref part="U$1" gate="G$1" pin="PA07/I7/AIN7/SERCOM0.3/I2SD0"/>
 <wire x1="132.08" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="134.62" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA19/I3/SERCOM1+3.3/I2SD0"/>
+<pinref part="STATUS-LED" gate="G$1" pin="A"/>
+<wire x1="132.08" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
