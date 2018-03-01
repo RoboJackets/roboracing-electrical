@@ -18326,6 +18326,21 @@ by exp-lbrs.ulp</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,55.88,63.5,U$1,GNDA,GND,,,"/>
+<approved hash="104,1,55.88,129.54,U$1,VDDA,+3.3V,,,"/>
+<approved hash="104,1,55.88,121.92,U$1,VDDCORE,N$1,,,"/>
+<approved hash="104,1,55.88,124.46,U$1,VDDIN,+3.3V,,,"/>
+<approved hash="104,1,55.88,132.08,U$1,VDDIO,+3.3V,,,"/>
+<approved hash="202,1,58.42,20.32,X1,4,,,,"/>
+<approved hash="113,1,215.9,139.647,TRIG-MUX,,,,,"/>
+<approved hash="113,1,215.9,78.6867,ECHO-MUX,,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME2,,,,,"/>
+<approved hash="113,2,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,2,53.6617,36.494,POWER-LED1,,,,,"/>
+<approved hash="113,1,143.601,81.6017,STATUS-LED1,,,,,"/>
+<approved hash="113,1,143.601,89.2217,STATUS-LED2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

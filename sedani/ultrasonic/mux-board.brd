@@ -6864,37 +6864,37 @@ Your Eurocircuits Team
 <attribute name="OC_FARNELL" value="unknown" x="12.5" y="6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.5" y="6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="US1" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="13.475" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="13.475" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="13.475" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US1" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="11.475" y="53.5">
+<attribute name="PINS" value="4" x="11.475" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="11.475" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US2" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="28.625" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="28.625" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="28.625" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US2" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="26.625" y="53.5">
+<attribute name="PINS" value="4" x="26.625" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="26.625" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US3" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="43.775" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="43.775" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="43.775" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US3" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="41.775" y="53.5">
+<attribute name="PINS" value="4" x="41.775" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="41.775" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US4" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="58.925" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="58.925" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="58.925" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US4" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="56.925" y="53.5">
+<attribute name="PINS" value="4" x="56.925" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="56.925" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US5" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="74.075" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="74.075" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="74.075" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US5" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="72.075" y="53.5">
+<attribute name="PINS" value="4" x="72.075" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="72.075" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US6" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="89.225" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="89.225" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="89.225" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US6" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="87.225" y="53.5">
+<attribute name="PINS" value="4" x="87.225" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="87.225" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US7" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="104.375" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="104.375" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="104.375" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US7" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="102.375" y="53.5">
+<attribute name="PINS" value="4" x="102.375" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="102.375" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="US8" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="119.525" y="53.5" rot="R180">
-<attribute name="PINS" value="4" x="119.525" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PIN_PITCH" value="2.0 mm" x="119.525" y="53.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="US8" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="117.525" y="53.5">
+<attribute name="PINS" value="4" x="117.525" y="53.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_PITCH" value="2.0 mm" x="117.525" y="53.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="US9" library="RoboJackets-Connectors" package="2MM-4-V" value="4-PIN_2MM-V" x="13.475" y="45" rot="R180">
 <attribute name="PINS" value="4" x="13.475" y="45" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7506,10 +7506,11 @@ Your Eurocircuits Team
 <contactref element="TRIG-MUX" pad="9"/>
 <contactref element="US1" pad="3"/>
 <wire x1="65.325" y1="33.5292" x2="65.325" y2="42.675" width="0.2" layer="1"/>
-<wire x1="65.325" y1="42.675" x2="61.5" y2="46.5" width="0.2" layer="1"/>
-<wire x1="61.5" y1="46.5" x2="15.5" y2="46.5" width="0.2" layer="1"/>
-<wire x1="15.5" y1="46.5" x2="11.475" y2="50.525" width="0.2" layer="1"/>
-<wire x1="11.475" y1="50.525" x2="11.475" y2="53.5" width="0.2" layer="1"/>
+<wire x1="61.5" y1="46.5" x2="65.325" y2="42.675" width="0.2" layer="1"/>
+<wire x1="13.475" y1="53.5" x2="13.5" y2="53.475" width="0.2" layer="1"/>
+<wire x1="13.5" y1="53.475" x2="13.5" y2="48" width="0.2" layer="1"/>
+<wire x1="13.5" y1="48" x2="15" y2="46.5" width="0.2" layer="1"/>
+<wire x1="15" y1="46.5" x2="61.5" y2="46.5" width="0.2" layer="1"/>
 </signal>
 <signal name="T8">
 <contactref element="TRIG-MUX" pad="23"/>
@@ -7542,19 +7543,17 @@ Your Eurocircuits Team
 <contactref element="TRIG-MUX" pad="8"/>
 <contactref element="US2" pad="3"/>
 <wire x1="30.5" y1="47" x2="61.5" y2="47" width="0.2" layer="1"/>
-<wire x1="30.5" y1="47" x2="26.625" y2="50.875" width="0.2" layer="1"/>
-<wire x1="26.625" y1="50.875" x2="26.625" y2="53.5" width="0.2" layer="1"/>
 <wire x1="61.5" y1="47" x2="66" y2="42.5" width="0.2" layer="1"/>
 <wire x1="66" y1="42.5" x2="66" y2="36.5" width="0.2" layer="1"/>
 <wire x1="66.595" y1="35.905" x2="66.595" y2="33.5292" width="0.2" layer="1"/>
 <wire x1="66" y1="36.5" x2="66.595" y2="35.905" width="0.2" layer="1"/>
+<wire x1="28.625" y1="53.5" x2="28.625" y2="48.875" width="0.2" layer="1"/>
+<wire x1="28.625" y1="48.875" x2="30.5" y2="47" width="0.2" layer="1"/>
 </signal>
 <signal name="T2">
 <contactref element="TRIG-MUX" pad="7"/>
 <contactref element="US3" pad="3"/>
-<wire x1="61.5" y1="47.5" x2="45" y2="47.5" width="0.2" layer="1"/>
-<wire x1="45" y1="47.5" x2="41.775" y2="50.725" width="0.2" layer="1"/>
-<wire x1="41.775" y1="50.725" x2="41.775" y2="53.5" width="0.2" layer="1"/>
+<wire x1="45" y1="47.5" x2="61.5" y2="47.5" width="0.2" layer="1"/>
 <wire x1="67.865" y1="33.5292" x2="67.865" y2="34.135" width="0.2" layer="1"/>
 <wire x1="66.25" y1="42.75" x2="61.5" y2="47.5" width="0.2" layer="1"/>
 <wire x1="67.865" y1="33.5292" x2="67.865" y2="36.135" width="0.2" layer="1"/>
@@ -7562,6 +7561,8 @@ Your Eurocircuits Team
 <wire x1="66.35" y1="42.644975" x2="66.25" y2="42.744975" width="0.2" layer="1"/>
 <wire x1="66.25" y1="42.744975" x2="66.25" y2="42.75" width="0.2" layer="1"/>
 <wire x1="67.865" y1="36.135" x2="66.35" y2="37.65" width="0.2" layer="1"/>
+<wire x1="43.775" y1="53.5" x2="43.775" y2="48.725" width="0.2" layer="1"/>
+<wire x1="43.775" y1="48.725" x2="45" y2="47.5" width="0.2" layer="1"/>
 </signal>
 <signal name="T10">
 <contactref element="TRIG-MUX" pad="21"/>
@@ -7594,28 +7595,30 @@ Your Eurocircuits Team
 <contactref element="TRIG-MUX" pad="6"/>
 <contactref element="US4" pad="3"/>
 <wire x1="69.135" y1="33.5292" x2="69.135" y2="33.9286875" width="0.2" layer="1"/>
-<wire x1="56.925" y1="53.5" x2="57" y2="53.425" width="0.2" layer="1"/>
-<wire x1="57" y1="53.425" x2="57" y2="50.5" width="0.2" layer="1"/>
-<wire x1="61.6952" y1="47.8048" x2="61.75" y2="47.75" width="0.2" layer="1"/>
 <wire x1="61.75" y1="47.75" x2="66.5" y2="43" width="0.2" layer="1"/>
 <wire x1="69.135" y1="33.5292" x2="69.135" y2="35.6698" width="0.2" layer="1"/>
 <wire x1="69.135" y1="35.6698" x2="66.7" y2="38.1048" width="0.2" layer="1"/>
-<wire x1="57" y1="50.5" x2="59.65" y2="47.85" width="0.2" layer="1"/>
-<wire x1="59.65" y1="47.85" x2="61.644975" y2="47.85" width="0.2" layer="1"/>
 <wire x1="61.644975" y1="47.85" x2="61.744975" y2="47.75" width="0.2" layer="1"/>
 <wire x1="61.744975" y1="47.75" x2="61.75" y2="47.75" width="0.2" layer="1"/>
 <wire x1="66.5" y1="42.994975" x2="66.5" y2="43" width="0.2" layer="1"/>
 <wire x1="66.7" y1="38.1048" x2="66.7" y2="42.794975" width="0.2" layer="1"/>
 <wire x1="66.7" y1="42.794975" x2="66.5" y2="42.994975" width="0.2" layer="1"/>
+<wire x1="58.925" y1="50.575" x2="58.925" y2="53.5" width="0.2" layer="1"/>
+<wire x1="61.75" y1="47.75" x2="58.925" y2="50.575" width="0.2" layer="1"/>
 </signal>
 <signal name="T4">
 <contactref element="TRIG-MUX" pad="5"/>
 <contactref element="US5" pad="3"/>
 <wire x1="70.405" y1="34.095" x2="70.405" y2="33.5292" width="0.2" layer="1"/>
-<wire x1="67.1096" y1="48.5346" x2="72.075" y2="53.5" width="0.2" layer="1"/>
 <wire x1="70.405" y1="33.5292" x2="70.405" y2="35.2046" width="0.2" layer="1"/>
 <wire x1="70.405" y1="35.2046" x2="67.1096" y2="38.5" width="0.2" layer="1"/>
-<wire x1="67.1096" y1="38.5" x2="67.1096" y2="48.5346" width="0.2" layer="1"/>
+<wire x1="67.1096" y1="48.5346" x2="67.1096" y2="48.5" width="0.2" layer="1"/>
+<wire x1="67.1096" y1="48.5" x2="67.1096" y2="38.5" width="0.2" layer="1"/>
+<wire x1="67.1096" y1="48.5346" x2="67.1096" y2="48.6096" width="0.2" layer="1"/>
+<wire x1="70" y1="51.5" x2="72.5" y2="51.5" width="0.2" layer="1"/>
+<wire x1="72.5" y1="51.5" x2="74.075" y2="53.075" width="0.2" layer="1"/>
+<wire x1="74.075" y1="53.075" x2="74.075" y2="53.5" width="0.2" layer="1"/>
+<wire x1="67.1096" y1="48.6096" x2="70" y2="51.5" width="0.2" layer="1"/>
 </signal>
 <signal name="T12">
 <contactref element="TRIG-MUX" pad="19"/>
@@ -7643,11 +7646,11 @@ Your Eurocircuits Team
 <contactref element="US6" pad="3"/>
 <wire x1="71.675" y1="33.825" x2="71.675" y2="33.5292" width="0.2" layer="1"/>
 <wire x1="67.5" y1="39" x2="67.5" y2="48" width="0.2" layer="1"/>
-<wire x1="67.5" y1="48" x2="70.5" y2="51" width="0.2" layer="1"/>
-<wire x1="70.5" y1="51" x2="84.725" y2="51" width="0.2" layer="1"/>
-<wire x1="84.725" y1="51" x2="87.225" y2="53.5" width="0.2" layer="1"/>
+<wire x1="70.5" y1="51" x2="67.5" y2="48" width="0.2" layer="1"/>
 <wire x1="71.675" y1="33.5292" x2="71.675" y2="34.825" width="0.2" layer="1"/>
 <wire x1="71.675" y1="34.825" x2="67.5" y2="39" width="0.2" layer="1"/>
+<wire x1="89.225" y1="53.5" x2="86.725" y2="51" width="0.2" layer="1"/>
+<wire x1="86.725" y1="51" x2="70.5" y2="51" width="0.2" layer="1"/>
 </signal>
 <signal name="T14">
 <contactref element="TRIG-MUX" pad="17"/>
@@ -7662,13 +7665,13 @@ Your Eurocircuits Team
 <signal name="T6">
 <contactref element="TRIG-MUX" pad="3"/>
 <contactref element="US7" pad="3"/>
-<wire x1="102.375" y1="53.5" x2="99.375" y2="50.5" width="0.2" layer="1"/>
-<wire x1="99.375" y1="50.5" x2="70.5" y2="50.5" width="0.2" layer="1"/>
 <wire x1="70.5" y1="50.5" x2="68" y2="48" width="0.2" layer="1"/>
 <wire x1="72.945" y1="34.055" x2="72.945" y2="33.5292" width="0.2" layer="1"/>
 <wire x1="68" y1="48" x2="68" y2="39.5" width="0.2" layer="1"/>
 <wire x1="72.945" y1="33.5292" x2="72.945" y2="34.555" width="0.2" layer="1"/>
 <wire x1="72.945" y1="34.555" x2="68" y2="39.5" width="0.2" layer="1"/>
+<wire x1="104.375" y1="53.5" x2="101.375" y2="50.5" width="0.2" layer="1"/>
+<wire x1="101.375" y1="50.5" x2="70.5" y2="50.5" width="0.2" layer="1"/>
 </signal>
 <signal name="T15">
 <contactref element="TRIG-MUX" pad="16"/>
@@ -7683,26 +7686,28 @@ Your Eurocircuits Team
 <signal name="T7">
 <contactref element="TRIG-MUX" pad="2"/>
 <contactref element="US8" pad="3"/>
-<wire x1="117.525" y1="53.5" x2="114.025" y2="50" width="0.2" layer="1"/>
-<wire x1="114.025" y1="50" x2="70.5" y2="50" width="0.2" layer="1"/>
 <wire x1="70.5" y1="50" x2="68.5" y2="48" width="0.2" layer="1"/>
 <wire x1="68.5" y1="40.5" x2="68.5" y2="48" width="0.2" layer="1"/>
 <wire x1="74.215" y1="33.5292" x2="74.215" y2="34.785" width="0.2" layer="1"/>
 <wire x1="74.215" y1="34.785" x2="68.5" y2="40.5" width="0.2" layer="1"/>
+<wire x1="119.525" y1="53.5" x2="116.025" y2="50" width="0.2" layer="1"/>
+<wire x1="116.025" y1="50" x2="70.5" y2="50" width="0.2" layer="1"/>
 </signal>
 <signal name="E0">
 <contactref element="ECHO-MUX" pad="9"/>
 <contactref element="US1" pad="2"/>
 <wire x1="70" y1="28" x2="93.5" y2="28" width="0.2" layer="16"/>
 <wire x1="97.675" y1="33.5292" x2="97.675" y2="32.175" width="0.2" layer="16"/>
-<wire x1="13.475" y1="53.5" x2="19.475" y2="47.5" width="0.2" layer="16"/>
 <wire x1="63.88105625" y1="46.11391875" x2="63.88105625" y2="44.02899375" width="0.2" layer="16"/>
 <wire x1="63.88105625" y1="44.02899375" x2="62" y2="42.1479375" width="0.2" layer="16"/>
 <wire x1="62" y1="42.1479375" x2="62" y2="36" width="0.2" layer="16"/>
 <wire x1="62.494975" y1="47.5" x2="63.88105625" y2="46.11391875" width="0.2" layer="16"/>
-<wire x1="19.475" y1="47.5" x2="62.494975" y2="47.5" width="0.2" layer="16"/>
+<wire x1="19.475" y1="47.5" x2="19.5" y2="47.5" width="0.2" layer="16"/>
+<wire x1="19.5" y1="47.5" x2="62.494975" y2="47.5" width="0.2" layer="16"/>
 <wire x1="62" y1="36" x2="70" y2="28" width="0.2" layer="16"/>
 <wire x1="97.675" y1="32.175" x2="93.5" y2="28" width="0.2" layer="16"/>
+<wire x1="11.475" y1="53.5" x2="17.475" y2="47.5" width="0.2" layer="16"/>
+<wire x1="17.475" y1="47.5" x2="19.475" y2="47.5" width="0.2" layer="16"/>
 </signal>
 <signal name="E1">
 <contactref element="ECHO-MUX" pad="8"/>
@@ -7710,28 +7715,26 @@ Your Eurocircuits Team
 <wire x1="65.024" y1="45.63128125" x2="62.54568125" y2="48.1096" width="0.2" layer="16"/>
 <wire x1="65.024" y1="45.63128125" x2="65.024" y2="33.54494375" width="0.2" layer="16"/>
 <wire x1="31.3904" y1="48.1096" x2="62.54568125" y2="48.1096" width="0.2" layer="16"/>
-<wire x1="28.625" y1="53.5" x2="28.625" y2="50.875" width="0.2" layer="16"/>
-<wire x1="28.625" y1="50.875" x2="31.3904" y2="48.1096" width="0.2" layer="16"/>
-<wire x1="65.024" y1="33.54494375" x2="69.67854375" y2="28.8904" width="0.2" layer="16"/>
+<wire x1="65.024" y1="33.54494375" x2="70.06894375" y2="28.5" width="0.2" layer="16"/>
 <wire x1="96.405" y1="31.97394375" x2="96.405" y2="33.5292" width="0.2" layer="16"/>
-<wire x1="69.67854375" y1="28.8904" x2="70.06894375" y2="28.5" width="0.2" layer="16"/>
 <wire x1="70.06894375" y1="28.5" x2="92.93105625" y2="28.5" width="0.2" layer="16"/>
 <wire x1="92.93105625" y1="28.5" x2="96.405" y2="31.97394375" width="0.2" layer="16"/>
+<wire x1="26.625" y1="53.5" x2="26.625" y2="52.875" width="0.2" layer="16"/>
+<wire x1="26.625" y1="52.875" x2="31.3904" y2="48.1096" width="0.2" layer="16"/>
 </signal>
 <signal name="E2">
 <contactref element="ECHO-MUX" pad="7"/>
 <contactref element="US3" pad="2"/>
-<wire x1="46" y1="48.5" x2="62.5863375" y2="48.5" width="0.2" layer="16"/>
-<wire x1="46" y1="48.5" x2="43.775" y2="50.725" width="0.2" layer="16"/>
-<wire x1="43.775" y1="50.725" x2="43.775" y2="53.5" width="0.2" layer="16"/>
 <wire x1="95.135" y1="31.635" x2="95.135" y2="33.5292" width="0.2" layer="16"/>
-<wire x1="62.5863375" y1="48.5" x2="62.6267375" y2="48.4596" width="0.2" layer="16"/>
-<wire x1="62.6267375" y1="48.4596" x2="62.69065625" y2="48.4596" width="0.2" layer="16"/>
-<wire x1="62.69065625" y1="48.4596" x2="65.5" y2="45.65025625" width="0.2" layer="16"/>
 <wire x1="70.35" y1="29.15" x2="92.65" y2="29.15" width="0.2" layer="16"/>
 <wire x1="65.5" y1="34" x2="70.35" y2="29.15" width="0.2" layer="16"/>
 <wire x1="92.65" y1="29.15" x2="95.135" y2="31.635" width="0.2" layer="16"/>
-<wire x1="65.5" y1="45.65025625" x2="65.5" y2="34" width="0.2" layer="16"/>
+<wire x1="65.5" y1="45.75" x2="65.5" y2="34" width="0.2" layer="16"/>
+<wire x1="65.5" y1="45.75" x2="62.75" y2="48.5" width="0.2" layer="16"/>
+<wire x1="62.75" y1="48.5" x2="46" y2="48.5" width="0.2" layer="16"/>
+<wire x1="41.75" y1="52.75" x2="41.75" y2="53.475" width="0.2" layer="16"/>
+<wire x1="41.75" y1="53.475" x2="41.775" y2="53.5" width="0.2" layer="16"/>
+<wire x1="46" y1="48.5" x2="41.75" y2="52.75" width="0.2" layer="16"/>
 </signal>
 <signal name="E10">
 <contactref element="ECHO-MUX" pad="21"/>
@@ -7796,12 +7799,15 @@ Your Eurocircuits Team
 <signal name="E3">
 <contactref element="ECHO-MUX" pad="6"/>
 <contactref element="US4" pad="2"/>
-<wire x1="66" y1="46.425" x2="58.925" y2="53.5" width="0.2" layer="16"/>
-<wire x1="66" y1="34" x2="66" y2="46.425" width="0.2" layer="16"/>
+<wire x1="66" y1="34" x2="66" y2="45.5" width="0.2" layer="16"/>
 <wire x1="93.865" y1="33.5292" x2="93.865" y2="31.365" width="0.2" layer="16"/>
 <wire x1="93.865" y1="31.365" x2="92" y2="29.5" width="0.2" layer="16"/>
 <wire x1="70.5" y1="29.5" x2="66" y2="34" width="0.2" layer="16"/>
 <wire x1="92" y1="29.5" x2="70.5" y2="29.5" width="0.2" layer="16"/>
+<wire x1="56.925" y1="53.5" x2="61.575" y2="48.85" width="0.2" layer="16"/>
+<wire x1="66" y1="45.75" x2="66" y2="45.5" width="0.2" layer="16"/>
+<wire x1="62.9" y1="48.85" x2="66" y2="45.75" width="0.2" layer="16"/>
+<wire x1="61.575" y1="48.85" x2="62.9" y2="48.85" width="0.2" layer="16"/>
 </signal>
 <signal name="E12">
 <contactref element="ECHO-MUX" pad="19"/>
@@ -7821,9 +7827,9 @@ Your Eurocircuits Team
 <wire x1="92.5" y1="33.4342" x2="92.5" y2="31.5" width="0.2" layer="16"/>
 <wire x1="92.5" y1="31.5" x2="91" y2="30" width="0.2" layer="16"/>
 <wire x1="91" y1="30" x2="79.5" y2="30" width="0.2" layer="16"/>
-<wire x1="74.075" y1="53.5" x2="67" y2="46.425" width="0.2" layer="16"/>
-<wire x1="67" y1="46.425" x2="67" y2="42.5" width="0.2" layer="16"/>
-<wire x1="79.5" y1="30" x2="67" y2="42.5" width="0.2" layer="16"/>
+<wire x1="67" y1="42.5" x2="79.5" y2="30" width="0.2" layer="16"/>
+<wire x1="72.075" y1="53.5" x2="67" y2="48.425" width="0.2" layer="16"/>
+<wire x1="67" y1="48.425" x2="67" y2="42.5" width="0.2" layer="16"/>
 </signal>
 <signal name="E13">
 <contactref element="ECHO-MUX" pad="18"/>
@@ -7842,14 +7848,15 @@ Your Eurocircuits Team
 <signal name="E5">
 <contactref element="ECHO-MUX" pad="4"/>
 <contactref element="US6" pad="2"/>
-<wire x1="89.225" y1="53.5" x2="84.725" y2="49" width="0.2" layer="16"/>
 <wire x1="91.325" y1="33.5292" x2="91.325" y2="31.825" width="0.2" layer="16"/>
 <wire x1="91.325" y1="31.825" x2="90" y2="30.5" width="0.2" layer="16"/>
 <wire x1="90" y1="30.5" x2="79.5" y2="30.5" width="0.2" layer="16"/>
-<wire x1="84.725" y1="49" x2="70.5" y2="49" width="0.2" layer="16"/>
-<wire x1="67.5" y1="46" x2="70.5" y2="49" width="0.2" layer="16"/>
+<wire x1="70.5" y1="49" x2="67.5" y2="46" width="0.2" layer="16"/>
 <wire x1="79.5" y1="30.5" x2="67.5" y2="42.5" width="0.2" layer="16"/>
 <wire x1="67.5" y1="42.5" x2="67.5" y2="46" width="0.2" layer="16"/>
+<wire x1="87.225" y1="53.5" x2="87.225" y2="50.225" width="0.2" layer="16"/>
+<wire x1="87.225" y1="50.225" x2="86" y2="49" width="0.2" layer="16"/>
+<wire x1="86" y1="49" x2="70.5" y2="49" width="0.2" layer="16"/>
 </signal>
 <signal name="E14">
 <contactref element="ECHO-MUX" pad="17"/>
@@ -7867,13 +7874,13 @@ Your Eurocircuits Team
 <wire x1="90.055" y1="33.5292" x2="90" y2="33.4742" width="0.2" layer="16"/>
 <wire x1="90" y1="33.4742" x2="90" y2="31.5" width="0.2" layer="16"/>
 <wire x1="89.5" y1="31" x2="90" y2="31.5" width="0.2" layer="16"/>
-<wire x1="104.375" y1="53.5" x2="99.375" y2="48.5" width="0.2" layer="16"/>
-<wire x1="99.375" y1="48.5" x2="70.5" y2="48.5" width="0.2" layer="16"/>
-<wire x1="70.5" y1="48.5" x2="70.5" y2="48.385375" width="0.2" layer="16"/>
-<wire x1="70.5" y1="48.385375" x2="67.9548" y2="45.840175" width="0.2" layer="16"/>
+<wire x1="67.9548" y1="45.840175" x2="70.5" y2="48.385375" width="0.2" layer="16"/>
 <wire x1="67.9548" y1="45.840175" x2="67.9548" y2="43.0452" width="0.2" layer="16"/>
 <wire x1="67.9548" y1="43.0452" x2="80" y2="31" width="0.2" layer="16"/>
 <wire x1="80" y1="31" x2="89.5" y2="31" width="0.2" layer="16"/>
+<wire x1="102.375" y1="51.5" x2="102.375" y2="53.5" width="0.2" layer="16"/>
+<wire x1="70.5" y1="48.385375" x2="99.260375" y2="48.385375" width="0.2" layer="16"/>
+<wire x1="99.260375" y1="48.385375" x2="102.375" y2="51.5" width="0.2" layer="16"/>
 </signal>
 <signal name="E15">
 <contactref element="ECHO-MUX" pad="16"/>
@@ -7889,12 +7896,13 @@ Your Eurocircuits Team
 <contactref element="US8" pad="2"/>
 <wire x1="88.785" y1="33.5292" x2="88.785" y2="31.785" width="0.2" layer="16"/>
 <wire x1="88.5" y1="31.5" x2="88.785" y2="31.785" width="0.2" layer="16"/>
-<wire x1="114.025" y1="48" x2="119.525" y2="53.5" width="0.2" layer="16"/>
 <wire x1="88.5" y1="31.5" x2="80.3048" y2="31.5" width="0.2" layer="16"/>
 <wire x1="68.3048" y1="45.6952" x2="70.6096" y2="48" width="0.2" layer="16"/>
-<wire x1="70.6096" y1="48" x2="114.025" y2="48" width="0.2" layer="16"/>
+<wire x1="114.025" y1="48" x2="70.6096" y2="48" width="0.2" layer="16"/>
 <wire x1="68.3048" y1="45.6952" x2="68.3048" y2="43.5" width="0.2" layer="16"/>
 <wire x1="68.3048" y1="43.5" x2="80.3048" y2="31.5" width="0.2" layer="16"/>
+<wire x1="117.525" y1="53.5" x2="117.525" y2="51.5" width="0.2" layer="16"/>
+<wire x1="117.525" y1="51.5" x2="114.025" y2="48" width="0.2" layer="16"/>
 </signal>
 <signal name="S0_">
 <contactref element="U$1" pad="3"/>
