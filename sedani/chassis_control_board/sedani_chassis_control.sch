@@ -8391,7 +8391,7 @@ Datasheet</description>
 <wire x1="30.48" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPEAKER_ENABLE" class="0">
+<net name="SPEAKER_DISABLE" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
 <pinref part="J17" gate="J$1" pin="1"/>

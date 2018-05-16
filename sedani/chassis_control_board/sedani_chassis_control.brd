@@ -185,8 +185,8 @@
 <wire x1="21.5138" y1="21.9202" x2="21.5138" y2="42.2402" width="0.2032" layer="21"/>
 <wire x1="21.5138" y1="42.2402" x2="1.1938" y2="42.2402" width="0.2032" layer="21"/>
 <wire x1="1.1938" y1="42.2402" x2="1.1938" y2="21.9202" width="0.2032" layer="21"/>
-<text x="7.112" y="10.414" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">ON</text>
-<text x="7.112" y="15.494" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">OFF</text>
+<text x="7.112" y="15.875" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">ON</text>
+<text x="7.112" y="10.414" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">OFF</text>
 <text x="5.08" y="34.29" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">OUT</text>
 <text x="22.86" y="27.94" size="0.8128" layer="25" font="vector" ratio="20" rot="R270">VOLUME</text>
 <text x="6.985" y="26.67" size="0.8128" layer="25" font="vector" ratio="20">SPARKFUN AUDIO AMP</text>
@@ -5117,7 +5117,7 @@ design rules under a new name.</description>
 <wire x1="21.6154" y1="16.4846" x2="21.6154" y2="16.51" width="0.3048" layer="1"/>
 <wire x1="51.943" y1="15.24" x2="22.86" y2="15.24" width="0.3048" layer="1"/>
 </signal>
-<signal name="SPEAKER_ENABLE">
+<signal name="SPEAKER_DISABLE">
 <contactref element="S1" pad="3"/>
 <contactref element="J17" pad="1"/>
 <wire x1="4.6736" y1="20.9804" x2="2.4638" y2="23.1902" width="0.3048" layer="1"/>
