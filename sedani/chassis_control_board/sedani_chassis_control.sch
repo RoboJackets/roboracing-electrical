@@ -7841,7 +7841,9 @@ Datasheet</description>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
-<part name="J17" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="AUDIO BOARD POWER"/>
+<part name="J17" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="AUDIO BOARD POWER">
+<attribute name="SPICEPREFIX" value="J"/>
+</part>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="K1" library="sedani_chassis_control" deviceset="EC2-5NU" device=""/>
