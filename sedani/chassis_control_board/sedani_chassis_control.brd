@@ -4661,7 +4661,7 @@ design rules under a new name.</description>
 <elements>
 <element name="B1" library="SparkFun-Boards" package="SPARKFUN_PRO_MICRO" value="SPARKFUN PRO MICRO" x="64.77" y="24.13" smashed="yes">
 <attribute name="NAME" x="64.77" y="42.164" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="64.77" y="7.366" size="0.6096" layer="25" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="64.77" y="7.366" size="0.6096" layer="21" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J13" library="SparkFun-Connectors" package="1X04" value="ENCODER INPUT" x="20.066" y="3.81" smashed="yes">
 <attribute name="PROD_ID" value="CONN-09696" x="20.066" y="3.81" size="1.778" layer="27" display="off"/>
