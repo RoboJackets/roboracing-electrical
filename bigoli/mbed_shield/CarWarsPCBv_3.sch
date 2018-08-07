@@ -13159,7 +13159,7 @@ by exp-lbrs.ulp</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="" package3d_urn="urn:adsk.eagle:package:38231/1"/>
+<part name="JP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="" package3d_urn="urn:adsk.eagle:package:38231/1" value="5V POWER"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
@@ -13176,8 +13176,8 @@ by exp-lbrs.ulp</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="47"/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_B_L" device="">
 <attribute name="REVISION" value="V 3"/>
 <attribute name="SCH_DESC" value="MBed Shield for Bigoli"/>
@@ -13252,8 +13252,8 @@ by exp-lbrs.ulp</description>
 <instance part="GND7" gate="1" x="104.14" y="144.78" rot="R90"/>
 <instance part="GND8" gate="1" x="104.14" y="160.02" rot="R90"/>
 <instance part="C2" gate="G$1" x="33.02" y="142.24"/>
-<instance part="R8" gate="G$1" x="110.998" y="167.64"/>
-<instance part="R9" gate="G$1" x="110.998" y="152.4"/>
+<instance part="R7" gate="G$1" x="110.998" y="167.64"/>
+<instance part="R8" gate="G$1" x="110.998" y="152.4"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0">
 <attribute name="TEAM" x="325.12" y="0" size="1.778" layer="96" display="off"/>
@@ -13687,7 +13687,7 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="ETH_LED_G" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="116.078" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
 <label x="119.38" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13699,7 +13699,7 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="ETH_LED_Y" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="116.078" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
 <label x="119.38" y="167.64" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13711,14 +13711,14 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="YLED+"/>
 <wire x1="105.918" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="GLED+"/>
 <wire x1="105.918" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
