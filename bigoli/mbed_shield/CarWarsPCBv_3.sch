@@ -12990,8 +12990,8 @@ In this library you will find frames that can be used to help organize a schemat
 by exp-lbrs.ulp</description>
 <packages>
 <package name="S2B-EH">
-<pad name="1" x="-1.25" y="0" drill="0.65"/>
-<pad name="2" x="1.25" y="0" drill="0.65"/>
+<pad name="1" x="-1.25" y="0" drill="0.9"/>
+<pad name="2" x="1.25" y="0" drill="0.9"/>
 <wire x1="-3.75" y1="0" x2="-3.75" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-3.75" y1="-2.2" x2="3.75" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="3.75" y1="-2.2" x2="3.75" y2="0" width="0.127" layer="21"/>
@@ -13002,8 +13002,8 @@ by exp-lbrs.ulp</description>
 <text x="0" y="-3.048" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 <package name="S5B-EH">
-<pad name="1" x="-5" y="0" drill="0.65"/>
-<pad name="2" x="-2.5" y="0" drill="0.65"/>
+<pad name="1" x="-5" y="0" drill="0.9"/>
+<pad name="2" x="-2.5" y="0" drill="0.9"/>
 <wire x1="-7.5" y1="0" x2="-7.5" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="-2.2" x2="7.5" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="7.5" y1="-2.2" x2="7.5" y2="0" width="0.127" layer="21"/>
@@ -13012,13 +13012,13 @@ by exp-lbrs.ulp</description>
 <wire x1="-7.5" y1="6" x2="7.5" y2="6" width="0.127" layer="21"/>
 <text x="0" y="6.858" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-3.048" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<pad name="3" x="0" y="0" drill="0.65"/>
-<pad name="4" x="2.5" y="0" drill="0.65"/>
-<pad name="5" x="5" y="0" drill="0.65"/>
+<pad name="3" x="0" y="0" drill="0.9"/>
+<pad name="4" x="2.5" y="0" drill="0.9"/>
+<pad name="5" x="5" y="0" drill="0.9"/>
 </package>
 <package name="S3B-EH">
-<pad name="1" x="-2.5" y="0" drill="0.65"/>
-<pad name="2" x="0" y="0" drill="0.65"/>
+<pad name="1" x="-2.5" y="0" drill="0.9"/>
+<pad name="2" x="0" y="0" drill="0.9"/>
 <wire x1="-5" y1="0" x2="-5" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-5" y1="-2.2" x2="5" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="5" y1="-2.2" x2="5" y2="0" width="0.127" layer="21"/>
@@ -13027,7 +13027,7 @@ by exp-lbrs.ulp</description>
 <wire x1="-5" y1="6" x2="5" y2="6" width="0.127" layer="21"/>
 <text x="0" y="6.858" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-3.048" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<pad name="3" x="2.5" y="0" drill="0.65"/>
+<pad name="3" x="2.5" y="0" drill="0.9"/>
 </package>
 </packages>
 <symbols>
