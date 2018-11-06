@@ -1,0 +1,308 @@
+# Created by Ultra Librarian Gold 8.3.15 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit '28P3.pac';
+Change Drill 32;
+Pad '1' Square 0 60 R0 (-300 1300);
+Change Drill 32;
+Pad '2' Round 0 60 R0 (-300 1200);
+Change Drill 32;
+Pad '3' Round 0 60 R0 (-300 1100);
+Change Drill 32;
+Pad '4' Round 0 60 R0 (-300 1000);
+Change Drill 32;
+Pad '5' Round 0 60 R0 (-300 900);
+Change Drill 32;
+Pad '6' Round 0 60 R0 (-300 800);
+Change Drill 32;
+Pad '7' Round 0 60 R0 (-300 700);
+Change Drill 32;
+Pad '8' Round 0 60 R0 (-300 600);
+Change Drill 32;
+Pad '9' Round 0 60 R0 (-300 500);
+Change Drill 32;
+Pad '10' Round 0 60 R0 (-300 400);
+Change Drill 32;
+Pad '11' Round 0 60 R0 (-300 300);
+Change Drill 32;
+Pad '12' Round 0 60 R0 (-300 200);
+Change Drill 32;
+Pad '13' Round 0 60 R0 (-300 100);
+Change Drill 32;
+Pad '14' Round 0 60 R0 (-300 0);
+Change Drill 32;
+Pad '15' Round 0 60 R0 (0 0);
+Change Drill 32;
+Pad '16' Round 0 60 R0 (0 100);
+Change Drill 32;
+Pad '17' Round 0 60 R0 (0 200);
+Change Drill 32;
+Pad '18' Round 0 60 R0 (0 300);
+Change Drill 32;
+Pad '19' Round 0 60 R0 (0 400);
+Change Drill 32;
+Pad '20' Round 0 60 R0 (0 500);
+Change Drill 32;
+Pad '21' Round 0 60 R0 (0 600);
+Change Drill 32;
+Pad '22' Round 0 60 R0 (0 700);
+Change Drill 32;
+Pad '23' Round 0 60 R0 (0 800);
+Change Drill 32;
+Pad '24' Round 0 60 R0 (0 900);
+Change Drill 32;
+Pad '25' Round 0 60 R0 (0 1000);
+Change Drill 32;
+Pad '26' Round 0 60 R0 (0 1100);
+Change Drill 32;
+Pad '27' Round 0 60 R0 (0 1200);
+Change Drill 32;
+Pad '28' Round 0 60 R0 (0 1300);
+Layer 21;
+Wire 6 (-302 -80) (2 -80);
+Wire 6 (2 -80) (2 -43);
+Wire 6 (2 1380) (-302 1380);
+Wire 6 (-302 1380) (-302 1343);
+Wire 6 (-302 1257) (-302 1243);
+Wire 6 (-302 1157) (-302 1143);
+Wire 6 (-302 1057) (-302 1043);
+Wire 6 (-302 957) (-302 943);
+Wire 6 (-302 857) (-302 843);
+Wire 6 (-302 757) (-302 743);
+Wire 6 (-302 657) (-302 643);
+Wire 6 (-302 557) (-302 543);
+Wire 6 (-302 457) (-302 443);
+Wire 6 (-302 357) (-302 343);
+Wire 6 (-302 257) (-302 243);
+Wire 6 (-302 157) (-302 143);
+Wire 6 (-302 57) (-302 43);
+Wire 6 (-302 -43) (-302 -80);
+Wire 6 (2 43) (2 57);
+Wire 6 (2 143) (2 157);
+Wire 6 (2 243) (2 257);
+Wire 6 (2 343) (2 357);
+Wire 6 (2 443) (2 457);
+Wire 6 (2 543) (2 557);
+Wire 6 (2 643) (2 657);
+Wire 6 (2 743) (2 757);
+Wire 6 (2 843) (2 857);
+Wire 6 (2 943) (2 957);
+Wire 6 (2 1043) (2 1057);
+Wire 6 (2 1143) (2 1157);
+Wire 6 (2 1243) (2 1257);
+Wire 6 (2 1343) (2 1380);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-323 1335);
+Layer 51;
+Wire 6 (-298 1284) (-298 1316);
+Wire 6 (-298 1316) (-316 1316);
+Wire 6 (-316 1316) (-316 1284);
+Wire 6 (-316 1284) (-298 1284);
+Wire 6 (-298 1184) (-298 1216);
+Wire 6 (-298 1216) (-316 1216);
+Wire 6 (-316 1216) (-316 1184);
+Wire 6 (-316 1184) (-298 1184);
+Wire 6 (-297 1084) (-298 1116);
+Wire 6 (-298 1116) (-316 1116);
+Wire 6 (-316 1116) (-316 1084);
+Wire 6 (-316 1084) (-297 1084);
+Wire 6 (-297 984) (-297 1016);
+Wire 6 (-297 1016) (-316 1016);
+Wire 6 (-316 1016) (-316 984);
+Wire 6 (-316 984) (-297 984);
+Wire 6 (-297 884) (-297 916);
+Wire 6 (-297 916) (-316 916);
+Wire 6 (-316 916) (-316 884);
+Wire 6 (-316 884) (-297 884);
+Wire 6 (-297 784) (-297 816);
+Wire 6 (-297 816) (-316 816);
+Wire 6 (-316 816) (-316 784);
+Wire 6 (-316 784) (-297 784);
+Wire 6 (-297 684) (-297 716);
+Wire 6 (-297 716) (-316 716);
+Wire 6 (-316 716) (-316 684);
+Wire 6 (-316 684) (-297 684);
+Wire 6 (-297 584) (-297 616);
+Wire 6 (-297 616) (-316 616);
+Wire 6 (-316 616) (-316 584);
+Wire 6 (-316 584) (-297 584);
+Wire 6 (-297 484) (-297 516);
+Wire 6 (-297 516) (-316 516);
+Wire 6 (-316 516) (-316 484);
+Wire 6 (-316 484) (-297 484);
+Wire 6 (-297 384) (-297 416);
+Wire 6 (-297 416) (-316 416);
+Wire 6 (-316 416) (-316 384);
+Wire 6 (-316 384) (-297 384);
+Wire 6 (-297 284) (-297 316);
+Wire 6 (-297 316) (-316 316);
+Wire 6 (-316 316) (-316 284);
+Wire 6 (-316 284) (-297 284);
+Wire 6 (-297 184) (-297 216);
+Wire 6 (-297 216) (-316 216);
+Wire 6 (-316 216) (-316 184);
+Wire 6 (-316 184) (-297 184);
+Wire 6 (-297 84) (-297 116);
+Wire 6 (-297 116) (-316 116);
+Wire 6 (-316 116) (-316 84);
+Wire 6 (-316 84) (-297 84);
+Wire 6 (-297 -16) (-297 16);
+Wire 6 (-297 16) (-316 16);
+Wire 6 (-316 16) (-316 -16);
+Wire 6 (-316 -16) (-297 -16);
+Wire 6 (-3 16) (-2 -16);
+Wire 6 (-2 -16) (16 -16);
+Wire 6 (16 -16) (16 16);
+Wire 6 (16 16) (-3 16);
+Wire 6 (-3 116) (-2 84);
+Wire 6 (-2 84) (16 84);
+Wire 6 (16 84) (16 116);
+Wire 6 (16 116) (-3 116);
+Wire 6 (-3 216) (-3 184);
+Wire 6 (-3 184) (16 184);
+Wire 6 (16 184) (16 216);
+Wire 6 (16 216) (-3 216);
+Wire 6 (-3 316) (-3 284);
+Wire 6 (-3 284) (16 284);
+Wire 6 (16 284) (16 316);
+Wire 6 (16 316) (-3 316);
+Wire 6 (-3 416) (-3 384);
+Wire 6 (-3 384) (16 384);
+Wire 6 (16 384) (16 416);
+Wire 6 (16 416) (-3 416);
+Wire 6 (-3 516) (-3 484);
+Wire 6 (-3 484) (16 484);
+Wire 6 (16 484) (16 516);
+Wire 6 (16 516) (-3 516);
+Wire 6 (-3 616) (-3 584);
+Wire 6 (-3 584) (16 584);
+Wire 6 (16 584) (16 616);
+Wire 6 (16 616) (-3 616);
+Wire 6 (-3 716) (-3 684);
+Wire 6 (-3 684) (16 684);
+Wire 6 (16 684) (16 716);
+Wire 6 (16 716) (-3 716);
+Wire 6 (-3 816) (-3 784);
+Wire 6 (-3 784) (16 784);
+Wire 6 (16 784) (16 816);
+Wire 6 (16 816) (-3 816);
+Wire 6 (-3 916) (-3 884);
+Wire 6 (-3 884) (16 884);
+Wire 6 (16 884) (16 916);
+Wire 6 (16 916) (-3 916);
+Wire 6 (-3 1016) (-3 984);
+Wire 6 (-3 984) (16 984);
+Wire 6 (16 984) (16 1016);
+Wire 6 (16 1016) (-3 1016);
+Wire 6 (-3 1116) (-3 1084);
+Wire 6 (-3 1084) (16 1084);
+Wire 6 (16 1084) (16 1116);
+Wire 6 (16 1116) (-3 1116);
+Wire 6 (-3 1216) (-3 1184);
+Wire 6 (-3 1184) (16 1184);
+Wire 6 (16 1184) (16 1216);
+Wire 6 (16 1216) (-3 1216);
+Wire 6 (-3 1316) (-3 1284);
+Wire 6 (-3 1284) (16 1284);
+Wire 6 (16 1284) (16 1316);
+Wire 6 (16 1316) (-3 1316);
+Wire 6 (-298 -75) (-2 -75);
+Wire 6 (-2 -75) (-2 1375);
+Wire 6 (-2 1375) (-298 1375);
+Wire 6 (-298 1375) (-298 -75);
+Wire 6 (-138 1375) -180 (-162 1375);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-310 1275);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-279 625);
+Layer 27;
+
+Edit 'ATMEGA328P-PU.sym';
+Layer 94;
+Pin '(PCINT19/OC2B/INT1)_PD3' I/O None Middle R0 Both 0 (100 0)
+Pin '(PCINT20/XCK/T0)_PD4' I/O None Middle R0 Both 0 (100 -100)
+Pin 'VCC' Pwr None Middle R0 Both 0 (100 -200)
+Pin 'GND_2' Pwr None Middle R0 Both 0 (100 -300)
+Pin '(PCINT6/XTAL1/TOSC1)_PB6' I/O None Middle R0 Both 0 (100 -400)
+Pin '(PCINT7/XTAL2/TOSC2)_PB7' I/O None Middle R0 Both 0 (100 -500)
+Pin '(PCINT21/OC0B/T1)_PD5' I/O None Middle R0 Both 0 (100 -600)
+Pin '(PCINT22/OC0A/AIN0)_PD6' I/O None Middle R0 Both 0 (100 -700)
+Pin '(PCINT23/AIN1)_PD7' I/O None Middle R0 Both 0 (100 -800)
+Pin '(PCINT0/CLKO/ICP1)_PB0' I/O None Middle R0 Both 0 (100 -900)
+Pin '(PCINT1/OC1A)_PB1' I/O None Middle R0 Both 0 (100 -1000)
+Pin '(PCINT2/SS/OC1B)_PB2' I/O None Middle R0 Both 0 (100 -1100)
+Pin '(PCINT3/OC2A/MOSI)_PB3' I/O None Middle R0 Both 0 (100 -1200)
+Pin '(PCINT4/MISO)_PB4' I/O None Middle R0 Both 0 (100 -1300)
+Pin 'PB5_(SCK/PCINT5)' I/O None Middle R180 Both 0 (5500 -1300)
+Pin 'AVCC' Pwr None Middle R180 Both 0 (5500 -1200)
+Pin 'AREF' Pas None Middle R180 Both 0 (5500 -1100)
+Pin 'GND' Pwr None Middle R180 Both 0 (5500 -1000)
+Pin 'PC0_(ADC0/PCINT8)' I/O None Middle R180 Both 0 (5500 -900)
+Pin 'PC1_(ADC1/PCINT9)' I/O None Middle R180 Both 0 (5500 -800)
+Pin 'PC2_(ADC2/PCINT10)' I/O None Middle R180 Both 0 (5500 -700)
+Pin 'PC3_(ADC3/PCINT11)' I/O None Middle R180 Both 0 (5500 -600)
+Pin 'PC4_(ADC4/SDA/PCINT12)' I/O None Middle R180 Both 0 (5500 -500)
+Pin 'PC5_(ADC5/SCL/PCINT13)' I/O None Middle R180 Both 0 (5500 -400)
+Pin 'PC6_(RESET/PCINT14)' I/O None Middle R180 Both 0 (5500 -300)
+Pin 'PD0_(RXD/PCINT16)' I/O None Middle R180 Both 0 (5500 -200)
+Pin 'PD1_(TXD/PCINT17)' I/O None Middle R180 Both 0 (5500 -100)
+Pin 'PD2_(INT0/PCINT18)' I/O None Middle R180 Both 0 (5500 0)
+Wire 6 (300 200) (300 -1500);
+Wire 6 (300 -1500) (5300 -1500);
+Wire 6 (5300 -1500) (5300 200);
+Wire 6 (5300 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (2614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (2589 259);
+
+Edit 'ATMEGA328P-PU.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add ATMEGA328P-PU 'A' Next  0 (0 0);
+Package '28P3';
+Technology '';
+Attribute Vendor 'Atmel';
+Attribute Manufacturer_Part_Number 'ATMEGA328PPU';
+Connect 'A.(PCINT19/OC2B/INT1)_PD3' '1';
+Connect 'A.(PCINT20/XCK/T0)_PD4' '2';
+Connect 'A.VCC' '3';
+Connect 'A.GND_2' '4';
+Connect 'A.(PCINT6/XTAL1/TOSC1)_PB6' '5';
+Connect 'A.(PCINT7/XTAL2/TOSC2)_PB7' '6';
+Connect 'A.(PCINT21/OC0B/T1)_PD5' '7';
+Connect 'A.(PCINT22/OC0A/AIN0)_PD6' '8';
+Connect 'A.(PCINT23/AIN1)_PD7' '9';
+Connect 'A.(PCINT0/CLKO/ICP1)_PB0' '10';
+Connect 'A.(PCINT1/OC1A)_PB1' '11';
+Connect 'A.(PCINT2/SS/OC1B)_PB2' '12';
+Connect 'A.(PCINT3/OC2A/MOSI)_PB3' '13';
+Connect 'A.(PCINT4/MISO)_PB4' '14';
+Connect 'A.PB5_(SCK/PCINT5)' '15';
+Connect 'A.AVCC' '16';
+Connect 'A.AREF' '17';
+Connect 'A.GND' '18';
+Connect 'A.PC0_(ADC0/PCINT8)' '19';
+Connect 'A.PC1_(ADC1/PCINT9)' '20';
+Connect 'A.PC2_(ADC2/PCINT10)' '21';
+Connect 'A.PC3_(ADC3/PCINT11)' '22';
+Connect 'A.PC4_(ADC4/SDA/PCINT12)' '23';
+Connect 'A.PC5_(ADC5/SCL/PCINT13)' '24';
+Connect 'A.PC6_(RESET/PCINT14)' '25';
+Connect 'A.PD0_(RXD/PCINT16)' '26';
+Connect 'A.PD1_(TXD/PCINT17)' '27';
+Connect 'A.PD2_(INT0/PCINT18)' '28';
