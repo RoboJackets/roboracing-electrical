@@ -43704,7 +43704,7 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <part name="R16" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="X8" library="Testing" deviceset="USB-AB" device="IN&amp;OUT"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="D1" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
+<part name="D1" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="LED-SMD-RED"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k Ohm"/>
 <part name="F2" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0603" value="1.5 A"/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C3216" package3d_urn="urn:adsk.eagle:package:23628/2" value="10 uF"/>
@@ -43770,6 +43770,7 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <part name="D4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="D5" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LP3963?*" device="ES" package3d_urn="urn:adsk.eagle:package:16438/2" technology="-5.0" value="LP3852EMP-5.0"/>
+<part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -44247,6 +44248,9 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <instance part="IC1" gate="P" x="160.02" y="144.78">
 <attribute name="NAME" x="149.86" y="151.13" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="P" x="-66.04" y="101.6" rot="R270">
+<attribute name="VALUE" x="-62.865" y="103.505" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -44796,6 +44800,11 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <wire x1="-101.6" y1="48.26" x2="-101.6" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-91.44" y="48.26"/>
 </segment>
+<segment>
+<wire x1="-78.74" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="SUPPLY1" gate="P" pin="+3.3V"/>
+</segment>
 </net>
 <net name="UVCC" class="0">
 <segment>
@@ -44886,12 +44895,17 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <wire x1="121.92" y1="147.32" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <junction x="132.08" y="147.32"/>
-<wire x1="142.24" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="137.16" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <junction x="142.24" y="147.32"/>
 <pinref part="IC1" gate="P" pin="VIN"/>
+<pinref part="IC1" gate="P" pin="!SD"/>
+<wire x1="147.32" y1="142.24" x2="144.78" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="142.24" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<junction x="144.78" y="147.32"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -45157,20 +45171,9 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <wire x1="-101.6" y1="60.96" x2="-101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="-78.74" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="-68.58" y="101.6" size="1.016" layer="95" xref="yes"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="102,1,-17.78,83.82,VCC,+3V3,,,,"/>
-<approved hash="102,1,78.74,134.62,VCC,+3V3,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
