@@ -282,6 +282,69 @@
 <text x="-7.874" y="32.385" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-7.0866" y="15.875" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="PCAP_8X10-ELECT">
+<smd name="1" x="-3.4544" y="0" dx="3.81" dy="2.1082" layer="1"/>
+<smd name="2" x="3.4544" y="0" dx="3.81" dy="2.1082" layer="1"/>
+<wire x1="-6.096" y1="0" x2="-6.858" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.477" y1="0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.397" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.397" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="0" x2="-6.858" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.477" y1="0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="PCAP_8X10-ELECT-M">
+<smd name="1" x="-3.5941" y="0" dx="4.0894" dy="2.3114" layer="1"/>
+<smd name="2" x="3.5941" y="0" dx="4.0894" dy="2.3114" layer="1"/>
+<wire x1="-6.3754" y1="0" x2="-7.1374" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="0.381" x2="-6.7564" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.4986" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.4986" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.4986" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-6.3754" y1="0" x2="-7.1374" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="0.381" x2="-6.7564" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="PCAP_8X10-ELECT-L">
+<smd name="1" x="-3.302" y="0" dx="3.5052" dy="1.905" layer="1"/>
+<smd name="2" x="3.302" y="0" dx="3.5052" dy="1.905" layer="1"/>
+<wire x1="-5.7912" y1="0" x2="-6.5532" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.1722" y1="0.381" x2="-6.1722" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.2954" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.2954" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.2954" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.2954" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-5.7912" y1="0" x2="-6.5532" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.1722" y1="0.381" x2="-6.1722" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="UA7805CKC">
@@ -330,6 +393,31 @@
 <wire x1="134.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="66.3956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="65.7606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="PCAPH">
+<pin name="22" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="0" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="2.2098" y1="0.635" x2="2.2098" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="1.5748" y1="1.27" x2="2.8448" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.7498" y1="-1.905" x2="4.7498" y2="1.905" width="0.1524" layer="94" curve="-74"/>
+<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+<symbol name="PCAPV">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.4798" width="0.2032" layer="94"/>
+<wire x1="-1.905" y1="-3.4798" x2="1.905" y2="-3.4798" width="0.2032" layer="94"/>
+<wire x1="0.635" y1="-2.2098" x2="1.905" y2="-2.2098" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="-1.5748" x2="1.27" y2="-2.8448" width="0.2032" layer="94"/>
+<wire x1="0" y1="-4.1148" x2="0" y2="-5.08" width="0.2032" layer="94"/>
+<wire x1="-1.905" y1="-4.7498" x2="1.905" y2="-4.7498" width="0.1524" layer="94" curve="-74"/>
+<text x="2.54" y="-4.2672" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="-7.4676" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -393,6 +481,49 @@
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="ATMEGA328PPU" constant="no"/>
 <attribute name="VENDOR" value="Atmel" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT0J102MNL1GS" prefix="C">
+<gates>
+<gate name="A" symbol="PCAPH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCAP_8X10-ELECT">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PCAP_8X10-ELECT-M" package="PCAP_8X10-ELECT-M">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PCAP_8X10-ELECT-L" package="PCAP_8X10-ELECT-L">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
 </technology>
 </technologies>
 </device>
