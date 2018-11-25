@@ -41049,6 +41049,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </library>
 </libraries>
 <attributes>
+<attribute name="AUTHORS" value="Austin Keener"/>
+<attribute name="REVISION" value="1.0"/>
+<attribute name="SCH_DESC" value="Ethernet Breakout Board for Lidar Lite 3 Modules"/>
+<attribute name="TEAM" value="RoboRacing"/>
+<attribute name="TITLE" value="Lidar_Breakout"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -41193,6 +41198,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-27.94" y1="177.8" x2="-86.36" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-27.94" y1="144.78" x2="-86.36" y2="144.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-86.36" y1="146.05" x2="-86.36" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
+<text x="119.888" y="147.066" size="1.016" layer="97" rot="R180">5-7VDC</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="5.08" y="151.13">
@@ -41227,6 +41233,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SHEET" x="246.38" y="-77.47" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="175.26" y="-59.69" size="2.54" layer="94" font="vector"/>
 <attribute name="SCH_DESC" x="161.29" y="-72.39" size="2.54" layer="94"/>
+<attribute name="REVISION" x="232.41" y="-72.39" size="2.54" layer="94"/>
+<attribute name="TEAM" x="161.29" y="-44.45" size="3.048" layer="94" ratio="10" align="top-left"/>
 </instance>
 <instance part="P1" gate="G$1" x="109.22" y="142.24" rot="R180">
 <attribute name="NAME" x="111.7636" y="136.516909375" size="1.2718" layer="95" rot="R180"/>
@@ -42281,7 +42289,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="177.8" y1="157.48" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="AREF" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="AREF"/>
 <wire x1="35.56" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
@@ -42289,7 +42297,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="UCAP" class="0">
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="99.06" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
