@@ -16087,7 +16087,7 @@ In this library you will find switches and other mechanical assisted circuit ele
 <part name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="AUDIO BOARD INPUT"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_B_L" device="">
-<attribute name="REVISION" value="3.0"/>
+<attribute name="REVISION" value="3.1"/>
 <attribute name="TEAM" value="RoboRacing"/>
 </part>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="AUDIO SWITCH"/>
@@ -16101,6 +16101,7 @@ In this library you will find switches and other mechanical assisted circuit ele
 <part name="S2" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
 </parts>
 <sheets>
 <sheet>
@@ -16318,6 +16319,10 @@ In this library you will find switches and other mechanical assisted circuit ele
 <instance part="R2" gate="G$1" x="99.06" y="109.22" smashed="yes">
 <attribute name="NAME" x="95.25" y="110.7186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="105.918" size="1.778" layer="96"/>
+</instance>
+<instance part="D4" gate="G$1" x="45.72" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="198.628" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="48.26" y="202.692" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -16555,9 +16560,10 @@ In this library you will find switches and other mechanical assisted circuit ele
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="K1" gate="A" pin="1"/>
-<wire x1="30.48" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
-<label x="30.48" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="200.66" x2="43.18" y2="200.66" width="0.1524" layer="91"/>
+<label x="35.56" y="200.66" size="1.778" layer="95"/>
+<label x="35.56" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="K1" gate="A" pin="6"/>
@@ -16574,6 +16580,11 @@ In this library you will find switches and other mechanical assisted circuit ele
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="106.68" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="A" pin="1"/>
+<wire x1="30.48" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
+<label x="30.48" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_A" class="0">
@@ -16769,15 +16780,6 @@ In this library you will find switches and other mechanical assisted circuit ele
 <wire x1="48.26" y1="243.84" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESC_5V" class="0">
-<segment>
-<pinref part="G1" gate="A" pin="OUTPUT"/>
-<wire x1="111.76" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="203.2" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="226.06" x2="104.14" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MUX_ESC" class="0">
 <segment>
 <pinref part="J10" gate="J$1" pin="3"/>
@@ -16847,6 +16849,10 @@ In this library you will find switches and other mechanical assisted circuit ele
 <wire x1="76.2" y1="182.88" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
 <wire x1="76.2" y1="198.12" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="48.26" y1="200.66" x2="76.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="200.66" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
+<junction x="76.2" y="198.12"/>
 </segment>
 </net>
 <net name="ARDUINO_RST" class="0">
@@ -16863,6 +16869,14 @@ In this library you will find switches and other mechanical assisted circuit ele
 <wire x1="93.98" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="109.22" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <junction x="93.98" y="101.6"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="G1" gate="A" pin="OUTPUT"/>
+<wire x1="104.14" y1="220.98" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="203.2" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
