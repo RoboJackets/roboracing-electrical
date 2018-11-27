@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -41169,7 +41169,6 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="VCC1"/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="VCC1"/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY38" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="MC1" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
@@ -41259,6 +41258,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="VCC1"/>
 </parts>
 <sheets>
 <sheet>
@@ -41417,9 +41417,6 @@ BLOWN</text>
 </instance>
 <instance part="SUPPLY37" gate="GND" x="189.738" y="84.836" smashed="yes">
 <attribute name="VALUE" x="187.833" y="81.661" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY38" gate="G$1" x="222.758" y="87.376" smashed="yes" rot="R270">
-<attribute name="VALUE" x="225.552" y="87.376" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="R18" gate="G$1" x="236.474" y="-1.27" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.284" y="-2.7686" size="1.778" layer="95" rot="R180"/>
@@ -41752,6 +41749,9 @@ BLOWN</text>
 <instance part="SUPPLY21" gate="GND" x="149.606" y="75.438" smashed="yes">
 <attribute name="VALUE" x="147.701" y="72.263" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY27" gate="G$1" x="222.758" y="87.884" smashed="yes">
+<attribute name="VALUE" x="222.758" y="90.678" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -41901,21 +41901,20 @@ BLOWN</text>
 <junction x="165.1" y="139.7"/>
 <wire x1="157.48" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
 <junction x="162.56" y="139.7"/>
-<wire x1="149.86" y1="152.4" x2="149.86" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="151.13" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <junction x="157.48" y="139.7"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
 <junction x="173.99" y="139.7"/>
 <pinref part="P1" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
-<junction x="149.86" y="139.7"/>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="139.7" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="139.7" x2="149.606" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <junction x="139.7" y="139.7"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="151.13" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="139.7" x2="149.606" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
@@ -42168,7 +42167,7 @@ BLOWN</text>
 <junction x="-13.462" y="166.37"/>
 </segment>
 </net>
-<net name="SCLK_ETH" class="0">
+<net name="SCLK" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="PB1(SCK)"/>
 <wire x1="72.136" y1="83.312" x2="74.676" y2="83.312" width="0.1524" layer="91"/>
@@ -42225,6 +42224,7 @@ BLOWN</text>
 <wire x1="129.54" y1="162.56" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <junction x="121.92" y="152.4"/>
+<label x="121.92" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -42349,36 +42349,6 @@ BLOWN</text>
 <pinref part="H6" gate="G$1" pin="1"/>
 <wire x1="173.228" y1="11.43" x2="168.656" y2="11.43" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="SUPPLY38" gate="G$1" pin="VCC"/>
-<wire x1="222.758" y1="87.376" x2="215.138" y2="87.376" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="87.376" x2="212.598" y2="87.376" width="0.1524" layer="91"/>
-<wire x1="212.598" y1="77.216" x2="215.138" y2="77.216" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="77.216" x2="215.138" y2="87.376" width="0.1524" layer="91"/>
-<junction x="215.138" y="87.376"/>
-<wire x1="212.598" y1="67.056" x2="215.138" y2="67.056" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="67.056" x2="215.138" y2="77.216" width="0.1524" layer="91"/>
-<junction x="215.138" y="77.216"/>
-<wire x1="212.598" y1="56.896" x2="215.138" y2="56.896" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="56.896" x2="215.138" y2="67.056" width="0.1524" layer="91"/>
-<junction x="215.138" y="67.056"/>
-<wire x1="212.598" y1="46.736" x2="215.138" y2="46.736" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="46.736" x2="215.138" y2="56.896" width="0.1524" layer="91"/>
-<junction x="215.138" y="56.896"/>
-<wire x1="212.598" y1="36.576" x2="215.138" y2="36.576" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="36.576" x2="215.138" y2="46.736" width="0.1524" layer="91"/>
-<junction x="215.138" y="46.736"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="215.138" y1="36.576" x2="215.138" y2="26.416" width="0.1524" layer="91"/>
-<wire x1="215.138" y1="26.416" x2="212.598" y2="26.416" width="0.1524" layer="91"/>
-<junction x="215.138" y="36.576"/>
-<pinref part="C1" gate="A" pin="11"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -42413,6 +42383,11 @@ BLOWN</text>
 </net>
 <net name="SCNN" class="0">
 <segment>
+<pinref part="MC1" gate="G$1" pin="PB0(SS)"/>
+<wire x1="72.136" y1="80.772" x2="74.676" y2="80.772" width="0.1524" layer="91"/>
+<label x="74.676" y="80.772" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="ETH1" gate="G$1" pin="5"/>
 <label x="-99.06" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="-96.52" y1="109.22" x2="-99.06" y2="109.22" width="0.1524" layer="91"/>
@@ -42423,6 +42398,11 @@ BLOWN</text>
 <pinref part="ETH1" gate="G$1" pin="6"/>
 <label x="-99.06" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="-96.52" y1="104.14" x2="-99.06" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MC1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
+<wire x1="72.136" y1="98.552" x2="74.676" y2="98.552" width="0.1524" layer="91"/>
+<label x="74.676" y="98.552" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -42700,8 +42680,8 @@ BLOWN</text>
 </segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-<wire x1="72.136" y1="75.692" x2="74.676" y2="75.692" width="0.1524" layer="91"/>
-<label x="74.93" y="75.692" size="1.016" layer="95" xref="yes"/>
+<wire x1="72.136" y1="75.692" x2="77.216" y2="75.692" width="0.1524" layer="91"/>
+<label x="77.47" y="75.692" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -42774,18 +42754,39 @@ BLOWN</text>
 <wire x1="160.782" y1="1.524" x2="160.02" y2="1.524" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCNN_ETH" class="0">
+<net name="VCC" class="0">
 <segment>
-<pinref part="MC1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="72.136" y1="80.772" x2="74.676" y2="80.772" width="0.1524" layer="91"/>
-<label x="74.676" y="80.772" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="INTN_ETH" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
-<wire x1="72.136" y1="98.552" x2="74.676" y2="98.552" width="0.1524" layer="91"/>
-<label x="74.676" y="98.552" size="1.016" layer="95" xref="yes"/>
+<pinref part="SUPPLY27" gate="G$1" pin="VCC"/>
+<wire x1="222.758" y1="87.884" x2="222.758" y2="87.376" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="87.376" x2="212.598" y2="87.376" width="0.1524" layer="91"/>
+<wire x1="212.598" y1="77.216" x2="215.138" y2="77.216" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="77.216" x2="215.138" y2="87.122" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="87.122" x2="215.138" y2="87.376" width="0.1524" layer="91"/>
+<wire x1="212.598" y1="67.056" x2="215.138" y2="67.056" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="67.056" x2="215.138" y2="77.216" width="0.1524" layer="91"/>
+<junction x="215.138" y="77.216"/>
+<wire x1="212.598" y1="56.896" x2="215.138" y2="56.896" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="56.896" x2="215.138" y2="67.056" width="0.1524" layer="91"/>
+<junction x="215.138" y="67.056"/>
+<wire x1="212.598" y1="46.736" x2="215.138" y2="46.736" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="46.736" x2="215.138" y2="56.896" width="0.1524" layer="91"/>
+<junction x="215.138" y="56.896"/>
+<wire x1="212.598" y1="36.576" x2="215.138" y2="36.576" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="36.576" x2="215.138" y2="46.736" width="0.1524" layer="91"/>
+<junction x="215.138" y="46.736"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="215.138" y1="36.576" x2="215.138" y2="26.416" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="26.416" x2="212.598" y2="26.416" width="0.1524" layer="91"/>
+<junction x="215.138" y="36.576"/>
+<pinref part="C1" gate="A" pin="11"/>
+<wire x1="222.758" y1="87.884" x2="215.138" y2="87.884" width="0.1524" layer="91"/>
+<wire x1="215.138" y1="87.884" x2="215.138" y2="87.376" width="0.1524" layer="91"/>
+<junction x="222.758" y="87.884"/>
 </segment>
 </net>
 </nets>
