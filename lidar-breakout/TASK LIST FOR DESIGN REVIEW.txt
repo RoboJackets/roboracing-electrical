@@ -20,19 +20,21 @@ DONE - SDA AND SCL bus status LEDs using P-channel mosfets.
 
 DONE - Fuse-blown LED using P-channel mosfet.
 
-Come up with a standard LED for each functionality and make them varied (GREEN, BLUE, YELLOW, RED, WHITE).
+DONE - Come up with a standard LED for each functionality and make them varied (GREEN, BLUE, YELLOW, RED, WHITE).
 
-Re-name LED name to LD1 instead of D1 (distinguish between non-lighting diodes)
+DONE - Re-name LED name to LD1 instead of D1 (distinguish between non-lighting diodes)
 
-Re-index components (primarily test points) aka Don't go TP1 then jump to TP12.
+STARTED - Re-index components (primarily test points) aka Don't go TP1 then jump to TP12.
 
-Make sure VCC1 and VCC2 are actually separate signals. The name of the symbol doesn't mean they are separated. (Probably just use a different symbol)
+DONE - Make sure VCC1 and VCC2 are actually separate signals. The name of the symbol doesn't mean they are separated. (Probably just use a different symbol)
 
-Space out the capacitors near the ATmega.
+DONE - Space out the capacitors near the ATmega.
 
-Write out information in full words (EX:SDA_STS -> SDA Status).
+DONE - Write out information in full words (EX:SDA_STS -> SDA Status).
 
-Make all labels the same size on the schematic.
+DONE - Make all labels the same size on the schematic.
+
+Change ATMEGA status LED to DotStar LED
 
 Make the schematic origin the bottom left of the title block.
 
@@ -46,13 +48,13 @@ Manually route the board.
 
 Check via hole sizes.
 
-Create actual mounting holes using the hole tool. 
+DONE - Create actual mounting holes using the hole tool. 
 
-Delete device names on the place layer and use the name layer. 
+DONE - Delete device names on the place layer and use the name layer. 
 
-Delete old labels that no longer apply.
+DONE - Delete old labels that no longer apply.
 
-Check that traces can handle current, increase width if needed. 
+DONE - Check that traces can handle current, increase width if needed.    0.3 mm trace - 1A     0.5mm - 1.5 A
 
 Change out 5V power regulator and possibly 3.3V regulator?
 
@@ -61,6 +63,17 @@ Work on getting the powerpoint slides together for design review.
 Clean up schematics to look nice.
 
 RUN ELC AND DRC WHEN FINISHED ALL CHANGES!!! ASK ME (JOE) IF THINGS CAN BE APPROVED OR IGNORED. 
+
+
+
+
+LED COLOR GUIDE:
+
+Power LEDs: green
+Communications Bus LEDs: yellow
+Enable LEDs: blue
+Error LEDs: red
+Microcontroller STATUS LED: PURPLE!
 
 
 
