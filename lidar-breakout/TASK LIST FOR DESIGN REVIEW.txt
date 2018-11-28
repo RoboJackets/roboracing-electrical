@@ -8,7 +8,7 @@ DONE - Reset pushbutton and IO pin to drive the ethernet reset.
 DONE - Power only the microcontroller and related componets from the 
 	USB when connected using two diodes. 
 
-Fix title block description
+DONE - Fix title block description
 
 DONE - Move 3.3v power LED next to power regulator. 
 
@@ -24,7 +24,7 @@ DONE - Come up with a standard LED for each functionality and make them varied (
 
 DONE - Re-name LED name to LD1 instead of D1 (distinguish between non-lighting diodes)
 
-STARTED - Re-index components (primarily test points) aka Don't go TP1 then jump to TP12.
+DONE - Re-index components (primarily test points) aka Don't go TP1 then jump to TP12.
 
 DONE - Make sure VCC1 and VCC2 are actually separate signals. The name of the symbol doesn't mean they are separated. (Probably just use a different symbol)
 
@@ -34,9 +34,9 @@ DONE - Write out information in full words (EX:SDA_STS -> SDA Status).
 
 DONE - Make all labels the same size on the schematic.
 
-Change ATMEGA status LED to DotStar LED
+DONE - Change ATMEGA status LED to DotStar LED
 
-Make the schematic origin the bottom left of the title block.
+DONE - Make the schematic origin the bottom left of the title block.
 
 BOARD
 
