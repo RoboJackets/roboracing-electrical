@@ -44,7 +44,7 @@ Remove the hole from the Molex connector
 
 Gather everything into a complete independant library. 
 
-Manually route the board. 
+IP - Manually route the board. 
 
 Check via hole sizes.
 
@@ -73,7 +73,8 @@ Power LEDs: green
 Communications Bus LEDs: yellow
 Enable LEDs: blue
 Error LEDs: red
-Microcontroller STATUS LED: PURPLE!
+Microcontroller STATUS LED: NEOPIXEL
+
 
 
 
