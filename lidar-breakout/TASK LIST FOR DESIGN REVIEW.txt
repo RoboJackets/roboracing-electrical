@@ -42,9 +42,9 @@ BOARD
 
 Remove the hole from the Molex connector
 
-Gather everything into a complete independant library. 
+Gather everything into a complete independent library. 
 
-IP - Manually route the board. 
+DONE - Manually route the board. 
 
 Check via hole sizes.
 
@@ -60,10 +60,9 @@ Change out 5V power regulator and possibly 3.3V regulator?
 
 Work on getting the powerpoint slides together for design review.
 
-Clean up schematics to look nice.
+DONE - Clean up schematics to look nice.
 
-RUN ELC AND DRC WHEN FINISHED ALL CHANGES!!! ASK ME (JOE) IF THINGS CAN BE APPROVED OR IGNORED. 
-
+DONE- RUN ELC AND DRC WHEN FINISHED ALL CHANGES!!! ASK ME (JOE) IF THINGS CAN BE APPROVED OR IGNORED. 
 
 
 
