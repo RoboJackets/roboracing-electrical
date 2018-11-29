@@ -1,0 +1,43 @@
+Write DONE next to things that are finished
+
+Schematic
+---------
+
+Name each NeoPixel data line something unique (NEO_1 etc.)
+
+Switch the 1000 uF ceramic to electrolytic (because the ceramics don't exist)
+
+Name components in order (Don't go from R1 to R5 for example. Click the ULP, then BOM to get list of components)
+
+Add fuse to screw terminal input rated for whole board
+
+Change LED names to LD1 instead of D1 (to distinguish from diodes)
+
+Add BP capacitor to 3.3V micro controller
+
+Remove mention of 5V on 3.3V section
+
+On the ethernet chip signals, say ETH_SCLK etc.
+
+Use Ground symbol instead of tag
+
+Add title block
+
+Put the omega symbol for resistor value
+
+Make all labels tags of a consistent size
+
+Give reset pushbutton resistor a value
+
+Use the same capacitor symbol for ceramic and a different but consistent capacitor symbol for electrolytic 
+
+Replace USB micro with a different package that doesn't error out
+
+Board
+------
+
+Place the rest of the components on the board
+
+Shrink the dimensions of the board
+
+Be mindful of current rating and route width
