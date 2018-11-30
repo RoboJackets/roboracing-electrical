@@ -26968,9 +26968,9 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="U6" library="Training_Board" deviceset="UA7805CKCT" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.33 uF"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470Ω"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470Ω"/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470Ω"/>
@@ -27244,15 +27244,15 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="NAME" x="-74.295" y="69.596" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-69.469" y="69.596" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J8" gate="G$1" x="-220.98" y="71.12">
+<instance part="J4" gate="G$1" x="-220.98" y="71.12">
 <attribute name="VALUE" x="-226.06" y="63.5" size="1.778" layer="96"/>
 <attribute name="NAME" x="-226.06" y="79.502" size="1.778" layer="95"/>
 </instance>
-<instance part="J9" gate="G$1" x="-220.98" y="111.76">
+<instance part="J3" gate="G$1" x="-220.98" y="111.76">
 <attribute name="VALUE" x="-226.06" y="104.14" size="1.778" layer="96"/>
 <attribute name="NAME" x="-226.06" y="120.142" size="1.778" layer="95"/>
 </instance>
-<instance part="J10" gate="G$1" x="-220.98" y="147.32">
+<instance part="J2" gate="G$1" x="-220.98" y="147.32">
 <attribute name="VALUE" x="-226.06" y="139.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="-226.06" y="155.702" size="1.778" layer="95"/>
 </instance>
@@ -27557,13 +27557,13 @@ In this library you will find frames that can be used to help organize a schemat
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="144.78" x2="-213.36" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="144.78" x2="-213.36" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="-215.9" y1="71.12" x2="-175.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="71.12" x2="-175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="68.58" x2="-172.72" y2="68.58" width="0.1524" layer="91"/>
@@ -27573,7 +27573,7 @@ In this library you will find frames that can be used to help organize a schemat
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-215.9" y1="147.32" x2="-170.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="147.32" x2="-170.18" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="144.78" x2="-167.64" y2="144.78" width="0.1524" layer="91"/>
@@ -27584,7 +27584,7 @@ In this library you will find frames that can be used to help organize a schemat
 </segment>
 <segment>
 <wire x1="-167.64" y1="109.22" x2="-167.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J9" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="-215.9" y1="111.76" x2="-170.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="111.76" x2="-170.18" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="109.22" x2="-167.64" y2="109.22" width="0.1524" layer="91"/>
@@ -27593,13 +27593,13 @@ In this library you will find frames that can be used to help organize a schemat
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="109.22" x2="-210.82" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="109.22" x2="-210.82" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="68.58" x2="-210.82" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="68.58" x2="-210.82" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -27953,7 +27953,7 @@ In this library you will find frames that can be used to help organize a schemat
 </net>
 <net name="VCC2" class="0">
 <segment>
-<pinref part="J10" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="-215.9" y1="152.4" x2="-167.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="-160.02" y="152.4" size="1.778" layer="95" xref="yes"/>
 <label x="-160.02" y="152.4" size="1.778" layer="95" xref="yes"/>
@@ -27997,7 +27997,7 @@ In this library you will find frames that can be used to help organize a schemat
 <wire x1="-111.76" y1="106.68" x2="-88.9" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="4"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="-215.9" y1="116.84" x2="-167.64" y2="116.84" width="0.1524" layer="91"/>
 <label x="-160.02" y="116.84" size="1.778" layer="95" xref="yes"/>
 <pinref part="C21" gate="A" pin="11"/>
@@ -28007,7 +28007,7 @@ In this library you will find frames that can be used to help organize a schemat
 </net>
 <net name="VCC4" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="-215.9" y1="76.2" x2="-172.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="-165.1" y="76.2" size="1.778" layer="95" xref="yes"/>
 <pinref part="C22" gate="A" pin="11"/>
@@ -28111,13 +28111,13 @@ In this library you will find frames that can be used to help organize a schemat
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="149.86" x2="-210.82" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="J9" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="-215.9" y1="114.3" x2="-208.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28257,7 +28257,7 @@ In this library you will find frames that can be used to help organize a schemat
 <net name="N$3" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="J8" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="-210.82" y1="73.66" x2="-215.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
