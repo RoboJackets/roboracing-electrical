@@ -44540,7 +44540,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <classes>
 <class number="0" name="default" width="0.2032" drill="0">
 </class>
-<class number="1" name="vcc" width="0" drill="0">
+<class number="1" name="diff pairs" width="0.2032" drill="0">
 </class>
 </classes>
 <parts>
@@ -45604,7 +45604,7 @@ BLOWN</text>
 <wire x1="284.48" y1="223.52" x2="287.02" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="USB_N" class="1">
 <segment>
 <wire x1="172.72" y1="246.38" x2="177.8" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -45632,7 +45632,7 @@ BLOWN</text>
 <wire x1="157.48" y1="241.3" x2="162.56" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="USB_P" class="1">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="241.3" x2="177.8" y2="241.3" width="0.1524" layer="91"/>
