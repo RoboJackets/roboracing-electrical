@@ -44662,6 +44662,11 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
 <part name="5V-REGULATED" library="0436500200" deviceset="0436500200" device="" value=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D3" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
+<part name="I2C_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="YELLOW"/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="Q2" library="RoboJackets-Discrete" deviceset="PMOS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -45136,6 +45141,24 @@ BLOWN</text>
 <instance part="SUPPLY5" gate="GND" x="279.4" y="185.42" smashed="yes">
 <attribute name="VALUE" x="282.575" y="184.785" size="1.778" layer="96"/>
 </instance>
+<instance part="D3" gate="G$1" x="281.94" y="223.52" smashed="yes">
+<attribute name="NAME" x="280.416" y="225.552" size="1.778" layer="95"/>
+<attribute name="VALUE" x="279.4" y="220.98" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="241.3" y="104.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="242.2906" y="107.95" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="237.998" y="107.95" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="I2C_LED" gate="G$1" x="241.3" y="93.98" smashed="yes">
+<attribute name="NAME" x="240.538" y="94.488" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="241.3" y="83.82" smashed="yes">
+<attribute name="VALUE" x="239.395" y="80.645" size="1.778" layer="96"/>
+</instance>
+<instance part="Q2" gate="G$1" x="289.56" y="208.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="289.56" y="210.82" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="287.02" y="210.82" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -45402,9 +45425,15 @@ BLOWN</text>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="276.86" y1="203.2" x2="279.4" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="203.2" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="203.2" x2="292.1" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="287.02" y1="203.2" x2="287.02" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="187.96" x2="279.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="279.4" y="187.96"/>
+</segment>
+<segment>
+<pinref part="I2C_LED" gate="G$1" pin="C"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<wire x1="241.3" y1="88.9" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST_MC" class="0">
@@ -45571,8 +45600,8 @@ BLOWN</text>
 <wire x1="294.64" y1="231.14" x2="287.02" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="223.52" x2="287.02" y2="231.14" width="0.1524" layer="91"/>
 <junction x="287.02" y="231.14"/>
-<pinref part="P1" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="223.52" x2="287.02" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="284.48" y1="223.52" x2="287.02" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -46100,8 +46129,8 @@ BLOWN</text>
 <wire x1="299.72" y1="208.28" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="213.36" x2="342.9" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="213.36" x2="342.9" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="5V-REGULATED" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="208.28" x2="299.72" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="294.64" y1="208.28" x2="299.72" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK_ETH" class="0">
@@ -46130,8 +46159,35 @@ BLOWN</text>
 </net>
 <net name="I2C_ACTIVITY" class="0">
 <segment>
-<wire x1="238.76" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="236.22" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
+<wire x1="236.22" y1="172.72" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
+<label x="238.76" y="172.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="P1" gate="G$1" pin="2"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="276.86" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="I2C_LED" gate="G$1" pin="A"/>
+<wire x1="241.3" y1="99.06" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="5V-REGULATED" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="276.86" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

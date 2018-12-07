@@ -64,12 +64,6 @@ DONE - Clean up schematics to look nice.
 
 DONE- RUN ELC AND DRC WHEN FINISHED ALL CHANGES!!! ASK ME (JOE) IF THINGS CAN BE APPROVED OR IGNORED. 
 
-Changed parts:
-D3 from 5-7 VDC
-I2C_ACT LED and resistor (1k)
-Q2 PNP (SOT-23: Robojackets-discrete)
-
-
 
 LED COLOR GUIDE:
 

@@ -7087,6 +7087,22 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="-10.5" y="7.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-4.79438125" y="-13.99331875" size="1.273590625" layer="27"/>
 </element>
+<element name="D3" library="RoboJackets-Diodes" package="DO-214AC" value="" x="-2.3" y="-16.2" smashed="yes">
+<attribute name="NAME" x="-4.84" y="-14.295" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-4.84" y="-19.375" size="1.27" layer="27"/>
+</element>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ" x="-3.8" y="-26" smashed="yes">
+<attribute name="NAME" x="-4.435" y="-25.365" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="-3.8" y="-20.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-4.435" y="-27.905" size="1.27" layer="27"/>
+</element>
+<element name="I2C_LED" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="YELLOW" x="-2.9" y="-22.2" smashed="yes">
+<attribute name="NAME" x="-3.535" y="-22.835" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-0.995" y="-22.835" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="Q2" library="RoboJackets-Discrete" package="SOT-23-3" value="" x="-7" y="-26.6" smashed="yes">
+<attribute name="NAME" x="-9" y="-27.6" size="1" layer="25" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7292,6 +7308,8 @@ design rules under a new name.</description>
 <wire x1="5.4125" y1="35.1125" x2="5.4125" y2="34.340528125" width="0.3048" layer="1"/>
 <wire x1="5.4125" y1="34.340528125" x2="4.9" y2="33.828028125" width="0.3048" layer="1"/>
 <contactref element="5V-REGULATED" pad="1"/>
+<contactref element="I2C_LED" pad="C"/>
+<contactref element="Q2" pad="1"/>
 <wire x1="33.55" y1="71.65" x2="33.65" y2="75.6" width="0" layer="19" extent="1-1"/>
 <wire x1="27.95" y1="69.1" x2="31.3" y2="71.65" width="0" layer="19" extent="1-16"/>
 <wire x1="22.35" y1="72.7" x2="27.95" y2="69.1" width="0" layer="19" extent="16-16"/>
@@ -7366,6 +7384,8 @@ design rules under a new name.</description>
 <wire x1="3.128" y1="58.169" x2="9.0848" y2="54" width="0" layer="19" extent="1-1"/>
 <wire x1="3.2" y1="71.9" x2="3.2" y2="64.5" width="0" layer="19" extent="1-1"/>
 <wire x1="1.8" y1="-3.18" x2="7.15831875" y2="7.563996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.9" y1="-21.45" x2="1.8" y2="-3.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.95" y1="-27.8" x2="-2.9" y2="-21.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST_MC">
 <contactref element="R1" pad="2"/>
@@ -7662,16 +7682,16 @@ design rules under a new name.</description>
 <wire x1="17.3119" y1="36.1881" x2="17.048" y2="36.1881" width="0.3048" layer="16"/>
 </signal>
 <signal name="UVCC">
-<contactref element="P1" pad="2"/>
 <contactref element="F1" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <wire x1="5.3" y1="57.073" x2="3.827" y2="55.6" width="1.016" layer="1"/>
-<wire x1="3.827" y1="52.7" x2="3.827" y2="55.6" width="1.016" layer="1"/>
 <wire x1="9.93" y1="61.851" x2="7.951" y2="61.851" width="1.016" layer="1"/>
 <wire x1="5.3" y1="59.2" x2="5.3" y2="57.073" width="1.016" layer="1"/>
 <wire x1="5.3" y1="59.2" x2="7.951" y2="61.851" width="1.016" layer="1"/>
 <wire x1="9.93" y1="63.22" x2="9.93" y2="61.851" width="0.508" layer="1"/>
 <wire x1="9.93" y1="63.22" x2="8.75" y2="64.4" width="0.508" layer="1"/>
+<contactref element="D3" pad="C"/>
+<wire x1="-4.325" y1="-16.2" x2="3.827" y2="55.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
 <contactref element="R16" pad="1"/>
@@ -8385,8 +8405,8 @@ design rules under a new name.</description>
 <wire x1="11.321975" y1="46.75" x2="10.7" y2="46.75" width="0.508" layer="1"/>
 <wire x1="19.6" y1="64" x2="18" y2="64" width="0.508" layer="1"/>
 <wire x1="24.4" y1="59.2" x2="19.6" y2="64" width="0.508" layer="1"/>
-<contactref element="5V-REGULATED" pad="2"/>
-<wire x1="-1.2" y1="-3.18" x2="4.681" y2="44.55" width="0" layer="19" extent="16-16"/>
+<contactref element="Q2" pad="3"/>
+<wire x1="-7" y1="-25.4" x2="4.681" y2="44.55" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCLK_ETH">
 <contactref element="ETH1" pad="4"/>
@@ -8405,6 +8425,26 @@ design rules under a new name.</description>
 <wire x1="15.394321875" y1="5" x2="17.95831875" y2="7.563996875" width="0.3048" layer="1"/>
 <wire x1="11.45" y1="8.15" x2="11.45" y2="6.65" width="0.3048" layer="1"/>
 <wire x1="11.45" y1="6.65" x2="13.1" y2="5" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="P1" pad="2"/>
+<contactref element="D3" pad="A"/>
+<wire x1="-0.275" y1="-16.2" x2="3.827" y2="52.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="I2C_ACTIVITY">
+<contactref element="MC1" pad="29"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-4.65" y1="-26" x2="11.049" y2="23.886" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="R3" pad="2"/>
+<contactref element="I2C_LED" pad="A"/>
+<wire x1="-2.9" y1="-22.95" x2="-2.95" y2="-26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="5V-REGULATED" pad="2"/>
+<contactref element="Q2" pad="2"/>
+<wire x1="-1.2" y1="-3.18" x2="-6.05" y2="-27.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
