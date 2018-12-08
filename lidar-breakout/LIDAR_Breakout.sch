@@ -44603,7 +44603,6 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
-<part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C2" library="EEE-1CA100SR" deviceset="EEE-1CA100SR" device="" value="10 uF"/>
 <part name="C1" library="EEE-1CA100SR" deviceset="EEE-1CA100SR" device="" value="10 uF"/>
@@ -44926,10 +44925,6 @@ BLOWN</text>
 <attribute name="NAME" x="376.555" y="123.444" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="371.729" y="123.444" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C11" gate="G$1" x="375.92" y="114.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="376.555" y="113.284" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="371.729" y="113.284" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="C12" gate="G$1" x="375.92" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="376.555" y="103.124" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="371.729" y="103.124" size="1.778" layer="96" rot="R270"/>
@@ -45227,18 +45222,14 @@ BLOWN</text>
 <junction x="368.3" y="144.78"/>
 <wire x1="370.84" y1="134.62" x2="368.3" y2="134.62" width="0.1524" layer="91"/>
 <junction x="368.3" y="134.62"/>
-<wire x1="368.3" y1="124.46" x2="368.3" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="114.3" x2="370.84" y2="114.3" width="0.1524" layer="91"/>
 <junction x="368.3" y="124.46"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="104.14" x2="368.3" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="104.14" x2="368.3" y2="114.3" width="0.1524" layer="91"/>
-<junction x="368.3" y="114.3"/>
+<wire x1="368.3" y1="104.14" x2="368.3" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C13" gate="A" pin="22"/>
 </segment>
 <segment>
@@ -45685,18 +45676,14 @@ BLOWN</text>
 <wire x1="378.46" y1="124.46" x2="381" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="381" y1="124.46" x2="381" y2="134.62" width="0.1524" layer="91"/>
 <junction x="381" y="134.62"/>
-<wire x1="378.46" y1="114.3" x2="381" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="381" y1="114.3" x2="381" y2="124.46" width="0.1524" layer="91"/>
 <junction x="381" y="124.46"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="381" y1="114.3" x2="381" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="381" y1="124.46" x2="381" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="381" y1="104.14" x2="378.46" y2="104.14" width="0.1524" layer="91"/>
-<junction x="381" y="114.3"/>
 <pinref part="C13" gate="A" pin="11"/>
 <wire x1="386.08" y1="165.1" x2="381" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY44" gate="G$2" pin="VCC_1"/>
