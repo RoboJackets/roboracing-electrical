@@ -44542,6 +44542,8 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 </class>
 <class number="1" name="diff pairs" width="0.2032" drill="0">
 </class>
+<class number="2" name="Power" width="0.508" drill="0">
+</class>
 </classes>
 <parts>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
