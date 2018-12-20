@@ -16111,6 +16111,7 @@ In this library you will find switches and other mechanical assisted circuit ele
 <text x="115.57" y="246.38" size="1.778" layer="97" align="center-left">DATA COLLECTION MANUAL</text>
 <text x="115.57" y="243.84" size="1.778" layer="97" align="center-left">MANUAL</text>
 <text x="115.57" y="241.554" size="1.778" layer="97" align="center-left">5V IN</text>
+<text x="35.56" y="208.28" size="1.778" layer="97">Flyback Diode</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="76.2" y="55.88" smashed="yes">
@@ -16561,9 +16562,13 @@ In this library you will find switches and other mechanical assisted circuit ele
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="35.56" y1="200.66" x2="43.18" y2="200.66" width="0.1524" layer="91"/>
-<label x="35.56" y="200.66" size="1.778" layer="95"/>
-<label x="35.56" y="200.66" size="1.778" layer="95"/>
+<wire x1="33.02" y1="200.66" x2="43.18" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="K1" gate="A" pin="1"/>
+<wire x1="30.48" y1="182.88" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
+<label x="30.48" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="200.66" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
+<junction x="33.02" y="182.88"/>
 </segment>
 <segment>
 <pinref part="K1" gate="A" pin="6"/>
@@ -16580,11 +16585,6 @@ In this library you will find switches and other mechanical assisted circuit ele
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="106.68" y="109.22" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K1" gate="A" pin="1"/>
-<wire x1="30.48" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
-<label x="30.48" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_A" class="0">
