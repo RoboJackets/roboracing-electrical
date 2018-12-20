@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -236,19 +236,44 @@ by exp-lbrs.ulp</description>
 <text x="-2.5146" y="15.2654" size="1.27" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" align="center">&gt;VALUE</text>
 </package>
-<package name="SOT230P700X180-4N">
-<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.6" y="2.3" dx="2.75" dy="0.95" layer="1"/>
-<smd name="2" x="-2.6" y="0" dx="2.75" dy="0.95" layer="1"/>
-<smd name="3" x="-2.6" y="-2.3" dx="2.75" dy="0.95" layer="1"/>
-<smd name="4" x="2.6" y="0" dx="3.25" dy="2.75" layer="1" rot="R90"/>
-<text x="0" y="-5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<package name="SOT89">
+<description>&lt;b&gt;SOT98&lt;/b&gt; PK (R-PDSO-G3)&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<smd name="1" x="-1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
+<smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
+<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
+<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
+<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
+<rectangle x1="-2.025" y1="-2.775" x2="-0.975" y2="-1.2" layer="29"/>
+<rectangle x1="0.975" y1="-2.775" x2="2.025" y2="-1.2" layer="29"/>
+<rectangle x1="-0.525" y1="-2.775" x2="0.525" y2="-1.2" layer="29"/>
+<rectangle x1="1.1" y1="-2.68" x2="1.9" y2="-1.28" layer="31"/>
+<rectangle x1="-1.9" y1="-2.68" x2="-1.1" y2="-1.28" layer="31"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -349,17 +374,16 @@ by exp-lbrs.ulp</description>
 <text x="-0.1016" y="23.0886" size="2.0828" layer="95" ratio="6" rot="SMR0" align="center">&gt;Name</text>
 <text x="0.0254" y="20.2946" size="2.0828" layer="96" ratio="6" rot="SMR0" align="center">&gt;Value</text>
 </symbol>
-<symbol name="LDL1117S50R">
-<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-5.08" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="GND" x="0" y="0" length="middle"/>
-<pin name="VOUT_1" x="0" y="-2.54" length="middle"/>
-<pin name="VIN" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="VOUT_2" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<symbol name="VOLTAGE_REG">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="OUTPUT" x="-12.7" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="GND" x="0" y="-12.7" visible="pad" length="middle" direction="pas" rot="R90"/>
+<pin name="INPUT" x="12.7" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -433,31 +457,19 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LDL1117S50R" prefix="IC">
-<description>&lt;b&gt;STMICROELECTRONICS - LDL1117S50R - LDO, FIXED, 5V, 1.2A, SOT-223-3&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.farnell.com/datasheets/2259188.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="KA78L05AIMTF">
 <gates>
-<gate name="G$1" symbol="LDL1117S50R" x="0" y="0"/>
+<gate name="G$1" symbol="VOLTAGE_REG" x="22.86" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="SOT230P700X180-4N">
+<device name="" package="SOT89">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT_1" pad="2"/>
-<connect gate="G$1" pin="VOUT_2" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2 2@1"/>
+<connect gate="G$1" pin="INPUT" pad="3"/>
+<connect gate="G$1" pin="OUTPUT" pad="1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="LDL1117S50R" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ldl1117s50r/stmicroelectronics" constant="no"/>
-<attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S50R - LDO, FIXED, 5V, 1.2A, SOT-223-3" constant="no"/>
-<attribute name="HEIGHT" value="1.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LDL1117S50R" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
