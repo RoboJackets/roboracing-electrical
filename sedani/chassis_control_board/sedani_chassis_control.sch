@@ -15976,6 +15976,7 @@ In this library you will find switches and other mechanical assisted circuit ele
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="RCVCC4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -16161,8 +16162,8 @@ In this library you will find switches and other mechanical assisted circuit ele
 <attribute name="NAME" x="86.36" y="198.12" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="96.52" y="198.12" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND8" gate="1" x="88.9" y="185.42" smashed="yes">
-<attribute name="VALUE" x="88.9" y="185.166" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="88.9" y="177.8" smashed="yes">
+<attribute name="VALUE" x="88.9" y="177.546" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LED1" gate="G$1" x="66.04" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.612" y="201.676" size="1.778" layer="95" rot="R180"/>
@@ -16186,6 +16187,10 @@ In this library you will find switches and other mechanical assisted circuit ele
 </instance>
 <instance part="RCVCC4" gate="G$1" x="45.72" y="198.12" smashed="yes" rot="R90">
 <attribute name="VALUE" x="42.926" y="198.12" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="93.98" y="187.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="95.4786" y="191.77" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="90.678" y="191.77" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -16303,14 +16308,19 @@ In this library you will find switches and other mechanical assisted circuit ele
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-<wire x1="88.9" y1="187.96" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="93.98" y1="182.88" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="180.34" x2="88.9" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="83.82" y1="187.96" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="180.34" x2="88.9" y2="180.34" width="0.1524" layer="91"/>
+<junction x="88.9" y="180.34"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -16650,6 +16660,9 @@ In this library you will find switches and other mechanical assisted circuit ele
 <wire x1="68.58" y1="203.2" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="88.9" y1="203.2" x2="88.9" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+<junction x="88.9" y="193.04"/>
 </segment>
 </net>
 <net name="SPEAKER_DISABLE" class="0">
