@@ -29271,6 +29271,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="10 uF"/>
 <part name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="47 uF"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29514,6 +29515,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C22" gate="G$1" x="121.92" y="154.94" smashed="yes">
 <attribute name="NAME" x="123.444" y="156.083" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.936" y="150.749" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="99.06" y="220.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="96.266" y="220.98" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -29786,6 +29790,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
 <junction x="58.42" y="218.44"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="220.98" x2="104.14" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
@@ -30061,12 +30070,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="LD2" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="154.94" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="220.98" x2="96.52" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
