@@ -53354,7 +53354,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="LD1" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
 <part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0603" value="1.5 A"/>
-<part name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
+<part name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="47 uF"/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MC1" library="adafruit" deviceset="ATMEGA32U4" device="-AU"/>
 <part name="C18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 nF"/>
@@ -53375,7 +53375,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
 <part name="LD3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC"/>
-<part name="VR1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LP3963?*" device="ES" package3d_urn="urn:adsk.eagle:package:16438/2" technology="-5.0" value="LP3852EMP-5.0"/>
+<part name="VR1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LP3963?*" device="ES" package3d_urn="urn:adsk.eagle:package:16438/2" technology="-5.0" value="NCP59151DS50R4G"/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
@@ -53456,7 +53456,6 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="USB1" library="microbuilder" deviceset="USB" device="MICRO_20329"/>
 <part name="P2" library="adafruit" deviceset="DCBARREL" device="PTH"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="10 uF"/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="10 uF"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
@@ -53500,7 +53499,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="126.238" y1="256.5" x2="67.818" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="126.238" y1="223.48" x2="67.818" y2="223.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="67.818" y1="224.75" x2="67.818" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
-<text x="280.924" y="229.068" size="1.778" layer="97" rot="R180">5-7VDC</text>
+<text x="280.924" y="229.068" size="1.778" layer="97" rot="R180">5-13.5VDC</text>
 <text x="404.622" y="187.92" size="1.778" layer="97" rot="R90">3.3VDC_OK</text>
 <text x="346.71" y="219.67" size="1.778" layer="97" rot="R90">REGULATED
 5VDC OK</text>
@@ -53976,10 +53975,6 @@ BLOWN</text>
 <attribute name="NAME" x="315.976" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="315.976" y="232.029" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="363.22" y="236.22" smashed="yes">
-<attribute name="NAME" x="364.236" y="236.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="364.236" y="232.029" size="1.778" layer="96"/>
-</instance>
 <instance part="R5" gate="G$1" x="248.92" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="255.27" y="143.7894" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="252.73" y="148.082" size="1.778" layer="96" rot="R180"/>
@@ -54233,15 +54228,12 @@ BLOWN</text>
 <wire x1="320.04" y1="215.9" x2="320.04" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="218.44" x2="314.96" y2="218.44" width="0.1524" layer="91"/>
 <junction x="314.96" y="218.44"/>
-<wire x1="363.22" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="218.44" x2="330.2" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="218.44" x2="327.66" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="231.14" x2="363.22" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="231.14" x2="370.84" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="218.44" x2="363.22" y2="218.44" width="0.1524" layer="91"/>
-<junction x="363.22" y="218.44"/>
 <pinref part="LD2" gate="G$1" pin="C"/>
 <wire x1="350.52" y1="226.06" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
 <junction x="350.52" y="218.44"/>
@@ -54256,7 +54248,6 @@ BLOWN</text>
 <junction x="320.04" y="218.44"/>
 <junction x="327.66" y="218.44"/>
 <pinref part="C24" gate="G$1" pin="-"/>
-<pinref part="C25" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
@@ -54988,8 +54979,7 @@ BLOWN</text>
 <net name="5VREG" class="0">
 <segment>
 <wire x1="370.84" y1="248.92" x2="378.46" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="248.92" x2="363.22" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="248.92" x2="355.6" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="248.92" x2="355.6" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="248.92" x2="350.52" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="248.92" x2="345.44" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -54999,8 +54989,6 @@ BLOWN</text>
 <wire x1="350.52" y1="246.38" x2="350.52" y2="248.92" width="0.1524" layer="91"/>
 <junction x="350.52" y="248.92"/>
 <pinref part="VR1" gate="P" pin="VOUT"/>
-<wire x1="363.22" y1="238.76" x2="363.22" y2="248.92" width="0.1524" layer="91"/>
-<junction x="363.22" y="248.92"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="355.6" y1="254" x2="355.6" y2="248.92" width="0.1524" layer="91"/>
 <junction x="355.6" y="248.92"/>
@@ -55013,7 +55001,6 @@ BLOWN</text>
 <wire x1="370.84" y1="248.92" x2="370.84" y2="254" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="254" x2="375.92" y2="254" width="0.1524" layer="91"/>
 <label x="375.92" y="254" size="1.016" layer="95" xref="yes"/>
-<pinref part="C25" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="P2" gate="G$1" pin="PWR"/>
