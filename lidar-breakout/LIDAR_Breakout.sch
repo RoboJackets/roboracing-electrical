@@ -53460,6 +53460,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
+<part name="U$1" library="RoboJackets-Aesthetics" deviceset="ROBOBUZZ" device="0.4X"/>
 </parts>
 <sheets>
 <sheet>
