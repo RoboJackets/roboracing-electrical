@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-01-11T16:49:41Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.6714,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "LIDAR_Breakout"
+        },
+        "Owner": "Austin Keener <akeener@outlook.com>",
+        "Size": {
+            "X": 36.5,
+            "Y": 88
+        }
+    }
+}

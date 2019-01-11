@@ -53460,7 +53460,6 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7 kΩ"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="U$1" library="RoboJackets-Aesthetics" deviceset="ROBOBUZZ" device="0.4X"/>
 </parts>
 <sheets>
 <sheet>
@@ -54634,6 +54633,7 @@ BLOWN</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="246.38" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
+<probe x="104.14" y="246.38" size="1.778" layer="89" probetype="0"/>
 </segment>
 </net>
 <net name="LDR0_EN" class="0">
