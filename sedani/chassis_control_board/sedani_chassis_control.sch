@@ -26778,6 +26778,9 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
 <part name="J21" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SPEED_SENS"/>
+<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -27024,6 +27027,18 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <instance part="J21" gate="J$1" x="386.08" y="223.52" smashed="yes" rot="R180">
 <attribute name="VALUE" x="388.62" y="230.886" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="388.62" y="217.932" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="TP2" gate="G$1" x="111.76" y="170.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="105.41" y="171.196" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="109.22" y="168.91" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP3" gate="G$1" x="45.72" y="213.36" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.37" y="214.376" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="43.18" y="212.09" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP4" gate="G$1" x="45.72" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.37" y="194.056" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="43.18" y="191.77" size="1.778" layer="97" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -27275,7 +27290,8 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <label x="106.68" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="167.64" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -27286,6 +27302,9 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <junction x="121.92" y="167.64"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="114.3" y1="170.18" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<junction x="114.3" y="167.64"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -27411,6 +27430,9 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <junction x="58.42" y="208.28"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <junction x="63.5" y="208.28"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="213.36" x2="53.34" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="213.36" x2="53.34" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIRELESS_D3" class="0">
@@ -27586,6 +27608,9 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <label x="50.8" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <junction x="63.5" y="198.12"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="193.04" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
