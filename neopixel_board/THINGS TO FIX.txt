@@ -7,11 +7,11 @@ DONE - Name each NeoPixel data line something unique (NEO_1 etc.)
 
 DONE - Switch the 1000 uF ceramic to electrolytic (because the ceramics don't exist)
 
-Name components in order (Don't go from R1 to R5 for example. Click the ULP, then BOM to get list of components)
+DONE - Name components in order (Don't go from R1 to R5 for example. Click the ULP, then BOM to get list of components)
 
 DONE - Add fuse to screw terminal input rated for whole board
 
-Change LED names to LD1 instead of D1 (to distinguish from diodes)
+DONE - Change LED names to LD1 instead of D1 (to distinguish from diodes)
 
 Add BP capacitor to 3.3V micro controller
 
@@ -21,7 +21,7 @@ DONE - Use Ground symbol instead of tag
 
 DONE - Add title block
 
-Put the omega symbol for resistor value
+DONE - Put the omega symbol for resistor value
 
 Make all labels tags of a consistent size
 
