@@ -26838,6 +26838,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
+<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -27097,6 +27098,10 @@ In this library you will find diodes and other circuit protection elements.
 <attribute name="NAME" x="101.6" y="63.5" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="TP5" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.21" y="138.176" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="33.02" y="135.89" size="1.778" layer="97" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27311,6 +27316,9 @@ In this library you will find diodes and other circuit protection elements.
 <pinref part="RCVCC3" gate="G$1" pin="VCC"/>
 <wire x1="27.94" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <label x="25.4" y="142.24" size="1.778" layer="95"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="38.1" y1="137.16" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<junction x="38.1" y="142.24"/>
 </segment>
 </net>
 <net name="MUX_SEL_READ" class="0">
