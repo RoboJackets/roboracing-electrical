@@ -26700,6 +26700,62 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 </deviceset>
 </devicesets>
 </library>
+<library name="RoboJackets-Diodes">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Diodes&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find diodes and other circuit protection elements.
+&lt;/p&gt;</description>
+<packages>
+<package name="SOD-323">
+<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY">
+<wire x1="1.27" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.508" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="1.27" y1="-0.508" x2="0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SCHOTTKY" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD-323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26781,6 +26837,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
 </parts>
 <sheets>
 <sheet>
@@ -26847,9 +26904,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <instance part="GND2" gate="1" x="251.46" y="154.94" smashed="yes">
 <attribute name="VALUE" x="251.46" y="154.686" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="RCVCC1" gate="G$1" x="261.62" y="254" smashed="yes">
-<attribute name="VALUE" x="261.62" y="256.794" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="RCVCC1" gate="G$1" x="261.62" y="254" smashed="yes"/>
 <instance part="J19" gate="J$1" x="388.62" y="101.6" smashed="yes" rot="R180">
 <attribute name="VALUE" x="391.16" y="108.966" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="391.16" y="96.012" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -26882,8 +26937,8 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <instance part="GND5" gate="1" x="48.26" y="66.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="48.26" y="66.294" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="101.6" y="60.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="104.394" y="60.96" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="114.3" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="117.094" y="60.96" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="228.6" y="215.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="231.394" y="215.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
@@ -26993,9 +27048,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <instance part="GND9" gate="1" x="73.66" y="134.62" smashed="yes">
 <attribute name="VALUE" x="73.66" y="134.366" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="RCVCC3" gate="G$1" x="27.94" y="142.24" smashed="yes" rot="R90">
-<attribute name="VALUE" x="25.146" y="142.24" size="1.778" layer="96" rot="R180" align="bottom-center"/>
-</instance>
+<instance part="RCVCC3" gate="G$1" x="27.94" y="142.24" smashed="yes" rot="R90"/>
 <instance part="SUPPLY6" gate="G$1" x="132.08" y="167.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.874" y="167.64" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
@@ -27039,6 +27092,10 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <instance part="TP4" gate="G$1" x="45.72" y="193.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="194.056" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="43.18" y="191.77" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="D4" gate="G$1" x="101.6" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.6" y="63.5" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -27188,7 +27245,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="86.36" y1="190.5" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC_6V" class="0">
 <segment>
 <pinref part="J15" gate="J$1" pin="2"/>
 <wire x1="355.6" y1="175.26" x2="398.78" y2="175.26" width="0.1524" layer="91"/>
@@ -27236,6 +27293,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="223.52" y1="162.56" x2="261.62" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="162.56" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
 <junction x="261.62" y="177.8"/>
+<label x="261.62" y="256.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J19" gate="J$1" pin="2"/>
@@ -27252,6 +27310,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="38.1" y1="142.24" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="RCVCC3" gate="G$1" pin="VCC"/>
 <wire x1="27.94" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<label x="25.4" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MUX_SEL_READ" class="0">
@@ -27277,12 +27336,6 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <pinref part="J17" gate="J$1" pin="2"/>
 <wire x1="213.36" y1="73.66" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="VCC"/>
-<wire x1="88.9" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -27320,6 +27373,11 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <pinref part="J21" gate="J$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <wire x1="378.46" y1="223.52" x2="368.3" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<wire x1="106.68" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
@@ -27611,6 +27669,15 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <pinref part="TP4" gate="G$1" pin="TP"/>
 <wire x1="48.26" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="193.04" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="VCC"/>
+<wire x1="93.98" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
