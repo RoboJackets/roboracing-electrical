@@ -26850,6 +26850,46 @@ In this library you will find diodes and other circuit protection elements.
 <text x="115.57" y="241.554" size="1.778" layer="97" align="center-left">5V IN</text>
 <text x="97.79" y="138.39" size="1.778" layer="97" rot="R90">REGULATED
 5VDC OK</text>
+<wire x1="33.02" y1="269.24" x2="33.02" y2="185.42" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="33.02" y1="185.42" x2="157.48" y2="185.42" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="157.48" y1="185.42" x2="157.48" y2="269.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="157.48" y1="269.24" x2="33.02" y2="269.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="20.32" y1="129.54" x2="20.32" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="20.32" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="142.24" y1="182.88" x2="142.24" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="142.24" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="147.32" x2="208.28" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="271.78" x2="304.8" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="304.8" y1="271.78" x2="304.8" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="304.8" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="345.44" y1="213.36" x2="345.44" y2="241.3" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="345.44" y1="241.3" x2="393.7" y2="241.3" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="393.7" y1="241.3" x2="393.7" y2="213.36" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="393.7" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="403.86" y1="208.28" x2="335.28" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="335.28" y1="208.28" x2="335.28" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="335.28" y1="139.7" x2="403.86" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="403.86" y1="139.7" x2="403.86" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="5.08" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="144.78" y1="104.14" x2="144.78" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="144.78" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="200.66" y1="43.18" x2="200.66" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="200.66" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="259.08" y1="91.44" x2="259.08" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="259.08" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="347.98" y1="116.84" x2="347.98" y2="66.04" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="347.98" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="401.32" y1="66.04" x2="401.32" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="401.32" y1="116.84" x2="347.98" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
+<text x="124.46" y="261.62" size="5.08" layer="97">E-Stop</text>
+<text x="220.98" y="261.62" size="5.08" layer="97">Headers</text>
+<text x="347.98" y="233.68" size="5.08" layer="97">Speed Sensor</text>
+<text x="236.22" y="73.66" size="5.08" layer="97">Audio
+Board</text>
+<text x="104.14" y="96.52" size="5.08" layer="97">Pro Micro</text>
+<text x="360.68" y="71.12" size="5.08" layer="97">PWM Output</text>
+<text x="27.94" y="175.26" size="5.08" layer="97">5V Regulator</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="76.2" y="55.88" smashed="yes">
@@ -27010,17 +27050,17 @@ In this library you will find diodes and other circuit protection elements.
 <attribute name="NAME" x="105.6386" y="201.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="100.838" y="201.93" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="S2" gate="G$1" x="86.36" y="101.6" smashed="yes">
-<attribute name="NAME" x="81.28" y="105.41" size="2.54" layer="95" font="vector"/>
-<attribute name="VALUE" x="86.36" y="100.33" size="2.54" layer="96" font="vector" ratio="15" align="top-center"/>
-<attribute name="FUNCTION" x="86.36" y="97.282" size="1.27" layer="97" ratio="10" align="top-center"/>
+<instance part="S2" gate="G$1" x="43.18" y="86.36" smashed="yes">
+<attribute name="NAME" x="38.1" y="90.17" size="2.54" layer="95" font="vector"/>
+<attribute name="VALUE" x="43.18" y="85.09" size="2.54" layer="96" font="vector" ratio="15" align="top-center"/>
+<attribute name="FUNCTION" x="43.18" y="82.042" size="1.27" layer="97" ratio="10" align="top-center"/>
 </instance>
-<instance part="GND13" gate="1" x="73.66" y="99.06" smashed="yes">
-<attribute name="VALUE" x="73.66" y="98.806" size="1.778" layer="96" align="top-center"/>
+<instance part="GND13" gate="1" x="30.48" y="83.82" smashed="yes">
+<attribute name="VALUE" x="30.48" y="83.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="99.06" y="109.22" smashed="yes">
-<attribute name="NAME" x="95.25" y="110.7186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="105.918" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="55.88" y="93.98" smashed="yes">
+<attribute name="NAME" x="52.07" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="90.678" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="91.44" y="198.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.9386" y="201.93" size="1.778" layer="95" rot="R270"/>
@@ -27215,7 +27255,7 @@ In this library you will find diodes and other circuit protection elements.
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -27347,8 +27387,8 @@ In this library you will find diodes and other circuit protection elements.
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="106.68" y="109.22" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="63.5" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
@@ -27603,12 +27643,12 @@ In this library you will find diodes and other circuit protection elements.
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="99.06" y="101.6" size="1.778" layer="95" xref="yes"/>
+<wire x1="48.26" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="55.88" y="86.36" size="1.778" layer="95" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="109.22" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<junction x="93.98" y="101.6"/>
+<wire x1="50.8" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="93.98" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<junction x="50.8" y="86.36"/>
 </segment>
 </net>
 <net name="VIN" class="0">
