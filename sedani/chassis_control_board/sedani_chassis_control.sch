@@ -26813,13 +26813,13 @@ In this library you will find diodes and other circuit protection elements.
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="S2" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="LD2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
 <part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0603" value="1.5 A"/>
 <part name="VR1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LP3963?*" device="ES" package3d_urn="urn:adsk.eagle:package:16438/2" technology="-5.0" value="NCP59151DS50R4G"/>
-<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_FUSE" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RCVCC3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -26831,11 +26831,11 @@ In this library you will find diodes and other circuit protection elements.
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
 <part name="J21" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SPEED_SENS"/>
-<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
-<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_5V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_OUT_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_MUX_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_6V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
 <part name="LIGHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -27075,7 +27075,7 @@ Board</text>
 <attribute name="NAME" x="90.678" y="155.194" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.676" y="171.196" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="60.96" y="170.18" smashed="yes" rot="R270">
+<instance part="TP_FUSE" gate="G$1" x="60.96" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.61" y="171.196" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="58.42" y="168.91" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -27115,15 +27115,15 @@ Board</text>
 <attribute name="VALUE" x="388.62" y="230.886" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="388.62" y="217.932" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="TP2" gate="G$1" x="111.76" y="170.18" smashed="yes" rot="R270">
+<instance part="TP_5V" gate="G$1" x="111.76" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="105.41" y="171.196" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="109.22" y="168.91" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP3" gate="G$1" x="63.5" y="213.36" smashed="yes" rot="R270">
+<instance part="TP_OUT_ESC" gate="G$1" x="63.5" y="213.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.15" y="214.376" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="60.96" y="212.09" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP4" gate="G$1" x="63.5" y="193.04" smashed="yes" rot="R270">
+<instance part="TP_MUX_ESC" gate="G$1" x="63.5" y="193.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.15" y="194.056" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="60.96" y="191.77" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -27131,7 +27131,7 @@ Board</text>
 <attribute name="NAME" x="101.6" y="63.5" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TP5" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="R270">
+<instance part="TP_6V" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.21" y="138.176" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="33.02" y="135.89" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -27364,7 +27364,7 @@ Board</text>
 <pinref part="RCVCC3" gate="G$1" pin="VCC"/>
 <wire x1="27.94" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <label x="25.4" y="142.24" size="1.778" layer="95"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="TP_6V" gate="G$1" pin="TP"/>
 <wire x1="38.1" y1="137.16" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <junction x="38.1" y="142.24"/>
 </segment>
@@ -27411,7 +27411,7 @@ Board</text>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <junction x="121.92" y="167.64"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="TP_5V" gate="G$1" pin="TP"/>
 <wire x1="114.3" y1="170.18" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
 <junction x="114.3" y="167.64"/>
 </segment>
@@ -27549,7 +27549,7 @@ Board</text>
 <junction x="76.2" y="208.28"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <junction x="81.28" y="208.28"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="TP_OUT_ESC" gate="G$1" pin="TP"/>
 <wire x1="66.04" y1="213.36" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="213.36" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
 </segment>
@@ -27681,7 +27681,7 @@ Board</text>
 <wire x1="68.58" y1="162.56" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
 <junction x="68.58" y="167.64"/>
 <junction x="68.58" y="162.56"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="TP_FUSE" gate="G$1" pin="TP"/>
 <wire x1="63.5" y1="170.18" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
 <junction x="63.5" y="167.64"/>
 <pinref part="C1" gate="G$1" pin="+"/>
@@ -27707,7 +27707,7 @@ Board</text>
 <label x="68.58" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <junction x="81.28" y="198.12"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="TP_MUX_ESC" gate="G$1" pin="TP"/>
 <wire x1="66.04" y1="193.04" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="193.04" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
 </segment>
