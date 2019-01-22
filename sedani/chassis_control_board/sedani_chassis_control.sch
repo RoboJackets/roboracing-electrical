@@ -26839,6 +26839,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
 <part name="LIGHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -27144,6 +27145,10 @@ Board</text>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="121.92" y="213.36" smashed="yes" rot="R270">
 <attribute name="VALUE" x="124.714" y="213.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="TP6" gate="G$1" x="76.2" y="236.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.55" y="235.204" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="78.74" y="237.49" size="1.778" layer="97" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -27629,13 +27634,17 @@ Board</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="68.58" y1="223.52" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="243.84" x2="68.58" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="243.84" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="243.84" x2="68.58" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="236.22" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="233.68" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="233.68" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
 <junction x="68.58" y="233.68"/>
 <junction x="68.58" y="223.52"/>
 <label x="71.12" y="223.52" size="1.778" layer="95"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="73.66" y1="236.22" x2="68.58" y2="236.22" width="0.1524" layer="91"/>
+<junction x="68.58" y="236.22"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0"/>
