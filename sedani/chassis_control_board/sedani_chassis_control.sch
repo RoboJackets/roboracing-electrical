@@ -7600,13 +7600,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:15796/1" type="box" library_version="2">
-<description>CHICAGO MINIATURE LAMP, INC.
-7022X Series SMT LEDs 1206 Package Size</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
 <package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box" library_version="2">
 <description>LED
 5 mm, square, Siemens</description>
@@ -7895,16 +7888,22 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <packageinstance name="SML0603"/>
 </packageinstances>
 </package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model" library_version="4">
+<description>CHICAGO MINIATURE LAMP, INC.
+7022X Series SMT LEDs 1206 Package Size</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/1" library_version="2">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="4">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
@@ -7924,7 +7923,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/7" prefix="LED" uservalue="yes" library_version="2">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/9" prefix="LED" uservalue="yes" library_version="4">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -8010,7 +8009,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -26812,8 +26811,6 @@ In this library you will find diodes and other circuit protection elements.
 <attribute name="TEAM" value="RoboRacing"/>
 </part>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="S2" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
@@ -26839,6 +26836,9 @@ In this library you will find diodes and other circuit protection elements.
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
+<part name="LIGHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27042,14 +27042,6 @@ Board</text>
 <instance part="GND8" gate="1" x="91.44" y="187.96" smashed="yes">
 <attribute name="VALUE" x="91.44" y="187.706" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED1" gate="G$1" x="104.14" y="210.82" smashed="yes">
-<attribute name="NAME" x="102.616" y="208.788" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.855" y="206.248" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1" gate="G$1" x="104.14" y="198.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="105.6386" y="201.93" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="100.838" y="201.93" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="S2" gate="G$1" x="43.18" y="86.36" smashed="yes">
 <attribute name="NAME" x="38.1" y="90.17" size="2.54" layer="95" font="vector"/>
 <attribute name="VALUE" x="43.18" y="85.09" size="2.54" layer="96" font="vector" ratio="15" align="top-center"/>
@@ -27093,8 +27085,8 @@ Board</text>
 <instance part="SUPPLY6" gate="G$1" x="132.08" y="167.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.874" y="167.64" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND10" gate="1" x="104.14" y="187.96" smashed="yes">
-<attribute name="VALUE" x="104.14" y="187.706" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="109.22" y="187.96" smashed="yes">
+<attribute name="VALUE" x="109.22" y="187.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R5" gate="G$1" x="76.2" y="213.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.6986" y="217.17" size="1.778" layer="95" rot="R270"/>
@@ -27141,6 +27133,17 @@ Board</text>
 <instance part="TP5" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.21" y="138.176" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="33.02" y="135.89" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="Q2" gate="G$1" x="109.22" y="198.12" smashed="yes">
+<attribute name="VALUE" x="111.76" y="198.12" size="1.778" layer="96"/>
+<attribute name="NAME" x="111.76" y="200.66" size="1.778" layer="95"/>
+</instance>
+<instance part="LIGHT" gate="G$1" x="109.22" y="210.82" smashed="yes">
+<attribute name="NAME" x="112.776" y="206.248" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="114.935" y="206.248" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="121.92" y="213.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="124.714" y="213.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -27286,8 +27289,8 @@ Board</text>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="190.5" x2="104.14" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="109.22" y1="190.5" x2="109.22" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_6V" class="0">
@@ -27426,6 +27429,11 @@ Board</text>
 <pinref part="J1" gate="G$1" pin="6"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <wire x1="104.14" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY8" gate="G$1" pin="5V"/>
+<pinref part="LIGHT" gate="G$1" pin="A"/>
+<wire x1="121.92" y1="213.36" x2="109.22" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
@@ -27679,13 +27687,6 @@ Board</text>
 <wire x1="101.6" y1="154.94" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="203.2" x2="104.14" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-</segment>
-</net>
 <net name="MUX_ESC" class="0">
 <segment>
 <pinref part="J10" gate="J$1" pin="3"/>
@@ -27715,22 +27716,30 @@ Board</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="203.2" x2="91.44" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="213.36" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="213.36" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="220.98" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
 <junction x="86.36" y="203.2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="86.36" y1="208.28" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="200.66" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="220.98" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
-<junction x="86.36" y="213.36"/>
 <label x="88.9" y="213.36" size="1.778" layer="95"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="104.14" y1="195.58" x2="104.14" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="208.28" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
+<junction x="86.36" y="208.28"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*10"/>
 <wire x1="91.44" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <label x="91.44" y="43.18" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="LIGHT" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="109.22" y1="205.74" x2="109.22" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
