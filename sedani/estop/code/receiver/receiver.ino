@@ -1,21 +1,5 @@
-// **********************************************************************************
-//
-//            !!!!     ATTENTION:    !!!!
-//
-// This is just a simple receiving sketch that will work with most examples
-// in the RFM69 library.
-//
-// If you're looking for the Gateway sketch to use with your RaspberryPi,
-// as part of the PiGateway software interface (lowpowerlab.com/gateway),
-// this is the wrong sketch.
-//
-// Use this sketch instead: PiGateway:
-// https://github.com/LowPowerLab/RFM69/blob/master/Examples/PiGateway/PiGateway.ino
-// **********************************************************************************
-
 // Sample RFM69 receiver/gateway sketch, with ACK and optional encryption, and Automatic Transmission Control
 // Passes through any wireless received messages to the serial port & responds to ACKs
-// It also looks for an onboard FLASH chip, if present
 // **********************************************************************************
 // Copyright Felix Rusu 2016, http://www.LowPowerLab.com/contact
 // **********************************************************************************
@@ -41,7 +25,6 @@
 // **********************************************************************************
 #include <RFM69.h>         //get it here: https://www.github.com/lowpowerlab/rfm69
 #include <RFM69_ATC.h>     //get it here: https://www.github.com/lowpowerlab/rfm69
-#include <SPIFlash.h>      //get it here: https://www.github.com/lowpowerlab/spiflash
 #include <SPI.h>           //included with Arduino IDE install (www.arduino.cc)
 
 //*********************************************************************************************
@@ -76,9 +59,9 @@ const static bool promiscuousMode = false; //set to 'true' to sniff all packets 
 #define SERIAL_BAUD   115200
 
 #ifdef ENABLE_ATC
-    RFM69_ATC radio;
+RFM69_ATC radio;
 #else
-    RFM69 radio;
+RFM69 radio;
 #endif
 
 void setup() {
@@ -92,20 +75,6 @@ void setup() {
     char buff[50];
     sprintf(buff, "\nListening at %d Mhz...", FREQUENCY==RF69_433MHZ ? 433 : FREQUENCY==RF69_868MHZ ? 868 : 915);
     Serial.println(buff);
-    if (flash.initialize()) {
-        Serial.print("SPI Flash Init OK. Unique MAC = [");
-        flash.readUniqueId();
-        for (byte i=0;i<8;i++)
-        {
-            Serial.print(flash.UNIQUEID[i], HEX);
-            if (i!=8) Serial.print(':');
-        }
-        Serial.println(']');
-        
-    }
-    else {
-        Serial.println("SPI Flash MEM not found (is chip soldered?)...");
-    }
         
 #ifdef ENABLE_ATC
     Serial.println("RFM69_ATC Enabled (Auto Transmission Control)");

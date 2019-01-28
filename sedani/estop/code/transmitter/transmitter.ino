@@ -1,3 +1,4 @@
+//Hookup Guide: https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide
 // Sample RFM69 sender/node sketch, with ACK and optional encryption, and Automatic Transmission Control
 // Sends periodic messages of increasing length to gateway (id=1)
 // It also looks for an onboard FLASH chip, if present
@@ -26,7 +27,6 @@
 // **********************************************************************************
 #include <RFM69.h>         //get it here: https://www.github.com/lowpowerlab/rfm69
 #include <RFM69_ATC.h>     //get it here: https://www.github.com/lowpowerlab/rfm69
-#include <SPIFlash.h>      //get it here: https://www.github.com/lowpowerlab/spiflash
 #include <SPI.h>           //included with Arduino IDE install (www.arduino.cc)
 
 //*********************************************************************************************
@@ -70,9 +70,9 @@ char buff[20];
 SPIFlash flash(SS_FLASHMEM, 0xEF30); //EF30 for 4mbit    Windbond chip (W25X40CL)
 
 #ifdef ENABLE_ATC
-    RFM69_ATC radio;
+RFM69_ATC radio;
 #else
-    RFM69 radio;
+RFM69 radio;
 #endif
 
 void setup() {
@@ -94,27 +94,13 @@ void setup() {
     sprintf(buff, "\nTransmitting at %d Mhz...", FREQUENCY==RF69_433MHZ ? 433 : FREQUENCY==RF69_868MHZ ? 868 : 915);
     Serial.println(buff);
 
-    if (flash.initialize())
-    {
-        Serial.print("SPI Flash Init OK ... UniqueID (MAC): ");
-        flash.readUniqueId();
-        for (byte i=0;i<8;i++)
-        {
-            Serial.print(flash.UNIQUEID[i], HEX);
-            Serial.print(' ');
-        }
-        Serial.println();
-    }
-    else
-        Serial.println("SPI Flash MEM not found (is chip soldered?)...");
-
 #ifdef ENABLE_ATC
     Serial.println("RFM69_ATC Enabled (Auto Transmission Control)\n");
 #endif
 }
 
 
-bool go = true;
+bool go = false;
 unsigned int lastPeriod = 0;
 unsigned int currPeriod;
 
