@@ -2527,9 +2527,9 @@ design rules under a new name.</description>
 <wire x1="6.683" y1="4.691" x2="4.75925625" y2="3.9458" width="0" layer="19" extent="1-1"/>
 <wire x1="3.683" y1="8.516" x2="3.683" y2="10.6035" width="0" layer="19" extent="1-1"/>
 <wire x1="3.683" y1="6.216" x2="3.683" y2="4.1285" width="0" layer="19" extent="1-1"/>
-<wire x1="40.869" y1="7.076" x2="37.47" y2="7.67" width="0" layer="19" extent="1-1"/>
 <wire x1="6.358" y1="8.666" x2="3.683" y2="8.516" width="0" layer="19" extent="1-1"/>
 <wire x1="6.683" y1="10.041" x2="6.358" y2="8.666" width="0" layer="19" extent="1-1"/>
+<wire x1="40.869" y1="7.076" x2="37.47" y2="7.67" width="0" layer="19" extent="1-1"/>
 <wire x1="33.274" y1="10.502" x2="37.47" y2="10.29" width="0" layer="19" extent="1-1"/>
 <wire x1="32.978" y1="14.415" x2="33.274" y2="10.502" width="0" layer="19" extent="1-1"/>
 <wire x1="33.147" y1="6.057" x2="33.274" y2="10.502" width="0" layer="19" extent="1-1"/>
