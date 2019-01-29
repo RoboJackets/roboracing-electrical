@@ -54,8 +54,8 @@
 // If including an int timestamp, add 2
 //Timestamp will be last 2 bytes
 const static byte expectedMessageLength = CODE_LENGTH;
-const static uint8_t[CODE_LENGTH] eStopCode = {118, 187, 180, 208, 238, 135, 85};
-const static uint8_t[CODE_LENGTH] goCode = {197, 254, 146, 31, 32, 106, 81};
+const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85};
+const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
 
 const static bool promiscuousMode = false; //set to 'true' to sniff all packets on the same network
 #define SERIAL_BAUD   115200
@@ -66,8 +66,12 @@ RFM69_ATC radio;
 RFM69 radio;
 #endif
 
+#define OUTPUT_LED 5
+
+bool arrayCompare(uint8_t, uint8_t, unsigned int);
+
 void setup() {
-    pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(OUTPUT_LED, OUTPUT);
     
     Serial.begin(SERIAL_BAUD);
     delay(10);
@@ -141,16 +145,18 @@ void loop() {
         //Decode message and verify e-stop stuff
         messageValid = false;
         if (expectedMessageLength == radio.DATALEN){
-            if(arrayCompare(radio.DATA, goCode, CODE_LENGTH){
+            if(arrayCompare(radio.DATA, goCode, CODE_LENGTH)){
                 go = true;
                 messageValid = true;
             }
-            else if (arrayCompare(radio.DATA, eStopCode, CODE_LENGTH){
+            else if (arrayCompare(radio.DATA, eStopCode, CODE_LENGTH)){
                 go = false;
                 messageValid = true;
             }
             else{
                 Serial.println("Invalid message received");
+            }
+        }
         else {
             Serial.println("Message length incorrect");
         }
@@ -171,13 +177,13 @@ void loop() {
     
     //
     if (go){
-        digitalWrite(LED_BUILTIN, HIGH);
+        digitalWrite(OUTPUT_LED, HIGH);
     }
 }
 //From https://forum.arduino.cc/index.php?topic=5157.0
 //numberOfElements MUST be less than the length of the two arrays
 bool arrayCompare(uint8_t *a, uint8_t *b, unsigned int numberOfElements){
-    for (n=0;n<numberOfElements;n++){
+    for (unsigned int n=0;n<numberOfElements;n++){
         if (a[n]!=b[n]){
             return false;
         }

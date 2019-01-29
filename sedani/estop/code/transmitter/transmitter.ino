@@ -53,8 +53,8 @@
 
 //MAKE SURE TO KEEP THIS THE SAME AS RECIEVER
 #define CODE_LENGTH 7
-const static uint8_t[CODE_LENGTH] eStopCode = {118, 187, 180, 208, 238, 135, 85};
-const static uint8_t[CODE_LENGTH] goCode = {197, 254, 146, 31, 32, 106, 81};
+const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85};
+const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
 
 //Payload is the code (go or stop) to send
 // If including an int timestamp, add 2
@@ -68,7 +68,6 @@ uint8_t payload[payloadLength];
 
 //Not sure what this does
 char buff[20];
-SPIFlash flash(SS_FLASHMEM, 0xEF30); //EF30 for 4mbit    Windbond chip (W25X40CL)
 
 #ifdef ENABLE_ATC
 RFM69_ATC radio;
