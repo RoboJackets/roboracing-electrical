@@ -247,14 +247,6 @@
 <package name="CON2_1X2_TR_SSQ">
 <pad name="1" x="-1.27" y="0" drill="1.016" diameter="1.524" rot="R270"/>
 <pad name="2" x="1.27" y="0" drill="1.016" diameter="1.524" rot="R270"/>
-<wire x1="-2.921" y1="-0.127" x2="-2.3622" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-0.127" x2="2.921" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="10.16" x2="-2.921" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="10.16" x2="-2.921" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.127" x2="0.1778" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="2.3622" y1="-0.127" x2="2.921" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.905" x2="-1.651" y2="-1.905" width="0.508" layer="21" curve="-180"/>
-<wire x1="-1.651" y1="-1.905" x2="-0.889" y2="-1.905" width="0.508" layer="21" curve="-180"/>
 <wire x1="-2.794" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.524" y1="0" x2="-1.016" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.016" y1="0" x2="2.794" y2="0" width="0.1524" layer="51"/>
@@ -263,9 +255,7 @@
 <wire x1="-2.794" y1="10.033" x2="-2.794" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-1.524" y1="0" x2="-1.016" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.889" y1="-1.905" x2="-1.651" y2="-1.905" width="0.508" layer="22" curve="-180"/>
-<wire x1="-1.651" y1="-1.905" x2="-0.889" y2="-1.905" width="0.508" layer="22" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="-3.175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="THOLE_SOURCE">
 <description>Through-hole connector source to board 11AWG</description>
@@ -677,6 +667,17 @@
 <smd name="P$1" x="3" y="2.675" dx="0.01" dy="0.01" layer="1"/>
 <smd name="P$2" x="3" y="-2.675" dx="0.01" dy="0.01" layer="1"/>
 </package>
+<package name="3557-2">
+<pad name="1" x="-6.735" y="1.7" drill="1.75"/>
+<pad name="2" x="-6.735" y="-1.7" drill="1.75"/>
+<pad name="4" x="6.735" y="1.7" drill="1.75"/>
+<pad name="3" x="6.735" y="-1.7" drill="1.75"/>
+<wire x1="-9.905" y1="3.365" x2="9.905" y2="3.365" width="0.127" layer="21"/>
+<wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.127" layer="21"/>
+<text x="-10" y="-4.75" size="1" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="UA7805CKC">
@@ -877,6 +878,14 @@
 <pin name="5" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="SHIELD" x="10.16" y="-10.16" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="FUSE-1">
+<pin name="1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UA7805CKCT" prefix="U">
@@ -1056,6 +1065,25 @@
 <attribute name="MF" value="Molex"/>
 <attribute name="MP" value="47589-0001"/>
 <attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3557-2" prefix="XF" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FUSE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3557-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="36-3557-2-ND" constant="no"/>
+<attribute name="MPN" value="3557-2" constant="no"/>
 </technology>
 </technologies>
 </device>
