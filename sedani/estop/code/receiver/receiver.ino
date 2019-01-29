@@ -1,7 +1,4 @@
-// Sample RFM69 receiver/gateway sketch, with ACK and optional encryption, and Automatic Transmission Control
-// Passes through any wireless received messages to the serial port & responds to ACKs
-// **********************************************************************************
-// Copyright Felix Rusu 2016, http://www.LowPowerLab.com/contact
+//Modified from sample sketch by Felix Rusu 2016, http://www.LowPowerLab.com/contact
 // **********************************************************************************
 // License
 // **********************************************************************************
@@ -52,13 +49,14 @@
 //How many ms before we decide the connection is lost
 #define E_STOP_TIMEOUT 500
 
-//MAKE SURE TO KEEP THIS THE SAME AS RECIEVER
+//MAKE SURE TO KEEP THESE CODES THE SAME AS RECIEVER
 #define CODE_LENGTH 7
-const static byte expectedMessageLength = CODE_LENGTH + 2;
-const static char[CODE_LENGTH] eStopCode = "DeL8Ycr";
-const static char[CODE_LENGTH] goCode = "YoYPwW7";
+// If including an int timestamp, add 2
+//Timestamp will be last 2 bytes
+const static byte expectedMessageLength = CODE_LENGTH;
+const static uint8_t[CODE_LENGTH] eStopCode = {118, 187, 180, 208, 238, 135, 85};
+const static uint8_t[CODE_LENGTH] goCode = {197, 254, 146, 31, 32, 106, 81};
 
-SPIFlash flash(SS_FLASHMEM, 0xEF30); //EF30 for 4mbit    Windbond chip (W25X40CL)
 const static bool promiscuousMode = false; //set to 'true' to sniff all packets on the same network
 #define SERIAL_BAUD   115200
 
@@ -69,8 +67,11 @@ RFM69 radio;
 #endif
 
 void setup() {
+    pinMode(LED_BUILTIN, OUTPUT);
+    
     Serial.begin(SERIAL_BAUD);
     delay(10);
+    
     radio.initialize(FREQUENCY,NODEID,NETWORKID);
     radio.setHighPower(); //must include this only for RFM69HW/HCW!
     radio.encrypt(ENCRYPTKEY);
@@ -90,10 +91,8 @@ uint32_t packetCount = 0;
 
 //Record when the last command was
 unsigned long lastCommandTime = 0;
-//Record what number the last command was
-unsigned int lastCommandNumber = 0;
-unsigned int currentCommandNumber;
-//Record if the last message was valid
+
+//Record if the message is valid
 bool messageValid = false;
 
 //Should the e-stop let the car go or not?
@@ -159,28 +158,25 @@ void loop() {
         
         //Check if message is most recent. If not, fail message. If so, update times.
         if (messageValid){
-            currentCommandNumber = word(radio.DATA[CODE_LENGTH], radio.DATA[CODE_LENGTH + 1]);
-            //Check if this is most recent seen
-            if (currentCommandNumber > lastCommandNumber){
-                lastCommandNumber = currentCommandNumber;
-                lastCommandTime = millis();
-            }
-            else {
-                messageValid = false;
-            }
+            lastCommandTime = millis();
         }
                 
         Serial.println();
     }
+    
     //Check if E_STOP is timed out
     if (millis() > lastCommandTime + E_STOP_TIMEOUT){
         go = false;
     }
+    
+    //
+    if (go){
+        digitalWrite(LED_BUILTIN, HIGH);
+    }
 }
 //From https://forum.arduino.cc/index.php?topic=5157.0
 //numberOfElements MUST be less than the length of the two arrays
-bool arrayCompare(int *a, int *b, unsigned int numberOfElements){
-    if (numberOfElements > sizeof
+bool arrayCompare(uint8_t *a, uint8_t *b, unsigned int numberOfElements){
     for (n=0;n<numberOfElements;n++){
         if (a[n]!=b[n]){
             return false;

@@ -1,9 +1,5 @@
 //Hookup Guide: https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide
-// Sample RFM69 sender/node sketch, with ACK and optional encryption, and Automatic Transmission Control
-// Sends periodic messages of increasing length to gateway (id=1)
-// It also looks for an onboard FLASH chip, if present
-// **********************************************************************************
-// Copyright Felix Rusu 2018, http://www.LowPowerLab.com/contact
+//Modified from sample sketch by Felix Rusu 2016, http://www.LowPowerLab.com/contact
 // **********************************************************************************
 // License
 // **********************************************************************************
@@ -35,7 +31,7 @@
 #define NODEID        2    //must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define NETWORKID     100  //the same on all nodes that talk to each other (range up to 255)
 #define GATEWAYID     1
-//Match frequency to the hardware version of the radio on your Moteino (uncomment one):
+//Match frequency to the hardware version of the radio (uncomment one):
 #define FREQUENCY   RF69_433MHZ
 
 //exactly the same 16 characters/bytes on all nodes!
@@ -57,12 +53,14 @@
 
 //MAKE SURE TO KEEP THIS THE SAME AS RECIEVER
 #define CODE_LENGTH 7
-const static char[CODE_LENGTH] eStopCode = "DeL8Ycr";
-const static char[CODE_LENGTH] goCode = "YoYPwW7";
+const static uint8_t[CODE_LENGTH] eStopCode = {118, 187, 180, 208, 238, 135, 85};
+const static uint8_t[CODE_LENGTH] goCode = {197, 254, 146, 31, 32, 106, 81};
 
-//Payload is the code (go or stop) to send and a int timestamp (last 2 bytes)
-const static byte payloadLength = CODE_LENGTH + 2;
-char payload[payloadLength];
+//Payload is the code (go or stop) to send
+// If including an int timestamp, add 2
+//Timestamp will be last 2 bytes
+const static byte payloadLength = CODE_LENGTH;
+uint8_t payload[payloadLength];
 
 #define TRANSMIT_PERIOD 200 //transmit a packet to gateway so often (in ms)
 #define RETRY_DELAY 20  //how many ms to wait before a retry
@@ -141,9 +139,12 @@ void loop() {
                 payload[i] = goCode[i];
             }
         }
+        /* Removing timestamp stuff as won't work if controller power cycled
         //Put period timestamp into payload
         payload[CODE_LENGTH] = highByte(currPeriod);
         payload[CODE_LENGTH + 1] = lowByte(currPeriod);
+        */
+        
         
         Serial.print("Sending: ");
         for(byte i = 0; i < payloadLength; i++){
