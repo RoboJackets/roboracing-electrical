@@ -32,7 +32,7 @@
 #define NETWORKID     100  //the same on all nodes that talk to each other (range up to 255)
 #define GATEWAYID     1
 //Match frequency to the hardware version of the radio (uncomment one):
-#define FREQUENCY   RF69_433MHZ
+#define FREQUENCY     RF69_915MHZ
 
 //exactly the same 16 characters/bytes on all nodes!
 //Currently disabled, as no point to it

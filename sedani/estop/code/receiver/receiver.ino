@@ -29,11 +29,11 @@
 //*********************************************************************************************
 #define NODEID        1    //unique for each node on same network
 #define NETWORKID     100  //the same on all nodes that talk to each other
-//Match frequency to the hardware version of the radio on your Moteino (uncomment one):
-#define FREQUENCY     RF69_433MHZ
+//Match frequency to the hardware version of the radio:
+#define FREQUENCY     RF69_915MHZ
 
 //exactly the same 16 characters/bytes on all nodes!
-//Currently disabled, as no point to it
+//Currently disabled, as no point to encryption
 #define ENCRYPTKEY    null
 
 #define IS_RFM69HW_HCW  //uncomment only for RFM69HW/HCW! Leave out if you have RFM69W/CW!
@@ -47,12 +47,19 @@
 //*********************************************************************************************
 
 //How many ms before we decide the connection is lost
+//And shut down the motor
 #define E_STOP_TIMEOUT 500
 
-//MAKE SURE TO KEEP THESE CODES THE SAME AS RECIEVER
+/*
+MAKE SURE TO KEEP THESE CODES THE SAME AS RECIEVER
+We are using 7-byte codes for stop and go to hopefully prevent the radio from 
+receiving a stop or go signal by random chance
+*/
+
 #define CODE_LENGTH 7
 // If including an int timestamp, add 2
 //Timestamp will be last 2 bytes
+//Currently 
 const static byte expectedMessageLength = CODE_LENGTH;
 const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85};
 const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
@@ -66,6 +73,7 @@ RFM69_ATC radio;
 RFM69 radio;
 #endif
 
+//A debug LED
 #define OUTPUT_LED 5
 
 bool arrayCompare(uint8_t, uint8_t, unsigned int);
@@ -99,7 +107,7 @@ unsigned long lastCommandTime = 0;
 //Record if the message is valid
 bool messageValid = false;
 
-//Should the e-stop let the car go or not?
+//Should the car go or not?
 bool go = false;
 
 void loop() {
@@ -175,11 +183,15 @@ void loop() {
         go = false;
     }
     
-    //
+    //Write the signal out to the pins
     if (go){
         digitalWrite(OUTPUT_LED, HIGH);
     }
+    else {
+        digitalWrite(OUTPUT_LED, LOW);
+    }
 }
+//Compares if two arrays are element-for-element the same
 //From https://forum.arduino.cc/index.php?topic=5157.0
 //numberOfElements MUST be less than the length of the two arrays
 bool arrayCompare(uint8_t *a, uint8_t *b, unsigned int numberOfElements){
