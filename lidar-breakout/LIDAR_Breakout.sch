@@ -51020,24 +51020,24 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <wire x1="4" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
 <wire x1="22" y1="0" x2="4" y2="0" width="0.1524" layer="21"/>
 <text x="1" y="1" size="1.27" layer="21">J1</text>
-<pad name="1" x="6.4" y="1.9" drill="0.6"/>
-<pad name="2" x="9.02" y="1.9" drill="0.6"/>
-<pad name="3" x="11.72" y="1.9" drill="0.6"/>
-<pad name="4" x="14.42" y="1.9" drill="0.6"/>
-<pad name="5" x="17.2" y="1.9" drill="0.6"/>
-<pad name="6" x="19.98" y="1.9" drill="0.6"/>
-<text x="5.5" y="3.5" size="0.6096" layer="21">GND</text>
-<text x="8" y="3.5" size="0.6096" layer="21">GND</text>
-<text x="10.5" y="3.5" size="0.6096" layer="21">MOSI</text>
-<text x="13.25" y="3.5" size="0.6096" layer="21">SCLK</text>
-<text x="16.25" y="3.5" size="0.6096" layer="21">SCNn</text>
-<text x="19.25" y="3.5" size="0.6096" layer="21">INTn</text>
-<pad name="7" x="6.4" y="22.22" drill="0.6"/>
-<pad name="8" x="9.02" y="22.22" drill="0.6"/>
-<pad name="9" x="11.72" y="22.22" drill="0.6"/>
-<pad name="10" x="14.42" y="22.22" drill="0.6"/>
-<pad name="11" x="17.2" y="22.22" drill="0.6"/>
-<pad name="12" x="19.98" y="22.22" drill="0.6"/>
+<pad name="1" x="6.4" y="1.9" drill="0.8"/>
+<pad name="2" x="8.94" y="1.9" drill="0.8"/>
+<pad name="3" x="11.48" y="1.9" drill="0.8"/>
+<pad name="4" x="14.02" y="1.9" drill="0.8"/>
+<pad name="5" x="16.56" y="1.9" drill="0.8"/>
+<pad name="6" x="19.1" y="1.9" drill="0.8"/>
+<text x="5.373" y="0.198" size="0.75" layer="21" font="vector">GND</text>
+<text x="7.873" y="0.198" size="0.75" layer="21" font="vector">GND</text>
+<text x="10.246" y="0.198" size="0.75" layer="21" font="vector">MOSI</text>
+<text x="12.869" y="0.198" size="0.75" layer="21" font="vector">SCLK</text>
+<text x="15.488" y="0.198" size="0.75" layer="21" font="vector">SCNn</text>
+<text x="18.361" y="0.198" size="0.75" layer="21" font="vector">INTn</text>
+<pad name="7" x="6.4" y="22.22" drill="0.8"/>
+<pad name="8" x="8.94" y="22.22" drill="0.8"/>
+<pad name="9" x="11.48" y="22.22" drill="0.8"/>
+<pad name="10" x="14.02" y="22.22" drill="0.8"/>
+<pad name="11" x="16.56" y="22.22" drill="0.8"/>
+<pad name="12" x="19.1" y="22.22" drill="0.8"/>
 <wire x1="4" y1="0" x2="4" y2="3" width="0.1524" layer="21"/>
 <wire x1="4" y1="3" x2="22" y2="3" width="0.1524" layer="21"/>
 <wire x1="22" y1="3" x2="22" y2="0" width="0.1524" layer="21"/>
@@ -51051,12 +51051,12 @@ Source: http://cache.national.com/ds/LP/LP3963.pdf</description>
 <wire x1="0" y1="24" x2="0" y2="0" width="0.1524" layer="21"/>
 <text x="1" y="22" size="1.27" layer="21">J2</text>
 <text x="2" y="8" size="1.4224" layer="21" rot="R90">WIZ850io</text>
-<text x="5.5" y="20" size="0.6096" layer="21">GND</text>
-<text x="8" y="20" size="0.6096" layer="21">3.3V</text>
-<text x="11" y="20" size="0.6096" layer="21">3.3V</text>
-<text x="14" y="20" size="0.6096" layer="21">NC</text>
-<text x="16" y="20" size="0.6096" layer="21">RSTn</text>
-<text x="19" y="20" size="0.6096" layer="21">MISO</text>
+<text x="5.373" y="23.048" size="0.75" layer="21" font="vector">GND</text>
+<text x="8" y="23.048" size="0.75" layer="21" font="vector">3.3V</text>
+<text x="10.619" y="23.048" size="0.75" layer="21" font="vector">3.3V</text>
+<text x="13.492" y="23.048" size="0.75" layer="21" font="vector">NC</text>
+<text x="15.365" y="23.048" size="0.75" layer="21" font="vector">RSTn</text>
+<text x="18.111" y="23.048" size="0.75" layer="21" font="vector">MISO</text>
 </package>
 </packages>
 <symbols>
