@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26774,13 +26774,13 @@ In this library you will find diodes and other circuit protection elements.
 <part name="J10" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="OUTPUT 2"/>
 <part name="J12" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SELECT"/>
 <part name="J14" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="RC SERVO INPUT"/>
-<part name="J15" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="RC ESC INPUT"/>
-<part name="J16" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="RC BUTTON INPUT"/>
+<part name="J15" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="RC ESC IN"/>
+<part name="J16" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="RC BUTTON IN"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RCVCC" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RCVCC1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="J19" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SERVO OUTPUT"/>
+<part name="J19" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SERVO OUT"/>
 <part name="J20" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="ESC OUTPUT"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RCVCC2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -26795,7 +26795,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_07" device="" value="WIRELESS E-STOP"/>
 <part name="GND" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="E-STOP INTERFACE"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="E-STOP BTN"/>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-BAS16J" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V"/>
@@ -26837,9 +26837,14 @@ In this library you will find diodes and other circuit protection elements.
 <part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
 <part name="TP_6V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
-<part name="LIGHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="J13" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="NEOPIXELS">
+<attribute name="SPICEPREFIX" value="J"/>
+</part>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="E-STOP LIGHT"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26891,6 +26896,11 @@ Board</text>
 <text x="104.14" y="96.52" size="5.08" layer="97">Pro Micro</text>
 <text x="360.68" y="71.12" size="5.08" layer="97">PWM Output</text>
 <text x="27.94" y="175.26" size="5.08" layer="97">5V Regulator</text>
+<wire x1="203.2" y1="106.68" x2="203.2" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="203.2" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="139.7" x2="248.92" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
+<text x="210.82" y="132.08" size="5.08" layer="97">NEOPIXEL</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="76.2" y="55.88" smashed="yes">
@@ -27139,16 +27149,26 @@ Board</text>
 <attribute name="VALUE" x="111.76" y="198.12" size="1.778" layer="96"/>
 <attribute name="NAME" x="111.76" y="200.66" size="1.778" layer="95"/>
 </instance>
-<instance part="LIGHT" gate="G$1" x="109.22" y="210.82" smashed="yes">
-<attribute name="NAME" x="112.776" y="206.248" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="114.935" y="206.248" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="121.92" y="213.36" smashed="yes" rot="R270">
-<attribute name="VALUE" x="124.714" y="213.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="TP6" gate="G$1" x="76.2" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.55" y="235.204" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="78.74" y="237.49" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="J13" gate="J$1" x="208.28" y="116.84" smashed="yes">
+<attribute name="VALUE" x="205.74" y="109.474" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="205.74" y="122.428" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="220.98" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="223.774" y="116.84" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND12" gate="1" x="218.44" y="127" smashed="yes" rot="R90">
+<attribute name="VALUE" x="218.694" y="127" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="J22" gate="G$1" x="124.46" y="208.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="127" y="213.106" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="127" y="202.692" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="119.38" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="122.174" y="215.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -27297,6 +27317,11 @@ Board</text>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="109.22" y1="190.5" x2="109.22" y2="193.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J13" gate="J$1" pin="3"/>
+<wire x1="215.9" y1="119.38" x2="215.9" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC_6V" class="0">
 <segment>
@@ -27436,9 +27461,16 @@ Board</text>
 <wire x1="104.14" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="J13" gate="J$1" pin="2"/>
+<wire x1="215.9" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="J22" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="208.28" x2="114.3" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="208.28" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
-<pinref part="LIGHT" gate="G$1" pin="A"/>
-<wire x1="121.92" y1="213.36" x2="109.22" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
@@ -27746,9 +27778,22 @@ Board</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LIGHT" gate="G$1" pin="C"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="109.22" y1="205.74" x2="109.22" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="J22" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="205.74" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NEOPIXEL_OUTPUT" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="A1"/>
+<wire x1="88.9" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="93.98" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J13" gate="J$1" pin="1"/>
+<wire x1="215.9" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
+<label x="220.98" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
