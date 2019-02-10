@@ -10121,7 +10121,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.6" y1="-2.34" x2="2.925" y2="-2.14" width="0.127" layer="21" curve="-90"/>
 <wire x1="2.925" y1="-2.14" x2="3.75" y2="-2.14" width="0.127" layer="21"/>
 <wire x1="3.75" y1="-2.14" x2="3.75" y2="-0.765" width="0.127" layer="21"/>
-<circle x="-1.3" y="3.941" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-5" y1="3.5" x2="-5" y2="-3" width="0.05" layer="39"/>
 <wire x1="-5" y1="-3" x2="5" y2="-3" width="0.05" layer="39"/>
 <wire x1="5" y1="-3" x2="5" y2="3.5" width="0.05" layer="39"/>
@@ -10134,10 +10133,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-4" y1="-2.45" x2="-3.75" y2="-2.7" width="0.127" layer="21"/>
 <wire x1="-3.75" y1="-2.7" x2="-3.375" y2="-2.325" width="0.127" layer="21"/>
 <wire x1="-3.375" y1="-2.325" x2="-3.375" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-4.875" x2="4" y2="-5.125" width="0.127" layer="52"/>
-<wire x1="4" y1="-5.125" x2="3.75" y2="-5.375" width="0.127" layer="52"/>
-<wire x1="3.75" y1="-5.375" x2="3.375" y2="-5" width="0.127" layer="52"/>
-<wire x1="3.375" y1="-5" x2="3.375" y2="-4.875" width="0.127" layer="52"/>
 <wire x1="-3.75" y1="-2.2" x2="-4" y2="-2.45" width="0.127" layer="51"/>
 <wire x1="-4" y1="-2.45" x2="-3.75" y2="-2.7" width="0.127" layer="51"/>
 <wire x1="-3.75" y1="-2.7" x2="-3.375" y2="-2.325" width="0.127" layer="51"/>
@@ -10150,7 +10145,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4" y1="-2.45" x2="3.75" y2="-2.7" width="0.127" layer="51"/>
 <wire x1="3.75" y1="-2.7" x2="3.375" y2="-2.325" width="0.127" layer="51"/>
 <wire x1="3.375" y1="-2.325" x2="3.375" y2="-2.2" width="0.127" layer="51"/>
-<circle x="-1.3" y="3.136" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-1.3" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="2" x="-0.65" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
@@ -14613,10 +14607,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C13" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1kΩ"/>
-<part name="LD2" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
+<part name="LD2" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
-<part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
+<part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="U2" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="MIC5219"/>
 <part name="C11" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="5X3" value="16MHz"/>
@@ -14752,7 +14746,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="246.38" y1="114.3" x2="246.38" y2="241.3" width="0.1524" layer="97" style="longdash"/>
 <text x="248.92" y="236.22" size="1.778" layer="97">ATMega</text>
 <text x="190.5" y="236.22" size="1.778" layer="97">THROUGHHOLE TERMINAL (10AWG)</text>
-<text x="248.92" y="233.68" size="1.778" layer="97">replace green yellow led</text>
 <wire x1="167.64" y1="68.58" x2="167.64" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="167.64" y1="35.56" x2="248.92" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="35.56" x2="248.92" y2="68.58" width="0.1524" layer="97" style="longdash"/>
