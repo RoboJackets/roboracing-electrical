@@ -24639,6 +24639,40 @@ In this library you will find switches and other mechanical assisted circuit ele
 <text x="0" y="-1.905" size="1" layer="21" ratio="20" align="top-center">&gt;FUNCTION</text>
 <rectangle x1="-2.286" y1="-1.397" x2="2.286" y2="1.397" layer="39"/>
 </package>
+<package name="SB0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.473" y1="0.9525" x2="1.473" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="1.473" y1="-0.9525" x2="-1.473" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-1.473" y1="0.9525" x2="-1.473" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="1.473" y1="0.9525" x2="1.473" y2="-0.9525" width="0.127" layer="21"/>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="29"/>
+</package>
+<package name="SB1206">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.127" layer="21"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.127" layer="21"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.127" layer="21"/>
+<rectangle x1="-0.635" y1="-0.983" x2="0.635" y2="0.983" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TS2">
@@ -24654,6 +24688,12 @@ In this library you will find switches and other mechanical assisted circuit ele
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="0" y1="0.762" x2="0" y2="3.302" width="0.254" layer="94" style="shortdash"/>
 <text x="0" y="-4.318" size="1.27" layer="97" ratio="10" align="top-center">&gt;FUNCTION</text>
+</symbol>
+<symbol name="SOLDERBRIDGE">
+<pin name="1" x="-2.54" y="0" visible="off" length="point" rot="R180"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="0" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -24671,6 +24711,31 @@ In this library you will find switches and other mechanical assisted circuit ele
 <technology name="">
 <attribute name="FUNCTION" value="Reset" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDERBRIDGE" prefix="SB">
+<gates>
+<gate name="G$1" symbol="SOLDERBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SB0603" package="SB0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SB1206" package="SB1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -26197,6 +26262,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="J23" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SPEED_B"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SB1" library="RoboJackets-Switches" deviceset="SOLDERBRIDGE" device="SB0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -26618,6 +26684,9 @@ etc. irrelevant.</text>
 <instance part="SUPPLY26" gate="G$1" x="363.22" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="360.426" y="101.6" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
+<instance part="SB1" gate="G$1" x="119.38" y="55.88" smashed="yes">
+<attribute name="NAME" x="116.84" y="55.88" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26954,6 +27023,9 @@ etc. irrelevant.</text>
 <pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
 <wire x1="121.92" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SB1" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="55.88" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
+<junction x="121.92" y="60.96"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
@@ -27088,7 +27160,6 @@ etc. irrelevant.</text>
 <wire x1="63.5" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
 <junction x="63.5" y="198.12"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<junction x="68.58" y="198.12"/>
 <pinref part="TP_OUT_ESC" gate="G$1" pin="TP"/>
 <wire x1="53.34" y1="203.2" x2="58.42" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="203.2" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
@@ -27256,7 +27327,6 @@ etc. irrelevant.</text>
 <wire x1="68.58" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
 <label x="55.88" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<junction x="68.58" y="187.96"/>
 <pinref part="TP_MUX_ESC" gate="G$1" pin="TP"/>
 <wire x1="53.34" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="182.88" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
@@ -27272,6 +27342,10 @@ etc. irrelevant.</text>
 <wire x1="93.98" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <junction x="111.76" y="60.96"/>
+<pinref part="SB1" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="55.88" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<junction x="114.3" y="60.96"/>
 </segment>
 </net>
 <net name="E-STOP_OUTPUT" class="0">
