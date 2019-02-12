@@ -31,7 +31,7 @@
 #define NODEID        2    //must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define NETWORKID     100  //the same on all nodes that talk to each other (range up to 255)
 #define GATEWAYID     1
-//Match frequency to the hardware version of the radio (uncomment one):
+//Match frequency to the hardware version of the radio:
 #define FREQUENCY     RF69_915MHZ
 
 //exactly the same 16 characters/bytes on all nodes!
@@ -56,9 +56,7 @@
 const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85};
 const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
 
-//Payload is the code (go or stop) to send
-// If including an int timestamp, add 2
-//Timestamp will be last 2 bytes
+//Payload is the code (go or stop) to send with the radio
 const static byte payloadLength = CODE_LENGTH;
 uint8_t payload[payloadLength];
 
@@ -99,7 +97,7 @@ void setup() {
 #endif
 }
 
-
+bool linkEstablished = false;
 bool go = false;
 unsigned int lastPeriod = 0;
 unsigned int currPeriod;
@@ -127,7 +125,7 @@ void loop() {
     if (currPeriod != lastPeriod) {
         lastPeriod=currPeriod;
         
-        //Create the payload: first bytes are the code and last two bytes are timestamp
+        //Create the payload
         if (go){  //Copy goCode into payload
             for(byte i = 0; i < CODE_LENGTH; i++){
                 payload[i] = goCode[i];
@@ -138,12 +136,6 @@ void loop() {
                 payload[i] = goCode[i];
             }
         }
-        /* Removing timestamp stuff as won't work if controller power cycled
-        //Put period timestamp into payload
-        payload[CODE_LENGTH] = highByte(currPeriod);
-        payload[CODE_LENGTH + 1] = lowByte(currPeriod);
-        */
-        
         
         Serial.print("Sending: ");
         for(byte i = 0; i < payloadLength; i++){
@@ -152,9 +144,11 @@ void loop() {
   
         if (radio.sendWithRetry(GATEWAYID, payload, payloadLength, RETRIES, RETRY_DELAY)){
             Serial.print(" ok!");
+            linkEstablished = true;
         }
         else {
             Serial.print(" SENDING FAILED");
+            linkEstablished = false;
         }
     
         Serial.println();

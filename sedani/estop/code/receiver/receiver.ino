@@ -55,11 +55,7 @@ MAKE SURE TO KEEP THESE CODES THE SAME AS RECIEVER
 We are using 7-byte codes for stop and go to hopefully prevent the radio from 
 receiving a stop or go signal by random chance
 */
-
 #define CODE_LENGTH 7
-// If including an int timestamp, add 2
-//Timestamp will be last 2 bytes
-//Currently 
 const static byte expectedMessageLength = CODE_LENGTH;
 const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85};
 const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
@@ -101,7 +97,7 @@ void setup() {
 byte ackCount=0;
 uint32_t packetCount = 0;
 
-//Record when the last command was
+//Record when the last command was in ms
 unsigned long lastCommandTime = 0;
 
 //Record if the message is valid
@@ -115,7 +111,7 @@ void loop() {
     if (radio.receiveDone()){
         
         
-        //Print out message
+        //Print out sender, message, and RSSI signal strength
         Serial.print("#[");
         Serial.print(++packetCount);
         Serial.print(']');
@@ -135,6 +131,7 @@ void loop() {
             // When a node requests an ACK, respond to the ACK
             // and also send a packet requesting an ACK (every 3rd one only)
             // This way both TX/RX NODE functions are tested on 1 end at the GATEWAY
+            //May eliminate in final e-stop code
             if (ackCount++%3==0)
             {
                 Serial.print(" Pinging node ");
@@ -150,8 +147,9 @@ void loop() {
             }
         }
         
-        //Decode message and verify e-stop stuff
+        //Decode message and verify it
         messageValid = false;
+        //If message wrong length, fail immediately
         if (expectedMessageLength == radio.DATALEN){
             if(arrayCompare(radio.DATA, goCode, CODE_LENGTH)){
                 go = true;
@@ -162,7 +160,7 @@ void loop() {
                 messageValid = true;
             }
             else{
-                Serial.println("Invalid message received");
+                Serial.println("Invalid message (of correct length) received");
             }
         }
         else {
@@ -170,7 +168,7 @@ void loop() {
         }
         
         
-        //Check if message is most recent. If not, fail message. If so, update times.
+        //Update lastCommandTime if message was valid
         if (messageValid){
             lastCommandTime = millis();
         }
