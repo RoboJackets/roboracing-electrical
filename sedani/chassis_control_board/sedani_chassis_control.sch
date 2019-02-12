@@ -26213,7 +26213,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="TP_5V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP_OUT_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP_MUX_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
-<part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
+<part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323" value="200mA, 0.3V"/>
 <part name="TP_6V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3"/>
 <part name="TP_ESC_RADIO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
@@ -26426,8 +26426,8 @@ HIGH      |  HIGH                 |   HIGH</text>
 <instance part="GND2" gate="1" x="48.26" y="66.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="48.26" y="66.294" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="129.54" y="60.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="132.334" y="60.96" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="142.494" y="60.96" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY21" gate="G$1" x="368.3" y="223.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="365.506" y="223.52" size="1.778" layer="96" rot="R90" align="bottom-center"/>
@@ -26563,9 +26563,9 @@ HIGH      |  HIGH                 |   HIGH</text>
 <attribute name="NAME" x="44.45" y="183.896" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="48.26" y="181.61" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="D4" gate="G$1" x="116.84" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="116.84" y="63.5" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="119.38" y="63.5" size="1.778" layer="96" rot="R90"/>
+<instance part="D4" gate="G$1" x="127" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="63.5" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="129.54" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP_6V" gate="G$1" x="33.02" y="121.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.67" y="122.936" size="1.778" layer="95"/>
@@ -26694,8 +26694,8 @@ HIGH      |  HIGH                 |   HIGH</text>
 <instance part="SUPPLY26" gate="G$1" x="363.22" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="360.426" y="101.6" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="SB1" gate="G$1" x="119.38" y="55.88" smashed="yes">
-<attribute name="NAME" x="116.84" y="55.88" size="1.27" layer="95"/>
+<instance part="SB1" gate="G$1" x="129.54" y="55.88" smashed="yes">
+<attribute name="NAME" x="127" y="55.88" size="1.27" layer="95"/>
 </instance>
 <instance part="C6" gate="G$1" x="50.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="51.816" y="84.455" size="1.778" layer="95"/>
@@ -27050,10 +27050,10 @@ HIGH      |  HIGH                 |   HIGH</text>
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-<wire x1="121.92" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SB1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="55.88" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<junction x="121.92" y="60.96"/>
+<wire x1="132.08" y1="55.88" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<junction x="132.08" y="60.96"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
@@ -27369,7 +27369,7 @@ HIGH      |  HIGH                 |   HIGH</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="114.3" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="VCC"/>
@@ -27377,9 +27377,9 @@ HIGH      |  HIGH                 |   HIGH</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <junction x="111.76" y="60.96"/>
 <pinref part="SB1" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="55.88" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="114.3" y="60.96"/>
+<wire x1="127" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="55.88" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<junction x="124.46" y="60.96"/>
 </segment>
 </net>
 <net name="E-STOP_OUTPUT" class="0">
