@@ -26264,6 +26264,7 @@ In this library you will find diodes and other circuit protection elements.
 <part name="SB1" library="RoboJackets-Switches" deviceset="SOLDERBRIDGE" device="SB0603"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26704,6 +26705,9 @@ HIGH      |  HIGH                 |   HIGH</text>
 <attribute name="NAME" x="41.91" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.91" y="72.898" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY15" gate="G$1" x="226.06" y="165.1" smashed="yes" rot="R270">
+<attribute name="VALUE" x="228.854" y="165.1" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26970,7 +26974,7 @@ HIGH      |  HIGH                 |   HIGH</text>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 <pinref part="J12" gate="J$1" pin="2"/>
 <wire x1="226.06" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
-<label x="228.6" y="162.56" size="1.778" layer="95"/>
+<label x="228.6" y="162.56" size="1.27" layer="95" font="vector" align="top-left"/>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="VCC"/>
@@ -27075,6 +27079,11 @@ HIGH      |  HIGH                 |   HIGH</text>
 <pinref part="J23" gate="J$1" pin="2"/>
 <pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 <wire x1="378.46" y1="243.84" x2="368.3" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY15" gate="G$1" pin="5V"/>
+<pinref part="J12" gate="J$1" pin="3"/>
+<wire x1="226.06" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
