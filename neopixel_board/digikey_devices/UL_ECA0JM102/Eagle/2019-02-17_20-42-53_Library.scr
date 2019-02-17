@@ -1,0 +1,146 @@
+# Created by Ultra Librarian Gold 8.3.90 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'PCAP_8x112.pac';
+Change Drill 38;
+Pad '1' Square 0 60 R0 (-138 0);
+Change Drill 38;
+Pad '2' Round 0 60 R180 (0 0);
+Layer 51;
+Wire 6 (-138 168) (0 168);
+Wire 6 (0 168) (98 69);
+Wire 6 (98 69) (98 -69);
+Wire 6 (98 -69) (0 -168);
+Wire 6 (0 -168) (-138 -168);
+Wire 6 (-138 -168) (-236 -69);
+Wire 6 (-236 -69) (-236 69);
+Wire 6 (-236 69) (-138 168);
+Layer 51;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-137.9706 167.5) (-.0294 167.5) (98.5 68.9706) (98.5 -68.9706) \
+    (-.0294 -167.5) (-137.9706 -167.5) (-236.5 -68.9706) (-236.5 68.9706) (-137.9706 167.5);
+Layer 20;
+Wire 6 (-138 0) (-138 -222);
+Wire 6 (0 0) (0 -222);
+Wire 6 (-138 -208) (-188 -208);
+Wire 6 (0 -208) (50 -208);
+Wire 6 (-138 -208) (-148 -202);
+Wire 6 (-138 -208) (-148 -212);
+Wire 6 (-148 -202) (-148 -212);
+Wire 6 (0 -208) (10 -202);
+Wire 6 (0 -208) (10 -212);
+Wire 6 (10 -202) (10 -212);
+Wire 6 (-226 0) (-226 222);
+Wire 6 (88 0) (88 222);
+Wire 6 (-226 208) (88 208);
+Wire 6 (-226 208) (-216 212);
+Wire 6 (-226 208) (-216 202);
+Wire 6 (-216 212) (-216 202);
+Wire 6 (88 208) (78 212);
+Wire 6 (88 208) (78 202);
+Wire 6 (78 212) (78 202);
+Wire 6 (-69 158) (154 158);
+Wire 6 (-69 -158) (154 -158);
+Wire 6 (138 158) (138 -158);
+Wire 6 (138 158) (134 148);
+Wire 6 (138 158) (144 148);
+Wire 6 (134 148) (144 148);
+Wire 6 (138 -158) (134 -148);
+Wire 6 (138 -158) (144 -148);
+Wire 6 (134 -148) (144 -148);
+Change Size 50;
+Change Ratio 6;
+Text 'Pin 1 Pad Style: SX60Y60D38P' SR0 (-682 -358);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Pad Style: EX60Y60D38P' SR0 (-713 -432);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Pad Style: OX60Y90D30P' SR0 (-675 -508);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Pad Style: OX90Y60D30P' SR0 (-675 -582);
+Change Size 25;
+Change Ratio 4;
+Text '0.138in/3.505mm' SR0 (-228 -252);
+Change Size 25;
+Change Ratio 4;
+Text '0.315in/8.001mm' SR0 (-228 228);
+Change Size 25;
+Change Ratio 4;
+Text '0.315in/8.001mm' SR0 (158 -12);
+Layer 21;
+Wire 6 (-286 0) (-236 0);
+Wire 6 (-262 25) (-262 -25);
+Wire 6 (94 0) -180 (-232 0);
+Wire 6 (-232 0) -180 (94 0);
+Layer 51;
+Wire 6 (-286 0) (-236 0);
+Wire 6 (-262 25) (-262 -25);
+Wire 0 (88 0) -180 (-226 0);
+Wire 0 (-226 0) -180 (88 0);
+Layer 23;
+Wire 6 (-148 0) (-128 0);
+Wire 6 (-138 -10) (-138 10);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-198 -25);
+Layer 27;
+
+Edit 'PCAPH.sym';
+Layer 94;
+Pin '2' Pas None Short R180 Off 0 (300 0)
+Pin '1' Pas None Short R0 Off 0 (0 0)
+Wire 8 (87 25) (87 75);
+Wire 8 (162 0) (200 0);
+Wire 8 (137 -75) (137 75);
+Wire 8 (62 50) (112 50);
+Wire 8 (100 0) (137 0);
+Wire 6 (187 -75) -74 (187 75);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (-203 -218);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (-161 82);
+
+Edit 'PCAPV.sym';
+Layer 94;
+Pin '2' Pas None Short R270 Off 0 (0 0)
+Pin '1' Pas None Short R90 Off 0 (0 -300)
+Wire 8 (0 -100) (0 -137);
+Wire 8 (-75 -137) (75 -137);
+Wire 8 (25 -87) (75 -87);
+Wire 8 (50 -62) (50 -112);
+Wire 8 (0 -162) (0 -200);
+Wire 6 (-75 -187) -74 (75 -187);
+Layer 97;
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (100 -168);
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (100 -294);
+
+Edit 'ECA-0JM102.dev';
+Prefix 'C';
+Description '';
+Value Off;
+Add PCAPH 'A' Next  0 (0 0);
+Package 'PCAP_8x112';
+Technology '';
+Attribute Vendor 'Panasonic';
+Attribute Manufacturer_Part_Number 'ECA0JM102';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
