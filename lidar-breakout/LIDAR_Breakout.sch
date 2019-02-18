@@ -52928,8 +52928,8 @@ chip</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10 kΩ"/>
-<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="18 pF"/>
-<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="18 pF"/>
+<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="9 pF"/>
+<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="9 pF"/>
 <part name="LD2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
 <part name="FRAME1" library="CarWarsPCBv_3" deviceset="FRAME_B_L" device="">
@@ -52975,7 +52975,7 @@ chip</description>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="ETH1" library="WIZ850io" deviceset="WIZ850IO" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="X1" library="RoboJackets-FreqGen" deviceset="XTAL" device="-3.2X2.5" value=""/>
+<part name="X1" library="RoboJackets-FreqGen" deviceset="XTAL" device="-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 "/>
 <part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
@@ -53114,7 +53114,7 @@ BLOWN</text>
 <wire x1="35.052" y1="111.72" x2="130.302" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="130.302" y1="111.72" x2="130.302" y2="165.06" width="0.1524" layer="97" style="shortdash"/>
 <text x="279.4" y="203.2" size="1.778" layer="97">5VDC EXTERNAL REGULATED</text>
-<text x="154.94" y="246.38" size="1.778" layer="97">16 MHz</text>
+<text x="157.48" y="248.92" size="1.778" layer="97">16 MHz</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="160.02" y="228.6" smashed="yes">
@@ -53295,7 +53295,7 @@ BLOWN</text>
 <attribute name="VALUE" x="97.155" y="225.425" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="G$1" x="160.02" y="243.84" smashed="yes">
-<attribute name="VALUE" x="157.48" y="246.38" size="1.778" layer="96"/>
+<attribute name="VALUE" x="144.78" y="246.38" size="1.778" layer="96"/>
 <attribute name="NAME" x="160.782" y="239.014" size="1.778" layer="95"/>
 </instance>
 <instance part="C7" gate="G$1" x="375.92" y="154.94" smashed="yes" rot="R270">

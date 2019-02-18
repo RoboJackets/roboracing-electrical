@@ -1,0 +1,91 @@
+Partlist
+
+Exported from LIDAR_Breakout.brd at 2/15/2019 12:13 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Package          Library                Position (mm)         Orientation
+
+C3       18 pF           C0603            resistor               (24.931 20.646)       MR270
+C4       18 pF           C0603            resistor               (22.069 20.618)       MR90
+C5       1 uF            C0603            resistor               (13.747 33.959)       MR0
+C6       2.2 uF          C0603            resistor               (20.203 34.432)       MR0
+C7       0.1 uF          C0603            resistor               (27.2 14.1)           MR180
+C8       0.1 uF          C0603            resistor               (27.2 28.5)           MR180
+C9       0.1 uF          C0603            resistor               (27.2 43)             MR180
+C10      0.1 uF          C0603            resistor               (20.2 80.5)           MR0
+C11      0.1 uF          C0603            resistor               (27.1 72.1)           MR180
+C12      0.1 uF          C0603            resistor               (27.1 57.6)           MR180
+C13      680 uF          CAP_PAN_EEE_D8   680uF_Elect_Cap        (14 37.7)             R180
+C14      0.1 uF          C0603            resistor               (2.972 28.828)        MR90
+C15      0.1 uF          C0603            resistor               (5.255 14.29)         MR0
+C16      0.1 uF          C0603            resistor               (18.826 13.21)        MR180
+C17      0.1 uF          C0603            resistor               (17.047 26.682)       MR0
+C18      10 nF           C0603            resistor               (3.521 19.538)        MR270
+C19      1 uF            C0603            resistor               (13.657 12.946)       MR180
+C20      470 pF          C0603            resistor               (15.971 41.698)       MR180
+C21      0.1 uF          C0603            resistor               (21.092 37.812)       MR90
+C22      47 uF           C0603            resistor               (9.584 53.743)        MR90
+C23      1 uF            C0603            rcl                    (23.9 45.5)           R180
+C24      10 uF           E2-5             rcl                    (16.2 47.2)           R0
+D1                       DO-214AC         RoboJackets-Diodes     (10.586 46.66)        MR270
+D2                       DO-214AC         RoboJackets-Diodes     (20.65 42.9)          MR90
+ETH1     WIZ850IO        WIZ850IO         WIZ850io               (0.75831875 8.663996875) R0
+F1       1.5 A           1812             adafruit               (10.4 65.1)           R0
+F2       1A              R1206            adafruit               (10.6 47.5)           R270
+F3       1A              R1206            adafruit               (20.7 49.2)           MR270
+F4       200mA           R1206            adafruit               (25.6 80.4)           MR180
+F5       200mA           R1206            adafruit               (27.8 68.3)           MR180
+F6       200mA           R1206            adafruit               (27.9 52.6)           MR180
+F7       200mA           R1206            adafruit               (27.7 39.2)           MR180
+F8       200mA           R1206            adafruit               (27.9 23.8)           MR180
+F9       200mA           R1206            adafruit               (27.9 10.6)           MR180
+H1       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (28 87)               R180
+H2       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (35.5 66)             R90
+H3       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (35.5 51.5)           R90
+H4       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (35.5 36.9)           R90
+H5       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (35.5 22.4)           R90
+H6       SM06B-GHS       SM06B-GHS        RoboJackets-Connectors (35.5 8.2)            R90
+LD1      RED             CHIP-LED0603     RoboJackets-LEDs       (2.378 61.169)        R270
+LD2      GREEN           CHIP-LED0603     led                    (2.286 47.45)         R90
+LD3      GREEN           CHIP-LED0603     led                    (2.388996875 34.550028125) R270
+LD4      GREEN           CHIP-LED0603     led                    (28.1 7.3)            R270
+LD7      BLUE            CHIP-LED0603     led                    (15.4 85.9)           R180
+LD8      BLUE            CHIP-LED0603     led                    (34.4 78.6)           R90
+LD9      BLUE            CHIP-LED0603     led                    (34.4 64.1)           R90
+LD10     BLUE            CHIP-LED0603     led                    (34.4 49.5)           R90
+LD11     BLUE            CHIP-LED0603     led                    (34.4 35)             R90
+LD12     BLUE            CHIP-LED0603     led                    (34.3 20.8)           R90
+LED1     WS2812B5050     WS2812B          adafruit               (23.6 40.5)           R0
+MC1      ATMEGA32U4-AU   TQFP44           adafruit               (11.849 21.086)       R90
+P1                       MOLEX_0436500200 0436500200             (2.007 54.1)          R270
+P2                       DCJACK_2MM_PTH   adafruit               (0.2 74.7)            R270
+PB1      ATMEGA_RESET    RESET_PB_RA      RoboJackets-Switches   (1.2 68.4)            R270
+PB2      ETH_RESET       RESET_PB_RA      RoboJackets-Switches   (13.7 86.8)           R180
+Q1                       SOT-23-3         RoboJackets-Discrete   (11.3 63.5)           MR0
+R1       10 k?           R0603            rcl                    (6.623 67.212)        MR0
+R2       1 k?            R0603            rcl                    (5.531 47.95)         MR0
+R3       1 k?            R0603            rcl                    (21.4 7.3)            MR0
+R4       10 k?           R0603            rcl                    (6.2 27.4)            MR180
+R5       4.7 k?          R0603            rcl                    (30.7 74.1)           MR180
+R6       4.7 k?          R0603            rcl                    (30.7 70.7)           MR180
+R7       1 k?            R0603            rcl                    (15.8 80.6)           MR90
+R8       1 k?            R0603            rcl                    (30.1 78.6)           MR180
+R9       1 k?            R0603            rcl                    (30 64.1)             MR180
+R10      1 k?            R0603            rcl                    (30.2 49.5)           MR180
+R11      1 k?            R0603            rcl                    (29.7 35.1)           MR180
+R12      1 k?            R0603            rcl                    (29.8 20.8)           MR180
+R13      1 k?            R0603            rcl                    (5.372121875 34.5944) MR180
+R14      1 k?            R0603            rcl                    (5.558 61.277)        MR0
+R15      22 ?            R0603            rcl                    (6.91 39.465)         MR0
+R16      22 ?            R0603            rcl                    (6.91 42.252)         MR0
+TP1      PTR1B1,27       B1,27            testpad                (15.5 63.6)           R0
+TP2      PTR1B1,27       B1,27            testpad                (19 63.6)             R0
+TP3      PTR1PAD1-13     P1-13            testpad                (17.2 66.9)           R0
+TP4      PTR1B1,27       B1,27            testpad                (7.5 34.5)            R0
+USB1     1981584-1       TE_1981584-1     1981584-1              (1.595 41.04)         R270
+VR1      NCP59151DS50R4G TO263-5          linear                 (16.712 56.764)       R270
+VR2      MIC5219 3.3V    SOT23-5          SparkFun-IC-Power      (16.098 37.888)       MR0
+X1                       XTAL-3.2X2.5     RoboJackets-FreqGen    (21.7 20.6)           R180
