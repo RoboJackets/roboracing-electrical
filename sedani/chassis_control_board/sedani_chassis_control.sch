@@ -27088,14 +27088,14 @@ HIGH      |  HIGH                 |   HIGH</text>
 </net>
 <net name="SPEED_A" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="7"/>
-<wire x1="60.96" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
-<label x="60.96" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J20" gate="J$1" pin="1"/>
 <wire x1="378.46" y1="226.06" x2="373.38" y2="226.06" width="0.1524" layer="91"/>
 <label x="375.92" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
+<label x="60.96" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RC_SERVO" class="0">
@@ -27110,9 +27110,9 @@ HIGH      |  HIGH                 |   HIGH</text>
 <label x="226.06" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="*3"/>
-<wire x1="60.96" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<label x="60.96" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="B1" gate="G$1" pin="7"/>
+<wire x1="66.04" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RC_ESC" class="0">
@@ -27127,9 +27127,9 @@ HIGH      |  HIGH                 |   HIGH</text>
 <label x="226.06" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="60.96" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="B1" gate="G$1" pin="8"/>
+<wire x1="66.04" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<label x="60.96" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RC_BUTTON" class="0">
@@ -27438,14 +27438,14 @@ HIGH      |  HIGH                 |   HIGH</text>
 </net>
 <net name="SPEED_B" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="8"/>
-<wire x1="66.04" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<label x="60.96" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J23" gate="J$1" pin="1"/>
 <wire x1="378.46" y1="246.38" x2="375.92" y2="246.38" width="0.1524" layer="91"/>
 <label x="375.92" y="246.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="*3"/>
+<wire x1="66.04" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="60.96" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
