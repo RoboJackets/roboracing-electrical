@@ -6583,13 +6583,10 @@ design rules under a new name.</description>
 <wire x1="23.749" y1="33.528" x2="23.749" y2="34.2265" width="0.635" layer="1"/>
 <wire x1="23.749" y1="34.2265" x2="25.273" y2="35.7505" width="0.635" layer="1"/>
 <polygon width="0.1016" layer="1" thermals="no">
-<vertex x="33.9725" y="52.0065"/>
-<vertex x="40.7035" y="52.0065"/>
-<vertex x="41.91" y="50.8"/>
-<vertex x="41.91" y="48.641"/>
-<vertex x="41.402" y="48.133"/>
+<vertex x="34.163" y="52.0065"/>
+<vertex x="41.91" y="52.0065"/>
+<vertex x="41.91" y="48.133"/>
 <vertex x="34.163" y="48.133"/>
-<vertex x="34.163" y="51.816"/>
 </polygon>
 <wire x1="23.3644" y1="11.9634" x2="23.508" y2="12.107" width="0.508" layer="1"/>
 <wire x1="21.844" y1="9.232" x2="21.844" y2="9.62373125" width="0.508" layer="1"/>
