@@ -1,3 +1,4 @@
+//EAGLE RFM69HCW model: https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/downloads
 //Hookup Guide: https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide
 //Modified from sample sketch by Felix Rusu 2016, http://www.LowPowerLab.com/contact
 // **********************************************************************************
