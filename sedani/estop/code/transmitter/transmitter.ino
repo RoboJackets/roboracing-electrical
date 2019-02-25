@@ -29,7 +29,7 @@
 //************ IMPORTANT SETTINGS - YOU MUST CHANGE/CONFIGURE TO FIT YOUR HARDWARE ************
 //*********************************************************************************************
 #define NODEID        2    //must be unique for each node on same network (range up to 254, 255 is used for broadcast)
-#define NETWORKID     100  //the same on all nodes that talk to each other (range up to 255)
+#define NETWORKID     101  //the same on all nodes that talk to each other (range up to 255)
 #define GATEWAYID     1
 //Match frequency to the hardware version of the radio:
 #define FREQUENCY     RF69_915MHZ
@@ -45,11 +45,11 @@
 //By reducing TX power even a little you save a significant amount of battery power
 //This setting enables this gateway to work with remote nodes that have ATC enabled to
 //dial their power down to only the required level (ATC_RSSI)
-#define ENABLE_ATC    //comment out this line to disable AUTO TRANSMISSION CONTROL
+//#define ENABLE_ATC    //comment out this line to disable AUTO TRANSMISSION CONTROL
 #define ATC_RSSI      -60
 //Possible antenna https://arduinodiy.wordpress.com/2015/07/25/coil-loaded-433-mhz-antenna/
 //*********************************************************************************************
-#define SERIAL_BAUD   115200
+#define SERIAL_BAUD   9600
 
 //MAKE SURE TO KEEP THIS THE SAME AS RECIEVER
 #define CODE_LENGTH 7
@@ -67,6 +67,8 @@ uint8_t payload[payloadLength];
 //Not sure what this does
 char buff[20];
 
+#define OUPTUT_LED A0
+
 #ifdef ENABLE_ATC
 RFM69_ATC radio;
 #else
@@ -78,6 +80,8 @@ void setup() {
     radio.initialize(FREQUENCY,NODEID,NETWORKID);
     radio.setHighPower(); //must include this only for RFM69HW/HCW!
     radio.encrypt(ENCRYPTKEY);
+    
+    pinMode(OUPTUT_LED, OUTPUT);
     //radio.setFrequency(919000000); //set frequency to some custom frequency
 
 //Auto Transmission Control - dials down transmit power to save battery (-100 is the noise floor, -90 is still pretty good)
@@ -153,4 +157,6 @@ void loop() {
     
         Serial.println();
     }
+    
+    digitalWrite(OUPTUT_LED, linkEstablished);
 }

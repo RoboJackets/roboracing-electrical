@@ -28,7 +28,7 @@
 //************ IMPORTANT SETTINGS - YOU MUST CHANGE/CONFIGURE TO FIT YOUR HARDWARE *************
 //*********************************************************************************************
 #define NODEID        1    //unique for each node on same network
-#define NETWORKID     100  //the same on all nodes that talk to each other
+#define NETWORKID     101  //the same on all nodes that talk to each other
 //Match frequency to the hardware version of the radio:
 #define FREQUENCY     RF69_915MHZ
 
@@ -61,7 +61,7 @@ const static uint8_t eStopCode[CODE_LENGTH] = {118, 187, 180, 208, 238, 135, 85}
 const static uint8_t goCode[CODE_LENGTH] = {197, 254, 146, 31, 32, 106, 81};
 
 const static bool promiscuousMode = false; //set to 'true' to sniff all packets on the same network
-#define SERIAL_BAUD   115200
+#define SERIAL_BAUD   9600
 
 #ifdef ENABLE_ATC
 RFM69_ATC radio;
@@ -69,13 +69,12 @@ RFM69_ATC radio;
 RFM69 radio;
 #endif
 
-//A debug LED
-#define OUTPUT_LED 5
+#define OUPTUT_LED A0
 
 bool arrayCompare(uint8_t, uint8_t, unsigned int);
 
 void setup() {
-    pinMode(OUTPUT_LED, OUTPUT);
+    pinMode(OUPTUT_LED, OUTPUT);
     
     Serial.begin(SERIAL_BAUD);
     delay(10);
@@ -132,6 +131,7 @@ void loop() {
             // and also send a packet requesting an ACK (every 3rd one only)
             // This way both TX/RX NODE functions are tested on 1 end at the GATEWAY
             //May eliminate in final e-stop code
+            /*
             if (ackCount++%3==0)
             {
                 Serial.print(" Pinging node ");
@@ -139,18 +139,19 @@ void loop() {
                 Serial.print(" - ACK...");
                 delay(3); //need this when sending right after reception .. ?
                 if (radio.sendWithRetry(theNodeID, "ACK TEST", 8, 0)){    // 0 = only 1 attempt, no retries
-                    Serial.print("ok!");
+                    Serial.println("ok!");
                 }
                 else{
-                    Serial.print("nothing");
+                    Serial.println("nothing");
                 }
             }
+            */
         }
         
         //Decode message and verify it
         messageValid = false;
         //If message wrong length, fail immediately
-        if (expectedMessageLength == radio.DATALEN){
+        if (expectedMessageLength >= radio.DATALEN){
             if(arrayCompare(radio.DATA, goCode, CODE_LENGTH)){
                 go = true;
                 messageValid = true;
@@ -164,7 +165,7 @@ void loop() {
             }
         }
         else {
-            Serial.println("Message length incorrect");
+            Serial.println("Message length too short");
         }
         
         
@@ -179,20 +180,21 @@ void loop() {
     //Check if E_STOP is timed out
     if (millis() > lastCommandTime + E_STOP_TIMEOUT){
         go = false;
+        Serial.println("LOST SIGNAL");
     }
     
     //Write the signal out to the pins
     if (go){
-        digitalWrite(OUTPUT_LED, HIGH);
+        digitalWrite(OUPTUT_LED, HIGH);
     }
     else {
-        digitalWrite(OUTPUT_LED, LOW);
+        digitalWrite(OUPTUT_LED, LOW);
     }
 }
 //Compares if two arrays are element-for-element the same
 //From https://forum.arduino.cc/index.php?topic=5157.0
 //numberOfElements MUST be less than the length of the two arrays
-bool arrayCompare(uint8_t *a, uint8_t *b, unsigned int numberOfElements){
+bool arrayCompare(volatile uint8_t *a, uint8_t *b, unsigned int numberOfElements){
     for (unsigned int n=0;n<numberOfElements;n++){
         if (a[n]!=b[n]){
             return false;
