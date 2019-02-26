@@ -1,0 +1,19 @@
+PIN1 --> D7
+PIN8 --> D14
+PIN9 --> SCK
+PIN10 --> MOSI
+PIN11 --> MISO
+PIN13 -->
+PIN14 -->
+PIN15 --> 
+PIN18 --> D3
+PIN19 --> D2
+PIN20 --> D0
+PIN21 --> D1
+PIN25 --> D4
+PIN36 --> A0 --> LDR5_EN
+PIN37 --> A1 --> LDR4_EN
+PIN38 --> A2 --> LDR3_EN
+PIN39 --> A3 --> LDR2_EN
+PIN40 --> A4 --> LDR1_EN
+PIN41 --> A5 --> LDR0_EN
