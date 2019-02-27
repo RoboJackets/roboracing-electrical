@@ -23803,6 +23803,17 @@ CONN_04
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="CON-SMA-EDGE-S">
+<description>SMA Edge mount antenna CON-SMA-EDGE-S-ND</description>
+<smd name="ANT" x="0" y="0" dx="4.2" dy="1.5" layer="1" rot="R90" thermals="no"/>
+<smd name="GND2T" x="2.7" y="0" dx="4.2" dy="1.5" layer="1" rot="R90" thermals="no"/>
+<smd name="GND1T" x="-2.7" y="0" dx="4.2" dy="1.5" layer="1" rot="R90" thermals="no"/>
+<smd name="GND1B" x="-2.7" y="0" dx="4.2" dy="1.5" layer="16" rot="R90" thermals="no"/>
+<smd name="GND2B" x="2.7" y="0" dx="4.2" dy="1.5" layer="16" rot="R90" thermals="no"/>
+<wire x1="-3.2" y1="2.2" x2="3.2" y2="2.2" width="0.127" layer="51"/>
+<text x="-3.8" y="-2.4" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="4.8" y="-3" size="1.016" layer="25" font="vector" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS62203_DBV_5">
@@ -23870,6 +23881,19 @@ CONN_04
 <wire x1="63.5" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="30.8356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="30.2006" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="CON_SMA_EDGE_S">
+<pin name="ANT" x="-5.08" y="0" length="middle"/>
+<pin name="GND2" x="-5.08" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND1" x="-5.08" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND3" x="-5.08" y="-5.08" length="middle" direction="pwr"/>
+<pin name="GND4" x="-5.08" y="-10.16" length="middle" direction="pwr"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.2032" layer="94"/>
+<wire x1="0" y1="-12.7" x2="10.16" y2="-12.7" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.2032" layer="94"/>
+<text x="0" y="-15.24" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -24049,6 +24073,28 @@ CONN_04
 <attribute name="MANUFACTURER_PART_NUMBER" value="CD40109BPWR" constant="no"/>
 <attribute name="VENDOR" value="Vendor" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON-SMA-EDGE-S" prefix="ANT" uservalue="yes">
+<description>Edge mount SMA connector.
+
+Datasheet: media.digikey.com/pdf/Data%20Sheets/RF%20Solutions%20PDFs/CON-SMA-EDGE.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON_SMA_EDGE_S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-SMA-EDGE-S">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="GND1" pad="GND1B"/>
+<connect gate="G$1" pin="GND2" pad="GND1T"/>
+<connect gate="G$1" pin="GND3" pad="GND2B"/>
+<connect gate="G$1" pin="GND4" pad="GND2T"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -26203,6 +26249,8 @@ chip</description>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-7" package3d_urn="urn:adsk.eagle:package:23345/1" value="220uF"/>
+<part name="ANT1" library="estop-v1.0" deviceset="CON-SMA-EDGE-S" device=""/>
+<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26232,10 +26280,10 @@ github.com/adafruit/Adafruit-RFM-LoRa-Radio-Breakout-PCB</text>
 <text x="17.78" y="53.34" size="1.778" layer="97">Microcontroller
 Running at 3.3V</text>
 <text x="292.1" y="12.7" size="1.778" layer="97">130mA max power consumption</text>
-<wire x1="276.86" y1="17.78" x2="276.86" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="276.86" y1="-40.64" x2="363.22" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="363.22" y1="-40.64" x2="363.22" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="363.22" y1="17.78" x2="276.86" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="276.86" y1="17.78" x2="276.86" y2="-53.34" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="276.86" y1="-53.34" x2="375.92" y2="-53.34" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="375.92" y1="-53.34" x2="375.92" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="375.92" y1="17.78" x2="276.86" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
 <text x="168.91" y="86.36" size="1.778" layer="97" align="center-left">E-STOPPED</text>
 <text x="168.91" y="83.82" size="1.778" layer="97" align="center-left">AUTONOMOUS</text>
 <text x="168.91" y="81.28" size="1.778" layer="97" align="center-left">DATA COLLECTION MANUAL</text>
@@ -26493,8 +26541,8 @@ box only.</text>
 <instance part="SUPPLY17" gate="P" x="238.76" y="10.16" smashed="yes" rot="R270">
 <attribute name="VALUE" x="241.935" y="12.065" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY18" gate="P" x="243.84" y="27.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="247.015" y="29.845" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY18" gate="P" x="248.92" y="30.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="252.095" y="32.385" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY19" gate="P" x="160.02" y="12.7" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="156.845" y="14.605" size="1.778" layer="96" rot="MR270"/>
@@ -26513,6 +26561,13 @@ box only.</text>
 <instance part="C7" gate="G$1" x="254" y="-22.86" smashed="yes">
 <attribute name="NAME" x="255.016" y="-22.225" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.016" y="-27.051" size="1.778" layer="96"/>
+</instance>
+<instance part="ANT1" gate="G$1" x="358.14" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="358.14" y="-45.72" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="358.14" y="-15.24" size="1.778" layer="95" font="vector" align="top-left"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="353.06" y="-45.72" smashed="yes">
+<attribute name="VALUE" x="351.155" y="-48.895" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -26593,6 +26648,13 @@ box only.</text>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="327.66" y1="-17.78" x2="335.28" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="327.66" y="-17.78"/>
+<wire x1="335.28" y1="-17.78" x2="353.06" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="335.28" y="-17.78"/>
+<pinref part="ANT1" gate="G$1" pin="GND2"/>
+<wire x1="353.06" y1="-17.78" x2="353.06" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="ANT1" gate="G$1" pin="GND1"/>
+<wire x1="353.06" y1="-20.32" x2="353.06" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="353.06" y="-20.32"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -26653,6 +26715,14 @@ box only.</text>
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="248.92" y1="-27.94" x2="254" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="248.92" y="-27.94"/>
+</segment>
+<segment>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<pinref part="ANT1" gate="G$1" pin="GND4"/>
+<wire x1="353.06" y1="-43.18" x2="353.06" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="ANT1" gate="G$1" pin="GND3"/>
+<wire x1="353.06" y1="-40.64" x2="353.06" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="353.06" y="-40.64"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -26788,16 +26858,17 @@ box only.</text>
 <pinref part="U3" gate="A" pin="ENABLEC"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="27.94" x2="241.3" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="P" pin="+3.3V"/>
-<pinref part="U3" gate="A" pin="ENABLED"/>
-</segment>
-<segment>
 <pinref part="SUPPLY19" gate="P" pin="+3.3V"/>
 <wire x1="162.56" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="12.7" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="ENABLEB"/>
 <wire x1="165.1" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY18" gate="P" pin="+3.3V"/>
+<pinref part="U3" gate="A" pin="ENABLED"/>
+<wire x1="246.38" y1="30.48" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -26877,9 +26948,12 @@ box only.</text>
 </net>
 <net name="RF_SIGNAL" class="2">
 <segment>
+<pinref part="ANT1" gate="G$1" pin="ANT"/>
+<wire x1="322.58" y1="-30.48" x2="353.06" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="ANT"/>
-<wire x1="317.5" y1="-20.32" x2="322.58" y2="-20.32" width="0.1524" layer="91"/>
-<label x="322.58" y="-20.32" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
+<wire x1="317.5" y1="-20.32" x2="320.04" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-30.48" x2="322.58" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-20.32" x2="320.04" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="1">
