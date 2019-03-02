@@ -23320,33 +23320,6 @@ CONN_04
 <vertex x="-2.2987" y="-2.2987"/>
 <vertex x="-2.2987" y="-2.1082"/>
 </polygon>
-<wire x1="-2.032" y1="2.1082" x2="-2.032" y2="7.112" width="0.1524" layer="20"/>
-<wire x1="-2.032" y1="7.112" x2="-2.032" y2="7.5184" width="0.1524" layer="20"/>
-<wire x1="2.032" y1="2.1082" x2="2.032" y2="7.112" width="0.1524" layer="20"/>
-<wire x1="2.032" y1="7.112" x2="2.032" y2="7.5184" width="0.1524" layer="20"/>
-<wire x1="-2.032" y1="7.112" x2="2.032" y2="7.112" width="0.1524" layer="20"/>
-<wire x1="-2.032" y1="7.112" x2="-1.778" y2="7.2644" width="0.1524" layer="20"/>
-<wire x1="-2.032" y1="7.112" x2="-1.778" y2="7.0104" width="0.1524" layer="20"/>
-<wire x1="-1.778" y1="7.2644" x2="-1.778" y2="7.0104" width="0.1524" layer="20"/>
-<wire x1="2.032" y1="7.112" x2="1.778" y2="7.2644" width="0.1524" layer="20"/>
-<wire x1="2.032" y1="7.112" x2="1.778" y2="7.0104" width="0.1524" layer="20"/>
-<wire x1="1.778" y1="7.2644" x2="1.778" y2="7.0104" width="0.1524" layer="20"/>
-<wire x1="2.286" y1="2.032" x2="-5.6642" y2="2.032" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="2.032" x2="-6.0452" y2="2.032" width="0.1524" layer="20"/>
-<wire x1="2.286" y1="-2.032" x2="-5.6642" y2="-2.032" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="-2.032" x2="-6.0452" y2="-2.032" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="2.032" x2="-5.6642" y2="-2.032" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="2.032" x2="-5.7912" y2="1.778" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="2.032" x2="-5.5372" y2="1.778" width="0.1524" layer="20"/>
-<wire x1="-5.7912" y1="1.778" x2="-5.5372" y2="1.778" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="-2.032" x2="-5.7912" y2="-1.778" width="0.1524" layer="20"/>
-<wire x1="-5.6642" y1="-2.032" x2="-5.5372" y2="-1.778" width="0.1524" layer="20"/>
-<wire x1="-5.7912" y1="-1.778" x2="-5.5372" y2="-1.778" width="0.1524" layer="20"/>
-<text x="-16.3576" y="-7.366" size="1.27" layer="20" ratio="6" rot="SR0">Default Pad Style: RX47Y146D0T</text>
-<text x="-15.3924" y="-8.636" size="1.27" layer="20" ratio="6" rot="SR0">Alt 1 Pad Style: OX60Y90D30P</text>
-<text x="-15.3924" y="-9.906" size="1.27" layer="20" ratio="6" rot="SR0">Alt 2 Pad Style: EX90Y60D30P</text>
-<text x="-4.0386" y="7.62" size="0.635" layer="20" ratio="4" rot="SR0">0.161in/4.089mm</text>
-<text x="-14.2494" y="-0.3048" size="0.635" layer="20" ratio="4" rot="SR0">0.161in/4.089mm</text>
 <wire x1="-0.7112" y1="-2.1844" x2="0.7112" y2="-2.1844" width="0.1524" layer="21"/>
 <wire x1="0.7112" y1="2.1844" x2="-0.7112" y2="2.1844" width="0.1524" layer="21"/>
 <wire x1="-2.6924" y1="0" x2="-2.8448" y2="0" width="0.1524" layer="21" curve="-180"/>
@@ -26303,10 +26276,10 @@ chip</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="YELLOW"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -27089,50 +27062,50 @@ module that goes in Sedani.</text>
 </net>
 <net name="WIRELESS_D3" class="0">
 <segment>
-<pinref part="MC1" gate="G$1" pin="PF0(ADC0)"/>
-<wire x1="116.84" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<label x="121.92" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="236.22" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
 <label x="241.3" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="A" pin="D"/>
 </segment>
+<segment>
+<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+</segment>
 </net>
 <net name="WIRELESS_D2" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="PF1(ADC1)"/>
-<wire x1="116.84" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<label x="121.92" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 <segment>
 <wire x1="236.22" y1="15.24" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
 <label x="241.3" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="A" pin="C"/>
 </segment>
+<segment>
+<wire x1="116.84" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
+</segment>
 </net>
 <net name="WIRELESS_D1" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="PF4(ADC4/TCK)"/>
-<wire x1="116.84" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<label x="121.92" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 <segment>
 <wire x1="170.18" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="165.1" y="17.78" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="U3" gate="A" pin="B"/>
 </segment>
+<segment>
+<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
+</segment>
 </net>
 <net name="WIRELESS_D0" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="PF5(ADC5/TMS)"/>
-<wire x1="116.84" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
-<label x="121.92" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 <segment>
 <wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
 <label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="U3" gate="A" pin="A"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -27208,14 +27181,14 @@ module that goes in Sedani.</text>
 </net>
 <net name="CONNECTED" class="0">
 <segment>
-<pinref part="MC1" gate="G$1" pin="PF6(ADC6/TDO)"/>
-<wire x1="116.84" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<label x="121.92" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="93.98" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
 <label x="325.12" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
+<label x="121.92" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
 </segment>
 </net>
 <net name="WIRELESS_D3_5V" class="0">
@@ -27273,9 +27246,9 @@ module that goes in Sedani.</text>
 <label x="254" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
-<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
+<wire x1="116.84" y1="-10.16" x2="121.92" y2="-10.16" width="0.1524" layer="91"/>
+<label x="121.92" y="-10.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
 </segment>
 </net>
 <net name="RED_BTN" class="0">
