@@ -26224,11 +26224,11 @@ chip</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0">
+<class number="0" name="default" width="0.3048" drill="0.508">
 </class>
 <class number="1" name="power" width="0.4064" drill="0.508">
 </class>
-<class number="2" name="RF" width="0.2032" drill="0">
+<class number="2" name="RF" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
@@ -26244,8 +26244,6 @@ chip</description>
 <part name="C17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="SUPPLY54" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
-<part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
-<part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="X1" library="estop-v1.0" deviceset="ECS-80-18-5PX-TR" device="" value="8 MHz"/>
 <part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="U1" library="microbuilder" deviceset="RFM69HCW" device="_SMT" value="RFM69HCW"/>
@@ -26432,14 +26430,6 @@ module that goes in Sedani.</text>
 <instance part="C16" gate="G$1" x="45.72" y="27.94" smashed="yes">
 <attribute name="NAME" x="46.736" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.736" y="23.749" size="1.778" layer="96"/>
-</instance>
-<instance part="C15" gate="G$1" x="33.02" y="27.94" smashed="yes">
-<attribute name="NAME" x="34.036" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.036" y="23.749" size="1.778" layer="96"/>
-</instance>
-<instance part="C14" gate="G$1" x="22.86" y="27.94" smashed="yes">
-<attribute name="NAME" x="23.876" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="23.876" y="23.749" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="G$1" x="40.64" y="86.36" smashed="yes">
 <attribute name="VALUE" x="38.1" y="88.9" size="1.778" layer="96"/>
@@ -26688,15 +26678,10 @@ module that goes in Sedani.</text>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="SUPPLY54" gate="GND" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
-<junction x="33.02" y="22.86"/>
 <junction x="45.72" y="22.86"/>
 <junction x="45.72" y="22.86"/>
 <wire x1="45.72" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@3"/>
@@ -26863,16 +26848,8 @@ module that goes in Sedani.</text>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="33.02" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<junction x="33.02" y="33.02"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="45.72" y="33.02"/>
 <wire x1="63.5" y1="30.48" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 <junction x="63.5" y="33.02"/>
 <pinref part="MC1" gate="G$1" pin="VBUS"/>
@@ -27086,26 +27063,26 @@ module that goes in Sedani.</text>
 </net>
 <net name="WIRELESS_D1" class="0">
 <segment>
-<wire x1="170.18" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
-<label x="165.1" y="17.78" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="U3" gate="A" pin="B"/>
-</segment>
-<segment>
 <wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
 <label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
 </segment>
+<segment>
+<pinref part="U3" gate="A" pin="A"/>
+<wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="WIRELESS_D0" class="0">
-<segment>
-<wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="U3" gate="A" pin="A"/>
-</segment>
 <segment>
 <wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
 <label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="B"/>
+<wire x1="170.18" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<label x="165.1" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -27217,26 +27194,26 @@ module that goes in Sedani.</text>
 </net>
 <net name="WIRELESS_D1_5V" class="0">
 <segment>
-<wire x1="170.18" y1="20.32" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
-<label x="165.1" y="20.32" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="U3" gate="A" pin="F"/>
-</segment>
-<segment>
 <label x="154.94" y="81.28" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="81.28" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U3" gate="A" pin="E"/>
+<wire x1="170.18" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
+<label x="165.1" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="WIRELESS_D0_5V" class="0">
-<segment>
-<wire x1="170.18" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
-<label x="165.1" y="22.86" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="U3" gate="A" pin="E"/>
-</segment>
 <segment>
 <label x="154.94" y="78.74" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="F"/>
+<wire x1="170.18" y1="20.32" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
+<label x="165.1" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GREEN_BTN" class="0">
