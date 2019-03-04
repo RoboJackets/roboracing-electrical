@@ -27044,9 +27044,9 @@ module that goes in Sedani.</text>
 <pinref part="U3" gate="A" pin="D"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<label x="121.92" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
 </segment>
 </net>
 <net name="WIRELESS_D2" class="0">
@@ -27056,33 +27056,33 @@ module that goes in Sedani.</text>
 <pinref part="U3" gate="A" pin="C"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
-<label x="121.92" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
+<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
 </segment>
 </net>
 <net name="WIRELESS_D1" class="0">
-<segment>
-<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
-<label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
-</segment>
 <segment>
 <pinref part="U3" gate="A" pin="A"/>
 <wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
 <label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+</segment>
 </net>
 <net name="WIRELESS_D0" class="0">
-<segment>
-<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
-<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-</segment>
 <segment>
 <pinref part="U3" gate="A" pin="B"/>
 <wire x1="170.18" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="165.1" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -27114,7 +27114,7 @@ module that goes in Sedani.</text>
 <wire x1="88.9" y1="73.66" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="SW"/>
 <pinref part="L1" gate="A" pin="2"/>
@@ -27223,9 +27223,9 @@ module that goes in Sedani.</text>
 <label x="254" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-10.16" x2="121.92" y2="-10.16" width="0.1524" layer="91"/>
-<label x="121.92" y="-10.16" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+<wire x1="116.84" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="-12.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD3(INT3/TXD1)"/>
 </segment>
 </net>
 <net name="RED_BTN" class="0">
@@ -27235,9 +27235,9 @@ module that goes in Sedani.</text>
 <label x="254" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-5.08" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
-<label x="121.92" y="-5.08" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
+<wire x1="116.84" y1="-15.24" x2="121.92" y2="-15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="-15.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD2(INT2/RXD1)"/>
 </segment>
 </net>
 <net name="YELLOW_BTN" class="0">
@@ -27247,9 +27247,9 @@ module that goes in Sedani.</text>
 <label x="254" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-7.62" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
-<label x="121.92" y="-7.62" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD5(XCK/CTS)"/>
+<wire x1="116.84" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="-17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD1(INT1/SDA)"/>
 </segment>
 </net>
 <net name="N$6" class="0">
