@@ -17411,6 +17411,8 @@ box only.</text>
 <text x="137.16" y="101.6" size="1.778" layer="97">The current-limiting resistors 
 should be solderbridged on the 
 module that goes in Sedani.</text>
+<text x="340.36" y="-22.86" size="1.27" layer="97" font="vector">Can forget about impedance matching if 
+the antenna trace is shorter than 20mm</text>
 </plain>
 <instances>
 <instance part="SUPPLY12" gate="GND" x="60.96" y="-17.78" smashed="yes">
