@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26297,9 +26297,9 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="335.28" y1="139.7" x2="403.86" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="403.86" y1="139.7" x2="403.86" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="5.08" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="149.86" y1="104.14" x2="149.86" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="149.86" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="5.08" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="152.4" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="200.66" y1="43.18" x2="200.66" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="200.66" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="259.08" y1="91.44" x2="259.08" y2="43.18" width="0.1524" layer="97" style="shortdash"/>
@@ -26348,6 +26348,12 @@ LOW       |  LOW                  |   HIGH
 HIGH      |  LOW                  |   HIGH
 LOW       |  HIGH                 |   LOW
 HIGH      |  HIGH                 |   HIGH</text>
+<text x="114.3" y="38.1" size="1.778" layer="97" font="vector">The diode prevents the NUCs 
+USB ports from backdriving the 
+5V system. The solderbridge
+ is to bypass that for testing 
+the boardoff a USB port 
+without hooking up a 7V source.</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="76.2" y="55.88" smashed="yes">
