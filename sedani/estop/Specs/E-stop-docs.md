@@ -43,9 +43,10 @@ Every TRANSMIT_PERIOD ms, send out a message: either GO or STOP. If no ACK recei
  * go: Should the radio tell car to go or stop?
 
 # Major hardware parts
- * TI battery bank – Power source for remote. Has built-in USB charging, regulated 5V output, and is easily changeable.
  * Sparkfun radio RFM69HCW (915 MHz version): radio chips
  * ATMEGA MCU (3.3 V version): Microcontroller
+ * USB battery charger to charge battery and supply 5V to the board: www.adafruit.com/product/1944
+ * 2000mAh Li-ion battery: www.adafruit.com/product/2011
 
 # Useful references
 https://learn.sparkfun.com/tutorials/how-to-build-a-remote-kill-switch/all - semi-following this
