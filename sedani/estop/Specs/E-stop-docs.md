@@ -4,16 +4,18 @@
  * Must interface with current 7 pin header
  * Must be able to handle reconnecting
  * Must have a simple control box (in addition to any other controls)
- * Must have >3-hour battery life with replaceable battery
+ * Must have >7-hour battery life with replaceable battery
  * Must have indicator LEDs on remote to show state
  
 # Block diagram
-![sedani-e-stop-block-diagram.png](/sedani-e-stop-block-diagram.png)
+![sedani-e-stop-information-flow.png](/sedani-e-stop-information-flow.png)
 
-# Firmware logic
-
-## Receiver
+# Receiver
 Every loop, we check for a new radio message. If there is one, check if it is a valid GO or STOP message. If yes, set flag to start or stop car. If no valid messages received for a certain length of time, automatically stop car.
+
+## Firmware
+
+### Radio Message format
 
 ### Important Variables
  * E_STOP_TIMEOUT How long the car should wait before stopping if the connection drops
@@ -33,9 +35,24 @@ Every loop, we check for a new radio message. If there is one, check if it is a 
     1. Transitions to STOP upon receiving stop signal.
     2. Transitions to GO upon receiving go signal.
 
-## Transmitter
-Every TRANSMIT_PERIOD ms, send out a message: either GO or STOP. If no ACK received, retry several times before failing to send the message.
+## Hardware
 
+### LEDs
+
+
+# Transmitter
+Every TRANSMIT_PERIOD ms, send out a message. If no ACK received, retry several times before failing to send the message.
+
+## Hardware
+
+### LEDs
+
+### Buttons
+ * Power switch 
+ * Green GO button to enable car
+ * Red STOP button to e-stop car
+ * Signal switch (ex. to signal the car to record bag files).
+    
 ### Important Variables
  * TRANSMIT_PERIOD The interval between transmissions in ms
  * eStopCode: array that contains message to stop car (MUST BE SAME AS IN RECEIVER)
@@ -47,6 +64,12 @@ Every TRANSMIT_PERIOD ms, send out a message: either GO or STOP. If no ACK recei
  * ATMEGA MCU (3.3 V version): Microcontroller
  * USB battery charger to charge battery and supply 5V to the board: www.adafruit.com/product/1944
  * 2000mAh Li-ion battery: www.adafruit.com/product/2011
+ * Buttons:
+    * Power switch
+    * Green GO button
+    * Red STOP button
+    * Signal switch
+    
 
 # Useful references
 https://learn.sparkfun.com/tutorials/how-to-build-a-remote-kill-switch/all - semi-following this
