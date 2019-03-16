@@ -36,6 +36,10 @@ Every loop, we check for a new radio message. If there is one, check if it is a 
     2. Transitions to GO upon receiving go signal.
 
 ## Hardware
+Connect the PCB to the control board by the 7-pin header.
+
+Make sure to remove diode 2 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
+![control_board_3.1_removed_diode.PNG](/control_board_3.1_removed_diode.PNG)
 
 ### LEDs
 
@@ -45,13 +49,21 @@ Every TRANSMIT_PERIOD ms, send out a message. If no ACK received, retry several 
 
 ## Hardware
 
+### Remote wiring diagram
+![remote-wiring-diagram.svg](/remote-wiring-diagram.svg)
+
 ### LEDs
+ * Green is power
+ * Red indicates if the car is enabled
+ * Yellow indicates if the last message was successfully transmitted. Slightly different than if the remote has lost connection.
 
 ### Buttons
  * Power switch 
  * Green GO button to enable car
  * Red STOP button to e-stop car
  * Signal switch (ex. to signal the car to record bag files).
+ 
+## Firmware
     
 ### Important Variables
  * TRANSMIT_PERIOD The interval between transmissions in ms
