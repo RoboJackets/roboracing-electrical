@@ -7,7 +7,7 @@
  * Must have >7-hour battery life with replaceable battery
  * Must have indicator LEDs on remote to show state
  
-# Block diagram
+# Information flow block diagram
 ![sedani-e-stop-information-flow.png](/sedani-e-stop-information-flow.png)
 
 # Receiver
@@ -36,13 +36,17 @@ Every loop, we check for a new radio message. If there is one, check if it is a 
     2. Transitions to GO upon receiving go signal.
 
 ## Hardware
-Connect the PCB to the control board by the 7-pin header.
+Connect the PCB to the control board by the 7-pin header. Instead of soldering on R5-R9 on the back of the board, solderbridge over them:
+![e-stop-sedani-solderbridges.png](/e-stop-sedani-solderbridges.png)
 
-Make sure to remove diode 2 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
+Make sure to remove diodes 2 and 3 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
 ![control_board_3.1_removed_diode.PNG](/control_board_3.1_removed_diode.PNG)
 
 ### LEDs
-
+ * The Green LED is for the 5V line.
+ * The Red LED is for the 3.3V line.
+ * The Yellow LED is MCU-controlled (probably to indicate connection status).
+ * There is NO LED on the board to indicate if the car is enabled or disabled - the control board has its own enable/disable light.
 
 # Transmitter
 Every TRANSMIT_PERIOD ms, send out a message. If no ACK received, retry several times before failing to send the message.

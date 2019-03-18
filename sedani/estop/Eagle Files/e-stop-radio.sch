@@ -17308,7 +17308,6 @@ chip</description>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="YELLOW"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -17334,6 +17333,8 @@ chip</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1 kΩ"/>
+<part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 </parts>
 <sheets>
 <sheet>
@@ -17358,10 +17359,6 @@ Running at 3.3V</text>
 <wire x1="276.86" y1="-53.34" x2="375.92" y2="-53.34" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="375.92" y1="-53.34" x2="375.92" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="375.92" y1="17.78" x2="276.86" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
-<text x="199.39" y="86.36" size="1.778" layer="97" align="center-left">E-STOPPED</text>
-<text x="199.39" y="83.82" size="1.778" layer="97" align="center-left">AUTONOMOUS</text>
-<text x="199.39" y="81.28" size="1.778" layer="97" align="center-left">DATA COLLECTION MANUAL</text>
-<text x="199.39" y="78.74" size="1.778" layer="97" align="center-left">MANUAL</text>
 <text x="199.39" y="76.454" size="1.778" layer="97" align="center-left">5V IN</text>
 <text x="332.74" y="2.54" size="5.08" layer="97" font="vector">Radio
 Module</text>
@@ -17543,10 +17540,6 @@ the antenna trace is shorter than 20mm</text>
 <instance part="GND5" gate="1" x="299.72" y="68.58" smashed="yes">
 <attribute name="VALUE" x="299.72" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED2" gate="G$1" x="312.42" y="91.44" smashed="yes">
-<attribute name="NAME" x="315.976" y="86.868" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="318.135" y="86.868" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND6" gate="1" x="312.42" y="68.58" smashed="yes">
 <attribute name="VALUE" x="312.42" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -17627,13 +17620,20 @@ the antenna trace is shorter than 20mm</text>
 <attribute name="NAME" x="298.2214" y="74.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="303.022" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="312.42" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="310.9214" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="315.722" y="74.93" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="312.42" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="310.9214" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="315.722" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="325.12" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="323.6214" y="74.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="328.422" y="74.93" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="182.88" y="88.9" smashed="yes">
+<attribute name="VALUE" x="182.88" y="88.646" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="LED2" gate="G$1" x="312.42" y="78.74" smashed="yes">
+<attribute name="NAME" x="315.976" y="74.168" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="318.135" y="74.168" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -17753,14 +17753,20 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="299.72" y1="73.66" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="71.12" x2="312.42" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="325.12" y1="73.66" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="91.44" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="312.42" y1="73.66" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -17875,9 +17881,9 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="246.38" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="312.42" y1="96.52" x2="312.42" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="P" pin="+3.3V"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -18000,43 +18006,7 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="238.76" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="WIRELESS_D3" class="0">
-<segment>
-<wire x1="236.22" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
-<label x="241.3" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="A" pin="D"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
-<label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
-</segment>
-</net>
-<net name="WIRELESS_D2" class="0">
-<segment>
-<wire x1="236.22" y1="15.24" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
-<label x="241.3" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="A" pin="C"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
-<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-</segment>
-</net>
-<net name="WIRELESS_D1" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="A"/>
-<wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<label x="121.92" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
-</segment>
-</net>
-<net name="WIRELESS_D0" class="0">
+<net name="SWITCH" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="B"/>
 <wire x1="170.18" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
@@ -18098,7 +18068,7 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="182.88" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CONNECTED" class="0">
+<net name="LED" class="0">
 <segment>
 <wire x1="325.12" y1="93.98" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
 <label x="325.12" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -18110,19 +18080,7 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="MC1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
 </segment>
 </net>
-<net name="WIRELESS_D3_5V" class="0">
-<segment>
-<wire x1="236.22" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
-<label x="241.3" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="A" pin="H"/>
-</segment>
-<segment>
-<label x="154.94" y="86.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="WIRELESS_D2_5V" class="0">
+<net name="ESTOPPED_5V" class="0">
 <segment>
 <wire x1="236.22" y1="17.78" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
 <label x="241.3" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -18134,7 +18092,7 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="WIRELESS_D1_5V" class="0">
+<net name="GO_5V" class="0">
 <segment>
 <label x="154.94" y="81.28" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -18146,7 +18104,7 @@ the antenna trace is shorter than 20mm</text>
 <label x="165.1" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="WIRELESS_D0_5V" class="0">
+<net name="SWITCH_5V" class="0">
 <segment>
 <label x="154.94" y="78.74" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -18229,18 +18187,66 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="299.72" y1="83.82" x2="299.72" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="83.82" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="86.36" x2="325.12" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WIRELESS_D3" class="0">
+<segment>
+<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<label x="241.3" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U3" gate="A" pin="D"/>
+</segment>
+</net>
+<net name="GO" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="A"/>
+<wire x1="170.18" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<label x="165.1" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="312.42" y1="83.82" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WIRELESS_D3_5V" class="0">
+<segment>
+<label x="154.94" y="86.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
+<label x="241.3" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U3" gate="A" pin="H"/>
+</segment>
+</net>
+<net name="ESTOPPED" class="0">
+<segment>
+<wire x1="236.22" y1="15.24" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
+<label x="241.3" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U3" gate="A" pin="C"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
+<label x="121.92" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="MC1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
 </segment>
 </net>
 </nets>
