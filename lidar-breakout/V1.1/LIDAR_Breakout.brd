@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -6616,7 +6616,7 @@ chip</description>
 <class number="2" name="diff" width="0.4064" drill="0">
 </class>
 </classes>
-<designrules name="RJ2LayerDRU *">
+<designrules name="RJ2LayerDRU">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -6681,7 +6681,7 @@ design rules under a new name.</description>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -7478,18 +7478,17 @@ design rules under a new name.</description>
 <wire x1="19.3" y1="37.2" x2="17.3119" y2="39.1881" width="0.3048" layer="16"/>
 <wire x1="17.3119" y1="39.1881" x2="17.048" y2="39.1881" width="0.3048" layer="16"/>
 <wire x1="9.69831875" y1="30.883996875" x2="12.23831875" y2="30.883996875" width="0.3048" layer="16"/>
-<wire x1="9.69831875" y1="32.00168125" x2="9.69831875" y2="30.883996875" width="0.3048" layer="1"/>
 <wire x1="9.65" y1="32.65" x2="11.45" y2="32.65" width="0.3048" layer="1"/>
 <wire x1="11.45" y1="32.65" x2="14" y2="35.2" width="0.3048" layer="1"/>
 <wire x1="14" y1="35.2" x2="15.6" y2="35.2" width="0.3048" layer="1"/>
 <wire x1="15.6" y1="35.2" x2="16.306084375" y2="35.906084375" width="0.3048" layer="1"/>
 <wire x1="16.306084375" y1="35.906084375" x2="16.306084375" y2="40.506084375" width="0.3048" layer="1"/>
-<wire x1="9.69831875" y1="30.883996875" x2="9.69831875" y2="32.60168125" width="0.3048" layer="1"/>
 <wire x1="9.69831875" y1="32.60168125" x2="9.65" y2="32.65" width="0.3048" layer="1"/>
 <via x="7.9" y="34.4" extent="1-16" drill="0.381"/>
 <wire x1="9.65" y1="32.65" x2="7.9" y2="34.4" width="0.3048" layer="1"/>
 <wire x1="7.9" y1="34.4" x2="6.527721875" y2="34.4" width="0.3048" layer="16"/>
 <wire x1="6.527721875" y1="34.4" x2="6.522121875" y2="34.3944" width="0.3048" layer="16"/>
+<wire x1="9.69831875" y1="30.883996875" x2="9.69831875" y2="32.60168125" width="0.3048" layer="1"/>
 </signal>
 <signal name="UVCC">
 <contactref element="P1" pad="2"/>
@@ -8199,9 +8198,8 @@ design rules under a new name.</description>
 <via x="33.1" y="60.256084375" extent="1-16" drill="0.381"/>
 <wire x1="33.1" y1="60.256084375" x2="29.378084375" y2="60.256084375" width="0.3048" layer="16"/>
 <wire x1="29.222" y1="60.2" x2="29.378084375" y2="60.256084375" width="0.3048" layer="16"/>
-<wire x1="31.406084375" y1="60.256084375" x2="31.4" y2="60.25" width="0.3048" layer="1"/>
-<wire x1="31.4" y1="60.25" x2="33.093915625" y2="60.25" width="0.3048" layer="1"/>
 <wire x1="33.093915625" y1="60.25" x2="33.1" y2="60.256084375" width="0.3048" layer="1"/>
+<wire x1="31.4" y1="60.25" x2="33.093915625" y2="60.25" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="D2" pad="A"/>
@@ -8293,7 +8291,6 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <wire x1="24.5" y1="8.3" x2="25.1" y2="7.7" width="0.3048" layer="16"/>
 <wire x1="24.5" y1="8.3" x2="23.45" y2="8.3" width="0.3048" layer="16"/>
-<wire x1="23.3" y1="8.3" x2="23.45" y2="8.3" width="0.3048" layer="16"/>
 <via x="25.1" y="7.7" extent="1-16" drill="0.381"/>
 <wire x1="25.1" y1="7.7" x2="25.1" y2="7.1" width="0.3048" layer="1"/>
 <wire x1="25.1" y1="7.1" x2="22.85" y2="4.85" width="0.3048" layer="1"/>
