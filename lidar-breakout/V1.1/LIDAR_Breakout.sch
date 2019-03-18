@@ -53192,7 +53192,7 @@ chip</description>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1"/>
+<part name="LD6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1"/>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="SUPPLY38" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
@@ -53249,7 +53249,7 @@ chip</description>
 <wire x1="266.7" y1="256.5" x2="266.7" y2="177.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="417.83" y1="177.76" x2="417.83" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="417.83" y1="256.5" x2="266.7" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
-<text x="269.24" y="253.96" size="1.27" layer="97">Power Connector</text>
+<text x="269.24" y="253.96" size="1.778" layer="97">Power Supply</text>
 <wire x1="266.7" y1="175.22" x2="266.7" y2="53.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="266.7" y1="53.3" x2="417.83" y2="53.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="417.83" y1="53.3" x2="417.83" y2="175.22" width="0.1524" layer="97" style="shortdash"/>
@@ -53263,7 +53263,7 @@ chip</description>
 <wire x1="182.118" y1="223.48" x2="264.16" y2="223.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="264.16" y1="223.48" x2="264.16" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="264.16" y1="256.5" x2="182.118" y2="256.5" width="0.1524" layer="97" style="shortdash"/>
-<text x="185.42" y="253.198" size="1.27" layer="97">Reset PB</text>
+<text x="185.42" y="253.198" size="1.778" layer="97">Reset</text>
 <wire x1="266.7" y1="177.76" x2="417.83" y2="177.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="128.778" y1="256.5" x2="128.778" y2="223.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="128.778" y1="223.48" x2="179.578" y2="223.48" width="0.1524" layer="97" style="shortdash"/>
@@ -53286,14 +53286,13 @@ chip</description>
 <text x="377.19" y="219.67" size="1.778" layer="97" rot="R90">VCC1 POWER OK</text>
 <text x="293.878" y="219.924" size="1.778" layer="97">FUSE
 BLOWN</text>
-<text x="364.49" y="86.828" size="1.778" layer="97">SDA STATUS</text>
-<text x="363.982" y="61.682" size="1.778" layer="97">SCL STATUS</text>
-<text x="271.272" y="75.144" size="1.778" layer="97">ENABLED LED</text>
-<text x="270.51" y="114.768" size="1.778" layer="97">ENABLED LED</text>
+<text x="353.822" y="74.382" size="1.778" layer="97">I2C STATUS</text>
+<text x="272.796" y="75.398" size="1.778" layer="97">ENABLED LED</text>
+<text x="272.034" y="113.752" size="1.778" layer="97">ENABLED LED</text>
 <text x="272.796" y="152.36" size="1.778" layer="97">ENABLED LED</text>
-<text x="314.452" y="75.144" size="1.778" layer="97">ENABLED LED</text>
-<text x="315.468" y="114.768" size="1.778" layer="97">ENABLED LED</text>
-<text x="315.214" y="152.868" size="1.778" layer="97">ENABLED LED</text>
+<text x="313.69" y="75.398" size="1.778" layer="97">ENABLED LED</text>
+<text x="313.944" y="113.752" size="1.778" layer="97">ENABLED LED</text>
+<text x="313.69" y="152.106" size="1.778" layer="97">ENABLED LED</text>
 <wire x1="35.052" y1="165.06" x2="35.052" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="130.302" y1="165.06" x2="35.052" y2="165.06" width="0.1524" layer="97" style="shortdash"/>
 <text x="37.592" y="162.52" size="1.27" layer="97">Status NeoPixel</text>
@@ -53514,7 +53513,7 @@ BLOWN</text>
 <attribute name="NAME" x="375.7168" y="163.8554" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
 <instance part="PB1" gate="G$1" x="246.38" y="231.14" smashed="yes">
-<attribute name="NAME" x="243.84" y="234.95" size="2.54" layer="95" font="vector"/>
+<attribute name="NAME" x="243.84" y="234.95" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="246.38" y="229.87" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="TP1" gate="G$1" x="309.88" y="251.46" smashed="yes" rot="R270">
@@ -53552,7 +53551,7 @@ BLOWN</text>
 <attribute name="VALUE" x="192.278" y="240.03" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="PB2" gate="G$1" x="205.74" y="231.14" smashed="yes">
-<attribute name="NAME" x="203.454" y="235.204" size="2.54" layer="95" font="vector"/>
+<attribute name="NAME" x="203.454" y="235.204" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="205.74" y="229.87" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R7" gate="G$1" x="289.56" y="154.94" smashed="yes" rot="R180">
@@ -53621,7 +53620,7 @@ BLOWN</text>
 <instance part="SUPPLY21" gate="GND" x="312.42" y="152.4" smashed="yes">
 <attribute name="VALUE" x="310.515" y="149.225" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="81.28" y="137.16" smashed="yes"/>
+<instance part="LD6" gate="G$1" x="81.28" y="137.16" smashed="yes"/>
 <instance part="SUPPLY33" gate="GND" x="81.28" y="121.92" smashed="yes">
 <attribute name="VALUE" x="79.375" y="118.745" size="1.778" layer="96"/>
 </instance>
@@ -53630,10 +53629,10 @@ BLOWN</text>
 <attribute name="VALUE" x="102.616" y="135.509" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY38" gate="G$2" x="406.4" y="248.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="409.194" y="248.92" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="413.004" y="248.158" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY39" gate="G$1" x="406.4" y="241.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="409.194" y="241.3" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="413.258" y="240.538" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY6" gate="G$2" x="279.4" y="167.64" smashed="yes">
 <attribute name="VALUE" x="279.4" y="170.434" size="1.778" layer="96" align="bottom-center"/>
@@ -53752,8 +53751,8 @@ BLOWN</text>
 <attribute name="VALUE" x="401.955" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J1" gate="G$1" x="91.44" y="241.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="93.98" y="251.46" size="2.54" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="93.98" y="231.14" size="2.54" layer="96" font="vector" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="93.98" y="251.46" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="93.98" y="231.14" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
 <instance part="C25" gate="G$1" x="213.36" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.725" y="244.856" size="1.778" layer="95" rot="R90"/>
@@ -54019,7 +54018,7 @@ BLOWN</text>
 <wire x1="312.42" y1="116.84" x2="314.96" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="GND"/>
+<pinref part="LD6" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
 <wire x1="81.28" y1="127" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="2"/>
@@ -54573,7 +54572,7 @@ BLOWN</text>
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="154.94" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="VDD"/>
+<pinref part="LD6" gate="G$1" pin="VDD"/>
 <wire x1="86.36" y1="152.4" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY27" gate="G$1" pin="VCC_2"/>
@@ -54597,7 +54596,7 @@ BLOWN</text>
 <label x="238.79" y="175.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="DI"/>
+<pinref part="LD6" gate="G$1" pin="DI"/>
 <wire x1="68.58" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
 <label x="66.06" y="134.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
