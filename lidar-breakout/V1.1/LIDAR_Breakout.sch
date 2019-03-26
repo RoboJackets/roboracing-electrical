@@ -22183,6 +22183,17 @@ Source: www.kingbright.com</description>
 In this library you will find switches and other mechanical assisted circuit elements that are used for controlling connections among wires.
 &lt;/p&gt;</description>
 <packages>
+<package name="TACT_PB_RA">
+<pad name="P$1" x="1.5" y="6.5" drill="1.3"/>
+<pad name="P$2" x="8.5" y="6.5" drill="1.3"/>
+<pad name="P$3" x="2.75" y="4" drill="1"/>
+<pad name="P$4" x="7.25" y="4" drill="1"/>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="21"/>
+<wire x1="10" y1="0" x2="10" y2="8" width="0.127" layer="21"/>
+<wire x1="10" y1="8" x2="0" y2="8" width="0.127" layer="21"/>
+<wire x1="0" y1="8" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="0" y="8.5" size="1.016" layer="21" font="vector">&gt;NAME</text>
+</package>
 <package name="RESET_PB_RA">
 <wire x1="0" y1="0" x2="0" y2="2.7" width="0.1524" layer="21"/>
 <wire x1="5.5" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
@@ -22212,6 +22223,22 @@ In this library you will find switches and other mechanical assisted circuit ele
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="PB_RA">
+<gates>
+<gate name="G$1" symbol="TS2" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="TACT_PB_RA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="RESET_PB_RA">
 <gates>
 <gate name="G$1" symbol="TS2" x="0" y="0"/>
@@ -53570,7 +53597,7 @@ CONN_03x2
 <part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C13" library="680uF_Elect_Cap" deviceset="EEE-FTJ681XAP" device="" value="680 uF"/>
-<part name="PB1" library="RoboJackets-Switches" deviceset="RESET_PB_RA" device="" value="ATMEGA_RESET"/>
+<part name="PB1" library="RoboJackets-Switches" deviceset="PB_RA" device="" value="ATMEGA_RESET"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
