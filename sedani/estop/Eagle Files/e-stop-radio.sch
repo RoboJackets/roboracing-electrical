@@ -12183,191 +12183,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="microbuilder">
-<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
-
-&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
-
-&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
-&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
-
-&lt;h3&gt;License&lt;/h3&gt;
-&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
-&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-&lt;/p&gt;</description>
-<packages>
-<package name="RFM69HCW">
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
-<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
-<pad name="1" x="6.8" y="-7" drill="0.4" shape="offset"/>
-<smd name="1P" x="8.1" y="-7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="2" x="6.8" y="-5" drill="0.4" shape="offset"/>
-<smd name="2P" x="8.1" y="-5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="3" x="6.8" y="-3" drill="0.4" shape="offset"/>
-<smd name="3P" x="8.1" y="-3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="4" x="6.8" y="-1" drill="0.4" shape="offset"/>
-<smd name="4P" x="8.1" y="-1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="5" x="6.8" y="1" drill="0.4" shape="offset"/>
-<smd name="5P" x="8.1" y="1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="6" x="6.8" y="3" drill="0.4" shape="offset"/>
-<smd name="6P" x="8.1" y="3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="7" x="6.8" y="5" drill="0.4" shape="offset"/>
-<smd name="7P" x="8.1" y="5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
-<text x="-8" y="8.5" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-8.1" y="-8.7" size="0.4064" layer="25" ratio="10">&gt;VALUE</text>
-<pad name="8" x="6.8" y="7" drill="0.4" shape="offset"/>
-<smd name="8P" x="8.1" y="7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<pad name="9" x="-6.8" y="7" drill="0.4" shape="offset" rot="R180"/>
-<smd name="9P" x="-8.1" y="7" dx="2" dy="0.8" layer="1"/>
-<pad name="10" x="-6.8" y="5" drill="0.4" shape="offset" rot="R180"/>
-<smd name="10P" x="-8.1" y="5" dx="2" dy="0.8" layer="1"/>
-<pad name="11" x="-6.8" y="3" drill="0.4" shape="offset" rot="R180"/>
-<smd name="11P" x="-8.1" y="3" dx="2" dy="0.8" layer="1"/>
-<pad name="12" x="-6.8" y="1" drill="0.4" shape="offset" rot="R180"/>
-<smd name="12P" x="-8.1" y="1" dx="2" dy="0.8" layer="1"/>
-<pad name="13" x="-6.8" y="-1" drill="0.4" shape="offset" rot="R180"/>
-<smd name="13P" x="-8.1" y="-1" dx="2" dy="0.8" layer="1"/>
-<pad name="14" x="-6.8" y="-3" drill="0.4" shape="offset" rot="R180"/>
-<smd name="14P" x="-8.1" y="-3" dx="2" dy="0.8" layer="1"/>
-<pad name="15" x="-6.8" y="-5" drill="0.4" shape="offset" rot="R180"/>
-<smd name="15P" x="-8.1" y="-5" dx="2" dy="0.8" layer="1"/>
-<pad name="16" x="-6.8" y="-7" drill="0.4" shape="offset" rot="R180"/>
-<smd name="16P" x="-8.1" y="-7" dx="2" dy="0.8" layer="1"/>
-<circle x="10.1" y="-7" radius="0.3" width="0.6096" layer="21"/>
-</package>
-<package name="RFMHCW_SMT">
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
-<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
-<smd name="1P" x="8.1" y="-7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="2P" x="8.1" y="-5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="3P" x="8.1" y="-3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="4P" x="8.1" y="-1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="5P" x="8.1" y="1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="6P" x="8.1" y="3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="7P" x="8.1" y="5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
-<text x="-8" y="8.5" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-8.1" y="-8.7" size="0.4064" layer="25" ratio="10">&gt;VALUE</text>
-<smd name="8P" x="8.1" y="7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="9P" x="-8.1" y="7" dx="2" dy="0.8" layer="1"/>
-<smd name="10P" x="-8.1" y="5" dx="2" dy="0.8" layer="1"/>
-<smd name="11P" x="-8.1" y="3" dx="2" dy="0.8" layer="1"/>
-<smd name="12P" x="-8.1" y="1" dx="2" dy="0.8" layer="1"/>
-<smd name="13P" x="-8.1" y="-1" dx="2" dy="0.8" layer="1"/>
-<smd name="14P" x="-8.1" y="-3" dx="2" dy="0.8" layer="1"/>
-<smd name="15P" x="-8.1" y="-5" dx="2" dy="0.8" layer="1"/>
-<smd name="16P" x="-8.1" y="-7" dx="2" dy="0.8" layer="1"/>
-<circle x="10.1" y="-7" radius="0.3" width="0.6096" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RFM69HCW">
-<pin name="MISO" x="-12.7" y="5.08" length="short" direction="out"/>
-<pin name="DIO0" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="DIO2" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="DIO1" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="DIO5" x="-12.7" y="-7.62" length="short"/>
-<pin name="RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="GND@3" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<pin name="ANT" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="GND@1" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="DIO3" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="MOSI" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="SCK" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="NSS" x="-12.7" y="-2.54" length="short" direction="in"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="17.78" size="1.27" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-20.32" size="1.27" layer="95">&gt;VALUE</text>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<text x="0" y="12.7" size="1.27" layer="94" align="center">RFM69HCW
-ISM BAND RADIO</text>
-<text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
-Temp: -40~+85°C</text>
-<pin name="DIO4" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="VDD" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
-<pin name="GND@2" x="-12.7" y="7.62" length="short" direction="pwr"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RFM69HCW" prefix="U" uservalue="yes">
-<description>&lt;p&gt;&lt;b&gt;RFM69HCW - ISM Band RF Transceiver&lt;/b&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RFM69HCW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RFM69HCW">
-<connects>
-<connect gate="G$1" pin="ANT" pad="1 1P"/>
-<connect gate="G$1" pin="DIO0" pad="6 6P"/>
-<connect gate="G$1" pin="DIO1" pad="7 7P"/>
-<connect gate="G$1" pin="DIO2" pad="8 8P"/>
-<connect gate="G$1" pin="DIO3" pad="3 3P"/>
-<connect gate="G$1" pin="DIO4" pad="4 4P"/>
-<connect gate="G$1" pin="DIO5" pad="15 15P"/>
-<connect gate="G$1" pin="GND@1" pad="2 2P"/>
-<connect gate="G$1" pin="GND@2" pad="9 9P"/>
-<connect gate="G$1" pin="GND@3" pad="16 16P"/>
-<connect gate="G$1" pin="MISO" pad="10 10P"/>
-<connect gate="G$1" pin="MOSI" pad="11 11P"/>
-<connect gate="G$1" pin="NSS" pad="13 13P"/>
-<connect gate="G$1" pin="RESET" pad="14 14P"/>
-<connect gate="G$1" pin="SCK" pad="12 12P"/>
-<connect gate="G$1" pin="VDD" pad="5 5P"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SMT" package="RFMHCW_SMT">
-<connects>
-<connect gate="G$1" pin="ANT" pad="1P"/>
-<connect gate="G$1" pin="DIO0" pad="6P"/>
-<connect gate="G$1" pin="DIO1" pad="7P"/>
-<connect gate="G$1" pin="DIO2" pad="8P"/>
-<connect gate="G$1" pin="DIO3" pad="3P"/>
-<connect gate="G$1" pin="DIO4" pad="4P"/>
-<connect gate="G$1" pin="DIO5" pad="15P"/>
-<connect gate="G$1" pin="GND@1" pad="2P"/>
-<connect gate="G$1" pin="GND@2" pad="9P"/>
-<connect gate="G$1" pin="GND@3" pad="16P"/>
-<connect gate="G$1" pin="MISO" pad="10P"/>
-<connect gate="G$1" pin="MOSI" pad="11P"/>
-<connect gate="G$1" pin="NSS" pad="13P"/>
-<connect gate="G$1" pin="RESET" pad="14P"/>
-<connect gate="G$1" pin="SCK" pad="12P"/>
-<connect gate="G$1" pin="VDD" pad="5P"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -14919,6 +14734,37 @@ CONN_04
 <pad name="5" x="2.54" y="-2.54" drill="1.6"/>
 <pad name="4" x="-2.54" y="-2.54" drill="1.6"/>
 </package>
+<package name="RFMHCW_SMT">
+<circle x="8.83" y="-8.27" radius="0.3" width="0.6096" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
+<smd name="1P" x="8.1" y="-7" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="2P" x="8.1" y="-5" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="3P" x="8.1" y="-3" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="4P" x="8.1" y="-1" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="5P" x="8.1" y="1" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="6P" x="8.1" y="3" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="7P" x="8.1" y="5" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="8P" x="8.1" y="7" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="9P" x="-8.1" y="7" dx="2" dy="0.8" layer="1"/>
+<smd name="10P" x="-8.1" y="5" dx="2" dy="0.8" layer="1"/>
+<smd name="11P" x="-8.1" y="3" dx="2" dy="0.8" layer="1"/>
+<smd name="12P" x="-8.1" y="1" dx="2" dy="0.8" layer="1"/>
+<smd name="13P" x="-8.1" y="-1" dx="2" dy="0.8" layer="1"/>
+<smd name="14P" x="-8.1" y="-3" dx="2" dy="0.8" layer="1"/>
+<smd name="15P" x="-8.1" y="-5" dx="2" dy="0.8" layer="1"/>
+<smd name="16P" x="-8.1" y="-7" dx="2" dy="0.8" layer="1"/>
+<text x="-8" y="8.5" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-8.1" y="-8.7" size="0.4064" layer="25" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS62203_DBV_5">
@@ -14996,6 +14842,40 @@ CONN_04
 <wire x1="0.762" y1="-3.302" x2="0.254" y2="-4.064" width="0.254" layer="94"/>
 <pin name="1" x="2.54" y="2.54" length="middle" direction="pas" rot="R180"/>
 <pin name="2" x="2.54" y="-2.54" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="RFM69HCW">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="ANT" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="DIO0" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="DIO1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DIO2" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="DIO3" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="DIO4" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="DIO5" x="-12.7" y="-7.62" length="short"/>
+<pin name="GND@1" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="GND@3" x="-12.7" y="-10.16" length="short" direction="pwr"/>
+<pin name="MISO" x="-12.7" y="5.08" length="short" direction="out"/>
+<pin name="MOSI" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="NSS" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="SCK" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="VDD" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
+<text x="-10.16" y="17.78" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-20.32" size="1.27" layer="95">&gt;VALUE</text>
+<text x="0" y="12.7" size="1.27" layer="94" align="center">RFM69HCW
+ISM BAND RADIO</text>
+<text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
+Temp: -40~+85°C</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -15179,6 +15059,37 @@ CONN_04
 <attribute name="PACKAGE" value="None"/>
 <attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-5-1814832-1.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFM69HCW" prefix="U" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;RFM69HCW - ISM Band RF Transceiver&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM69HCW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMT" package="RFMHCW_SMT">
+<connects>
+<connect gate="G$1" pin="ANT" pad="1P"/>
+<connect gate="G$1" pin="DIO0" pad="6P"/>
+<connect gate="G$1" pin="DIO1" pad="7P"/>
+<connect gate="G$1" pin="DIO2" pad="8P"/>
+<connect gate="G$1" pin="DIO3" pad="3P"/>
+<connect gate="G$1" pin="DIO4" pad="4P"/>
+<connect gate="G$1" pin="DIO5" pad="15P"/>
+<connect gate="G$1" pin="GND@1" pad="2P"/>
+<connect gate="G$1" pin="GND@2" pad="9P"/>
+<connect gate="G$1" pin="GND@3" pad="16P"/>
+<connect gate="G$1" pin="MISO" pad="10P"/>
+<connect gate="G$1" pin="MOSI" pad="11P"/>
+<connect gate="G$1" pin="NSS" pad="13P"/>
+<connect gate="G$1" pin="RESET" pad="14P"/>
+<connect gate="G$1" pin="SCK" pad="12P"/>
+<connect gate="G$1" pin="VDD" pad="5P"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -20567,7 +20478,7 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="SUPPLY54" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
-<part name="U1" library="microbuilder" deviceset="RFM69HCW" device="_SMT" value="RFM69HCW"/>
+<part name="U1" library="estop-v1.0" deviceset="RFM69HCW" device="_SMT" value="RFM69HCW"/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
