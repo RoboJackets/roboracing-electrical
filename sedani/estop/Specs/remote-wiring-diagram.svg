@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="remote-wiring-diagram.svg">
+   sodipodi:docname="remote-wiring-diagram.svg"
+   inkscape:export-filename="C:\Users\Peter\Robojackets\roboracing-electrical\sedani\estop\Specs\remote-wiring-diagram.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,14 +29,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="263.59808"
+     inkscape:cx="144.31237"
      inkscape:cy="234.86162"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
-     inkscape:window-x="-9"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      objecttolerance="20">
