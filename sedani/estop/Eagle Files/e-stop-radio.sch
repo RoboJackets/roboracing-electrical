@@ -19877,8 +19877,7 @@ Header</text>
 <wire x1="132.08" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="177.8" y1="50.8" x2="177.8" y2="81.28" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="177.8" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="95" style="shortdash"/>
-<text x="25.4" y="71.12" size="1.778" layer="97" font="vector">RC to debounce switch
-R limits current</text>
+<text x="25.4" y="71.12" size="1.778" layer="97" font="vector">RC to debounce switch</text>
 <text x="187.96" y="-5.08" size="5.08" layer="97" font="vector">3.3V Regulator</text>
 <wire x1="124.46" y1="2.54" x2="124.46" y2="-35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="124.46" y1="-35.56" x2="233.68" y2="-35.56" width="0.1524" layer="97" style="shortdash"/>
@@ -20615,7 +20614,7 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="YELLOW_BTN" class="0">
+<net name="SWITCH_IN" class="0">
 <segment>
 <wire x1="91.44" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="-33.02" size="1.27" layer="95" font="vector" xref="yes"/>
