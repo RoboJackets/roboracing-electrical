@@ -20460,18 +20460,18 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 </segment>
 <segment>
+<pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="VI"/>
 <wire x1="144.78" y1="-17.78" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="137.16" y="-12.7"/>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
 <wire x1="132.08" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="137.16" y="-12.7"/>
 <pinref part="U2" gate="A" pin="EN"/>
-<wire x1="195.58" y1="-22.86" x2="195.58" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-10.16" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="-10.16" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="144.78" y="-12.7"/>
+<wire x1="195.58" y1="-22.86" x2="195.58" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-30.48" x2="132.08" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-12.7" x2="132.08" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="132.08" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="5V"/>
