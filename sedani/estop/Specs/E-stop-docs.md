@@ -36,7 +36,7 @@ Every loop, we check for a new radio message. If there is one, check if it is a 
     2. Transitions to GO upon receiving go signal.
 
 ## Hardware
-Connect the PCB to the control board by the 7-pin header. Instead of soldering on R5-R9 on the back of the board, solderbridge over them:
+Connect the PCB to the control board by the 7 unboxed pins of the 11 pin header. Instead of soldering on R2-R5 on the back of the board, solderbridge over them:
 ![e-stop-sedani-solderbridges.png](/e-stop-sedani-solderbridges.png)
 
 Make sure to remove diodes 2 and 3 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
@@ -60,8 +60,10 @@ Every TRANSMIT_PERIOD ms, send out a message. If no ACK received, retry several 
  * Green is power
  * Red indicates if the car is enabled
  * Yellow indicates if the last message was successfully transmitted. Slightly different than if the remote has lost connection.
+ * Blue is low battery.
 
 ### Buttons
+Connect all the buttons but the Power switch to the PCB via the 4 boxed pins of the 11-pin header.
  * Power switch 
  * Green GO button to enable car
  * Red STOP button to e-stop car

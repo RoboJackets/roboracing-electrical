@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="170.18623mm"
+   width="170.27798mm"
    height="120.74226mm"
-   viewBox="0 0 170.18623 120.74226"
+   viewBox="0 0 170.27798 120.74226"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -29,49 +29,49 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="144.31237"
-     inkscape:cy="234.86162"
+     inkscape:cx="276.41172"
+     inkscape:cy="234.86163"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
-     inkscape:window-x="2391"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      objecttolerance="20">
     <sodipodi:guide
-       position="204.77797,-14.433053"
+       position="204.77797,-14.43305"
        orientation="-1122.5197,0"
        id="guide4622"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="204.77797,282.56693"
+       position="204.77797,282.56694"
        orientation="0,-793.70079"
        id="guide4624"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="204.77797,-14.433053"
+       position="204.77797,-14.43305"
        orientation="-1122.5197,0"
        id="guide4630"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="204.77797,282.56693"
+       position="204.77797,282.56694"
        orientation="0,-793.70079"
        id="guide4632"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-5.2220164,-14.433053"
+       position="-5.2220165,-14.43305"
        orientation="0,793.70079"
        id="guide4660"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="204.77797,-14.433053"
+       position="204.77797,-14.43305"
        orientation="-1122.5197,0"
        id="guide4662"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="204.77797,282.56693"
+       position="204.77797,282.56694"
        orientation="0,-793.70079"
        id="guide4664"
        inkscape:locked="false" />
@@ -82,7 +82,7 @@
        spacingx="1"
        spacingy="1"
        originx="-5.2220165"
-       originy="-14.433053" />
+       originy="-14.433049" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -297,26 +297,36 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="177.1382"
-       y="-80.549835"
+       y="-84.896561"
        id="text4826"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          id="tspan4824"
          x="177.1382"
-         y="-80.549835"
-         style="font-size:4.23333311px;stroke-width:0.26458332">4-pin header</tspan></text>
+         y="-84.896561"
+         style="font-size:4.23333311px;stroke-width:0.26458332">boxed part of</tspan><tspan
+         sodipodi:role="line"
+         x="177.1382"
+         y="-76.959061"
+         style="font-size:4.23333311px;stroke-width:0.26458332"
+         id="tspan894">11-pin header</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="177.61852"
-       y="-120.43113"
+       y="-124.0219"
        id="text4830"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          id="tspan4828"
          x="177.61852"
-         y="-120.43113"
-         style="font-size:4.23333311px;stroke-width:0.26458332">7-pin header</tspan></text>
+         y="-124.0219"
+         style="font-size:4.23333311px;stroke-width:0.26458332">7 unboxed pins</tspan><tspan
+         sodipodi:role="line"
+         x="177.61852"
+         y="-116.0844"
+         style="font-size:4.23333311px;stroke-width:0.26458332"
+         id="tspan896">of 11-pin header</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 155,197 V 187 H 130"
@@ -332,16 +342,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="124.26042"
+       x="116.13393"
        y="269.8512"
        id="text4854"><tspan
          sodipodi:role="line"
          id="tspan4852"
-         x="124.26042"
+         x="116.13393"
          y="269.8512"
          style="font-size:5.64444447px;stroke-width:0.26458332">Battery</tspan><tspan
          sodipodi:role="line"
-         x="124.26042"
+         x="116.13393"
          y="277.7887"
          style="font-size:5.64444447px;stroke-width:0.26458332"
          id="tspan4856">Charger</tspan></text>
@@ -500,14 +510,68 @@
          style="stroke:#00ff00;stroke-opacity:1" />
     </g>
     <path
-       style="fill:none;stroke:#009600;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#009600;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 130,192 h 20 v 10 h 25 v -20"
        id="path894"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#009600;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#009600;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 130,197 h 10 v 9.99999 h 35 V 222 v 0 5 h -30 v 24.99999"
        id="path896"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path5030-8"
+       d="m 155,267 h 5 l 0.83334,-1.66667 1.66667,3.33333 1.66665,-3.33333 1.66668,3.33333 1.66667,-3.33333 1.66665,3.33333 L 170,267 h 5"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.33333334;stroke-linejoin:bevel"
+       inkscape:transform-center-x="-14.552083"
+       inkscape:transform-center-y="12.662202" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="262.04004"
+       y="-145.0603"
+       id="text915"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         x="262.04004"
+         y="-145.0603"
+         style="stroke-width:0.26458332">Low Batt</tspan></text>
+    <g
+       id="g4587-6-8-7-1"
+       transform="matrix(-0.20202022,0,0,0.19464702,175.80808,267.26765)"
+       style="stroke:#0000ff;stroke-opacity:1">
+      <path
+         id="path4573-2-8-8-4"
+         d="M 67,50 35,32 v 36 z m 36,0 H 4 M 67,32 V 68 M 46,25 64,7 m 7,7 -18,18"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff;stroke-opacity:1" />
+      <path
+         id="path4575-8-2-8-5"
+         d="M 57,9 67,4 62,14 m 2,2 10,-5 -5,10"
+         inkscape:connector-curvature="0"
+         style="stroke:#0000ff;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 155,267 Z"
+       id="path944"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 155,267 h -5"
+       id="path946"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#009600;stroke-width:0.81649661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 155,276.99999 h -5"
+       id="path948"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 175,267 v 9.99999"
+       id="path950"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
