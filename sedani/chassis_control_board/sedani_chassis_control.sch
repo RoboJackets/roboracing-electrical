@@ -27440,7 +27440,7 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1 kΩ"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="1812" value="1.5 A"/>
 <part name="U2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LP3963?*" device="ES" package3d_urn="urn:adsk.eagle:package:16438/2" technology="-5.0" value="NCP59151DS50R4G"/>
 <part name="TP_FUSE" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
