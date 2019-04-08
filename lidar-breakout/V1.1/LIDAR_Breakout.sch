@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -53630,19 +53630,19 @@ CONN_03x2
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="SUPPLY38" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY40" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY43" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
-<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
+<part name="SUPPLY39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY40" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY43" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="5V_LIDAR"/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
+<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
-<part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
-<part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
+<part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
+<part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="LD4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330Ω"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -53660,8 +53660,8 @@ CONN_03x2
 <part name="F9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="200mA"/>
 <part name="F2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="1A"/>
 <part name="F3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="1A"/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330Ω"/>
 <part name="LD5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="J1" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
@@ -53675,7 +53675,7 @@ CONN_03x2
 <part name="H6" library="RoboJackets-Connectors" deviceset="SM06B-GHS" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="TESTPOINTS" package3d_urn="urn:adsk.eagle:package:38008/1" value="AVR_SPI_PROG_3X2TESTPOINTS"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 </parts>
 <sheets>
 <sheet>
@@ -54067,9 +54067,7 @@ BLOWN</text>
 <attribute name="NAME" x="102.616" y="140.335" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.616" y="135.509" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY38" gate="G$2" x="406.4" y="248.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="413.004" y="248.158" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="SUPPLY38" gate="G$2" x="406.4" y="248.92" smashed="yes" rot="R270"/>
 <instance part="SUPPLY39" gate="G$1" x="386.08" y="241.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="392.938" y="240.538" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -54686,7 +54684,7 @@ BLOWN</text>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VCC_1" class="0">
+<net name="5V_LIDAR" class="0">
 <segment>
 <wire x1="398.78" y1="165.1" x2="396.24" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="154.94" x2="398.78" y2="154.94" width="0.1524" layer="91"/>
@@ -54725,6 +54723,7 @@ BLOWN</text>
 <wire x1="403.86" y1="248.92" x2="406.4" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="248.92" x2="403.86" y2="238.76" width="0.1524" layer="91"/>
 <junction x="403.86" y="248.92"/>
+<label x="403.86" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY41" gate="G$2" pin="VCC_1"/>
@@ -54949,7 +54948,7 @@ BLOWN</text>
 <label x="198.12" y="110.49" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VCC_2" class="0">
+<net name="5V_MC" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="104.14" y1="246.38" x2="109.22" y2="246.38" width="0.1524" layer="91"/>
