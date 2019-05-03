@@ -20146,7 +20146,7 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY13" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
-<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.25A"/>
+<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.5A"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
@@ -20167,7 +20167,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="" package3d_urn="urn:adsk.eagle:package:38251/1" value="E-STOP HEADER"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="U3" library="estop-v1.0" deviceset="TXB0108PWR" device=""/>
 <part name="SUPPLY9" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -20180,6 +20179,7 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SB1" library="RoboJackets-Switches" deviceset="SOLDERBRIDGE" device="SB0603"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -20447,10 +20447,6 @@ the antenna trace is shorter than 20mm</text>
 <instance part="SUPPLY4" gate="G$1" x="33.02" y="22.86" smashed="yes">
 <attribute name="VALUE" x="33.02" y="25.654" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C9" gate="G$1" x="96.52" y="63.5" smashed="yes">
-<attribute name="NAME" x="97.536" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.536" y="59.309" size="1.778" layer="96"/>
-</instance>
 <instance part="U3" gate="A" x="185.42" y="25.4" smashed="yes">
 <attribute name="NAME" x="180.6956" y="34.5186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="180.0606" y="29.4386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -20490,6 +20486,10 @@ the antenna trace is shorter than 20mm</text>
 </instance>
 <instance part="SB1" gate="G$1" x="149.86" y="12.7" smashed="yes">
 <attribute name="NAME" x="147.32" y="12.7" size="1.27" layer="95"/>
+</instance>
+<instance part="C9" gate="G$1" x="96.52" y="63.5" smashed="yes">
+<attribute name="NAME" x="97.536" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.536" y="59.309" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20613,9 +20613,9 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="11"/>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <junction x="114.3" y="58.42"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -20838,21 +20838,21 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <junction x="96.52" y="66.04"/>
 </segment>
 </net>
-<net name="SWITCH" class="0">
-<segment>
-<wire x1="91.44" y1="-5.08" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
-<label x="96.52" y="-5.08" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
-</segment>
+<net name="AUX_SWITCH" class="0">
 <segment>
 <label x="76.2" y="68.58" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
+<label x="96.52" y="-25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -20891,45 +20891,45 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
-<label x="96.52" y="0" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
+<wire x1="91.44" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<label x="96.52" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PE2(!HWB)"/>
 </segment>
 </net>
 <net name="GREEN_BTN" class="0">
-<segment>
-<wire x1="91.44" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="-33.02" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
-</segment>
 <segment>
 <wire x1="111.76" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 <label x="111.76" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 </segment>
-</net>
-<net name="RED_BTN" class="0">
 <segment>
 <wire x1="91.44" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="-35.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PD2(INT2/RXD1)"/>
 </segment>
+</net>
+<net name="RED_BTN" class="0">
 <segment>
 <wire x1="111.76" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
 <label x="111.76" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
-</net>
-<net name="SWITCH_IN" class="0">
 <segment>
 <wire x1="91.44" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
 <label x="96.52" y="-38.1" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PD1(INT1/SDA)"/>
 </segment>
+</net>
+<net name="SWITCH_IN" class="0">
 <segment>
 <wire x1="111.76" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <label x="111.76" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<label x="96.52" y="0" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -20976,38 +20976,38 @@ the antenna trace is shorter than 20mm</text>
 </net>
 <net name="WIRELESS_D3" class="0">
 <segment>
-<wire x1="91.44" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
-<label x="96.52" y="-7.62" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
-</segment>
-<segment>
 <label x="76.2" y="76.2" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="91.44" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
+<label x="96.52" y="-33.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
+</segment>
 </net>
 <net name="GO" class="0">
-<segment>
-<wire x1="91.44" y1="-2.54" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
-<label x="96.52" y="-2.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
-</segment>
 <segment>
 <label x="76.2" y="71.12" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="91.44" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
+<label x="96.52" y="-30.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+</segment>
 </net>
 <net name="ESTOPPED" class="0">
-<segment>
-<wire x1="91.44" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="91"/>
-<label x="96.52" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-</segment>
 <segment>
 <wire x1="81.28" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="76.2" y="73.66" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="-27.94" x2="96.52" y2="-27.94" width="0.1524" layer="91"/>
+<label x="96.52" y="-27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD5(XCK/CTS)"/>
 </segment>
 </net>
 <net name="MOSI_5V" class="0">
@@ -21106,25 +21106,17 @@ the antenna trace is shorter than 20mm</text>
 </net>
 <net name="SHIFTER_EN" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="OE"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="SB1" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
-<junction x="154.94" y="12.7"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
-<wire x1="91.44" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="-30.48" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SB1" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="12.7" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
 <label x="144.78" y="12.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="91.44" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+<label x="96.52" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PE6(INT.6/AIN0)"/>
+</segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="10"/>
@@ -21136,6 +21128,16 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="73.66" x2="198.12" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="1">
+<segment>
+<pinref part="SB1" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="OE"/>
+<wire x1="157.48" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
+<junction x="154.94" y="12.7"/>
 </segment>
 </net>
 </nets>
