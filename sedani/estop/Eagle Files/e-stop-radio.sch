@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20094,6 +20094,61 @@ In this library you will find frames that can be used to help organize a schemat
 </deviceset>
 </devicesets>
 </library>
+<library name="RoboJackets-FreqGen">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Frequency Generation&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find crystals and oscillators used for clocking signals.
+&lt;/p&gt;</description>
+<packages>
+<package name="XTAL-3.2X2.5">
+<wire x1="1.9" y1="-1.5" x2="-1.9" y2="-1.5" width="0.17" layer="21"/>
+<wire x1="-1.9" y1="-1.5" x2="-1.9" y2="1.5" width="0.17" layer="21"/>
+<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
+<text x="-2.6" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XTAL">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XTAL" prefix="X">
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3.2X2.5" package="XTAL-3.2X2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20180,6 +20235,11 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SB1" library="RoboJackets-Switches" deviceset="SOLDERBRIDGE" device="SB0603"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
+<part name="X1" library="RoboJackets-FreqGen" deviceset="XTAL" device="-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 "/>
+<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="9pF"/>
+<part name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="9pF"/>
+<part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20247,6 +20307,11 @@ module that goes in Sedani.</text>
 <text x="274.32" y="-63.5" size="1.27" layer="97" font="vector">Can forget about impedance matching if 
 the antenna trace is shorter than 20mm</text>
 <text x="5.08" y="38.1" size="5.08" layer="97" font="vector">Microcontroller</text>
+<wire x1="177.8" y1="119.38" x2="132.08" y2="119.38" width="0.1524" layer="95" style="shortdash"/>
+<text x="137.16" y="111.76" size="5.08" layer="97" font="vector">Oscillator</text>
+<wire x1="132.08" y1="119.38" x2="132.08" y2="83.82" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="177.8" y1="83.82" x2="177.8" y2="119.38" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="132.08" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="95" style="shortdash"/>
 </plain>
 <instances>
 <instance part="SUPPLY5" gate="GND" x="35.56" y="-38.1" smashed="yes">
@@ -20314,7 +20379,7 @@ the antenna trace is shorter than 20mm</text>
 <attribute name="VALUE" x="165.1" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="165.1" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="167.894" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="169.672" y="65.532" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U2" gate="A" x="170.18" y="-33.02" smashed="yes">
 <attribute name="NAME" x="178.1556" y="-28.9814" size="1.27" layer="95" ratio="6" rot="SR0"/>
@@ -20379,9 +20444,9 @@ the antenna trace is shorter than 20mm</text>
 <instance part="SUPPLY13" gate="P" x="198.12" y="86.36" smashed="yes">
 <attribute name="VALUE" x="196.215" y="89.535" size="1.778" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="106.68" y="63.5" smashed="yes">
-<attribute name="VALUE" x="101.6" y="63.5" size="1.778" layer="96"/>
-<attribute name="NAME" x="110.49" y="63.5" size="1.778" layer="95"/>
+<instance part="F1" gate="G$1" x="107.442" y="63.5" smashed="yes">
+<attribute name="VALUE" x="102.362" y="62.992" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="62.992" size="1.778" layer="95"/>
 </instance>
 <instance part="C7" gate="G$1" x="220.98" y="-35.56" smashed="yes">
 <attribute name="NAME" x="221.996" y="-34.925" size="1.778" layer="95"/>
@@ -20441,8 +20506,8 @@ the antenna trace is shorter than 20mm</text>
 <attribute name="VALUE" x="109.22" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="124.46" y="76.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="129.54" y="86.106" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="129.54" y="62.992" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="127" y="96.266" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="119.634" y="59.69" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="33.02" y="22.86" smashed="yes">
 <attribute name="VALUE" x="33.02" y="25.654" size="1.778" layer="96" align="bottom-center"/>
@@ -20474,12 +20539,12 @@ the antenna trace is shorter than 20mm</text>
 <attribute name="VALUE" x="35.56" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C10" gate="G$1" x="233.68" y="30.48" smashed="yes">
-<attribute name="NAME" x="234.696" y="31.115" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.696" y="26.289" size="1.778" layer="96"/>
+<attribute name="NAME" x="237.236" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="237.236" y="26.289" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="139.7" y="30.48" smashed="yes">
 <attribute name="NAME" x="140.716" y="31.115" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.716" y="26.289" size="1.778" layer="96"/>
+<attribute name="VALUE" x="130.556" y="26.289" size="1.778" layer="96"/>
 </instance>
 <instance part="GND14" gate="1" x="139.7" y="20.32" smashed="yes">
 <attribute name="VALUE" x="139.7" y="20.066" size="1.778" layer="96" align="top-center"/>
@@ -20490,6 +20555,24 @@ the antenna trace is shorter than 20mm</text>
 <instance part="C9" gate="G$1" x="96.52" y="63.5" smashed="yes">
 <attribute name="NAME" x="97.536" y="64.135" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.536" y="59.309" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="G$1" x="154.94" y="104.14" smashed="yes">
+<attribute name="VALUE" x="139.7" y="106.68" size="1.778" layer="96"/>
+<attribute name="NAME" x="152.4" y="109.22" size="1.778" layer="95"/>
+</instance>
+<instance part="C12" gate="G$1" x="144.78" y="99.06" smashed="yes">
+<attribute name="NAME" x="145.796" y="99.695" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.796" y="94.869" size="1.778" layer="96"/>
+</instance>
+<instance part="C13" gate="G$1" x="165.1" y="99.06" smashed="yes">
+<attribute name="NAME" x="166.116" y="99.695" size="1.778" layer="95"/>
+<attribute name="VALUE" x="166.116" y="94.869" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="144.78" y="88.9" smashed="yes">
+<attribute name="VALUE" x="144.78" y="88.646" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND16" gate="1" x="165.1" y="88.9" smashed="yes">
+<attribute name="VALUE" x="165.1" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -20660,6 +20743,16 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="58.42" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="93.98" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="93.98" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -20838,7 +20931,7 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="66.04" x2="102.362" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <junction x="96.52" y="66.04"/>
 </segment>
@@ -21120,7 +21213,7 @@ the antenna trace is shorter than 20mm</text>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="111.76" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="112.522" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -21138,6 +21231,38 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="U3" gate="A" pin="OE"/>
 <wire x1="157.48" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
 <junction x="154.94" y="12.7"/>
+</segment>
+</net>
+<net name="XTAL1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="XTAL1"/>
+<wire x1="43.18" y1="-12.7" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="40.64" y="-12.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
+<junction x="144.78" y="104.14"/>
+<label x="139.7" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="XTAL2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="XTAL2"/>
+<wire x1="43.18" y1="-20.32" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
+<label x="40.64" y="-20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
+<junction x="165.1" y="104.14"/>
+<label x="170.18" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
