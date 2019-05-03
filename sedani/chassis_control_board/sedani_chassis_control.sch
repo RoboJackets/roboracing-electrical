@@ -27299,19 +27299,6 @@ by exp-lbrs.ulp</description>
 <text x="-2" y="3" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2" y="-3" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="SOT-23">
-<smd name="1" x="-1.3" y="0.95" dx="1" dy="0.7" layer="1"/>
-<smd name="2" x="-1.3" y="0" dx="1" dy="0.7" layer="1"/>
-<smd name="3" x="-1.3" y="-0.95" dx="1" dy="0.7" layer="1"/>
-<smd name="4" x="1.3" y="-0.95" dx="1" dy="0.7" layer="1"/>
-<smd name="5" x="1.3" y="0.95" dx="1" dy="0.7" layer="1"/>
-<wire x1="-0.6" y1="1.35" x2="-0.6" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-1.35" x2="0.6" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="0.6" y1="-1.35" x2="0.6" y2="1.35" width="0.127" layer="21"/>
-<wire x1="0.6" y1="1.35" x2="-0.6" y2="1.35" width="0.127" layer="21"/>
-<text x="-3" y="3" size="1.27" layer="25" font="vector" align="center-left">&gt;NAME</text>
-<text x="-4" y="-3" size="1.27" layer="27" font="vector" align="center-left">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="TC7SZ125FU">
@@ -27326,19 +27313,6 @@ by exp-lbrs.ulp</description>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95" align="center-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96" align="center-left">TC7SZ125FU</text>
-</symbol>
-<symbol name="NC7SZ04P5X">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="NC" x="-12.7" y="2.54" length="middle" direction="nc"/>
-<pin name="IN" x="-12.7" y="0" length="middle"/>
-<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VCC" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="!OUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" align="center-left">&gt;NAME</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector" align="center-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -27356,26 +27330,6 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="IN" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NC7SZ04P5X" prefix="U" uservalue="yes">
-<description>Inverter IC 1 Channel SC-70-5</description>
-<gates>
-<gate name="G$1" symbol="NC7SZ04P5X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23">
-<connects>
-<connect gate="G$1" pin="!OUT" pad="4"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="IN" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
@@ -27431,14 +27385,13 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="AUDIO BOARD INPUT"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_B_L" device="">
-<attribute name="REVISION" value="3.2"/>
+<attribute name="REVISION" value="3.3"/>
 <attribute name="SCH_DESC" value="Control Board for Sedani"/>
 <attribute name="TEAM" value="RoboRacing"/>
 </part>
 <part name="S1" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="1812" value="1.5 A"/>
@@ -27450,8 +27403,8 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="TP_5V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
-<part name="TP_OUT_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="TP_MUX_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
+<part name="TP_OUT_ESC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="D4" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323" value="SD0603S040S0R2"/>
 <part name="TP_6V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27"/>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3" value="NTR4003NT1G"/>
@@ -27507,12 +27460,8 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="ENCODER"/>
-<part name="U3" library="sedani_chassis_control" deviceset="NC7SZ04P5X" device="" value="NC7SZ04P5X"/>
-<part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -27593,15 +27542,9 @@ USB ports from backdriving the
  is to bypass that for testing 
 the boardoff a USB port 
 without hooking up a 7V source.</text>
-<text x="129.54" y="203.2" size="1.4224" layer="97" font="vector">Buffer for E-Stop data cutoff
-Drive Disable High for shutoff</text>
-<text x="106.68" y="223.52" size="1.778" layer="97">E-STOP BEFORE INVERTER
-HIGH = RUN
+<text x="129.54" y="203.2" size="1.4224" layer="97" font="vector">Buffer for E-Stop data cutoff</text>
+<text x="104.14" y="208.28" size="1.778" layer="97">HIGH = RUN
 LOW = E-STOP</text>
-<text x="53.34" y="175.26" size="1.4224" layer="97" font="vector">Inverter to take high input from
-button and wireless and drive low
-for disable on buffer.
-Input can't float, so pull low (E-STOP)</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="76.2" y="55.88" smashed="yes">
@@ -27744,10 +27687,6 @@ Input can't float, so pull low (E-STOP)</text>
 <attribute name="NAME" x="52.07" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="38.1" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.5986" y="189.23" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="34.798" y="189.23" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="LED1" gate="G$1" x="101.6" y="134.62" smashed="yes">
 <attribute name="NAME" x="105.156" y="130.048" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="107.315" y="130.048" size="1.778" layer="96" rot="R90"/>
@@ -27785,11 +27724,11 @@ Input can't float, so pull low (E-STOP)</text>
 <attribute name="NAME" x="102.87" y="155.956" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="106.68" y="153.67" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP_OUT_ESC" gate="G$1" x="106.68" y="198.12" smashed="yes" rot="R270">
+<instance part="TP_MUX_ESC" gate="G$1" x="106.68" y="198.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.33" y="199.136" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="104.14" y="196.85" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP_MUX_ESC" gate="G$1" x="162.56" y="190.5" smashed="yes" rot="R90">
+<instance part="TP_OUT_ESC" gate="G$1" x="162.56" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.91" y="189.484" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="165.1" y="191.77" size="1.778" layer="97" rot="R90"/>
 </instance>
@@ -27948,24 +27887,11 @@ Input can't float, so pull low (E-STOP)</text>
 <attribute name="VALUE" x="391.16" y="223.774" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="391.16" y="239.268" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="U3" gate="G$1" x="64.77" y="192.532" smashed="yes">
-<attribute name="NAME" x="57.15" y="200.532" size="1.778" layer="95" font="vector" align="center-left"/>
-<attribute name="VALUE" x="57.15" y="184.532" size="1.778" layer="96" font="vector" align="center-left"/>
-</instance>
-<instance part="GND21" gate="1" x="49.53" y="184.912" smashed="yes">
-<attribute name="VALUE" x="49.53" y="184.15" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="77.47" y="200.152" smashed="yes">
-<attribute name="VALUE" x="77.47" y="202.946" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND4" gate="1" x="38.1" y="176.53" smashed="yes">
-<attribute name="VALUE" x="38.1" y="175.768" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="R2" gate="G$1" x="160.02" y="213.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="161.5186" y="214.63" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="156.718" y="214.63" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R7" gate="G$1" x="149.86" y="220.98" smashed="yes">
+<instance part="R3" gate="G$1" x="149.86" y="220.98" smashed="yes">
 <attribute name="NAME" x="146.05" y="222.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="217.678" size="1.778" layer="96"/>
 </instance>
@@ -28160,17 +28086,6 @@ Input can't float, so pull low (E-STOP)</text>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="381" y1="233.68" x2="370.84" y2="233.68" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="52.07" y1="189.992" x2="49.53" y2="189.992" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="189.992" x2="49.53" y2="187.452" width="0.1524" layer="91"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="38.1" y1="180.34" x2="38.1" y2="179.07" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="VCC_6V" class="0">
 <segment>
@@ -28351,11 +28266,6 @@ Input can't float, so pull low (E-STOP)</text>
 <pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 <wire x1="381" y1="228.6" x2="370.84" y2="228.6" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="VCC"/>
-<wire x1="77.47" y1="195.072" x2="77.47" y2="200.152" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-</segment>
 </net>
 <net name="SPEED_A" class="0">
 <segment>
@@ -28458,12 +28368,13 @@ Input can't float, so pull low (E-STOP)</text>
 <label x="378.46" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="111.76" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="TP_OUT_ESC" gate="G$1" pin="TP"/>
-<wire x1="109.22" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="198.12" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="124.46" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="149.86" y1="190.5" x2="160.02" y2="190.5" width="0.1524" layer="91"/>
+<label x="162.56" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="160.02" y1="190.5" x2="160.02" y2="193.04" width="0.1524" layer="91"/>
+<junction x="160.02" y="190.5"/>
+<wire x1="160.02" y1="193.04" x2="162.56" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIRELESS_D3" class="0">
@@ -28473,6 +28384,11 @@ Input can't float, so pull low (E-STOP)</text>
 <wire x1="86.36" y1="251.46" x2="86.36" y2="264.16" width="0.1524" layer="91"/>
 <label x="84.582" y="264.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="86.36" y1="264.16" x2="84.582" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="A2"/>
+<wire x1="88.9" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="93.98" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="WIRELESS_D2" class="0">
@@ -28625,13 +28541,12 @@ Input can't float, so pull low (E-STOP)</text>
 <label x="289.56" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<label x="111.76" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="TP_MUX_ESC" gate="G$1" pin="TP"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="149.86" y1="190.5" x2="160.02" y2="190.5" width="0.1524" layer="91"/>
-<label x="162.56" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="160.02" y1="190.5" x2="160.02" y2="193.04" width="0.1524" layer="91"/>
-<junction x="160.02" y="190.5"/>
-<wire x1="160.02" y1="193.04" x2="162.56" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="198.12" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="124.46" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -28662,19 +28577,16 @@ Input can't float, so pull low (E-STOP)</text>
 <label x="175.26" y="251.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="IN"/>
-<wire x1="52.07" y1="192.532" x2="38.1" y2="192.532" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="192.532" x2="34.29" y2="192.532" width="0.1524" layer="91"/>
-<wire x1="34.29" y1="192.532" x2="34.29" y2="195.072" width="0.1524" layer="91"/>
-<label x="34.29" y="195.072" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="190.5" x2="38.1" y2="192.532" width="0.1524" layer="91"/>
-<junction x="38.1" y="192.532"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="220.98" x2="137.16" y2="220.98" width="0.1524" layer="91"/>
 <label x="137.16" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="!EN"/>
+<wire x1="124.46" y1="195.58" x2="124.46" y2="196.596" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="196.596" x2="118.46" y2="196.596" width="0.1524" layer="91"/>
+<wire x1="118.46" y1="196.596" x2="118.46" y2="202.74" width="0.1524" layer="91"/>
+<label x="118.46" y="202.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -28724,24 +28636,9 @@ Input can't float, so pull low (E-STOP)</text>
 <wire x1="50.8" y1="76.2" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="E-STOP_INVRSION" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!OUT"/>
-<wire x1="77.47" y1="189.992" x2="82.55" y2="189.992" width="0.1524" layer="91"/>
-<wire x1="82.55" y1="189.992" x2="82.55" y2="192.532" width="0.1524" layer="91"/>
-<label x="82.55" y="192.532" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="!EN"/>
-<wire x1="124.46" y1="195.58" x2="124.46" y2="196.596" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="196.596" x2="118.46" y2="196.596" width="0.1524" layer="91"/>
-<wire x1="118.46" y1="196.596" x2="118.46" y2="202.74" width="0.1524" layer="91"/>
-<label x="118.46" y="202.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="154.94" y1="220.98" x2="160.02" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
