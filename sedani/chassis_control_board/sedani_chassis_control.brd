@@ -6119,7 +6119,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="10.414" y="18.034" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="11.684" y="15.494" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470 Ω" x="80.391" y="28.448" smashed="yes">
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="80.391" y="28.448" smashed="yes">
 <attribute name="NAME" x="79.756" y="29.21" size="1.016" layer="25" font="vector"/>
 <attribute name="SPICEPREFIX" value="R" x="80.391" y="28.448" size="1.778" layer="27" display="off"/>
 </element>

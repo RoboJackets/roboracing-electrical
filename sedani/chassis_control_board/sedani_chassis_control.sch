@@ -27439,7 +27439,7 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470 Ω"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -27812,8 +27812,8 @@ LOW = E-STOP</text>
 <attribute name="VALUE" x="120.396" y="135.509" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="228.6" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="232.41" y="110.2614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="232.41" y="115.062" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="229.87" y="110.2614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="229.87" y="115.062" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND24" gate="1" x="368.3" y="177.8" smashed="yes">
 <attribute name="VALUE" x="368.3" y="180.086" size="1.778" layer="96" align="top-center"/>
