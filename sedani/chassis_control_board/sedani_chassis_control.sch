@@ -27872,8 +27872,8 @@ LOW = E-STOP</text>
 <attribute name="NAME" x="41.91" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.91" y="72.898" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="226.06" y="165.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="228.854" y="165.1" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="226.06" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="228.854" y="215.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="137.16" y="193.04" smashed="yes">
 <attribute name="NAME" x="129" y="199.5" size="1.27" layer="95"/>
@@ -28002,10 +28002,6 @@ LOW = E-STOP</text>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="J9" gate="J$1" pin="1"/>
 <wire x1="236.22" y1="210.82" x2="223.52" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="J9" gate="J$1" pin="3"/>
-<wire x1="223.52" y1="215.9" x2="236.22" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="215.9" x2="236.22" y2="210.82" width="0.1524" layer="91"/>
-<junction x="236.22" y="210.82"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -28021,6 +28017,11 @@ LOW = E-STOP</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="J12" gate="J$1" pin="1"/>
 <wire x1="228.6" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J12" gate="J$1" pin="3"/>
+<wire x1="223.52" y1="165.1" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="165.1" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="160.02" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
+<junction x="228.6" y="160.02"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -28253,11 +28254,6 @@ LOW = E-STOP</text>
 <wire x1="177.8" y1="233.68" x2="162.56" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY15" gate="G$1" pin="5V"/>
-<pinref part="J12" gate="J$1" pin="3"/>
-<wire x1="226.06" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY27" gate="G$1" pin="5V"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="160.02" y1="198.12" x2="160.02" y2="195.58" width="0.1524" layer="91"/>
@@ -28267,6 +28263,11 @@ LOW = E-STOP</text>
 <pinref part="J20" gate="G$1" pin="1"/>
 <pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 <wire x1="381" y1="228.6" x2="370.84" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY15" gate="G$1" pin="5V"/>
+<pinref part="J9" gate="J$1" pin="3"/>
+<wire x1="226.06" y1="215.9" x2="223.52" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEED_A" class="0">
