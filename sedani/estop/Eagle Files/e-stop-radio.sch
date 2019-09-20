@@ -22425,9 +22425,9 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="132.08" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="95" style="shortdash"/>
 <text x="233.68" y="38.1" size="5.08" layer="97" font="vector">Level Shifter UP</text>
 <wire x1="228.6" y1="45.72" x2="228.6" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="228.6" y1="2.54" x2="347.98" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="347.98" y1="2.54" x2="347.98" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="347.98" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="228.6" y1="2.54" x2="363.22" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="363.22" y1="2.54" x2="363.22" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="363.22" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
 <text x="127" y="38.1" size="5.08" layer="97" font="vector">Level Shifter DOWN</text>
 <wire x1="121.92" y1="45.72" x2="121.92" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="121.92" y1="2.54" x2="226.06" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
@@ -22686,18 +22686,18 @@ the antenna trace is shorter than 20mm</text>
 <instance part="GND21" gate="1" x="215.9" y="25.4" smashed="yes">
 <attribute name="VALUE" x="215.9" y="25.146" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="332.74" y="25.4" smashed="yes">
-<attribute name="VALUE" x="332.74" y="25.146" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="345.44" y="27.94" smashed="yes">
+<attribute name="VALUE" x="345.44" y="27.686" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="332.74" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="331.2414" y="31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="336.042" y="31.75" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="340.36" y="40.64" smashed="yes">
+<attribute name="NAME" x="336.55" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="336.55" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="SB1" gate="G$1" x="327.66" y="40.64" smashed="yes">
-<attribute name="NAME" x="325.12" y="40.64" size="1.27" layer="95"/>
+<instance part="SB1" gate="G$1" x="345.44" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="345.44" y="33.02" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="322.58" y="40.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="319.786" y="40.64" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="332.74" y="40.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="329.946" y="40.64" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="R15" gate="G$1" x="284.48" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="72.1614" size="1.778" layer="95" rot="R180"/>
@@ -22897,15 +22897,15 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="332.74" y1="30.48" x2="332.74" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="271.78" y1="71.12" x2="274.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="71.12" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="J4" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="SB1" gate="G$1" pin="1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="345.44" y1="33.02" x2="345.44" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -23089,14 +23089,14 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="40.64" x2="322.58" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<pinref part="SB1" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
 <wire x1="228.6" y1="-35.56" x2="226.06" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="EN"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+<wire x1="335.28" y1="40.64" x2="332.74" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUX_SWITCH" class="0">
@@ -23428,8 +23428,8 @@ the antenna trace is shorter than 20mm</text>
 <segment>
 <pinref part="SB1" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="40.64" x2="332.74" y2="40.64" width="0.1524" layer="91"/>
-<label x="332.74" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="345.44" y1="38.1" x2="345.44" y2="40.64" width="0.1524" layer="91"/>
+<label x="345.44" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="DATA_N" class="2">
