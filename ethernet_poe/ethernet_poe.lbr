@@ -373,7 +373,9 @@
 <connect gate="G$1" pin="XO" pad="31"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="1278-1021-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
