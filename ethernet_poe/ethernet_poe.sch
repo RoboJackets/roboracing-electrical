@@ -11756,7 +11756,7 @@ In this library you will find frames that can be used to help organize a schemat
 <parts>
 <part name="U1" library="ethernet_poe" deviceset="W5500" device=""/>
 <part name="U$1" library="ethernet_poe" deviceset="ARJP11A" device=""/>
-<part name="X1" library="ethernet_poe" deviceset="ABM10W-25.0000MHZ-6-K1Z-T3" device=""/>
+<part name="X1" library="ethernet_poe" deviceset="ABM10W-25.0000MHZ-6-K1Z-T3" device="" value="25MHz"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="6.8nF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="6.8nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49"/>
@@ -11767,8 +11767,8 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
@@ -11807,7 +11807,7 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="NAME" x="330.2" y="243.84" size="1.778" layer="95"/>
 </instance>
 <instance part="X1" gate="G$1" x="50.8" y="60.96" smashed="yes">
-<attribute name="NAME" x="48.26" y="64.516" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="48.26" y="67.056" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="48.26" y="64.77" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="309.88" y="223.52" smashed="yes" rot="R270">
@@ -12069,12 +12069,20 @@ In this library you will find frames that can be used to help organize a schemat
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="50.8" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="48.26" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="60.96" y1="45.72" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <junction x="60.96" y="48.26"/>
+<pinref part="X1" gate="G$1" pin="SHD1"/>
+<wire x1="50.8" y1="55.88" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<junction x="50.8" y="48.26"/>
+<pinref part="X1" gate="G$1" pin="SHD2"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<junction x="53.34" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
