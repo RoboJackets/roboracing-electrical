@@ -22356,6 +22356,9 @@ Mini USB Connector
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="F2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.5A"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
+<part name="SUPPLY24" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22661,8 +22664,8 @@ the antenna trace is shorter than 20mm</text>
 <instance part="SUPPLY6" gate="G$1" x="320.04" y="30.48" smashed="yes" rot="R270">
 <attribute name="VALUE" x="322.834" y="30.48" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY15" gate="P" x="246.38" y="33.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="243.205" y="31.115" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY15" gate="P" x="246.38" y="30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.205" y="28.575" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND18" gate="1" x="317.5" y="7.62" smashed="yes">
 <attribute name="VALUE" x="317.5" y="7.366" size="1.778" layer="96" align="top-center"/>
@@ -22728,6 +22731,16 @@ the antenna trace is shorter than 20mm</text>
 <instance part="C10" gate="G$1" x="162.56" y="-27.94" smashed="yes">
 <attribute name="NAME" x="163.576" y="-27.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.576" y="-32.131" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="142.24" y="15.24" smashed="yes" rot="R90">
+<attribute name="VALUE" x="139.446" y="15.24" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="294.64" y="-35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="293.1414" y="-39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="297.942" y="-39.37" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY24" gate="P" x="294.64" y="-25.4" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="296.545" y="-22.225" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -22959,8 +22972,16 @@ the antenna trace is shorter than 20mm</text>
 <segment>
 <pinref part="SUPPLY15" gate="P" pin="+3.3V"/>
 <pinref part="U5" gate="A" pin="VCC"/>
-<wire x1="248.92" y1="33.02" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="ENABLEA"/>
+<wire x1="251.46" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="27.94" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
+<junction x="248.92" y="30.48"/>
+</segment>
+<segment>
+<pinref part="SUPPLY24" gate="P" pin="+3.3V"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="-27.94" x2="294.64" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK_5V" class="0">
@@ -23087,6 +23108,10 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="U6" gate="A" pin="VCC"/>
 <wire x1="144.78" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
+<pinref part="U6" gate="A" pin="ENABLEA"/>
+<wire x1="144.78" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
+<junction x="142.24" y="30.48"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
@@ -23097,6 +23122,11 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
 <wire x1="335.28" y1="40.64" x2="332.74" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="144.78" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+<pinref part="U6" gate="A" pin="ENABLEB"/>
 </segment>
 </net>
 <net name="AUX_SWITCH" class="0">
@@ -23351,8 +23381,11 @@ the antenna trace is shorter than 20mm</text>
 <net name="SS_3V" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="NSS"/>
-<wire x1="312.42" y1="-40.64" x2="309.88" y2="-40.64" width="0.1524" layer="91"/>
-<label x="309.88" y="-40.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="-40.64" x2="294.64" y2="-40.64" width="0.1524" layer="91"/>
+<label x="292.1" y="-40.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="-40.64" x2="292.1" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="294.64" y="-40.64"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="17.78" x2="215.9" y2="17.78" width="0.1524" layer="91"/>
@@ -23401,29 +23434,14 @@ the antenna trace is shorter than 20mm</text>
 </net>
 <net name="SHIFTER_EN" class="1">
 <segment>
-<pinref part="U6" gate="A" pin="ENABLEA"/>
-<wire x1="144.78" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="142.24" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U6" gate="A" pin="ENABLEC"/>
 <wire x1="210.82" y1="12.7" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
 <label x="213.36" y="12.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
-<label x="142.24" y="15.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U6" gate="A" pin="ENABLEB"/>
-</segment>
-<segment>
 <wire x1="251.46" y1="15.24" x2="248.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="248.92" y="15.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="ENABLEB"/>
-</segment>
-<segment>
-<wire x1="251.46" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
-<label x="248.92" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U5" gate="A" pin="ENABLEA"/>
 </segment>
 <segment>
 <pinref part="SB1" gate="G$1" pin="2"/>
@@ -23432,7 +23450,7 @@ the antenna trace is shorter than 20mm</text>
 <label x="345.44" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="DATA_N" class="2">
+<net name="DATA_-" class="2">
 <segment>
 <wire x1="289.56" y1="78.74" x2="292.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -23444,16 +23462,7 @@ the antenna trace is shorter than 20mm</text>
 <label x="40.64" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="76.2" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="76.2" x2="271.78" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="DATA_P" class="2">
+<net name="DATA_+" class="2">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
@@ -23472,13 +23481,6 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="5V_UNFUSED" class="0">
 <segment>
 <pinref part="F2" gate="G$1" pin="1"/>
@@ -23494,6 +23496,22 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="282.702" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
 <label x="281.94" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="D1" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="271.78" y1="76.2" x2="274.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="76.2" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
