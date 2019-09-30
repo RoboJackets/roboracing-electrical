@@ -37602,6 +37602,9 @@ CONN_03x2
 <text x="142.24" y="193.04" size="1.778" layer="95">Decoupling Caps
 NEED PLACEMENT</text>
 <text x="40.64" y="170.18" size="1.778" layer="95">REPLACE THE SWITCH</text>
+<text x="246.38" y="162.56" size="1.778" layer="95">Pogo Programmer 
+Header Connections</text>
+<text x="254.508" y="174.498" size="1.778" layer="95">Neopixel status LED pin</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="91.44" y="119.38" smashed="yes">
