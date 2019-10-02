@@ -37605,6 +37605,14 @@ NEED PLACEMENT</text>
 <text x="246.38" y="162.56" size="1.778" layer="95">Pogo Programmer 
 Header Connections</text>
 <text x="254.508" y="174.498" size="1.778" layer="95">Neopixel status LED pin</text>
+<wire x1="298.958" y1="259.04" x2="298.958" y2="226.02" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="298.958" y1="226.02" x2="349.758" y2="226.02" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="349.758" y1="226.02" x2="349.758" y2="259.04" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="349.758" y1="259.04" x2="298.958" y2="259.04" width="0.1524" layer="97" style="shortdash"/>
+<text x="301.498" y="255.23" size="1.778" layer="97">Stepper Feedback</text>
+<text x="307.34" y="238.76" size="1.778" layer="91">Add in a PISO shift register
+to read the stepper feedback pins.
+Might also need level shifter</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="91.44" y="119.38" smashed="yes">
