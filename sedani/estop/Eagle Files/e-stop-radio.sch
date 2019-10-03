@@ -22349,7 +22349,7 @@ Mini USB Connector
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
-<part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC"/>
+<part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD323-R"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J4" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -22359,6 +22359,7 @@ Mini USB Connector
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
 <part name="SUPPLY24" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22741,6 +22742,9 @@ the antenna trace is shorter than 20mm</text>
 </instance>
 <instance part="GND21" gate="1" x="215.9" y="10.16" smashed="yes">
 <attribute name="VALUE" x="215.9" y="9.906" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY26" gate="G$1" x="281.94" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="284.734" y="81.28" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -23129,6 +23133,11 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <pinref part="U6" gate="A" pin="ENABLEB"/>
 </segment>
+<segment>
+<pinref part="SUPPLY26" gate="G$1" pin="5V"/>
+<wire x1="281.94" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+</segment>
 </net>
 <net name="AUX_SWITCH" class="0">
 <segment>
@@ -23492,11 +23501,6 @@ the antenna trace is shorter than 20mm</text>
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="114.3" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <label x="111.76" y="66.04" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-</segment>
-<segment>
-<wire x1="282.702" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
-<label x="281.94" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$5" class="0">
