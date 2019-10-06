@@ -22280,7 +22280,6 @@ Mini USB Connector
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="U4" library="estop-v1.0" deviceset="RFM69HCW" device="_SMT" value="RFM69HCW"/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -22478,10 +22477,6 @@ the antenna trace is shorter than 20mm</text>
 </instance>
 <instance part="U4" gate="G$1" x="325.12" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="314.96" y="-58.42" size="1.27" layer="95"/>
-</instance>
-<instance part="C8" gate="G$1" x="347.98" y="-40.64" smashed="yes">
-<attribute name="NAME" x="348.996" y="-40.005" size="1.778" layer="95"/>
-<attribute name="VALUE" x="348.996" y="-44.831" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="307.34" y="-50.8" smashed="yes">
 <attribute name="VALUE" x="305.435" y="-53.975" size="1.778" layer="96"/>
@@ -22806,11 +22801,8 @@ the antenna trace is shorter than 20mm</text>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND@1"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="-45.72" x2="347.98" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="-45.72" x2="355.6" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
-<wire x1="347.98" y1="-45.72" x2="355.6" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="347.98" y="-45.72"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -22943,12 +22935,9 @@ the antenna trace is shorter than 20mm</text>
 </net>
 <net name="+3.3V" class="1">
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="VDD"/>
-<wire x1="347.98" y1="-38.1" x2="337.82" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="P" pin="+3.3V"/>
-<wire x1="358.14" y1="-38.1" x2="347.98" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="347.98" y="-38.1"/>
+<wire x1="358.14" y1="-38.1" x2="337.82" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L1" gate="A" pin="1"/>
@@ -23442,7 +23431,7 @@ the antenna trace is shorter than 20mm</text>
 <label x="170.18" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="SHIFTER_EN" class="1">
+<net name="SHIFTER_EN" class="0">
 <segment>
 <wire x1="251.46" y1="15.24" x2="248.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="248.92" y="15.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
