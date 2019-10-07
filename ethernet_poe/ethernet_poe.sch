@@ -14282,7 +14282,7 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TCT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="TCT"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -14309,14 +14309,14 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RD+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="RD+"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="210.82" x2="302.26" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RD-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="RD-"/>
 <wire x1="314.96" y1="200.66" x2="309.88" y2="200.66" width="0.1524" layer="91"/>
@@ -14357,7 +14357,7 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="RCT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="RCT"/>
 <wire x1="314.96" y1="205.74" x2="304.8" y2="205.74" width="0.1524" layer="91"/>
@@ -14830,21 +14830,21 @@ Source: www.kingbright.com</description>
 <wire x1="78.74" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="24V_LED" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="215.9" x2="175.26" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="5V_LED" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="215.9" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="3V3_LED" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="A"/>
