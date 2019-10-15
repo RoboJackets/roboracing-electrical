@@ -22304,6 +22304,9 @@ Mini USB Connector
 <part name="SUPPLY24" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLUE"/>
+<part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -22354,9 +22357,9 @@ has a motor enabled light</text>
 50mA estimated max
 power consumption</text>
 <wire x1="210.82" y1="129.54" x2="210.82" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="210.82" y1="177.8" x2="259.08" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="259.08" y1="177.8" x2="259.08" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="259.08" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="210.82" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="261.62" y1="177.8" x2="261.62" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="261.62" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
 <text x="88.9" y="172.72" size="1.778" layer="97">In control box, this should be 
 connected to 5V, GND, and 
 the 3 LEDs.</text>
@@ -22724,6 +22727,17 @@ control of MISO.</text>
 <instance part="SUPPLY28" gate="G$1" x="208.28" y="88.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="211.074" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
+<instance part="LED4" gate="G$1" x="254" y="157.48" smashed="yes">
+<attribute name="NAME" x="257.556" y="152.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="259.715" y="152.908" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="254" y="134.62" smashed="yes">
+<attribute name="VALUE" x="254" y="134.366" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R14" gate="G$1" x="254" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="252.5014" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="257.302" y="140.97" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22912,6 +22926,11 @@ control of MISO.</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="86.36" x2="345.44" y2="86.36" width="0.1524" layer="91"/>
 <junction x="345.44" y="86.36"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="254" y1="139.7" x2="254" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -23181,16 +23200,16 @@ control of MISO.</text>
 <wire x1="236.22" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED" class="0">
+<net name="LED3" class="0">
 <segment>
 <wire x1="241.3" y1="160.02" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
 <label x="241.3" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<label x="106.68" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PE2(!HWB)"/>
+<wire x1="101.6" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<label x="106.68" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD5(XCK/CTS)"/>
 </segment>
 </net>
 <net name="DIO_3" class="0">
@@ -23556,6 +23575,25 @@ control of MISO.</text>
 <wire x1="101.6" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <label x="106.68" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="254" y1="152.4" x2="254" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED4" class="0">
+<segment>
+<wire x1="254" y1="160.02" x2="254" y2="165.1" width="0.1524" layer="91"/>
+<label x="254" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="106.68" y="43.18" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
 </segment>
 </net>
 </nets>
