@@ -22244,9 +22244,9 @@ Mini USB Connector
 <part name="SUPPLY14" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
+<part name="R3\" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
 <part name="J4" library="estop-v1.0" deviceset="5-1814832-1" device=""/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330Ω"/>
@@ -22280,7 +22280,6 @@ Mini USB Connector
 <part name="SUPPLY12" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
-<part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
 <part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD323-R" value="200mA"/>
@@ -22291,7 +22290,7 @@ Mini USB Connector
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -22307,6 +22306,7 @@ Mini USB Connector
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLUE"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330Ω"/>
+<part name="SUPPLY20" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22363,10 +22363,9 @@ power consumption</text>
 <text x="88.9" y="172.72" size="1.778" layer="97">In control box, this should be 
 connected to 5V, GND, and 
 the 3 LEDs.</text>
-<text x="88.9" y="182.88" size="1.778" layer="97">The current-limiting resistors 
-should be 0 ohm on the 
-modules that go in Sedani
-and EVGP.</text>
+<text x="88.9" y="182.88" size="1.778" layer="97">R2-R5 should be 0 ohm
+on the modules that go
+in Sedani and EVGP.</text>
 <text x="314.96" y="22.86" size="1.27" layer="97" font="vector">Can forget about impedance matching if 
 the antenna trace is shorter than 20mm</text>
 <text x="15.24" y="114.3" size="5.08" layer="97" font="vector">Microcontroller</text>
@@ -22390,12 +22389,12 @@ the antenna trace is shorter than 20mm</text>
 <wire x1="331.978" y1="175.22" x2="273.558" y2="175.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="331.978" y1="137.12" x2="273.558" y2="137.12" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="273.558" y1="138.39" x2="273.558" y2="175.22" width="0.1524" layer="97" style="shortdash"/>
-<text x="121.92" y="81.28" size="1.778" layer="97" font="vector">Keeps SS high when
+<text x="119.38" y="78.74" size="1.778" layer="97" font="vector">Keeps SS high when
 using POGO programmer
 and PB0(SS) tri-stated</text>
-<text x="327.66" y="109.22" size="1.778" layer="97">Solder to burn bootloader
-over POGO. Releases
-control of MISO.</text>
+<text x="327.66" y="109.22" size="1.778" layer="97">Solder R13 to burn
+bootloader over POGO.
+Releases control of MISO.</text>
 </plain>
 <instances>
 <instance part="SUPPLY5" gate="GND" x="45.72" y="38.1" smashed="yes">
@@ -22526,15 +22525,15 @@ control of MISO.</text>
 <attribute name="NAME" x="123.19" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="123.19" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="116.84" y="152.4" smashed="yes">
+<instance part="R4" gate="G$1" x="116.84" y="152.4" smashed="yes">
 <attribute name="NAME" x="113.03" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="149.098" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="132.08" y="149.86" smashed="yes">
+<instance part="R3\" gate="G$1" x="132.08" y="149.86" smashed="yes">
 <attribute name="NAME" x="128.27" y="151.3586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="146.558" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="121.92" y="147.32" smashed="yes">
+<instance part="R2" gate="G$1" x="121.92" y="147.32" smashed="yes">
 <attribute name="NAME" x="118.11" y="148.8186" size="1.778" layer="95"/>
 </instance>
 <instance part="J4" gate="G$1" x="365.76" y="27.94" smashed="yes" rot="MR0">
@@ -22641,9 +22640,6 @@ control of MISO.</text>
 <attribute name="NAME" x="311.15" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="116.078" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="307.34" y="119.38" smashed="yes" rot="R90">
-<attribute name="VALUE" x="304.546" y="119.38" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
 <instance part="R11" gate="G$1" x="314.96" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="313.69" y="150.9014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="319.532" y="150.876" size="1.778" layer="96" rot="R180"/>
@@ -22680,7 +22676,7 @@ control of MISO.</text>
 <instance part="SUPPLY11" gate="G$1" x="208.28" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="211.074" y="104.14" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="121.92" y="63.5" smashed="yes" rot="R90">
+<instance part="R6" gate="G$1" x="121.92" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="120.4214" y="59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="125.222" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -22737,6 +22733,9 @@ control of MISO.</text>
 <instance part="R14" gate="G$1" x="254" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.5014" y="140.97" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="257.302" y="140.97" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY20" gate="P" x="304.8" y="119.38" smashed="yes" rot="R90">
+<attribute name="VALUE" x="301.625" y="117.475" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -22999,6 +22998,11 @@ control of MISO.</text>
 <wire x1="350.52" y1="93.98" x2="350.52" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="309.88" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY20" gate="P" pin="+3.3V"/>
+</segment>
 </net>
 <net name="SCK_5V" class="0">
 <segment>
@@ -23021,8 +23025,8 @@ control of MISO.</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(SS)"/>
 <wire x1="101.6" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="124.46" y="58.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<label x="124.46" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <junction x="121.92" y="58.42"/>
 </segment>
@@ -23141,11 +23145,6 @@ control of MISO.</text>
 <pinref part="U3" gate="A" pin="EN"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="SUPPLY20" gate="G$1" pin="5V"/>
-<wire x1="309.88" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="165.1" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
 <pinref part="U2" gate="A" pin="ENABLEB"/>
@@ -23158,7 +23157,7 @@ control of MISO.</text>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
@@ -23250,14 +23249,14 @@ control of MISO.</text>
 </net>
 <net name="DIO_6_R" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3\" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="DIO_7_R" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="127" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="9"/>
 </segment>
@@ -23271,7 +23270,7 @@ control of MISO.</text>
 </net>
 <net name="DIO_5_R" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="7"/>
 </segment>
@@ -23305,7 +23304,7 @@ control of MISO.</text>
 <net name="DIO_6" class="0">
 <segment>
 <label x="106.68" y="149.86" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R3\" gate="G$1" pin="1"/>
 <wire x1="127" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23318,7 +23317,7 @@ control of MISO.</text>
 <segment>
 <wire x1="111.76" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <label x="106.68" y="152.4" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
@@ -23541,7 +23540,7 @@ control of MISO.</text>
 <wire x1="304.8" y1="152.4" x2="309.88" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RST_3V" class="0">
+<net name="RADIO_RST_3V" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="RESET"/>
 <wire x1="322.58" y1="43.18" x2="320.04" y2="43.18" width="0.1524" layer="91"/>
@@ -23553,7 +23552,7 @@ control of MISO.</text>
 <pinref part="U2" gate="A" pin="H"/>
 </segment>
 </net>
-<net name="RST_5V" class="0">
+<net name="RADIO_RST_5V" class="0">
 <segment>
 <wire x1="101.6" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="106.68" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -23568,7 +23567,7 @@ control of MISO.</text>
 <net name="DIO_7" class="0">
 <segment>
 <label x="106.68" y="147.32" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23592,7 +23591,7 @@ control of MISO.</text>
 </segment>
 <segment>
 <wire x1="101.6" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="106.68" y="43.18" size="1.778" layer="95" xref="yes"/>
+<label x="106.68" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
 </segment>
 </net>
