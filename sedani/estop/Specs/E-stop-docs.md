@@ -1,7 +1,7 @@
 # Requirements
  * Must have 'deadman' logic to stop car if signal is lost
- * Must have >30m range
- * Must interface with current 7 pin header
+ * Must have >400' range (for EVGP)
+ * Must interface with Sedanii's current 7 pin header
  * Must be able to handle reconnecting
  * Must have a simple control box (in addition to any other controls)
  * Must have >7-hour battery life with replaceable battery
@@ -14,17 +14,9 @@
 Every loop, we check for a new radio message. If there is one, check if it is a valid GO or STOP message. If yes, set flag to start or stop car. If no valid messages received for a certain length of time, automatically stop car.
 
 ## Firmware
-
-### Radio Message format
-
-### Important Variables
- * E_STOP_TIMEOUT How long the car should wait before stopping if the connection drops
- * eStopCode: array that contains message to stop car (MUST BE SAME AS IN TRANSMITTER)
- * goCode: array that contains message to enable car (MUST BE SAME AS IN TRANSMITTER)
- * lastCommandTime: when the last valid command was (in ms)
- * messageValid: was the last message valid?
+See code comments - will be more up-to-date.
  
-### E-stop state machine
+### Sedanii's E-stop state machine
 1. GO
     1. Transitions to STOP upon receiving stop signal.
     2. Transitions to DISCONNECTED if no signals for >0.5 sec
@@ -35,8 +27,14 @@ Every loop, we check for a new radio message. If there is one, check if it is a 
     1. Transitions to STOP upon receiving stop signal.
     2. Transitions to GO upon receiving go signal.
 
+### EVGP's E-stop state machine
+1. GO
+2. Drive Disabled
+3. Drive + Steering Disabled (or Disconnected)
+4. Power Off Car
+
 ## Hardware
-Connect the PCB to the control board by the 7 unboxed pins of the 11 pin header. Instead of soldering on R2-R5 on the back of the board, solderbridge over them:
+Connect the PCB to the control board by the 7 unboxed pins of the 11 pin header. Solder 0 ohm resistors for R2-R5 on the back of the board:
 ![e-stop-sedani-solderbridges.png](/e-stop-sedani-solderbridges.png)
 
 Make sure to remove diodes 2 and 3 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
@@ -70,12 +68,7 @@ Connect all the buttons but the Power switch to the PCB via the 4 boxed pins of 
  * Signal switch (ex. to signal the car to record bag files).
  
 ## Firmware
-    
-### Important Variables
- * TRANSMIT_PERIOD The interval between transmissions in ms
- * eStopCode: array that contains message to stop car (MUST BE SAME AS IN RECEIVER)
- * goCode: array that contains message to enable car (MUST BE SAME AS IN RECEIVER)
- * go: Should the radio tell car to go or stop?
+See code comments - will be more up-to-date.
 
 # Major hardware parts
  * Sparkfun radio RFM69HCW (915 MHz version): radio chips

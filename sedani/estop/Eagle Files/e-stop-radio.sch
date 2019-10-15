@@ -22283,11 +22283,11 @@ Mini USB Connector
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22 Ω"/>
-<part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD323-R"/>
+<part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD323-R" value="200mA"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J3" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.5A"/>
+<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.2A"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -22361,8 +22361,9 @@ power consumption</text>
 connected to 5V, GND, and 
 the 3 LEDs.</text>
 <text x="88.9" y="182.88" size="1.778" layer="97">The current-limiting resistors 
-should be solderbridged on the 
-module that goes in Sedani.</text>
+should be 0 ohm on the 
+modules that go in Sedani
+and EVGP.</text>
 <text x="314.96" y="22.86" size="1.27" layer="97" font="vector">Can forget about impedance matching if 
 the antenna trace is shorter than 20mm</text>
 <text x="15.24" y="114.3" size="5.08" layer="97" font="vector">Microcontroller</text>
@@ -22650,7 +22651,7 @@ control of MISO.</text>
 </instance>
 <instance part="D1" gate="G$1" x="307.34" y="160.02" smashed="yes">
 <attribute name="NAME" x="305.816" y="162.052" size="1.778" layer="95"/>
-<attribute name="VALUE" x="304.8" y="157.48" size="1.778" layer="96" align="top-left"/>
+<attribute name="VALUE" x="309.88" y="162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="304.8" y="142.24" smashed="yes">
 <attribute name="VALUE" x="302.895" y="139.065" size="1.778" layer="96"/>
@@ -23151,18 +23152,6 @@ control of MISO.</text>
 <pinref part="U2" gate="A" pin="ENABLEC"/>
 </segment>
 </net>
-<net name="AUX_SWITCH" class="0">
-<segment>
-<label x="106.68" y="147.32" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="101.6" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<label x="106.68" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
-</segment>
-</net>
 <net name="MCU_RST" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
@@ -23204,35 +23193,23 @@ control of MISO.</text>
 <pinref part="U1" gate="G$1" pin="PE2(!HWB)"/>
 </segment>
 </net>
-<net name="GREEN_BTN" class="0">
+<net name="DIO_3" class="0">
 <segment>
 <wire x1="142.24" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="142.24" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
-<label x="106.68" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD2(INT2/RXD1)"/>
+<wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<label x="106.68" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
 </segment>
 </net>
-<net name="RED_BTN" class="0">
+<net name="DIO_2" class="0">
 <segment>
 <wire x1="142.24" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="142.24" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="101.6" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
-<label x="106.68" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD1(INT1/SDA)"/>
-</segment>
-</net>
-<net name="SWITCH_IN" class="0">
-<segment>
-<wire x1="142.24" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
-<label x="142.24" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
@@ -23240,28 +23217,40 @@ control of MISO.</text>
 <pinref part="U1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="DIO_1" class="0">
+<segment>
+<wire x1="142.24" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
+<label x="142.24" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<label x="106.68" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
+</segment>
+</net>
+<net name="DIO_6_R" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="DIO_7_R" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="127" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DIO_4_R" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DIO_5_R" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
@@ -23282,40 +23271,40 @@ control of MISO.</text>
 <wire x1="241.3" y1="152.4" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="WIRELESS_D3" class="0">
+<net name="DIO_4" class="0">
 <segment>
 <label x="106.68" y="154.94" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="106.68" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
+<wire x1="101.6" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="106.68" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
 </segment>
 </net>
-<net name="GO" class="0">
+<net name="DIO_6" class="0">
 <segment>
 <label x="106.68" y="149.86" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="127" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
-<label x="106.68" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+<wire x1="101.6" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<label x="106.68" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
 </segment>
 </net>
-<net name="ESTOPPED" class="0">
+<net name="DIO_5" class="0">
 <segment>
 <wire x1="111.76" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <label x="106.68" y="152.4" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<label x="106.68" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PD5(XCK/CTS)"/>
+<wire x1="101.6" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<label x="106.68" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
 </segment>
 </net>
 <net name="MOSI_5V" class="0">
@@ -23495,7 +23484,7 @@ control of MISO.</text>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="5V_UNFUSED" class="0">
+<net name="5V_UNFUSED" class="1">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="176.022" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
@@ -23555,6 +23544,18 @@ control of MISO.</text>
 <wire x1="205.74" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 <label x="210.82" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="A" pin="D"/>
+</segment>
+</net>
+<net name="DIO_7" class="0">
+<segment>
+<label x="106.68" y="147.32" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="106.68" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
 </segment>
 </net>
 </nets>
