@@ -22778,13 +22778,13 @@ Mini USB Connector
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2032" drill="0.508">
-<clearance class="0" value="0.2032"/>
+<clearance class="0" value="0.1778"/>
 </class>
 <class number="1" name="power" width="0.3048" drill="0.508">
-<clearance class="1" value="0.2032"/>
+<clearance class="1" value="0.1778"/>
 </class>
 <class number="2" name="RF" width="0.2032" drill="0">
-<clearance class="2" value="0.2032"/>
+<clearance class="2" value="0.1778"/>
 </class>
 </classes>
 <parts>
