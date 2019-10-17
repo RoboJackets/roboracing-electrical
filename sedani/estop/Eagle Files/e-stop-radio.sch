@@ -22780,7 +22780,7 @@ Mini USB Connector
 <class number="0" name="default" width="0.2032" drill="0.508">
 <clearance class="0" value="0.2032"/>
 </class>
-<class number="1" name="power" width="0.4064" drill="0.508">
+<class number="1" name="power" width="0.3048" drill="0.508">
 <clearance class="1" value="0.2032"/>
 </class>
 <class number="2" name="RF" width="0.2032" drill="0">
@@ -22888,6 +22888,7 @@ Mini USB Connector
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22900,7 +22901,7 @@ Mini USB Connector
 <wire x1="34.798" y1="147.28" x2="83.82" y2="147.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="83.82" y1="147.28" x2="83.82" y2="185.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="83.82" y1="185.38" x2="34.798" y2="185.38" width="0.1524" layer="97" style="shortdash"/>
-<text x="20.32" y="33.02" size="0.8128" layer="97" font="vector">Modified from 
+<text x="45.72" y="27.94" size="0.8128" layer="97" font="vector">Modified from 
 Austin Keener's 
 LIDAR board</text>
 <text x="151.13" y="145.034" size="1.778" layer="97" align="center-left">5V IN</text>
@@ -22985,19 +22986,19 @@ Check enable constantly pulled low</text>
 <attribute name="NAME" x="73.66" y="30.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="70.866" y="113.03" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="35.56" y="63.5" smashed="yes">
-<attribute name="NAME" x="36.576" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="36.576" y="59.309" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="12.7" y="63.5" smashed="yes">
+<attribute name="NAME" x="13.716" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.716" y="59.309" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="35.56" y="53.34" smashed="yes">
-<attribute name="VALUE" x="33.655" y="50.165" size="1.778" layer="96"/>
+<instance part="SUPPLY3" gate="GND" x="12.7" y="53.34" smashed="yes">
+<attribute name="VALUE" x="10.795" y="50.165" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="25.4" y="63.5" smashed="yes">
-<attribute name="NAME" x="26.416" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="26.416" y="59.309" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="5.08" y="63.5" smashed="yes">
+<attribute name="NAME" x="6.096" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.096" y="59.309" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="25.4" y="53.34" smashed="yes">
-<attribute name="VALUE" x="23.495" y="50.165" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="GND" x="5.08" y="53.34" smashed="yes">
+<attribute name="VALUE" x="3.175" y="50.165" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="33.02" y="83.82" smashed="yes">
 <attribute name="NAME" x="34.036" y="84.455" size="1.778" layer="95"/>
@@ -23111,23 +23112,23 @@ Check enable constantly pulled low</text>
 <instance part="SUPPLY6" gate="G$1" x="66.04" y="172.72" smashed="yes">
 <attribute name="VALUE" x="66.04" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="X1" gate="G$1" x="185.42" y="182.88" smashed="yes">
-<attribute name="VALUE" x="170.18" y="185.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="182.88" y="187.96" size="1.778" layer="95"/>
+<instance part="X1" gate="G$1" x="33.02" y="55.88" smashed="yes">
+<attribute name="VALUE" x="22.86" y="58.42" size="1.778" layer="96"/>
+<attribute name="NAME" x="30.48" y="60.96" size="1.778" layer="95"/>
 </instance>
-<instance part="C8" gate="G$1" x="175.26" y="177.8" smashed="yes">
-<attribute name="NAME" x="176.276" y="178.435" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.276" y="173.609" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="27.94" y="50.8" smashed="yes">
+<attribute name="NAME" x="28.956" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="28.956" y="46.609" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="195.58" y="177.8" smashed="yes">
-<attribute name="NAME" x="196.596" y="178.435" size="1.778" layer="95"/>
-<attribute name="VALUE" x="196.596" y="173.609" size="1.778" layer="96"/>
+<instance part="C10" gate="G$1" x="38.1" y="50.8" smashed="yes">
+<attribute name="NAME" x="39.116" y="51.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.116" y="46.609" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="175.26" y="167.64" smashed="yes">
-<attribute name="VALUE" x="175.26" y="167.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="27.94" y="40.64" smashed="yes">
+<attribute name="VALUE" x="27.94" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="195.58" y="167.64" smashed="yes">
-<attribute name="VALUE" x="195.58" y="167.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="38.1" y="40.64" smashed="yes">
+<attribute name="VALUE" x="38.1" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND18" gate="1" x="187.96" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="187.96" y="-12.954" size="1.778" layer="96" align="top-center"/>
@@ -23317,6 +23318,9 @@ Check enable constantly pulled low</text>
 <instance part="GND27" gate="1" x="241.3" y="60.96" smashed="yes">
 <attribute name="VALUE" x="241.3" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="GND2" gate="1" x="254" y="78.74" smashed="yes">
+<attribute name="VALUE" x="254" y="78.486" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23347,12 +23351,12 @@ Check enable constantly pulled low</text>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="58.42" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="58.42" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="58.42" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -23412,12 +23416,12 @@ Check enable constantly pulled low</text>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="172.72" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="172.72" x2="195.58" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -23490,10 +23494,7 @@ Check enable constantly pulled low</text>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="243.84" y1="99.06" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="2DIR"/>
-<pinref part="U6" gate="A" pin="2B5"/>
 <wire x1="238.76" y1="99.06" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="86.36" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="238.76" y="99.06"/>
 <pinref part="U6" gate="A" pin="2B8"/>
 <wire x1="238.76" y1="88.9" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
@@ -23510,7 +23511,6 @@ Check enable constantly pulled low</text>
 <junction x="238.76" y="91.44"/>
 <pinref part="U6" gate="A" pin="2B6"/>
 <wire x1="238.76" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
-<junction x="238.76" y="88.9"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
@@ -23577,21 +23577,26 @@ Check enable constantly pulled low</text>
 <wire x1="241.3" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="GND_3"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="254" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="2B4"/>
+</segment>
 </net>
 <net name="AREF" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="AREF"/>
-<wire x1="53.34" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="68.58" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="UCAP" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="73.66" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="73.66" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="UCAP"/>
-<wire x1="25.4" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="1">
@@ -23810,9 +23815,9 @@ Check enable constantly pulled low</text>
 <pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<label x="142.24" y="157.48" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="144.78" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
+<label x="142.24" y="165.1" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -23829,38 +23834,38 @@ Check enable constantly pulled low</text>
 </net>
 <net name="DIO_3" class="0">
 <segment>
-<wire x1="142.24" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
-<label x="142.24" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <label x="106.68" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
 </segment>
+<segment>
+<wire x1="142.24" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+</segment>
 </net>
 <net name="DIO_2" class="0">
-<segment>
-<wire x1="142.24" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
-<label x="142.24" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-</segment>
 <segment>
 <wire x1="101.6" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="106.68" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
 </segment>
+<segment>
+<wire x1="142.24" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
+<label x="142.24" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="DIO_1" class="0">
-<segment>
-<wire x1="142.24" y1="165.1" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
-<label x="142.24" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <wire x1="101.6" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="106.68" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
+</segment>
+<segment>
+<wire x1="142.24" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
+<label x="142.24" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="DIO_6_R" class="0">
@@ -24044,34 +24049,25 @@ Check enable constantly pulled low</text>
 </net>
 <net name="XTAL1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="XTAL1"/>
-<wire x1="53.34" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-<label x="50.8" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="182.88" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
-<junction x="175.26" y="182.88"/>
-<label x="170.18" y="182.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="55.88" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<junction x="27.94" y="55.88"/>
+<pinref part="U1" gate="G$1" pin="XTAL1"/>
+<wire x1="27.94" y1="55.88" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="XTAL2"/>
-<wire x1="53.34" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
-<label x="50.8" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="182.88" x2="195.58" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="182.88" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
-<junction x="195.58" y="182.88"/>
-<label x="200.66" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="38.1" y1="55.88" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="XTAL2"/>
+<wire x1="53.34" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<junction x="38.1" y="55.88"/>
 </segment>
 </net>
 <net name="SHIFTER_EN" class="0">
@@ -24163,9 +24159,9 @@ Check enable constantly pulled low</text>
 <label x="304.8" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="177.8" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U6" gate="A" pin="2A4"/>
+<wire x1="180.34" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="177.8" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="2A5"/>
 </segment>
 </net>
 <net name="RADIO_RST_5V" class="0">
@@ -24175,9 +24171,9 @@ Check enable constantly pulled low</text>
 <pinref part="U1" gate="G$1" pin="PF0(ADC0)"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="81.28" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
-<label x="241.3" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U6" gate="A" pin="2B4"/>
+<wire x1="236.22" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<label x="241.3" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U6" gate="A" pin="2B5"/>
 </segment>
 </net>
 <net name="DIO_7" class="0">
