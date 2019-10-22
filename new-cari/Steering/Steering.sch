@@ -38777,12 +38777,12 @@ CONN_03x2
 <wire x1="-4" y1="-3" x2="-5" y2="-4" width="0.127" layer="21"/>
 <wire x1="-5" y1="-4" x2="-7" y2="-4" width="0.127" layer="21"/>
 <wire x1="-7" y1="-4" x2="-7" y2="3" width="0.127" layer="21"/>
-<smd name="1" x="-3.75" y="3.5" dx="1" dy="3" layer="1"/>
-<smd name="2" x="-2.25" y="3.5" dx="1" dy="3" layer="1"/>
-<smd name="3" x="-0.75" y="3.5" dx="1" dy="3" layer="1"/>
-<smd name="4" x="0.75" y="3.5" dx="1" dy="3" layer="1"/>
-<smd name="5" x="2.25" y="3.5" dx="1" dy="3" layer="1"/>
-<smd name="6" x="3.75" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="6" x="-3.75" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="5" x="-2.25" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="4" x="-0.75" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="3" x="0.75" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="2" x="2.25" y="3.5" dx="1" dy="3" layer="1"/>
+<smd name="1" x="3.75" y="3.5" dx="1" dy="3" layer="1"/>
 <smd name="7" x="6.5" y="-1" dx="2" dy="4" layer="1"/>
 <smd name="8" x="-6.5" y="-1" dx="2" dy="4" layer="1"/>
 </package>
@@ -38823,6 +38823,56 @@ CONN_03x2
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="RoboJackets-Resistors">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Resistors&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find resistors. If you are looking for a common package, use the default &lt;b&gt;rcl &lt;/b&gt;library provided with EAGLE instead of looking here.
+&lt;/p&gt;</description>
+<packages>
+<package name="R0603W">
+<smd name="1" x="-0.775" y="0" dx="1.09" dy="0.94" layer="1"/>
+<smd name="2" x="0.775" y="0" dx="1.09" dy="0.94" layer="1"/>
+<text x="-1.5" y="1" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RES">
+<pin name="PIN1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="PIN2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="R0603W" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603W">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -38892,6 +38942,8 @@ CONN_03x2
 <part name="J3" library="Steering" deviceset="MOLEX_5025850670" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R2" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="10K"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 </parts>
 <sheets>
 <sheet>
@@ -38933,13 +38985,13 @@ Header Connections</text>
 <wire x1="364.998" y1="170.14" x2="364.998" y2="213.32" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="364.998" y1="213.32" x2="304.038" y2="213.32" width="0.1524" layer="97" style="shortdash"/>
 <text x="306.578" y="209.51" size="1.778" layer="97">Stepper Feedback Placeholder</text>
-<text x="297.18" y="205.74" size="1.27" layer="91">check whether this connects to 5V</text>
+<text x="314.198" y="203.454" size="1.27" layer="97">Yes this is 5V</text>
 <wire x1="304.038" y1="165.06" x2="304.038" y2="114.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="304.038" y1="114.26" x2="364.998" y2="114.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="364.998" y1="114.26" x2="364.998" y2="165.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="364.998" y1="165.06" x2="304.038" y2="165.06" width="0.1524" layer="97" style="shortdash"/>
 <text x="306.578" y="161.25" size="1.778" layer="97">Absolute Encoder</text>
-<text x="309.88" y="116.84" size="1.778" layer="91">Molex Connector Numbers:
+<text x="309.88" y="104.14" size="1.778" layer="91">Molex Connector Numbers:
 5025850600 - base connector
 5025850671 - black, -2, red, -3, blue</text>
 </plain>
@@ -39078,15 +39130,22 @@ Header Connections</text>
 <instance part="SUPPLY5" gate="G$1" x="309.88" y="200.66" smashed="yes">
 <attribute name="VALUE" x="309.88" y="203.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="312.42" y="142.24" smashed="yes">
-<attribute name="NAME" x="307.34" y="160.02" size="1.778" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="307.34" y="124.46" size="1.778" layer="96" font="vector"/>
+<instance part="J3" gate="G$1" x="317.5" y="142.24" smashed="yes">
+<attribute name="NAME" x="312.42" y="160.02" size="1.778" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="312.42" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="325.12" y="154.94" smashed="yes">
-<attribute name="VALUE" x="325.12" y="157.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="330.2" y="154.94" smashed="yes">
+<attribute name="VALUE" x="330.2" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="325.12" y="137.16" smashed="yes">
-<attribute name="VALUE" x="323.215" y="133.985" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="GND" x="347.98" y="137.16" smashed="yes">
+<attribute name="VALUE" x="346.075" y="133.985" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="347.98" y="119.38" smashed="yes">
+<attribute name="NAME" x="344.17" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="344.17" y="116.078" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="355.6" y="119.38" smashed="yes">
+<attribute name="VALUE" x="355.6" y="122.174" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -39177,8 +39236,8 @@ Header Connections</text>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="322.58" y1="139.7" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<wire x1="317.5" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST_MC" class="0">
@@ -39303,6 +39362,11 @@ Header Connections</text>
 <wire x1="101.6" y1="207.01" x2="104.14" y2="207.01" width="0.1524" layer="91"/>
 <label x="104.14" y="207.01" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="322.58" y1="144.78" x2="330.2" y2="144.78" width="0.1524" layer="91"/>
+<label x="330.2" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -39314,6 +39378,11 @@ Header Connections</text>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="209.55" x2="81.28" y2="209.55" width="0.1524" layer="91"/>
 <label x="81.28" y="209.55" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="322.58" y1="134.62" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="330.2" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V_MC" class="0">
@@ -39446,6 +39515,11 @@ Header Connections</text>
 <wire x1="236.22" y1="162.56" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
 <label x="238.76" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="149.86" x2="330.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="330.2" y="149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -39491,8 +39565,24 @@ Header Connections</text>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="154.94" x2="325.12" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC_2"/>
+<wire x1="322.58" y1="154.94" x2="330.2" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="PIN2"/>
+<wire x1="353.06" y1="119.38" x2="355.6" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VCC_2"/>
+</segment>
+</net>
+<net name="ENCODER_SELECT" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="6"/>
+<wire x1="322.58" y1="129.54" x2="342.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="345.44" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="PIN1"/>
+<wire x1="342.9" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="119.38" x2="342.9" y2="129.54" width="0.1524" layer="91"/>
+<junction x="342.9" y="129.54"/>
 </segment>
 </net>
 </nets>
