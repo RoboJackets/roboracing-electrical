@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -268,6 +268,68 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="-2.54" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-7.366" x2="5.08" y2="-7.366" width="0.127" layer="21"/>
 </package>
+<package name="TERM_BLOCK_HDR_4_PC">
+<pad name="1" x="-5.25" y="2" drill="1.2"/>
+<pad name="2" x="-1.75" y="2" drill="1.2"/>
+<pad name="3" x="1.75" y="2" drill="1.2"/>
+<pad name="4" x="5.25" y="2" drill="1.2"/>
+<wire x1="-7.7" y1="3.2" x2="-7.7" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-7.7" y1="-6" x2="7.7" y2="-6" width="0.1524" layer="21"/>
+<wire x1="7.7" y1="3.2" x2="7.7" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-7.7" y1="3.2" x2="7.7" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-2" x2="-6.25" y2="-6" width="0.1524" layer="25"/>
+<wire x1="-6.25" y1="-6" x2="-4.25" y2="-6" width="0.1524" layer="25"/>
+<wire x1="-4.25" y1="-6" x2="-4.25" y2="-2" width="0.1524" layer="25"/>
+<wire x1="-4.25" y1="-2" x2="-6.25" y2="-2" width="0.1524" layer="25"/>
+<wire x1="-2.75" y1="-2" x2="-2.75" y2="-6" width="0.1524" layer="25"/>
+<wire x1="-2.75" y1="-6" x2="-0.75" y2="-6" width="0.1524" layer="25"/>
+<wire x1="-0.75" y1="-6" x2="-0.75" y2="-2" width="0.1524" layer="25"/>
+<wire x1="-0.75" y1="-2" x2="-2.75" y2="-2" width="0.1524" layer="25"/>
+<wire x1="0.75" y1="-2" x2="0.75" y2="-6" width="0.1524" layer="25"/>
+<wire x1="0.75" y1="-6" x2="2.75" y2="-6" width="0.1524" layer="25"/>
+<wire x1="2.75" y1="-6" x2="2.75" y2="-2" width="0.1524" layer="25"/>
+<wire x1="2.75" y1="-2" x2="0.75" y2="-2" width="0.1524" layer="25"/>
+<wire x1="4.25" y1="-2" x2="4.25" y2="-6" width="0.1524" layer="25"/>
+<wire x1="4.25" y1="-6" x2="6.25" y2="-6" width="0.1524" layer="25"/>
+<wire x1="6.25" y1="-6" x2="6.25" y2="-2" width="0.1524" layer="25"/>
+<wire x1="6.25" y1="-2" x2="4.25" y2="-2" width="0.1524" layer="25"/>
+<text x="-7.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="1" y="3.5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="TERM_BLOCK_HDR_6_PC">
+<pad name="1" x="-8.75" y="2" drill="1.2"/>
+<pad name="2" x="-5.25" y="2" drill="1.2"/>
+<pad name="3" x="-1.75" y="2" drill="1.2"/>
+<pad name="4" x="1.75" y="2" drill="1.2"/>
+<wire x1="-11.2" y1="3.2" x2="-11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-11.2" y1="-6" x2="-9.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-9.75" y1="-6" x2="-7.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-7.75" y1="-6" x2="11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="11.2" y1="3.2" x2="11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-11.2" y1="3.2" x2="11.2" y2="3.2" width="0.1524" layer="21"/>
+<pad name="5" x="5.25" y="2" drill="1.2"/>
+<pad name="6" x="8.75" y="2" drill="1.2"/>
+<wire x1="-9.75" y1="-6" x2="-9.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-9.75" y1="-2" x2="-7.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-7.75" y1="-2" x2="-7.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-6" x2="-6.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-2" x2="-4.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-4.25" y1="-2" x2="-4.25" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-6" x2="-2.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-2" x2="-0.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-0.75" y1="-2" x2="-0.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="4.25" y1="-6" x2="4.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="4.25" y1="-2" x2="6.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="-2" x2="6.25" y2="-6" width="0.1524" layer="21"/>
+<wire x1="0.75" y1="-6" x2="0.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="0.75" y1="-2" x2="2.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="-2" x2="2.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-6" x2="7.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-2" x2="9.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="9.75" y1="-2" x2="9.75" y2="-6" width="0.1524" layer="21"/>
+<text x="-11.25" y="3.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="4.5" y="3.5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="6-PIN_CONN">
@@ -360,6 +422,32 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="A1" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="4-PIN-HEADER">
+<pin name="2" x="-7.62" y="2.54" length="middle"/>
+<pin name="1" x="-7.62" y="7.62" length="middle"/>
+<pin name="3" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="4" x="-7.62" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="6-PIN-HEADER">
+<pin name="2" x="-7.62" y="5.08" length="middle"/>
+<pin name="1" x="-7.62" y="10.16" length="middle"/>
+<pin name="3" x="-7.62" y="0" length="middle"/>
+<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<pin name="4" x="-7.62" y="-5.08" length="middle"/>
+<pin name="5" x="-7.62" y="-10.16" length="middle"/>
+<pin name="6" x="-7.62" y="-15.24" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -464,6 +552,49 @@ Vss should normally be connected to GND.</description>
 <technologies>
 <technology name="">
 <attribute name="DKPT" value="CT3113CT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PC_SCREW_TERM_4" uservalue="yes">
+<description>4-PIN Screw Terminal Header Block</description>
+<gates>
+<gate name="G$1" symbol="4-PIN-HEADER" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TERM_BLOCK_HDR_4_PC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPT" value="277-2419-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PC_SCREW_TERM_6">
+<gates>
+<gate name="G$1" symbol="6-PIN-HEADER" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="TERM_BLOCK_HDR_6_PC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPT" value="277-2427-ND"/>
 </technology>
 </technologies>
 </device>
