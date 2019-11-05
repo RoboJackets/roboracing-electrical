@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -259,16 +259,16 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="-17.65" y="7.25" size="1.778" layer="21">&gt;NAME</text>
 </package>
 <package name="CTS_DIP_SWITCH">
-<smd name="A2" x="0" y="0" dx="1.1176" dy="2.4384" layer="1"/>
-<smd name="B2" x="2.54" y="0" dx="1.1176" dy="2.4384" layer="1"/>
-<smd name="A1" x="0" y="-8.6106" dx="1.1176" dy="2.4384" layer="1"/>
-<smd name="B1" x="2.54" y="-8.6106" dx="1.1176" dy="2.4384" layer="1"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-7.366" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="-7.366" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-7.366" x2="5.08" y2="-7.366" width="0.127" layer="21"/>
+<smd name="A2" x="-1.25" y="4.25" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="B2" x="1.29" y="4.25" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="A1" x="-1.25" y="-4.3606" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="B1" x="1.29" y="-4.3606" dx="1.1176" dy="2.4384" layer="1"/>
+<wire x1="-3.79" y1="2.98" x2="-3.79" y2="-3.116" width="0.127" layer="21"/>
+<wire x1="3.83" y1="2.98" x2="3.83" y2="-3.116" width="0.127" layer="21"/>
+<wire x1="-3.79" y1="2.98" x2="3.83" y2="2.98" width="0.127" layer="21"/>
+<wire x1="-3.79" y1="-3.116" x2="3.83" y2="-3.116" width="0.127" layer="21"/>
 </package>
-<package name="TERM_BLOCK_HDR_4_PC">
+<package name="SCREW_TERMINAL_PCB_CONN_4_POLE">
 <pad name="1" x="-5.25" y="2" drill="1.2"/>
 <pad name="2" x="-1.75" y="2" drill="1.2"/>
 <pad name="3" x="1.75" y="2" drill="1.2"/>
@@ -296,7 +296,7 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="-7.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="1" y="3.5" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="TERM_BLOCK_HDR_6_PC">
+<package name="SCREW_TERMINAL_PCB_CONN_6_POLE">
 <pad name="1" x="-8.75" y="2" drill="1.2"/>
 <pad name="2" x="-5.25" y="2" drill="1.2"/>
 <pad name="3" x="-1.75" y="2" drill="1.2"/>
@@ -353,26 +353,26 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="-5.08" y1="15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
 </symbol>
 <symbol name="CD4066BPWR">
-<wire x1="-15.24" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-15.24" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="12.7" width="0.1524" layer="94"/>
-<pin name="A_I/O" x="-20.32" y="10.16" length="middle"/>
-<pin name="A_O/I" x="-20.32" y="7.62" length="middle"/>
-<pin name="B_O/I" x="-20.32" y="5.08" length="middle"/>
-<pin name="B_I/O" x="-20.32" y="2.54" length="middle"/>
-<pin name="CTRL_B" x="-20.32" y="0" length="middle"/>
-<pin name="CTRL_C" x="-20.32" y="-2.54" length="middle"/>
-<pin name="VSS" x="-20.32" y="-5.08" length="middle"/>
-<pin name="C_I/O" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="C_O/I" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="D_O/I" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="D_I/O" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="CTRL_D" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="CTRL_A" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="VDD" x="12.7" y="10.16" length="middle" rot="R180"/>
-<text x="-7.62" y="13.716" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-11.43" y1="10.16" x2="11.43" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="10.16" x2="11.43" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-10.16" x2="-11.43" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="-10.16" x2="-11.43" y2="10.16" width="0.1524" layer="94"/>
+<pin name="A_I/O" x="-16.51" y="7.62" length="middle"/>
+<pin name="A_O/I" x="-16.51" y="5.08" length="middle"/>
+<pin name="B_O/I" x="-16.51" y="2.54" length="middle"/>
+<pin name="B_I/O" x="-16.51" y="0" length="middle"/>
+<pin name="CTRL_B" x="-16.51" y="-2.54" length="middle"/>
+<pin name="CTRL_C" x="-16.51" y="-5.08" length="middle"/>
+<pin name="VSS" x="-16.51" y="-7.62" length="middle"/>
+<pin name="C_I/O" x="16.51" y="-7.62" length="middle" rot="R180"/>
+<pin name="C_O/I" x="16.51" y="-5.08" length="middle" rot="R180"/>
+<pin name="D_O/I" x="16.51" y="-2.54" length="middle" rot="R180"/>
+<pin name="D_I/O" x="16.51" y="0" length="middle" rot="R180"/>
+<pin name="CTRL_D" x="16.51" y="2.54" length="middle" rot="R180"/>
+<pin name="CTRL_A" x="16.51" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="16.51" y="7.62" length="middle" rot="R180"/>
+<text x="-3.81" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CONN_15">
 <description>&lt;h3&gt; 15 Pin Connection&lt;/h3&gt;</description>
@@ -436,18 +436,18 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="4" x="-7.62" y="-7.62" length="middle"/>
 </symbol>
 <symbol name="6-PIN-HEADER">
-<pin name="2" x="-7.62" y="5.08" length="middle"/>
-<pin name="1" x="-7.62" y="10.16" length="middle"/>
-<pin name="3" x="-7.62" y="0" length="middle"/>
-<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-17.78" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<text x="-2.54" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
-<pin name="4" x="-7.62" y="-5.08" length="middle"/>
-<pin name="5" x="-7.62" y="-10.16" length="middle"/>
-<pin name="6" x="-7.62" y="-15.24" length="middle"/>
+<pin name="2" x="-7.62" y="7.62" length="middle"/>
+<pin name="1" x="-7.62" y="12.7" length="middle"/>
+<pin name="3" x="-7.62" y="2.54" length="middle"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<text x="-2.54" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<pin name="4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="5" x="-7.62" y="-7.62" length="middle"/>
+<pin name="6" x="-7.62" y="-12.7" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -557,13 +557,13 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PC_SCREW_TERM_4" uservalue="yes">
+<deviceset name="PCB_SCREW_TERM_4" prefix="J" uservalue="yes">
 <description>4-PIN Screw Terminal Header Block</description>
 <gates>
-<gate name="G$1" symbol="4-PIN-HEADER" x="2.54" y="-2.54"/>
+<gate name="G$1" symbol="4-PIN-HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TERM_BLOCK_HDR_4_PC">
+<device name="" package="SCREW_TERMINAL_PCB_CONN_4_POLE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -578,12 +578,12 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PC_SCREW_TERM_6">
+<deviceset name="PCB_SCREW_TERM_6" prefix="J">
 <gates>
-<gate name="G$1" symbol="6-PIN-HEADER" x="0" y="7.62"/>
+<gate name="G$1" symbol="6-PIN-HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TERM_BLOCK_HDR_6_PC">
+<device name="" package="SCREW_TERMINAL_PCB_CONN_6_POLE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
