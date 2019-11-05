@@ -19819,7 +19819,8 @@ CONN_05
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0.4064">
+<clearance class="0" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -19912,7 +19913,7 @@ CONN_05
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220 nF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1"/>
@@ -19921,6 +19922,7 @@ CONN_05
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3_D5" library="ethernet_poe" deviceset="+3V3_D" device=""/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -20299,11 +20301,15 @@ CONN_05
 <instance part="+3V3_D5" gate="G$1" x="241.3" y="129.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="243.84" y="132.08" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
+<instance part="C21" gate="G$1" x="73.66" y="175.26" smashed="yes">
+<attribute name="NAME" x="72.39" y="170.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="72.39" y="180.34" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="TX_P" class="0">
+<net name="TX_+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="TD+"/>
 <wire x1="314.96" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
@@ -20330,7 +20336,7 @@ CONN_05
 <junction x="269.24" y="220.98"/>
 </segment>
 </net>
-<net name="RD_P" class="0">
+<net name="RD_+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="RD+"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -20460,9 +20466,13 @@ CONN_05
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="ADJ/GND"/>
-<wire x1="60.96" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="172.72" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="172.72" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="170.18" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="170.18" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="170.18" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
+<junction x="68.58" y="170.18"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="12.7" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
@@ -20626,6 +20636,9 @@ CONN_05
 <wire x1="60.96" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="177.8" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="+3V3_D1" gate="G$1" pin="+3V3_D"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
+<junction x="68.58" y="177.8"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -21003,7 +21016,7 @@ CONN_05
 <label x="63.5" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RX_P" class="0">
+<net name="RX_+" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="210.82" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
