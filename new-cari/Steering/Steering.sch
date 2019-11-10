@@ -3,10 +3,10 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -7529,7 +7529,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/21" prefix="R" uservalue="yes" library_version="10">
+<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/22" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -7545,6 +7545,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="34" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7559,6 +7560,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="77" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7573,6 +7575,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="85" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7587,6 +7590,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7601,6 +7605,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7615,6 +7620,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7629,6 +7635,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7643,6 +7650,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7657,6 +7665,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7671,6 +7680,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7685,6 +7695,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7699,6 +7710,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7713,6 +7725,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7727,6 +7740,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7741,6 +7755,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7755,6 +7770,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7769,6 +7785,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7783,6 +7800,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7797,6 +7815,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7811,6 +7830,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7825,6 +7845,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7839,6 +7860,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7853,6 +7875,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="45" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7867,6 +7890,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7881,6 +7905,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7895,6 +7920,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7909,6 +7935,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7923,6 +7950,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7937,6 +7965,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7951,6 +7980,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7965,6 +7995,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7979,6 +8010,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="48" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -7993,6 +8025,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="36" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8007,6 +8040,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8021,6 +8055,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8035,6 +8070,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8049,6 +8085,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8063,6 +8100,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8077,6 +8115,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8091,6 +8130,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8105,6 +8145,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8119,6 +8160,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8133,6 +8175,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8147,6 +8190,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8161,6 +8205,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8175,6 +8220,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8189,6 +8235,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8203,6 +8250,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8217,6 +8265,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8231,6 +8280,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8245,6 +8295,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8259,6 +8310,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8273,6 +8325,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8287,6 +8340,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8301,6 +8355,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8315,6 +8370,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8329,6 +8385,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8343,6 +8400,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8357,6 +8415,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8371,6 +8430,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8385,6 +8445,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8399,6 +8460,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8413,6 +8475,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8427,6 +8490,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8441,6 +8505,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8455,6 +8520,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8469,6 +8535,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8483,6 +8550,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8497,6 +8565,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8511,6 +8580,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8525,6 +8595,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8539,6 +8610,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8553,6 +8625,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8567,6 +8640,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8581,6 +8655,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8595,6 +8670,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8609,6 +8685,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8623,6 +8700,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8637,6 +8715,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8651,6 +8730,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8665,6 +8745,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8679,6 +8760,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8693,6 +8775,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8707,6 +8790,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -8721,6 +8805,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -34666,6 +34751,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VCC_2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="VCC-ISO" urn="urn:adsk.eagle:symbol:39419/1" library_version="1">
+<description>&lt;h3&gt;VCC Isolated Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="1.524" y2="3.302" width="0.254" layer="94"/>
+<pin name="VCC-ISO" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="1.524" y="3.556" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC_2" urn="urn:adsk.eagle:component:39453/1" prefix="SUPPLY" library_version="1">
@@ -34673,6 +34766,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Secondary VCC voltage supply - Useful for a system with multiple VCC supplies.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCC_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC-ISO" urn="urn:adsk.eagle:component:39443/1" library_version="1">
+<description>&lt;h3&gt;Isolated power supply&lt;/h3&gt;
+&lt;p&gt;Generic symbol for an isolated power supply.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCC-ISO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -38863,6 +38970,120 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="-2.54" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-7.366" x2="5.08" y2="-7.366" width="0.127" layer="21"/>
 </package>
+<package name="SCREW_TERMINAL_PCB_CONN_8_POLE">
+<wire x1="-2.45" y1="2" x2="-2.45" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-2.45" y1="-8" x2="-1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="1" y1="-8" x2="2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-8" x2="6" y2="-8" width="0.1524" layer="21"/>
+<wire x1="6" y1="-8" x2="8" y2="-8" width="0.1524" layer="21"/>
+<wire x1="8" y1="-8" x2="9.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-8" x2="11.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="11.5" y1="-8" x2="13" y2="-8" width="0.1524" layer="21"/>
+<wire x1="13" y1="-8" x2="15" y2="-8" width="0.1524" layer="21"/>
+<wire x1="15" y1="-8" x2="16.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-8" x2="18.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="18.5" y1="-8" x2="20" y2="-8" width="0.1524" layer="21"/>
+<wire x1="20" y1="-8" x2="22" y2="-8" width="0.1524" layer="21"/>
+<wire x1="22" y1="-8" x2="23.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-8" x2="25.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="25.5" y1="-8" x2="26.95" y2="-8" width="0.1524" layer="21"/>
+<wire x1="26.95" y1="-8" x2="26.95" y2="2" width="0.1524" layer="21"/>
+<wire x1="26.95" y1="2" x2="-2.45" y2="2" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="3.5" y="0" drill="1.2"/>
+<pad name="3" x="7" y="0" drill="1.2"/>
+<pad name="4" x="10.5" y="0" drill="1.2"/>
+<pad name="5" x="14" y="0" drill="1.2"/>
+<pad name="6" x="17.5" y="0" drill="1.2"/>
+<pad name="7" x="21" y="0" drill="1.2"/>
+<pad name="8" x="24.5" y="0" drill="1.2"/>
+<wire x1="-1" y1="-4" x2="1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-4" x2="4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="6" y1="-4" x2="8" y2="-4" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-4" x2="11.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="13" y1="-4" x2="15" y2="-4" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-4" x2="18.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="20" y1="-4" x2="22" y2="-4" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-4" x2="25.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="1" y1="-4" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="8" y1="-4" x2="8" y2="-8" width="0.1524" layer="21"/>
+<wire x1="11.5" y1="-4" x2="11.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="15" y1="-4" x2="15" y2="-8" width="0.1524" layer="21"/>
+<wire x1="18.5" y1="-4" x2="18.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="22" y1="-4" x2="22" y2="-8" width="0.1524" layer="21"/>
+<wire x1="25.5" y1="-4" x2="25.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="-1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="6" y1="-8" x2="6" y2="-4" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-8" x2="9.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="13" y1="-8" x2="13" y2="-4" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-8" x2="16.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="20" y1="-8" x2="20" y2="-4" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-8" x2="23.5" y2="-4" width="0.1524" layer="21"/>
+<text x="-2" y="2.5" size="1.778" layer="21">&gt;NAME</text>
+<text x="17.304" y="2.446" size="1.778" layer="21">&gt;VALUE</text>
+</package>
+<package name="SCREW_TERMINAL_PCB_CONN_6_POLE">
+<pad name="1" x="-8.75" y="2" drill="1.2"/>
+<pad name="2" x="-5.25" y="2" drill="1.2"/>
+<pad name="3" x="-1.75" y="2" drill="1.2"/>
+<pad name="4" x="1.75" y="2" drill="1.2"/>
+<wire x1="-11.2" y1="3.2" x2="-11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-11.2" y1="-6" x2="-9.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-9.75" y1="-6" x2="-7.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-7.75" y1="-6" x2="11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="11.2" y1="3.2" x2="11.2" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-11.2" y1="3.2" x2="11.2" y2="3.2" width="0.1524" layer="21"/>
+<pad name="5" x="5.25" y="2" drill="1.2"/>
+<pad name="6" x="8.75" y="2" drill="1.2"/>
+<wire x1="-9.75" y1="-6" x2="-9.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-9.75" y1="-2" x2="-7.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-7.75" y1="-2" x2="-7.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-6" x2="-6.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="-2" x2="-4.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-4.25" y1="-2" x2="-4.25" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-6" x2="-2.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-2" x2="-0.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-0.75" y1="-2" x2="-0.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="4.25" y1="-6" x2="4.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="4.25" y1="-2" x2="6.25" y2="-2" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="-2" x2="6.25" y2="-6" width="0.1524" layer="21"/>
+<wire x1="0.75" y1="-6" x2="0.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="0.75" y1="-2" x2="2.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="-2" x2="2.75" y2="-6" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-6" x2="7.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="7.75" y1="-2" x2="9.75" y2="-2" width="0.1524" layer="21"/>
+<wire x1="9.75" y1="-2" x2="9.75" y2="-6" width="0.1524" layer="21"/>
+<text x="-11.25" y="3.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="4.5" y="3.5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="SCREW_TERMINAL_PCB_CONN_3_POLE">
+<wire x1="-5.95" y1="1.5" x2="-5.95" y2="-8" width="0.1524" layer="49"/>
+<wire x1="-5.95" y1="-8" x2="5.95" y2="-8" width="0.1524" layer="49"/>
+<wire x1="5.95" y1="-8" x2="5.95" y2="1.5" width="0.1524" layer="49"/>
+<wire x1="5.95" y1="1.5" x2="-5.95" y2="1.5" width="0.1524" layer="49"/>
+<pad name="1" x="-3.5" y="0" drill="1.2"/>
+<pad name="2" x="0" y="0" drill="1.2"/>
+<pad name="3" x="3.5" y="0" drill="1.2"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4" x2="-2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4" x2="-2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-4" x2="1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-4" x2="4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="1" y1="-4" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="-1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="2.5" y2="-4" width="0.1524" layer="21"/>
+<text x="-6" y="4" size="1.778" layer="21">&gt;NAME</text>
+<text x="-6" y="2" size="1.778" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="6-PIN_CONN">
@@ -38955,6 +39176,58 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="A1" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="SCREW_TERM_BLOCK8">
+<circle x="0" y="12" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="9" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="6" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="3" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-3" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-6" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-9" radius="1" width="0.254" layer="94"/>
+<wire x1="-3.46" y1="15" x2="3" y2="15" width="0.254" layer="94"/>
+<wire x1="3" y1="15" x2="3" y2="-12" width="0.254" layer="94"/>
+<wire x1="3" y1="-12" x2="-3.46" y2="-12" width="0.254" layer="94"/>
+<wire x1="-3.46" y1="-12" x2="-3.46" y2="15" width="0.254" layer="94"/>
+<pin name="1" x="-6" y="12" length="middle"/>
+<pin name="2" x="-6" y="9" length="middle"/>
+<pin name="3" x="-6" y="6" length="middle"/>
+<pin name="4" x="-6" y="3" length="middle"/>
+<pin name="5" x="-6" y="0" length="middle"/>
+<pin name="6" x="-6" y="-3" length="middle"/>
+<pin name="7" x="-6" y="-6" length="middle"/>
+<pin name="8" x="-6" y="-9" length="middle"/>
+<text x="-3.3" y="15.6" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.3" y="-13.8" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="6-PIN-HEADER">
+<pin name="2" x="-7.62" y="7.62" length="middle"/>
+<pin name="1" x="-7.62" y="12.7" length="middle"/>
+<pin name="3" x="-7.62" y="2.54" length="middle"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<text x="-2.54" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<pin name="4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="5" x="-7.62" y="-7.62" length="middle"/>
+<pin name="6" x="-7.62" y="-12.7" length="middle"/>
+</symbol>
+<symbol name="SCREW_TERM_BLOCK3">
+<circle x="0" y="-4" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="4" radius="1" width="0.254" layer="94"/>
+<wire x1="-3" y1="7" x2="3" y2="7" width="0.254" layer="94"/>
+<wire x1="3" y1="7" x2="3" y2="-7" width="0.254" layer="94"/>
+<wire x1="3" y1="-7" x2="-3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-3" y1="-7" x2="-3" y2="7" width="0.254" layer="94"/>
+<pin name="1" x="-6" y="4" length="middle"/>
+<pin name="2" x="-6" y="0" length="middle"/>
+<pin name="3" x="-6" y="-4" length="middle"/>
+<text x="-3.302" y="7.366" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-8.636" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -39060,6 +39333,67 @@ Vss should normally be connected to GND.</description>
 <technology name="">
 <attribute name="DKPT" value="CT3113CT-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_SCREW_TERM_8" prefix="J">
+<gates>
+<gate name="G$1" symbol="SCREW_TERM_BLOCK8" x="5.08" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SCREW_TERMINAL_PCB_CONN_8_POLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_SCREW_TERM_6" prefix="J">
+<gates>
+<gate name="G$1" symbol="6-PIN-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCREW_TERMINAL_PCB_CONN_6_POLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPT" value="277-2427-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_SCREW_TERM_3" prefix="J">
+<gates>
+<gate name="G$1" symbol="SCREW_TERM_BLOCK3" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCREW_TERMINAL_PCB_CONN_3_POLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -39189,6 +39523,13 @@ In this library you will find resistors. If you are looking for a common package
 <part name="U2" library="Steering" deviceset="CD4066BPWR" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
+<part name="J5" library="Steering" deviceset="PCB_SCREW_TERM_8" device=""/>
+<part name="J6" library="Steering" deviceset="PCB_SCREW_TERM_6" device=""/>
+<part name="J7" library="Steering" deviceset="PCB_SCREW_TERM_3" device=""/>
+<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U$1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC-ISO" device=""/>
+<part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 </parts>
 <sheets>
 <sheet>
@@ -39243,10 +39584,12 @@ Header Connections</text>
 <wire x1="14.478" y1="7.58" x2="113.538" y2="7.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="113.538" y1="7.58" x2="113.538" y2="147.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="113.538" y1="147.28" x2="14.478" y2="147.28" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="319.278" y1="213.32" x2="319.278" y2="180.3" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="319.278" y1="180.3" x2="370.078" y2="180.3" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="370.078" y1="180.3" x2="370.078" y2="213.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="319.278" y1="213.32" x2="319.278" y2="71.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="319.278" y1="71.08" x2="370.078" y2="71.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="370.078" y1="71.08" x2="370.078" y2="213.32" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="370.078" y1="213.32" x2="319.278" y2="213.32" width="0.1524" layer="97" style="shortdash"/>
+<text x="322.58" y="104.14" size="1.778" layer="91">Stepper Power</text>
+<text x="322.58" y="149.86" size="1.778" layer="91">Motor Feedback</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="299.72" y="241.3" smashed="yes">
@@ -39437,6 +39780,30 @@ Header Connections</text>
 <instance part="SUPPLY19" gate="G$1" x="88.9" y="60.96" smashed="yes">
 <attribute name="VALUE" x="88.9" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="J5" gate="G$1" x="353.06" y="182.88" smashed="yes">
+<attribute name="NAME" x="349.76" y="198.48" size="1.27" layer="95"/>
+<attribute name="VALUE" x="349.76" y="169.08" size="1.27" layer="95"/>
+</instance>
+<instance part="J6" gate="G$1" x="347.98" y="132.08" smashed="yes">
+<attribute name="NAME" x="345.44" y="149.86" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="345.44" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="G$1" x="347.98" y="86.36" smashed="yes">
+<attribute name="NAME" x="344.678" y="93.726" size="1.27" layer="95"/>
+<attribute name="VALUE" x="344.678" y="77.724" size="1.27" layer="96"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="335.28" y="78.74" smashed="yes">
+<attribute name="VALUE" x="333.375" y="75.565" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="335.28" y="96.52" smashed="yes">
+<attribute name="VALUE" x="336.804" y="100.076" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY21" gate="GND" x="334.01" y="111.76" smashed="yes">
+<attribute name="VALUE" x="332.105" y="108.585" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY23" gate="G$1" x="326.39" y="129.54" smashed="yes">
+<attribute name="VALUE" x="326.39" y="132.334" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39535,6 +39902,18 @@ Header Connections</text>
 <wire x1="187.96" y1="68.58" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="187.96" y1="78.74" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="341.98" y1="86.36" x2="335.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="86.36" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<wire x1="334.01" y1="119.38" x2="334.01" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="6"/>
+<wire x1="340.36" y1="119.38" x2="334.01" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST_MC" class="0">
@@ -39935,6 +40314,12 @@ Header Connections</text>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC_2"/>
 <wire x1="180.34" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY23" gate="G$1" pin="VCC_2"/>
+<wire x1="326.39" y1="129.54" x2="326.39" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="124.46" x2="326.39" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ENCODER_SELECT" class="0">
 <segment>
@@ -40095,6 +40480,38 @@ Header Connections</text>
 <pinref part="U2" gate="G$1" pin="B_O/I"/>
 <wire x1="50.8" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VCC-ISO" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="341.98" y1="90.36" x2="335.28" y2="90.36" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="90.36" x2="335.28" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC-ISO"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="134.62" x2="337.82" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="139.7" x2="337.82" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="144.78" x2="337.82" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
