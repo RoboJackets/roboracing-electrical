@@ -11011,13 +11011,6 @@ diameter 7 mm, grid 2.54 mm</description>
 <packageinstance name="TT2D7L"/>
 </packageinstances>
 </package3d>
-<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/1" type="box" library_version="5">
-<description>ELECTROLYTIC CAPACITOR
-diameter 7 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D7"/>
-</packageinstances>
-</package3d>
 <package3d name="TT5D10" urn="urn:adsk.eagle:package:23302/1" type="box" library_version="7">
 <description>ELECTROLYTIC CAPACITOR
 diameter 10 mm, grid 5.08 mm</description>
@@ -11385,13 +11378,6 @@ grid 45.72 mm, diameter 25 mm</description>
 <packageinstance name="E45-25"/>
 </packageinstances>
 </package3d>
-<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/1" type="box" library_version="5">
-<description>ELECTROLYTIC CAPACITOR
-grid 5.08 mm, diameter 10.5 mm</description>
-<packageinstances>
-<packageinstance name="E5-10,5"/>
-</packageinstances>
-</package3d>
 <package3d name="E5-13" urn="urn:adsk.eagle:package:23375/1" type="box" library_version="7">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 13 mm</description>
@@ -11404,13 +11390,6 @@ grid 5.08 mm, diameter 13 mm</description>
 grid 5.05 mm, diameter 4 mm</description>
 <packageinstances>
 <packageinstance name="E5-4"/>
-</packageinstances>
-</package3d>
-<package3d name="E5-5" urn="urn:adsk.eagle:package:23367/1" type="box" library_version="5">
-<description>ELECTROLYTIC CAPACITOR
-grid 5.08 mm, diameter 5 mm</description>
-<packageinstances>
-<packageinstance name="E5-5"/>
 </packageinstances>
 </package3d>
 <package3d name="E5-6" urn="urn:adsk.eagle:package:23368/1" type="box" library_version="7">
@@ -11527,180 +11506,12 @@ http://www.bccomponents.com/</description>
 <packageinstance name="085CS_1W"/>
 </packageinstances>
 </package3d>
-<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Standard 085 CS
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1AR"/>
-</packageinstances>
-</package3d>
 <package3d name="085CS_1AW" urn="urn:adsk.eagle:package:23385/1" type="box" library_version="7">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
 <packageinstances>
 <packageinstance name="085CS_1AW"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2W"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3W"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0405"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0505"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0605"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0807"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1012"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0808"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/1" type="box" library_version="5">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0810"/>
 </packageinstances>
 </package3d>
 <package3d name="A/3216-18R" urn="urn:adsk.eagle:package:23410/2" type="model" library_version="7">
@@ -11729,32 +11540,6 @@ KEMET T / EIA 3528-12</description>
 <packageinstance name="B/3528-21W"/>
 </packageinstances>
 </package3d>
-<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28R"/>
-</packageinstances>
-</package3d>
-<package3d name="C/6032-28W" urn="urn:adsk.eagle:package:23420/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
-KEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28W"/>
-</packageinstances>
-</package3d>
-<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:23417/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31R"/>
-</packageinstances>
-</package3d>
-<package3d name="D/7343-31W" urn="urn:adsk.eagle:package:23414/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET D / EIA 7343-21
-KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31W"/>
-</packageinstances>
-</package3d>
 <package3d name="E/7260-38R" urn="urn:adsk.eagle:package:23416/1" type="box" library_version="7">
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder</description>
 <packageinstances>
@@ -11765,18 +11550,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder</description>
 <packageinstances>
 <packageinstance name="E/7260-38W"/>
-</packageinstances>
-</package3d>
-<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12R"/>
-</packageinstances>
-</package3d>
-<package3d name="R/2012-12W" urn="urn:adsk.eagle:package:23419/1" type="box" library_version="5">
-<description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12W"/>
 </packageinstances>
 </package3d>
 <package3d name="PANASONIC_A" urn="urn:adsk.eagle:package:23418/2" type="model" library_version="7">
@@ -11833,62 +11606,6 @@ diameter 5 mm, grid 2.54 mm</description>
 grid 2.54 mm, diameter 6 mm</description>
 <packageinstances>
 <packageinstance name="E2,5-6E"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_A"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/1" type="box" library_version="5">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_Z"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/1" type="box" library_version="5">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_P"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_B"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_C"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_D"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/1" type="box" library_version="5">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_E"/>
 </packageinstances>
 </package3d>
 <package3d name="SANYO-OSCON_9E" urn="urn:adsk.eagle:package:23439/1" type="box" library_version="7">
@@ -12148,6 +11865,289 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <packageinstances>
 <packageinstance name="UD-8X10_NICHICON"/>
+</packageinstances>
+</package3d>
+<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/2" type="model" library_version="10">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D7"/>
+</packageinstances>
+</package3d>
+<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/2" type="model" library_version="10">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 10.5 mm</description>
+<packageinstances>
+<packageinstance name="E5-10,5"/>
+</packageinstances>
+</package3d>
+<package3d name="E5-5" urn="urn:adsk.eagle:package:23367/2" type="model" library_version="10">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 5 mm</description>
+<packageinstances>
+<packageinstance name="E5-5"/>
+</packageinstances>
+</package3d>
+<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/3" type="box" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="085CS_1AR"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/3" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2W"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3W"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0405"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0505"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0605"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0807"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1012"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0808"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/3" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
+<packageinstances>
+<packageinstance name="C/6032-28R"/>
+</packageinstances>
+</package3d>
+<package3d name="C/6032-28W" urn="urn:adsk.eagle:package:23420/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
+KEMET U / EIA 6032-15</description>
+<packageinstances>
+<packageinstance name="C/6032-28W"/>
+</packageinstances>
+</package3d>
+<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:23417/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
+<packageinstances>
+<packageinstance name="D/7343-31R"/>
+</packageinstances>
+</package3d>
+<package3d name="D/7343-31W" urn="urn:adsk.eagle:package:23414/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
+<packageinstances>
+<packageinstance name="D/7343-31W"/>
+</packageinstances>
+</package3d>
+<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
+<packageinstances>
+<packageinstance name="R/2012-12R"/>
+</packageinstances>
+</package3d>
+<package3d name="R/2012-12W" urn="urn:adsk.eagle:package:23419/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
+<packageinstances>
+<packageinstance name="R/2012-12W"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/3" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_A"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/3" type="model" library_version="10">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_Z"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/2" type="model" library_version="10">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_P"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/5" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_B"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_C"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_D"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_E"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -14501,7 +14501,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="CPOL-US" urn="urn:adsk.eagle:component:23788/24" prefix="C" uservalue="yes" library_version="5">
+<deviceset name="CPOL-US" urn="urn:adsk.eagle:component:23788/28" prefix="C" uservalue="yes" library_version="10">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL-US" x="0" y="0"/>
@@ -14709,7 +14709,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23319/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23319/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15465,7 +15465,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23372/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23372/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15507,7 +15507,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23367/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23367/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15745,7 +15745,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23396/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23396/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15773,7 +15773,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23387/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23387/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15787,7 +15787,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23386/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23386/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15801,7 +15801,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23388/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23388/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15815,7 +15815,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23390/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23390/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15829,7 +15829,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23392/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23392/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15843,7 +15843,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23391/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23391/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15857,7 +15857,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23393/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23393/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15871,7 +15871,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23394/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23394/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15885,7 +15885,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23403/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23403/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15899,7 +15899,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23405/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23405/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15913,7 +15913,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23397/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23397/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15927,7 +15927,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23402/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23402/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15941,7 +15941,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23398/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23398/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15955,7 +15955,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23400/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23400/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15969,7 +15969,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23401/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23401/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15983,7 +15983,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23413/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23413/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -15997,7 +15997,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23404/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23404/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16011,7 +16011,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23406/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23406/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16025,7 +16025,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23412/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23412/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16039,7 +16039,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23407/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23407/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16109,7 +16109,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23415/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23415/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16123,7 +16123,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23420/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23420/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16137,7 +16137,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23417/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23417/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16151,7 +16151,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23414/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23414/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16193,7 +16193,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23426/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23426/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16207,7 +16207,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23419/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23419/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16347,7 +16347,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25926/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25926/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16361,7 +16361,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25927/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25927/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16375,7 +16375,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25919/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25919/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16389,7 +16389,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25920/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25920/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16403,7 +16403,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25921/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25921/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16417,7 +16417,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25923/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25923/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16431,7 +16431,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25922/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25922/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16958,6 +16958,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
