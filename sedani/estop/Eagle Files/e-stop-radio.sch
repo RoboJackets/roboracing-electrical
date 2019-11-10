@@ -22898,9 +22898,9 @@ Mini USB Connector
 <sheet>
 <plain>
 <wire x1="16.51" y1="111.72" x2="16.51" y2="15.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="16.51" y1="15.2" x2="162.56" y2="15.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="15.2" x2="162.56" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="111.72" x2="16.51" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="16.51" y1="15.2" x2="149.86" y2="15.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="149.86" y1="15.2" x2="149.86" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="149.86" y1="111.72" x2="16.51" y2="111.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="17.018" y1="149.82" x2="17.018" y2="114.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="17.018" y1="114.26" x2="66.04" y2="114.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="114.26" x2="66.04" y2="149.82" width="0.1524" layer="97" style="shortdash"/>
@@ -23289,8 +23289,8 @@ in Sedani and EVGP.</text>
 <net name="SS_5V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="119.38" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="147.32" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="119.38" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<label x="124.46" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -23697,9 +23697,9 @@ Port 2: B -&gt; A (5V -&gt; 3.3V)
 DIR/OE are 3.3V (p19 of datasheet)
 Check enable constantly pulled low</text>
 <text x="157.48" y="93.98" size="1.778" layer="97">Keeps SS high
-when using POGO
-programmer and
-PB0(SS) tri-stated</text>
+when level shifter
+disabled and
+SS_3V tri-stated</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="210.82" y="91.44" smashed="yes">
