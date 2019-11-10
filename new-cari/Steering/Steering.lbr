@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -330,6 +330,86 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="-11.25" y="3.5" size="1.27" layer="21">&gt;NAME</text>
 <text x="4.5" y="3.5" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="SCREW_TERMINAL_PCB_CONN_3_POLE">
+<wire x1="-5.95" y1="1.5" x2="-5.95" y2="-8" width="0.1524" layer="49"/>
+<wire x1="-5.95" y1="-8" x2="5.95" y2="-8" width="0.1524" layer="49"/>
+<wire x1="5.95" y1="-8" x2="5.95" y2="1.5" width="0.1524" layer="49"/>
+<wire x1="5.95" y1="1.5" x2="-5.95" y2="1.5" width="0.1524" layer="49"/>
+<pad name="1" x="-3.5" y="0" drill="1.2"/>
+<pad name="2" x="0" y="0" drill="1.2"/>
+<pad name="3" x="3.5" y="0" drill="1.2"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4" x2="-2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4" x2="-2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-4" x2="1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-4" x2="4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="1" y1="-4" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-8" x2="-4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="-1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="2.5" y2="-4" width="0.1524" layer="21"/>
+<text x="-6" y="4" size="1.778" layer="21">&gt;NAME</text>
+<text x="-6" y="2" size="1.778" layer="21">&gt;VALUE</text>
+</package>
+<package name="SCREW_TERMINAL_PCB_CONN_8_POLE">
+<wire x1="-2.45" y1="2" x2="-2.45" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-2.45" y1="-8" x2="-1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="1" y1="-8" x2="2.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-8" x2="6" y2="-8" width="0.1524" layer="21"/>
+<wire x1="6" y1="-8" x2="8" y2="-8" width="0.1524" layer="21"/>
+<wire x1="8" y1="-8" x2="9.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-8" x2="11.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="11.5" y1="-8" x2="13" y2="-8" width="0.1524" layer="21"/>
+<wire x1="13" y1="-8" x2="15" y2="-8" width="0.1524" layer="21"/>
+<wire x1="15" y1="-8" x2="16.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-8" x2="18.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="18.5" y1="-8" x2="20" y2="-8" width="0.1524" layer="21"/>
+<wire x1="20" y1="-8" x2="22" y2="-8" width="0.1524" layer="21"/>
+<wire x1="22" y1="-8" x2="23.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-8" x2="25.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="25.5" y1="-8" x2="26.95" y2="-8" width="0.1524" layer="21"/>
+<wire x1="26.95" y1="-8" x2="26.95" y2="2" width="0.1524" layer="21"/>
+<wire x1="26.95" y1="2" x2="-2.45" y2="2" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="3.5" y="0" drill="1.2"/>
+<pad name="3" x="7" y="0" drill="1.2"/>
+<pad name="4" x="10.5" y="0" drill="1.2"/>
+<pad name="5" x="14" y="0" drill="1.2"/>
+<pad name="6" x="17.5" y="0" drill="1.2"/>
+<pad name="7" x="21" y="0" drill="1.2"/>
+<pad name="8" x="24.5" y="0" drill="1.2"/>
+<wire x1="-1" y1="-4" x2="1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-4" x2="4.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="6" y1="-4" x2="8" y2="-4" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-4" x2="11.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="13" y1="-4" x2="15" y2="-4" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-4" x2="18.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="20" y1="-4" x2="22" y2="-4" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-4" x2="25.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="1" y1="-4" x2="1" y2="-8" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4" x2="4.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="8" y1="-4" x2="8" y2="-8" width="0.1524" layer="21"/>
+<wire x1="11.5" y1="-4" x2="11.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="15" y1="-4" x2="15" y2="-8" width="0.1524" layer="21"/>
+<wire x1="18.5" y1="-4" x2="18.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="22" y1="-4" x2="22" y2="-8" width="0.1524" layer="21"/>
+<wire x1="25.5" y1="-4" x2="25.5" y2="-8" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-8" x2="-1" y2="-4" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-8" x2="2.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="6" y1="-8" x2="6" y2="-4" width="0.1524" layer="21"/>
+<wire x1="9.5" y1="-8" x2="9.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="13" y1="-8" x2="13" y2="-4" width="0.1524" layer="21"/>
+<wire x1="16.5" y1="-8" x2="16.5" y2="-4" width="0.1524" layer="21"/>
+<wire x1="20" y1="-8" x2="20" y2="-4" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="-8" x2="23.5" y2="-4" width="0.1524" layer="21"/>
+<text x="-2" y="2.5" size="1.778" layer="21">&gt;NAME</text>
+<text x="17.304" y="2.446" size="1.778" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="6-PIN_CONN">
@@ -448,6 +528,44 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="4" x="-7.62" y="-2.54" length="middle"/>
 <pin name="5" x="-7.62" y="-7.62" length="middle"/>
 <pin name="6" x="-7.62" y="-12.7" length="middle"/>
+</symbol>
+<symbol name="SCREW_TERM_BLOCK3">
+<circle x="0" y="-4" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="4" radius="1" width="0.254" layer="94"/>
+<wire x1="-3" y1="7" x2="3" y2="7" width="0.254" layer="94"/>
+<wire x1="3" y1="7" x2="3" y2="-7" width="0.254" layer="94"/>
+<wire x1="3" y1="-7" x2="-3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-3" y1="-7" x2="-3" y2="7" width="0.254" layer="94"/>
+<pin name="1" x="-6" y="4" length="middle"/>
+<pin name="2" x="-6" y="0" length="middle"/>
+<pin name="3" x="-6" y="-4" length="middle"/>
+<text x="-3.302" y="7.366" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-8.636" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SCREW_TERM_BLOCK8">
+<circle x="0" y="12" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="9" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="6" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="3" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-3" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-6" radius="1" width="0.254" layer="94"/>
+<circle x="0" y="-9" radius="1" width="0.254" layer="94"/>
+<wire x1="-3.46" y1="15" x2="3" y2="15" width="0.254" layer="94"/>
+<wire x1="3" y1="15" x2="3" y2="-12" width="0.254" layer="94"/>
+<wire x1="3" y1="-12" x2="-3.46" y2="-12" width="0.254" layer="94"/>
+<wire x1="-3.46" y1="-12" x2="-3.46" y2="15" width="0.254" layer="94"/>
+<pin name="1" x="-6" y="12" length="middle"/>
+<pin name="2" x="-6" y="9" length="middle"/>
+<pin name="3" x="-6" y="6" length="middle"/>
+<pin name="4" x="-6" y="3" length="middle"/>
+<pin name="5" x="-6" y="0" length="middle"/>
+<pin name="6" x="-6" y="-3" length="middle"/>
+<pin name="7" x="-6" y="-6" length="middle"/>
+<pin name="8" x="-6" y="-9" length="middle"/>
+<text x="-3.3" y="15.6" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.3" y="-13.8" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -596,6 +714,45 @@ Vss should normally be connected to GND.</description>
 <technology name="">
 <attribute name="DKPT" value="277-2427-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_SCREW_TERM_3" prefix="J">
+<gates>
+<gate name="G$1" symbol="SCREW_TERM_BLOCK3" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCREW_TERMINAL_PCB_CONN_3_POLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_SCREW_TERM_8" prefix="J">
+<gates>
+<gate name="G$1" symbol="SCREW_TERM_BLOCK8" x="5.08" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SCREW_TERMINAL_PCB_CONN_8_POLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
