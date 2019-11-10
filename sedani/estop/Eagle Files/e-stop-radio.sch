@@ -22851,8 +22851,6 @@ Mini USB Connector
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.2A"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
@@ -22893,6 +22891,8 @@ Mini USB Connector
 <attribute name="SCH_DESC" value="e-stop radio board"/>
 <attribute name="TEAM" value="RoboRacing"/>
 </part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
+<part name="SUPPLY7" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22940,9 +22940,6 @@ on the modules that go
 in Sedani and EVGP.</text>
 <text x="33.02" y="101.6" size="5.08" layer="97" font="vector">Microcontroller</text>
 <text x="75.438" y="146.01" size="5.08" layer="97" font="vector">USB Header</text>
-<text x="134.62" y="66.04" size="1.778" layer="97">Keeps SS high when
-using POGO programmer
-and PB0(SS) tri-stated</text>
 <wire x1="71.12" y1="152.4" x2="71.12" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="71.12" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="124.46" y1="114.3" x2="124.46" y2="152.4" width="0.1524" layer="97" style="shortdash"/>
@@ -23110,13 +23107,6 @@ and PB0(SS) tri-stated</text>
 <instance part="J3" gate="G$1" x="83.82" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="86.36" y="142.24" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="73.66" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="144.78" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="143.2814" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="148.082" y="46.99" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY7" gate="G$1" x="144.78" y="58.42" smashed="yes">
-<attribute name="VALUE" x="144.78" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="30.48" y="71.12" smashed="yes">
 <attribute name="NAME" x="31.496" y="71.755" size="1.778" layer="95"/>
@@ -23299,11 +23289,8 @@ and PB0(SS) tri-stated</text>
 <net name="SS_5V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="119.38" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <label x="147.32" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<junction x="144.78" y="45.72"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -23358,11 +23345,6 @@ and PB0(SS) tri-stated</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<wire x1="144.78" y1="55.88" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MCU_RST" class="0">
@@ -23688,11 +23670,11 @@ and PB0(SS) tri-stated</text>
 <text x="185.42" y="58.42" size="1.016" layer="97" font="vector">RFM69HCW part from
 github.com/adafruit/Adafruit-RFM-LoRa-Radio-Breakout-PCB</text>
 <text x="198.12" y="114.3" size="1.778" layer="97">130mA max power consumption</text>
-<wire x1="167.64" y1="119.38" x2="167.64" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="167.64" y1="55.88" x2="261.62" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="261.62" y1="55.88" x2="261.62" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="261.62" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
-<text x="170.18" y="104.14" size="5.08" layer="97" font="vector">Radio
+<wire x1="154.94" y1="121.92" x2="154.94" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="154.94" y1="55.88" x2="261.62" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="261.62" y1="55.88" x2="261.62" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="261.62" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
+<text x="157.48" y="106.68" size="5.08" layer="97" font="vector">Radio
 Module</text>
 <text x="190.5" y="66.04" size="1.27" layer="97" font="vector">Can forget about impedance matching if 
 the antenna trace is shorter than 20mm</text>
@@ -23714,6 +23696,10 @@ Port 1: A -&gt; B (3.3V -&gt; 5V)
 Port 2: B -&gt; A (5V -&gt; 3.3V)
 DIR/OE are 3.3V (p19 of datasheet)
 Check enable constantly pulled low</text>
+<text x="157.48" y="93.98" size="1.778" layer="97">Keeps SS high
+when using POGO
+programmer and
+PB0(SS) tri-stated</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="210.82" y="91.44" smashed="yes">
@@ -23874,6 +23860,13 @@ Check enable constantly pulled low</text>
 <attribute name="TEAM" x="173.99" y="34.29" size="3.048" layer="94" ratio="10" align="top-left"/>
 <attribute name="REVISION" x="245.11" y="6.35" size="2.54" layer="94"/>
 <attribute name="SCH_DESC" x="173.99" y="6.35" size="2.54" layer="94"/>
+</instance>
+<instance part="R6" gate="G$1" x="182.88" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.3814" y="90.17" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.182" y="90.17" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY7" gate="P" x="182.88" y="104.14" smashed="yes">
+<attribute name="VALUE" x="180.975" y="107.315" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24082,6 +24075,11 @@ Check enable constantly pulled low</text>
 <pinref part="SUPPLY33" gate="P" pin="+3.3V"/>
 <pinref part="U6" gate="A" pin="1DIR"/>
 </segment>
+<segment>
+<pinref part="SUPPLY7" gate="P" pin="+3.3V"/>
+<wire x1="182.88" y1="99.06" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="DATA_AVAILABLE_3V" class="0">
 <segment>
@@ -24134,8 +24132,11 @@ Check enable constantly pulled low</text>
 <net name="SS_3V" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="NSS"/>
-<wire x1="198.12" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="195.58" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="177.8" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<junction x="182.88" y="88.9"/>
 </segment>
 <segment>
 <wire x1="55.88" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
