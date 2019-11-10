@@ -23974,10 +23974,6 @@ Check enable constantly pulled low</text>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="50.8" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="GND_6"/>
-<pinref part="U6" gate="A" pin="!2OE"/>
-<wire x1="55.88" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="119.38" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<junction x="50.8" y="111.76"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="GND_2"/>
@@ -24265,6 +24261,11 @@ Check enable constantly pulled low</text>
 <wire x1="55.88" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="53.34" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="!1OE"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="53.34" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U6" gate="A" pin="!2OE"/>
 </segment>
 </net>
 <net name="RADIO_RST_5V" class="0">
