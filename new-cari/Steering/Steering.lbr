@@ -410,6 +410,20 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="-2" y="2.5" size="1.778" layer="21">&gt;NAME</text>
 <text x="17.304" y="2.446" size="1.778" layer="21">&gt;VALUE</text>
 </package>
+<package name="KINGBRIGHT_LED">
+<smd name="P$1" x="0" y="-3" dx="1.5" dy="2.2" layer="1"/>
+<smd name="P$2" x="2.1" y="-3" dx="1.5" dy="2.2" layer="1"/>
+<text x="-2" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-6" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="0.5" y1="-1" x2="1.5" y2="-0.5" width="0.127" layer="25"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="-1" width="0.127" layer="25"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="-1.5" width="0.127" layer="25"/>
+<wire x1="1.5" y1="-1.5" x2="0.5" y2="-1" width="0.127" layer="25"/>
+<wire x1="0.5" y1="-1" x2="0.5" y2="-0.5" width="0.127" layer="25"/>
+<wire x1="0.5" y1="-1" x2="0.5" y2="-1.5" width="0.127" layer="25"/>
+<wire x1="0.5" y1="-1" x2="0" y2="-1" width="0.127" layer="25"/>
+<wire x1="1.5" y1="-1" x2="2" y2="-1" width="0.127" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="6-PIN_CONN">
@@ -567,6 +581,58 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="-3.3" y="15.6" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.3" y="-13.8" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="3-PIN-HEADER">
+<pin name="2" x="-7.62" y="0" length="middle"/>
+<pin name="1" x="-7.62" y="5.08" length="middle"/>
+<pin name="3" x="-7.62" y="-5.08" length="middle"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="8-PIN-HEADER">
+<pin name="2" x="-7.62" y="12.7" length="middle"/>
+<pin name="1" x="-7.62" y="17.78" length="middle"/>
+<pin name="3" x="-7.62" y="7.62" length="middle"/>
+<wire x1="-2.54" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<text x="-2.54" y="22.86" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-2.54" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<pin name="4" x="-7.62" y="2.54" length="middle"/>
+<pin name="5" x="-7.62" y="-2.54" length="middle"/>
+<pin name="6" x="-7.62" y="-7.62" length="middle"/>
+<pin name="7" x="-7.62" y="-12.7" length="middle"/>
+<pin name="8" x="-7.62" y="-17.78" length="middle"/>
+</symbol>
+<symbol name="LED">
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="B" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="0.381"/>
+<vertex x="-3.048" y="1.27"/>
+<vertex x="-2.54" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-0.762"/>
+<vertex x="-2.921" y="0.127"/>
+<vertex x="-2.413" y="-0.381"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOLEX_5025850670" prefix="J">
@@ -712,7 +778,7 @@ Vss should normally be connected to GND.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPT" value="277-2427-ND"/>
+<attribute name="DKPT" value="732-2773-ND"/>
 </technology>
 </technologies>
 </device>
@@ -720,7 +786,7 @@ Vss should normally be connected to GND.</description>
 </deviceset>
 <deviceset name="PCB_SCREW_TERM_3" prefix="J">
 <gates>
-<gate name="G$1" symbol="SCREW_TERM_BLOCK3" x="-2.54" y="0"/>
+<gate name="G$1" symbol="3-PIN-HEADER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SCREW_TERMINAL_PCB_CONN_3_POLE">
@@ -730,14 +796,16 @@ Vss should normally be connected to GND.</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPT" value="732-2770-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="PCB_SCREW_TERM_8" prefix="J">
 <gates>
-<gate name="G$1" symbol="SCREW_TERM_BLOCK8" x="5.08" y="7.62"/>
+<gate name="G$1" symbol="8-PIN-HEADER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SCREW_TERMINAL_PCB_CONN_8_POLE">
@@ -750,6 +818,25 @@ Vss should normally be connected to GND.</description>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPT" value="732-2774-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_AA3528VRVCS/A" prefix="D">
+<description>Pink Kingsbright LED</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KINGBRIGHT_LED">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="B" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
