@@ -14306,6 +14306,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
 <part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -14539,9 +14540,9 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="SUPPLY1" gate="1" x="-11.684" y="35.56">
 <attribute name="VALUE" x="-14.224" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="20.828" y="-78.486">
-<attribute name="NAME" x="37.338" y="-70.866" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="37.338" y="-73.406" size="1.778" layer="96" align="center-left"/>
+<instance part="J7" gate="G$1" x="20.628" y="-78.186">
+<attribute name="NAME" x="37.138" y="-70.566" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="37.138" y="-73.106" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="69.85" y="35.306" rot="R270">
 <attribute name="NAME" x="71.3486" y="39.116" size="1.778" layer="95" rot="R270"/>
@@ -14553,6 +14554,10 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </instance>
 <instance part="P+9" gate="1" x="69.85" y="14.986" rot="R180">
 <attribute name="VALUE" x="72.39" y="20.066" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R2" gate="G$1" x="15.748" y="-67.564" rot="R270">
+<attribute name="NAME" x="17.2466" y="-63.754" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="12.446" y="-63.754" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -15096,19 +15101,21 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="20.828" y1="-78.486" x2="14" y2="-78.486" width="0.1524" layer="91"/>
-<wire x1="14" y1="-77" x2="14" y2="-78.4" width="0.1524" layer="91"/>
-<junction x="14" y="-78.4"/>
-<wire x1="14" y1="-78.4" x2="14" y2="-78.486" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DIR_IN" class="0">
 <segment>
-<wire x1="14" y1="-78.5" x2="12" y2="-78.5" width="0.1524" layer="91"/>
-<label x="12" y="-78.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="20.628" y1="-78.186" x2="5.7" y2="-78.186" width="0.1524" layer="91"/>
+<wire x1="5.7" y1="-78.186" x2="5.7" y2="-78.1" width="0.1524" layer="91"/>
+<label x="5.7" y="-78.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<wire x1="15.748" y1="-78.2" x2="15.7" y2="-78.2" width="0.1524" layer="91"/>
+<junction x="15.7" y="-78.2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="15.7" y1="-78.2" x2="15.7" y2="-72.644" width="0.1524" layer="91"/>
+<wire x1="15.7" y1="-72.644" x2="15.748" y2="-72.644" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
