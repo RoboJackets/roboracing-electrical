@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14306,7 +14306,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
 <part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="5k"/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14515,7 +14516,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="VALUE" x="108.458" y="-54.102" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND19" gate="1" x="130.048" y="-77.724">
-<attribute name="VALUE" x="130.048" y="-77.978" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="129.948" y="-77.878" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D5" gate="G$1" x="114.808" y="-52.324" rot="R180">
 <attribute name="NAME" x="112.268" y="-52.8066" size="1.778" layer="95" rot="R180"/>
@@ -14555,9 +14556,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="P+9" gate="1" x="69.85" y="14.986" rot="R180">
 <attribute name="VALUE" x="72.39" y="20.066" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="15.748" y="-67.564" rot="R270">
-<attribute name="NAME" x="17.2466" y="-63.754" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="12.446" y="-63.754" size="1.778" layer="96" rot="R270"/>
+<instance part="R2" gate="G$1" x="15.748" y="-67.664" rot="R270">
+<attribute name="NAME" x="17.2466" y="-63.854" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="12.446" y="-63.854" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND8" gate="1" x="20.648" y="-85.624">
+<attribute name="VALUE" x="21.148" y="-86.078" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -14693,6 +14697,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="-4.064" y1="45.72" x2="-4.064" y2="41.148" width="0.1524" layer="91"/>
 <wire x1="-4.064" y1="41.148" x2="-11.684" y2="41.148" width="0.1524" layer="91"/>
 <junction x="-11.684" y="41.148"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="20.628" y1="-80.726" x2="20.628" y2="-83.084" width="0.1524" layer="91"/>
+<wire x1="20.628" y1="-83.084" x2="20.648" y2="-83.084" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14835,6 +14845,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="U1" gate="A" pin="!SHDN"/>
 <wire x1="-147.32" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
 <label x="-144.78" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="15.748" y1="-62.584" x2="15.748" y2="-61.05" width="0.1524" layer="91"/>
+<wire x1="15.748" y1="-61.05" x2="15.75" y2="-61.05" width="0.1524" layer="91"/>
+<label x="15.8" y="-61.15" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -15115,7 +15131,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <junction x="15.7" y="-78.2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="15.7" y1="-78.2" x2="15.7" y2="-72.644" width="0.1524" layer="91"/>
-<wire x1="15.7" y1="-72.644" x2="15.748" y2="-72.644" width="0.1524" layer="91"/>
+<wire x1="15.7" y1="-72.644" x2="15.748" y2="-72.744" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
