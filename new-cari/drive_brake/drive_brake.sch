@@ -12395,12 +12395,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -12420,19 +12414,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -14269,8 +14250,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="1uF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF"/>
 <part name="D4" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD123"/>
 <part name="D3" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD123"/>
@@ -14305,9 +14286,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="J7" library="drive_brake" deviceset="S2B-XH-A_(LF)(SN)" device=""/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
 <part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="5k"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="J8" library="drive_brake" deviceset="S2B-XH-A_(LF)(SN)" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14349,7 +14331,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="67.31" y1="-109.22" x2="-27.94" y2="-109.22" width="0.1524" layer="97" style="longdash"/>
 <wire x1="-27.94" y1="-109.22" x2="-27.94" y2="-52.07" width="0.1524" layer="97" style="longdash"/>
 <text x="-25.4" y="-57.15" size="1.778" layer="97">MANUAL FWD/REV SWITCH</text>
-<text x="-43.18" y="12.7" size="1.778" layer="97">check pin 18 and 19 vcc </text>
 <wire x1="83.82" y1="0.508" x2="83.82" y2="-32.512" width="0.1524" layer="97" style="longdash"/>
 <wire x1="83.82" y1="-32.512" x2="165.1" y2="-32.512" width="0.1524" layer="97" style="longdash"/>
 <wire x1="165.1" y1="-32.512" x2="165.1" y2="0.508" width="0.1524" layer="97" style="longdash"/>
@@ -14360,6 +14341,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="84.328" y1="-82.804" x2="152.908" y2="-82.804" width="0.1524" layer="97" style="longdash"/>
 <wire x1="152.908" y1="-82.804" x2="152.908" y2="-39.624" width="0.1524" layer="97" style="longdash"/>
 <wire x1="152.908" y1="-39.624" x2="84.328" y2="-39.624" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-41.6" y1="5.8" x2="-41.6" y2="-46.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-41.6" y1="-46.6" x2="70.4" y2="-46.6" width="0.1524" layer="97" style="longdash"/>
+<wire x1="70.4" y1="-46.6" x2="70.4" y2="5.7" width="0.1524" layer="97" style="longdash"/>
+<wire x1="70.4" y1="5.7" x2="-41.5" y2="5.7" width="0.1524" layer="97" style="longdash"/>
+<text x="-39.9" y="2.5" size="1.778" layer="97">Motor Controller Input 0-5V</text>
+<text x="-106.5" y="24.5" size="1.778" layer="97">Changed C9 and C10 from 0201 to 0603</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="34.29" y="60.96">
@@ -14553,15 +14540,19 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="NAME" x="66.294" y="27.178" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="64.135" y="27.178" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+9" gate="1" x="69.85" y="14.986" rot="R180">
-<attribute name="VALUE" x="72.39" y="20.066" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="R2" gate="G$1" x="15.748" y="-67.664" rot="R270">
 <attribute name="NAME" x="17.2466" y="-63.854" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="12.446" y="-63.854" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND8" gate="1" x="20.648" y="-85.624">
 <attribute name="VALUE" x="21.148" y="-86.078" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="J8" gate="G$1" x="9.42" y="-10.29">
+<attribute name="NAME" x="25.93" y="-2.67" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="25.93" y="-5.21" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND9" gate="1" x="6.88" y="-17.91">
+<attribute name="VALUE" x="4.34" y="-20.45" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14704,6 +14695,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="20.628" y1="-80.726" x2="20.628" y2="-83.084" width="0.1524" layer="91"/>
 <wire x1="20.628" y1="-83.084" x2="20.648" y2="-83.084" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="9.42" y1="-12.83" x2="6.88" y2="-12.83" width="0.1524" layer="91"/>
+<wire x1="6.88" y1="-12.83" x2="6.88" y2="-15.37" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14748,21 +14745,21 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB0(SS)"/>
 <wire x1="59.69" y1="53.34" x2="62.23" y2="53.34" width="0.1524" layer="91"/>
-<label x="62.484" y="53.34" size="0.8128" layer="95" xref="yes"/>
+<label x="62.284" y="53.34" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK_ETH" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB1(SCK)"/>
 <wire x1="59.69" y1="55.88" x2="62.23" y2="55.88" width="0.1524" layer="91"/>
-<label x="62.484" y="55.88" size="0.8128" layer="95" xref="yes"/>
+<label x="62.284" y="55.88" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI_ETH" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB2(PDI/MOSI)"/>
 <wire x1="59.69" y1="58.42" x2="62.23" y2="58.42" width="0.1524" layer="91"/>
-<label x="62.484" y="58.42" size="0.8128" layer="95" xref="yes"/>
+<label x="62.284" y="58.42" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO_ETH" class="0">
@@ -14851,6 +14848,11 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="15.748" y1="-62.584" x2="15.748" y2="-61.05" width="0.1524" layer="91"/>
 <wire x1="15.748" y1="-61.05" x2="15.75" y2="-61.05" width="0.1524" layer="91"/>
 <label x="15.8" y="-61.15" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="69.85" y1="17.526" x2="69.85" y2="20.066" width="0.1524" layer="91"/>
+<pinref part="LD1" gate="G$1" pin="A"/>
+<label x="70" y="17.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -15110,13 +15112,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="LD1" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="+5V" class="0">
-<segment>
-<wire x1="69.85" y1="17.526" x2="69.85" y2="20.066" width="0.1524" layer="91"/>
-<pinref part="LD1" gate="G$1" pin="A"/>
-<pinref part="P+9" gate="1" pin="+5V"/>
-</segment>
-</net>
 <net name="DIR_IN" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
@@ -15132,6 +15127,18 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="15.7" y1="-78.2" x2="15.7" y2="-72.644" width="0.1524" layer="91"/>
 <wire x1="15.7" y1="-72.644" x2="15.748" y2="-72.744" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOTOR_CONTROLLER_INPUT" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="9.42" y1="-10.29" x2="4.34" y2="-10.29" width="0.1524" layer="91"/>
+<label x="4.34" y="-10.29" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF1(ADC1)"/>
+<wire x1="59.69" y1="101.6" x2="66" y2="101.6" width="0.1524" layer="91" style="longdash"/>
+<label x="66" y="101.6" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
