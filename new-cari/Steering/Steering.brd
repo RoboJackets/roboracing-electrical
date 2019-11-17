@@ -180,11 +180,13 @@
 <wire x1="102" y1="8" x2="100" y2="10" width="0.000009375" layer="20" curve="90"/>
 <wire x1="100" y1="10" x2="12" y2="10" width="0.000009375" layer="20"/>
 <hole x="5" y="5" drill="3"/>
-<hole x="109" y="6" drill="3"/>
-<hole x="111" y="74" drill="3"/>
+<hole x="109" y="6" drill="3" locked="yes"/>
+<hole x="111" y="74" drill="3.3"/>
 <hole x="36" y="44" drill="3"/>
 <hole x="84" y="44" drill="3"/>
 <hole x="5" y="74" drill="3"/>
+<text x="2" y="9" size="1.27" layer="21">   M3
+ø3.3mm</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -7071,6 +7073,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
@@ -7085,6 +7091,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
