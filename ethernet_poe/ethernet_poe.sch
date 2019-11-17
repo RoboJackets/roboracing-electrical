@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19828,6 +19828,10 @@ CONN_05
 <class number="0" name="default" width="0.2032" drill="0.4064">
 <clearance class="0" value="0.2032"/>
 </class>
+<class number="1" name="power" width="0.2032" drill="0.4064">
+<clearance class="0" value="0.2032"/>
+<clearance class="1" value="0.2032"/>
+</class>
 </classes>
 <parts>
 <part name="U1" library="ethernet_poe" deviceset="W5500" device=""/>
@@ -20607,7 +20611,7 @@ CONN_05
 <junction x="48.26" y="66.04"/>
 </segment>
 </net>
-<net name="+3V3_D" class="0">
+<net name="+3V3_D" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="PMODE0"/>
 <wire x1="139.7" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
