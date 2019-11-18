@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -407,22 +407,22 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <text x="17.304" y="2.446" size="1.778" layer="21">&gt;VALUE</text>
 </package>
 <package name="KINGBRIGHT_LED">
-<smd name="P$1" x="0" y="-3" dx="1.5" dy="2.2" layer="1"/>
-<smd name="P$2" x="2.1" y="-3" dx="1.5" dy="2.2" layer="1"/>
-<text x="-2" y="0" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-6" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="0.5" y1="-1" x2="1.5" y2="-0.5" width="0.127" layer="25"/>
-<wire x1="1.5" y1="-0.5" x2="1.5" y2="-1" width="0.127" layer="25"/>
-<wire x1="1.5" y1="-1" x2="1.5" y2="-1.5" width="0.127" layer="25"/>
-<wire x1="1.5" y1="-1.5" x2="0.5" y2="-1" width="0.127" layer="25"/>
-<wire x1="0.5" y1="-1" x2="0.5" y2="-0.5" width="0.127" layer="25"/>
-<wire x1="0.5" y1="-1" x2="0.5" y2="-1.5" width="0.127" layer="25"/>
-<wire x1="0.5" y1="-1" x2="0" y2="-1" width="0.127" layer="25"/>
-<wire x1="1.5" y1="-1" x2="2" y2="-1" width="0.127" layer="25"/>
+<smd name="P$1" x="-1.016" y="0.048" dx="1.5" dy="2.2" layer="1"/>
+<smd name="P$2" x="1.084" y="0.048" dx="1.5" dy="2.2" layer="1"/>
+<text x="-3.016" y="3.048" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.016" y="-2.952" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="-0.516" y1="2.048" x2="0.484" y2="2.548" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.548" x2="0.484" y2="2.048" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.048" x2="0.484" y2="1.548" width="0.127" layer="25"/>
+<wire x1="0.484" y1="1.548" x2="-0.516" y2="2.048" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-0.516" y2="2.548" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-0.516" y2="1.548" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-1.016" y2="2.048" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.048" x2="0.984" y2="2.048" width="0.127" layer="25"/>
 <polygon width="0.127" layer="21">
-<vertex x="-1" y="-1"/>
-<vertex x="-2" y="-2"/>
-<vertex x="-2" y="-1"/>
+<vertex x="-2.016" y="2.048"/>
+<vertex x="-3.016" y="1.048"/>
+<vertex x="-3.016" y="2.048"/>
 </polygon>
 </package>
 </packages>
