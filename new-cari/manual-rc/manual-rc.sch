@@ -8378,158 +8378,6 @@ In this library you will find crystals and oscillators used for clocking signals
 </deviceset>
 </devicesets>
 </library>
-<library name="ethernet_poe">
-<packages>
-<package name="HDRVR10W64P4000X254_2X5_1016X508X254B" urn="urn:adsk.eagle:footprint:14970487/1" locally_modified="yes">
-<description>Double-row, 10-pin Receptacle Header (Female) Straight, 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
-&lt;p&gt;Double-row (2X5), 10-pin Receptacle Header (Female) Straight package with 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<wire x1="42.3766" y1="0.1622" x2="42.3766" y2="12.5378" width="0.12" layer="22"/>
-<wire x1="42.3766" y1="12.5378" x2="0.1634" y2="12.5378" width="0.12" layer="22"/>
-<wire x1="0.1634" y1="12.5378" x2="0.1634" y2="0.1622" width="0.12" layer="22"/>
-<wire x1="0.1634" y1="0.1622" x2="42.3766" y2="0.1622" width="0.12" layer="22"/>
-<wire x1="23.81" y1="1.27" x2="23.81" y2="11.43" width="0.12" layer="52"/>
-<wire x1="23.81" y1="11.43" x2="18.73" y2="11.43" width="0.12" layer="52"/>
-<wire x1="18.73" y1="11.43" x2="18.73" y2="1.27" width="0.12" layer="52"/>
-<wire x1="18.73" y1="1.27" x2="23.81" y2="1.27" width="0.12" layer="52"/>
-<pad name="1" x="1.27" y="11.43" drill="1.1051" diameter="1.7051" rot="R90"/>
-<pad name="2" x="1.27" y="8.89" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="3" x="1.27" y="6.35" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="4" x="1.27" y="3.81" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="5" x="1.27" y="1.27" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="6" x="41.27" y="1.27" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="7" x="41.27" y="3.81" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="8" x="41.27" y="6.35" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="9" x="41.27" y="8.89" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="10" x="41.27" y="11.43" drill="1.1051" diameter="1.7051" rot="R270"/>
-<text x="2.81" y="12.9256" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="3.6416" y="-0.27" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<rectangle x1="18" y1="13" x2="25" y2="15" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="HDRVR10W64P4000X254_2X5_1016X508X254B" urn="urn:adsk.eagle:package:14970482/1" type="model">
-<description>Double-row, 10-pin Receptacle Header (Female) Straight, 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
-&lt;p&gt;Double-row (2X5), 10-pin Receptacle Header (Female) Straight package with 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="HDRVR10W64P4000X254_2X5_1016X508X254B"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ETH-POE">
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="+24V" x="-15.24" y="-12.7" length="middle"/>
-<pin name="RSTN" x="-15.24" y="-7.62" length="middle"/>
-<pin name="+5V" x="-15.24" y="-2.54" length="middle"/>
-<pin name="+3V3_D" x="-15.24" y="2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="7.62" length="middle"/>
-<pin name="SCSN" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="SCLK" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="MISO" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="MOSI" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="INTN" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ETH-POE">
-<description>POE</description>
-<gates>
-<gate name="POE-DEMO" symbol="ETH-POE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HDRVR10W64P4000X254_2X5_1016X508X254B">
-<connects>
-<connect gate="POE-DEMO" pin="+24V" pad="1"/>
-<connect gate="POE-DEMO" pin="+3V3_D" pad="4"/>
-<connect gate="POE-DEMO" pin="+5V" pad="3"/>
-<connect gate="POE-DEMO" pin="GND" pad="5"/>
-<connect gate="POE-DEMO" pin="INTN" pad="10"/>
-<connect gate="POE-DEMO" pin="MISO" pad="8"/>
-<connect gate="POE-DEMO" pin="MOSI" pad="9"/>
-<connect gate="POE-DEMO" pin="RSTN" pad="2"/>
-<connect gate="POE-DEMO" pin="SCLK" pad="7"/>
-<connect gate="POE-DEMO" pin="SCSN" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14970482/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Training_Board">
-<description>Generated from &lt;b&gt;Training_Board.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
-<packages>
-<package name="PTS645">
-<pad name="P$1" x="0" y="0" drill="1" shape="square"/>
-<pad name="P$2" x="0" y="4.5" drill="1" shape="square"/>
-<pad name="P$3" x="6.5" y="4.5" drill="1" shape="square"/>
-<pad name="P$4" x="6.5" y="0" drill="1" shape="square"/>
-</package>
-<package name="PTS645_SMD">
-<smd name="P$1" x="-3.835" y="2.25" dx="1.55" dy="1.3" layer="1"/>
-<smd name="P$2" x="3.835" y="2.25" dx="1.55" dy="1.3" layer="1"/>
-<smd name="P$3" x="3.835" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
-<smd name="P$4" x="-3.835" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TS2">
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="3.429" x2="1.905" y2="2.159" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="3.429" x2="-1.905" y2="2.159" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.429" x2="-1.905" y2="3.429" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="0.762" x2="0" y2="3.302" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-5.08" y="3.81" size="2.54" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-1.27" size="2.54" layer="96" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
-<text x="0" y="-4.318" size="1.27" layer="97" ratio="10" align="top-center">&gt;FUNCTION</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PTS645">
-<description>Tactile Momentary Pushbutton with thru-hole legs.  
-
-https://www.ckswitches.com/media/1471/pts645.pdf</description>
-<gates>
-<gate name="G$1" symbol="TS2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PTS645">
-<connects>
-<connect gate="G$1" pin="1" pad="P$2 P$3"/>
-<connect gate="G$1" pin="2" pad="P$1 P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTS645_SMD1" package="PTS645_SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1 P$2"/>
-<connect gate="G$1" pin="2" pad="P$3 P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RoboJackets-Frames">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
 &lt;hr&gt;
@@ -12494,6 +12342,151 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </deviceset>
 </devicesets>
 </library>
+<library name="ethernet_poe">
+<packages>
+<package name="HDRVR10W64P4000X254_2X5_1016X508X254B" urn="urn:adsk.eagle:footprint:14970487/1" locally_modified="yes">
+<description>Double-row, 10-pin Receptacle Header (Female) Straight, 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Receptacle Header (Female) Straight package with 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<pad name="1" x="2" y="18" drill="1.1051" diameter="1.7051" rot="R90"/>
+<pad name="2" x="2" y="15.46" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="3" x="2" y="12.92" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="4" x="2" y="10.38" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="5" x="2" y="7.84" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="6" x="42" y="7.84" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="7" x="42" y="10.38" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="8" x="42" y="12.92" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="9" x="42" y="15.46" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="10" x="42" y="18" drill="1.1051" diameter="1.7051" rot="R270"/>
+<text x="-0.032" y="50.508" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.3756" y="-0.724" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="25" width="0.127" layer="21"/>
+<wire x1="0" y1="25" x2="0" y2="41.5" width="0.127" layer="21"/>
+<wire x1="0" y1="41.5" x2="0" y2="50" width="0.127" layer="21"/>
+<hole x="3" y="47" drill="3.3"/>
+<hole x="41" y="47" drill="3.3"/>
+<wire x1="0" y1="25" x2="20" y2="25" width="0.127" layer="21"/>
+<wire x1="20" y1="25" x2="20" y2="41.5" width="0.127" layer="21"/>
+<wire x1="20" y1="41.5" x2="0" y2="41.5" width="0.127" layer="21"/>
+<wire x1="0" y1="50" x2="44" y2="50" width="0.127" layer="21"/>
+<wire x1="44" y1="50" x2="44" y2="0" width="0.127" layer="21"/>
+<wire x1="44" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="HDRVR10W64P4000X254_2X5_1016X508X254B" urn="urn:adsk.eagle:package:14970482/1" type="model">
+<description>Double-row, 10-pin Receptacle Header (Female) Straight, 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Receptacle Header (Female) Straight package with 40.00 mm (1.57 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR10W64P4000X254_2X5_1016X508X254B"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="ETH-POE">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="+24V" x="-15.24" y="-12.7" length="middle"/>
+<pin name="RSTN" x="-15.24" y="-7.62" length="middle"/>
+<pin name="+5V" x="-15.24" y="-2.54" length="middle"/>
+<pin name="+3V3_D" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="7.62" length="middle"/>
+<pin name="SCSN" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="SCLK" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="MISO" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="MOSI" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="INTN" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ETH-POE">
+<description>POE</description>
+<gates>
+<gate name="POE-DEMO" symbol="ETH-POE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDRVR10W64P4000X254_2X5_1016X508X254B">
+<connects>
+<connect gate="POE-DEMO" pin="+24V" pad="1"/>
+<connect gate="POE-DEMO" pin="+3V3_D" pad="4"/>
+<connect gate="POE-DEMO" pin="+5V" pad="3"/>
+<connect gate="POE-DEMO" pin="GND" pad="5"/>
+<connect gate="POE-DEMO" pin="INTN" pad="10"/>
+<connect gate="POE-DEMO" pin="MISO" pad="8"/>
+<connect gate="POE-DEMO" pin="MOSI" pad="9"/>
+<connect gate="POE-DEMO" pin="RSTN" pad="2"/>
+<connect gate="POE-DEMO" pin="SCLK" pad="7"/>
+<connect gate="POE-DEMO" pin="SCSN" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14970482/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="RoboJackets-Switches">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Switches&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find switches and other mechanical assisted circuit elements that are used for controlling connections among wires.
+&lt;/p&gt;</description>
+<packages>
+<package name="TACT_PB_RA">
+<pad name="P$1" x="1.5" y="6.5" drill="1.3"/>
+<pad name="P$2" x="8.5" y="6.5" drill="1.3"/>
+<pad name="P$3" x="2.75" y="4" drill="1"/>
+<pad name="P$4" x="7.25" y="4" drill="1"/>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="21"/>
+<wire x1="10" y1="0" x2="10" y2="8" width="0.127" layer="21"/>
+<wire x1="10" y1="8" x2="0" y2="8" width="0.127" layer="21"/>
+<wire x1="0" y1="8" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="0" y="8.5" size="1.016" layer="21" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TS2">
+<wire x1="1.905" y1="3.429" x2="1.905" y2="2.159" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.429" x2="-1.905" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.429" x2="-1.905" y2="3.429" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.81" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-1.27" size="2.54" layer="96" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="0.762" x2="0" y2="3.302" width="0.254" layer="94" style="shortdash"/>
+<text x="0" y="-4.318" size="1.27" layer="97" ratio="10" align="top-center">&gt;FUNCTION</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PB_RA">
+<gates>
+<gate name="G$1" symbol="TS2" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="TACT_PB_RA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12530,15 +12523,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$1" library="manual-rc" deviceset="HK-GT2B" device="" package3d_urn="urn:adsk.eagle:package:14970250/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U$2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10 kΩ"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="PB2" library="Training_Board" deviceset="PTS645" device="PTS645_SMD1"/>
-<part name="PB3" library="Training_Board" deviceset="PTS645" device="PTS645_SMD1"/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_A_L" device=""/>
 <part name="J5" library="1734510-1" deviceset="1734510-1" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12546,6 +12536,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω"/>
 <part name="D1" library="SparkFun" deviceset="DIODE" device="SOD"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U$2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
+<part name="PB1" library="RoboJackets-Switches" deviceset="PB_RA" device="" value="ATMEGA_RESET"/>
+<part name="PB2" library="RoboJackets-Switches" deviceset="PB_RA" device="" value="ATMEGA_RESET"/>
 </parts>
 <sheets>
 <sheet>
@@ -12630,10 +12623,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="P+3" gate="1" x="132.08" y="172.72" smashed="yes">
 <attribute name="VALUE" x="129.54" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$2" gate="POE-DEMO" x="228.6" y="86.36" smashed="yes">
-<attribute name="NAME" x="218.44" y="96.52" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="68.58" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY7" gate="GND" x="205.74" y="91.44" smashed="yes">
 <attribute name="VALUE" x="208.915" y="90.805" size="1.778" layer="96"/>
 </instance>
@@ -12653,14 +12642,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </instance>
 <instance part="P+5" gate="1" x="215.9" y="127" smashed="yes">
 <attribute name="VALUE" x="213.36" y="121.92" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="PB2" gate="G$1" x="226.06" y="111.76" smashed="yes">
-<attribute name="NAME" x="220.98" y="115.57" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="226.06" y="110.49" size="2.54" layer="96" font="vector" ratio="15" align="top-center" display="off"/>
-</instance>
-<instance part="PB3" gate="G$1" x="226.06" y="142.24" smashed="yes">
-<attribute name="NAME" x="220.98" y="146.05" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="226.06" y="140.97" size="2.54" layer="96" font="vector" ratio="15" align="top-center" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -12689,6 +12670,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </instance>
 <instance part="SUPPLY6" gate="GND" x="132.08" y="162.56" smashed="yes">
 <attribute name="VALUE" x="135.255" y="161.925" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="POE-DEMO" x="228.6" y="86.36" smashed="yes">
+<attribute name="NAME" x="218.44" y="96.52" size="1.778" layer="95"/>
+<attribute name="VALUE" x="218.44" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="PB1" gate="G$1" x="226.06" y="142.24" smashed="yes">
+<attribute name="NAME" x="223.52" y="146.05" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="226.06" y="140.97" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="PB2" gate="G$1" x="226.06" y="111.76" smashed="yes">
+<attribute name="NAME" x="223.52" y="115.57" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="226.06" y="110.49" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -12741,8 +12734,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<pinref part="U$2" gate="POE-DEMO" pin="+5V"/>
 <wire x1="205.74" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="POE-DEMO" pin="+5V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12785,12 +12778,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="233.68" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="152.4" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
 <junction x="238.76" y="142.24"/>
-<pinref part="PB3" gate="G$1" pin="2"/>
+<pinref part="PB1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="GND"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="213.36" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="POE-DEMO" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
@@ -12866,18 +12859,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="215.9" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <junction x="215.9" y="142.24"/>
 <label x="210.82" y="142.24" size="1.016" layer="95" rot="MR0" xref="yes"/>
-<pinref part="PB3" gate="G$1" pin="1"/>
+<pinref part="PB1" gate="G$1" pin="1"/>
 <junction x="220.98" y="142.24"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="160.02" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<junction x="88.9" y="162.56"/>
+<wire x1="86.36" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
+<junction x="86.36" y="162.56"/>
 <label x="83.82" y="162.56" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
@@ -12957,9 +12950,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="185.42" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
 <wire x1="243.84" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="248.92" y="83.82" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -12969,9 +12962,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="185.42" y="93.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
 <wire x1="243.84" y1="78.74" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
 <label x="248.92" y="78.74" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -12981,9 +12974,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="185.42" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
 <wire x1="243.84" y1="88.9" x2="248.92" y2="88.9" width="0.1524" layer="91"/>
 <label x="248.92" y="88.9" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -12993,9 +12986,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="185.42" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
 <wire x1="243.84" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <label x="248.92" y="93.98" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
 </segment>
 </net>
 <net name="RST_POE" class="0">
@@ -13003,18 +12996,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="121.92" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="PB2" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<junction x="215.9" y="111.76"/>
 <label x="210.82" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="PB2" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<junction x="215.9" y="111.76"/>
 <junction x="220.98" y="111.76"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="RSTN"/>
 <wire x1="213.36" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
 <label x="208.28" y="78.74" size="1.016" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$2" gate="POE-DEMO" pin="RSTN"/>
 </segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="PD2(INT2/RXD1)"/>
@@ -13067,7 +13060,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="J5" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="D2_N" class="2">
 <segment>
 <wire x1="223.52" y1="185.42" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -13076,7 +13069,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="J5" gate="G$1" pin="D-"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="D2_P" class="2">
 <segment>
 <wire x1="223.52" y1="182.88" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="182.88" x2="213.36" y2="175.26" width="0.1524" layer="91"/>
@@ -13090,6 +13083,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
 <label x="193.04" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="INTN" class="0">
+<segment>
+<pinref part="U$2" gate="POE-DEMO" pin="INTN"/>
+<wire x1="243.84" y1="73.66" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
+<label x="248.92" y="73.66" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MC1" gate="G$1" pin="PD3(INT3/TXD1)"/>
+<wire x1="182.88" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<label x="185.42" y="73.66" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
