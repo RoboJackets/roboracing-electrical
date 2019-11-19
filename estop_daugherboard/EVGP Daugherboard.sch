@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18333,8 +18333,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD323-R" value="200mA"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J3" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10kΩ"/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLUE"/>
@@ -18554,13 +18552,6 @@ and PB0(SS) tri-stated</text>
 <instance part="J3" gate="G$1" x="93.98" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="96.52" y="137.16" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="83.82" y="114.3" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="142.24" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.7414" y="41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="145.542" y="41.91" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY7" gate="G$1" x="142.24" y="53.34" smashed="yes">
-<attribute name="VALUE" x="142.24" y="56.134" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="27.94" y="66.04" smashed="yes">
 <attribute name="NAME" x="28.956" y="66.675" size="1.778" layer="95"/>
@@ -18961,16 +18952,6 @@ and PB0(SS) tri-stated</text>
 <label x="238.76" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SS_5V" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="116.84" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
-<label x="144.78" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
-<junction x="142.24" y="40.64"/>
-</segment>
-</net>
 <net name="5V" class="1">
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
@@ -19023,11 +19004,6 @@ and PB0(SS) tri-stated</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<wire x1="142.24" y1="50.8" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
@@ -19428,9 +19404,9 @@ and PB0(SS) tri-stated</text>
 <label x="238.76" y="0" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
-<wire x1="116.84" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB0(SS)"/>
+<wire x1="116.84" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
+<label x="121.92" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RST" class="0">
