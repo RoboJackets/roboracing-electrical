@@ -19819,6 +19819,106 @@ CONN_05
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="RoboJackets-Switches">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Switches&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find switches and other mechanical assisted circuit elements that are used for controlling connections among wires.
+&lt;/p&gt;</description>
+<packages>
+<package name="KMR2">
+<wire x1="-2.3" y1="1.4" x2="2.3" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.3" y1="1.4" x2="2.3" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-1.4" x2="-2.3" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-1.4" x2="-2.3" y2="1.4" width="0.127" layer="21"/>
+<smd name="1.1" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2.1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2.2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="1.2" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<text x="-2.54" y="1.905" size="1" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.905" size="1" layer="21" ratio="20" align="top-center">&gt;FUNCTION</text>
+<rectangle x1="-2.286" y1="-1.397" x2="2.286" y2="1.397" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TS2">
+<wire x1="1.905" y1="3.429" x2="1.905" y2="2.159" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.429" x2="-1.905" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.429" x2="-1.905" y2="3.429" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.81" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-1.27" size="2.54" layer="96" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="0.762" x2="0" y2="3.302" width="0.254" layer="94" style="shortdash"/>
+<text x="0" y="-4.318" size="1.27" layer="97" ratio="10" align="top-center">&gt;FUNCTION</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KMR2" prefix="S">
+<gates>
+<gate name="G$1" symbol="TS2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KMR2">
+<connects>
+<connect gate="G$1" pin="1" pad="1.1 1.2"/>
+<connect gate="G$1" pin="2" pad="2.1 2.2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FUNCTION" value="Reset" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19876,8 +19976,6 @@ CONN_05
 <part name="+3V4" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="+3V5" library="ethernet_poe" deviceset="+3V3_D" device=""/>
-<part name="+3V6" library="ethernet_poe" deviceset="+3V3_D" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
@@ -19933,6 +20031,11 @@ CONN_05
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3_D5" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="S1" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="+3V2" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19958,6 +20061,12 @@ CONN_05
 <wire x1="236.22" y1="154.94" x2="236.22" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
 <text x="241.3" y="261.62" size="6.35" layer="97" font="vector" ratio="12">Ethernet</text>
 <text x="218.44" y="142.24" size="6.35" layer="97" font="vector" ratio="12">Headers</text>
+<wire x1="199.898" y1="78.7" x2="199.898" y2="40.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="199.898" y1="40.6" x2="248.92" y2="40.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="40.6" x2="248.92" y2="78.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="78.7" x2="199.898" y2="78.7" width="0.1524" layer="97" style="shortdash"/>
+<text x="220.98" y="43.18" size="1.778" layer="97" font="vector">RC to debounce switch</text>
+<text x="203.2" y="71.12" size="5.08" layer="97" font="vector">Reset</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="109.22" y="76.2" smashed="yes">
@@ -20110,15 +20219,8 @@ CONN_05
 <attribute name="NAME" x="160.2994" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="164.846" y="71.12" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="162.56" y="83.82" smashed="yes">
-<attribute name="VALUE" x="162.56" y="86.36" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="+3V6" gate="G$1" x="162.56" y="38.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="162.56" y="35.56" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
-</instance>
-<instance part="R17" gate="G$1" x="162.56" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="160.2994" y="50.8" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.846" y="50.8" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="+3V5" gate="G$1" x="162.56" y="81.28" smashed="yes">
+<attribute name="VALUE" x="162.56" y="83.82" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="C9" gate="G$1" x="68.58" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.5" y="90.17" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -20314,6 +20416,25 @@ CONN_05
 <instance part="C21" gate="G$1" x="73.66" y="175.26" smashed="yes">
 <attribute name="NAME" x="72.39" y="170.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="72.39" y="180.34" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="S1" gate="G$1" x="210.82" y="58.42" smashed="yes">
+<attribute name="NAME" x="205.74" y="62.23" size="2.54" layer="95" font="vector"/>
+<attribute name="VALUE" x="210.82" y="57.15" size="2.54" layer="96" font="vector" ratio="15" align="top-center"/>
+<attribute name="FUNCTION" x="210.82" y="54.102" size="1.27" layer="97" ratio="10" align="top-center"/>
+</instance>
+<instance part="GND1" gate="1" x="203.2" y="45.72" smashed="yes">
+<attribute name="VALUE" x="203.2" y="45.466" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R28" gate="G$1" x="223.52" y="66.04" smashed="yes">
+<attribute name="NAME" x="219.71" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="C22" gate="G$1" x="218.44" y="55.88" smashed="yes">
+<attribute name="NAME" x="219.456" y="56.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.456" y="51.689" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="228.6" y="71.12" smashed="yes">
+<attribute name="VALUE" x="228.6" y="73.66" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -20545,6 +20666,16 @@ CONN_05
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="48.26" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<junction x="203.2" y="48.26"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="48.26" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -20633,13 +20764,8 @@ CONN_05
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="76.2" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3_D"/>
-</segment>
-<segment>
-<wire x1="162.56" y1="45.72" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="+3V6" gate="G$1" pin="+3V3_D"/>
-<pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
@@ -20681,6 +20807,11 @@ CONN_05
 <pinref part="+3V3_D5" gate="G$1" pin="+3V3_D"/>
 <wire x1="238.76" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<wire x1="228.6" y1="66.04" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3_D"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -20893,17 +21024,23 @@ CONN_05
 <net name="!RSTN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RSTN"/>
-<wire x1="139.7" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="167.64" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="162.56" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="55.88" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="162.56" y="58.42"/>
-<pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="236.22" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="233.68" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
+<label x="223.52" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="66.04" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
+<junction x="218.44" y="58.42"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
