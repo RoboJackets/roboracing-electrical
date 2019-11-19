@@ -19452,7 +19452,7 @@ and PB0(SS) tri-stated</text>
 <label x="121.92" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="24V_UNFUSED" class="0">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="+24V"/>
 <pinref part="F4" gate="G$1" pin="2"/>
