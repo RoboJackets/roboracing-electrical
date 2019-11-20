@@ -39223,7 +39223,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="C19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1 uF"/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
-<part name="SUPPLY54" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC" value="APD340VRTR-G1"/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
@@ -39288,6 +39287,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="D5" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC" value="APD340VRTR-G1"/>
 <part name="TP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -39420,9 +39420,6 @@ D7</text>
 <instance part="C17" gate="G$1" x="114.3" y="233.68" smashed="yes">
 <attribute name="NAME" x="115.316" y="234.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.316" y="229.489" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY54" gate="GND" x="101.6" y="226.06" smashed="yes">
-<attribute name="VALUE" x="104.775" y="225.425" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="43.18" y="259.08" smashed="yes">
 <attribute name="NAME" x="41.656" y="261.112" size="1.778" layer="95"/>
@@ -39648,6 +39645,9 @@ D7</text>
 <instance part="TP2" gate="G$1" x="271.78" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="269.24" y="190.5" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
+<instance part="SUPPLY15" gate="GND" x="88.9" y="223.52" smashed="yes">
+<attribute name="VALUE" x="92.075" y="222.885" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39695,19 +39695,6 @@ D7</text>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="208.28" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="SUPPLY54" gate="GND" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="228.6" x2="101.6" y2="228.6" width="0.1524" layer="91"/>
-<junction x="88.9" y="228.6"/>
-<junction x="101.6" y="228.6"/>
-<junction x="101.6" y="228.6"/>
-<wire x1="101.6" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="228.6" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="248.92" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
@@ -39826,6 +39813,20 @@ D7</text>
 <wire x1="129.54" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <junction x="134.62" y="40.64"/>
 <pinref part="U2" gate="G$1" pin="VSS"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<junction x="88.9" y="228.6"/>
+<junction x="101.6" y="228.6"/>
+<junction x="101.6" y="228.6"/>
+<wire x1="101.6" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="228.6" x2="88.9" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+<wire x1="88.9" y1="228.6" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="228.6" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST_MC" class="0">
