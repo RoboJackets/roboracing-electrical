@@ -39233,7 +39233,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="J1" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
 <part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="TESTPOINTS" package3d_urn="urn:adsk.eagle:package:38008/1" value="AVR_SPI_PROG_3X2TESTPOINTS"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="J3" library="Steering" deviceset="MOLEX_5025850670" device=""/>
@@ -39288,6 +39287,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="TP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="PTH" package3d_urn="urn:adsk.eagle:package:38016/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -39457,10 +39457,6 @@ D7</text>
 <instance part="C11" gate="G$1" x="35.56" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.925" y="173.736" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="39.751" y="173.736" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="J2" gate="G$1" x="33.02" y="214.63" smashed="yes">
-<attribute name="NAME" x="27.94" y="220.218" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="27.94" y="207.264" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="50.8" y="201.93" smashed="yes">
 <attribute name="VALUE" x="48.895" y="198.755" size="1.778" layer="96"/>
@@ -39648,6 +39644,10 @@ D7</text>
 <instance part="SUPPLY15" gate="GND" x="88.9" y="223.52" smashed="yes">
 <attribute name="VALUE" x="92.075" y="222.885" size="1.778" layer="96"/>
 </instance>
+<instance part="J9" gate="G$1" x="33.02" y="214.63" smashed="yes">
+<attribute name="NAME" x="27.94" y="220.218" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="27.94" y="207.264" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39703,10 +39703,10 @@ D7</text>
 <pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="6"/>
 <wire x1="43.18" y1="212.09" x2="50.8" y2="212.09" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="50.8" y1="212.09" x2="50.8" y2="204.47" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
@@ -40051,9 +40051,9 @@ D7</text>
 </segment>
 <segment>
 <pinref part="SUPPLY22" gate="G$1" pin="VCC_2"/>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="219.71" x2="50.8" y2="217.17" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="217.17" x2="43.18" y2="217.17" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC_2"/>
@@ -40235,9 +40235,9 @@ D7</text>
 <label x="132.08" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="214.63" x2="22.86" y2="214.63" width="0.1524" layer="91"/>
 <label x="22.86" y="214.63" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="MOSI_POGO" class="0">
@@ -40247,9 +40247,9 @@ D7</text>
 <label x="175.26" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="43.18" y1="214.63" x2="45.72" y2="214.63" width="0.1524" layer="91"/>
 <label x="45.72" y="214.63" size="1.016" layer="95" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MISO_POGO" class="0">
@@ -40259,9 +40259,9 @@ D7</text>
 <label x="132.08" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="217.17" x2="22.86" y2="217.17" width="0.1524" layer="91"/>
 <label x="22.86" y="217.17" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RST_MC_POGO" class="0">
@@ -40271,9 +40271,9 @@ D7</text>
 <label x="175.26" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="25.4" y1="212.09" x2="22.86" y2="212.09" width="0.1524" layer="91"/>
 <label x="22.86" y="212.09" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="DEVICE_SWITCH" class="0">

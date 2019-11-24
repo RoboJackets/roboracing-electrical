@@ -240,18 +240,14 @@ Nov. 2019
 <text x="9" y="22" size="1" layer="25" font="vector" ratio="12" rot="SR0">+24V</text>
 <text x="52.5" y="42.75" size="1" layer="25" font="vector" rot="R90">S1</text>
 <text x="50.5" y="51" size="1" layer="25" font="vector" rot="R90">S2</text>
-<text x="59.5" y="49" size="1.5" layer="25" font="vector" ratio="12" rot="SR0">ON</text>
-<text x="49" y="49" size="1.5" layer="25" font="vector" ratio="12" rot="SR0">OFF</text>
+<text x="59.5" y="49" size="1" layer="25" font="vector" ratio="12" rot="SR0">ON</text>
+<text x="50" y="49" size="1" layer="25" font="vector" ratio="12" rot="SR0">OFF</text>
 <text x="15" y="60.5" size="1" layer="25" font="vector">J4</text>
 <text x="63.5" y="49" size="1" layer="25" font="vector" ratio="12" rot="SR0">SPI Select:</text>
 <text x="64.5" y="47.25" size="1" layer="25" font="vector" ratio="12" rot="SR0">DEVICE</text>
 <text x="65" y="44.75" size="1" layer="25" font="vector" ratio="12" rot="SR0">POGO</text>
-<text x="45" y="53.5" size="1.5" layer="25" font="vector" ratio="12" rot="SR0">RESET</text>
-<wire x1="23.5" y1="56" x2="28.5" y2="56" width="0.254" layer="25"/>
-<wire x1="28.5" y1="56" x2="28.5" y2="48.5" width="0.254" layer="25"/>
-<wire x1="28.5" y1="48.5" x2="23.5" y2="48.5" width="0.254" layer="25"/>
-<wire x1="23.5" y1="48.5" x2="23.5" y2="56" width="0.254" layer="25"/>
-<text x="23" y="48" size="1" layer="25" font="vector" ratio="12" rot="SR90">POGO Header</text>
+<text x="46.5" y="53.5" size="1" layer="25" font="vector" ratio="12" rot="SR0">RESET</text>
+<text x="24.25" y="54.5" size="1" layer="25" font="vector" ratio="12" rot="SR0">POGO Header</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2720,32 +2716,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="2X3_TEST_POINTS" urn="urn:adsk.eagle:footprint:37612/1" library_version="1">
-<description>&lt;h3&gt;Plated Through Hole - 2x3 Test Point Header&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_03x2&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="-2.54" y="-1.27" drill="0.508" stop="no"/>
-<pad name="2" x="-2.54" y="1.27" drill="0.508" stop="no"/>
-<pad name="3" x="0" y="-1.27" drill="0.508" stop="no"/>
-<pad name="4" x="0" y="1.27" drill="0.508" stop="no"/>
-<pad name="5" x="2.54" y="-1.27" drill="0.508" stop="no"/>
-<pad name="6" x="2.54" y="1.27" drill="0.508" stop="no"/>
-<wire x1="-2.8956" y1="-2.0574" x2="-2.2098" y2="-2.0574" width="0.2032" layer="21"/>
-<wire x1="-2.1844" y1="-2.0574" x2="-2.8702" y2="-2.0574" width="0.2032" layer="22"/>
-<circle x="-2.54" y="1.27" radius="0.61065625" width="0" layer="29"/>
-<circle x="0" y="1.27" radius="0.61065625" width="0" layer="29"/>
-<circle x="2.54" y="1.27" radius="0.61065625" width="0" layer="29"/>
-<circle x="-2.54" y="-1.27" radius="0.61065625" width="0" layer="29"/>
-<circle x="0" y="-1.27" radius="0.61065625" width="0" layer="29"/>
-<circle x="2.54" y="-1.27" radius="0.61065625" width="0" layer="29"/>
-<text x="-3.048" y="2.032" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-3.048" y="-3.048" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="TP_15TH" urn="urn:adsk.eagle:footprint:37963/1" library_version="1">
 <description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
 Used as a test point connection for pogo pins or other debugging tools. 
@@ -2758,21 +2728,56 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
 <circle x="0" y="0" radius="0.381" width="0" layer="30"/>
 </package>
+<package name="2X3" urn="urn:adsk.eagle:footprint:37608/1" library_version="1">
+<description>&lt;h3&gt;Plated Through Hole - 2x3&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03x2&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="3.175" x2="-0.635" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="3.81" x2="1.27" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="3.175" x2="1.905" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="3.81" x2="3.175" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="3.81" x2="3.81" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="4.445" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="3.81" x2="5.715" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="3.81" x2="6.35" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="3.175" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="3.175" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.605" x2="-0.635" y2="-1.605" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.605" x2="0.635" y2="-1.605" width="0.2032" layer="22"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="2.54" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="5.08" y="2.54" drill="1.016" diameter="1.8796"/>
+<text x="-1.27" y="4.064" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51"/>
+<rectangle x1="2.286" y1="2.286" x2="2.794" y2="2.794" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="2.286" x2="5.334" y2="2.794" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="2X3_TEST_POINTS" urn="urn:adsk.eagle:package:38008/1" type="box" library_version="1">
-<description>Plated Through Hole - 2x3 Test Point Header
-Specifications:
-Pin count:6
-Pin pitch:0.1"
-
-Example device(s):
-CONN_03x2
-</description>
-<packageinstances>
-<packageinstance name="2X3_TEST_POINTS"/>
-</packageinstances>
-</package3d>
 <package3d name="TP_15TH" urn="urn:adsk.eagle:package:38288/1" type="box" library_version="1">
 <description>Electrically Conductive Via 0.015" Drill
 Used as a test point connection for pogo pins or other debugging tools. 
@@ -2784,6 +2789,19 @@ TEST_POINT
 </description>
 <packageinstances>
 <packageinstance name="TP_15TH"/>
+</packageinstances>
+</package3d>
+<package3d name="2X3" urn="urn:adsk.eagle:package:38016/1" type="box" library_version="1">
+<description>Plated Through Hole - 2x3
+Specifications:
+Pin count:6
+Pin pitch:0.1"
+
+Example device(s):
+CONN_03x2
+</description>
+<packageinstances>
+<packageinstance name="2X3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -7241,9 +7259,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.75" y="57.5" size="1" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="58.365" y="56.595" size="1.27" layer="27"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X3_TEST_POINTS" package3d_urn="urn:adsk.eagle:package:38008/1" value="AVR_SPI_PROG_3X2TESTPOINTS" x="26" y="52" smashed="yes" rot="R90">
-<attribute name="VALUE" x="29.937" y="48.19" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
-</element>
 <element name="J3" library="Steering" package="MOLEX_5025850670" value="MOLEX_5025850670" x="37.54" y="14.12" smashed="yes"/>
 <element name="R2" library="RoboJackets-Resistors" package="R0603W" value="10KΩ" x="29.5" y="74.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.5" y="74" size="1" layer="25" font="vector"/>
@@ -7346,6 +7361,10 @@ design rules under a new name.</description>
 <element name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="TP_15TH" package3d_urn="urn:adsk.eagle:package:38288/1" value="TEST-POINTTP_15TH_THRU" x="111" y="63" smashed="yes"/>
 <element name="U$4" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="17" y="32" smashed="yes"/>
 <element name="U$5" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.4X" value="" x="48" y="31" smashed="yes"/>
+<element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X3" package3d_urn="urn:adsk.eagle:package:38016/1" value="AVR_SPI_PROG_3X2PTH" x="26" y="50" smashed="yes">
+<attribute name="NAME" x="24" y="48" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="24.73" y="47.587" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7359,7 +7378,6 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="J1" pad="5"/>
-<contactref element="J2" pad="6"/>
 <contactref element="J3" pad="4"/>
 <contactref element="J4" pad="3"/>
 <contactref element="J6" pad="1"/>
@@ -7481,6 +7499,7 @@ design rules under a new name.</description>
 <wire x1="59.85" y1="58.5" x2="61.5" y2="58.5" width="0.254" layer="1"/>
 <wire x1="61.5" y1="58.5" x2="62.25" y2="57.75" width="0.254" layer="1"/>
 <wire x1="62.25" y1="57.75" x2="62.25" y2="56.5" width="0.254" layer="1"/>
+<contactref element="J9" pad="6"/>
 </signal>
 <signal name="RST_MC">
 <contactref element="R1" pad="2"/>
@@ -7665,7 +7684,6 @@ design rules under a new name.</description>
 <contactref element="J6" pad="2"/>
 <contactref element="J3" pad="1"/>
 <contactref element="R2" pad="2"/>
-<contactref element="J2" pad="2"/>
 <contactref element="J4" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R9" pad="2"/>
@@ -7677,8 +7695,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="14"/>
 <contactref element="S1" pad="A2"/>
 <contactref element="S1" pad="B2"/>
-<wire x1="22" y1="52" x2="22.19" y2="52" width="0.254" layer="16"/>
-<wire x1="22.19" y1="52" x2="24.73" y2="49.46" width="0.254" layer="16"/>
 <wire x1="28.85" y1="60" x2="34.2" y2="60" width="0.254" layer="1"/>
 <wire x1="98.975" y1="61" x2="97" y2="61" width="0.508" layer="1"/>
 <wire x1="97" y1="61" x2="94" y2="61" width="0.508" layer="1"/>
@@ -7719,14 +7735,13 @@ design rules under a new name.</description>
 <wire x1="36.8" y1="58.2" x2="36.8" y2="59.8" width="0.254" layer="1"/>
 <wire x1="36.8" y1="59.8" x2="37" y2="60" width="0.254" layer="1"/>
 <wire x1="34.2" y1="60" x2="36" y2="60" width="0.254" layer="1"/>
-<wire x1="28.85" y1="60" x2="28.85" y2="58.5" width="0.254" layer="1"/>
-<wire x1="28.85" y1="58.5" x2="28.85" y2="57.5" width="0.254" layer="1"/>
+<wire x1="28.85" y1="60" x2="28.85" y2="59" width="0.254" layer="1"/>
+<wire x1="28.85" y1="59" x2="28.85" y2="57.5" width="0.254" layer="1"/>
 <wire x1="31.15" y1="57.5" x2="28.85" y2="57.5" width="0.254" layer="1"/>
 <wire x1="34.2" y1="68" x2="36" y2="68" width="0.254" layer="1"/>
-<wire x1="22" y1="52" x2="23" y2="53" width="0.254" layer="16"/>
+<wire x1="23" y1="53" x2="22" y2="52" width="0.254" layer="16"/>
 <wire x1="23" y1="53" x2="23" y2="58.5" width="0.254" layer="16"/>
 <via x="23" y="58.5" extent="1-16" drill="0.381"/>
-<wire x1="23" y1="58.5" x2="28.85" y2="58.5" width="0.254" layer="1"/>
 <wire x1="41.29" y1="17.62" x2="41.29" y2="19.29" width="0.254" layer="1"/>
 <wire x1="41.29" y1="19.29" x2="41.5" y2="19.5" width="0.254" layer="1"/>
 <wire x1="41.5" y1="19.5" x2="52" y2="19.5" width="0.254" layer="1"/>
@@ -7758,21 +7773,20 @@ design rules under a new name.</description>
 <wire x1="46.375" y1="45.95" x2="46.375" y2="46.625" width="0.254" layer="1"/>
 <wire x1="46.375" y1="46.625" x2="46.875" y2="46.625" width="0.254" layer="1"/>
 <wire x1="46.875" y1="46.625" x2="47" y2="46.5" width="0.254" layer="1"/>
-<wire x1="47" y1="46.5" x2="55" y2="46.5" width="0.254" layer="1"/>
-<wire x1="55" y1="46.5" x2="60" y2="46.5" width="0.254" layer="1"/>
+<wire x1="47" y1="46.5" x2="54.5" y2="46.5" width="0.254" layer="1"/>
+<wire x1="54.5" y1="46.5" x2="60" y2="46.5" width="0.254" layer="1"/>
 <wire x1="60.25" y1="46.75" x2="60.25" y2="47.75" width="0.254" layer="1"/>
 <wire x1="60.25" y1="46.75" x2="60" y2="46.5" width="0.254" layer="1"/>
 <wire x1="60.25" y1="45.21" x2="60.25" y2="46.25" width="0.254" layer="1"/>
 <wire x1="60.25" y1="46.25" x2="60" y2="46.5" width="0.254" layer="1"/>
-<wire x1="55" y1="46.5" x2="55" y2="57" width="0.254" layer="1"/>
 <wire x1="8.5" y1="52" x2="7.5" y2="51" width="0.254" layer="16"/>
 <wire x1="7.5" y1="51" x2="7.5" y2="47" width="0.254" layer="16"/>
 <wire x1="7.5" y1="47" x2="7.99" y2="46.51" width="0.254" layer="16"/>
 <wire x1="7.99" y1="46.51" x2="8.97" y2="46.51" width="0.254" layer="16"/>
-<wire x1="22" y1="52" x2="8.5" y2="52" width="0.254" layer="16"/>
+<wire x1="8.5" y1="52" x2="22" y2="52" width="0.254" layer="16"/>
 <wire x1="54.916" y1="72.952" x2="55" y2="73.036" width="0.254" layer="1"/>
 <wire x1="55" y1="73.036" x2="55" y2="76" width="0.254" layer="1"/>
-<wire x1="55" y1="57" x2="54.75" y2="57.25" width="0.254" layer="1"/>
+<wire x1="54.75" y1="57.25" x2="55" y2="57" width="0.254" layer="1"/>
 <wire x1="54.75" y1="57.25" x2="52.1" y2="57.25" width="0.254" layer="1"/>
 <wire x1="52.1" y1="57.25" x2="51.5" y2="57.85" width="0.254" layer="1"/>
 <wire x1="51.5" y1="57.85" x2="51.5" y2="58.5" width="0.254" layer="1"/>
@@ -7781,6 +7795,13 @@ design rules under a new name.</description>
 <wire x1="50.5" y1="58" x2="49.85" y2="58" width="0.254" layer="1"/>
 <wire x1="28.725" y1="74.5" x2="28.725" y2="75.725" width="0.254" layer="1"/>
 <wire x1="28.725" y1="75.725" x2="29" y2="76" width="0.254" layer="1"/>
+<contactref element="J9" pad="2"/>
+<wire x1="25.46" y1="52" x2="26" y2="52.54" width="0.254" layer="16"/>
+<wire x1="22" y1="52" x2="25.46" y2="52" width="0.254" layer="16"/>
+<wire x1="55" y1="57" x2="55" y2="47" width="0.254" layer="1"/>
+<wire x1="55" y1="47" x2="54.5" y2="46.5" width="0.254" layer="1"/>
+<wire x1="23" y1="58.5" x2="28.35" y2="58.5" width="0.254" layer="1"/>
+<wire x1="28.35" y1="58.5" x2="28.85" y2="59" width="0.254" layer="1"/>
 </signal>
 <signal name="SCNN">
 <contactref element="MC1" pad="8"/>
@@ -7837,9 +7858,9 @@ design rules under a new name.</description>
 <wire x1="49.5" y1="69" x2="49.5" y2="60" width="0.254" layer="16"/>
 <wire x1="46" y1="72.5" x2="49.5" y2="69" width="0.254" layer="16"/>
 <wire x1="49.5" y1="60" x2="45.8" y2="60" width="0.254" layer="1"/>
-<via x="54" y="23" extent="1-16" drill="0.381"/>
-<wire x1="54" y1="23" x2="57.5" y2="23" width="0.254" layer="16"/>
-<wire x1="36.5" y1="23" x2="54" y2="23" width="0.254" layer="1"/>
+<via x="54.5" y="23" extent="1-16" drill="0.381"/>
+<wire x1="54.5" y1="23" x2="57.5" y2="23" width="0.254" layer="16"/>
+<wire x1="36.5" y1="23" x2="54.5" y2="23" width="0.254" layer="1"/>
 <via x="39.5" y="73.5" extent="1-16" drill="0.381"/>
 <wire x1="39.5" y1="73.5" x2="40.5" y2="72.5" width="0.254" layer="16"/>
 <wire x1="40.5" y1="72.5" x2="46" y2="72.5" width="0.254" layer="16"/>
@@ -7957,53 +7978,59 @@ design rules under a new name.</description>
 </signal>
 <signal name="SCLK_POGO">
 <contactref element="U1" pad="2"/>
-<contactref element="J2" pad="3"/>
 <wire x1="31.125" y1="45.3" x2="30.2" y2="45.3" width="0.254" layer="1"/>
 <wire x1="30.2" y1="45.3" x2="30" y2="45.5" width="0.254" layer="1"/>
-<wire x1="30" y1="45.5" x2="30" y2="51.5" width="0.254" layer="1"/>
-<wire x1="27.27" y1="52" x2="29.5" y2="52" width="0.254" layer="1"/>
-<wire x1="29.5" y1="52" x2="30" y2="51.5" width="0.254" layer="1"/>
+<contactref element="J9" pad="3"/>
+<wire x1="28.54" y1="49.9629" x2="28.54" y2="50" width="0.254" layer="1"/>
+<wire x1="30" y1="45.5" x2="30" y2="48.5029" width="0.254" layer="1"/>
+<wire x1="30" y1="48.5029" x2="28.54" y2="49.9629" width="0.254" layer="1"/>
 </signal>
 <signal name="MOSI_POGO">
 <contactref element="U1" pad="10"/>
-<contactref element="J2" pad="4"/>
-<wire x1="24.73" y1="52" x2="25.5" y2="52" width="0.254" layer="1"/>
-<wire x1="25.5" y1="52" x2="26" y2="51.5" width="0.254" layer="1"/>
-<wire x1="26" y1="51.5" x2="26" y2="48.5" width="0.254" layer="1"/>
-<wire x1="26" y1="48.5" x2="26.5" y2="48" width="0.254" layer="1"/>
-<wire x1="26.5" y1="48" x2="28.5" y2="48" width="0.254" layer="1"/>
-<wire x1="28.5" y1="48" x2="29" y2="47.5" width="0.254" layer="1"/>
-<wire x1="29" y1="47.5" x2="29" y2="41.5" width="0.254" layer="1"/>
+<wire x1="29" y1="41.5" x2="29" y2="46" width="0.254" layer="1"/>
 <wire x1="29" y1="41.5" x2="29.5" y2="41" width="0.254" layer="1"/>
 <wire x1="29.5" y1="41" x2="31.5" y2="41" width="0.254" layer="1"/>
 <wire x1="33.85" y1="43.35" x2="36.875" y2="43.35" width="0.254" layer="1"/>
 <wire x1="31.5" y1="41" x2="33.85" y2="43.35" width="0.254" layer="1"/>
+<contactref element="J9" pad="4"/>
+<wire x1="29" y1="46" x2="29" y2="47.32908125" width="0.254" layer="1"/>
+<wire x1="29" y1="47.32908125" x2="28.664540625" y2="47.664540625" width="0.254" layer="1"/>
+<via x="28.664540625" y="47.664540625" extent="1-16" drill="0.381"/>
+<wire x1="28.664540625" y1="47.664540625" x2="29" y2="48" width="0.254" layer="16"/>
+<wire x1="29" y1="48" x2="31.5" y2="48" width="0.254" layer="16"/>
+<wire x1="31.5" y1="48" x2="32.5" y2="49" width="0.254" layer="16"/>
+<wire x1="32.5" y1="49" x2="32.5" y2="53" width="0.254" layer="16"/>
+<wire x1="32.5" y1="53" x2="31.5" y2="54" width="0.254" layer="16"/>
+<wire x1="31.5" y1="54" x2="30" y2="54" width="0.254" layer="16"/>
+<wire x1="30" y1="54" x2="28.54" y2="52.54" width="0.254" layer="16"/>
 </signal>
 <signal name="MISO_POGO">
 <contactref element="U1" pad="3"/>
-<contactref element="J2" pad="1"/>
 <wire x1="31.125" y1="44.65" x2="29.85" y2="44.65" width="0.254" layer="1"/>
+<contactref element="J9" pad="1"/>
 <wire x1="29.85" y1="44.65" x2="29.5" y2="45" width="0.254" layer="1"/>
-<wire x1="29.5" y1="45" x2="29.5" y2="49" width="0.254" layer="1"/>
-<wire x1="27.27" y1="49.46" x2="29.04" y2="49.46" width="0.254" layer="1"/>
-<wire x1="29.04" y1="49.46" x2="29.5" y2="49" width="0.254" layer="1"/>
+<wire x1="29.5" y1="45" x2="29.5" y2="48" width="0.254" layer="1"/>
+<wire x1="29.5" y1="48" x2="29" y2="48.5" width="0.254" layer="1"/>
+<wire x1="29" y1="48.5" x2="27.5" y2="48.5" width="0.254" layer="1"/>
+<wire x1="27.5" y1="48.5" x2="26" y2="50" width="0.254" layer="1"/>
 </signal>
 <signal name="RST_MC_POGO">
 <contactref element="U1" pad="9"/>
-<contactref element="J2" pad="5"/>
 <wire x1="36.875" y1="42.7" x2="37.8" y2="42.7" width="0.254" layer="1"/>
 <wire x1="37.8" y1="42.7" x2="38" y2="42.5" width="0.254" layer="1"/>
 <wire x1="38" y1="42.5" x2="38" y2="41" width="0.254" layer="1"/>
 <wire x1="38" y1="41" x2="37.5" y2="40.5" width="0.254" layer="1"/>
 <wire x1="37.5" y1="40.5" x2="29.4252625" y2="40.5" width="0.254" layer="1"/>
 <wire x1="29.4252625" y1="40.5" x2="28.5" y2="41.4252625" width="0.254" layer="1"/>
-<wire x1="28.5" y1="46.5" x2="28" y2="47" width="0.254" layer="1"/>
-<via x="28" y="47" extent="1-16" drill="0.381"/>
-<wire x1="28" y1="47" x2="29" y2="48" width="0.254" layer="16"/>
-<wire x1="29" y1="48" x2="29" y2="53.81" width="0.254" layer="16"/>
-<wire x1="29" y1="53.81" x2="28.27" y2="54.54" width="0.254" layer="16"/>
-<wire x1="28.27" y1="54.54" x2="27.27" y2="54.54" width="0.254" layer="16"/>
-<wire x1="28.5" y1="41.4252625" x2="28.5" y2="46.5" width="0.254" layer="1"/>
+<wire x1="28.5" y1="46" x2="27.5" y2="47" width="0.254" layer="1"/>
+<via x="27.5" y="47" extent="1-16" drill="0.381"/>
+<wire x1="28.5" y1="41.4252625" x2="28.5" y2="46" width="0.254" layer="1"/>
+<contactref element="J9" pad="5"/>
+<wire x1="27.5" y1="47" x2="27.5" y2="47.5" width="0.254" layer="16"/>
+<wire x1="27.5" y1="47.5" x2="28.5" y2="48.5" width="0.254" layer="16"/>
+<wire x1="28.5" y1="48.5" x2="30.5" y2="48.5" width="0.254" layer="16"/>
+<wire x1="30.5" y1="48.5" x2="31.08" y2="49.08" width="0.254" layer="16"/>
+<wire x1="31.08" y1="49.08" x2="31.08" y2="50" width="0.254" layer="16"/>
 </signal>
 <signal name="DEVICE_SWITCH">
 <contactref element="U2" pad="13"/>
