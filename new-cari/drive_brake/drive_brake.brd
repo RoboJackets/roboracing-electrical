@@ -170,10 +170,14 @@
 <hole x="4" y="62" drill="4"/>
 <hole x="70" y="62" drill="4"/>
 <hole x="4" y="3" drill="4"/>
-<text x="69.5" y="43.5" size="1" layer="51" font="vector" ratio="12" rot="R90">Roboracing
+<text x="57.5" y="47.5" size="1" layer="52" font="vector" ratio="12" rot="MR0">Roboracing
 EVGP Drive/Brake Control Board
 Revision 1.0
 November 2019</text>
+<wire x1="58" y1="55" x2="58" y2="46" width="0.1524" layer="52"/>
+<wire x1="58" y1="46" x2="37" y2="46" width="0.1524" layer="52"/>
+<wire x1="37" y1="46" x2="34" y2="49" width="0.1524" layer="52"/>
+<wire x1="34" y1="49" x2="34" y2="55" width="0.1524" layer="52"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -6208,8 +6212,20 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-11284" x="56.3" y="38.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="56.3" y="38.038" size="1.27" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="E$1" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.6X" value="" x="5" y="42"/>
-<element name="E$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="21" y="60"/>
+<element name="E$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="58" y="55" rot="MR0"/>
+<element name="E$3" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.6X" value="" x="64" y="47" rot="MR0"/>
+<element name="J10" library="drive_brake" package="SHDR2W80P0X250_1X2_740X1150X61" value="S2B-XH-A_(LF)(SN)" x="8.75" y="45.5" rot="R90">
+<attribute name="DESCRIPTION" value="JST (JAPAN SOLDERLESS TERMINALS) - S2B-XH-A (LF)(SN) - CONNECTOR, HEADER, THT, R/A, 2.5MM, 2WAY" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="6.1mm" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S2B-XH-A (LF)(SN)" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="NAME" x="-4.25" y="30.5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-4.25" y="30.5" size="1" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="VALUE" x="-4.25" y="30.5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6324,10 +6340,9 @@ design rules under a new name.</description>
 <wire x1="43.72" y1="34.72" x2="43.7" y2="34.7" width="0.25" layer="1"/>
 <via x="43.7" y="34.7" extent="1-16" drill="0.35"/>
 <wire x1="38.759734375" y1="35.051134375" x2="38.759734375" y2="35.940265625" width="0.25" layer="1"/>
-<wire x1="38.759734375" y1="35.940265625" x2="38.3" y2="36.4" width="0.25" layer="1"/>
-<wire x1="38.3" y1="36.4" x2="38.02011875" y2="36.4" width="0.25" layer="1"/>
-<wire x1="38.02011875" y1="36.4" x2="37.949028125" y2="36.328909375" width="0.25" layer="1"/>
-<via x="37.949028125" y="36.328909375" extent="1-16" drill="0.35"/>
+<wire x1="38.759734375" y1="35.940265625" x2="38.699028125" y2="36.000934375" width="0.25" layer="1"/>
+<wire x1="38.699028125" y1="38.078909375" x2="38.699028125" y2="36.000934375" width="0.25" layer="1"/>
+<via x="38.699028125" y="38.078909375" extent="1-16" drill="0.35"/>
 <wire x1="33.97" y1="38.96" x2="34.01" y2="39" width="0.25" layer="1"/>
 <wire x1="34.01" y1="39" x2="35.5" y2="39" width="0.25" layer="1"/>
 <via x="35.5" y="39" extent="1-16" drill="0.35"/>
@@ -6353,6 +6368,7 @@ design rules under a new name.</description>
 <via x="23" y="23" extent="1-16" drill="0.35"/>
 <wire x1="61.85" y1="38" x2="61.85" y2="35" width="0.25" layer="1"/>
 <contactref element="J5" pad="3"/>
+<contactref element="J10" pad="2"/>
 </signal>
 <signal name="N$1">
 <contactref element="MCU" pad="42"/>
@@ -7062,6 +7078,11 @@ design rules under a new name.</description>
 <wire x1="56" y1="30.46" x2="47.46" y2="30.46" width="0.25" layer="1"/>
 <wire x1="56" y1="30.46" x2="64.68" y2="39.14" width="0.25" layer="16"/>
 <wire x1="64.68" y1="39.14" x2="64.86" y2="39.14" width="0.25" layer="16"/>
+</signal>
+<signal name="THROTTLE_OUT" class="3">
+<contactref element="J10" pad="1"/>
+<contactref element="MCU" pad="36"/>
+<wire x1="8.75" y1="45.5" x2="37.9597375" y2="35.048340625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
