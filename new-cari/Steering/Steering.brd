@@ -219,9 +219,9 @@ Nov. 2019
 <text x="55.5" y="22.5" size="1" layer="25" font="vector" ratio="12" rot="SR270">EA-</text>
 <text x="52" y="23" size="1" layer="25" font="vector" ratio="12" rot="SR270">+5V</text>
 <text x="48.5" y="23" size="1" layer="25" font="vector" ratio="12" rot="SR270">GND</text>
-<text x="22" y="23" size="1" layer="25" font="vector" ratio="12" rot="SR270">+24V</text>
+<text x="22" y="23.5" size="1" layer="25" font="vector" ratio="12" rot="SR270">+24V</text>
 <text x="18.5" y="23" size="1" layer="25" font="vector" ratio="12" rot="SR270">GND</text>
-<text x="15" y="23" size="1" layer="25" font="vector" ratio="12" rot="SR270">NC</text>
+<text x="15" y="22.5" size="1" layer="25" font="vector" ratio="12" rot="SR270">NC</text>
 <wire x1="52" y1="42" x2="52" y2="36.5" width="0.254" layer="25"/>
 <wire x1="52" y1="36.5" x2="62" y2="36.5" width="0.254" layer="25"/>
 <wire x1="52" y1="36.5" x2="52" y2="31.5" width="0.254" layer="25"/>
@@ -7261,7 +7261,7 @@ design rules under a new name.</description>
 </element>
 <element name="J3" library="Steering" package="MOLEX_5025850670" value="MOLEX_5025850670" x="37.54" y="14.12" smashed="yes"/>
 <element name="R2" library="RoboJackets-Resistors" package="R0603W" value="10KΩ" x="29.5" y="74.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.5" y="74" size="1" layer="25" font="vector"/>
+<attribute name="NAME" x="28.75" y="72.5" size="1" layer="25" font="vector"/>
 </element>
 <element name="J4" library="Steering" package="NONASSMANN_VGA_CONNECTOR" value="NONASSMANN_VGA_CONNECTOR" x="5.08" y="44.2" smashed="yes" rot="R90">
 <attribute name="DKPN" value="A35121-ND" x="5.08" y="44.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7464,8 +7464,8 @@ design rules under a new name.</description>
 <via x="56.5" y="58.5" extent="1-16" drill="0.381"/>
 <wire x1="27.15" y1="60" x2="25" y2="60" width="0.254" layer="1"/>
 <via x="25" y="60" extent="1-16" drill="0.381"/>
-<wire x1="48.15" y1="58" x2="47.65" y2="57.5" width="0.254" layer="1"/>
-<wire x1="47.65" y1="57.5" x2="46.5" y2="57.5" width="0.254" layer="1"/>
+<wire x1="48.15" y1="58" x2="47" y2="58" width="0.254" layer="1"/>
+<wire x1="47" y1="58" x2="46.5" y2="57.5" width="0.254" layer="1"/>
 <via x="46.5" y="57.5" extent="1-16" drill="0.381"/>
 <wire x1="34.2" y1="60.8" x2="32.0269" y2="60.8" width="0.254" layer="1"/>
 <wire x1="32.0269" y1="60.8" x2="32" y2="60.8269" width="0.254" layer="1"/>
