@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18770,8 +18770,8 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="VALUE" x="215.89721875" y="48.2531" size="1.77896875" layer="96"/>
 </instance>
 <instance part="Y1" gate="G$1" x="244.602" y="209.55" smashed="yes" rot="R90">
-<attribute name="NAME" x="243.586" y="212.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="247.142" y="212.09" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="243.586" y="212.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.062" y="204.47" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="226.822" y="204.47" smashed="yes">
 <attribute name="NAME" x="227.838" y="205.105" size="1.778" layer="95"/>
@@ -19123,58 +19123,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="203.962" y1="222.25" x2="203.962" y2="214.63" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCNN_ETH" class="3">
-<segment>
-<pinref part="MCU" gate="G$1" pin="PB0(SS)"/>
-<wire x1="300.482" y1="207.01" x2="303.022" y2="207.01" width="0.1524" layer="91"/>
-<label x="303.076" y="207.01" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
-<wire x1="318.77" y1="143.51" x2="321.31" y2="143.51" width="0.1524" layer="91"/>
-<label x="322.15" y="144.11" size="1.778" layer="95" xref="yes"/>
-<wire x1="318.77" y1="143.51" x2="318.77" y2="151.13" width="0.1524" layer="91"/>
-<junction x="318.77" y="143.51"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="318.77" y1="151.13" x2="323.85" y2="151.13" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCLK_ETH" class="3">
-<segment>
-<pinref part="MCU" gate="G$1" pin="PB1(SCK)"/>
-<wire x1="300.482" y1="209.55" x2="303.022" y2="209.55" width="0.1524" layer="91"/>
-<label x="303.076" y="209.55" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
-<wire x1="318.77" y1="138.43" x2="321.31" y2="138.43" width="0.1524" layer="91"/>
-<label x="322.22" y="139.04" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MOSI_ETH" class="3">
-<segment>
-<pinref part="MCU" gate="G$1" pin="PB2(PDI/MOSI)"/>
-<wire x1="300.482" y1="212.09" x2="303.022" y2="212.09" width="0.1524" layer="91"/>
-<label x="303.076" y="212.09" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
-<wire x1="318.77" y1="128.27" x2="321.31" y2="128.27" width="0.1524" layer="91"/>
-<label x="322.16" y="128.89" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MISO_ETH" class="3">
-<segment>
-<pinref part="MCU" gate="G$1" pin="PB3(PDO/MISO)"/>
-<wire x1="300.482" y1="214.63" x2="303.022" y2="214.63" width="0.1524" layer="91"/>
-<label x="303.022" y="214.63" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
-<wire x1="318.77" y1="133.35" x2="321.31" y2="133.35" width="0.1524" layer="91"/>
-<label x="322.18" y="133.94" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <wire x1="124.46" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
@@ -19299,6 +19247,11 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="5"/>
+<wire x1="177.8" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91" style="longdash"/>
+<label x="175.072" y="142.176" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D_P" class="2">
 <segment>
@@ -19357,8 +19310,9 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="Y1" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="MCU" gate="G$1" pin="XTAL2"/>
-<wire x1="244.602" y1="207.01" x2="249.682" y2="204.47" width="0.1524" layer="91"/>
 <wire x1="249.682" y1="204.47" x2="252.222" y2="204.47" width="0.1524" layer="91"/>
+<wire x1="244.602" y1="207.01" x2="249.682" y2="207.01" width="0.1524" layer="91"/>
+<wire x1="249.682" y1="207.01" x2="249.682" y2="204.47" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -19420,11 +19374,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="288.29" y1="128.27" x2="283.21" y2="128.27" width="0.1524" layer="91"/>
 <label x="283.08" y="128.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="MCU" gate="G$1" pin="PD4(ICP1/ADC8)"/>
-<wire x1="300.482" y1="194.31" x2="303.022" y2="194.31" width="0.1524" layer="91" style="longdash"/>
-<label x="303.022" y="194.31" size="0.8128" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="INT_ETH" class="3">
 <segment>
@@ -19438,59 +19387,11 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <label x="303.12" y="184.14" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MISO_POGO" class="3">
-<segment>
-<pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91" style="longdash"/>
-<label x="175.122" y="147.246" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="G$1" pin="PD3(INT3/TXD1)"/>
-<wire x1="300.482" y1="191.77" x2="303.022" y2="191.77" width="0.1524" layer="91" style="longdash"/>
-<label x="303.022" y="191.77" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="POGO_RST" class="3">
-<segment>
-<pinref part="J9" gate="G$1" pin="5"/>
-<wire x1="177.8" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91" style="longdash"/>
-<label x="175.072" y="142.176" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-<wire x1="300.482" y1="201.93" x2="303.022" y2="201.93" width="0.1524" layer="91"/>
-<label x="303.022" y="201.93" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MOSI_POGO" class="3">
-<segment>
-<pinref part="J9" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91" style="longdash"/>
-<label x="200.738" y="144.726" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="G$1" pin="PD2(INT2/RXD1)"/>
-<wire x1="300.482" y1="189.23" x2="303.022" y2="189.23" width="0.1524" layer="91" style="longdash"/>
-<label x="303.022" y="189.23" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SCK_POGO" class="3">
-<segment>
-<pinref part="J9" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91" style="longdash"/>
-<label x="175.036" y="144.706" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
 <wire x1="300.482" y1="199.39" x2="303.022" y2="199.39" width="0.1524" layer="91"/>
 <label x="303.022" y="199.39" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SCLK_POGO" class="3">
-<segment>
-<pinref part="MCU" gate="G$1" pin="PD1(INT1/SDA)"/>
-<wire x1="300.482" y1="186.69" x2="303.022" y2="186.69" width="0.1524" layer="91" style="longdash"/>
-<label x="303.022" y="186.69" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_EN" class="3">
@@ -19702,6 +19603,73 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="U$2" gate="POE-DEMO" pin="+5V"/>
 <wire x1="267.97" y1="133.35" x2="288.29" y2="133.35" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCNN" class="3">
+<segment>
+<pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
+<wire x1="318.77" y1="143.51" x2="321.31" y2="143.51" width="0.1524" layer="91"/>
+<label x="322.15" y="144.11" size="1.778" layer="95" xref="yes"/>
+<wire x1="318.77" y1="143.51" x2="318.77" y2="151.13" width="0.1524" layer="91"/>
+<junction x="318.77" y="143.51"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="318.77" y1="151.13" x2="323.85" y2="151.13" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="PB0(SS)"/>
+<wire x1="300.482" y1="207.01" x2="303.022" y2="207.01" width="0.1524" layer="91"/>
+<label x="303.076" y="207.01" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SCLK" class="3">
+<segment>
+<pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
+<wire x1="318.77" y1="138.43" x2="321.31" y2="138.43" width="0.1524" layer="91"/>
+<label x="322.22" y="139.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="3"/>
+<wire x1="177.8" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91" style="longdash"/>
+<label x="175.036" y="144.706" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="PB1(SCK)"/>
+<wire x1="300.482" y1="209.55" x2="303.022" y2="209.55" width="0.1524" layer="91"/>
+<label x="303.076" y="209.55" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="3">
+<segment>
+<pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
+<wire x1="318.77" y1="133.35" x2="321.31" y2="133.35" width="0.1524" layer="91"/>
+<label x="322.18" y="133.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91" style="longdash"/>
+<label x="175.122" y="147.246" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="PB3(PDO/MISO)"/>
+<wire x1="300.482" y1="214.63" x2="303.022" y2="214.63" width="0.1524" layer="91"/>
+<label x="303.022" y="214.63" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI" class="3">
+<segment>
+<pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
+<wire x1="318.77" y1="128.27" x2="321.31" y2="128.27" width="0.1524" layer="91"/>
+<label x="322.16" y="128.89" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="4"/>
+<wire x1="195.58" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91" style="longdash"/>
+<label x="200.738" y="144.726" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="PB2(PDI/MOSI)"/>
+<wire x1="300.482" y1="212.09" x2="303.022" y2="212.09" width="0.1524" layer="91"/>
+<label x="303.076" y="212.09" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
