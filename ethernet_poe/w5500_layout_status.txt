@@ -1,8 +1,0 @@
-Checked:
- - SPI bus
- - INTn
- - RSVD*
- - 3V3_A
- - RSTn
- - Jack components
- 
