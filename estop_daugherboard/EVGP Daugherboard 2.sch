@@ -19241,6 +19241,11 @@ and PB0(SS) tri-stated</text>
 <label x="142.24" y="-10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="RADIO" gate="G$1" pin="D1"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PD1(INT1/SDA)"/>
+<wire x1="116.84" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
+<label x="121.92" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="STEERING_EN_RB" class="0">
 <segment>
@@ -19254,6 +19259,11 @@ and PB0(SS) tri-stated</text>
 <wire x1="142.24" y1="-12.7" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
 <label x="142.24" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PD0(INT0/OC0B/SCL)"/>
+<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DRIVE_EN_DB" class="0">
 <segment>
@@ -19262,9 +19272,9 @@ and PB0(SS) tri-stated</text>
 <label x="114.3" y="-22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PD2(INT2/RXD1)"/>
-<wire x1="116.84" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
-<label x="121.92" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD3(INT3/TXD1)"/>
+<wire x1="116.84" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
+<label x="121.92" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_EN_DB" class="0">
@@ -19274,9 +19284,9 @@ and PB0(SS) tri-stated</text>
 <label x="73.66" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PD1(INT1/SDA)"/>
-<wire x1="116.84" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<label x="121.92" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD2(INT2/RXD1)"/>
+<wire x1="116.84" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<label x="121.92" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_EN" class="0">
