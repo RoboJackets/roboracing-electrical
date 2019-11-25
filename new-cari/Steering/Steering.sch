@@ -39186,6 +39186,100 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="RoboJackets-LEDs">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - LEDs&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find LEDs and other visual output devices.
+&lt;/p&gt;</description>
+<packages>
+<package name="CHIP-LED0603">
+<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
+<polygon width="0.1" layer="21">
+<vertex x="-0.3" y="-0.2"/>
+<vertex x="0" y="0.2"/>
+<vertex x="0.3" y="-0.2"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="0.381"/>
+<vertex x="-3.048" y="1.27"/>
+<vertex x="-2.54" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-0.762"/>
+<vertex x="-2.921" y="0.127"/>
+<vertex x="-2.413" y="-0.381"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED-SMD" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIP-LED0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="-BLUE">
+<attribute name="DIGIKEY" value="160-1647-1-ND" constant="no"/>
+<attribute name="MPN" value="LTST-C191TBKT" constant="no"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIGIKEY" value="160-1446-1-ND" constant="no"/>
+<attribute name="MPN" value="LTST-C191KGKT" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIGIKEY" value="160-1447-1-ND" constant="no"/>
+<attribute name="MPN" value="LTST-C191KRKT" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIGIKEY" value="160-1448-1-ND" constant="no"/>
+<attribute name="MPN" value="LTST-C191KSKT" constant="no"/>
+<attribute name="VALUE" value="YELLOW" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHORS" value="Austin Keener, Peter Wilson, Johannes Kunz, Mukund Pandiri"/>
@@ -39288,6 +39382,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="TP_15TH_THRU" package3d_urn="urn:adsk.eagle:package:38288/1"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="PTH" package3d_urn="urn:adsk.eagle:package:38016/1"/>
+<part name="D7" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
+<part name="R5" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="200Ω"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -39359,6 +39456,7 @@ D7</text>
 <text x="355.854" y="77.724" size="1.778" layer="97">+24V From Robot</text>
 <text x="105.918" y="138.136" size="2.54" layer="97">SPI Select Switches</text>
 <text x="380.238" y="77.724" size="1.778" layer="97">Screw Terminal to Stepper</text>
+<text x="183.642" y="260.858" size="1.778" layer="95">Status LED</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="33.02" y="111.76" smashed="yes">
@@ -39648,6 +39746,16 @@ D7</text>
 <attribute name="NAME" x="27.94" y="220.218" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="27.94" y="207.264" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="D7" gate="G$1" x="187.96" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="182.88" y="256.54" size="1.778" layer="95"/>
+</instance>
+<instance part="R5" gate="G$1" x="200.66" y="254" smashed="yes">
+<attribute name="NAME" x="196.85" y="255.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.85" y="250.698" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="208.28" y="248.92" smashed="yes">
+<attribute name="VALUE" x="206.375" y="245.745" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -39827,6 +39935,12 @@ D7</text>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="88.9" y1="228.6" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="228.6" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="PIN2"/>
+<wire x1="205.74" y1="254" x2="208.28" y2="254" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="254" x2="208.28" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="RST_MC" class="0">
@@ -40547,6 +40661,20 @@ D7</text>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="193.04" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
 <junction x="243.84" y="185.42"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="MC1" gate="G$1" pin="PF4(ADC4/TCK)"/>
+<wire x1="175.26" y1="254" x2="182.88" y2="254" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="PIN1"/>
+<pinref part="D7" gate="G$1" pin="K"/>
+<wire x1="195.58" y1="254" x2="190.5" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
