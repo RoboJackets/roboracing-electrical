@@ -7209,7 +7209,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="165.32" y="-45.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S1" library="RoboJackets-Switches" package="KMR2" value="KMR2" x="62.59" y="39.66" smashed="yes" rot="R180">
-<attribute name="FUNCTION" value="Reset" x="61.09" y="41.565" size="1" layer="25" font="vector"/>
+<attribute name="FUNCTION" value="RST" x="61.59" y="41.565" size="1" layer="25" font="vector"/>
 <attribute name="NAME" x="62.13" y="36.755" size="1" layer="25" font="vector"/>
 </element>
 <element name="U$2" library="ethernet_poe" package="HDRVR10W64P4000X254_2X5_1016X508X254B" package3d_urn="urn:adsk.eagle:package:14970482/1" value="ETH-POE" x="7.64" y="37.09" smashed="yes"/>
@@ -7234,11 +7234,13 @@ design rules under a new name.</description>
 <element name="X1" library="RoboJackets-FreqGen" package="XTAL-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 " x="71.04" y="45.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.64" y="47.2" size="1" layer="25" font="vector"/>
 </element>
-<element name="J2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="JST-XH-02-PIN-LONG-PAD" x="84.39" y="11.51" smashed="yes" rot="R90">
+<element name="J2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="DRIVE" x="84.39" y="11.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.43" y="6.255" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="80.4925" y="9.7975" size="1" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="J1" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="JST-XH-02-PIN-LONG-PAD" x="84.39" y="0.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="84.43" y="-4.335" size="1" layer="25" font="vector"/>
+<element name="J1" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="STEERING" x="84.39" y="0.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.33" y="-4.235" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="80.4825" y="-2.2025" size="1" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="J4" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-03-PACKAGE-LONG-PAD" value="JST-XH-03-PIN-LONG-PAD" x="84.38" y="39.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.42" y="33.285" size="1" layer="25" font="vector"/>
