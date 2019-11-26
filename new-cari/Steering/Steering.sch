@@ -39367,7 +39367,7 @@ In this library you will find LEDs and other visual output devices.
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="5V_MC"/>
 <part name="D2" library="Steering" deviceset="LED_AA3528VRVCS/A" device=""/>
 <part name="R8" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="100Ω"/>
-<part name="D4" library="Steering" deviceset="LED_AA3528VRVCS/A" device=""/>
+<part name="D4" library="Steering" deviceset="LED_AA3528VRVCS/A" device="" value="PINK"/>
 <part name="R11" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="100Ω"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D3" library="Steering" deviceset="LED_AA3528VRVCS/A" device=""/>
@@ -39457,6 +39457,7 @@ D7</text>
 <text x="105.918" y="138.136" size="2.54" layer="97">SPI Select Switches</text>
 <text x="380.238" y="77.724" size="1.778" layer="97">Screw Terminal to Stepper</text>
 <text x="183.642" y="260.858" size="1.778" layer="95">Status LED</text>
+<text x="87.122" y="253.238" size="1.778" layer="95">Power Status LED</text>
 </plain>
 <instances>
 <instance part="SUPPLY2" gate="GND" x="33.02" y="111.76" smashed="yes">
@@ -40611,12 +40612,6 @@ D7</text>
 <pinref part="J7" gate="G$1" pin="3"/>
 <wire x1="378.46" y1="60.96" x2="386.08" y2="60.96" width="0.1524" layer="91"/>
 <label x="370.586" y="71.374" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="386.08" y1="71.12" x2="383.54" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
