@@ -7214,7 +7214,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="ethernet_poe" package="HDRVR10W64P4000X254_2X5_1016X508X254B" package3d_urn="urn:adsk.eagle:package:14970482/1" value="ETH-POE" x="7.64" y="37.09" smashed="yes"/>
 <element name="U2" library="estop-v1.0" package="TQFP44" value="ATMEGA32U4-AU" x="71.25" y="56.26" smashed="yes">
-<attribute name="NAME" x="70.44" y="55.745" size="1" layer="25" font="vector"/>
+<attribute name="NAME" x="64.94" y="50.245" size="1" layer="25" font="vector"/>
 </element>
 <element name="U1" library="Daughterboard-Stuff" package="US8_2P40X2P10" value="NL27WZ08USG" x="73.06" y="7.07" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="NL27WZ08USG" x="121.32" y="-116.12" size="1.778" layer="27" display="off"/>
