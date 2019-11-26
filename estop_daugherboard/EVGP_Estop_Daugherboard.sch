@@ -21585,7 +21585,7 @@ by exp-lbrs.ulp</description>
 <part name="J6" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLUE"/>
+<part name="DEVICE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLUE"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330Ω"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21820,7 +21820,7 @@ and PB0(SS) tri-stated</text>
 <attribute name="NAME" x="21.336" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="21.336" y="117.729" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="157.48" y="193.04" smashed="yes">
+<instance part="DEVICE" gate="G$1" x="157.48" y="193.04" smashed="yes">
 <attribute name="NAME" x="161.036" y="188.468" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="163.195" y="188.468" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -22463,7 +22463,7 @@ and PB0(SS) tri-stated</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="DEVICE" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="187.96" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
 </segment>
@@ -22472,7 +22472,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <wire x1="157.48" y1="195.58" x2="157.48" y2="200.66" width="0.1524" layer="91"/>
 <label x="157.48" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="DEVICE" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PD5(XCK/CTS)"/>
