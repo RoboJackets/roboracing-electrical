@@ -736,17 +736,17 @@
 </packages>
 <symbols>
 <symbol name="LT1930ES5TRMPBF">
-<pin name="SW" x="-22.86" y="2.54" length="middle" direction="pas"/>
-<pin name="GND" x="-22.86" y="0" length="middle" direction="pwr"/>
-<pin name="FB" x="-22.86" y="-2.54" length="middle" direction="in"/>
-<pin name="!SHDN" x="33.02" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="VIN" x="33.02" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="27.94" y1="-7.62" x2="27.94" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="27.94" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="94"/>
-<text x="0.3556" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-0.2794" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="SW" x="-15.24" y="2.54" length="middle" direction="pas"/>
+<pin name="GND" x="-15.24" y="0" length="middle" direction="pwr"/>
+<pin name="FB" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="!SHDN" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="VIN" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<text x="-2.1844" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.8194" y="9.1186" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="MBR0520LT1G">
 <pin name="1" x="2.54" y="0" length="middle" direction="pas"/>
