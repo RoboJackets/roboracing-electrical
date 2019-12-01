@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
@@ -3103,8 +3103,8 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="0" y1="0" x2="0" y2="25" width="0.127" layer="21"/>
 <wire x1="0" y1="25" x2="0" y2="41.5" width="0.127" layer="21"/>
 <wire x1="0" y1="41.5" x2="0" y2="50" width="0.127" layer="21"/>
-<hole x="3" y="47" drill="3.3"/>
-<hole x="41" y="47" drill="3.3"/>
+<hole x="4" y="46" drill="3.3"/>
+<hole x="40" y="46" drill="3.3"/>
 <wire x1="0" y1="25" x2="20" y2="25" width="0.127" layer="21"/>
 <wire x1="20" y1="25" x2="20" y2="41.5" width="0.127" layer="21"/>
 <wire x1="20" y1="41.5" x2="0" y2="41.5" width="0.127" layer="21"/>
@@ -8230,11 +8230,11 @@ design rules under a new name.</description>
 <via x="43" y="22" extent="1-16" drill="0.381"/>
 <wire x1="43" y1="22" x2="43" y2="30" width="0.254" layer="16"/>
 <via x="43" y="30" extent="1-16" drill="0.381"/>
-<wire x1="76" y1="31.5" x2="76" y2="57" width="0.254" layer="1"/>
+<wire x1="76" y1="32.5" x2="76" y2="57" width="0.254" layer="1"/>
 <wire x1="76" y1="57" x2="74.46" y2="58.54" width="0.254" layer="1"/>
 <wire x1="74.46" y1="58.54" x2="74" y2="58.54" width="0.254" layer="1"/>
-<wire x1="43" y1="30" x2="74.5" y2="30" width="0.254" layer="1"/>
-<wire x1="74.5" y1="30" x2="76" y2="31.5" width="0.254" layer="1"/>
+<wire x1="43" y1="30" x2="73.5" y2="30" width="0.254" layer="1"/>
+<wire x1="73.5" y1="30" x2="76" y2="32.5" width="0.254" layer="1"/>
 <wire x1="43" y1="22" x2="43" y2="21.5" width="0.254" layer="1"/>
 <wire x1="43" y1="21.5" x2="42.5" y2="21" width="0.254" layer="1"/>
 <wire x1="42.5" y1="21" x2="39" y2="21" width="0.254" layer="1"/>
@@ -8252,9 +8252,9 @@ design rules under a new name.</description>
 <wire x1="39.79" y1="19.29" x2="40.5" y2="20" width="0.254" layer="1"/>
 <wire x1="40.5" y1="20" x2="43.5" y2="20" width="0.254" layer="1"/>
 <wire x1="43.5" y1="20" x2="44" y2="20.5" width="0.254" layer="1"/>
-<wire x1="44" y1="29" x2="74.5" y2="29" width="0.254" layer="1"/>
-<wire x1="74.5" y1="29" x2="77" y2="31.5" width="0.254" layer="1"/>
-<wire x1="77" y1="31.5" x2="77" y2="61" width="0.254" layer="1"/>
+<wire x1="44" y1="29" x2="73.5" y2="29" width="0.254" layer="1"/>
+<wire x1="73.5" y1="29" x2="77" y2="32.5" width="0.254" layer="1"/>
+<wire x1="77" y1="32.5" x2="77" y2="61" width="0.254" layer="1"/>
 <wire x1="74.38" y1="63.62" x2="74" y2="63.62" width="0.254" layer="1"/>
 <wire x1="77" y1="61" x2="74.38" y2="63.62" width="0.254" layer="1"/>
 <wire x1="44" y1="20.5" x2="44" y2="22" width="0.254" layer="1"/>
@@ -8281,9 +8281,9 @@ design rules under a new name.</description>
 <via x="42" y="22" extent="1-16" drill="0.381"/>
 <wire x1="42" y1="22" x2="42" y2="31" width="0.254" layer="16"/>
 <via x="42" y="31" extent="1-16" drill="0.381"/>
-<wire x1="74.5" y1="31" x2="75" y2="31.5" width="0.254" layer="1"/>
-<wire x1="42" y1="31" x2="74.5" y2="31" width="0.254" layer="1"/>
-<wire x1="75" y1="31.5" x2="75" y2="52" width="0.254" layer="1"/>
+<wire x1="73.5" y1="31" x2="75" y2="32.5" width="0.254" layer="1"/>
+<wire x1="42" y1="31" x2="73.5" y2="31" width="0.254" layer="1"/>
+<wire x1="75" y1="32.5" x2="75" y2="52" width="0.254" layer="1"/>
 <wire x1="75" y1="52" x2="72" y2="55" width="0.254" layer="1"/>
 <wire x1="72" y1="59.08" x2="74" y2="61.08" width="0.254" layer="1"/>
 <wire x1="72" y1="55" x2="72" y2="59.08" width="0.254" layer="1"/>

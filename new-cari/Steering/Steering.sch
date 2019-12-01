@@ -38798,8 +38798,8 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="0" y1="0" x2="0" y2="25" width="0.127" layer="21"/>
 <wire x1="0" y1="25" x2="0" y2="41.5" width="0.127" layer="21"/>
 <wire x1="0" y1="41.5" x2="0" y2="50" width="0.127" layer="21"/>
-<hole x="3" y="47" drill="3.3"/>
-<hole x="41" y="47" drill="3.3"/>
+<hole x="4" y="46" drill="3.3"/>
+<hole x="40" y="46" drill="3.3"/>
 <wire x1="0" y1="25" x2="20" y2="25" width="0.127" layer="21"/>
 <wire x1="20" y1="25" x2="20" y2="41.5" width="0.127" layer="21"/>
 <wire x1="20" y1="41.5" x2="0" y2="41.5" width="0.127" layer="21"/>
