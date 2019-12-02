@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.254" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -99,10 +99,10 @@
 <pad name="12" x="0" y="-7.62" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.4955" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.3615" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="21"/>
-<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="22"/>
+<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="22"/>
 </package>
 </packages>
 <packages3d>

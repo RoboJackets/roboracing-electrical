@@ -6697,10 +6697,10 @@ In this library you will find crystals and oscillators used for clocking signals
 <pad name="12" x="0" y="-7.62" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.4955" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.3615" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="21"/>
-<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="22"/>
+<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="22"/>
 </package>
 </packages>
 <packages3d>
