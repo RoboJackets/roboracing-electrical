@@ -6671,7 +6671,7 @@ In this library you will find crystals and oscillators used for clocking signals
 </library>
 <library name="manual-rc">
 <packages>
-<package name="HDRVR12W64P254_4X3_1016X508X254B">
+<package name="HDRVR12W64P254_4X3_1016X508X254B" urn="urn:adsk.eagle:footprint:14970254/1" locally_modified="yes">
 <description>Four-row, 12-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
 &lt;p&gt;Four-row (4X3), 12-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.6105" radius="0.25" width="0" layer="21"/>
@@ -6697,8 +6697,21 @@ In this library you will find crystals and oscillators used for clocking signals
 <pad name="12" x="0" y="-7.62" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.4955" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.3615" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HDRVR12W64P254_4X3_1016X508X254B" urn="urn:adsk.eagle:package:14970250/1" type="model">
+<description>Four-row, 12-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
+&lt;p&gt;Four-row (4X3), 12-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR12W64P254_4X3_1016X508X254B"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="HK-GT2B">
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
@@ -6729,6 +6742,9 @@ In this library you will find crystals and oscillators used for clocking signals
 <connect gate="HK-GT2B" pin="GND" pad="3"/>
 <connect gate="HK-GT2B" pin="VCC" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14970250/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21838,7 +21854,7 @@ CONN_03x2
 <part name="X1" library="RoboJackets-FreqGen" deviceset="XTAL" device="-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 "/>
 <part name="C8" library="rcl" deviceset="C-US" device="C0603" value="9 pF"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="9 pF"/>
-<part name="U$1" library="manual-rc" deviceset="HK-GT2B" device=""/>
+<part name="U$1" library="manual-rc" deviceset="HK-GT2B" device="" package3d_urn="urn:adsk.eagle:package:14970250/1"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
