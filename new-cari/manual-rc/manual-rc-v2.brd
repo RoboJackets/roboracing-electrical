@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -8305,10 +8305,10 @@ Your Eurocircuits Team
 <wire x1="23.3016" y1="30.65421875" x2="21.95581875" y2="32" width="0.2032" layer="1"/>
 <wire x1="21.95581875" y1="32" x2="21" y2="32" width="0.2032" layer="1"/>
 <via x="21" y="32" extent="1-16" drill="0.35"/>
-<wire x1="21" y1="32" x2="19.10415" y2="33.89585" width="0.2032" layer="16"/>
-<wire x1="18" y1="37.64150625" x2="18" y2="38.62" width="0.2032" layer="16"/>
-<wire x1="19.10415" y1="36.53735625" x2="18" y2="37.64150625" width="0.2032" layer="16"/>
-<wire x1="19.10415" y1="33.89585" x2="19.10415" y2="36.53735625" width="0.2032" layer="16"/>
+<wire x1="21" y1="32" x2="20.10415" y2="32.89585" width="0.2032" layer="16"/>
+<wire x1="20.10415" y1="36.53735625" x2="18.02150625" y2="38.62" width="0.2032" layer="16"/>
+<wire x1="18" y1="38.62" x2="18.02150625" y2="38.62" width="0.2032" layer="16"/>
+<wire x1="20.10415" y1="32.89585" x2="20.10415" y2="36.53735625" width="0.2032" layer="16"/>
 </signal>
 <signal name="CH1">
 <contactref element="U$1" pad="6"/>
@@ -8318,9 +8318,9 @@ Your Eurocircuits Team
 <wire x1="24" y1="31.55581875" x2="24" y2="32" width="0.2032" layer="1"/>
 <wire x1="24.9016" y1="30.65421875" x2="24" y2="31.55581875" width="0.2032" layer="1"/>
 <via x="24" y="32" extent="1-16" drill="0.35"/>
-<wire x1="24" y1="32" x2="21.78008125" y2="32" width="0.2032" layer="16"/>
-<wire x1="21.78008125" y1="32" x2="21.22848125" y2="31.4484" width="0.2032" layer="16"/>
-<wire x1="21.22848125" y1="31.4484" x2="20.0916" y2="31.4484" width="0.2032" layer="16"/>
+<wire x1="24" y1="32" x2="22.78008125" y2="32" width="0.2032" layer="16"/>
+<wire x1="22.78008125" y1="32" x2="22.22848125" y2="31.4484" width="0.2032" layer="16"/>
+<wire x1="22.22848125" y1="31.4484" x2="20.0916" y2="31.4484" width="0.2032" layer="16"/>
 <wire x1="20.0916" y1="31.4484" x2="18" y2="33.54" width="0.2032" layer="16"/>
 </signal>
 <signal name="MISO">
