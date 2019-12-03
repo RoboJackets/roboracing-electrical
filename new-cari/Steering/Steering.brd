@@ -271,6 +271,7 @@ Nov. 2019
 <wire x1="29.5" y1="65.5" x2="20" y2="65.5" width="0.2" layer="21"/>
 <wire x1="48" y1="62.5" x2="48.5" y2="60" width="0.2" layer="26"/>
 <wire x1="48.5" y1="60" x2="45.5" y2="58.5" width="0.2" layer="26"/>
+<text x="48" y="59" size="0.25" layer="51">For constellation</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
