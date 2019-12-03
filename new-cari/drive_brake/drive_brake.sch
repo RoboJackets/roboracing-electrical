@@ -18670,34 +18670,34 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="81.28" y1="85.09" x2="153.67" y2="85.09" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="85.09" x2="153.67" y2="133.35" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="133.35" x2="81.28" y2="133.35" width="0.1524" layer="97" style="longdash"/>
-<text x="8.89" y="173.99" size="1.778" layer="97">ENCODER</text>
-<text x="83.82" y="130.81" size="1.778" layer="97">BRAKING ACTUATOR</text>
-<text x="10.16" y="127" size="1.778" layer="97">REVERSE CONTACTOR</text>
+<text x="9.398" y="171.704" size="3.81" layer="97" font="vector">ENCODER</text>
+<text x="83.058" y="127.762" size="3.81" layer="97" font="vector">BRAKING ACTUATOR</text>
+<text x="10.16" y="127" size="3.81" layer="97" font="vector">REVERSE CONTACTOR</text>
 <wire x1="81.28" y1="177.8" x2="81.28" y2="135.89" width="0.1524" layer="97" style="longdash"/>
 <wire x1="81.28" y1="135.89" x2="153.67" y2="135.89" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="135.89" x2="153.67" y2="177.8" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="97" style="longdash"/>
-<text x="83.82" y="172.72" size="1.778" layer="97">CURRENT SENSOR</text>
+<text x="83.82" y="172.72" size="3.81" layer="97" font="vector">CURRENT SENSOR</text>
 <wire x1="7.62" y1="82.55" x2="78.74" y2="82.55" width="0.1524" layer="97" style="longdash"/>
 <wire x1="78.74" y1="82.55" x2="78.74" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="78.74" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="82.55" width="0.1524" layer="97" style="longdash"/>
-<text x="12.7" y="77.47" size="1.778" layer="97">MANUAL FWD/REV SWITCH</text>
-<text x="163.068" y="77.216" size="1.778" layer="97">USB PROGRAMMER</text>
-<text x="89.64" y="78.7" size="1.778" layer="97">Motor Controller Input 0-5V</text>
+<text x="9.906" y="76.708" size="3.81" layer="97" font="vector">MANUAL FWD/REV SWITCH</text>
+<text x="158.496" y="76.454" size="3.81" layer="97" font="vector">USB PROGRAMMER</text>
+<text x="83.798" y="77.176" size="3.81" layer="97" font="vector">Motor Controller Input 0-5V</text>
 <text x="101.78" y="181.98" size="1.778" layer="97">Changed C9 and C10 from 0201 to 0603</text>
-<text x="161.12" y="117.608" size="1.778" layer="97">Reset PB ATmega</text>
+<text x="158.58" y="114.306" size="3.81" layer="97" font="vector">Reset PB ATmega</text>
 <wire x1="234.69" y1="157.31" x2="234.69" y2="98.29" width="0.1524" layer="97" style="longdash"/>
 <wire x1="234.69" y1="98.29" x2="353.69" y2="98.29" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.69" y1="98.29" x2="353.69" y2="157.31" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.69" y1="157.31" x2="234.69" y2="157.31" width="0.1524" layer="97" style="longdash"/>
-<text x="236.89" y="154.01" size="1.778" layer="97">&gt; Ethernet header</text>
+<text x="236.128" y="152.486" size="3.81" layer="97" font="vector">Ethernet header</text>
 <wire x1="157.48" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="157.48" x2="231.14" y2="121.92" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="97" style="longdash"/>
 <wire x1="157.48" y1="121.92" x2="157.48" y2="157.48" width="0.1524" layer="97" style="longdash"/>
-<text x="160.02" y="154.94" size="1.778" layer="97">&gt; POGO Programmer</text>
-<text x="193.802" y="267.97" size="1.778" layer="97">&gt;MICROCONTROLLER</text>
+<text x="158.496" y="153.162" size="3.81" layer="97" font="vector">POGO Programmer</text>
+<text x="193.802" y="265.43" size="3.81" layer="97" font="vector">MICROCONTROLLER</text>
 <wire x1="81.28" y1="82.55" x2="81.28" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="81.28" y1="38.1" x2="153.67" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="38.1" x2="153.67" y2="82.55" width="0.1524" layer="97" style="longdash"/>
@@ -18714,9 +18714,10 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="236.22" y1="82.55" x2="309.88" y2="82.55" width="0.1524" layer="97" style="longdash"/>
 <wire x1="236.22" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="309.88" y1="38.1" x2="309.88" y2="82.042" width="0.1524" layer="97" style="longdash"/>
-<text x="238.76" y="78.74" size="1.778" layer="97">&gt;Throttle</text>
+<text x="238.76" y="78.74" size="3.81" layer="97" font="vector">Throttle</text>
 <text x="335.28" y="200.66" size="1.778" layer="97">REVERSE LED</text>
 <text x="335.28" y="195.58" size="1.778" layer="97">USER DEFINED LED</text>
+<text x="10.16" y="266.7" size="3.81" layer="97" font="vector">VOLTAGE REGULATOR</text>
 </plain>
 <instances>
 <instance part="MCU" gate="G$1" x="275.082" y="214.63" smashed="yes">
