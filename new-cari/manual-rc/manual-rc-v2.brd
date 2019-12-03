@@ -8582,12 +8582,12 @@ Your Eurocircuits Team
 <signal name="N$8">
 <contactref element="D1" pad="2"/>
 <contactref element="J2" pad="1"/>
-<wire x1="23.4" y1="8.65" x2="22" y2="10.05" width="0.2032" layer="1"/>
-<wire x1="22" y1="10.05" x2="22" y2="11" width="0.2032" layer="1"/>
 <via x="22" y="11" extent="1-16" drill="0.35"/>
-<wire x1="20.15" y1="8" x2="20.15" y2="10.15" width="0.2032" layer="16"/>
-<wire x1="20.15" y1="10.15" x2="21" y2="11" width="0.2032" layer="16"/>
-<wire x1="21" y1="11" x2="22" y2="11" width="0.2032" layer="16"/>
+<wire x1="20.15" y1="8" x2="20.15" y2="10.15" width="0.3048" layer="16"/>
+<wire x1="21" y1="11" x2="20.15" y2="10.15" width="0.3048" layer="16"/>
+<wire x1="22" y1="11" x2="21" y2="11" width="0.3048" layer="16"/>
+<wire x1="22" y1="11" x2="23.4" y2="9.6" width="0.3048" layer="1"/>
+<wire x1="23.4" y1="9.6" x2="23.4" y2="8.65" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R7" pad="1"/>
