@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -414,8 +414,8 @@
 <wire x1="0" y1="0" x2="0" y2="25" width="0.127" layer="21"/>
 <wire x1="0" y1="25" x2="0" y2="41.5" width="0.127" layer="21"/>
 <wire x1="0" y1="41.5" x2="0" y2="50" width="0.127" layer="21"/>
-<hole x="3" y="47" drill="3.3"/>
-<hole x="41" y="47" drill="3.3"/>
+<hole x="4" y="46" drill="3.3"/>
+<hole x="40" y="46" drill="3.3"/>
 <wire x1="0" y1="25" x2="20" y2="25" width="0.127" layer="21"/>
 <wire x1="20" y1="25" x2="20" y2="41.5" width="0.127" layer="21"/>
 <wire x1="20" y1="41.5" x2="0" y2="41.5" width="0.127" layer="21"/>
