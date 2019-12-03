@@ -39441,11 +39441,6 @@ In this library you will find LEDs and other visual output devices.
 <text x="196.088" y="199.644" size="1.778" layer="95">LEONARDO PINS:
 D6
 IO12</text>
-<text x="187.96" y="217.424" size="1.778" layer="95">LEONARDO PINS:
-IO11
-IO10
-IO9
-IO8</text>
 <text x="347.218" y="211.542" size="2.54" layer="97">Screw Terminal Connections</text>
 <wire x1="230.378" y1="210.78" x2="230.378" y2="147.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="230.378" y1="147.28" x2="337.058" y2="147.28" width="0.1524" layer="97" style="shortdash"/>
@@ -40324,11 +40319,6 @@ D7</text>
 <wire x1="381" y1="124.46" x2="378.46" y2="124.46" width="0.1524" layer="91"/>
 <label x="378.46" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
-<wire x1="175.26" y1="226.06" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
-<label x="180.34" y="226.06" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="EB+" class="0">
 <segment>
@@ -40340,11 +40330,6 @@ D7</text>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="381" y1="134.62" x2="378.46" y2="134.62" width="0.1524" layer="91"/>
 <label x="378.46" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
-<wire x1="175.26" y1="220.98" x2="180.34" y2="220.98" width="0.1524" layer="91"/>
-<label x="180.34" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EB-" class="0">
@@ -40358,11 +40343,6 @@ D7</text>
 <wire x1="381" y1="129.54" x2="378.46" y2="129.54" width="0.1524" layer="91"/>
 <label x="378.46" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
-<wire x1="175.26" y1="218.44" x2="180.34" y2="218.44" width="0.1524" layer="91"/>
-<label x="180.34" y="218.44" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="EA-" class="0">
 <segment>
@@ -40374,11 +40354,6 @@ D7</text>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="381" y1="119.38" x2="378.46" y2="119.38" width="0.1524" layer="91"/>
 <label x="378.46" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
-<wire x1="175.26" y1="223.52" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
-<label x="180.34" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_ENCODER" class="0">
