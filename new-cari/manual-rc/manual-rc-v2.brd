@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -176,7 +176,7 @@ Manual Control V1.0</text>
 <text x="8" y="25" size="1" layer="22" font="vector" rot="MR90">ETH_RESET</text>
 <text x="31" y="40" size="1" layer="22" font="vector" rot="MR0">MCU_RESET</text>
 <text x="36.066040625" y="35.36321875" size="1" layer="21">ICSP</text>
-<text x="2" y="40" size="1" layer="25" font="vector">M3ø3.3mm</text>
+<text x="8" y="48" size="1" layer="25" font="vector">M3ø3.3mm</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -7707,6 +7707,69 @@ CONN_03x2
 </package3d>
 </packages3d>
 </library>
+<library name="Steering">
+<packages>
+<package name="KINGBRIGHT_LED">
+<smd name="P$1" x="-1.016" y="0.048" dx="1.5" dy="2.2" layer="1"/>
+<smd name="P$2" x="1.084" y="0.048" dx="1.5" dy="2.2" layer="1"/>
+<text x="-3.016" y="3.048" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.016" y="-2.952" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="-0.516" y1="2.048" x2="0.484" y2="2.548" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.548" x2="0.484" y2="2.048" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.048" x2="0.484" y2="1.548" width="0.127" layer="25"/>
+<wire x1="0.484" y1="1.548" x2="-0.516" y2="2.048" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-0.516" y2="2.548" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-0.516" y2="1.548" width="0.127" layer="25"/>
+<wire x1="-0.516" y1="2.048" x2="-1.016" y2="2.048" width="0.127" layer="25"/>
+<wire x1="0.484" y1="2.048" x2="0.984" y2="2.048" width="0.127" layer="25"/>
+<polygon width="0.127" layer="21">
+<vertex x="-2.016" y="2.048"/>
+<vertex x="-3.016" y="1.048"/>
+<vertex x="-3.016" y="2.048"/>
+</polygon>
+</package>
+</packages>
+</library>
+<library name="RoboJackets-Resistors">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Resistors&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find resistors. If you are looking for a common package, use the default &lt;b&gt;rcl &lt;/b&gt;library provided with EAGLE instead of looking here.
+&lt;/p&gt;</description>
+<packages>
+<package name="R0603W">
+<smd name="1" x="-0.775" y="0" dx="1.09" dy="0.94" layer="1"/>
+<smd name="2" x="0.775" y="0" dx="1.09" dy="0.94" layer="1"/>
+<text x="-1.5" y="1" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="RoboJackets-LEDs">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - LEDs&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find LEDs and other visual output devices.
+&lt;/p&gt;</description>
+<packages>
+<package name="CHIP-LED0603">
+<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
+<polygon width="0.1" layer="21">
+<vertex x="-0.3" y="-0.2"/>
+<vertex x="0" y="0.2"/>
+<vertex x="0.3" y="-0.2"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8003,7 +8066,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="30.57828125" y="32.18068125" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U$1" library="manual-rc" package="HDRVR12W64P254_4X3_1016X508X254B" package3d_urn="urn:adsk.eagle:package:14970250/1" value="HK-GT2B" x="18" y="31" smashed="yes" rot="R180">
-<attribute name="NAME" x="9" y="40.5045" size="1" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="15.4955" y="40" size="1" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="18" y="40.3615" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="X1" library="RoboJackets-FreqGen" package="XTAL-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 " x="26" y="35" smashed="yes">
@@ -8079,6 +8142,22 @@ Your Eurocircuits Team
 <attribute name="NAME" x="32.99" y="32.967" size="1" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="31.19" y="27.063" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="D4" library="Steering" package="KINGBRIGHT_LED" value="PINK" x="5" y="39" smashed="yes" rot="MR180">
+<attribute name="DKPN" value="754-1534-1-ND" x="-4" y="30" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="8.952" y="40.016" size="1.27" layer="26" rot="MR270"/>
+</element>
+<element name="R11" library="RoboJackets-Resistors" package="R0603W" value="100Ω" x="5" y="35" smashed="yes" rot="MR0">
+<attribute name="NAME" x="3.5" y="35" size="1" layer="26" rot="MR0"/>
+</element>
+<element name="D7" library="RoboJackets-LEDs" package="CHIP-LED0603" value="BLUE" x="13" y="12" smashed="yes" rot="MR270">
+<attribute name="DIGIKEY" value="160-1647-1-ND" x="6" y="18" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C191TBKT" x="6" y="18" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="13.635" y="12.635" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="13.635" y="10.095" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="R3" library="RoboJackets-Resistors" package="R0603W" value="200Ω" x="10" y="12" smashed="yes" rot="MR0">
+<attribute name="NAME" x="11.5" y="13" size="1" layer="26" rot="MR0"/>
+</element>
 </elements>
 <signals>
 <signal name="+5V">
@@ -8138,7 +8217,8 @@ Your Eurocircuits Team
 <wire x1="7.85" y1="16" x2="11" y2="16" width="0.2032" layer="16"/>
 <wire x1="11" y1="16" x2="12" y2="15" width="0.2032" layer="16"/>
 <via x="12" y="15" extent="1-16" drill="0.35"/>
-<wire x1="12" y1="15" x2="15" y2="12" width="0.2032" layer="1"/>
+<wire x1="12" y1="15" x2="14" y2="13" width="0.2032" layer="1"/>
+<wire x1="15" y1="12" x2="14" y2="13" width="0.2032" layer="1"/>
 <wire x1="15" y1="12" x2="15" y2="8.73228125" width="0.2032" layer="1"/>
 <contactref element="J1" pad="2"/>
 <wire x1="28.4" y1="29.8" x2="28.4" y2="31.4" width="0.2032" layer="1"/>
@@ -8155,6 +8235,12 @@ Your Eurocircuits Team
 <wire x1="29" y1="33.9924" x2="29.09328125" y2="34.08568125" width="0.3048" layer="16"/>
 <wire x1="15.46" y1="31" x2="17" y2="29.46" width="0.3048" layer="1"/>
 <wire x1="17" y1="29.46" x2="17" y2="27" width="0.3048" layer="1"/>
+<contactref element="D4" pad="P$2"/>
+<wire x1="15.46" y1="31" x2="14.55335" y2="31" width="0.3048" layer="16"/>
+<wire x1="11.88105" y1="32.15495" x2="6.084" y2="37.952" width="0.3048" layer="16"/>
+<wire x1="6.084" y1="37.952" x2="6.084" y2="38.952" width="0.3048" layer="16"/>
+<wire x1="14.55335" y1="31" x2="13.3984" y2="32.15495" width="0.3048" layer="16"/>
+<wire x1="13.3984" y1="32.15495" x2="11.88105" y2="32.15495" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="MC1" pad="6"/>
@@ -8235,6 +8321,8 @@ Your Eurocircuits Team
 <contactref element="J1" pad="6"/>
 <wire x1="31.7" y1="35.5" x2="31.3" y2="35.9" width="0.3048" layer="1"/>
 <wire x1="30.65" y1="35.9" x2="31.3" y2="35.9" width="0.3048" layer="1"/>
+<contactref element="R11" pad="1"/>
+<contactref element="R3" pad="2"/>
 </signal>
 <signal name="N$2">
 <contactref element="C6" pad="1"/>
@@ -8475,6 +8563,30 @@ Your Eurocircuits Team
 <contactref element="D5" pad="A"/>
 <wire x1="8.6625" y1="12.927321875" x2="9.487240625" y2="12.10258125" width="0.3048" layer="1"/>
 <wire x1="9.487240625" y1="12.10258125" x2="9.487240625" y2="8.927321875" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="D4" pad="P$1"/>
+<contactref element="R11" pad="2"/>
+<wire x1="3.984" y1="38.952" x2="4.225" y2="38.711" width="0.3048" layer="16"/>
+<wire x1="4.225" y1="38.711" x2="4.225" y2="35" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="D7" pad="A"/>
+<contactref element="MC1" pad="39"/>
+<wire x1="26" y1="18.2" x2="25.7016" y2="17.9016" width="0.2032" layer="1"/>
+<wire x1="25.7016" y1="17.9016" x2="25.7016" y2="17.34578125" width="0.2032" layer="1"/>
+<wire x1="25.7016" y1="17.34578125" x2="25.35581875" y2="17" width="0.2032" layer="1"/>
+<wire x1="25.35581875" y1="17" x2="24" y2="17" width="0.2032" layer="1"/>
+<via x="24" y="17" extent="1-16" drill="0.35"/>
+<wire x1="24" y1="17" x2="23" y2="18" width="0.2032" layer="16"/>
+<wire x1="23" y1="18" x2="21" y2="18" width="0.2032" layer="16"/>
+<wire x1="21" y1="18" x2="15" y2="12" width="0.2032" layer="16"/>
+<wire x1="15" y1="12" x2="13.75" y2="12" width="0.2032" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="R3" pad="1"/>
+<contactref element="D7" pad="C"/>
+<wire x1="12.25" y1="12" x2="10.775" y2="12" width="0.2032" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
