@@ -18684,19 +18684,19 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="7.62" y1="38.1" x2="7.62" y2="82.55" width="0.1524" layer="97" style="longdash"/>
 <text x="9.906" y="76.708" size="3.81" layer="97" font="vector">MANUAL FWD/REV SWITCH</text>
 <text x="158.496" y="76.454" size="3.81" layer="97" font="vector">USB PROGRAMMER</text>
-<text x="83.798" y="77.176" size="3.81" layer="97" font="vector">Motor Controller Input 0-5V</text>
+<text x="82.528" y="77.43" size="3.81" layer="97" font="vector">MOTOR CONTROLLER INPUT 0-5V</text>
 <text x="101.78" y="181.98" size="1.778" layer="97">Changed C9 and C10 from 0201 to 0603</text>
-<text x="158.58" y="114.306" size="3.81" layer="97" font="vector">Reset PB ATmega</text>
+<text x="158.58" y="114.306" size="3.81" layer="97" font="vector">RESET PB ATMEGA</text>
 <wire x1="234.69" y1="157.31" x2="234.69" y2="98.29" width="0.1524" layer="97" style="longdash"/>
 <wire x1="234.69" y1="98.29" x2="353.69" y2="98.29" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.69" y1="98.29" x2="353.69" y2="157.31" width="0.1524" layer="97" style="longdash"/>
 <wire x1="353.69" y1="157.31" x2="234.69" y2="157.31" width="0.1524" layer="97" style="longdash"/>
-<text x="236.128" y="152.486" size="3.81" layer="97" font="vector">Ethernet header</text>
+<text x="236.128" y="152.486" size="3.81" layer="97" font="vector">ETHERNET HEADER</text>
 <wire x1="157.48" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="157.48" x2="231.14" y2="121.92" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="97" style="longdash"/>
 <wire x1="157.48" y1="121.92" x2="157.48" y2="157.48" width="0.1524" layer="97" style="longdash"/>
-<text x="158.496" y="153.162" size="3.81" layer="97" font="vector">POGO Programmer</text>
+<text x="158.496" y="153.162" size="3.81" layer="97" font="vector">POGO PROGRAMMER</text>
 <text x="193.802" y="265.43" size="3.81" layer="97" font="vector">MICROCONTROLLER</text>
 <wire x1="81.28" y1="82.55" x2="81.28" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="81.28" y1="38.1" x2="153.67" y2="38.1" width="0.1524" layer="97" style="longdash"/>
@@ -18714,7 +18714,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="236.22" y1="82.55" x2="309.88" y2="82.55" width="0.1524" layer="97" style="longdash"/>
 <wire x1="236.22" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="309.88" y1="38.1" x2="309.88" y2="82.042" width="0.1524" layer="97" style="longdash"/>
-<text x="238.76" y="78.74" size="3.81" layer="97" font="vector">Throttle</text>
+<text x="238.76" y="77.47" size="3.81" layer="97" font="vector">THROTTLE</text>
 <text x="335.28" y="200.66" size="1.778" layer="97">REVERSE LED</text>
 <text x="335.28" y="195.58" size="1.778" layer="97">USER DEFINED LED</text>
 <text x="10.16" y="266.7" size="3.81" layer="97" font="vector">VOLTAGE REGULATOR</text>
