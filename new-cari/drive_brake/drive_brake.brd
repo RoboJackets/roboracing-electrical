@@ -163,10 +163,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="74" y2="0" width="0" layer="20"/>
-<wire x1="74" y1="0" x2="74" y2="66" width="0" layer="20"/>
-<wire x1="74" y1="66" x2="0" y2="66" width="0" layer="20"/>
-<wire x1="0" y1="66" x2="0" y2="0" width="0" layer="20"/>
 <hole x="4" y="62" drill="3.3"/>
 <hole x="70" y="62" drill="3.3"/>
 <hole x="4" y="3" drill="3.3"/>
@@ -191,6 +187,10 @@ November 2019</text>
 <wire x1="71.75" y1="16.25" x2="71.75" y2="20.25" width="0.15" layer="21"/>
 <wire x1="71.75" y1="20.25" x2="66.75" y2="20.25" width="0.15" layer="21"/>
 <text x="67" y="18.5" size="1.016" layer="25" font="vector">USER</text>
+<wire x1="1" y1="0" x2="73" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="0" y2="65" width="0.25" layer="104"/>
+<wire x1="1" y1="66" x2="73" y2="66" width="0.25" layer="104"/>
+<wire x1="74" y1="1" x2="74" y2="65" width="0.25" layer="104"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
