@@ -18826,7 +18826,7 @@ Mini USB Connector
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
 <part name="SELECT1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PB1" library="RoboJackets-Switches" deviceset="PTS645" device=""/>
+<part name="RESET" library="RoboJackets-Switches" deviceset="PTS645" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10kΩ"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -18942,6 +18942,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <text x="335.28" y="200.66" size="1.778" layer="97">REVERSE LED</text>
 <text x="335.28" y="195.58" size="1.778" layer="97">USER DEFINED LED</text>
 <text x="10.16" y="266.7" size="3.81" layer="97" font="vector">VOLTAGE REGULATOR</text>
+<text x="281.94" y="114.3" size="1.778" layer="97">ETHERNET LED</text>
 </plain>
 <instances>
 <instance part="MCU" gate="G$1" x="275.082" y="214.63" smashed="yes">
@@ -19068,7 +19069,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="SELECT1" gate="1" x="278.13" y="146.05" smashed="yes">
 <attribute name="VALUE" x="275.59" y="143.51" size="1.778" layer="96"/>
 </instance>
-<instance part="PB1" gate="G$1" x="205.74" y="106.68" smashed="yes">
+<instance part="RESET" gate="G$1" x="205.74" y="106.68" smashed="yes">
 <attribute name="NAME" x="203.2" y="110.49" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="205.74" y="105.41" size="1.27" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -19164,8 +19165,8 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="SCH_DESC" x="326.39" y="6.35" size="2.54" layer="94"/>
 </instance>
 <instance part="LD2" gate="G$1" x="280.67" y="116.078" smashed="yes">
-<attribute name="NAME" x="284.226" y="111.506" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="276.225" y="111.506" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="282.194" y="117.094" size="1.778" layer="95"/>
+<attribute name="VALUE" x="282.194" y="111.379" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY8" gate="1" x="280.67" y="105.41" smashed="yes">
 <attribute name="VALUE" x="278.13" y="102.87" size="1.778" layer="96"/>
@@ -19356,7 +19357,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="283.21" y1="148.59" x2="278.13" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PB1" gate="G$1" pin="2"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -19514,7 +19515,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="PB1" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <junction x="190.5" y="106.68"/>
 <wire x1="190.5" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
