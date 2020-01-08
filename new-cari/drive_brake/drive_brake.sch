@@ -18820,11 +18820,8 @@ Mini USB Connector
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
 <part name="SUPPLY1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J7" library="drive_brake" deviceset="S2B-XH-A_(LF)(SN)" device=""/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
 <part name="LD1" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="5k"/>
-<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J8" library="drive_brake" deviceset="S2B-XH-A_(LF)(SN)" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
@@ -18848,7 +18845,6 @@ Mini USB Connector
 <part name="SUPPLY7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -18857,9 +18853,6 @@ Mini USB Connector
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_B_L" device=""/>
-<part name="J10" library="drive_brake" deviceset="S3B-XH-A(LF)(SN)" device="SDRH3"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="LD2" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
 <part name="SUPPLY8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330Ω"/>
@@ -18919,11 +18912,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="153.67" y1="135.89" x2="153.67" y2="177.8" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="97" style="longdash"/>
 <text x="83.82" y="172.72" size="3.81" layer="97" font="vector">CURRENT SENSOR</text>
-<wire x1="7.62" y1="82.55" x2="78.74" y2="82.55" width="0.1524" layer="97" style="longdash"/>
-<wire x1="78.74" y1="82.55" x2="78.74" y2="38.1" width="0.1524" layer="97" style="longdash"/>
-<wire x1="78.74" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="97" style="longdash"/>
-<wire x1="7.62" y1="38.1" x2="7.62" y2="82.55" width="0.1524" layer="97" style="longdash"/>
-<text x="9.906" y="76.708" size="3.81" layer="97" font="vector">MANUAL FWD/REV SWITCH</text>
 <text x="158.496" y="76.454" size="3.81" layer="97" font="vector">USB PROGRAMMER</text>
 <text x="82.528" y="77.43" size="3.81" layer="97" font="vector">MOTOR CONTROLLER INPUT 0-5V</text>
 <text x="101.78" y="181.98" size="1.778" layer="97">Changed C9 and C10 from 0201 to 0603</text>
@@ -18951,11 +18939,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="157.48" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="119.38" x2="231.14" y2="85.09" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.14" y1="85.09" x2="157.48" y2="85.09" width="0.1524" layer="97" style="longdash"/>
-<wire x1="236.22" y1="38.1" x2="236.22" y2="82.55" width="0.1524" layer="97" style="longdash"/>
-<wire x1="236.22" y1="82.55" x2="309.88" y2="82.55" width="0.1524" layer="97" style="longdash"/>
-<wire x1="236.22" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="97" style="longdash"/>
-<wire x1="309.88" y1="38.1" x2="309.88" y2="82.042" width="0.1524" layer="97" style="longdash"/>
-<text x="238.76" y="77.47" size="3.81" layer="97" font="vector">THROTTLE</text>
 <text x="335.28" y="200.66" size="1.778" layer="97">REVERSE LED</text>
 <text x="335.28" y="195.58" size="1.778" layer="97">USER DEFINED LED</text>
 <text x="10.16" y="266.7" size="3.81" layer="97" font="vector">VOLTAGE REGULATOR</text>
@@ -19063,10 +19046,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="SUPPLY1" gate="1" x="226.822" y="189.23" smashed="yes">
 <attribute name="VALUE" x="224.282" y="186.69" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="40.64" y="53.34" smashed="yes">
-<attribute name="NAME" x="52.07" y="60.96" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="52.07" y="58.42" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="R1" gate="G$1" x="313.182" y="196.85" smashed="yes">
 <attribute name="NAME" x="306.832" y="193.2686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.912" y="193.548" size="1.778" layer="96"/>
@@ -19074,13 +19053,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="LD1" gate="G$1" x="325.882" y="196.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="321.81" y="193.374" size="1.778" layer="95"/>
 <attribute name="VALUE" x="321.51" y="190.895" size="1.778" layer="96"/>
-</instance>
-<instance part="R2" gate="G$1" x="35.56" y="63.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.0586" y="67.31" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="32.258" y="67.31" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND8" gate="1" x="40.64" y="45.72" smashed="yes">
-<attribute name="VALUE" x="41.14" y="45.266" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J8" gate="G$1" x="127" y="63.5" smashed="yes">
 <attribute name="NAME" x="130.81" y="71.12" size="1.778" layer="95" align="center-left"/>
@@ -19163,9 +19135,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="P+3" gate="1" x="35.56" y="154.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.64" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+6" gate="1" x="35.56" y="73.66" smashed="yes">
-<attribute name="VALUE" x="33.02" y="73.66" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="P+7" gate="1" x="333.502" y="196.85" smashed="yes" rot="R270">
 <attribute name="VALUE" x="329.438" y="191.77" size="1.778" layer="96"/>
 </instance>
@@ -19193,16 +19162,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="340.36" y="19.05" size="2.54" layer="94" font="vector"/>
 <attribute name="SCH_DESC" x="326.39" y="6.35" size="2.54" layer="94"/>
-</instance>
-<instance part="J10" gate="G$1" x="271.78" y="60.96" smashed="yes">
-<attribute name="NAME" x="280.67" y="68.58" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="280.67" y="66.04" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GND3" gate="1" x="269.24" y="50.8" smashed="yes">
-<attribute name="VALUE" x="266.7" y="48.26" size="1.778" layer="96"/>
-</instance>
-<instance part="P+5" gate="1" x="266.7" y="66.04" smashed="yes">
-<attribute name="VALUE" x="266.7" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LD2" gate="G$1" x="280.67" y="116.078" smashed="yes">
 <attribute name="NAME" x="284.226" y="111.506" size="1.778" layer="95" rot="R90"/>
@@ -19384,11 +19343,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <junction x="226.822" y="194.31"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="40.64" y1="50.8" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="127" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="60.96" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
@@ -19436,12 +19390,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="270.51" y1="113.03" x2="270.51" y2="107.95" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="269.24" y1="53.34" x2="269.24" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="3"/>
-<wire x1="269.24" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="1" pin="GND"/>
@@ -19498,38 +19446,38 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="MCU" gate="G$1" pin="PF0(ADC0)"/>
 <wire x1="300.482" y1="257.81" x2="305.562" y2="257.81" width="0.1524" layer="91"/>
-<label x="305.562" y="257.81" size="0.8128" layer="95" xref="yes"/>
+<label x="305.562" y="257.81" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="121.92" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="157.48" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="152.4" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
-<label x="101.6" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="101.6" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FORWARD_OUT" class="3">
 <segment>
 <pinref part="MCU" gate="G$1" pin="PF5(ADC5/TMS)"/>
 <wire x1="300.482" y1="250.19" x2="305.562" y2="250.19" width="0.1524" layer="91"/>
-<label x="305.562" y="250.19" size="0.8128" layer="95" xref="yes"/>
+<label x="305.562" y="250.19" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
-<label x="33.02" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REVERSE_OUT" class="3">
 <segment>
 <pinref part="MCU" gate="G$1" pin="PF6(ADC6/TDO)"/>
 <wire x1="300.482" y1="247.65" x2="305.562" y2="247.65" width="0.1524" layer="91"/>
-<label x="305.562" y="247.65" size="0.8128" layer="95" xref="yes"/>
+<label x="305.562" y="247.65" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="33.02" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_IN_B" class="3">
@@ -19538,31 +19486,31 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="50.8" y1="157.48" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="157.48" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
-<label x="35.56" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD2(INT2/RXD1)"/>
 <wire x1="300.482" y1="189.23" x2="303.276" y2="189.23" width="0.1524" layer="91"/>
-<label x="303.53" y="189.23" size="0.8128" layer="95" xref="yes"/>
+<label x="303.53" y="189.23" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_IN_A" class="3">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="50.8" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
-<label x="35.56" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD1(INT1/SDA)"/>
 <wire x1="300.482" y1="186.69" x2="303.53" y2="186.69" width="0.1524" layer="91"/>
-<label x="303.53" y="186.69" size="0.8128" layer="95" xref="yes"/>
+<label x="303.53" y="186.69" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_RST" class="3">
 <segment>
 <pinref part="MCU" gate="G$1" pin="/RESET"/>
 <wire x1="252.222" y1="257.81" x2="244.602" y2="257.81" width="0.1524" layer="91"/>
-<label x="244.602" y="257.81" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="244.602" y="257.81" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -19581,19 +19529,19 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="J9" gate="G$1" pin="5"/>
 <wire x1="177.8" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91" style="longdash"/>
-<label x="175.072" y="142.176" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<label x="175.072" y="142.176" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D_P" class="2">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<label x="172.72" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="172.72" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="D+"/>
 <wire x1="252.222" y1="227.33" x2="249.682" y2="227.33" width="0.1524" layer="91"/>
-<label x="249.682" y="224.79" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="249.682" y="224.79" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="249.682" y1="227.33" x2="249.682" y2="224.79" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19601,12 +19549,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
-<label x="172.72" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="172.72" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="D-"/>
 <wire x1="252.222" y1="229.87" x2="249.682" y2="229.87" width="0.1524" layer="91"/>
-<label x="249.682" y="229.87" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="249.682" y="229.87" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -19673,78 +19621,69 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </net>
 <net name="DIR_IN" class="3">
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<label x="26.02" y="53.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="35.56" y="53.34"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$1" pin="PF4(ADC4/TCK)"/>
 <wire x1="300.482" y1="252.73" x2="305.562" y2="252.73" width="0.1524" layer="91"/>
-<label x="305.562" y="252.73" size="0.8128" layer="95" xref="yes"/>
+<label x="305.562" y="252.73" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR_CONTROLLER_INPUT" class="3">
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="127" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
 <wire x1="300.482" y1="219.71" x2="304.8" y2="219.71" width="0.1524" layer="91"/>
-<label x="305.054" y="219.71" size="0.8128" layer="95" xref="yes"/>
+<label x="305.054" y="219.71" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RST" class="3">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="RSTN"/>
 <wire x1="288.29" y1="128.27" x2="283.21" y2="128.27" width="0.1524" layer="91"/>
-<label x="283.08" y="128.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="283.08" y="128.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD3(INT3/TXD1)"/>
 <wire x1="300.482" y1="191.77" x2="303.53" y2="191.77" width="0.1524" layer="91"/>
-<label x="303.784" y="191.77" size="0.8128" layer="95" xref="yes"/>
+<label x="303.784" y="191.77" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="INT_ETH" class="3">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="INTN"/>
 <wire x1="318.77" y1="123.19" x2="321.31" y2="123.19" width="0.1524" layer="91"/>
-<label x="322.24" y="123.79" size="1.778" layer="95" xref="yes"/>
+<label x="322.24" y="123.79" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD0(INT0/OC0B/SCL)"/>
 <wire x1="300.482" y1="184.15" x2="303.022" y2="184.15" width="0.1524" layer="91" style="longdash"/>
-<label x="303.12" y="184.14" size="0.8128" layer="95" xref="yes"/>
+<label x="303.12" y="184.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_EN" class="3">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
-<label x="96.52" y="116.84" size="0.762" layer="95" rot="R180" xref="yes"/>
+<label x="96.52" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
 <wire x1="300.482" y1="232.41" x2="303.022" y2="232.41" width="0.1524" layer="91"/>
-<label x="303.022" y="232.41" size="0.762" layer="95" xref="yes"/>
+<label x="303.022" y="232.41" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_PWM" class="3">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<label x="96.52" y="114.3" size="0.762" layer="95" rot="R180" xref="yes"/>
+<label x="96.52" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
 <wire x1="300.482" y1="229.87" x2="303.022" y2="229.87" width="0.1524" layer="91"/>
-<label x="303.022" y="229.87" size="0.762" layer="95" xref="yes"/>
+<label x="303.022" y="229.87" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -19781,11 +19720,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="330.962" y1="196.85" x2="328.422" y2="196.85" width="0.1524" layer="91"/>
@@ -19851,12 +19785,6 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="J10" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="60.96" x2="266.7" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="330.962" y1="201.93" x2="328.422" y2="201.93" width="0.1524" layer="91"/>
@@ -19941,7 +19869,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
 <wire x1="318.77" y1="143.51" x2="321.31" y2="143.51" width="0.1524" layer="91"/>
-<label x="322.15" y="144.11" size="1.778" layer="95" xref="yes"/>
+<label x="322.15" y="144.11" size="1.27" layer="95" xref="yes"/>
 <wire x1="318.77" y1="143.51" x2="318.77" y2="151.13" width="0.1524" layer="91"/>
 <junction x="318.77" y="143.51"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -19950,70 +19878,65 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="MCU" gate="G$1" pin="PB0(SS)"/>
 <wire x1="300.482" y1="207.01" x2="303.022" y2="207.01" width="0.1524" layer="91"/>
-<label x="303.076" y="207.01" size="0.8128" layer="95" xref="yes"/>
+<label x="303.076" y="207.01" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="3">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
 <wire x1="318.77" y1="138.43" x2="321.31" y2="138.43" width="0.1524" layer="91"/>
-<label x="322.22" y="139.04" size="1.778" layer="95" xref="yes"/>
+<label x="322.22" y="139.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="3"/>
 <wire x1="177.8" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91" style="longdash"/>
-<label x="175.036" y="144.706" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<label x="175.036" y="144.706" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PB1(SCK)"/>
 <wire x1="300.482" y1="209.55" x2="303.022" y2="209.55" width="0.1524" layer="91"/>
-<label x="303.076" y="209.55" size="0.8128" layer="95" xref="yes"/>
+<label x="303.076" y="209.55" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="3">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
 <wire x1="318.77" y1="133.35" x2="321.31" y2="133.35" width="0.1524" layer="91"/>
-<label x="322.18" y="133.94" size="1.778" layer="95" xref="yes"/>
+<label x="322.18" y="133.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91" style="longdash"/>
-<label x="175.122" y="147.246" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<label x="175.122" y="147.246" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PB3(PDO/MISO)"/>
 <wire x1="300.482" y1="214.63" x2="303.022" y2="214.63" width="0.1524" layer="91"/>
-<label x="303.022" y="214.63" size="0.8128" layer="95" xref="yes"/>
+<label x="303.022" y="214.63" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="3">
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
 <wire x1="318.77" y1="128.27" x2="321.31" y2="128.27" width="0.1524" layer="91"/>
-<label x="322.16" y="128.89" size="1.778" layer="95" xref="yes"/>
+<label x="322.16" y="128.89" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="4"/>
 <wire x1="195.58" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91" style="longdash"/>
-<label x="200.738" y="144.726" size="0.8128" layer="95" xref="yes"/>
+<label x="200.738" y="144.726" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PB2(PDI/MOSI)"/>
 <wire x1="300.482" y1="212.09" x2="303.022" y2="212.09" width="0.1524" layer="91"/>
-<label x="303.076" y="212.09" size="0.8128" layer="95" xref="yes"/>
+<label x="303.076" y="212.09" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="THROTTLE_IN" class="3">
 <segment>
 <pinref part="MCU" gate="G$1" pin="PF7(ADC7(TDI)"/>
 <wire x1="300.482" y1="245.11" x2="305.562" y2="245.11" width="0.1524" layer="91" style="longdash"/>
-<label x="305.562" y="245.11" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J10" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="58.42" x2="266.7" y2="58.42" width="0.1524" layer="91"/>
-<label x="266.7" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="305.562" y="245.11" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TXLED1" class="3">
