@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22541,14 +22541,14 @@ and PB0(SS) tri-stated</text>
 <pinref part="RADIO" gate="G$1" pin="D1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD1(INT1/SDA)"/>
-<wire x1="121.92" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
-<label x="127" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="A2"/>
 <wire x1="119.38" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
 <label x="121.92" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
+<wire x1="121.92" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
+<label x="127" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_EN_RB" class="0">
@@ -22558,26 +22558,26 @@ and PB0(SS) tri-stated</text>
 <label x="149.86" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD0(INT0/OC0B/SCL)"/>
-<wire x1="121.92" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<label x="127" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="A1"/>
 <wire x1="83.82" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <label x="81.28" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="STEERING_EN_MB" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD2(INT2/RXD1)"/>
 <wire x1="121.92" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
-<label x="127" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+</net>
+<net name="STEERING_EN_MB" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="B1"/>
 <wire x1="83.82" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 <label x="81.28" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+<wire x1="121.92" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
+<label x="127" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INTERRUPT" class="0">
@@ -22702,14 +22702,14 @@ and PB0(SS) tri-stated</text>
 </net>
 <net name="DRIVE_EN_MB" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
-<wire x1="121.92" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
-<label x="127" y="106.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="B2"/>
 <wire x1="119.38" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <label x="121.92" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
+<wire x1="121.92" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
+<label x="127" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_EN" class="0">
@@ -22763,6 +22763,30 @@ and PB0(SS) tri-stated</text>
 <wire x1="45.72" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <label x="40.64" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="START_RB" class="0">
+<segment>
+<pinref part="RADIO" gate="G$1" pin="D3"/>
+<wire x1="152.4" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<label x="149.86" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD1(INT1/SDA)"/>
+<wire x1="121.92" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<label x="127" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="SAFE_RB" class="0">
+<segment>
+<pinref part="RADIO" gate="G$1" pin="D4"/>
+<wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="149.86" y="50.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD0(INT0/OC0B/SCL)"/>
+<wire x1="121.92" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
+<label x="127" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
