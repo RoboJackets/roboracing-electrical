@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -404,11 +404,11 @@
 <pad name="3" x="2" y="12.92" drill="1.1051" diameter="1.7051" rot="R270"/>
 <pad name="4" x="2" y="10.38" drill="1.1051" diameter="1.7051" rot="R270"/>
 <pad name="5" x="2" y="7.84" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="6" x="42" y="7.84" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="7" x="42" y="10.38" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="8" x="42" y="12.92" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="9" x="42" y="15.46" drill="1.1051" diameter="1.7051" rot="R270"/>
-<pad name="10" x="42" y="18" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="6" x="42.64" y="7.84" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="7" x="42.64" y="10.38" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="8" x="42.64" y="12.92" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="9" x="42.64" y="15.46" drill="1.1051" diameter="1.7051" rot="R270"/>
+<pad name="10" x="42.64" y="18" drill="1.1051" diameter="1.7051" rot="R270"/>
 <text x="-0.032" y="50.508" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.3756" y="-0.724" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="25" width="0.127" layer="21"/>
@@ -419,9 +419,9 @@
 <wire x1="0" y1="25" x2="20" y2="25" width="0.127" layer="21"/>
 <wire x1="20" y1="25" x2="20" y2="41.5" width="0.127" layer="21"/>
 <wire x1="20" y1="41.5" x2="0" y2="41.5" width="0.127" layer="21"/>
-<wire x1="0" y1="50" x2="44" y2="50" width="0.127" layer="21"/>
-<wire x1="44" y1="50" x2="44" y2="0" width="0.127" layer="21"/>
-<wire x1="44" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="50" x2="44.5" y2="50" width="0.127" layer="21"/>
+<wire x1="44.5" y1="50" x2="44.5" y2="0" width="0.127" layer="21"/>
+<wire x1="44.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <packages3d>
