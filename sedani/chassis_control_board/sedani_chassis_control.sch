@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27314,7 +27314,7 @@ https://toshiba.semicon-storage.com/info/docget.jsp?did=30213&amp;prodName=TC7SZ
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="J23" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SELECT"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="6V"/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27750,7 +27750,9 @@ HIGH = E-STOP</text>
 <instance part="GND4" gate="1" x="284.48" y="175.26" smashed="yes">
 <attribute name="VALUE" x="284.48" y="175.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="289.56" y="170.18" smashed="yes" rot="R90"/>
+<instance part="SUPPLY21" gate="G$1" x="289.56" y="170.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="286.766" y="170.18" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -28134,6 +28136,11 @@ HIGH = E-STOP</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="210.82" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J23" gate="J$1" pin="2"/>
+<wire x1="292.1" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="SPEED_A" class="0">
 <segment>
@@ -28483,16 +28490,6 @@ HIGH = E-STOP</text>
 <wire x1="160.02" y1="220.98" x2="165.1" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="218.44" x2="160.02" y2="220.98" width="0.1524" layer="91"/>
 <junction x="160.02" y="220.98"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="J23" gate="J$1" pin="2"/>
-<pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
-<wire x1="292.1" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="287.02" y="170.18" size="1.27" layer="95" font="vector" align="bottom-right"/>
 </segment>
 </net>
 <net name="POTENTIOMETER_STEER" class="0">
