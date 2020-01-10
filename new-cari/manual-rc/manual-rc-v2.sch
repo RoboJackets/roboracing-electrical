@@ -22295,7 +22295,7 @@ Mini USB Connector
 <part name="C2" library="rcl" deviceset="C-US" device="C0603" value="0.1 uF"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0603" value="0.1 uF"/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0603" value="0.1 uF"/>
-<part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0603" value="1 uF"/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0603" value="10 nF"/>
@@ -22307,33 +22307,33 @@ Mini USB Connector
 <part name="X1" library="RoboJackets-FreqGen" deviceset="XTAL" device="-3.2X2.5" value="TSX-3225 16.0000MF18X-AC0 "/>
 <part name="C8" library="rcl" deviceset="C-US" device="C0603" value="9 pF"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="9 pF"/>
-<part name="U$1" library="manual-rc" deviceset="HK-GT2B" device="" package3d_urn="urn:adsk.eagle:package:14970250/1"/>
+<part name="U1" library="manual-rc" deviceset="HK-GT2B" device="" package3d_urn="urn:adsk.eagle:package:14970250/1"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0603" value="0.1 uF"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="10 kΩ"/>
-<part name="PB2" library="RoboJackets-Switches" deviceset="PTS645" device="">
+<part name="PB1" library="RoboJackets-Switches" deviceset="PTS645" device="">
 <attribute name="FUNCTION" value="ETH_RESET"/>
 </part>
-<part name="PB3" library="RoboJackets-Switches" deviceset="PTS645" device="">
+<part name="PB2" library="RoboJackets-Switches" deviceset="PTS645" device="">
 <attribute name="FUNCTION" value="MCU_RESET"/>
 </part>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_A_L" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22Ω"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22Ω"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22Ω"/>
 <part name="D1" library="SparkFun" deviceset="DIODE" device="SOD"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="U$2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
+<part name="U2" library="ethernet_poe" deviceset="ETH-POE" device="" package3d_urn="urn:adsk.eagle:package:14970482/1"/>
 <part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1 uF"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1 uF"/>
-<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="D6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" package3d_urn="urn:adsk.eagle:package:38441/1" value="5.1V"/>
-<part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" package3d_urn="urn:adsk.eagle:package:38441/1" value="5.1V"/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="F1" library="RoboJackets-Passive" deviceset="FUSE" device="1206"/>
-<part name="D5" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC" value="APD340VRTR-G1"/>
+<part name="D4" library="RoboJackets-Diodes" deviceset="DIODE-" device="DO-214AC" value="APD340VRTR-G1"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
@@ -22342,12 +22342,12 @@ Mini USB Connector
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="PTH" package3d_urn="urn:adsk.eagle:package:38016/1" value="AVR_SPI_PROG_3X2PTH"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="D4" library="Steering" deviceset="LED_AA3528VRVCS/A" device="" value="PINK"/>
-<part name="R11" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="100Ω"/>
-<part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="D7" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
+<part name="D6" library="Steering" deviceset="LED_AA3528VRVCS/A" device="" value="PINK"/>
+<part name="R7" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="100Ω"/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D3" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
 <part name="R3" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="200Ω"/>
-<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D2" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
 <part name="R4" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="200Ω"/>
 <part name="J2" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
@@ -22392,6 +22392,8 @@ Mini USB Connector
 <text x="180.34" y="104.14" size="1.778" layer="97">USB Programmer</text>
 <text x="215.138" y="130.302" size="1.778" layer="95" rot="R180">Power Status LED</text>
 <text x="132.842" y="95.758" size="1.778" layer="95">Status LEDs</text>
+<text x="138.176" y="89.154" size="1.778" layer="96">BLUE</text>
+<text x="138.176" y="78.74" size="1.778" layer="96">BLUE</text>
 </plain>
 <instances>
 <instance part="MC1" gate="G$1" x="99.06" y="50.8" smashed="yes">
@@ -22414,7 +22416,7 @@ Mini USB Connector
 <attribute name="NAME" x="54.356" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.356" y="64.389" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY54" gate="GND" x="22.86" y="58.42" smashed="yes">
+<instance part="SUPPLY16" gate="GND" x="22.86" y="58.42" smashed="yes">
 <attribute name="VALUE" x="26.035" y="57.785" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="1" x="66.04" y="86.36" smashed="yes">
@@ -22457,7 +22459,7 @@ Mini USB Connector
 <attribute name="NAME" x="46.736" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.736" y="84.709" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="HK-GT2B" x="58.42" y="175.26" smashed="yes">
+<instance part="U1" gate="HK-GT2B" x="58.42" y="175.26" smashed="yes">
 <attribute name="NAME" x="50.8" y="182.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="165.1" size="1.778" layer="96"/>
 </instance>
@@ -22478,12 +22480,12 @@ Mini USB Connector
 <attribute name="NAME" x="110.2614" y="123.19" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="123.19" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PB2" gate="G$1" x="121.92" y="121.92" smashed="yes">
+<instance part="PB1" gate="G$1" x="121.92" y="121.92" smashed="yes">
 <attribute name="NAME" x="116.84" y="125.73" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="121.92" y="120.65" size="2.54" layer="96" font="vector" ratio="15" align="top-center" display="off"/>
 <attribute name="FUNCTION" x="121.92" y="120.142" size="1.27" layer="97" ratio="10" align="top-center"/>
 </instance>
-<instance part="PB3" gate="G$1" x="58.42" y="121.92" smashed="yes">
+<instance part="PB2" gate="G$1" x="58.42" y="121.92" smashed="yes">
 <attribute name="NAME" x="53.34" y="125.73" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="120.65" size="2.54" layer="96" font="vector" ratio="15" align="top-center" display="off"/>
 <attribute name="FUNCTION" x="58.42" y="120.142" size="1.27" layer="97" ratio="10" align="top-center"/>
@@ -22501,7 +22503,7 @@ Mini USB Connector
 <attribute name="NAME" x="206.756" y="83.058" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="205.74" y="88.9" smashed="yes" rot="R180">
+<instance part="R6" gate="G$1" x="205.74" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="207.01" y="90.678" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="85.598" size="1.778" layer="96"/>
 </instance>
@@ -22512,7 +22514,7 @@ Mini USB Connector
 <instance part="SUPPLY6" gate="GND" x="40.64" y="172.72" smashed="yes">
 <attribute name="VALUE" x="43.815" y="172.085" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="POE-DEMO" x="231.14" y="162.56" smashed="yes">
+<instance part="U2" gate="POE-DEMO" x="231.14" y="162.56" smashed="yes">
 <attribute name="NAME" x="220.98" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="220.98" y="144.78" size="1.778" layer="96"/>
 </instance>
@@ -22527,21 +22529,21 @@ Mini USB Connector
 <attribute name="NAME" x="171.196" y="142.875" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.196" y="138.049" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY20" gate="GND" x="170.18" y="132.08" smashed="yes">
+<instance part="SUPPLY13" gate="GND" x="170.18" y="132.08" smashed="yes">
 <attribute name="VALUE" x="168.275" y="128.905" size="1.778" layer="96"/>
 </instance>
-<instance part="D6" gate="G$1" x="187.96" y="142.24" smashed="yes" rot="R90">
+<instance part="D5" gate="G$1" x="187.96" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.928" y="139.7" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="189.992" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="SUPPLY32" gate="GND" x="187.96" y="132.08" smashed="yes">
+<instance part="SUPPLY15" gate="GND" x="187.96" y="132.08" smashed="yes">
 <attribute name="VALUE" x="186.055" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="F1" gate="G$1" x="185.42" y="160.02" smashed="yes">
 <attribute name="NAME" x="175.26" y="162.56" size="2.54" layer="95" font="vector"/>
 <attribute name="VALUE" x="185.42" y="157.48" size="2.54" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="D5" gate="G$1" x="170.18" y="154.94" smashed="yes" rot="R270">
+<instance part="D4" gate="G$1" x="170.18" y="154.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="172.212" y="156.464" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="165.1" y="165.608" size="1.778" layer="96" rot="R270" align="top-left"/>
 </instance>
@@ -22570,25 +22572,25 @@ Mini USB Connector
 <instance part="SUPPLY11" gate="GND" x="129.54" y="167.64" smashed="yes">
 <attribute name="VALUE" x="132.715" y="167.005" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="200.66" y="142.24" smashed="yes">
+<instance part="D6" gate="G$1" x="200.66" y="142.24" smashed="yes">
 <attribute name="NAME" x="203.2" y="144.78" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="210.82" y="137.16" smashed="yes" rot="R180">
+<instance part="R7" gate="G$1" x="210.82" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="214.63" y="135.6614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="214.63" y="140.462" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY30" gate="GND" x="220.98" y="132.08" smashed="yes">
+<instance part="SUPPLY14" gate="GND" x="220.98" y="132.08" smashed="yes">
 <attribute name="VALUE" x="224.155" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="D7" gate="G$1" x="137.16" y="83.82" smashed="yes" rot="R90">
+<instance part="D3" gate="G$1" x="137.16" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.176" y="81.026" size="1.778" layer="95"/>
 </instance>
 <instance part="R3" gate="G$1" x="149.86" y="83.82" smashed="yes">
 <attribute name="NAME" x="152.4" y="84.3026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="80.518" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="160.02" y="81.28" smashed="yes">
+<instance part="SUPPLY12" gate="GND" x="160.02" y="81.28" smashed="yes">
 <attribute name="VALUE" x="158.115" y="78.105" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="137.16" y="91.44" smashed="yes" rot="R90">
@@ -22647,7 +22649,7 @@ Mini USB Connector
 <junction x="66.04" y="73.66"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="HK-GT2B" pin="VCC"/>
+<pinref part="U1" gate="HK-GT2B" pin="VCC"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="45.72" y1="180.34" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
 </segment>
@@ -22658,16 +22660,16 @@ Mini USB Connector
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="147.32" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
 <junction x="177.8" y="147.32"/>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="144.78" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 <junction x="170.18" y="147.32"/>
 <wire x1="187.96" y1="149.86" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <junction x="187.96" y="147.32"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="187.96" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22706,7 +22708,7 @@ Mini USB Connector
 <junction x="33.02" y="63.5"/>
 <junction x="43.18" y="63.5"/>
 <wire x1="33.02" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="SUPPLY54" gate="GND" pin="GND"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <junction x="22.86" y="63.5"/>
 </segment>
@@ -22727,12 +22729,12 @@ Mini USB Connector
 <wire x1="66.04" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <junction x="71.12" y="121.92"/>
-<pinref part="PB3" gate="G$1" pin="2"/>
+<pinref part="PB2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="215.9" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="POE-DEMO" pin="GND"/>
+<pinref part="U2" gate="POE-DEMO" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
@@ -22741,10 +22743,10 @@ Mini USB Connector
 <wire x1="129.54" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="132.08" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <junction x="134.62" y="121.92"/>
-<pinref part="PB2" gate="G$1" pin="2"/>
+<pinref part="PB1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="HK-GT2B" pin="GND"/>
+<pinref part="U1" gate="HK-GT2B" pin="GND"/>
 <wire x1="45.72" y1="175.26" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 </segment>
@@ -22756,11 +22758,11 @@ Mini USB Connector
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY32" gate="GND" pin="GND"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="187.96" y1="139.7" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22800,13 +22802,13 @@ Mini USB Connector
 <wire x1="129.54" y1="172.72" x2="129.54" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="PIN1"/>
+<pinref part="R7" gate="G$1" pin="PIN1"/>
 <wire x1="215.9" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="220.98" y1="137.16" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="160.02" y1="83.82" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="PIN2"/>
 <wire x1="154.94" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
@@ -22838,7 +22840,7 @@ Mini USB Connector
 <wire x1="48.26" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="48.26" y="121.92"/>
 <label x="43.18" y="121.92" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="PB3" gate="G$1" pin="1"/>
+<pinref part="PB2" gate="G$1" pin="1"/>
 <junction x="53.34" y="121.92"/>
 </segment>
 <segment>
@@ -22881,7 +22883,7 @@ Mini USB Connector
 </net>
 <net name="CH2" class="0">
 <segment>
-<pinref part="U$1" gate="HK-GT2B" pin="CH2"/>
+<pinref part="U1" gate="HK-GT2B" pin="CH2"/>
 <wire x1="71.12" y1="175.26" x2="73.66" y2="175.26" width="0.1524" layer="91"/>
 <label x="73.66" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -22893,7 +22895,7 @@ Mini USB Connector
 </net>
 <net name="CH3" class="0">
 <segment>
-<pinref part="U$1" gate="HK-GT2B" pin="CH1"/>
+<pinref part="U1" gate="HK-GT2B" pin="CH1"/>
 <wire x1="71.12" y1="180.34" x2="73.66" y2="180.34" width="0.1524" layer="91"/>
 <label x="73.66" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -22905,7 +22907,7 @@ Mini USB Connector
 </net>
 <net name="CH1" class="0">
 <segment>
-<pinref part="U$1" gate="HK-GT2B" pin="CH3"/>
+<pinref part="U1" gate="HK-GT2B" pin="CH3"/>
 <wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
 <label x="73.66" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -22924,7 +22926,7 @@ Mini USB Connector
 <segment>
 <wire x1="246.38" y1="160.02" x2="251.46" y2="160.02" width="0.1524" layer="91"/>
 <label x="251.46" y="160.02" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
+<pinref part="U2" gate="POE-DEMO" pin="MISO"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -22941,7 +22943,7 @@ Mini USB Connector
 <segment>
 <wire x1="246.38" y1="154.94" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
 <label x="251.46" y="154.94" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
+<pinref part="U2" gate="POE-DEMO" pin="MOSI"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -22958,7 +22960,7 @@ Mini USB Connector
 <segment>
 <wire x1="246.38" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
 <label x="251.46" y="165.1" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
+<pinref part="U2" gate="POE-DEMO" pin="SCLK"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -22975,7 +22977,7 @@ Mini USB Connector
 <segment>
 <wire x1="246.38" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
 <label x="251.46" y="170.18" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
+<pinref part="U2" gate="POE-DEMO" pin="SCSN"/>
 </segment>
 </net>
 <net name="RST_POE" class="0">
@@ -22988,13 +22990,13 @@ Mini USB Connector
 <wire x1="111.76" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
 <junction x="111.76" y="121.92"/>
 <label x="106.68" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="PB2" gate="G$1" pin="1"/>
+<pinref part="PB1" gate="G$1" pin="1"/>
 <junction x="116.84" y="121.92"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="210.82" y="154.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="U$2" gate="POE-DEMO" pin="RSTN"/>
+<pinref part="U2" gate="POE-DEMO" pin="RSTN"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -23021,7 +23023,7 @@ Mini USB Connector
 </net>
 <net name="D_N" class="2">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
 <label x="195.58" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -23041,7 +23043,7 @@ Mini USB Connector
 <net name="N$6" class="0">
 <segment>
 <wire x1="223.52" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="91.44" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -23066,7 +23068,7 @@ Mini USB Connector
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="POE-DEMO" pin="+5V"/>
+<pinref part="U2" gate="POE-DEMO" pin="+5V"/>
 <wire x1="198.12" y1="160.02" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
 <junction x="198.12" y="160.02"/>
 <label x="198.12" y="162.56" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -23074,7 +23076,7 @@ Mini USB Connector
 </net>
 <net name="INTN" class="0">
 <segment>
-<pinref part="U$2" gate="POE-DEMO" pin="INTN"/>
+<pinref part="U2" gate="POE-DEMO" pin="INTN"/>
 <wire x1="246.38" y1="149.86" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
 <label x="251.46" y="149.86" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -23087,15 +23089,15 @@ Mini USB Connector
 <net name="N$12" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="160.02" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="B"/>
-<pinref part="R11" gate="G$1" pin="PIN2"/>
+<pinref part="D6" gate="G$1" pin="B"/>
+<pinref part="R7" gate="G$1" pin="PIN2"/>
 <wire x1="200.66" y1="139.7" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -23103,7 +23105,7 @@ Mini USB Connector
 <net name="N$4" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="PIN1"/>
-<pinref part="D7" gate="G$1" pin="K"/>
+<pinref part="D3" gate="G$1" pin="K"/>
 <wire x1="144.78" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23127,7 +23129,7 @@ Mini USB Connector
 <segment>
 <pinref part="MC1" gate="G$1" pin="PF5(ADC5/TMS)"/>
 <wire x1="127" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="127" y1="86.36" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="127" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 </segment>
