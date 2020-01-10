@@ -22702,9 +22702,9 @@ and PB0(SS) tri-stated</text>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-<wire x1="121.92" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<label x="127" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB4(ADC11)"/>
+<wire x1="121.92" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<label x="127" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="24V_UNFUSED" class="0">
@@ -22728,14 +22728,14 @@ and PB0(SS) tri-stated</text>
 </net>
 <net name="BRAKE_EN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
-<wire x1="121.92" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<label x="127" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="45.72" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <label x="40.64" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
+<wire x1="121.92" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<label x="127" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PUSH_BUTTON" class="0">
