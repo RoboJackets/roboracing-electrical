@@ -144,6 +144,7 @@
 <connect gate="HK-GT2B" pin="CH3" pad="6"/>
 <connect gate="HK-GT2B" pin="GND" pad="3"/>
 <connect gate="HK-GT2B" pin="VCC" pad="2"/>
+<connect gate="HK-GT2B" pin="VCC2" pad="5"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14970250/1"/>
