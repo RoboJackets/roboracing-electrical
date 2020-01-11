@@ -18368,10 +18368,10 @@ Mini USB Connector
 <part name="MCU" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ATMEGA32U4" device="-AU" package3d_urn="urn:adsk.eagle:package:6240644/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" 10 nF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" 1 uF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" .1 uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" .1 uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" .1 uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=" .1 uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -18385,11 +18385,15 @@ Mini USB Connector
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω">
+<attribute name="DKPT" value="118-CR0603-FX-22R0ELFCT-ND"/>
+</part>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22Ω">
+<attribute name="DKPT" value="118-CR0603-FX-22R0ELFCT-ND"/>
+</part>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="D5" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323">
-<attribute name="DKPT" value="MBRX0520TPMSCT-ND"/>
+<attribute name="DKPT" value="B0520WS-FDICT-ND"/>
 </part>
 <part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="5X3" value="16MHz"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
@@ -18410,7 +18414,9 @@ Mini USB Connector
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10kΩ"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="F1" library="RoboJackets-Passive" deviceset="FUSE" device="1206" value="0.3A"/>
+<part name="F1" library="RoboJackets-Passive" deviceset="FUSE" device="1206" value="0.3A">
+<attribute name="DKPT" value="F10984CT-ND "/>
+</part>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="D7" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" package3d_urn="urn:adsk.eagle:package:38441/1" value="5.1V"/>
@@ -18433,13 +18439,61 @@ Mini USB Connector
 <part name="LD3" library="SparkFun" deviceset="LED" device="0603" value="BLUE"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U1" library="drive_brake" deviceset="LT1930ES5TRMPBF_BOOST_CONV" device=""/>
-<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/1" value="3.3uH"/>
+<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/1" value="3.3uH">
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="535-12564-1-ND"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="587-5919-1-ND"/>
+</part>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="587-5840-1-ND"/>
+</part>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="311-1445-1-ND"/>
+</part>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="311-1445-1-ND"/>
+</part>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="2.2uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="587-5840-1-ND"/>
+</part>
 <part name="D4" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD123">
 <attribute name="DKPT" value="MBR0520TPMSCT-ND"/>
 </part>
@@ -18452,8 +18506,24 @@ Mini USB Connector
 <part name="D1" library="RoboJackets-Diodes" deviceset="DIODE-" device="SOD123">
 <attribute name="DKPT" value="MBR0520TPMSCT-ND"/>
 </part>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="147kΩ"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="13.3kΩ"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="147kΩ">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="311-147KHRCT-ND"/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="13.3kΩ">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="RR08P13.3KDCT-ND"/>
+</part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
@@ -18461,10 +18531,30 @@ Mini USB Connector
 <part name="D8" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323">
 <attribute name="DKPT" value="MBRX0520TPMSCT-ND"/>
 </part>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1320Ω"/>
-<part name="LD4" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1320Ω"/>
-<part name="LD5" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1300Ω">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="RR08P1.3KDCT-ND"/>
+</part>
+<part name="LD4" library="SparkFun" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DKPT" value="160-1446-1-ND"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1300Ω">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPT" value="RR08P1.3KDCT-ND"/>
+</part>
+<part name="LD5" library="SparkFun" deviceset="LED" device="0603" value="GREEN">
+<attribute name="DKPT" value="160-1446-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -18610,10 +18700,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="R6" gate="G$1" x="180.34" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="184.15" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.15" y="59.182" size="1.778" layer="96" rot="R180"/>
+<attribute name="DKPT" x="180.34" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="180.34" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="184.15" y="62.0014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.15" y="66.802" size="1.778" layer="96" rot="R180"/>
+<attribute name="DKPT" x="180.34" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="205.74" y="43.18" smashed="yes">
 <attribute name="VALUE" x="205.64" y="43.026" size="1.778" layer="96" align="top-center"/>
@@ -18695,6 +18787,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="F1" gate="G$1" x="257.81" y="133.35" smashed="yes">
 <attribute name="NAME" x="249.428" y="134.874" size="2.54" layer="95" font="vector"/>
 <attribute name="VALUE" x="262.636" y="137.414" size="2.54" layer="96" font="vector" align="top-center"/>
+<attribute name="DKPT" x="257.81" y="133.35" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="247.65" y="115.57" smashed="yes">
 <attribute name="NAME" x="248.666" y="116.205" size="1.778" layer="95"/>
@@ -18721,7 +18814,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="VALUE" x="267.97" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+3" gate="1" x="35.56" y="154.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.64" y="152.4" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="35.56" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="333.502" y="196.85" smashed="yes" rot="R270">
 <attribute name="VALUE" x="329.438" y="191.77" size="1.778" layer="96"/>
@@ -18776,6 +18869,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="L1" gate="G$1" x="58.42" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="250.19" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="63.5" y="255.27" size="1.778" layer="96" rot="R180"/>
+<attribute name="DKPT" x="58.42" y="251.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="127" y="208.28" smashed="yes">
 <attribute name="VALUE" x="124.46" y="205.74" size="1.778" layer="96"/>
@@ -18783,22 +18877,27 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="C7" gate="G$1" x="25.4" y="241.3" smashed="yes">
 <attribute name="NAME" x="26.416" y="241.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.416" y="237.109" size="1.778" layer="96"/>
+<attribute name="DKPT" x="25.4" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="127" y="236.22" smashed="yes">
 <attribute name="NAME" x="128.016" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.016" y="232.029" size="1.778" layer="96"/>
+<attribute name="DKPT" x="127" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="93.98" y="251.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="94.615" y="250.444" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="89.789" y="250.444" size="1.778" layer="96" rot="R270"/>
+<attribute name="DKPT" x="93.98" y="251.46" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="86.36" y="223.52" smashed="yes">
 <attribute name="NAME" x="87.376" y="224.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.376" y="219.329" size="1.778" layer="96"/>
+<attribute name="DKPT" x="86.36" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="104.14" y="208.28" smashed="yes">
 <attribute name="NAME" x="105.156" y="208.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.156" y="204.089" size="1.778" layer="96"/>
+<attribute name="DKPT" x="104.14" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="96.52" y="200.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.06" y="198.12" size="1.778" layer="95" rot="R180"/>
@@ -18823,10 +18922,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="R4" gate="G$1" x="119.38" y="241.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="237.49" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="237.49" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="119.38" y="241.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="119.38" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="217.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="217.17" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="119.38" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="15.24" y="251.46" smashed="yes" rot="R90">
 <attribute name="VALUE" x="20.32" y="248.92" size="1.778" layer="96" rot="R180"/>
@@ -18849,18 +18950,22 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="R2" gate="G$1" x="139.7" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.2014" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="143.002" y="229.87" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="139.7" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LD4" gate="G$1" x="139.7" y="247.396" smashed="yes">
 <attribute name="NAME" x="133.096" y="242.824" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.255" y="242.824" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="139.7" y="247.396" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="139.7" y="208.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.2014" y="204.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="143.002" y="204.47" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="139.7" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LD5" gate="G$1" x="139.7" y="221.996" smashed="yes">
 <attribute name="NAME" x="133.096" y="217.424" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.255" y="217.424" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPT" x="139.7" y="221.996" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
