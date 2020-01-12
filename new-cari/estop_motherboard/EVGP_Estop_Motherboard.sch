@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22565,9 +22565,9 @@ and PB0(SS) tri-stated</text>
 <pinref part="RADIO" gate="G$1" pin="D1"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="B2"/>
-<wire x1="132.08" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<label x="134.62" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="B1"/>
+<wire x1="96.52" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="93.98" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_EN_RB" class="0">
@@ -22577,9 +22577,9 @@ and PB0(SS) tri-stated</text>
 <label x="187.96" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="B1"/>
-<wire x1="96.52" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
-<label x="93.98" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="B2"/>
+<wire x1="132.08" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<label x="134.62" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_EN_MB" class="0">
