@@ -1,23 +1,20 @@
-﻿Part,Description,Digikey Part Num,Quantity on Board,Order,Unit Cost,Total Cost
-C1,100 uF Electrolytic Cap,732-8598-1-ND,1,2,$0.100 ,$0.200 
-C2,47 uF Ceramic Cap,587-1780-1-ND,1,2,$0.670 ,$1.400 
-"C3, C4, C5, C6",1uF Ceramic Cap,1276-1182-1-ND,4,6,$0.100 ,$0.600 
-"D1, D2, D3",Signal Diodes,BAS16HT1GOSCT-ND,3,4,$0.130 ,$0.560 
-D4,Power diode,478-7798-1-ND,1,2,$0.440 ,$0.880 
-F1,1.5 A fuse,507-1773-1-ND,1,2,$0.210 ,$0.420 
-J1,"1x7 Female 0.1"" Header",S7005-ND,1,2,$0.590 ,$1.180 
-"J2, J3, J5","1x2 Female 0.1"" Header",S7000-ND,3,5,$0.320 ,$1.600 
-"J4, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J21, J22","1x3 Female 0.1"" Header",S7001-ND,17,20,$0.400 ,$8.000 
-J20,"1x4 Female 0.1"" Header",S7002-ND,1,2,$0.450 ,$0.900 
-J22,"1x3 Male 0.1"" Header",732-5316-ND,1,2,$0.130 ,$0.260 
-LED1,Green SMD LED,160-1446-1-ND,1,2,$0.290 ,$0.580 
-Q1,N MOSFET,NTR4003NT1GOSCT-ND,1,2,$0.300 ,$0.600 
-"R1, R2",10K 0603 Resistor,TNP10.0KAACT-ND,2,4,$0.100 ,$0.400 
-R3,100 0603 Resistor,RR08P100DCT-ND,1,3,$0.110 ,$0.330 
-"R4, R6",1K 0603 Resistor,541-3991-1-ND,3,10,$0.028 ,$0.220 
-R5,470 0603 Resistor,A130089CT-ND,1,3,$0.028 ,$0.084 
-S1,Reset Button,401-1426-1-ND,1,2,$0.520 ,$1.040 
-U1,IC BUFFER NON-INVERT 5.5V USV,TC7SZ125FULJ(CTCT-ND,1,2,$0.350 ,$0.700 
-U2,Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A,NCP59151DS50R4GOSCT-ND,1,2,$1.880 ,$3.760 
-,,,,,,
-,,,,,,
+﻿Part,Digikey Part Num,Description,,Unit Cost,Order,Total Cost,,
+C1,732-8598-1-ND,100 uF Electrolytic Cap,,$0.10 ,2,$0.20 ,,
+C2,587-1780-1-ND,47 uF Ceramic Cap,,$0.67 ,2,$1.40 ,,
+"C3, C4, C5, C6",1276-1182-1-ND,1uF Ceramic Cap,,$0.10 ,6,$0.60 ,,
+D4,478-7798-1-ND,Power diode,,$0.44 ,2,$0.88 ,,
+F1,507-1773-1-ND,1.5 A fuse,,$0.21 ,2,$0.42 ,,
+J1,S7005-ND,"1x7 Female 0.1"" Header",,$0.59 ,2,$1.18 ,,
+"J2, J3, J5",S7000-ND,"1x2 Female 0.1"" Header",,$0.32 ,5,$1.60 ,,
+"J4, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J21, J22",S7001-ND,"1x3 Female 0.1"" Header",,$0.40 ,20,$8.00 ,,
+J20,S7002-ND,"1x4 Female 0.1"" Header",,$0.45 ,2,$0.90 ,,
+J22,732-5316-ND,"1x3 Male 0.1"" Header",,$0.13 ,2,$0.26 ,,
+LED1,160-1446-1-ND,Green SMD LED,,$0.29 ,2,$0.58 ,,
+Q1,NTR4003NT1GOSCT-ND,N MOSFET,,$0.30 ,2,$0.60 ,,
+"R1, R2",TNP10.0KAACT-ND,10K 0603 Resistor,,$0.10 ,4,$0.40 ,,
+R3,RR08P100DCT-ND,100 0603 Resistor,,$0.11 ,3,$0.33 ,,
+"R4, R6",541-3991-1-ND,1K 0603 Resistor,,$0.03 ,10,$0.22 ,,
+R5,A130089CT-ND,470 0603 Resistor,,$0.03 ,3,$0.08 ,,
+S1,401-1426-1-ND,Reset Button,,$0.52 ,2,$1.04 ,,
+U1,TC7SZ125FULJ(CTCT-ND,IC BUFFER NON-INVERT 5.5V USV,,$0.35 ,2,$0.70 ,,
+U2,NCP59151DS50R4GOSCT-ND,Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A,,$1.88 ,2,$3.76 ,,
