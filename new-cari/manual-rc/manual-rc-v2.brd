@@ -3,13 +3,13 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -24,18 +24,18 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -7673,29 +7673,6 @@ CONN_03x2
 </package3d>
 </packages3d>
 </library>
-<library name="Steering">
-<packages>
-<package name="KINGBRIGHT_LED">
-<smd name="P$1" x="-1.016" y="0.048" dx="1.5" dy="2.2" layer="1"/>
-<smd name="P$2" x="1.084" y="0.048" dx="1.5" dy="2.2" layer="1"/>
-<text x="-3.016" y="3.048" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.016" y="-2.952" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="-0.516" y1="2.048" x2="0.484" y2="2.548" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.548" x2="0.484" y2="2.048" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.048" x2="0.484" y2="1.548" width="0.127" layer="25"/>
-<wire x1="0.484" y1="1.548" x2="-0.516" y2="2.048" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-0.516" y2="2.548" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-0.516" y2="1.548" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-1.016" y2="2.048" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.048" x2="0.984" y2="2.048" width="0.127" layer="25"/>
-<polygon width="0.127" layer="21">
-<vertex x="-2.016" y="2.048"/>
-<vertex x="-3.016" y="1.048"/>
-<vertex x="-3.016" y="2.048"/>
-</polygon>
-</package>
-</packages>
-</library>
 <library name="RoboJackets-Resistors">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
 &lt;hr&gt;
@@ -7856,6 +7833,8 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <class number="1" name="vcc" width="0" drill="0">
 </class>
 <class number="2" name="diff_pair" width="0.2032" drill="0">
+</class>
+<class number="3" name="data" width="0.25" drill="0">
 </class>
 </classes>
 <designrules name="eC_2Layer_PClass6_BaseCopperO18_eCDefault">
@@ -8212,12 +8191,14 @@ Your Eurocircuits Team
 <attribute name="NAME" x="32.99" y="32.967" size="1" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="31.19" y="27.063" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="D6" library="Steering" package="KINGBRIGHT_LED" value="PINK" x="5" y="39" smashed="yes" rot="MR180">
-<attribute name="DKPN" value="754-1534-1-ND" x="-4" y="30" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="8.952" y="40.016" size="1.27" layer="26" font="vector" rot="MR270"/>
+<element name="D6" library="RoboJackets-LEDs" package="CHIP-LED0603" value="GREEN" x="5" y="39" smashed="yes" rot="MR270">
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="5" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C191KGKT" x="5" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="5.816" y="39.848" size="1" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" value="GREEN" x="5" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R7" library="RoboJackets-Resistors" package="R0603W" value="100Ω" x="5" y="35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="3.5" y="35" size="1" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="3.4" y="34.6" size="1" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="D3" library="RoboJackets-LEDs" package="CHIP-LED0603" value="BLUE" x="15" y="12" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="160-1647-1-ND" x="8" y="18" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -8323,12 +8304,12 @@ Your Eurocircuits Team
 <wire x1="29" y1="33.9924" x2="29.09328125" y2="34.08568125" width="0.3048" layer="16"/>
 <wire x1="15.46" y1="31" x2="17" y2="29.46" width="0.3048" layer="1"/>
 <wire x1="17" y1="29.46" x2="17" y2="27" width="0.3048" layer="1"/>
-<contactref element="D6" pad="P$2"/>
+<contactref element="D6" pad="A"/>
 <wire x1="15.46" y1="31" x2="14.55335" y2="31" width="0.3048" layer="16"/>
-<wire x1="11.88105" y1="32.15495" x2="6.084" y2="37.952" width="0.3048" layer="16"/>
-<wire x1="6.084" y1="37.952" x2="6.084" y2="38.952" width="0.3048" layer="16"/>
 <wire x1="14.55335" y1="31" x2="13.3984" y2="32.15495" width="0.3048" layer="16"/>
 <wire x1="13.3984" y1="32.15495" x2="11.88105" y2="32.15495" width="0.3048" layer="16"/>
+<wire x1="5.75" y1="38.286" x2="5.75" y2="39" width="0.3048" layer="16"/>
+<wire x1="11.88105" y1="32.15495" x2="5.75" y2="38.286" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="MC1" pad="6"/>
@@ -8648,10 +8629,10 @@ Your Eurocircuits Team
 <wire x1="9.487240625" y1="12.10258125" x2="9.487240625" y2="8.927321875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="D6" pad="P$1"/>
+<contactref element="D6" pad="C"/>
 <contactref element="R7" pad="2"/>
-<wire x1="3.984" y1="38.952" x2="4.225" y2="38.711" width="0.3048" layer="16"/>
-<wire x1="4.225" y1="38.711" x2="4.225" y2="35" width="0.3048" layer="16"/>
+<wire x1="4.25" y1="39" x2="4.25" y2="35.025" width="0.3048" layer="16"/>
+<wire x1="4.25" y1="35.025" x2="4.225" y2="35" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="1"/>

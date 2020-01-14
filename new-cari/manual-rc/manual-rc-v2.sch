@@ -21834,77 +21834,6 @@ CONN_03x2
 </deviceset>
 </devicesets>
 </library>
-<library name="Steering">
-<packages>
-<package name="KINGBRIGHT_LED">
-<smd name="P$1" x="-1.016" y="0.048" dx="1.5" dy="2.2" layer="1"/>
-<smd name="P$2" x="1.084" y="0.048" dx="1.5" dy="2.2" layer="1"/>
-<text x="-3.016" y="3.048" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.016" y="-2.952" size="1.27" layer="25">&gt;VALUE</text>
-<wire x1="-0.516" y1="2.048" x2="0.484" y2="2.548" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.548" x2="0.484" y2="2.048" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.048" x2="0.484" y2="1.548" width="0.127" layer="25"/>
-<wire x1="0.484" y1="1.548" x2="-0.516" y2="2.048" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-0.516" y2="2.548" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-0.516" y2="1.548" width="0.127" layer="25"/>
-<wire x1="-0.516" y1="2.048" x2="-1.016" y2="2.048" width="0.127" layer="25"/>
-<wire x1="0.484" y1="2.048" x2="0.984" y2="2.048" width="0.127" layer="25"/>
-<polygon width="0.127" layer="21">
-<vertex x="-2.016" y="2.048"/>
-<vertex x="-3.016" y="1.048"/>
-<vertex x="-3.016" y="2.048"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="LED">
-<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="B" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="0.381"/>
-<vertex x="-3.048" y="1.27"/>
-<vertex x="-2.54" y="0.762"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-0.762"/>
-<vertex x="-2.921" y="0.127"/>
-<vertex x="-2.413" y="-0.381"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED_AA3528VRVCS/A" prefix="D">
-<description>Pink Kingsbright LED</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="KINGBRIGHT_LED">
-<connects>
-<connect gate="G$1" pin="A" pad="P$2"/>
-<connect gate="G$1" pin="B" pad="P$1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="754-1534-1-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RoboJackets-Resistors">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
 &lt;hr&gt;
@@ -22386,6 +22315,8 @@ Mini USB Connector
 </class>
 <class number="2" name="diff_pair" width="0.2032" drill="0">
 </class>
+<class number="3" name="data" width="0.25" drill="0">
+</class>
 </classes>
 <parts>
 <part name="MC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ATMEGA32U4" device="-AU" package3d_urn="urn:adsk.eagle:package:6240644/1"/>
@@ -22440,7 +22371,7 @@ Mini USB Connector
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="PTH" package3d_urn="urn:adsk.eagle:package:38016/1" value="AVR_SPI_PROG_3X2PTH"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="D6" library="Steering" deviceset="LED_AA3528VRVCS/A" device="" value="PINK"/>
+<part name="D6" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
 <part name="R7" library="RoboJackets-Resistors" deviceset="R0603W" device="" value="100Ω"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D3" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-BLUE" value="BLUE"/>
@@ -22490,7 +22421,7 @@ Mini USB Connector
 <wire x1="160.02" y1="177.8" x2="160.02" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
 <text x="160.02" y="180.34" size="1.778" layer="97">Ethernet POE Headers</text>
 <text x="180.34" y="104.14" size="1.778" layer="97">USB Programmer</text>
-<text x="215.138" y="130.302" size="1.778" layer="95" rot="R180">Power Status LED</text>
+<text x="212.598" y="150.622" size="1.778" layer="95" rot="R180">Power Status LED</text>
 <text x="132.842" y="95.758" size="1.778" layer="95">Status LEDs</text>
 <text x="138.176" y="89.154" size="1.778" layer="96">BLUE</text>
 <text x="138.176" y="78.74" size="1.778" layer="96">BLUE</text>
@@ -23208,7 +23139,7 @@ Mini USB Connector
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="D6" gate="G$1" pin="B"/>
+<pinref part="D6" gate="G$1" pin="K"/>
 <pinref part="R7" gate="G$1" pin="PIN2"/>
 <wire x1="200.66" y1="139.7" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
