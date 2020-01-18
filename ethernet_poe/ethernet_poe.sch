@@ -286,28 +286,6 @@
 <vertex x="-4.1275" y="3.81" curve="90"/>
 </polygon>
 </package>
-<package name="ARJP11A-MBSB-A-B-EMU2">
-<hole x="11.43" y="-8.89" drill="3.2"/>
-<hole x="0" y="-8.89" drill="3.2"/>
-<pad name="1" x="0" y="0" drill="0.9"/>
-<pad name="3" x="2.54" y="0" drill="0.9"/>
-<pad name="5" x="5.08" y="0" drill="0.9"/>
-<pad name="9" x="10.16" y="0" drill="0.9"/>
-<pad name="2" x="1.27" y="-2.54" drill="0.9"/>
-<pad name="4" x="3.81" y="-2.54" drill="0.9"/>
-<pad name="6" x="6.35" y="-2.54" drill="0.9"/>
-<pad name="10" x="11.43" y="-2.54" drill="0.9"/>
-<pad name="15" x="-2.035" y="-5.84" drill="1.7"/>
-<pad name="16" x="13.465" y="-5.84" drill="1.7"/>
-<pad name="14" x="12.04" y="-12.27" drill="1"/>
-<pad name="13" x="9.5" y="-13.79" drill="0.9"/>
-<pad name="12" x="1.93" y="-12.27" drill="0.9"/>
-<pad name="11" x="-0.61" y="-13.79" drill="0.9"/>
-<wire x1="-2.415" y1="-19.79" x2="13.845" y2="-19.79" width="0.127" layer="21"/>
-<wire x1="-2.415" y1="1.8" x2="13.845" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-2.415" y1="1.8" x2="-2.415" y2="-19.79" width="0.127" layer="21"/>
-<wire x1="13.845" y1="1.8" x2="13.845" y2="-19.79" width="0.127" layer="21"/>
-</package>
 <package name="OSCILLATOR-SMD-2.5X2" urn="urn:adsk.eagle:footprint:37501/1" locally_modified="yes">
 <description>&lt;h3&gt;4-SMD Oscillator&lt;/h3&gt;</description>
 <smd name="4" x="-0.8125" y="-0.6" dx="1.2" dy="0.85" layer="1"/>
@@ -405,6 +383,34 @@
 <circle x="5" y="5" radius="0.360553125" width="0.127" layer="21"/>
 <text x="-6" y="7" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="SI-52003-F">
+<description>POE Ethernet jack 
+SI-52003-F</description>
+<pad name="1" x="0" y="0" drill="0.9652"/>
+<pad name="2" x="-1.27" y="2.54" drill="0.9652"/>
+<pad name="3" x="-2.54" y="0" drill="0.9652"/>
+<pad name="4" x="-3.81" y="2.54" drill="0.9652"/>
+<pad name="5" x="-5.08" y="0" drill="0.9652"/>
+<hole x="0" y="-6.35" drill="3.2512"/>
+<hole x="-11.43" y="-6.35" drill="3.2512"/>
+<pad name="8" x="-8.89" y="2.54" drill="0.9652"/>
+<pad name="10" x="-11.43" y="2.54" drill="0.9652"/>
+<pad name="9" x="-10.16" y="0" drill="0.9652"/>
+<pad name="11" x="-10.16" y="5.08" drill="0.9652"/>
+<pad name="6" x="2.032" y="-3.302" drill="1.651"/>
+<pad name="7" x="-13.462" y="-3.302" drill="1.651"/>
+<pad name="12" x="-2.794" y="7.366" drill="0.9652"/>
+<pad name="13" x="-0.254" y="7.366" drill="0.9652"/>
+<pad name="14" x="-11.176" y="7.366" drill="0.9652"/>
+<pad name="15" x="-8.636" y="7.366" drill="0.9652"/>
+<wire x1="-13.7795" y1="-17.145" x2="2.3495" y2="-17.145" width="0.1524" layer="21"/>
+<wire x1="2.3495" y1="-17.145" x2="2.3495" y2="-13.335" width="0.1524" layer="21"/>
+<wire x1="2.3495" y1="-13.335" x2="2.3495" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="2.3495" y1="8.255" x2="-13.7795" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-13.7795" y1="8.255" x2="-13.7795" y2="-13.335" width="0.1524" layer="21"/>
+<wire x1="-13.7795" y1="-13.335" x2="-13.7795" y2="-17.145" width="0.1524" layer="21"/>
+<wire x1="2.3495" y1="-13.335" x2="-13.7795" y2="-13.335" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="W5500">
@@ -455,40 +461,6 @@
 <text x="2.54" y="-35.56" size="1.778" layer="97" font="vector" ratio="10" align="center">ETC</text>
 <text x="0" y="-2.54" size="2.54" layer="97" font="vector" ratio="12" align="center">W5500</text>
 <text x="-25.4" y="40.64" size="1.778" layer="95" font="vector">&gt;NAME</text>
-</symbol>
-<symbol name="POE_MAGJACK">
-<wire x1="-25.4" y1="-17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="17.78" x2="-25.4" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TD+" x="-30.48" y="12.7" length="middle"/>
-<pin name="TD-" x="-30.48" y="2.54" length="middle"/>
-<pin name="RD+" x="-30.48" y="-2.54" length="middle"/>
-<pin name="RD-" x="-30.48" y="-12.7" length="middle"/>
-<pin name="TCT" x="-30.48" y="7.62" length="middle"/>
-<pin name="RCT" x="-30.48" y="-7.62" length="middle"/>
-<pin name="V+" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="V-" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="YLED+" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="YLED-" x="27.94" y="2.54" length="middle" rot="R180"/>
-<pin name="GLED+" x="27.94" y="7.62" length="middle" rot="R180"/>
-<pin name="GLED-" x="27.94" y="12.7" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<text x="-25.4" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="12.7" size="1.778" layer="97">RJ45 PoE</text>
-<pin name="CGND" x="0" y="-22.86" visible="off" length="middle" rot="R90"/>
-<text x="0" y="-16.51" size="1.778" layer="97" align="bottom-center">CGND</text>
 </symbol>
 <symbol name="Q-SHIELD2">
 <wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -578,6 +550,38 @@
 <wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="POE_MAGJACK_COM_CT">
+<wire x1="-25.4" y1="-17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="17.78" x2="-25.4" y2="-17.78" width="0.254" layer="94"/>
+<pin name="TD+" x="-30.48" y="12.7" length="middle"/>
+<pin name="TD-" x="-30.48" y="2.54" length="middle"/>
+<pin name="RD+" x="-30.48" y="-2.54" length="middle"/>
+<pin name="RD-" x="-30.48" y="-7.62" length="middle"/>
+<pin name="COM_CT" x="-30.48" y="7.62" length="middle"/>
+<pin name="V+" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="V-" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="GLED2+" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="GLED2-" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="GLED1+" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="GLED1-" x="27.94" y="12.7" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="-25.4" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.778" layer="97">RJ45 PoE</text>
+<pin name="SHIELD" x="-30.48" y="-12.7" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="W5500" prefix="U">
@@ -626,36 +630,6 @@
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="1278-1021-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ARJP11A" prefix="J">
-<description>RJ45 jack with integrated magnetics and Power over Ethernet support</description>
-<gates>
-<gate name="G$1" symbol="POE_MAGJACK" x="-25.4" y="-20.32"/>
-</gates>
-<devices>
-<device name="" package="ARJP11A-MBSB-A-B-EMU2">
-<connects>
-<connect gate="G$1" pin="CGND" pad="15 16"/>
-<connect gate="G$1" pin="GLED+" pad="14"/>
-<connect gate="G$1" pin="GLED-" pad="13"/>
-<connect gate="G$1" pin="RCT" pad="3"/>
-<connect gate="G$1" pin="RD+" pad="1"/>
-<connect gate="G$1" pin="RD-" pad="2"/>
-<connect gate="G$1" pin="TCT" pad="4"/>
-<connect gate="G$1" pin="TD+" pad="5"/>
-<connect gate="G$1" pin="TD-" pad="6"/>
-<connect gate="G$1" pin="V+" pad="9"/>
-<connect gate="G$1" pin="V-" pad="10"/>
-<connect gate="G$1" pin="YLED+" pad="11"/>
-<connect gate="G$1" pin="YLED-" pad="12"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="ARJP11A-MBSB-A-B-EMU2-ND"/>
 </technology>
 </technologies>
 </device>
@@ -786,6 +760,32 @@
 <technology name="">
 <attribute name="DKPN" value="732-1214-1-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI-52003-F">
+<gates>
+<gate name="G$1" symbol="POE_MAGJACK_COM_CT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SI-52003-F">
+<connects>
+<connect gate="G$1" pin="COM_CT" pad="2"/>
+<connect gate="G$1" pin="GLED1+" pad="14"/>
+<connect gate="G$1" pin="GLED1-" pad="15"/>
+<connect gate="G$1" pin="GLED2+" pad="12"/>
+<connect gate="G$1" pin="GLED2-" pad="13"/>
+<connect gate="G$1" pin="RD+" pad="4"/>
+<connect gate="G$1" pin="RD-" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="6 7"/>
+<connect gate="G$1" pin="TD+" pad="1"/>
+<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="V+" pad="8 10"/>
+<connect gate="G$1" pin="V-" pad="9 11"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -23225,14 +23225,11 @@ In this library you will find frames that can be used to help organize a schemat
 </classes>
 <parts>
 <part name="U3" library="ethernet_poe" deviceset="W5500" device=""/>
-<part name="J3" library="ethernet_poe" deviceset="ARJP11A" device=""/>
 <part name="X1" library="ethernet_poe" deviceset="ABM10W-25.0000MHZ-6-K1Z-T3" device="" value="25MHz"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="6.8nF"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="6.8nF"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49 1%"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49 1%"/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
-<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
@@ -23331,6 +23328,7 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="SCH_DESC" value="Power over Ethernet"/>
 <attribute name="TEAM" value=""/>
 </part>
+<part name="U$3" library="ethernet_poe" deviceset="SI-52003-F" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23371,9 +23369,6 @@ In this library you will find frames that can be used to help organize a schemat
 <instance part="U3" gate="G$1" x="109.22" y="86.36" smashed="yes">
 <attribute name="NAME" x="83.82" y="127" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="345.44" y="213.36" smashed="yes">
-<attribute name="NAME" x="320.04" y="231.14" size="1.778" layer="95"/>
-</instance>
 <instance part="X1" gate="G$1" x="38.1" y="63.5" smashed="yes">
 <attribute name="NAME" x="35.56" y="69.596" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="35.56" y="67.31" size="1.778" layer="96" font="vector"/>
@@ -23393,13 +23388,6 @@ In this library you will find frames that can be used to help organize a schemat
 <instance part="R25" gate="G$1" x="292.1" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="289.56" y="187.96" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="294.64" y="187.96" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="C19" gate="G$1" x="271.78" y="172.72" smashed="yes">
-<attribute name="NAME" x="272.796" y="173.355" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="272.796" y="168.529" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="SUPPLY14" gate="GND" x="271.78" y="162.56" smashed="yes">
-<attribute name="VALUE" x="269.875" y="159.385" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="R5" gate="G$1" x="71.12" y="68.58" smashed="yes">
 <attribute name="NAME" x="67.31" y="70.0786" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -23448,12 +23436,12 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="NAME" x="266.7" y="238.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="271.78" y="238.76" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="C18" gate="G$1" x="269.24" y="210.82" smashed="yes">
-<attribute name="NAME" x="270.256" y="211.455" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="270.256" y="206.629" size="1.778" layer="96" font="vector"/>
+<instance part="C18" gate="G$1" x="269.24" y="187.96" smashed="yes">
+<attribute name="NAME" x="270.256" y="188.595" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="270.256" y="183.769" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY13" gate="GND" x="269.24" y="200.66" smashed="yes">
-<attribute name="VALUE" x="269.24" y="198.12" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="SUPPLY13" gate="GND" x="269.24" y="177.8" smashed="yes">
+<attribute name="VALUE" x="269.24" y="175.26" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R26" gate="G$1" x="383.54" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="228.6" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -23466,8 +23454,8 @@ In this library you will find frames that can be used to help organize a schemat
 <instance part="P+8" gate="1" x="386.08" y="205.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="388.62" y="205.74" size="1.778" layer="96" font="vector" align="center-left"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="381" y="172.72" smashed="yes">
-<attribute name="VALUE" x="379.095" y="169.545" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY16" gate="GND" x="373.38" y="172.72" smashed="yes">
+<attribute name="VALUE" x="371.475" y="169.545" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U2" gate="G$1" x="48.26" y="233.68" smashed="yes">
 <attribute name="NAME" x="38.1" y="251.46" size="1.778" layer="95" font="vector" align="top-left"/>
@@ -23613,12 +23601,12 @@ In this library you will find frames that can be used to help organize a schemat
 <instance part="+3V3_D3" gate="G$1" x="101.6" y="193.04" smashed="yes">
 <attribute name="VALUE" x="101.6" y="195.58" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C22" gate="G$1" x="365.76" y="182.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="366.395" y="181.864" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="361.569" y="181.864" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="C22" gate="G$1" x="347.98" y="182.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="348.615" y="181.864" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="343.789" y="181.864" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="SUPPLY15" gate="PE" x="345.44" y="172.72" smashed="yes">
-<attribute name="VALUE" x="340.995" y="168.021" size="1.778" layer="96"/>
+<instance part="SUPPLY15" gate="PE" x="314.96" y="172.72" smashed="yes">
+<attribute name="VALUE" x="310.515" y="168.021" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="127" y="15.24" smashed="yes">
 <attribute name="VALUE" x="125.095" y="12.065" size="1.778" layer="96"/>
@@ -23744,19 +23732,22 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="REVISION" x="392.43" y="8.89" size="2.54" layer="94"/>
 <attribute name="TEAM" x="321.31" y="36.83" size="3.048" layer="94" ratio="10" align="top-left"/>
 </instance>
+<instance part="U$3" gate="G$1" x="345.44" y="213.36" smashed="yes">
+<attribute name="NAME" x="320.04" y="231.14" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="TX_+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="TD+"/>
 <wire x1="314.96" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
 <label x="256.54" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="226.06" x2="256.54" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="233.68" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
 <junction x="279.4" y="226.06"/>
+<pinref part="U$3" gate="G$1" pin="TD+"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -23764,55 +23755,42 @@ In this library you will find frames that can be used to help organize a schemat
 <label x="63.5" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TCT" class="0">
+<net name="COM_CT" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="TCT"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="233.68" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="220.98" x2="314.96" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="213.36" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="190.5" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
 <junction x="269.24" y="220.98"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="195.58" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="198.12" x2="292.1" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="195.58" x2="292.1" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="195.58" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
+<junction x="292.1" y="195.58"/>
+<junction x="269.24" y="195.58"/>
+<pinref part="U$3" gate="G$1" pin="COM_CT"/>
 </segment>
 </net>
 <net name="RD_+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="RD+"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="210.82" x2="302.26" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="RD+"/>
 </segment>
 </net>
 <net name="RD_N" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="RD-"/>
-<wire x1="314.96" y1="200.66" x2="309.88" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="200.66" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="205.74" x2="309.88" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="205.74" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="180.34" x2="302.26" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RCT" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="RCT"/>
-<wire x1="314.96" y1="205.74" x2="304.8" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="205.74" x2="304.8" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="195.58" x2="292.1" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="195.58" x2="292.1" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="195.58" x2="292.1" y2="193.04" width="0.1524" layer="91"/>
-<junction x="292.1" y="195.58"/>
-<wire x1="292.1" y1="195.58" x2="271.78" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="195.58" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="RD-"/>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<wire x1="271.78" y1="165.1" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
@@ -23834,17 +23812,16 @@ In this library you will find frames that can be used to help organize a schemat
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="269.24" y1="205.74" x2="269.24" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="182.88" x2="269.24" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="V-"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="373.38" y1="200.66" x2="381" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="381" y1="200.66" x2="381" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="200.66" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="381" y1="182.88" x2="381" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="182.88" x2="381" y2="182.88" width="0.1524" layer="91"/>
-<junction x="381" y="182.88"/>
+<wire x1="373.38" y1="182.88" x2="373.38" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="182.88" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
+<junction x="373.38" y="182.88"/>
+<pinref part="U$3" gate="G$1" pin="V-"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
@@ -24090,14 +24067,14 @@ In this library you will find frames that can be used to help organize a schemat
 <pinref part="+3V3_D7" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="YLED+"/>
 <wire x1="373.38" y1="210.82" x2="375.92" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="210.82" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="GLED+"/>
 <wire x1="375.92" y1="220.98" x2="375.92" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="220.98" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
 <junction x="375.92" y="220.98"/>
 <pinref part="+3V3_D10" gate="G$1" pin="+3V3_D"/>
+<pinref part="U$3" gate="G$1" pin="GLED2+"/>
+<pinref part="U$3" gate="G$1" pin="GLED1+"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
@@ -24124,16 +24101,16 @@ In this library you will find frames that can be used to help organize a schemat
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="YLED-"/>
 <wire x1="373.38" y1="215.9" x2="378.46" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="GLED2-"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="GLED-"/>
 <wire x1="373.38" y1="226.06" x2="378.46" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="GLED1-"/>
 </segment>
 </net>
 <net name="ACTLED" class="0">
@@ -24162,9 +24139,9 @@ In this library you will find frames that can be used to help organize a schemat
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="V+"/>
 <pinref part="P+8" gate="1" pin="+24V"/>
 <wire x1="373.38" y1="205.74" x2="383.54" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="V+"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VS"/>
@@ -24446,24 +24423,24 @@ In this library you will find frames that can be used to help organize a schemat
 </net>
 <net name="PE" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="CGND"/>
 <pinref part="SUPPLY15" gate="PE" pin="PE"/>
-<wire x1="345.44" y1="190.5" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="182.88" x2="345.44" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
-<junction x="345.44" y="182.88"/>
+<wire x1="314.96" y1="182.88" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
+<junction x="314.96" y="182.88"/>
+<pinref part="U$3" gate="G$1" pin="SHIELD"/>
+<wire x1="314.96" y1="200.66" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_N" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="TD-"/>
 <wire x1="314.96" y1="215.9" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
 <label x="256.54" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="215.9" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="233.68" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
 <junction x="259.08" y="215.9"/>
+<pinref part="U$3" gate="G$1" pin="TD-"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
