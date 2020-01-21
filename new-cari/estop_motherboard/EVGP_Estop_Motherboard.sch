@@ -22502,9 +22502,9 @@ and PB0(SS) tri-stated</text>
 <pinref part="DEVICE" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD5(XCK/CTS)"/>
-<wire x1="121.92" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
-<label x="127" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+<wire x1="121.92" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
+<label x="127" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="STACK_MCU1" class="0">
