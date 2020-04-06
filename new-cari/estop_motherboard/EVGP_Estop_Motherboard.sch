@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21579,8 +21579,8 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="SCH_DESC" value="EVGP Steering Control Board "/>
 </part>
 <part name="FRAME2" library="CarWarsPCBv_3" deviceset="FRAME_B_L" device="">
-<attribute name="REVISION" value="1.0"/>
-<attribute name="SCH_DESC" value="EVGP Steering Control Board "/>
+<attribute name="REVISION" value="1.3"/>
+<attribute name="SCH_DESC" value="EVGP EStop Motherboard"/>
 </part>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -21644,8 +21644,8 @@ power consumption</text>
 <wire x1="142.24" y1="238.76" x2="167.64" y2="238.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="167.64" y1="238.76" x2="167.64" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="167.64" y1="190.5" x2="142.24" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
-<text x="22.86" y="177.8" size="5.08" layer="97" font="vector">Microcontroller</text>
-<text x="90.678" y="222.21" size="5.08" layer="97" font="vector">USB Header</text>
+<text x="20.32" y="180.34" size="5.08" layer="97" font="vector">Microcontroller</text>
+<text x="88.138" y="222.21" size="5.08" layer="97" font="vector">USB Header</text>
 <text x="137.16" y="142.24" size="1.778" layer="97">Keeps SS high when
 using POGO programmer
 and PB0(SS) tri-stated</text>
@@ -21663,7 +21663,7 @@ and PB0(SS) tri-stated</text>
 <wire x1="312.42" y1="208.28" x2="233.68" y2="208.28" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="312.42" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="95" style="shortdash"/>
 <text x="236.22" y="200.66" size="5.08" layer="97" font="vector">SENSOR I/O</text>
-<text x="175.26" y="160.02" size="5.08" layer="97" font="vector">Stack Light</text>
+<text x="172.72" y="165.1" size="5.08" layer="97" font="vector">Stack Light</text>
 <wire x1="170.18" y1="172.72" x2="170.18" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="170.18" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="269.24" y1="99.06" x2="269.24" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
@@ -21672,14 +21672,23 @@ and PB0(SS) tri-stated</text>
 <wire x1="360.68" y1="109.22" x2="360.68" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="360.68" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="271.78" y1="172.72" x2="271.78" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
-<text x="276.86" y="162.56" size="5.08" layer="97" font="vector">Ethernet POE Module</text>
-<text x="337.82" y="162.56" size="1.27" layer="97" font="vector">connector</text>
-<text x="326.39" y="10.16" size="2.54" layer="94" font="vector">Estop Daughterboard</text>
+<text x="274.32" y="165.1" size="5.08" layer="97" font="vector">Ethernet POE Module</text>
+<text x="326.39" y="10.16" size="2.54" layer="94" font="vector">Estop Motherboard for Rigatoni</text>
 <wire x1="213.36" y1="88.9" x2="287.02" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="213.36" y1="88.9" x2="213.36" y2="40.64" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="213.36" y1="40.64" x2="287.02" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="287.02" y1="88.9" x2="287.02" y2="40.64" width="0.1524" layer="95" style="shortdash"/>
-<text x="218.44" y="78.74" size="5.08" layer="97" font="vector">Push Button Connector</text>
+<text x="215.9" y="81.28" size="5.08" layer="97" font="vector">Push Button</text>
+<text x="167.64" y="71.12" size="1.778" layer="97">_RB indicates a radio board signal
+_MB indicates a motherboard signal
+_OUT indicates output to relays
+
+E-Stop Header is for direct solder pins 
+to radio board</text>
+<text x="215.9" y="43.18" size="1.778" layer="97">Push Button is a NO (Normally Open) switch</text>
+<text x="215.9" y="170.18" size="1.778" layer="97" rot="MR180">MOSFETs are used to perform low-side switching</text>
+<text x="287.02" y="203.2" size="1.778" layer="97">Digital I/O connectors 
+with power and ground</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="96.52" y="129.54" smashed="yes">
@@ -21892,12 +21901,12 @@ and PB0(SS) tri-stated</text>
 <instance part="SUPPLY9" gate="G$1" x="43.18" y="25.4" smashed="yes">
 <attribute name="VALUE" x="43.18" y="28.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="243.84" y="60.96" smashed="yes">
-<attribute name="NAME" x="242.57" y="62.4586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.57" y="57.658" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="241.3" y="66.04" smashed="yes">
+<attribute name="NAME" x="240.03" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="240.03" y="62.738" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="251.46" y="68.58" smashed="yes">
-<attribute name="VALUE" x="251.46" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="248.92" y="73.66" smashed="yes">
+<attribute name="VALUE" x="248.92" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U2" gate="A" x="93.98" y="27.94" smashed="yes">
 <attribute name="NAME" x="104.4956" y="34.5186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -21951,8 +21960,8 @@ and PB0(SS) tri-stated</text>
 <instance part="GND28" gate="1" x="289.56" y="116.84" smashed="yes">
 <attribute name="VALUE" x="289.56" y="116.586" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND29" gate="1" x="238.76" y="55.88" smashed="yes">
-<attribute name="VALUE" x="238.76" y="55.626" size="1.778" layer="96" align="top-center"/>
+<instance part="GND29" gate="1" x="236.22" y="60.96" smashed="yes">
+<attribute name="VALUE" x="236.22" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="45.72" y="45.72" smashed="yes">
 <attribute name="NAME" x="49.53" y="50.8" size="1.778" layer="95" align="center-left"/>
@@ -21978,9 +21987,9 @@ and PB0(SS) tri-stated</text>
 <attribute name="NAME" x="49.53" y="27.94" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="31.75" y="7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J9" gate="G$1" x="254" y="63.5" smashed="yes">
-<attribute name="NAME" x="257.81" y="68.58" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="237.49" y="50.8" size="1.778" layer="96" align="center-left"/>
+<instance part="J9" gate="G$1" x="251.46" y="68.58" smashed="yes">
+<attribute name="NAME" x="255.27" y="73.66" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="234.95" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="U3" gate="A" x="93.98" y="60.96" smashed="yes">
 <attribute name="NAME" x="104.4956" y="67.5386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -22191,7 +22200,7 @@ and PB0(SS) tri-stated</text>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="238.76" y1="58.42" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -22328,9 +22337,9 @@ and PB0(SS) tri-stated</text>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="254" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="68.58" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<wire x1="251.46" y1="63.5" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="68.58" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_RST" class="0">
@@ -22606,7 +22615,7 @@ and PB0(SS) tri-stated</text>
 <label x="127" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="STACK_CON1" class="0">
+<net name="STACK_CON2" class="0">
 <segment>
 <wire x1="246.38" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <label x="243.84" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -22630,7 +22639,7 @@ and PB0(SS) tri-stated</text>
 <label x="205.74" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="STACK_CON2" class="0">
+<net name="STACK_CON1" class="0">
 <segment>
 <wire x1="246.38" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
 <label x="243.84" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -22752,13 +22761,13 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="J9" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="254" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="60.96" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
-<junction x="248.92" y="60.96"/>
-<label x="248.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="251.46" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="66.04" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
+<junction x="246.38" y="66.04"/>
+<label x="246.38" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DRIVE_EN_OUT" class="0">
+<net name="STEERING_EN_OUT" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="Y1"/>
 <wire x1="132.08" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
@@ -22794,7 +22803,7 @@ and PB0(SS) tri-stated</text>
 <label x="127" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="STEERING_EN_OUT" class="0">
+<net name="DRIVE_EN_OUT" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="Y2"/>
 <wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
