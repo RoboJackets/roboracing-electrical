@@ -6,13 +6,13 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
 <layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
 <layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
@@ -424,6 +424,40 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <vertex x="-3.016" y="1.048"/>
 <vertex x="-3.016" y="2.048"/>
 </polygon>
+</package>
+<package name="TE_VGA_2311586-5">
+<hole x="0" y="0" drill="3.18"/>
+<hole x="-25" y="0" drill="3.18"/>
+<pad name="6" x="-7.04" y="0" drill="1.19"/>
+<pad name="7" x="-9.33" y="0" drill="1.19"/>
+<pad name="8" x="-11.62" y="0" drill="1.19"/>
+<pad name="9" x="-13.91" y="0" drill="1.19"/>
+<pad name="10" x="-16.2" y="0" drill="1.19"/>
+<pad name="1" x="-8.185" y="2.54" drill="1.19"/>
+<pad name="2" x="-10.475" y="2.54" drill="1.19"/>
+<pad name="3" x="-12.765" y="2.54" drill="1.19"/>
+<pad name="4" x="-15.055" y="2.54" drill="1.19"/>
+<pad name="5" x="-17.345" y="2.54" drill="1.19"/>
+<pad name="11" x="-8.185" y="-2.54" drill="1.19"/>
+<pad name="12" x="-10.475" y="-2.54" drill="1.19"/>
+<pad name="13" x="-12.765" y="-2.54" drill="1.19"/>
+<pad name="14" x="-15.055" y="-2.54" drill="1.19"/>
+<pad name="15" x="-17.345" y="-2.54" drill="1.19"/>
+<text x="-6.5" y="2" size="1.27" layer="112">1</text>
+<text x="-5.5" y="-0.5" size="1.27" layer="112">6</text>
+<text x="-6.5" y="-3" size="1.27" layer="112">11</text>
+<text x="-19.75" y="2" size="1.27" layer="112">5</text>
+<text x="-19.5" y="-0.5" size="1.27" layer="112">10</text>
+<text x="-20.5" y="-3" size="1.27" layer="112">15</text>
+<wire x1="-27.9" y1="-11.43" x2="-20.5" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-20.5" y1="-11.43" x2="-4.5" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-11.43" x2="2.9" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-27.9" y1="4.37" x2="2.9" y2="4.37" width="0.127" layer="21"/>
+<wire x1="-27.9" y1="4.37" x2="-27.9" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="2.9" y1="4.37" x2="2.9" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-11.43" x2="-4.5" y2="-17.43" width="0.127" layer="21"/>
+<wire x1="-20.5" y1="-11.43" x2="-20.5" y2="-17.43" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-17.43" x2="-20.5" y2="-17.43" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -842,6 +876,38 @@ Vss should normally be connected to GND.</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="754-1534-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TE_2311586-5_VGA_CONNECTOR" prefix="J">
+<description>15 Position D-Sub, High Density Receptacle, Female Sockets Connector</description>
+<gates>
+<gate name="G$1" symbol="CONN_15" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_VGA_2311586-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value=" A144832-ND"/>
 </technology>
 </technologies>
 </device>
