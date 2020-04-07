@@ -18571,18 +18571,14 @@ Mini USB Connector
 <wire x1="7.62" y1="180.34" x2="153.924" y2="180.086" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.924" y1="180.086" x2="153.924" y2="271.526" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.924" y1="271.526" x2="7.62" y2="271.78" width="0.1524" layer="97" style="longdash"/>
-<text x="10.16" y="182.88" size="1.778" layer="97">This circuit outputs +15V and -15V rails with a +5V input. 
-
-The type of capacitor may change in the future, but the values remain constant. 
-The shutdown pin is currently connected to +5V, so the circuit is always enabled.</text>
 <wire x1="159.004" y1="271.526" x2="159.004" y2="172.466" width="0.1524" layer="97" style="longdash"/>
 <wire x1="159.004" y1="172.466" x2="329.184" y2="172.466" width="0.1524" layer="97" style="longdash"/>
 <wire x1="329.184" y1="172.466" x2="329.184" y2="271.526" width="0.1524" layer="97" style="longdash"/>
 <wire x1="329.184" y1="271.526" x2="159.004" y2="271.526" width="0.1524" layer="97" style="longdash"/>
-<wire x1="7.62" y1="149.86" x2="7.62" y2="107.95" width="0.1524" layer="97" style="longdash"/>
+<wire x1="7.62" y1="177.8" x2="7.62" y2="107.95" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="107.95" x2="78.74" y2="107.95" width="0.1524" layer="97" style="longdash"/>
-<wire x1="78.74" y1="107.95" x2="78.74" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="78.74" y1="149.86" x2="7.62" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="78.74" y1="107.95" x2="78.74" y2="177.8" width="0.1524" layer="97" style="longdash"/>
+<wire x1="78.74" y1="177.8" x2="7.62" y2="177.8" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="105.41" x2="7.62" y2="57.15" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="57.15" x2="78.74" y2="57.15" width="0.1524" layer="97" style="longdash"/>
 <wire x1="78.74" y1="57.15" x2="78.74" y2="105.41" width="0.1524" layer="97" style="longdash"/>
@@ -18591,17 +18587,16 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <wire x1="81.28" y1="57.15" x2="153.67" y2="57.15" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="57.15" x2="153.67" y2="105.41" width="0.1524" layer="97" style="longdash"/>
 <wire x1="153.67" y1="105.41" x2="81.28" y2="105.41" width="0.1524" layer="97" style="longdash"/>
-<text x="9.398" y="143.764" size="3.81" layer="97" font="vector">ENCODER</text>
+<text x="9.398" y="169.164" size="3.81" layer="97" font="vector">ENCODER</text>
 <text x="83.058" y="99.822" size="3.81" layer="97" font="vector">BRAKING ACTUATOR</text>
 <text x="10.16" y="99.06" size="3.81" layer="97" font="vector">REVERSE CONTACTOR</text>
-<wire x1="81.28" y1="167.64" x2="81.28" y2="107.95" width="0.1524" layer="97" style="longdash"/>
+<wire x1="81.28" y1="177.8" x2="81.28" y2="107.95" width="0.1524" layer="97" style="longdash"/>
 <wire x1="81.28" y1="107.95" x2="153.67" y2="107.95" width="0.1524" layer="97" style="longdash"/>
-<wire x1="153.67" y1="107.95" x2="153.67" y2="167.64" width="0.1524" layer="97" style="longdash"/>
-<wire x1="153.67" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="97" style="longdash"/>
-<text x="83.82" y="162.56" size="3.81" layer="97" font="vector">CURRENT SENSOR</text>
+<wire x1="153.67" y1="107.95" x2="153.67" y2="177.8" width="0.1524" layer="97" style="longdash"/>
+<wire x1="153.67" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="97" style="longdash"/>
+<text x="83.82" y="172.72" size="3.81" layer="97" font="vector">CURRENT SENSOR</text>
 <text x="112.776" y="45.974" size="3.81" layer="97" font="vector">USB PROGRAMMER</text>
 <text x="8.868" y="46.95" size="3.81" layer="97" font="vector">MOTOR CONTROLLER OUTPUT 0-5V</text>
-<text x="101.78" y="181.98" size="1.778" layer="97">Changed C9 and C10 from 0201 to 0603</text>
 <text x="158.58" y="86.366" size="3.81" layer="97" font="vector">RESET PB ATMEGA</text>
 <wire x1="234.69" y1="129.37" x2="234.69" y2="70.35" width="0.1524" layer="97" style="longdash"/>
 <wire x1="234.69" y1="70.35" x2="353.69" y2="70.35" width="0.1524" layer="97" style="longdash"/>
@@ -18630,7 +18625,14 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <text x="303.022" y="195.326" size="1.778" layer="97">USER DEFINED LED</text>
 <text x="10.16" y="266.7" size="3.81" layer="97" font="vector">VOLTAGE REGULATOR</text>
 <text x="281.94" y="86.36" size="1.778" layer="97">ETHERNET LED</text>
-<text x="83.82" y="109.22" size="1.778" layer="97">max current draw 35mA</text>
+<text x="83.82" y="119.38" size="1.778" layer="97">max current draw 35mA</text>
+<text x="83.82" y="111.76" size="1.778" layer="97">resistor network (R12 and R13) shifts up voltage output
+from -5V:5V to 0V:5V (capacitor for smoothing)</text>
+<text x="10.16" y="111.76" size="1.778" layer="97">Using hall effect sensor, only one encoder_in used
+Pin 4 open to match encoder, but using as easy
+jumper lead for 3.3V</text>
+<text x="10.16" y="182.88" size="1.778" layer="97">5V to 15V boost converter. 
+Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.pdf</text>
 </plain>
 <instances>
 <instance part="MCU" gate="G$1" x="242.824" y="214.376" smashed="yes">
@@ -18670,9 +18672,9 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="SUPPLY5" gate="1" x="166.624" y="221.996" smashed="yes">
 <attribute name="VALUE" x="164.719" y="218.821" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="50.8" y="129.54" smashed="yes">
-<attribute name="NAME" x="57.15" y="137.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="57.15" y="134.62" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="50.8" y="154.94" smashed="yes">
+<attribute name="NAME" x="52.07" y="162.56" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="52.07" y="160.02" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="J2" gate="G$1" x="38.1" y="86.36" smashed="yes">
 <attribute name="NAME" x="54.61" y="93.98" size="1.778" layer="95" align="center-left"/>
@@ -18686,12 +18688,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="NAME" x="115.57" y="96.52" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="115.57" y="93.98" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="121.92" y="152.4" smashed="yes">
-<attribute name="NAME" x="130.81" y="160.02" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="130.81" y="157.48" size="1.778" layer="96" align="center-left"/>
+<instance part="J4" gate="G$1" x="121.92" y="162.56" smashed="yes">
+<attribute name="NAME" x="130.81" y="170.18" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="130.81" y="167.64" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="116.84" y="116.84" smashed="yes">
-<attribute name="VALUE" x="114.3" y="114.3" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="116.84" y="127" smashed="yes">
+<attribute name="VALUE" x="114.3" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="SELECT" gate="1" x="212.344" y="186.436" smashed="yes">
 <attribute name="VALUE" x="209.804" y="183.896" size="1.778" layer="96"/>
@@ -18702,8 +18704,8 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="GND6" gate="1" x="35.56" y="63.5" smashed="yes">
 <attribute name="VALUE" x="33.02" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="35.56" y="111.76" smashed="yes">
-<attribute name="VALUE" x="33.02" y="109.22" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="35.56" y="137.16" smashed="yes">
+<attribute name="VALUE" x="33.02" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="134.62" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="138.43" y="23.9014" size="1.778" layer="95" rot="R180"/>
@@ -18821,8 +18823,8 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="P+2" gate="1" x="270.51" y="97.79" smashed="yes">
 <attribute name="VALUE" x="267.97" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+3" gate="1" x="35.56" y="127" smashed="yes" rot="R90">
-<attribute name="VALUE" x="35.56" y="129.54" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="35.56" y="152.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="35.56" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="301.244" y="196.596" smashed="yes" rot="R270">
 <attribute name="VALUE" x="297.18" y="191.516" size="1.778" layer="96"/>
@@ -18839,11 +18841,11 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <instance part="P+11" gate="1" x="132.08" y="38.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="129.54" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="P-2" gate="1" x="99.06" y="154.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="96.52" y="154.94" size="1.778" layer="96" rot="R180"/>
+<instance part="P-2" gate="1" x="99.06" y="165.1" smashed="yes" rot="R270">
+<attribute name="VALUE" x="96.52" y="165.1" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+13" gate="1" x="101.6" y="160.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="99.06" y="160.02" size="1.778" layer="96" rot="R180"/>
+<instance part="P+13" gate="1" x="101.6" y="170.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="99.06" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -18984,20 +18986,20 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <attribute name="NAME" x="54.61" y="37.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.61" y="32.258" size="1.778" layer="96"/>
 </instance>
-<instance part="P+5" gate="1" x="96.52" y="149.86" smashed="yes">
-<attribute name="VALUE" x="99.06" y="147.32" size="1.778" layer="96"/>
+<instance part="P+5" gate="1" x="96.52" y="160.02" smashed="yes">
+<attribute name="VALUE" x="99.06" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="96.52" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.0214" y="135.89" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.822" y="135.89" size="1.778" layer="96" rot="R90"/>
+<instance part="R12" gate="G$1" x="96.52" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.0214" y="146.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="99.822" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C18" gate="G$1" x="96.52" y="129.032" smashed="yes">
-<attribute name="NAME" x="97.536" y="129.667" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.536" y="124.841" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="96.52" y="139.192" smashed="yes">
+<attribute name="NAME" x="97.536" y="139.827" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.536" y="135.001" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="104.14" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="107.95" y="133.1214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="107.95" y="137.922" size="1.778" layer="96" rot="R180"/>
+<instance part="R13" gate="G$1" x="104.14" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.95" y="143.2814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="148.082" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -19030,14 +19032,14 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="121.92" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91" style="longdash"/>
+<wire x1="121.92" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="116.84" y1="144.78" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="154.94" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="121.92" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="121.92" x2="96.52" y2="123.952" width="0.1524" layer="91"/>
-<junction x="116.84" y="121.92"/>
+<wire x1="116.84" y1="132.08" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="132.08" x2="96.52" y2="134.112" width="0.1524" layer="91"/>
+<junction x="116.84" y="132.08"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="GND3"/>
@@ -19076,9 +19078,9 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="50.8" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="119.38" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="144.78" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -19219,12 +19221,12 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<junction x="96.52" y="134.62"/>
-<label x="88.9" y="134.62" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="88.9" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
+<junction x="96.52" y="144.78"/>
+<label x="88.9" y="144.78" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="88.9" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="134.62" x2="96.52" y2="131.572" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="144.78" x2="96.52" y2="141.732" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FORWARD_OUT" class="3">
@@ -19254,10 +19256,10 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <net name="ENCODER_IN_B" class="3">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="129.54" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="35.56" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="50.8" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="154.94" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
+<label x="35.56" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD2(INT2/RXD1)"/>
@@ -19268,8 +19270,8 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <net name="ENCODER_IN_A" class="3">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="50.8" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<label x="35.56" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="50.8" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<label x="35.56" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="G$1" pin="PD1(INT1/SDA)"/>
@@ -19482,7 +19484,7 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -19576,16 +19578,16 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="147.32" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="157.48" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+15V" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <pinref part="P+13" gate="1" pin="+15V"/>
-<wire x1="104.14" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="160.02" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="170.18" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="127" y1="238.76" x2="127" y2="251.46" width="0.1524" layer="91"/>
@@ -19610,9 +19612,9 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <pinref part="P-2" gate="1" pin="-15V"/>
-<wire x1="101.6" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="165.1" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="200.66" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
@@ -19802,10 +19804,10 @@ The shutdown pin is currently connected to +5V, so the circuit is always enabled
 <net name="CURR_RAW" class="3">
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="134.62" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="144.78" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
