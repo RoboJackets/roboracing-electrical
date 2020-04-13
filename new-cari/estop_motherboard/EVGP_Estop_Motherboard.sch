@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22701,9 +22701,9 @@ of brake pneumatic system</text>
 <label x="363.22" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="129.54" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="134.62" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PF0(ADC0)"/>
+<wire x1="129.54" y1="205.74" x2="134.62" y2="205.74" width="0.1524" layer="91"/>
+<label x="134.62" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RST" class="0">
