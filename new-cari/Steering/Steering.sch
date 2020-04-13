@@ -40541,6 +40541,16 @@ D7</text>
 <wire x1="175.26" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
 <label x="180.34" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U3" gate="POE-DEMO" pin="SCSN"/>
+<label x="317.5" y="195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="312.42" y1="195.58" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="PIN1"/>
+<wire x1="314.96" y1="195.58" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="200.66" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
+<junction x="314.96" y="195.58"/>
+</segment>
 </net>
 <net name="ETH_INT" class="0">
 <segment>
@@ -40682,23 +40692,6 @@ D7</text>
 <pinref part="R5" gate="G$1" pin="PIN1"/>
 <pinref part="D7" gate="G$1" pin="K"/>
 <wire x1="195.58" y1="254" x2="190.5" y2="254" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCNN" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="PB4(ADC11)"/>
-<wire x1="175.26" y1="218.44" x2="180.34" y2="218.44" width="0.1524" layer="91"/>
-<label x="180.34" y="218.44" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="POE-DEMO" pin="SCSN"/>
-<label x="317.5" y="195.58" size="1.27" layer="95" xref="yes"/>
-<wire x1="312.42" y1="195.58" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="PIN1"/>
-<wire x1="314.96" y1="195.58" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="200.66" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
-<junction x="314.96" y="195.58"/>
 </segment>
 </net>
 </nets>
