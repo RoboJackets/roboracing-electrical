@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23020,6 +23020,12 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datashee
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="220.98" y1="175.26" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="220.98" y1="76.2" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="5"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -23201,14 +23207,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datashee
 <wire x1="218.44" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="213.36" y="139.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U2" gate="POE-DEMO" pin="RSTN"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="220.98" y1="76.2" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="D_P" class="2">

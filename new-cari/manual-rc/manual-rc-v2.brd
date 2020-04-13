@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -8468,6 +8468,13 @@ Your Eurocircuits Team
 <contactref element="J5" pad="3"/>
 <wire x1="26" y1="15" x2="25.15" y2="15.85" width="0.3048" layer="1"/>
 <wire x1="25.15" y1="15.85" x2="25.15" y2="16" width="0.3048" layer="1"/>
+<contactref element="J2" pad="5"/>
+<wire x1="35.6" y1="8.65" x2="35.6" y2="9.6" width="0.2032" layer="1"/>
+<wire x1="35.6" y1="9.6" x2="36" y2="10" width="0.2032" layer="1"/>
+<via x="36" y="10" extent="1-16" drill="0.35"/>
+<via x="32" y="15" extent="1-16" drill="0.35"/>
+<wire x1="32" y1="15" x2="31.11791875" y2="15.88208125" width="0.2032" layer="1"/>
+<wire x1="31.11791875" y1="15.88208125" x2="31.11791875" y2="15.9549" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C6" pad="1"/>
@@ -8728,9 +8735,6 @@ Your Eurocircuits Team
 <contactref element="D3" pad="A"/>
 <wire x1="24.75" y1="18" x2="24.75" y2="19.75" width="0.2032" layer="16"/>
 <wire x1="24.75" y1="19.75" x2="25" y2="20" width="0.2032" layer="16"/>
-</signal>
-<signal name="N$5">
-<contactref element="J2" pad="5"/>
 </signal>
 <signal name="N$14">
 <contactref element="MC1" pad="32"/>
