@@ -1,4 +1,4 @@
-﻿Part,Digikey Part Num,Description,,Quantity per board,Unit Cost,Order,Total Cost,
+Part,Digikey Part Num,Description,,Quantity per board,Unit Cost,Order,Total Cost,
 C1,732-8598-1-ND,100 uF Electrolytic Cap,,1,$0.10 ,2,$0.20 ,
 C2,587-1780-1-ND,47 uF Ceramic Cap,,1,$0.67 ,2,$1.40 ,
 "C3, C4, C5, C6",1276-1182-1-ND,1uF Ceramic Cap,,4,$0.10 ,6,$0.60 ,
