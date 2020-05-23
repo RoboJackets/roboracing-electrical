@@ -23701,8 +23701,8 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="VALUE" x="243.84" y="132.08" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="C8" gate="G$1" x="60.96" y="182.88" smashed="yes">
-<attribute name="NAME" x="59.69" y="177.8" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="59.69" y="187.96" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="63.5" y="184.15" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="66.04" y="179.07" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="S1" gate="G$1" x="210.82" y="58.42" smashed="yes">
 <attribute name="NAME" x="205.74" y="62.23" size="2.54" layer="95" font="vector"/>
