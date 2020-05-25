@@ -332,23 +332,22 @@
 <text x="0" y="4" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.127" layer="51"/>
-<circle x="-1.277" y="2.427" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.404" y="2.808" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-3.075" y="2.3" dx="1.86" dy="0.9" layer="1" rot="R180"/>
 <smd name="2" x="-3.075" y="0" dx="1.86" dy="0.9" layer="1" rot="R180"/>
 <smd name="3" x="-3.075" y="-2.3" dx="1.86" dy="0.9" layer="1" rot="R180"/>
 <smd name="4" x="3.075" y="0" dx="1.86" dy="3.19" layer="1"/>
 </package>
-<package name="0805" urn="urn:adsk.eagle:footprint:37561/1" locally_modified="yes">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-1.3" y="0" dx="1.4" dy="1" layer="1"/>
-<smd name="2" x="1.3" y="0" dx="1.4" dy="1" layer="1"/>
-<text x="0" y="0.889" size="1" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="1" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<wire x1="-2.1" y1="0.6" x2="2.1" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="2.1" y1="0.6" x2="2.1" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="2.1" y1="-0.6" x2="-2.1" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="-2.1" y1="-0.6" x2="-2.1" y2="0.6" width="0.0508" layer="39"/>
+<package name="744771147">
+<smd name="1" x="0" y="4.95" dx="5.4" dy="2.9" layer="1"/>
+<smd name="2" x="0" y="-4.95" dx="5.4" dy="2.9" layer="1"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.127" layer="21"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.127" layer="21"/>
+<circle x="5" y="5" radius="0.360553125" width="0.127" layer="21"/>
+<text x="-6" y="7" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-6" y="-8" size="1" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 <package name="SOIC-8-EXPOSED_PAD">
 <description>SOIC-8 Package with Thermal Pad underneath</description>
@@ -360,56 +359,140 @@
 <smd name="6" x="2.7" y="-0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
 <smd name="7" x="2.7" y="0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
 <smd name="8" x="2.7" y="1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$9" x="0" y="0" dx="2.62" dy="3.51" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.62" dy="3.51" layer="1"/>
 <wire x1="-1.8" y1="2.5" x2="-1.8" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-1.8" y1="-2.5" x2="1.8" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.8" y1="-2.5" x2="1.8" y2="2.5" width="0.127" layer="21"/>
 <wire x1="1.8" y1="2.5" x2="-1.8" y2="2.5" width="0.127" layer="21"/>
-<circle x="-1.4" y="2.1" radius="0.14141875" width="0.127" layer="21"/>
-<text x="-2" y="3" size="1" layer="25" font="vector">&gt;Name</text>
-<text x="-2" y="-3.7" size="1" layer="27" font="vector">&gt;Value</text>
+<circle x="-2.289" y="2.608" radius="0.14141875" width="0.127" layer="21"/>
+<text x="-3.651" y="3.381" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.651" y="-3.319" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-3.6" y1="3" x2="3.6" y2="3" width="0.127" layer="39"/>
 <wire x1="3.6" y1="3" x2="3.6" y2="-3" width="0.127" layer="39"/>
 <wire x1="3.6" y1="-3" x2="-3.6" y2="-3" width="0.127" layer="39"/>
 <wire x1="-3.6" y1="-3" x2="-3.6" y2="3" width="0.127" layer="39"/>
 </package>
-<package name="744771147">
-<smd name="1" x="0" y="4.95" dx="5.4" dy="2.9" layer="1"/>
-<smd name="P$2" x="0" y="-4.95" dx="5.4" dy="2.9" layer="1"/>
-<wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="21"/>
-<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="21"/>
-<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.127" layer="21"/>
-<wire x1="-6" y1="6" x2="6" y2="6" width="0.127" layer="21"/>
-<circle x="5" y="5" radius="0.360553125" width="0.127" layer="21"/>
-<text x="-6" y="7" size="1.27" layer="21">&gt;NAME</text>
+<package name="0805" urn="urn:adsk.eagle:footprint:37561/1" locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<smd name="2" x="1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<text x="0" y="0.889" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-2.1" y1="0.6" x2="2.1" y2="0.6" width="0.0508" layer="39"/>
+<wire x1="2.1" y1="0.6" x2="2.1" y2="-0.6" width="0.0508" layer="39"/>
+<wire x1="2.1" y1="-0.6" x2="-2.1" y2="-0.6" width="0.0508" layer="39"/>
+<wire x1="-2.1" y1="-0.6" x2="-2.1" y2="0.6" width="0.0508" layer="39"/>
 </package>
-<package name="SI-52003-F">
-<description>POE Ethernet jack 
-SI-52003-F</description>
-<pad name="1" x="0" y="0" drill="0.9652"/>
-<pad name="2" x="-1.27" y="2.54" drill="0.9652"/>
-<pad name="3" x="-2.54" y="0" drill="0.9652"/>
-<pad name="4" x="-3.81" y="2.54" drill="0.9652"/>
-<pad name="5" x="-5.08" y="0" drill="0.9652"/>
-<hole x="0" y="-6.35" drill="3.2512"/>
-<hole x="-11.43" y="-6.35" drill="3.2512"/>
-<pad name="8" x="-8.89" y="2.54" drill="0.9652"/>
-<pad name="10" x="-11.43" y="2.54" drill="0.9652"/>
-<pad name="9" x="-10.16" y="0" drill="0.9652"/>
-<pad name="11" x="-10.16" y="5.08" drill="0.9652"/>
-<pad name="6" x="2.032" y="-3.302" drill="1.651"/>
-<pad name="7" x="-13.462" y="-3.302" drill="1.651"/>
-<pad name="12" x="-2.794" y="7.366" drill="0.9652"/>
-<pad name="13" x="-0.254" y="7.366" drill="0.9652"/>
-<pad name="14" x="-11.176" y="7.366" drill="0.9652"/>
-<pad name="15" x="-8.636" y="7.366" drill="0.9652"/>
-<wire x1="-13.7795" y1="-17.145" x2="2.3495" y2="-17.145" width="0.1524" layer="21"/>
-<wire x1="2.3495" y1="-17.145" x2="2.3495" y2="-13.335" width="0.1524" layer="21"/>
-<wire x1="2.3495" y1="-13.335" x2="2.3495" y2="8.255" width="0.1524" layer="21"/>
-<wire x1="2.3495" y1="8.255" x2="-13.7795" y2="8.255" width="0.1524" layer="21"/>
-<wire x1="-13.7795" y1="8.255" x2="-13.7795" y2="-13.335" width="0.1524" layer="21"/>
-<wire x1="-13.7795" y1="-13.335" x2="-13.7795" y2="-17.145" width="0.1524" layer="21"/>
-<wire x1="2.3495" y1="-13.335" x2="-13.7795" y2="-13.335" width="0.1524" layer="21"/>
+<package name="0ZCG_BEL">
+<smd name="1" x="-2.6162" y="0" dx="1.778" dy="3.5052" layer="1"/>
+<smd name="2" x="2.6162" y="0" dx="1.778" dy="3.5052" layer="1"/>
+<wire x1="-1.397" y1="-1.8288" x2="1.397" y2="-1.8288" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.8288" x2="-1.397" y2="1.8288" width="0.1524" layer="21"/>
+<text x="0" y="-2.575" size="1" layer="27" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+<wire x1="-2.3622" y1="-1.7018" x2="2.3622" y2="-1.7018" width="0.1524" layer="51"/>
+<wire x1="2.3622" y1="-1.7018" x2="2.3622" y2="1.7018" width="0.1524" layer="51"/>
+<wire x1="2.3622" y1="1.7018" x2="-2.3622" y2="1.7018" width="0.1524" layer="51"/>
+<wire x1="-2.3622" y1="1.7018" x2="-2.3622" y2="-1.7018" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="41">
+<vertex x="-1.6764" y="1.7018"/>
+<vertex x="1.6764" y="1.7018"/>
+<vertex x="1.6764" y="-1.7018"/>
+<vertex x="-1.6764" y="-1.7018"/>
+</polygon>
+<text x="0" y="2.6" size="1" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="SOT-23-3">
+<smd name="3" x="0" y="1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
+<wire x1="1.45" y1="0.8" x2="1.45" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-1.45" y1="-0.8" x2="-1.45" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1.45" y1="0.8" x2="-0.55" y2="0.8" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-0.8" x2="-0.45" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="0.55" y1="0.8" x2="1.45" y2="0.8" width="0.2" layer="21"/>
+<text x="-2" y="-1" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.08" y="-1" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SOD123_DIO">
+<smd name="1" x="-1.725" y="0" dx="1.1112" dy="0.6008" layer="1"/>
+<smd name="2" x="1.725" y="0" dx="1.1112" dy="0.6008" layer="1"/>
+<wire x1="-1.4224" y1="-0.2794" x2="-1.4224" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.2794" x2="-1.9304" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.2794" x2="-1.9304" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.2794" x2="-1.4224" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.2794" x2="1.4224" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.2794" x2="1.9304" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.2794" x2="1.9304" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.2794" x2="1.4224" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6858" x2="1.4224" y2="-0.6858" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6858" x2="1.4224" y2="0.6858" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.6858" x2="-1.4224" y2="0.6858" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6858" x2="-1.4224" y2="-0.6858" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="-0.8128" x2="1.5494" y2="-0.8128" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-0.8128" x2="1.5494" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.8128" x2="-1.5494" y2="0.8128" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="0.8128" x2="-1.5494" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.635" x2="-1.5494" y2="-0.8128" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.635" x2="1.5494" y2="0.8128" width="0.1524" layer="21"/>
+<text x="0" y="-1.905" size="1" layer="27" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+<polygon width="0.0254" layer="41">
+<vertex x="-1.1186" y="0.6242"/>
+<vertex x="1.1186" y="0.6242"/>
+<vertex x="1.1186" y="-0.6242"/>
+<vertex x="-1.1186" y="-0.6242"/>
+</polygon>
+<polygon width="0.0254" layer="41">
+<vertex x="-1.1186" y="0.6242"/>
+<vertex x="1.1186" y="0.6242"/>
+<vertex x="1.1186" y="-0.6242"/>
+<vertex x="-1.1186" y="-0.6242"/>
+</polygon>
+<text x="0" y="1.905" size="1" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.381" y="1.27"/>
+<vertex x="-1.397" y="0.889"/>
+<vertex x="-0.381" y="0.889"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-0.381" y="-1.27"/>
+<vertex x="-1.397" y="-0.889"/>
+<vertex x="-0.381" y="-0.889"/>
+</polygon>
+</package>
+<package name="CONNECTOR_POE-RJ45">
+<wire x1="11.59" y1="-7.75" x2="-10.16" y2="-7.75" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-7.75" x2="-10.16" y2="7.75" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="7.75" x2="11.59" y2="7.75" width="0.127" layer="21"/>
+<wire x1="11.59" y1="7.75" x2="11.59" y2="-7.75" width="0.127" layer="21"/>
+<wire x1="-10.26" y1="7.85" x2="-10.26" y2="-7.85" width="0.05" layer="39"/>
+<wire x1="-10.26" y1="-7.85" x2="2.43" y2="-7.85" width="0.05" layer="39"/>
+<wire x1="2.43" y1="-7.85" x2="5.12" y2="-7.85" width="0.05" layer="39" curve="167.319617"/>
+<wire x1="5.12" y1="-7.85" x2="11.69" y2="-7.85" width="0.05" layer="39"/>
+<wire x1="11.69" y1="-7.85" x2="11.68" y2="7.85" width="0.05" layer="39"/>
+<wire x1="11.68" y1="7.85" x2="5.16" y2="7.85" width="0.05" layer="39"/>
+<wire x1="5.16" y1="7.85" x2="2.43" y2="7.85" width="0.05" layer="39" curve="167.319617"/>
+<wire x1="2.43" y1="7.85" x2="-10.26" y2="7.85" width="0.05" layer="39"/>
+<pad name="CH1" x="3.78" y="7.75" drill="1.6"/>
+<pad name="CH2" x="3.78" y="-7.75" drill="1.6"/>
+<pad name="L1" x="-2.65" y="-6.325" drill="0.95" diameter="1.6"/>
+<pad name="L2" x="-4.17" y="-3.785" drill="0.95" diameter="1.6"/>
+<pad name="L3" x="-2.65" y="3.785" drill="0.95" diameter="1.6"/>
+<pad name="L4" x="-4.17" y="6.325" drill="0.95" diameter="1.6"/>
+<pad name="R1" x="9.61" y="5.715" drill="0.95" diameter="1.6"/>
+<pad name="R2" x="7.07" y="4.445" drill="0.95" diameter="1.6"/>
+<pad name="R3" x="9.61" y="3.175" drill="0.95" diameter="1.6"/>
+<pad name="R4" x="7.07" y="1.905" drill="0.95" diameter="1.6"/>
+<pad name="R5" x="9.61" y="0.635" drill="0.95" diameter="1.6"/>
+<pad name="R6" x="7.07" y="-0.635" drill="0.95" diameter="1.6"/>
+<pad name="R7" x="9.61" y="-1.905" drill="0.95" diameter="1.6"/>
+<pad name="R8" x="7.07" y="-3.175" drill="0.95" diameter="1.6"/>
+<pad name="R9" x="9.61" y="-4.445" drill="0.95" diameter="1.6"/>
+<pad name="R10" x="7.07" y="-5.715" drill="0.95" diameter="1.6"/>
+<hole x="0.73" y="5.715" drill="3.25"/>
+<hole x="0.73" y="-5.715" drill="3.25"/>
+<text x="-10.16" y="8.66" size="1.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-10.16" y="-8.43" size="1.5" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -460,9 +543,16 @@ SI-52003-F</description>
 <text x="10.16" y="25.4" size="1.778" layer="97" font="vector" ratio="10" rot="R90" align="center">SPI</text>
 <text x="2.54" y="-35.56" size="1.778" layer="97" font="vector" ratio="10" align="center">ETC</text>
 <text x="0" y="-2.54" size="2.54" layer="97" font="vector" ratio="12" align="center">W5500</text>
-<text x="-25.4" y="40.64" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-25.4" y="38.862" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="Q-SHIELD2">
+<description>&lt;h3&gt;Shielded Crystal Oscillator&lt;/h3&gt;
+&lt;p&gt;
+A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal of piezoelectric material to create an electrical signal with a precise frequency.
+&lt;/p&gt;
+&lt;p&gt;
+This one is shielded to reduce noise.
+&lt;/p&gt;</description>
 <wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
@@ -479,63 +569,41 @@ SI-52003-F</description>
 <wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
-<text x="-2.54" y="6.096" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="3.81" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="OUT" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="IN" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="SHD2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="SHD1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="AZ1117EH-3.3TRG1">
+<description>&lt;h3&gt;Low-Dropout Regulator (LDO)&lt;/h3&gt;
+&lt;p&gt;
+A DC linear voltage regulator that can regulate the output voltage even when the supply voltage is very close to the output voltage
+&lt;/p&gt;</description>
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="-7.62" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.842" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
 <pin name="ADJ/GND" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
 </symbol>
 <symbol name="+3V3_A">
+<description>&lt;b&gt;Analog +3.3V&lt;b&gt;</description>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+3V3_A" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="+3V3_D">
+<description>&lt;b&gt;Digital +3.3V&lt;b&gt;</description>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+3V3_D" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="INDUCTOR">
-<description>&lt;h3&gt;Inductors&lt;/h3&gt;
-&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;</description>
-<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
-</symbol>
-<symbol name="IFX91041">
-<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<pin name="SYNC" x="-15.24" y="-5.08" length="middle" direction="in"/>
-<pin name="GND" x="0" y="-20.32" length="middle" direction="pwr" rot="R90"/>
-<pin name="COMP" x="-15.24" y="5.08" length="middle"/>
-<pin name="FB" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="BDS" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="EN" x="-5.08" y="20.32" length="middle" direction="in" rot="R270"/>
-<pin name="VS" x="5.08" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="BUO" x="15.24" y="0" length="middle" rot="R180"/>
-<text x="-10.16" y="17.78" size="1.778" layer="95" font="vector" align="top-left">&gt;Name</text>
-<text x="-10.16" y="-17.78" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
 <symbol name="INDUCTOR_SINGLE_POLARIZED">
 <pin name="P$1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -544,43 +612,127 @@ SI-52003-F</description>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="3.81" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 <circle x="-6.35" y="2.54" radius="0.254" width="0.508" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="POE_MAGJACK_COM_CT">
-<wire x1="-25.4" y1="-17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="17.78" x2="-25.4" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TD+" x="-30.48" y="12.7" length="middle"/>
-<pin name="TD-" x="-30.48" y="2.54" length="middle"/>
-<pin name="RD+" x="-30.48" y="-2.54" length="middle"/>
-<pin name="RD-" x="-30.48" y="-7.62" length="middle"/>
-<pin name="COM_CT" x="-30.48" y="7.62" length="middle"/>
-<pin name="V+" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="V-" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="GLED2+" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="GLED2-" x="27.94" y="2.54" length="middle" rot="R180"/>
-<pin name="GLED1+" x="27.94" y="7.62" length="middle" rot="R180"/>
-<pin name="GLED1-" x="27.94" y="12.7" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<text x="-25.4" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="12.7" size="1.778" layer="97">RJ45 PoE</text>
-<pin name="SHIELD" x="-30.48" y="-12.7" length="middle"/>
+<symbol name="IFX91041">
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="SYNC" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="GND" x="-15.24" y="-10.16" length="middle" direction="pwr"/>
+<pin name="COMP" x="-15.24" y="0" length="middle"/>
+<pin name="FB" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="BDS" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="EN" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="VS" x="-15.24" y="10.16" length="middle" direction="pwr"/>
+<pin name="BUO" x="15.24" y="0" length="middle" rot="R180"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.906" y="-13.97" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="FERRITE_BEAD">
+<description>&lt;h3&gt;Ferrite Bead&lt;/h3&gt;
+&lt;p&gt;
+A ferrite bead is a passive electric component that suppresses high-frequency noise in electronic circuits. It is a specific type of electronic choke. Ferrite beads employ high-frequency current dissipation in a ferrite ceramic to build high-frequency noise suppression devices.
+&lt;/p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="2.794" x2="-1.397" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.397" y1="0" x2="-2.54" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="1.778" x2="1.397" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="0" x2="-0.254" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.794" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.286" x2="-0.254" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.397" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="3.556" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="FUSE">
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<text x="0" y="-1.6256" size="1.778" layer="96" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.9304" size="1.778" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="PNP">
+<wire x1="2.0861" y1="1.6779" x2="1.5781" y2="2.5941" width="0.1524" layer="94"/>
+<wire x1="1.5781" y1="2.5941" x2="0.5159" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.5159" y1="1.478" x2="2.0861" y2="1.6779" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.1239" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="DIODE">
+<description>&lt;h3&gt;Diode&lt;/h3&gt;
+&lt;p&gt;
+Allows the flow of current in one direction
+&lt;/p&gt;</description>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<text x="0" y="-2.54" size="1.778" layer="96" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.778" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="POE_MAGJACK">
+<wire x1="-22.86" y1="-15.24" x2="22.86" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="15.24" x2="-22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="15.24" x2="-22.86" y2="-15.24" width="0.254" layer="94"/>
+<pin name="TD+" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="TD-" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="RD+" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="RD-" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="CT" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="RXCT" x="-27.94" y="12.7" length="middle"/>
+<pin name="TXCT" x="-27.94" y="10.16" length="middle"/>
+<pin name="Y_LED+" x="-27.94" y="0" length="middle"/>
+<pin name="Y_LED-" x="-27.94" y="-2.54" length="middle"/>
+<pin name="G_LED+" x="-27.94" y="-7.62" length="middle"/>
+<pin name="G_LED-" x="-27.94" y="-10.16" length="middle"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="-22.86" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="10.16" size="1.778" layer="97" align="bottom-center">RJ45 PoE</text>
+<text x="-22.86" y="-16.002" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="CH2" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="CH1" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="NC" x="27.94" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="SPARE1" x="-27.94" y="7.62" length="middle"/>
+<pin name="SPARE2" x="-27.94" y="5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -657,7 +809,7 @@ SI-52003-F</description>
 </devices>
 </deviceset>
 <deviceset name="AZ1117EH-3.3TRG1" prefix="U">
-<description>Ldo.Vreg Pos 3, 3v 1a Sot223</description>
+<description>LDO Voltage Regulator 3.3V, 1A, Sot223</description>
 <gates>
 <gate name="G$1" symbol="AZ1117EH-3.3TRG1" x="0" y="0"/>
 </gates>
@@ -702,18 +854,23 @@ SI-52003-F</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR_0805" prefix="L">
+<deviceset name="744771147" prefix="L" uservalue="yes">
+<description>Wurth Elektronik SMT Shielded Power Inductor
+&lt;br&gt;
+47µH Shielded Wirewound Inductor 2.21A 75mOhm Max Nonstandard</description>
 <gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+<gate name="G$1" symbol="INDUCTOR_SINGLE_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0805">
+<device name="" package="744771147">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="732-1214-1-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -733,7 +890,7 @@ SI-52003-F</description>
 <connect gate="G$1" pin="COMP" pad="3"/>
 <connect gate="G$1" pin="EN" pad="7"/>
 <connect gate="G$1" pin="FB" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2 P$9"/>
+<connect gate="G$1" pin="GND" pad="2 9"/>
 <connect gate="G$1" pin="SYNC" pad="1"/>
 <connect gate="G$1" pin="VS" pad="8"/>
 </connects>
@@ -745,47 +902,111 @@ SI-52003-F</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="744771147" prefix="L" uservalue="yes">
-<description>Wurth Elektronik SMT Shielded Power Inductor</description>
+<deviceset name="742792023" prefix="FB">
+<description>120 Ohms @ 100MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 3A 30mOhm</description>
 <gates>
-<gate name="G$1" symbol="INDUCTOR_SINGLE_POLARIZED" x="0" y="0"/>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="744771147">
+<device name="" package="0805">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPN" value="732-1214-1-ND"/>
+<attribute name="DKPN" value="732-1613-1-ND"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI-52003-F">
+<deviceset name="0ZCG0110AF2C" prefix="F">
+<description>Polymeric PTC Resettable Fuse 16V 2.2A Current Trip, 1.1A Current Hold Surface Mount 1812 (4532 Metric), Concave</description>
 <gates>
-<gate name="G$1" symbol="POE_MAGJACK_COM_CT" x="0" y="0"/>
+<gate name="A" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SI-52003-F">
+<device name="" package="0ZCG_BEL">
 <connects>
-<connect gate="G$1" pin="COM_CT" pad="2"/>
-<connect gate="G$1" pin="GLED1+" pad="14"/>
-<connect gate="G$1" pin="GLED1-" pad="15"/>
-<connect gate="G$1" pin="GLED2+" pad="12"/>
-<connect gate="G$1" pin="GLED2-" pad="13"/>
-<connect gate="G$1" pin="RD+" pad="4"/>
-<connect gate="G$1" pin="RD-" pad="5"/>
-<connect gate="G$1" pin="SHIELD" pad="6 7"/>
-<connect gate="G$1" pin="TD+" pad="1"/>
-<connect gate="G$1" pin="TD-" pad="3"/>
-<connect gate="G$1" pin="V+" pad="8 10"/>
-<connect gate="G$1" pin="V-" pad="9 11"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="507-1767-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSR16" prefix="Q">
+<description>Bipolar (BJT) Transistor PNP 60V 800mA 200MHz 350mW Surface Mount SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="BSR16CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4148W-7-F" prefix="D">
+<description>Diode Standard 100V 300mA (DC) Surface Mount SOD-123</description>
+<gates>
+<gate name="A" symbol="DIODE" x="-5.08" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOD123_DIO">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1N4148W-FDICT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RB1-125BAG1A" prefix="J">
+<gates>
+<gate name="G$1" symbol="POE_MAGJACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONNECTOR_POE-RJ45">
+<connects>
+<connect gate="G$1" pin="CH1" pad="CH1"/>
+<connect gate="G$1" pin="CH2" pad="CH2"/>
+<connect gate="G$1" pin="CT" pad="R3"/>
+<connect gate="G$1" pin="G_LED+" pad="L3"/>
+<connect gate="G$1" pin="G_LED-" pad="L4"/>
+<connect gate="G$1" pin="NC" pad="R6"/>
+<connect gate="G$1" pin="RD+" pad="R1"/>
+<connect gate="G$1" pin="RD-" pad="R2"/>
+<connect gate="G$1" pin="RXCT" pad="R7"/>
+<connect gate="G$1" pin="SPARE1" pad="R9"/>
+<connect gate="G$1" pin="SPARE2" pad="R10"/>
+<connect gate="G$1" pin="TD+" pad="R5"/>
+<connect gate="G$1" pin="TD-" pad="R4"/>
+<connect gate="G$1" pin="TXCT" pad="R8"/>
+<connect gate="G$1" pin="Y_LED+" pad="L1"/>
+<connect gate="G$1" pin="Y_LED-" pad="L2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1278-1011-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12191,7 +12412,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/43" prefix="C" uservalue="yes" library_version="10">
+<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/44" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -12207,6 +12428,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12221,6 +12443,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12235,6 +12458,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="37" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12249,6 +12473,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="63" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12263,6 +12488,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12277,6 +12503,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12291,6 +12518,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12305,6 +12533,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12319,6 +12548,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12333,6 +12563,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12347,6 +12578,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12361,6 +12593,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12375,6 +12608,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12389,6 +12623,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12403,6 +12638,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12417,6 +12653,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12431,6 +12668,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12445,6 +12683,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12459,6 +12698,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12473,6 +12713,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12487,6 +12728,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12501,6 +12743,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12515,6 +12758,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12529,6 +12773,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12543,6 +12788,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12557,6 +12803,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12571,6 +12818,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12585,6 +12833,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12599,6 +12848,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12613,6 +12863,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12627,6 +12878,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12641,6 +12893,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12655,6 +12908,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12669,6 +12923,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12683,6 +12938,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12697,6 +12953,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12711,6 +12968,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12725,6 +12983,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12739,6 +12998,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12753,6 +13013,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12767,6 +13028,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12781,6 +13043,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12795,6 +13058,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12809,6 +13073,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12823,6 +13088,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12837,6 +13103,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12851,6 +13118,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12865,6 +13133,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12879,6 +13148,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12893,6 +13163,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12907,6 +13178,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12921,6 +13193,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12935,6 +13208,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12949,6 +13223,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12963,6 +13238,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12977,6 +13253,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -12991,6 +13268,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13005,6 +13283,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13019,6 +13298,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13033,6 +13313,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13047,6 +13328,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13061,6 +13343,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13075,6 +13358,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13089,6 +13373,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13103,6 +13388,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13117,6 +13403,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13131,6 +13418,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13145,6 +13433,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13159,6 +13448,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13173,6 +13463,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13187,6 +13478,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13201,6 +13493,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13215,6 +13508,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13229,6 +13523,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13243,6 +13538,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13257,6 +13553,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13271,6 +13568,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13285,6 +13583,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13297,7 +13596,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/21" prefix="R" uservalue="yes" library_version="10">
+<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/22" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -13313,6 +13612,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="34" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13327,6 +13627,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="77" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13341,6 +13642,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="85" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13355,6 +13657,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13369,6 +13672,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13383,6 +13687,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13397,6 +13702,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13411,6 +13717,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13425,6 +13732,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13439,6 +13747,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13453,6 +13762,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13467,6 +13777,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13481,6 +13792,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13495,6 +13807,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13509,6 +13822,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13523,6 +13837,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13537,6 +13852,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13551,6 +13867,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13565,6 +13882,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13579,6 +13897,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13593,6 +13912,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13607,6 +13927,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13621,6 +13942,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="45" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13635,6 +13957,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13649,6 +13972,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13663,6 +13987,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13677,6 +14002,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13691,6 +14017,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13705,6 +14032,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13719,6 +14047,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13733,6 +14062,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13747,6 +14077,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="48" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13761,6 +14092,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="36" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13775,6 +14107,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13789,6 +14122,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13803,6 +14137,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13817,6 +14152,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13831,6 +14167,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="22" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13845,6 +14182,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13859,6 +14197,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13873,6 +14212,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13887,6 +14227,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13901,6 +14242,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13915,6 +14257,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13929,6 +14272,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13943,6 +14287,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13957,6 +14302,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13971,6 +14317,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13985,6 +14332,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -13999,6 +14347,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14013,6 +14362,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14027,6 +14377,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14041,6 +14392,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14055,6 +14407,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14069,6 +14422,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14083,6 +14437,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14097,6 +14452,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14111,6 +14467,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14125,6 +14482,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14139,6 +14497,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14153,6 +14512,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14167,6 +14527,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14181,6 +14542,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14195,6 +14557,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14209,6 +14572,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14223,6 +14587,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14237,6 +14602,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14251,6 +14617,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14265,6 +14632,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14279,6 +14647,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14293,6 +14662,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14307,6 +14677,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14321,6 +14692,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14335,6 +14707,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14349,6 +14722,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14363,6 +14737,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14377,6 +14752,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14391,6 +14767,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14405,6 +14782,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14419,6 +14797,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14433,6 +14812,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14447,6 +14827,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14461,6 +14842,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14475,6 +14857,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14489,6 +14872,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -14501,7 +14885,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="CPOL-US" urn="urn:adsk.eagle:component:23788/28" prefix="C" uservalue="yes" library_version="10">
+<deviceset name="CPOL-US" urn="urn:adsk.eagle:component:23788/29" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL-US" x="0" y="0"/>
@@ -14517,6 +14901,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14531,6 +14916,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14545,6 +14931,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14559,6 +14946,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14573,6 +14961,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14587,6 +14976,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14601,6 +14991,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14615,6 +15006,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14629,6 +15021,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14643,6 +15036,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14657,6 +15051,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14671,6 +15066,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14685,6 +15081,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14699,6 +15096,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14713,6 +15111,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14727,6 +15126,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14741,6 +15141,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14755,6 +15156,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14769,6 +15171,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14783,6 +15186,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14797,6 +15201,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14811,6 +15216,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14825,6 +15231,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14839,6 +15246,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14853,6 +15261,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14867,6 +15276,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14881,6 +15291,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14895,6 +15306,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14909,6 +15321,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14923,6 +15336,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14937,6 +15351,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14951,6 +15366,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14965,6 +15381,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14979,6 +15396,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14993,6 +15411,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15007,6 +15426,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15021,6 +15441,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15035,6 +15456,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15049,6 +15471,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15063,6 +15486,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15077,6 +15501,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15091,6 +15516,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15105,6 +15531,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15119,6 +15546,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15133,6 +15561,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15147,6 +15576,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15161,6 +15591,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15175,6 +15606,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15189,6 +15621,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15203,6 +15636,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15217,6 +15651,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15231,6 +15666,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15245,6 +15681,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15259,6 +15696,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15273,6 +15711,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15287,6 +15726,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15301,6 +15741,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15315,6 +15756,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15329,6 +15771,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15343,6 +15786,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15357,6 +15801,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15371,6 +15816,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15385,6 +15831,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15399,6 +15846,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15413,6 +15861,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15427,6 +15876,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15441,6 +15891,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15455,6 +15906,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15469,6 +15921,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="12" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15483,6 +15936,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15497,6 +15951,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15511,6 +15966,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15525,6 +15981,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15539,6 +15996,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15553,6 +16011,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15567,6 +16026,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15581,6 +16041,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15595,6 +16056,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15609,6 +16071,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15623,6 +16086,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15637,6 +16101,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15651,6 +16116,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15665,6 +16131,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15679,6 +16146,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15693,6 +16161,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15707,6 +16176,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15721,6 +16191,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15735,6 +16206,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15749,6 +16221,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15763,6 +16236,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15777,6 +16251,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15791,6 +16266,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15805,6 +16281,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15819,6 +16296,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15833,6 +16311,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15847,6 +16326,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15861,6 +16341,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15875,6 +16356,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15889,6 +16371,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15903,6 +16386,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15917,6 +16401,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15931,6 +16416,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15945,6 +16431,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15959,6 +16446,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15973,6 +16461,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15987,6 +16476,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16001,6 +16491,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16015,6 +16506,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16029,6 +16521,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16043,6 +16536,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16057,6 +16551,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16071,6 +16566,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16085,6 +16581,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16099,6 +16596,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16113,6 +16611,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16127,6 +16626,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16141,6 +16641,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16155,6 +16656,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16169,6 +16671,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16183,6 +16686,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16197,6 +16701,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16211,6 +16716,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16225,6 +16731,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16239,6 +16746,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16253,6 +16761,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16267,6 +16776,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16281,6 +16791,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16295,6 +16806,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16309,6 +16821,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16323,6 +16836,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16337,6 +16851,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16351,6 +16866,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16365,6 +16881,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16379,6 +16896,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16393,6 +16911,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16407,6 +16926,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16421,6 +16941,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16435,6 +16956,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16449,6 +16971,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16463,6 +16986,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16477,6 +17001,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16491,6 +17016,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16505,6 +17031,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16519,6 +17046,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16533,6 +17061,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16547,6 +17076,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16561,6 +17091,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16575,6 +17106,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16589,6 +17121,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16603,6 +17136,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16617,6 +17151,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16631,6 +17166,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16645,6 +17181,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16659,6 +17196,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16673,6 +17211,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16687,6 +17226,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16701,6 +17241,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16715,6 +17256,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16729,6 +17271,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16743,6 +17286,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16757,6 +17301,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16771,6 +17316,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16785,6 +17331,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16799,6 +17346,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16813,6 +17361,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16827,6 +17376,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16841,6 +17391,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16855,6 +17406,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16869,6 +17421,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16883,6 +17436,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16897,6 +17451,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16911,6 +17466,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16925,6 +17481,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16939,6 +17496,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16953,6 +17511,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -18517,7 +19076,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/9" prefix="LED" uservalue="yes" library_version="4">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/10" prefix="LED" uservalue="yes" library_version="5">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -18606,7 +19165,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15796/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="20" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LD260" package="LD260">
@@ -18618,7 +19179,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15794/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SQR2X5" package="LED2X5">
@@ -18630,7 +19193,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15800/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="3MM" package="LED3MM">
@@ -18642,7 +19207,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15797/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="97" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="5MM" package="LED5MM">
@@ -18654,7 +19221,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15799/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="93" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LSU260" package="LSU260">
@@ -18666,7 +19235,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15805/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LZR181" package="LZR181">
@@ -18678,7 +19249,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15808/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="B152" package="Q62902-B152">
@@ -18690,7 +19263,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15803/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="B153" package="Q62902-B153">
@@ -18702,7 +19277,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15804/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="B155" package="Q62902-B155">
@@ -18714,7 +19291,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15807/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="B156" package="Q62902-B156">
@@ -18726,7 +19305,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15806/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SFH480" package="SFH480">
@@ -18738,7 +19319,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15809/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SFH482" package="SFH482">
@@ -18750,7 +19333,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15795/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SQR5.7X3.2" package="U57X32">
@@ -18762,7 +19347,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15789/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRL80A" package="IRL80A">
@@ -18774,7 +19361,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15810/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P-LCC-2" package="P-LCC-2">
@@ -18786,7 +19375,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15817/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
@@ -18798,7 +19389,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15811/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SIDELED" package="OSRAM-SIDELED">
@@ -18810,7 +19403,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15812/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMART-LED" package="SMART-LED">
@@ -18822,7 +19417,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15814/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
@@ -18834,7 +19431,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15813/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MICRO-SIDELED" package="MICRO-SIDELED">
@@ -18846,7 +19445,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15815/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="P-LCC-4" package="P-LCC-4">
@@ -18858,7 +19459,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15816/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIP-LED0603" package="CHIP-LED0603">
@@ -18870,7 +19473,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15819/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="26" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIP-LED0805" package="CHIP-LED0805">
@@ -18882,7 +19487,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15818/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="68" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
@@ -18894,7 +19501,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15820/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIPLED_0805" package="CHIPLED_0805">
@@ -18906,7 +19515,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15821/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="52" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIPLED_1206" package="CHIPLED_1206">
@@ -18918,7 +19529,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15823/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="28" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIPLED_0603" package="CHIPLED_0603">
@@ -18930,7 +19543,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15822/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="28" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
@@ -18942,7 +19557,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15824/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="" package="SMARTLED-TTW">
@@ -18954,7 +19571,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15825/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-LUMILED+" package="LUMILED+">
@@ -18966,7 +19585,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15826/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-LUMILED" package="LUMILED">
@@ -18978,7 +19599,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15827/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="10MM" package="LED10MM">
@@ -18990,7 +19613,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15828/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="KA-3528ASYC" package="KA-3528ASYC">
@@ -19002,7 +19627,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15831/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SML0805" package="SML0805">
@@ -19014,7 +19641,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15830/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SML1206" package="SML1206">
@@ -19026,7 +19655,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15829/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SML0603" package="SML0603">
@@ -19038,7 +19669,9 @@ Source: www.kingbright.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15832/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -19819,47 +20452,6 @@ CONN_05
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-PowerSymbols">
-<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
-This library contains power, ground, and voltage-supply symbols.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DGND">
-<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RoboJackets-Switches">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
 &lt;hr&gt;
@@ -19877,8 +20469,8 @@ In this library you will find switches and other mechanical assisted circuit ele
 <smd name="2.1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
 <smd name="2.2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
 <smd name="1.2" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<text x="-2.54" y="1.905" size="1" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-1.905" size="1" layer="21" ratio="20" align="top-center">&gt;FUNCTION</text>
+<text x="-2.54" y="1.905" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.905" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <rectangle x1="-2.286" y1="-1.397" x2="2.286" y2="1.397" layer="39"/>
 </package>
 </packages>
@@ -19890,12 +20482,11 @@ In this library you will find switches and other mechanical assisted circuit ele
 <wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
 <circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
 <circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-5.08" y="3.81" size="2.54" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-1.27" size="2.54" layer="96" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<text x="-5.08" y="3.81" size="2.54" layer="95">&gt;NAME</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="0" y1="0.762" x2="0" y2="3.302" width="0.254" layer="94" style="shortdash"/>
-<text x="0" y="-4.318" size="1.27" layer="97" ratio="10" align="top-center">&gt;FUNCTION</text>
+<text x="0" y="-1.27" size="2.54" layer="96" ratio="10" align="top-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23248,15 +23839,12 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U2" library="ethernet_poe" deviceset="IFX91041" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="L1" library="ethernet_poe" deviceset="744771147" device="" value="47 uH"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220 nF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220nF"/>
 <part name="D1" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22 nF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22k"/>
 <part name="+3V3_D4" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -23287,7 +23875,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="+3V3_D10" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="+3V3_D2" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="+3V3_A2" library="ethernet_poe" deviceset="+3V3_A" device=""/>
-<part name="L2" library="ethernet_poe" deviceset="INDUCTOR_0805" device="" value="742792023"/>
 <part name="+3V3_A3" library="ethernet_poe" deviceset="+3V3_A" device=""/>
 <part name="+3V3_D3" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF/2kV"/>
@@ -23317,9 +23904,8 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3_D9" library="ethernet_poe" deviceset="+3V3_D" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="S1" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
-<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="+3V3_D8" library="ethernet_poe" deviceset="+3V3_D" device=""/>
@@ -23328,400 +23914,404 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="SCH_DESC" value="Power over Ethernet"/>
 <attribute name="TEAM" value=""/>
 </part>
-<part name="U$3" library="ethernet_poe" deviceset="SI-52003-F" device=""/>
+<part name="U2" library="ethernet_poe" deviceset="IFX91041" device=""/>
+<part name="L2" library="ethernet_poe" deviceset="744771147" device="" value="47uH, 2.21A"/>
+<part name="FB1" library="ethernet_poe" deviceset="742792023" device=""/>
+<part name="L1" library="ethernet_poe" deviceset="744771147" device="" value="47uH, 2.21A"/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220 nF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF, 50V"/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
+<part name="F1" library="ethernet_poe" deviceset="0ZCG0110AF2C" device="" value="2.2A (Trip)"/>
+<part name="Q1" library="ethernet_poe" deviceset="BSR16" device=""/>
+<part name="D2" library="ethernet_poe" deviceset="1N4148W-7-F" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510k"/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J3" library="ethernet_poe" deviceset="RB1-125BAG1A" device=""/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF, 50V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="12.7" y1="271.78" x2="12.7" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="12.7" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="116.84" y1="154.94" x2="116.84" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="116.84" y1="271.78" x2="12.7" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="12.7" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="190.5" y1="147.32" x2="190.5" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="190.5" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
-<text x="17.78" y="261.62" size="6.35" layer="97" font="vector" ratio="12">Power</text>
-<text x="17.78" y="139.7" size="6.35" layer="97" font="vector" ratio="12">Control</text>
-<wire x1="160.02" y1="271.78" x2="160.02" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="160.02" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="231.14" y1="154.94" x2="231.14" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="231.14" y1="271.78" x2="160.02" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<text x="165.1" y="261.62" size="6.35" layer="97" font="vector" ratio="12">LEDs</text>
-<wire x1="236.22" y1="271.78" x2="406.4" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="406.4" y1="271.78" x2="406.4" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="406.4" y1="154.94" x2="236.22" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="236.22" y1="154.94" x2="236.22" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
-<text x="241.3" y="261.62" size="6.35" layer="97" font="vector" ratio="12">Ethernet</text>
-<text x="218.44" y="142.24" size="6.35" layer="97" font="vector" ratio="12">Headers</text>
-<wire x1="199.898" y1="78.7" x2="199.898" y2="40.6" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="199.898" y1="40.6" x2="248.92" y2="40.6" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="248.92" y1="40.6" x2="248.92" y2="78.7" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="248.92" y1="78.7" x2="199.898" y2="78.7" width="0.1524" layer="97" style="shortdash"/>
-<text x="220.98" y="43.18" size="1.778" layer="97" font="vector">RC to debounce switch</text>
-<text x="203.2" y="71.12" size="5.08" layer="97" font="vector">Reset</text>
-<wire x1="215.9" y1="149.86" x2="215.9" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="215.9" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="93.98" x2="254" y2="149.86" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="271.78" x2="208.28" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="147.32" x2="421.64" y2="147.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="421.64" y1="147.32" x2="421.64" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="421.64" y1="271.78" x2="208.28" y2="271.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="142.24" x2="314.96" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="314.96" y1="142.24" x2="314.96" y2="5.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="314.96" y1="5.08" x2="137.16" y2="5.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="5.08" x2="137.16" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
+<text x="213.36" y="261.62" size="6.35" layer="97" ratio="12">Power</text>
+<text x="142.24" y="134.62" size="6.35" layer="97" ratio="12">Control</text>
+<wire x1="12.7" y1="124.46" x2="12.7" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="7.62" x2="83.82" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="7.62" x2="83.82" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="124.46" x2="12.7" y2="124.46" width="0.1524" layer="97" style="shortdash"/>
+<text x="17.78" y="114.3" size="6.35" layer="97" ratio="12">LEDs</text>
+<wire x1="-218.44" y1="279.4" x2="-48.26" y2="279.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-48.26" y1="279.4" x2="-48.26" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-48.26" y1="162.56" x2="-218.44" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-218.44" y1="162.56" x2="-218.44" y2="279.4" width="0.1524" layer="97" style="shortdash"/>
+<text x="-213.36" y="269.24" size="6.35" layer="97" ratio="12">Ethernet</text>
+<text x="327.66" y="99.06" size="6.35" layer="97" ratio="12">Headers</text>
+<wire x1="372.618" y1="88.86" x2="372.618" y2="50.76" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="372.618" y1="50.76" x2="421.64" y2="50.76" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="421.64" y1="50.76" x2="421.64" y2="88.86" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="421.64" y1="88.86" x2="372.618" y2="88.86" width="0.1524" layer="97" style="shortdash"/>
+<text x="393.7" y="53.34" size="1.778" layer="97" font="vector">RC to debounce switch</text>
+<text x="373.38" y="81.28" size="6.35" layer="97">Reset</text>
+<wire x1="325.12" y1="106.68" x2="325.12" y2="50.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="325.12" y1="50.8" x2="363.22" y2="50.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="363.22" y1="50.8" x2="363.22" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="363.22" y1="106.68" x2="325.12" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
+<text x="248.92" y="246.38" size="3.81" layer="97">24V to 5V</text>
+<text x="251.46" y="182.88" size="3.81" layer="97">5V to 3.3V</text>
+<text x="327.66" y="241.3" size="3.81" layer="97">5V Fuse with Indicator</text>
+<text x="370.84" y="177.8" size="3.81" layer="97">3.3V Analog Filtering</text>
 </plain>
 <instances>
-<instance part="U3" gate="G$1" x="109.22" y="86.36" smashed="yes">
-<attribute name="NAME" x="83.82" y="127" size="1.778" layer="95" font="vector"/>
+<instance part="U3" gate="G$1" x="233.68" y="81.28" smashed="yes">
+<attribute name="NAME" x="208.28" y="121.92" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="X1" gate="G$1" x="38.1" y="63.5" smashed="yes">
-<attribute name="NAME" x="35.56" y="69.596" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="35.56" y="67.31" size="1.778" layer="96" font="vector"/>
+<instance part="X1" gate="G$1" x="162.56" y="58.42" smashed="yes">
+<attribute name="NAME" x="160.02" y="64.516" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="160.02" y="62.23" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C20" gate="G$1" x="299.72" y="210.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="294.64" y="212.09" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="304.8" y="212.09" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C20" gate="G$1" x="-154.94" y="218.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="-160.02" y="219.71" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-149.86" y="219.71" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C21" gate="G$1" x="299.72" y="180.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="294.64" y="181.61" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="304.8" y="181.61" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C21" gate="G$1" x="-154.94" y="187.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="-160.02" y="189.23" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-149.86" y="189.23" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R24" gate="G$1" x="292.1" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="289.56" y="203.2" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="294.64" y="203.2" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R24" gate="G$1" x="-162.56" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="-165.1" y="210.82" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-160.02" y="210.82" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R25" gate="G$1" x="292.1" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="289.56" y="187.96" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="294.64" y="187.96" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R25" gate="G$1" x="-162.56" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="-165.1" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-160.02" y="195.58" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="71.12" y="68.58" smashed="yes">
-<attribute name="NAME" x="67.31" y="70.0786" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="72.39" y="70.358" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R5" gate="G$1" x="195.58" y="63.5" smashed="yes">
+<attribute name="NAME" x="191.77" y="64.9986" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="196.85" y="65.278" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="71.12" y="63.5" smashed="yes">
-<attribute name="NAME" x="67.31" y="64.9986" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="72.39" y="65.278" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R6" gate="G$1" x="195.58" y="58.42" smashed="yes">
+<attribute name="NAME" x="191.77" y="59.9186" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="196.85" y="60.198" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="71.12" y="58.42" smashed="yes">
-<attribute name="NAME" x="67.31" y="59.9186" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="72.39" y="60.198" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R7" gate="G$1" x="195.58" y="53.34" smashed="yes">
+<attribute name="NAME" x="191.77" y="54.8386" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="196.85" y="55.118" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="71.12" y="53.34" smashed="yes">
-<attribute name="NAME" x="67.31" y="54.8386" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="72.39" y="55.118" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R8" gate="G$1" x="195.58" y="48.26" smashed="yes">
+<attribute name="NAME" x="191.77" y="49.7586" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="196.85" y="50.038" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="27.94" y="58.42" smashed="yes">
-<attribute name="NAME" x="28.956" y="59.055" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="28.956" y="54.229" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="152.4" y="53.34" smashed="yes">
+<attribute name="NAME" x="153.416" y="53.975" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="153.416" y="49.149" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C6" gate="G$1" x="48.26" y="58.42" smashed="yes">
-<attribute name="NAME" x="49.276" y="59.055" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="49.276" y="54.229" size="1.778" layer="96" font="vector"/>
+<instance part="C6" gate="G$1" x="172.72" y="53.34" smashed="yes">
+<attribute name="NAME" x="173.736" y="53.975" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="173.736" y="49.149" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="48.26" y="45.72" smashed="yes">
-<attribute name="VALUE" x="46.355" y="42.545" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="GND" x="172.72" y="40.64" smashed="yes">
+<attribute name="VALUE" x="170.815" y="37.465" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.4" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="30.48" y="68.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R2" gate="G$1" x="152.4" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.86" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="154.94" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="38.1" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.1" y="78.4606" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="38.1" y="74.168" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R3" gate="G$1" x="162.56" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="162.56" y="73.3806" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="162.56" y="69.088" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="R21" gate="G$1" x="259.08" y="238.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="256.54" y="238.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="261.62" y="238.76" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R21" gate="G$1" x="-195.58" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="-198.12" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-193.04" y="246.38" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R23" gate="G$1" x="279.4" y="238.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="276.86" y="238.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="281.94" y="238.76" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R23" gate="G$1" x="-175.26" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="-177.8" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-172.72" y="246.38" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R22" gate="G$1" x="269.24" y="238.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="266.7" y="238.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="271.78" y="238.76" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R22" gate="G$1" x="-185.42" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="-187.96" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-182.88" y="246.38" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="C18" gate="G$1" x="269.24" y="187.96" smashed="yes">
-<attribute name="NAME" x="270.256" y="188.595" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="270.256" y="183.769" size="1.778" layer="96" font="vector"/>
+<instance part="C18" gate="G$1" x="-185.42" y="195.58" smashed="yes">
+<attribute name="NAME" x="-184.404" y="196.215" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-184.404" y="191.389" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY13" gate="GND" x="269.24" y="177.8" smashed="yes">
-<attribute name="VALUE" x="269.24" y="175.26" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="SUPPLY13" gate="GND" x="-185.42" y="185.42" smashed="yes">
+<attribute name="VALUE" x="-185.42" y="182.88" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R26" gate="G$1" x="383.54" y="226.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="228.6" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="223.52" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R26" gate="G$1" x="-71.12" y="233.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="-71.12" y="236.22" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-71.12" y="231.14" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="R27" gate="G$1" x="383.54" y="215.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="218.44" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="213.36" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R27" gate="G$1" x="-71.12" y="223.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="-71.12" y="226.06" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-71.12" y="220.98" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="P+8" gate="1" x="386.08" y="205.74" smashed="yes" rot="R270">
-<attribute name="VALUE" x="388.62" y="205.74" size="1.778" layer="96" font="vector" align="center-left"/>
+<instance part="P+8" gate="1" x="-68.58" y="213.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-66.04" y="213.36" size="1.778" layer="96" font="vector" align="center-left"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="373.38" y="172.72" smashed="yes">
-<attribute name="VALUE" x="371.475" y="169.545" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY16" gate="GND" x="-81.28" y="180.34" smashed="yes">
+<attribute name="VALUE" x="-83.185" y="177.165" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="48.26" y="233.68" smashed="yes">
-<attribute name="NAME" x="38.1" y="251.46" size="1.778" layer="95" font="vector" align="top-left"/>
+<instance part="P+2" gate="1" x="218.44" y="254" smashed="yes">
+<attribute name="VALUE" x="218.44" y="256.54" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="P+2" gate="1" x="53.34" y="264.16" smashed="yes">
-<attribute name="VALUE" x="53.34" y="266.7" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY3" gate="GND" x="246.38" y="198.12" smashed="yes">
+<attribute name="VALUE" x="246.38" y="196.088" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="48.26" y="205.74" smashed="yes">
-<attribute name="VALUE" x="48.26" y="203.2" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="C13" gate="G$1" x="284.48" y="233.68" smashed="yes">
+<attribute name="NAME" x="285.496" y="234.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.496" y="229.489" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="86.36" y="233.68" smashed="yes">
-<attribute name="NAME" x="81.28" y="237.49" size="1.778" layer="95" font="vector" align="center-left"/>
-<attribute name="VALUE" x="81.28" y="232.41" size="1.778" layer="96" font="vector" align="center-left"/>
+<instance part="D1" gate="G$1" x="284.48" y="220.98" smashed="yes">
+<attribute name="NAME" x="281.94" y="220.98" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="287.02" y="218.44" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="109.22" y="243.84" smashed="yes">
-<attribute name="VALUE" x="109.22" y="246.38" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY6" gate="GND" x="284.48" y="210.82" smashed="yes">
+<attribute name="VALUE" x="288.544" y="210.82" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="71.12" y="241.3" smashed="yes">
-<attribute name="NAME" x="72.136" y="241.935" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="72.136" y="237.109" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="231.14" y="220.98" smashed="yes">
+<attribute name="NAME" x="234.442" y="220.853" size="1.778" layer="95"/>
+<attribute name="VALUE" x="234.442" y="218.313" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="73.66" y="228.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.66" y="226.06" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="76.2" y="231.14" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="231.14" y="208.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="233.426" y="209.296" size="1.778" layer="95"/>
+<attribute name="VALUE" x="233.426" y="206.756" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="83.82" y="228.6" smashed="yes" rot="R90">
-<attribute name="VALUE" x="86.36" y="228.6" size="1.778" layer="96" font="vector" align="center-left"/>
+<instance part="+3V3_D4" gate="G$1" x="274.32" y="58.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="274.32" y="60.96" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="22.86" y="231.14" smashed="yes">
-<attribute name="NAME" x="23.876" y="231.775" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="23.876" y="226.949" size="1.778" layer="96" font="vector"/>
+<instance part="R15" gate="G$1" x="287.02" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="284.7594" y="121.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="289.052" y="121.92" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="22.86" y="218.44" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.32" y="218.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="25.4" y="218.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="+3V3_D5" gate="G$1" x="287.02" y="132.08" smashed="yes">
+<attribute name="VALUE" x="287.02" y="134.62" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D4" gate="G$1" x="149.86" y="63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="149.86" y="66.04" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R16" gate="G$1" x="287.02" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="284.7594" y="76.2" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="289.306" y="76.2" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="162.56" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="160.2994" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.592" y="127" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="+3V3_D6" gate="G$1" x="287.02" y="86.36" smashed="yes">
+<attribute name="VALUE" x="287.02" y="88.9" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D5" gate="G$1" x="162.56" y="137.16" smashed="yes">
-<attribute name="VALUE" x="162.56" y="139.7" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C10" gate="G$1" x="193.04" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="187.96" y="95.25" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="198.12" y="95.25" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R16" gate="G$1" x="162.56" y="81.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="160.2994" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.846" y="81.28" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY2" gate="GND" x="165.1" y="81.28" smashed="yes">
+<attribute name="VALUE" x="165.227" y="78.867" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="+3V3_D6" gate="G$1" x="162.56" y="91.44" smashed="yes">
-<attribute name="VALUE" x="162.56" y="93.98" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C11" gate="G$1" x="193.04" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="187.96" y="85.09" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="198.12" y="85.09" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="C10" gate="G$1" x="68.58" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.5" y="100.33" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="73.66" y="100.33" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R4" gate="G$1" x="180.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="175.26" y="90.17" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="185.42" y="90.17" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="40.64" y="86.36" smashed="yes">
-<attribute name="VALUE" x="40.767" y="83.947" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center"/>
+<instance part="LED1" gate="G$1" x="27.94" y="63.5" smashed="yes">
+<attribute name="NAME" x="31.496" y="58.928" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="33.655" y="58.928" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C11" gate="G$1" x="68.58" y="88.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.5" y="90.17" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="73.66" y="90.17" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R17" gate="G$1" x="27.94" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.4" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="30.48" y="73.66" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="55.88" y="93.98" smashed="yes">
-<attribute name="NAME" x="50.8" y="95.25" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="60.96" y="95.25" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="SUPPLY9" gate="GND" x="27.94" y="50.8" smashed="yes">
+<attribute name="VALUE" x="26.035" y="47.625" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED1" gate="G$1" x="175.26" y="210.82" smashed="yes">
-<attribute name="NAME" x="178.816" y="206.248" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="180.975" y="206.248" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="P+4" gate="1" x="27.94" y="86.36" smashed="yes">
+<attribute name="VALUE" x="27.94" y="88.9" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="175.26" y="220.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="172.72" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="177.8" y="220.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="LED2" gate="G$1" x="45.72" y="63.5" smashed="yes">
+<attribute name="NAME" x="49.276" y="58.928" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="51.435" y="58.928" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="SUPPLY9" gate="GND" x="175.26" y="198.12" smashed="yes">
-<attribute name="VALUE" x="173.355" y="194.945" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R18" gate="G$1" x="45.72" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.18" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="48.26" y="73.66" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="P+4" gate="1" x="175.26" y="233.68" smashed="yes">
-<attribute name="VALUE" x="175.26" y="236.22" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY10" gate="GND" x="45.72" y="50.8" smashed="yes">
+<attribute name="VALUE" x="43.815" y="47.625" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED2" gate="G$1" x="193.04" y="210.82" smashed="yes">
-<attribute name="NAME" x="196.596" y="206.248" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="198.755" y="206.248" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="P+5" gate="1" x="45.72" y="86.36" smashed="yes">
+<attribute name="VALUE" x="45.72" y="88.9" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="193.04" y="220.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="190.5" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="195.58" y="220.98" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="LED3" gate="G$1" x="63.5" y="63.5" smashed="yes">
+<attribute name="NAME" x="67.056" y="58.928" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="69.215" y="58.928" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="SUPPLY10" gate="GND" x="193.04" y="198.12" smashed="yes">
-<attribute name="VALUE" x="191.135" y="194.945" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R19" gate="G$1" x="63.5" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.96" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="66.04" y="73.66" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="P+5" gate="1" x="193.04" y="233.68" smashed="yes">
-<attribute name="VALUE" x="193.04" y="236.22" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY11" gate="GND" x="63.5" y="50.8" smashed="yes">
+<attribute name="VALUE" x="61.595" y="47.625" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED3" gate="G$1" x="210.82" y="210.82" smashed="yes">
-<attribute name="NAME" x="214.376" y="206.248" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="216.535" y="206.248" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="U1" gate="G$1" x="261.62" y="167.64" smashed="yes">
+<attribute name="NAME" x="254" y="173.99" size="1.778" layer="95"/>
+<attribute name="VALUE" x="254" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="R19" gate="G$1" x="210.82" y="220.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="208.28" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="213.36" y="220.98" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="+3V3_A4" gate="G$1" x="-195.58" y="259.08" smashed="yes">
+<attribute name="VALUE" x="-195.58" y="261.62" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="210.82" y="198.12" smashed="yes">
-<attribute name="VALUE" x="208.915" y="194.945" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_D1" gate="G$1" x="279.4" y="177.8" smashed="yes">
+<attribute name="VALUE" x="279.4" y="179.324" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="38.1" y="182.88" smashed="yes">
-<attribute name="NAME" x="30.48" y="189.23" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="30.48" y="175.26" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY5" gate="GND" x="279.4" y="157.48" smashed="yes">
+<attribute name="VALUE" x="279.4" y="155.448" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="+3V3_A4" gate="G$1" x="259.08" y="251.46" smashed="yes">
-<attribute name="VALUE" x="259.08" y="254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="P+1" gate="1" x="246.38" y="177.8" smashed="yes">
+<attribute name="VALUE" x="246.38" y="179.324" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D1" gate="G$1" x="55.88" y="193.04" smashed="yes">
-<attribute name="VALUE" x="55.88" y="195.58" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_D7" gate="G$1" x="63.5" y="86.36" smashed="yes">
+<attribute name="VALUE" x="63.5" y="88.9" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="55.88" y="172.72" smashed="yes">
-<attribute name="VALUE" x="55.88" y="170.18" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="+3V3_D10" gate="G$1" x="-78.74" y="248.92" smashed="yes">
+<attribute name="VALUE" x="-78.74" y="251.46" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="P+1" gate="1" x="22.86" y="193.04" smashed="yes">
-<attribute name="VALUE" x="22.86" y="195.58" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_D2" gate="G$1" x="195.58" y="124.46" smashed="yes">
+<attribute name="VALUE" x="195.58" y="127" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D7" gate="G$1" x="210.82" y="233.68" smashed="yes">
-<attribute name="VALUE" x="210.82" y="236.22" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_A2" gate="G$1" x="182.88" y="124.46" smashed="yes">
+<attribute name="VALUE" x="182.88" y="127" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D10" gate="G$1" x="375.92" y="241.3" smashed="yes">
-<attribute name="VALUE" x="375.92" y="243.84" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_A3" gate="G$1" x="381" y="167.64" smashed="yes">
+<attribute name="VALUE" x="381" y="169.418" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="+3V3_D2" gate="G$1" x="71.12" y="129.54" smashed="yes">
-<attribute name="VALUE" x="71.12" y="132.08" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_D3" gate="G$1" x="406.4" y="167.64" smashed="yes">
+<attribute name="VALUE" x="406.4" y="169.164" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="+3V3_A2" gate="G$1" x="58.42" y="129.54" smashed="yes">
-<attribute name="VALUE" x="58.42" y="132.08" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C22" gate="G$1" x="-106.68" y="190.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="-106.045" y="189.484" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="-110.871" y="189.484" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="L2" gate="G$1" x="88.9" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.09" y="190.5" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="85.09" y="185.42" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="SUPPLY15" gate="PE" x="-139.7" y="180.34" smashed="yes">
+<attribute name="VALUE" x="-144.145" y="175.641" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V3_A3" gate="G$1" x="73.66" y="193.04" smashed="yes">
-<attribute name="VALUE" x="73.66" y="195.58" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="GND" x="251.46" y="10.16" smashed="yes">
+<attribute name="VALUE" x="249.555" y="6.985" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="+3V3_D3" gate="G$1" x="101.6" y="193.04" smashed="yes">
-<attribute name="VALUE" x="101.6" y="195.58" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="R9" gate="G$1" x="226.06" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="223.7994" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="223.266" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="C22" gate="G$1" x="347.98" y="182.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="348.615" y="181.864" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="343.789" y="181.864" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="R10" gate="G$1" x="231.14" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="228.8794" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="228.346" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY15" gate="PE" x="314.96" y="172.72" smashed="yes">
-<attribute name="VALUE" x="310.515" y="168.021" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="236.22" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="233.9594" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="233.426" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="GND" x="127" y="15.24" smashed="yes">
-<attribute name="VALUE" x="125.095" y="12.065" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="241.3" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="239.0394" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="238.506" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="101.6" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.3394" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="98.806" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R13" gate="G$1" x="246.38" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="244.1194" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="243.586" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="106.68" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="104.4194" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="103.886" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R14" gate="G$1" x="251.46" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="249.1994" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="248.666" y="17.78" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R11" gate="G$1" x="111.76" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="109.4994" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="108.966" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="+3V3_A1" gate="G$1" x="154.94" y="30.48" smashed="yes">
+<attribute name="VALUE" x="154.94" y="33.02" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R12" gate="G$1" x="116.84" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="114.5794" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="114.046" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="C3" gate="G$1" x="154.94" y="22.86" smashed="yes">
+<attribute name="NAME" x="153.67" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="153.67" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="121.92" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="119.6594" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="119.126" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY1" gate="GND" x="154.94" y="12.7" smashed="yes">
+<attribute name="VALUE" x="153.035" y="9.525" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R14" gate="G$1" x="127" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="124.7394" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="124.206" y="22.86" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="C4" gate="G$1" x="162.56" y="22.86" smashed="yes">
+<attribute name="NAME" x="161.29" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="161.29" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="+3V3_A1" gate="G$1" x="30.48" y="35.56" smashed="yes">
-<attribute name="VALUE" x="30.48" y="38.1" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="C5" gate="G$1" x="170.18" y="22.86" smashed="yes">
+<attribute name="NAME" x="168.91" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="168.91" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="30.48" y="27.94" smashed="yes">
-<attribute name="NAME" x="29.21" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="29.21" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="C7" gate="G$1" x="177.8" y="22.86" smashed="yes">
+<attribute name="NAME" x="176.53" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="176.53" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="30.48" y="17.78" smashed="yes">
-<attribute name="VALUE" x="28.575" y="14.605" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="185.42" y="22.86" smashed="yes">
+<attribute name="NAME" x="184.15" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="184.15" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="38.1" y="27.94" smashed="yes">
-<attribute name="NAME" x="36.83" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="36.83" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="C12" gate="G$1" x="193.04" y="22.86" smashed="yes">
+<attribute name="NAME" x="191.77" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="191.77" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="45.72" y="27.94" smashed="yes">
-<attribute name="NAME" x="44.45" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="44.45" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="C14" gate="G$1" x="200.66" y="22.86" smashed="yes">
+<attribute name="NAME" x="199.39" y="17.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="199.39" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="53.34" y="27.94" smashed="yes">
-<attribute name="NAME" x="52.07" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="52.07" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="C16" gate="G$1" x="246.38" y="165.1" smashed="yes">
+<attribute name="NAME" x="247.396" y="165.735" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.396" y="160.909" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="60.96" y="27.94" smashed="yes">
-<attribute name="NAME" x="59.69" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="59.69" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="SUPPLY7" gate="GND" x="312.42" y="208.28" smashed="yes">
+<attribute name="VALUE" x="312.42" y="205.74" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C12" gate="G$1" x="68.58" y="27.94" smashed="yes">
-<attribute name="NAME" x="67.31" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="67.31" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="C15" gate="G$1" x="312.42" y="220.98" smashed="yes">
+<attribute name="NAME" x="313.436" y="221.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="313.436" y="216.789" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="G$1" x="76.2" y="27.94" smashed="yes">
-<attribute name="NAME" x="74.93" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="74.93" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="bottom-center"/>
+<instance part="J1" gate="G$1" x="335.28" y="83.82" smashed="yes">
+<attribute name="VALUE" x="332.74" y="73.914" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="332.74" y="91.948" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="C16" gate="G$1" x="109.22" y="231.14" smashed="yes">
-<attribute name="NAME" x="110.236" y="231.775" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="110.236" y="226.949" size="1.778" layer="96" font="vector"/>
+<instance part="J2" gate="G$1" x="335.28" y="60.96" smashed="yes">
+<attribute name="VALUE" x="332.74" y="51.054" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="332.74" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="109.22" y="220.98" smashed="yes">
-<attribute name="VALUE" x="109.22" y="218.44" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="P+6" gate="1" x="347.98" y="78.74" smashed="yes" rot="R270">
+<attribute name="VALUE" x="350.52" y="76.2" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="C15" gate="G$1" x="101.6" y="231.14" smashed="yes">
-<attribute name="NAME" x="102.616" y="231.775" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.616" y="226.949" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="GND" x="347.98" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="345.44" y="91.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="226.06" y="127" smashed="yes">
-<attribute name="VALUE" x="223.52" y="117.094" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="223.52" y="135.128" size="1.778" layer="95" font="vector"/>
+<instance part="P+7" gate="1" x="358.14" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="360.68" y="83.82" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="226.06" y="104.14" smashed="yes">
-<attribute name="VALUE" x="223.52" y="94.234" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="223.52" y="112.268" size="1.778" layer="95" font="vector"/>
+<instance part="+3V3_D9" gate="G$1" x="353.06" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="353.06" y="88.9" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="P+6" gate="1" x="238.76" y="121.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="241.3" y="119.38" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="C8" gate="G$1" x="284.48" y="167.64" smashed="yes">
+<attribute name="NAME" x="285.496" y="168.402" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.496" y="165.1" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="238.76" y="132.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="236.22" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="S1" gate="G$1" x="383.54" y="68.58" smashed="yes">
+<attribute name="NAME" x="382.016" y="73.66" size="1.778" layer="95"/>
+<attribute name="VALUE" x="383.54" y="67.31" size="1.778" layer="96" ratio="15" align="top-center"/>
 </instance>
-<instance part="P+7" gate="1" x="248.92" y="127" smashed="yes" rot="R270">
-<attribute name="VALUE" x="251.46" y="127" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="R20" gate="G$1" x="396.24" y="76.2" smashed="yes">
+<attribute name="NAME" x="394.208" y="77.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="394.208" y="72.898" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V3_D9" gate="G$1" x="243.84" y="129.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="243.84" y="132.08" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+<instance part="C17" gate="G$1" x="391.16" y="63.5" smashed="yes">
+<attribute name="NAME" x="394.462" y="62.611" size="1.778" layer="95"/>
+<attribute name="VALUE" x="394.462" y="60.071" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="60.96" y="182.88" smashed="yes">
-<attribute name="NAME" x="63.5" y="184.15" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="66.04" y="179.07" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="S1" gate="G$1" x="210.82" y="58.42" smashed="yes">
-<attribute name="NAME" x="205.74" y="62.23" size="2.54" layer="95" font="vector"/>
-<attribute name="VALUE" x="210.82" y="57.15" size="2.54" layer="96" font="vector" ratio="15" align="top-center"/>
-<attribute name="FUNCTION" x="210.82" y="54.102" size="1.27" layer="97" ratio="10" align="top-center"/>
-</instance>
-<instance part="GND1" gate="1" x="203.2" y="45.72" smashed="yes">
-<attribute name="VALUE" x="203.2" y="45.466" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R20" gate="G$1" x="223.52" y="66.04" smashed="yes">
-<attribute name="NAME" x="219.71" y="67.5386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="62.738" size="1.778" layer="96"/>
-</instance>
-<instance part="C17" gate="G$1" x="218.44" y="55.88" smashed="yes">
-<attribute name="NAME" x="219.456" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.456" y="51.689" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V3_D8" gate="G$1" x="228.6" y="71.12" smashed="yes">
-<attribute name="VALUE" x="228.6" y="73.66" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="+3V3_D8" gate="G$1" x="408.94" y="81.28" smashed="yes">
+<attribute name="VALUE" x="408.94" y="82.296" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="320.04" y="2.54" smashed="yes">
@@ -23732,8 +24322,75 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="REVISION" x="392.43" y="8.89" size="2.54" layer="94"/>
 <attribute name="TEAM" x="321.31" y="36.83" size="3.048" layer="94" ratio="10" align="top-left"/>
 </instance>
-<instance part="U$3" gate="G$1" x="345.44" y="213.36" smashed="yes">
-<attribute name="NAME" x="320.04" y="231.14" size="1.778" layer="95"/>
+<instance part="U2" gate="G$1" x="261.62" y="226.06" smashed="yes">
+<attribute name="NAME" x="251.46" y="240.03" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.714" y="212.09" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="L2" gate="G$1" x="231.14" y="236.22" smashed="yes">
+<attribute name="NAME" x="231.14" y="240.03" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="231.14" y="234.95" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="FB1" gate="G$1" x="393.7" y="162.56" smashed="yes">
+<attribute name="NAME" x="393.7" y="166.116" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="393.7" y="158.75" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="L1" gate="G$1" x="297.18" y="226.06" smashed="yes">
+<attribute name="NAME" x="297.18" y="229.87" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="297.18" y="224.79" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY14" gate="GND" x="246.38" y="154.94" smashed="yes">
+<attribute name="VALUE" x="246.38" y="152.908" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C23" gate="G$1" x="322.58" y="220.98" smashed="yes">
+<attribute name="NAME" x="323.596" y="221.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="323.596" y="216.789" size="1.778" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="218.44" y="231.14" smashed="yes">
+<attribute name="NAME" x="219.456" y="231.775" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.456" y="226.949" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="218.44" y="220.98" smashed="yes">
+<attribute name="VALUE" x="218.44" y="218.948" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="D4" gate="G$1" x="345.44" y="220.98" smashed="yes">
+<attribute name="NAME" x="348.996" y="216.408" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="351.155" y="216.408" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="F1" gate="A" x="353.06" y="226.06" smashed="yes">
+<attribute name="VALUE" x="353.06" y="224.4344" size="1.778" layer="96" ratio="10" rot="SR0" align="top-center"/>
+<attribute name="NAME" x="353.06" y="227.9904" size="1.778" layer="95" ratio="10" rot="SR0" align="bottom-center"/>
+</instance>
+<instance part="Q1" gate="G$1" x="347.98" y="208.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="342.9" y="210.82" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="342.9" y="208.28" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="D2" gate="A" x="363.22" y="218.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.76" y="218.44" size="1.778" layer="95" ratio="10" rot="SR270" align="bottom-center"/>
+</instance>
+<instance part="P+3" gate="1" x="363.22" y="231.14" smashed="yes">
+<attribute name="VALUE" x="363.22" y="232.664" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R28" gate="G$1" x="345.44" y="195.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="347.726" y="196.596" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.726" y="194.056" size="1.778" layer="96"/>
+</instance>
+<instance part="R29" gate="G$1" x="363.22" y="195.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.506" y="196.596" size="1.778" layer="95"/>
+<attribute name="VALUE" x="365.506" y="194.056" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="345.44" y="180.34" smashed="yes">
+<attribute name="VALUE" x="345.44" y="178.054" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="375.92" y="55.88" smashed="yes">
+<attribute name="VALUE" x="375.92" y="53.848" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="J3" gate="G$1" x="73.66" y="203.2" smashed="yes">
+<attribute name="NAME" x="50.8" y="218.948" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="187.198" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="C24" gate="G$1" x="111.76" y="220.98" smashed="yes">
+<attribute name="NAME" x="112.776" y="221.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.776" y="216.789" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23741,172 +24398,167 @@ In this library you will find frames that can be used to help organize a schemat
 <nets>
 <net name="TX_+" class="0">
 <segment>
-<wire x1="314.96" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
-<label x="256.54" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-139.7" y1="233.68" x2="-175.26" y2="233.68" width="0.1524" layer="91"/>
+<label x="-198.12" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="226.06" x2="256.54" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="233.68" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
-<junction x="279.4" y="226.06"/>
-<pinref part="U$3" gate="G$1" pin="TD+"/>
+<wire x1="-175.26" y1="233.68" x2="-198.12" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="241.3" x2="-175.26" y2="233.68" width="0.1524" layer="91"/>
+<junction x="-175.26" y="233.68"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="63.5" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="187.96" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COM_CT" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="233.68" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="220.98" x2="314.96" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="241.3" x2="-185.42" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="228.6" x2="-139.7" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="190.5" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
-<junction x="269.24" y="220.98"/>
+<wire x1="-185.42" y1="198.12" x2="-185.42" y2="203.2" width="0.1524" layer="91"/>
+<junction x="-185.42" y="228.6"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="195.58" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="198.12" x2="292.1" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="195.58" x2="292.1" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="195.58" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
-<junction x="292.1" y="195.58"/>
-<junction x="269.24" y="195.58"/>
-<pinref part="U$3" gate="G$1" pin="COM_CT"/>
+<wire x1="-185.42" y1="203.2" x2="-185.42" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="205.74" x2="-162.56" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="203.2" x2="-162.56" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="203.2" x2="-185.42" y2="203.2" width="0.1524" layer="91"/>
+<junction x="-162.56" y="203.2"/>
+<junction x="-185.42" y="203.2"/>
 </segment>
 </net>
 <net name="RD_+" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="314.96" y1="210.82" x2="302.26" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="RD+"/>
+<wire x1="-139.7" y1="218.44" x2="-152.4" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RD_N" class="0">
 <segment>
-<wire x1="314.96" y1="205.74" x2="309.88" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="205.74" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="213.36" x2="-144.78" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="213.36" x2="-144.78" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="180.34" x2="302.26" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="RD-"/>
+<wire x1="-144.78" y1="187.96" x2="-152.4" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="48.26" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="50.8" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="45.72" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="45.72" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-<junction x="48.26" y="50.8"/>
+<wire x1="172.72" y1="43.18" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+<junction x="172.72" y="45.72"/>
 <pinref part="X1" gate="G$1" pin="SHD1"/>
-<wire x1="38.1" y1="58.42" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
-<junction x="38.1" y="50.8"/>
+<wire x1="162.56" y1="53.34" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
+<junction x="162.56" y="45.72"/>
 <pinref part="X1" gate="G$1" pin="SHD2"/>
-<wire x1="40.64" y1="58.42" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
-<junction x="40.64" y="50.8"/>
+<wire x1="165.1" y1="53.34" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
+<junction x="165.1" y="45.72"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="269.24" y1="182.88" x2="269.24" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="190.5" x2="-185.42" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="373.38" y1="200.66" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="208.28" x2="-81.28" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="182.88" x2="373.38" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="182.88" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
-<junction x="373.38" y="182.88"/>
-<pinref part="U$3" gate="G$1" pin="V-"/>
+<wire x1="-81.28" y1="190.5" x2="-81.28" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="190.5" x2="-81.28" y2="190.5" width="0.1524" layer="91"/>
+<junction x="-81.28" y="190.5"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="48.26" y1="213.36" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="SYNC"/>
-<wire x1="48.26" y1="210.82" x2="48.26" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="228.6" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="228.6" x2="30.48" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="210.82" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
-<junction x="48.26" y="210.82"/>
+<wire x1="231.14" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="203.2" x2="231.14" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="213.36" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="210.82" x2="30.48" y2="210.82" width="0.1524" layer="91"/>
-<junction x="30.48" y="210.82"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="SYNC"/>
+<wire x1="246.38" y1="220.98" x2="241.3" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="220.98" x2="241.3" y2="215.9" width="0.1524" layer="91"/>
+<junction x="241.3" y="200.66"/>
+<wire x1="241.3" y1="215.9" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="215.9" x2="241.3" y2="215.9" width="0.1524" layer="91"/>
+<junction x="241.3" y="215.9"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<wire x1="78.74" y1="228.6" x2="81.28" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="215.9" x2="284.48" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="63.5" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="83.82" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="99.06" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="93.98" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<junction x="43.18" y="93.98"/>
-<junction x="43.18" y="88.9"/>
+<wire x1="167.64" y1="93.98" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="88.9" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<junction x="167.64" y="88.9"/>
+<junction x="167.64" y="83.82"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="109.22" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<junction x="43.18" y="99.06"/>
+<wire x1="203.2" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<junction x="167.64" y="93.98"/>
 <pinref part="U3" gate="G$1" pin="AGND"/>
-<wire x1="43.18" y1="104.14" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<junction x="43.18" y="104.14"/>
+<wire x1="167.64" y1="99.06" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<junction x="167.64" y="99.06"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="175.26" y1="205.74" x2="175.26" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="58.42" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="193.04" y1="205.74" x2="193.04" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="58.42" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="210.82" y1="205.74" x2="210.82" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="58.42" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="ADJ/GND"/>
-<wire x1="48.26" y1="180.34" x2="48.26" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="177.8" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="165.1" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="177.8" x2="55.88" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="177.8" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
-<junction x="55.88" y="177.8"/>
+<wire x1="279.4" y1="162.56" x2="279.4" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+<junction x="279.4" y="162.56"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="17.78" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="17.78" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
-<junction x="106.68" y="17.78"/>
-<wire x1="111.76" y1="17.78" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="17.78" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
-<junction x="111.76" y="17.78"/>
-<wire x1="116.84" y1="17.78" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<junction x="116.84" y="17.78"/>
-<wire x1="121.92" y1="17.78" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
-<junction x="121.92" y="17.78"/>
-<wire x1="127" y1="17.78" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<junction x="127" y="17.78"/>
+<wire x1="226.06" y1="17.78" x2="226.06" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="12.7" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="12.7" x2="231.14" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
+<junction x="231.14" y="12.7"/>
+<wire x1="236.22" y1="12.7" x2="236.22" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="12.7" x2="241.3" y2="12.7" width="0.1524" layer="91"/>
+<junction x="236.22" y="12.7"/>
+<wire x1="241.3" y1="12.7" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="12.7" x2="246.38" y2="12.7" width="0.1524" layer="91"/>
+<junction x="241.3" y="12.7"/>
+<wire x1="246.38" y1="12.7" x2="246.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="12.7" x2="251.46" y2="12.7" width="0.1524" layer="91"/>
+<junction x="246.38" y="12.7"/>
+<wire x1="251.46" y1="12.7" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
+<junction x="251.46" y="12.7"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -23917,75 +24569,96 @@ In this library you will find frames that can be used to help organize a schemat
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="30.48" y1="20.32" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="15.24" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<junction x="30.48" y="22.86"/>
+<wire x1="154.94" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
+<junction x="154.94" y="17.78"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
-<junction x="53.34" y="22.86"/>
-<wire x1="45.72" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<junction x="45.72" y="22.86"/>
-<junction x="38.1" y="22.86"/>
+<wire x1="185.42" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
+<junction x="177.8" y="17.78"/>
+<wire x1="170.18" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
+<junction x="170.18" y="17.78"/>
+<junction x="162.56" y="17.78"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
-<junction x="60.96" y="22.86"/>
+<wire x1="185.42" y1="17.78" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
+<junction x="185.42" y="17.78"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
-<junction x="68.58" y="22.86"/>
+<wire x1="193.04" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<junction x="193.04" y="17.78"/>
 </segment>
 <segment>
-<pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<wire x1="109.22" y1="226.06" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="C15" gate="G$1" pin="-"/>
-<wire x1="109.22" y1="226.06" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
-<junction x="109.22" y="226.06"/>
-</segment>
-<segment>
-<wire x1="233.68" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="88.9" x2="345.44" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<wire x1="312.42" y1="215.9" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="213.36" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="215.9" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="213.36" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
+<junction x="312.42" y="213.36"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="160.02" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="226.06" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="190.5" x2="345.44" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="187.96" x2="363.22" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="187.96" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="187.96" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
+<junction x="345.44" y="187.96"/>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+</segment>
+<segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="48.26" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
-<junction x="203.2" y="48.26"/>
+<wire x1="375.92" y1="58.42" x2="375.92" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="68.58" x2="378.46" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="48.26" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="58.42" x2="391.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<junction x="375.92" y="58.42"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="TXN"/>
-<wire x1="78.74" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="TXP"/>
-<wire x1="78.74" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="78.74" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="RXN"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="78.74" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="RXP"/>
 </segment>
@@ -23993,345 +24666,328 @@ In this library you will find frames that can be used to help organize a schemat
 <net name="N$9" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="IN"/>
-<wire x1="35.56" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="63.5" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="58.42" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<junction x="27.94" y="63.5"/>
+<junction x="152.4" y="58.42"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="XI"/>
-<wire x1="78.74" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="73.66" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="76.2" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<junction x="27.94" y="76.2"/>
+<wire x1="152.4" y1="68.58" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="71.12" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="152.4" y="71.12"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="OUT"/>
-<wire x1="43.18" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="63.5" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="XO"/>
-<wire x1="78.74" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="76.2" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<junction x="48.26" y="63.5"/>
+<wire x1="203.2" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="71.12" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<junction x="172.72" y="58.42"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
-<junction x="48.26" y="76.2"/>
+<wire x1="167.64" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
+<junction x="172.72" y="71.12"/>
 </segment>
 </net>
 <net name="+3V3_D" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="PMODE0"/>
-<wire x1="139.7" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="58.42" x2="269.24" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PMODE1"/>
-<wire x1="144.78" y1="63.5" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="58.42" x2="269.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PMODE2"/>
-<wire x1="144.78" y1="58.42" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
-<junction x="144.78" y="58.42"/>
-<wire x1="144.78" y1="63.5" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
-<junction x="144.78" y="63.5"/>
+<wire x1="269.24" y1="53.34" x2="269.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
+<junction x="269.24" y="53.34"/>
+<wire x1="269.24" y1="58.42" x2="271.78" y2="58.42" width="0.1524" layer="91"/>
+<junction x="269.24" y="58.42"/>
 <pinref part="+3V3_D4" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="132.08" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="127" x2="287.02" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="+3V3_D5" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="86.36" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="81.28" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="+3V3_D6" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="48.26" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="185.42" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="170.18" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="170.18" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="+3V3_D1" gate="G$1" pin="+3V3_D"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
-<junction x="55.88" y="185.42"/>
+<wire x1="284.48" y1="170.18" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
+<junction x="279.4" y="170.18"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="226.06" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="78.74" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="+3V3_D7" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
-<wire x1="373.38" y1="210.82" x2="375.92" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="210.82" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="220.98" x2="375.92" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="220.98" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
-<junction x="375.92" y="220.98"/>
+<wire x1="-81.28" y1="218.44" x2="-78.74" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="218.44" x2="-78.74" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="228.6" x2="-78.74" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="228.6" x2="-78.74" y2="228.6" width="0.1524" layer="91"/>
+<junction x="-78.74" y="228.6"/>
 <pinref part="+3V3_D10" gate="G$1" pin="+3V3_D"/>
-<pinref part="U$3" gate="G$1" pin="GLED2+"/>
-<pinref part="U$3" gate="G$1" pin="GLED1+"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
-<wire x1="78.74" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="119.38" x2="71.12" y2="127" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="114.3" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V3_D2" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="187.96" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="162.56" x2="406.4" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="162.56" x2="406.4" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="+3V3_D3" gate="G$1" pin="+3V3_D"/>
+<pinref part="FB1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="+3V3_D9" gate="G$1" pin="+3V3_D"/>
-<wire x1="241.3" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="86.36" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="66.04" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="76.2" x2="406.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="76.2" x2="408.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="+3V3_D8" gate="G$1" pin="+3V3_D"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="373.38" y1="215.9" x2="378.46" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="223.52" x2="-76.2" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="GLED2-"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="373.38" y1="226.06" x2="378.46" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="233.68" x2="-76.2" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="GLED1-"/>
 </segment>
 </net>
 <net name="ACTLED" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="226.06" x2="391.16" y2="226.06" width="0.1524" layer="91"/>
-<label x="391.16" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="-66.04" y1="233.68" x2="-63.5" y2="233.68" width="0.1524" layer="91"/>
+<label x="-63.5" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="ACTLED"/>
-<wire x1="139.7" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="142.24" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="76.2" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="266.7" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="LINKLED" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="215.9" x2="391.16" y2="215.9" width="0.1524" layer="91"/>
-<label x="391.16" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="-66.04" y1="223.52" x2="-63.5" y2="223.52" width="0.1524" layer="91"/>
+<label x="-63.5" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="LINKLED"/>
-<wire x1="139.7" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
-<label x="142.24" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="91.44" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="266.7" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="+24V" class="0">
 <segment>
 <pinref part="P+8" gate="1" pin="+24V"/>
-<wire x1="373.38" y1="205.74" x2="383.54" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="V+"/>
+<wire x1="-81.28" y1="213.36" x2="-71.12" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VS"/>
-<wire x1="53.34" y1="254" x2="53.34" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+24V"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
-<wire x1="53.34" y1="259.08" x2="53.34" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="254" x2="43.18" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="259.08" x2="53.34" y2="259.08" width="0.1524" layer="91"/>
-<junction x="53.34" y="259.08"/>
+<pinref part="L2" gate="G$1" pin="P$2"/>
+<wire x1="218.44" y1="251.46" x2="218.44" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="236.22" x2="223.52" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="236.22" x2="218.44" y2="233.68" width="0.1524" layer="91"/>
+<junction x="218.44" y="236.22"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="226.06" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+24V"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+24V"/>
-<wire x1="233.68" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="78.74" x2="345.44" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="BUO"/>
-<pinref part="L1" gate="G$1" pin="P$2"/>
-<wire x1="63.5" y1="233.68" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="233.68" x2="78.74" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="236.22" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
-<junction x="71.12" y="233.68"/>
+<wire x1="284.48" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="228.6" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
+<junction x="284.48" y="226.06"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="71.12" y1="228.6" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="223.52" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="P$2"/>
+<pinref part="U2" gate="G$1" pin="BUO"/>
+<wire x1="276.86" y1="226.06" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="P$1"/>
-<wire x1="93.98" y1="233.68" x2="96.52" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="233.68" x2="101.6" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="233.68" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="233.68" x2="109.22" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="U2" gate="G$1" pin="FB"/>
-<wire x1="63.5" y1="226.06" x2="68.58" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="226.06" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="223.52" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="223.52" x2="96.52" y2="233.68" width="0.1524" layer="91"/>
-<junction x="96.52" y="233.68"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<junction x="109.22" y="233.68"/>
-<pinref part="C15" gate="G$1" pin="+"/>
-<junction x="101.6" y="233.68"/>
-</segment>
-<segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="226.06" x2="193.04" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="27.94" y1="185.42" x2="22.86" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="185.42" x2="22.86" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="170.18" x2="246.38" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="170.18" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="246.38" y1="170.18" x2="246.38" y2="167.64" width="0.1524" layer="91"/>
+<junction x="246.38" y="170.18"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="246.38" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="83.82" x2="342.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="F1" gate="A" pin="2"/>
+<pinref part="D2" gate="A" pin="2"/>
+<wire x1="358.14" y1="226.06" x2="363.22" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="226.06" x2="363.22" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="226.06" x2="363.22" y2="228.6" width="0.1524" layer="91"/>
+<junction x="363.22" y="226.06"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="BDS"/>
-<wire x1="63.5" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="241.3" x2="66.04" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="233.68" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="246.38" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="246.38" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="238.76" x2="284.48" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="238.76" x2="284.48" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="BDS"/>
+<wire x1="276.86" y1="233.68" x2="279.4" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="223.52" x2="22.86" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="COMP"/>
-<wire x1="33.02" y1="238.76" x2="22.86" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="238.76" x2="22.86" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="213.36" x2="231.14" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SCSN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!SCSN"/>
-<wire x1="139.7" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<label x="167.64" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="114.3" x2="287.02" y2="114.3" width="0.1524" layer="91"/>
+<label x="292.1" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="121.92" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<junction x="162.56" y="119.38"/>
+<wire x1="287.02" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="116.84" x2="287.02" y2="114.3" width="0.1524" layer="91"/>
+<junction x="287.02" y="114.3"/>
 </segment>
 <segment>
-<label x="236.22" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="233.68" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="345.44" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="66.04" x2="345.44" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SCLK"/>
-<wire x1="139.7" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<label x="142.24" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
+<label x="266.7" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<label x="236.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="63.5" x2="345.44" y2="63.5" width="0.1524" layer="91"/>
+<label x="345.44" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="MISO"/>
-<wire x1="139.7" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<label x="142.24" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
+<label x="266.7" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
-<label x="236.22" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="60.96" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="345.44" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="MOSI"/>
-<wire x1="139.7" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<label x="142.24" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="99.06" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="266.7" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
-<label x="236.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="58.42" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
+<label x="345.44" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="!INTN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!INTN"/>
-<wire x1="139.7" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<label x="167.64" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="292.1" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="76.2" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<junction x="162.56" y="73.66"/>
+<wire x1="287.02" y1="68.58" x2="292.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="71.12" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<junction x="287.02" y="68.58"/>
 </segment>
 <segment>
-<label x="236.22" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="233.68" y1="99.06" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
+<label x="345.44" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="55.88" x2="345.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!RSTN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!RSTN"/>
-<wire x1="139.7" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
-<label x="167.64" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="264.16" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
+<label x="292.1" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="236.22" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="233.68" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
+<label x="345.44" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="342.9" y1="81.28" x2="345.44" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
-<label x="223.52" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="66.04" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
-<junction x="218.44" y="58.42"/>
+<label x="393.7" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="391.16" y1="66.04" x2="391.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="68.58" x2="393.7" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="68.58" x2="391.16" y2="68.58" width="0.1524" layer="91"/>
+<junction x="391.16" y="68.58"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="391.16" y1="68.58" x2="391.16" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="1V2O"/>
-<wire x1="78.74" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -24339,145 +24995,143 @@ In this library you will find frames that can be used to help organize a schemat
 <segment>
 <pinref part="U3" gate="G$1" pin="TOCAP"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="EXRES1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24V_LED" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="215.9" x2="175.26" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_LED" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="193.04" y1="215.9" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_LED" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="210.82" y1="215.9" x2="210.82" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="68.58" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3_A" class="0">
 <segment>
-<wire x1="259.08" y1="248.92" x2="259.08" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="256.54" x2="-195.58" y2="254" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="246.38" x2="269.24" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="246.38" x2="279.4" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="246.38" x2="279.4" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="254" x2="-185.42" y2="254" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="254" x2="-175.26" y2="254" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="254" x2="-175.26" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="243.84" x2="269.24" y2="246.38" width="0.1524" layer="91"/>
-<junction x="269.24" y="246.38"/>
+<wire x1="-185.42" y1="251.46" x2="-185.42" y2="254" width="0.1524" layer="91"/>
+<junction x="-185.42" y="254"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="243.84" x2="259.08" y2="246.38" width="0.1524" layer="91"/>
-<junction x="259.08" y="246.38"/>
+<wire x1="-195.58" y1="251.46" x2="-195.58" y2="254" width="0.1524" layer="91"/>
+<junction x="-195.58" y="254"/>
 <pinref part="+3V3_A4" gate="G$1" pin="+3V3_A"/>
 </segment>
 <segment>
 <pinref part="+3V3_A3" gate="G$1" pin="+3V3_A"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="190.5" x2="73.66" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="187.96" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="381" y1="165.1" x2="381" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="381" y1="162.56" x2="388.62" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="FB1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="AVDD"/>
-<wire x1="78.74" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="114.3" x2="58.42" y2="127" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="109.22" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V3_A2" gate="G$1" pin="+3V3_A"/>
 </segment>
 <segment>
 <pinref part="+3V3_A1" gate="G$1" pin="+3V3_A"/>
-<wire x1="30.48" y1="33.02" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="27.94" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<junction x="30.48" y="30.48"/>
+<wire x1="154.94" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="154.94" y="25.4"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<junction x="38.1" y="30.48"/>
+<wire x1="170.18" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="162.56" y="25.4"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<junction x="45.72" y="30.48"/>
+<wire x1="177.8" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
+<junction x="170.18" y="25.4"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-<junction x="53.34" y="30.48"/>
+<wire x1="185.42" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
+<junction x="177.8" y="25.4"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<junction x="60.96" y="30.48"/>
+<wire x1="193.04" y1="25.4" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
+<junction x="185.42" y="25.4"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<junction x="68.58" y="30.48"/>
+<wire x1="200.66" y1="25.4" x2="193.04" y2="25.4" width="0.1524" layer="91"/>
+<junction x="193.04" y="25.4"/>
 </segment>
 </net>
 <net name="PE" class="0">
 <segment>
 <pinref part="SUPPLY15" gate="PE" pin="PE"/>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="182.88" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
-<junction x="314.96" y="182.88"/>
-<pinref part="U$3" gate="G$1" pin="SHIELD"/>
-<wire x1="314.96" y1="200.66" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="190.5" x2="-139.7" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="190.5" x2="-139.7" y2="190.5" width="0.1524" layer="91"/>
+<junction x="-139.7" y="190.5"/>
+<wire x1="-139.7" y1="208.28" x2="-139.7" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_N" class="0">
 <segment>
-<wire x1="314.96" y1="215.9" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
-<label x="256.54" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-139.7" y1="223.52" x2="-195.58" y2="223.52" width="0.1524" layer="91"/>
+<label x="-198.12" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="215.9" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="233.68" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
-<junction x="259.08" y="215.9"/>
-<pinref part="U$3" gate="G$1" pin="TD-"/>
+<wire x1="-195.58" y1="223.52" x2="-198.12" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="241.3" x2="-195.58" y2="223.52" width="0.1524" layer="91"/>
+<junction x="-195.58" y="223.52"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<label x="63.5" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<label x="187.96" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX_+" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="210.82" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="218.44" x2="-162.56" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="210.82" x2="284.48" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="208.28" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
-<junction x="292.1" y="210.82"/>
-<label x="284.48" y="210.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-162.56" y1="218.44" x2="-170.18" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="215.9" x2="-162.56" y2="218.44" width="0.1524" layer="91"/>
+<junction x="-162.56" y="218.44"/>
+<label x="-170.18" y="218.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<label x="63.5" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="187.96" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX_N" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="180.34" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="187.96" x2="-162.56" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="180.34" x2="284.48" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="182.88" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
-<junction x="292.1" y="180.34"/>
-<label x="284.48" y="180.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-162.56" y1="187.96" x2="-170.18" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="190.5" x2="-162.56" y2="187.96" width="0.1524" layer="91"/>
+<junction x="-162.56" y="187.96"/>
+<label x="-170.18" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="63.5" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<label x="187.96" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24514,6 +25168,98 @@ In this library you will find frames that can be used to help organize a schemat
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="RSVD6"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="COMP"/>
+<wire x1="246.38" y1="226.06" x2="231.14" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="226.06" x2="231.14" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+24V_FILTERED" class="0">
+<segment>
+<pinref part="L2" gate="G$1" pin="P$1"/>
+<wire x1="238.76" y1="236.22" x2="241.3" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="236.22" x2="241.3" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="EN"/>
+<wire x1="241.3" y1="231.14" x2="246.38" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VS"/>
+<wire x1="241.3" y1="236.22" x2="246.38" y2="236.22" width="0.1524" layer="91"/>
+<junction x="241.3" y="236.22"/>
+</segment>
+</net>
+<net name="+5V_PREFUSE" class="0">
+<segment>
+<wire x1="304.8" y1="226.06" x2="307.34" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="226.06" x2="312.42" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="226.06" x2="312.42" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="218.44" x2="276.86" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="208.28" x2="307.34" y2="226.06" width="0.1524" layer="91"/>
+<junction x="307.34" y="226.06"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<pinref part="L1" gate="G$1" pin="P$1"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
+<wire x1="312.42" y1="226.06" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
+<junction x="312.42" y="226.06"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="226.06" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
+<junction x="322.58" y="226.06"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="345.44" y1="223.52" x2="345.44" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="226.06" x2="347.98" y2="226.06" width="0.1524" layer="91"/>
+<junction x="345.44" y="226.06"/>
+<pinref part="F1" gate="A" pin="1"/>
+<wire x1="322.58" y1="226.06" x2="345.44" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<wire x1="345.44" y1="215.9" x2="345.44" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="350.52" y1="208.28" x2="363.22" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="D2" gate="A" pin="1"/>
+<wire x1="363.22" y1="213.36" x2="363.22" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="208.28" x2="363.22" y2="200.66" width="0.1524" layer="91"/>
+<junction x="363.22" y="208.28"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<wire x1="345.44" y1="203.2" x2="345.44" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<junction x="391.16" y="68.58"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="RD+"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="215.9" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RXIP" class="0">
+<segment>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="223.52" x2="111.76" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="226.06" x2="124.46" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="226.06" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="215.9" x2="142.24" y2="215.9" width="0.1524" layer="91"/>
+<label x="142.24" y="215.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
