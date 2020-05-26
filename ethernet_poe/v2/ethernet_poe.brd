@@ -6291,12 +6291,6 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="-67" y="-188.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-67.635" y="-190.405" size="1.27" layer="27"/>
 </element>
-<element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF" x="-67" y="-193.5" smashed="yes">
-<attribute name="NAME" x="-67.635" y="-192.865" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="37" x="-67" y="-193.5" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-67" y="-193.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-67.635" y="-195.405" size="1.27" layer="27"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6420,7 +6414,6 @@ Your Eurocircuits Team
 <wire x1="41.35" y1="26" x2="41.35" y2="28.5" width="0.2032" layer="1"/>
 <wire x1="41.35" y1="23.5" x2="41.35" y2="26" width="0.2032" layer="1"/>
 <wire x1="41.35" y1="21" x2="41.35" y2="23.5" width="0.2032" layer="1"/>
-<contactref element="C27" pad="1"/>
 <contactref element="C26" pad="1"/>
 <wire x1="-64.984" y1="-153" x2="-66.15" y2="-158.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.15" y1="-147.5" x2="-64.984" y2="-153" width="0" layer="19" extent="1-1"/>
@@ -6431,7 +6424,6 @@ Your Eurocircuits Team
 <wire x1="-66.15" y1="-122.5" x2="-66.15" y2="-127.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-64.984" y1="-117" x2="-66.15" y2="-122.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.85" y1="-188.5" x2="-66.15" y2="-158.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.85" y1="-193.5" x2="-67.85" y2="-188.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.15" y1="-86.5" x2="-64.984" y2="-117" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.15" y1="-81.5" x2="-66.15" y2="-86.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.875" y1="-51.8" x2="-66.15" y2="-81.5" width="0" layer="19" extent="1-1"/>
@@ -7070,12 +7062,9 @@ Your Eurocircuits Team
 <signal name="N$12">
 <contactref element="C26" pad="2"/>
 <contactref element="R29" pad="1"/>
-<wire x1="-66.15" y1="-188.5" x2="-67.85" y2="-178.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$32">
 <contactref element="R30" pad="1"/>
-<contactref element="C27" pad="2"/>
-<wire x1="-66.15" y1="-193.5" x2="-67.85" y2="-183.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.85" y1="-178.5" x2="-67.85" y2="-183.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.15" y1="-188.5" x2="-67.85" y2="-183.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

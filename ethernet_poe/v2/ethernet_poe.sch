@@ -23924,7 +23924,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
-<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -24410,16 +24409,12 @@ using-one-transistor/</text>
 <attribute name="NAME" x="35.814" y="204.978" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="39.37" y="204.978" size="1.778" layer="96"/>
 </instance>
-<instance part="C26" gate="G$1" x="20.32" y="220.98" smashed="yes">
-<attribute name="NAME" x="21.336" y="221.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.336" y="216.789" size="1.778" layer="96"/>
+<instance part="C26" gate="G$1" x="17.78" y="223.52" smashed="yes">
+<attribute name="NAME" x="18.796" y="224.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="18.796" y="219.329" size="1.778" layer="96"/>
 </instance>
-<instance part="C27" gate="G$1" x="12.7" y="220.98" smashed="yes">
-<attribute name="NAME" x="13.716" y="221.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="13.716" y="216.789" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY22" gate="GND" x="15.24" y="233.68" smashed="yes" rot="R180">
-<attribute name="VALUE" x="15.24" y="235.712" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="SUPPLY22" gate="GND" x="17.78" y="231.14" smashed="yes" rot="R180">
+<attribute name="VALUE" x="17.78" y="233.172" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -24647,14 +24642,8 @@ using-one-transistor/</text>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="223.52" x2="12.7" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C26" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="228.6" x2="15.24" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="228.6" x2="20.32" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="228.6" x2="20.32" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="228.6" x2="15.24" y2="231.14" width="0.1524" layer="91"/>
-<junction x="15.24" y="228.6"/>
+<wire x1="17.78" y1="228.6" x2="17.78" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
 </net>
@@ -25356,18 +25345,13 @@ using-one-transistor/</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="215.9" x2="20.32" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="218.44" x2="17.78" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="210.82" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
+<wire x1="17.78" y1="210.82" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="208.28" x2="17.78" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="208.28" x2="17.78" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="215.9" x2="12.7" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="208.28" x2="17.78" y2="210.82" width="0.1524" layer="91"/>
+<junction x="17.78" y="210.82"/>
 </segment>
 </net>
 </nets>
