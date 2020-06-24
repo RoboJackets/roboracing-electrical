@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -76,33 +76,28 @@
 <package name="HDRVR12W64P254_4X3_1016X508X254B" urn="urn:adsk.eagle:footprint:14970254/1" locally_modified="yes">
 <description>Four-row, 12-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 10.16 X 5.08 X 2.54 mm body
 &lt;p&gt;Four-row (4X3), 12-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 10.16 X 5.08 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="0" y="1.6105" radius="0.25" width="0" layer="21"/>
-<wire x1="7.62" y1="-8.7265" x2="-2.54" y2="-8.7265" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="-8.7265" x2="-2.54" y2="1.1065" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="1.1065" x2="7.62" y2="1.1065" width="0.12" layer="21"/>
-<wire x1="7.62" y1="1.1065" x2="7.62" y2="-8.7265" width="0.12" layer="21"/>
-<wire x1="7.62" y1="-6.35" x2="-2.54" y2="-6.35" width="0.12" layer="51"/>
-<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-2.54" y1="-1.27" x2="7.62" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="7.62" y1="-1.27" x2="7.62" y2="-6.35" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="4" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="5" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="6" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="7" x="0" y="-5.08" drill="1.1051" diameter="1.7051"/>
-<pad name="8" x="2.54" y="-5.08" drill="1.1051" diameter="1.7051"/>
-<pad name="9" x="5.08" y="-5.08" drill="1.1051" diameter="1.7051"/>
-<pad name="10" x="5.08" y="-7.62" drill="1.1051" diameter="1.7051"/>
-<pad name="11" x="2.54" y="-7.62" drill="1.1051" diameter="1.7051"/>
-<pad name="12" x="0" y="-7.62" drill="1.1051" diameter="1.7051"/>
-<text x="0" y="2.4955" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-9.3615" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="22"/>
-<wire x1="7.62" y1="10.16" x2="-25.908" y2="10.16" width="0.1524" layer="22"/>
-<wire x1="-25.908" y1="10.16" x2="-25.908" y2="-10.16" width="0.1524" layer="22"/>
-<wire x1="-25.908" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="22"/>
+<wire x1="5.12" y1="-4.9265" x2="-5.04" y2="-4.9265" width="0.12" layer="21"/>
+<wire x1="-5.04" y1="-4.9265" x2="-5.04" y2="4.9065" width="0.12" layer="21"/>
+<wire x1="-5.04" y1="4.9065" x2="5.12" y2="4.9065" width="0.12" layer="21"/>
+<wire x1="5.12" y1="4.9065" x2="5.12" y2="-4.9265" width="0.12" layer="21"/>
+<wire x1="5.12" y1="-2.55" x2="-5.04" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-5.04" y1="-2.55" x2="-5.04" y2="2.53" width="0.12" layer="51"/>
+<wire x1="-5.04" y1="2.53" x2="5.12" y2="2.53" width="0.12" layer="51"/>
+<wire x1="5.12" y1="2.53" x2="5.12" y2="-2.55" width="0.12" layer="51"/>
+<pad name="1" x="-2.5" y="3.8" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="0.04" y="3.8" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="2.58" y="3.8" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="2.58" y="1.26" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="0.04" y="1.26" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="-2.5" y="1.26" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="-2.5" y="-1.28" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="0.04" y="-1.28" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="2.58" y="-1.28" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="2.58" y="-3.82" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="0.04" y="-3.82" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="-2.5" y="-3.82" drill="1.1051" diameter="1.7051"/>
+<text x="-4.786" y="5.4065" size="1" layer="25">&gt;NAME</text>
+<text x="-4.6" y="-5.3615" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -120,14 +115,14 @@
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<pin name="VCC" x="-12.7" y="5.08" length="middle" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CH3" x="12.7" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="CH2" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="CH1" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC2" x="-12.7" y="0" length="middle" direction="out"/>
+<pin name="VCC" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="CH3" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="CH2" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="CH1" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<text x="-7.166" y="8.274" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.366" y="-8.128" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="VCC2" x="-12.7" y="0" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
