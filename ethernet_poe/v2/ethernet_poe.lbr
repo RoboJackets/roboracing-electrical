@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1151,8 +1151,27 @@ Allows the flow of current in one direction
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPN" value="535-14148-ND
-"/>
+<attribute name="DKPN" value="535-14148-ND "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABM10-25.000MHZ-18-E30-T3">
+<gates>
+<gate name="X$1" symbol="Q-SHIELD2" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSCILLATOR-SMD-2.5X2">
+<connects>
+<connect gate="X$1" pin="IN" pad="1"/>
+<connect gate="X$1" pin="OUT" pad="3"/>
+<connect gate="X$1" pin="SHD1" pad="2"/>
+<connect gate="X$1" pin="SHD2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="25MHz"/>
 </technology>
 </technologies>
 </device>
