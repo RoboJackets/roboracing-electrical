@@ -30974,6 +30974,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF-POLAR" device="-PANASONIC_C-35V-20%" package3d_urn="urn:adsk.eagle:package:37430/1" value="22uF"/>
 <part name="X1" library="ethernet_poe" deviceset="ABM10-25.000MHZ-18-E30-T3" device="" value="25MHz"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10nF"/>
+<part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
+<part name="C27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
+<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31018,6 +31022,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 https://electronicsarea.com/
 blown-fuse-indicator-circuit-
 using-one-transistor/</text>
+<text x="223.52" y="241.3" size="1.778" layer="91">Add pi filter</text>
+<text x="335.28" y="157.48" size="1.778" layer="97">NOTE: This pi filter isolates the digital 
+and analog 3.3V power supplies by
+attenuating differential mode noise. </text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="233.68" y="81.28" smashed="yes">
@@ -31471,6 +31479,20 @@ using-one-transistor/</text>
 <attribute name="NAME" x="193.675" y="82.804" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="188.849" y="82.804" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C28" gate="G$1" x="381" y="157.48" smashed="yes">
+<attribute name="NAME" x="382.016" y="158.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="382.016" y="153.289" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="406.4" y="157.48" smashed="yes">
+<attribute name="NAME" x="407.416" y="158.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="407.416" y="153.289" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="GND" x="381" y="149.86" smashed="yes">
+<attribute name="VALUE" x="381" y="147.574" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY26" gate="GND" x="406.4" y="149.86" smashed="yes">
+<attribute name="VALUE" x="406.4" y="147.574" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31697,6 +31719,14 @@ using-one-transistor/</text>
 <wire x1="132.08" y1="167.64" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="L3" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="SUPPLY26" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -31765,6 +31795,9 @@ using-one-transistor/</text>
 <wire x1="406.4" y1="162.56" x2="406.4" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="+3V3_D3" gate="G$1" pin="+3V3_D"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="160.02" x2="406.4" y2="162.56" width="0.1524" layer="91"/>
+<junction x="406.4" y="162.56"/>
 </segment>
 <segment>
 <pinref part="+3V3_D9" gate="G$1" pin="+3V3_D"/>
@@ -32050,6 +32083,9 @@ using-one-transistor/</text>
 <wire x1="381" y1="165.1" x2="381" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="381" y1="162.56" x2="388.62" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="381" y1="160.02" x2="381" y2="162.56" width="0.1524" layer="91"/>
+<junction x="381" y="162.56"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="AVDD"/>
