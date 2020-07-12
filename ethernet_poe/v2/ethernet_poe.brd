@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -2550,7 +2550,7 @@ CONN_05
 <clearance class="1" value="0.2032"/>
 </class>
 </classes>
-<designrules name="eC_2Layer_PClass6_BaseCopperO18_eCDefault *">
+<designrules name="4-Layer-DRC">
 <description language="de">
 
 
@@ -4368,7 +4368,6 @@ Your Eurocircuits Team
 <contactref element="J1" pad="1"/>
 <wire x1="1.35" y1="18" x2="0" y2="16.65" width="1.27" layer="16"/>
 <wire x1="1.35" y1="18" x2="2" y2="18" width="1.27" layer="16"/>
-<wire x1="40.05" y1="7.1" x2="40.05" y2="6" width="1.27" layer="16"/>
 <wire x1="40.05" y1="6" x2="34.7" y2="0.65" width="1.27" layer="16"/>
 <wire x1="34.7" y1="0.65" x2="2.85" y2="0.65" width="1.27" layer="16"/>
 <wire x1="2.85" y1="0.65" x2="1.4" y2="2.1" width="1.27" layer="16"/>
