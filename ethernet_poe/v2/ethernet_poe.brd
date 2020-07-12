@@ -1672,10 +1672,10 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <pad name="9" x="-4.445" y="0" drill="0.89" diameter="1.397" thermals="no"/>
 <hole x="5.715" y="-6.35" drill="3.25"/>
 <hole x="-5.715" y="-6.35" drill="3.25"/>
-<wire x1="-8.001" y1="3.937" x2="8.128" y2="3.937" width="0.127" layer="41"/>
-<wire x1="8.128" y1="3.937" x2="8.128" y2="-17.653" width="0.127" layer="41"/>
-<wire x1="8.128" y1="-17.653" x2="-8.001" y2="-17.653" width="0.127" layer="41"/>
-<wire x1="-8.001" y1="-17.653" x2="-8.001" y2="3.937" width="0.127" layer="41"/>
+<wire x1="-8.001" y1="3.937" x2="8.128" y2="3.937" width="0.127" layer="39"/>
+<wire x1="8.128" y1="3.937" x2="8.128" y2="-17.653" width="0.127" layer="39"/>
+<wire x1="8.128" y1="-17.653" x2="-8.001" y2="-17.653" width="0.127" layer="39"/>
+<wire x1="-8.001" y1="-17.653" x2="-8.001" y2="3.937" width="0.127" layer="39"/>
 </package>
 <package name="OSCILLATOR-SMD-2.5X2" urn="urn:adsk.eagle:footprint:37501/1" locally_modified="yes">
 <description>&lt;h3&gt;4-SMD Oscillator&lt;/h3&gt;</description>
@@ -5804,72 +5804,115 @@ In this library you will find logos and images specific to RoboJackets. The part
 <clearance class="1" value="0.2032"/>
 </class>
 </classes>
-<designrules name="ALLPCB (4 Layer)">
-<description language="en">&lt;b&gt;ALLPCB Design Rules (4 Layers)&lt;/b&gt;
+<designrules name="4-Layer-DRC">
+<description language="de">
+
+
+
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications.
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;2-layer PatternClass6 BaseCopperO18 eCDefault&lt;/b&gt;
 &lt;p&gt;
-Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capability.html&quot;&gt;ALLPCB&lt;/a&gt;
-&lt;/p&gt;</description>
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.35mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
+</description>
+<description language="en">
+
+
+
+&lt;p&gt;
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;2-layer PatternClass6 BaseCopperO18 eCDefault&lt;/b&gt;
+&lt;p&gt;
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.35mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
+</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="0.122mm 1.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.122mm"/>
+<param name="mtCopper" value="0.035mm 0.017mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.017mm 0.035mm"/>
+<param name="mtIsolate" value="1.55mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="8mil"/>
+<param name="mdWireVia" value="6mil"/>
 <param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="17mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="12mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="0.25mm"/>
+<param name="mdDrill" value="0.4mm"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.25mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msDrill" value="0.4mm"/>
+<param name="msMicroVia" value="25mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaOuter" value="0.5"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0"/>
 <param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="6mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="6mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="6mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
-<param name="rlMaxViaOuter" value="12mil"/>
-<param name="rlMinViaInner" value="6mil"/>
-<param name="rlMaxViaInner" value="12mil"/>
-<param name="rlMinMicroViaOuter" value="6mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="6mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="0.175mm"/>
+<param name="rlMaxPadTop" value="2.5mm"/>
+<param name="rlMinPadInner" value="0.175mm"/>
+<param name="rlMaxPadInner" value="2.5mm"/>
+<param name="rlMinPadBottom" value="0.175mm"/>
+<param name="rlMaxPadBottom" value="2.5mm"/>
+<param name="rlMinViaOuter" value="0.125mm"/>
+<param name="rlMaxViaOuter" value="2.5mm"/>
+<param name="rlMinViaInner" value="0.125mm"/>
+<param name="rlMaxViaInner" value="2.5mm"/>
+<param name="rlMinMicroViaOuter" value="2.5mm"/>
+<param name="rlMaxMicroViaOuter" value="25mm"/>
+<param name="rlMinMicroViaInner" value="2.5mm"/>
+<param name="rlMaxMicroViaInner" value="25mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="5mil"/>
-<param name="mlMaxStopFrame" value="5mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="30mil"/>
+<param name="mlViaStopLimit" value="1.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="0mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -6567,8 +6610,7 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <wire x1="6.65" y1="27.5" x2="5.5" y2="27.5" width="0.254" layer="1"/>
 <via x="5.5" y="27.5" extent="1-16" drill="0.4"/>
 <via x="9.6" y="34.75" extent="1-16" drill="0.4"/>
-<wire x1="9.6" y1="34.75" x2="9" y2="34.75" width="0.3048" layer="1"/>
-<wire x1="9" y1="34.75" x2="8.75" y2="34.75" width="0.3048" layer="1"/>
+<wire x1="9.6" y1="34.75" x2="9" y2="34.75" width="0.254" layer="1"/>
 <wire x1="15.85" y1="35.25" x2="15.35" y2="35.75" width="0.3048" layer="1"/>
 <wire x1="9.9" y1="11.8" x2="9.9" y2="10.45" width="0.508" layer="1"/>
 <via x="9.9" y="11.8" extent="1-16" drill="0.6"/>
@@ -6663,7 +6705,7 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <via x="21.55" y="20.5" extent="1-16" drill="0.4064"/>
 <wire x1="22.6" y1="21.5" x2="22.55" y2="21.5" width="0.3048" layer="1"/>
 <wire x1="22.55" y1="21.5" x2="21.55" y2="20.5" width="0.3048" layer="1"/>
-<wire x1="8.25" y1="34.75" x2="9" y2="34.75" width="0.2032" layer="1"/>
+<wire x1="8.25" y1="34.75" x2="9" y2="34.75" width="0.254" layer="1"/>
 <contactref element="C28" pad="2"/>
 <contactref element="C27" pad="2"/>
 <contactref element="C30" pad="2"/>
@@ -7041,50 +7083,6 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <wire x1="33.55" y1="18.9" x2="34.5" y2="17.95" width="0.254" layer="16"/>
 <wire x1="31.95" y1="18.9" x2="33.55" y2="18.9" width="0.254" layer="16"/>
 </signal>
-<signal name="!INTN">
-<contactref element="U3" pad="36"/>
-<contactref element="R16" pad="2"/>
-<contactref element="J2" pad="1"/>
-<wire x1="8.25" y1="31.25" x2="9.7" y2="31.25" width="0.254" layer="1"/>
-<via x="9.7" y="31.25" extent="1-16" drill="0.4"/>
-<wire x1="9.7" y1="31.25" x2="13.25" y2="31.25" width="0.254" layer="16"/>
-<wire x1="13.25" y1="31.25" x2="14.5" y2="30" width="0.254" layer="16"/>
-<wire x1="14.5" y1="30" x2="16" y2="30" width="0.254" layer="16"/>
-<wire x1="16" y1="30" x2="17" y2="29" width="0.254" layer="16"/>
-<wire x1="17" y1="27.55" x2="18.45" y2="26.1" width="0.254" layer="16"/>
-<wire x1="42.54" y1="19.6" x2="43.64" y2="18.5" width="0.254" layer="16"/>
-<wire x1="17" y1="29" x2="17" y2="27.55" width="0.254" layer="16"/>
-<wire x1="18.45" y1="26.1" x2="21.2173375" y2="26.1" width="0.254" layer="16"/>
-<wire x1="21.2173375" y1="26.1" x2="22.40866875" y2="24.90866875" width="0.254" layer="16"/>
-<wire x1="22.40866875" y1="24.90866875" x2="27.7173375" y2="19.6" width="0.254" layer="16"/>
-<wire x1="22.5" y1="24.85" x2="22.4673375" y2="24.85" width="0.3048" layer="16"/>
-<wire x1="22.4673375" y1="24.85" x2="22.40866875" y2="24.90866875" width="0.3048" layer="16"/>
-<wire x1="27.7173375" y1="19.6" x2="30.5" y2="19.6" width="0.254" layer="16"/>
-<wire x1="34.95" y1="19.6" x2="42.54" y2="19.6" width="0.254" layer="16"/>
-<wire x1="30.5" y1="19.6" x2="31.4" y2="20.5" width="0.254" layer="16"/>
-<wire x1="34.05" y1="20.5" x2="34.95" y2="19.6" width="0.254" layer="16"/>
-<wire x1="31.4" y1="20.5" x2="34.05" y2="20.5" width="0.254" layer="16"/>
-</signal>
-<signal name="!RSTN">
-<contactref element="U3" pad="37"/>
-<contactref element="J1" pad="2"/>
-<wire x1="12.7" y1="46.4" x2="12.7" y2="46.7" width="0.254" layer="16"/>
-<via x="12.7" y="46.7" extent="1-16" drill="0.4"/>
-<wire x1="12.7" y1="46.4" x2="3.3" y2="37" width="0.254" layer="16"/>
-<wire x1="9.75" y1="29.75" x2="9" y2="29" width="0.254" layer="1"/>
-<wire x1="8" y1="29" x2="7.5" y2="28.5" width="0.254" layer="1"/>
-<wire x1="7.5" y1="28.5" x2="5" y2="28.5" width="0.254" layer="1"/>
-<wire x1="5" y1="28.5" x2="4.35" y2="27.85" width="0.254" layer="1"/>
-<wire x1="9" y1="29" x2="8" y2="29" width="0.254" layer="1"/>
-<wire x1="3.3" y1="37" x2="3.3" y2="27.85" width="0.254" layer="16"/>
-<via x="3.3" y="27.85" extent="1-16" drill="0.4064"/>
-<wire x1="3.3" y1="27.85" x2="4.35" y2="27.85" width="0.254" layer="1"/>
-<wire x1="3" y1="15.96" x2="1" y2="17.96" width="0.3048" layer="1"/>
-<wire x1="1" y1="27.9" x2="1.45" y2="28.35" width="0.3048" layer="1"/>
-<wire x1="2.8" y1="28.35" x2="3.3" y2="27.85" width="0.3048" layer="1"/>
-<wire x1="2.8" y1="28.35" x2="1.45" y2="28.35" width="0.3048" layer="1"/>
-<wire x1="1" y1="17.96" x2="1" y2="27.9" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$18">
 <contactref element="U3" pad="22"/>
 <wire x1="10.75" y1="38.25" x2="10.75" y2="36.95" width="0.254" layer="1"/>
@@ -7456,7 +7454,6 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <contactref element="R21" pad="2"/>
 <wire x1="40.4" y1="40.3" x2="35.7" y2="45" width="0.254" layer="16"/>
 <wire x1="35.7" y1="45" x2="33.1" y2="45" width="0.254" layer="16"/>
-<wire x1="33.1" y1="45" x2="33" y2="45" width="0.254" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="J3" pad="L1"/>
@@ -7571,7 +7568,6 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <contactref element="J1" pad="1"/>
 <wire x1="2.35" y1="18.5" x2="1" y2="17.15" width="1.27" layer="16"/>
 <wire x1="2.35" y1="18.5" x2="3" y2="18.5" width="1.27" layer="16"/>
-<wire x1="41.05" y1="7.6" x2="41.05" y2="6.5" width="1.27" layer="16"/>
 <wire x1="41.05" y1="6.5" x2="35.7" y2="1.15" width="1.27" layer="16"/>
 <wire x1="35.7" y1="1.15" x2="3.85" y2="1.15" width="1.27" layer="16"/>
 <wire x1="3.85" y1="1.15" x2="2.4" y2="2.6" width="1.27" layer="16"/>
@@ -7724,7 +7720,51 @@ Source: &lt;a href=&quot;https://www.allpcb.com/standard_pcb_manufacturing_capab
 <contactref element="R20" pad="1"/>
 <wire x1="14.55" y1="46.7" x2="17.45" y2="46.7" width="0.3048" layer="16"/>
 <wire x1="13.95" y1="46.7" x2="18.05" y2="46.7" width="0.254" layer="1"/>
-<wire x1="18.05" y1="46.7" x2="17.45" y2="46.7" width="0" layer="19" extent="1-16"/>
+<contactref element="U3" pad="37"/>
+<contactref element="J1" pad="2"/>
+<wire x1="12.7" y1="46.4" x2="12.7" y2="46.7" width="0.254" layer="16"/>
+<via x="12.7" y="46.7" extent="1-16" drill="0.4"/>
+<wire x1="12.7" y1="46.4" x2="3.3" y2="37" width="0.254" layer="16"/>
+<wire x1="7.5" y1="28.5" x2="8" y2="29" width="0.254" layer="1"/>
+<wire x1="7.5" y1="28.5" x2="5" y2="28.5" width="0.254" layer="1"/>
+<wire x1="5" y1="28.5" x2="4.35" y2="27.85" width="0.254" layer="1"/>
+<wire x1="3.3" y1="37" x2="3.3" y2="27.85" width="0.254" layer="16"/>
+<via x="3.3" y="27.85" extent="1-16" drill="0.4064"/>
+<wire x1="3.3" y1="27.85" x2="4.35" y2="27.85" width="0.254" layer="1"/>
+<wire x1="3" y1="15.96" x2="1" y2="17.96" width="0.3048" layer="1"/>
+<wire x1="1" y1="27.9" x2="1.45" y2="28.35" width="0.3048" layer="1"/>
+<wire x1="2.8" y1="28.35" x2="3.3" y2="27.85" width="0.3048" layer="1"/>
+<wire x1="2.8" y1="28.35" x2="1.45" y2="28.35" width="0.3048" layer="1"/>
+<wire x1="1" y1="17.96" x2="1" y2="27.9" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="46.7" x2="13.95" y2="46.7" width="0.254" layer="1"/>
+<wire x1="14.55" y1="46.7" x2="12.7" y2="46.7" width="0.254" layer="16"/>
+<wire x1="9.5" y1="29" x2="9.75" y2="29.25" width="0.254" layer="1"/>
+<wire x1="9.75" y1="29.25" x2="9.75" y2="29.75" width="0.254" layer="1"/>
+<wire x1="8" y1="29" x2="9.5" y2="29" width="0.254" layer="1"/>
+</signal>
+<signal name="!INT">
+<contactref element="U3" pad="36"/>
+<contactref element="R16" pad="2"/>
+<contactref element="J2" pad="1"/>
+<via x="9.7" y="31.25" extent="1-16" drill="0.4"/>
+<wire x1="9.7" y1="31.25" x2="13.25" y2="31.25" width="0.254" layer="16"/>
+<wire x1="13.25" y1="31.25" x2="14.5" y2="30" width="0.254" layer="16"/>
+<wire x1="14.5" y1="30" x2="16" y2="30" width="0.254" layer="16"/>
+<wire x1="16" y1="30" x2="17" y2="29" width="0.254" layer="16"/>
+<wire x1="17" y1="27.55" x2="18.45" y2="26.1" width="0.254" layer="16"/>
+<wire x1="42.54" y1="19.6" x2="43.64" y2="18.5" width="0.254" layer="16"/>
+<wire x1="17" y1="29" x2="17" y2="27.55" width="0.254" layer="16"/>
+<wire x1="18.45" y1="26.1" x2="21.2173375" y2="26.1" width="0.254" layer="16"/>
+<wire x1="27.7173375" y1="19.6" x2="30.5" y2="19.6" width="0.254" layer="16"/>
+<wire x1="34.95" y1="19.6" x2="42.54" y2="19.6" width="0.254" layer="16"/>
+<wire x1="30.5" y1="19.6" x2="31.4" y2="20.5" width="0.254" layer="16"/>
+<wire x1="34.05" y1="20.5" x2="34.95" y2="19.6" width="0.254" layer="16"/>
+<wire x1="31.4" y1="20.5" x2="34.05" y2="20.5" width="0.254" layer="16"/>
+<wire x1="9.7" y1="31.25" x2="8.25" y2="31.25" width="0.254" layer="1"/>
+<wire x1="22.4673375" y1="24.85" x2="22.5" y2="24.85" width="0.254" layer="16"/>
+<wire x1="21.2173375" y1="26.1" x2="22.4673375" y2="24.85" width="0.254" layer="16"/>
+<wire x1="22.5" y1="24.85" x2="27.7173375" y2="19.6326625" width="0.254" layer="16"/>
+<wire x1="27.7173375" y1="19.6326625" x2="27.7173375" y2="19.6" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

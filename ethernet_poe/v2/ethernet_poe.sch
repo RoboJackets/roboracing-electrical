@@ -459,10 +459,10 @@
 <pad name="9" x="-4.445" y="0" drill="0.89" diameter="1.397" thermals="no"/>
 <hole x="5.715" y="-6.35" drill="3.25"/>
 <hole x="-5.715" y="-6.35" drill="3.25"/>
-<wire x1="-8.001" y1="3.937" x2="8.128" y2="3.937" width="0.127" layer="41"/>
-<wire x1="8.128" y1="3.937" x2="8.128" y2="-17.653" width="0.127" layer="41"/>
-<wire x1="8.128" y1="-17.653" x2="-8.001" y2="-17.653" width="0.127" layer="41"/>
-<wire x1="-8.001" y1="-17.653" x2="-8.001" y2="3.937" width="0.127" layer="41"/>
+<wire x1="-8.001" y1="3.937" x2="8.128" y2="3.937" width="0.127" layer="39"/>
+<wire x1="8.128" y1="3.937" x2="8.128" y2="-17.653" width="0.127" layer="39"/>
+<wire x1="8.128" y1="-17.653" x2="-8.001" y2="-17.653" width="0.127" layer="39"/>
+<wire x1="-8.001" y1="-17.653" x2="-8.001" y2="3.937" width="0.127" layer="39"/>
 </package>
 <package name="OSCILLATOR-SMD-2.5X2" urn="urn:adsk.eagle:footprint:37501/1" locally_modified="yes">
 <description>&lt;h3&gt;4-SMD Oscillator&lt;/h3&gt;</description>
@@ -33378,34 +33378,6 @@ Configure OverV, UnderV</text>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="!INTN" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!INTN"/>
-<wire x1="264.16" y1="96.52" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
-<label x="292.1" y="96.52" size="1.778" layer="95" xref="yes"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="99.06" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
-<junction x="287.02" y="96.52"/>
-</segment>
-<segment>
-<label x="109.22" y="114.3" size="1.778" layer="95" xref="yes"/>
-<wire x1="96.52" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="!RSTN" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!RSTN"/>
-<wire x1="264.16" y1="91.44" x2="292.1" y2="91.44" width="0.1524" layer="91"/>
-<label x="292.1" y="91.44" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="101.6" y="144.78" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="1V2O"/>
@@ -33957,6 +33929,32 @@ Configure OverV, UnderV</text>
 <junction x="109.22" y="76.2"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="76.2" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="!RSTN"/>
+<wire x1="264.16" y1="91.44" x2="292.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="292.1" y="91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="101.6" y="144.78" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!INT" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="!INTN"/>
+<wire x1="264.16" y1="96.52" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="292.1" y="96.52" size="1.778" layer="95" xref="yes"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="99.06" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
+<junction x="287.02" y="96.52"/>
+</segment>
+<segment>
+<label x="109.22" y="114.3" size="1.778" layer="95" xref="yes"/>
+<wire x1="96.52" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
