@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -469,16 +469,7 @@
 <vertex x="-1.1186" y="-0.6242"/>
 </polygon>
 <text x="0" y="1.905" size="1" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
-<polygon width="0.127" layer="21">
-<vertex x="-0.381" y="1.27"/>
-<vertex x="-1.397" y="0.889"/>
-<vertex x="-0.381" y="0.889"/>
-</polygon>
-<polygon width="0.127" layer="21">
-<vertex x="-0.381" y="-1.27"/>
-<vertex x="-1.397" y="-0.889"/>
-<vertex x="-0.381" y="-0.889"/>
-</polygon>
+<wire x1="-0.889" y1="0.889" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
 </package>
 <package name="CONN_EW_ABR">
 <pad name="1" x="5.715" y="0" drill="0.89" diameter="1.397" thermals="no"/>
@@ -995,8 +986,8 @@ A DC linear voltage regulator that can regulate the output voltage even when the
 <text x="-22.86" y="15.748" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="10.16" size="1.778" layer="97" align="bottom-center">RJ45 PoE</text>
 <text x="-22.86" y="-16.002" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="CH2" x="27.94" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="CH1" x="27.94" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="CHASSIS2" x="27.94" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="CHASSIS1" x="27.94" y="-10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="NC" x="27.94" y="-5.08" length="middle" direction="nc" rot="R180"/>
 <pin name="VC2+" x="-27.94" y="7.62" length="middle" direction="pas"/>
 <pin name="VC2-" x="-27.94" y="5.08" length="middle" direction="pas"/>
@@ -1437,8 +1428,8 @@ Allows the flow of current in one direction
 <devices>
 <device name="" package="CONN_EW_ABR">
 <connects>
-<connect gate="A" pin="CH1" pad="CH1"/>
-<connect gate="A" pin="CH2" pad="CH2"/>
+<connect gate="A" pin="CHASSIS1" pad="CH1"/>
+<connect gate="A" pin="CHASSIS2" pad="CH2"/>
 <connect gate="A" pin="CT" pad="5"/>
 <connect gate="A" pin="G_LED+" pad="L1"/>
 <connect gate="A" pin="G_LED-" pad="L2"/>
