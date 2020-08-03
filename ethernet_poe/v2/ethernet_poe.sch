@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -765,6 +765,23 @@
 <text x="-2.8956" y="3.048" size="1.27" layer="25" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
 <circle x="-1.905" y="2.794" radius="0.127" width="0.1016" layer="21"/>
 </package>
+<package name="DIO_SS26FL">
+<wire x1="-1.375" y1="0.8625" x2="-1.375" y2="-0.8625" width="0.127" layer="51"/>
+<wire x1="-1.375" y1="-0.8625" x2="1.375" y2="-0.8625" width="0.127" layer="51"/>
+<wire x1="1.375" y1="-0.8625" x2="1.375" y2="0.8625" width="0.127" layer="51"/>
+<wire x1="1.375" y1="0.8625" x2="-1.375" y2="0.8625" width="0.127" layer="51"/>
+<wire x1="0.44" y1="0.8625" x2="-0.44" y2="0.8625" width="0.127" layer="21"/>
+<wire x1="-0.44" y1="-0.8625" x2="0.44" y2="-0.8625" width="0.127" layer="21"/>
+<wire x1="-2.35" y1="1.15" x2="2.35" y2="1.15" width="0.05" layer="39"/>
+<wire x1="2.35" y1="1.15" x2="2.35" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="2.35" y1="-1.15" x2="-2.35" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="-2.35" y1="-1.15" x2="-2.35" y2="1.15" width="0.05" layer="39"/>
+<text x="-2.25" y="1.29" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-2" size="0.8128" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.43" y="0" dx="1.34" dy="1.8" layer="1"/>
+<smd name="2" x="1.43" y="0" dx="1.34" dy="1.8" layer="1"/>
+<wire x1="2.413" y1="-0.889" x2="2.413" y2="0.889" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="W5500">
@@ -1336,6 +1353,22 @@ This one is shielded to reduce noise.
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTS260ESFT3G">
+<gates>
+<gate name="D$1" symbol="DIODE" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIO_SS26FL">
+<connects>
+<connect gate="D$1" pin="1" pad="1"/>
+<connect gate="D$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -17946,62 +17979,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="RoboJackets-Diodes">
-<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
-&lt;hr&gt;
-&lt;h1&gt;RoboJackets EAGLE Libraries - Diodes&lt;/h1&gt;&lt;/br&gt;
-&lt;p&gt;
-In this library you will find diodes and other circuit protection elements.
-&lt;/p&gt;</description>
-<packages>
-<package name="SOD-323">
-<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="1.27" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0.508" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<wire x1="1.27" y1="-0.508" x2="0.762" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCHOTTKY" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOD-323" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led" urn="urn:adsk.eagle:library:259">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -32087,7 +32064,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.220uF"/>
-<part name="D1" library="RoboJackets-Diodes" deviceset="SCHOTTKY" device="SOD-323"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22nF, 50V"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22k"/>
@@ -32223,10 +32199,8 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+24V_FUSE3" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
 <part name="+24V_FUSE4" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
-<part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
-<part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_11_17" device="">
 <attribute name="REVISION" value="2.0"/>
 <attribute name="SCH_DESC" value="PoE Board"/>
@@ -32240,6 +32214,9 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="+3V3_D13" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="D9" library="ethernet_poe" deviceset="1N4148W-7-F" device=""/>
+<part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
+<part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
+<part name="D1" library="ethernet_poe" deviceset="NTS260ESFT3G" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32314,7 +32291,7 @@ Configure OverV, UnderV</text>
 <wire x1="319.532" y1="76.454" x2="319.532" y2="48.514" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="84.582" y1="101.6" x2="84.582" y2="53.34" width="0.1524" layer="97" style="shortdash"/>
 <text x="10.16" y="43.18" size="6.35" layer="97" ratio="12">Filtering</text>
-<text x="98.298" y="29.21" size="3.81" layer="97">GND Analog</text>
+<text x="93.218" y="29.21" size="3.81" layer="97">Chassis Ground</text>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="84.582" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="97" style="shortdash"/>
@@ -32324,6 +32301,7 @@ Configure OverV, UnderV</text>
 V(IMONmax) = max ADC voltage = 5V</text>
 <text x="249.428" y="207.518" size="1.778" layer="97">1.8A Rated</text>
 <text x="345.44" y="63.5" size="1.778" layer="97">#3 (or M2.5) Drill Size</text>
+<text x="25.146" y="63.246" size="1.778" layer="97">1A Rated</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="233.68" y="109.22" smashed="yes">
@@ -32347,12 +32325,8 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="282.956" y="234.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="282.956" y="229.489" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="281.94" y="220.98" smashed="yes">
-<attribute name="NAME" x="279.4" y="220.98" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="284.48" y="218.44" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY6" gate="GND" x="281.94" y="210.82" smashed="yes">
-<attribute name="VALUE" x="286.004" y="210.82" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY6" gate="GND" x="281.94" y="208.28" smashed="yes">
+<attribute name="VALUE" x="286.004" y="208.28" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="228.6" y="220.98" smashed="yes">
 <attribute name="NAME" x="224.917" y="218.44" size="1.778" layer="95" rot="R90"/>
@@ -32836,9 +32810,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="+24V_FUSE4" gate="G$1" x="15.24" y="147.32" smashed="yes">
 <attribute name="VALUE" x="15.494" y="149.86" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY31" gate="GND" x="330.2" y="55.88" smashed="yes">
-<attribute name="VALUE" x="330.2" y="53.848" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="H1" gate="G$1" x="337.82" y="60.96" smashed="yes">
 <attribute name="NAME" x="340.614" y="61.5442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="331.978" y="56.2102" size="1.778" layer="96"/>
@@ -32846,9 +32817,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="H2" gate="G$1" x="375.92" y="60.96" smashed="yes">
 <attribute name="NAME" x="378.714" y="61.5442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="370.586" y="56.2102" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY32" gate="GND" x="368.3" y="55.88" smashed="yes">
-<attribute name="VALUE" x="368.3" y="53.848" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -32887,6 +32855,16 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="D9" gate="A" x="33.02" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.02" y="81.28" size="1.778" layer="95" ratio="10" rot="SR180" align="bottom-center"/>
 </instance>
+<instance part="SUPPLY31" gate="G$1" x="330.2" y="55.88" smashed="yes">
+<attribute name="VALUE" x="330.073" y="53.34" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY32" gate="G$1" x="368.3" y="55.88" smashed="yes">
+<attribute name="VALUE" x="368.173" y="53.34" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="D1" gate="D$1" x="281.94" y="218.44" smashed="yes" rot="R90">
+<attribute name="VALUE" x="292.1" y="213.36" size="1.778" layer="96" ratio="10" rot="SR180" align="top-center"/>
+<attribute name="NAME" x="279.4" y="218.44" size="1.778" layer="95" ratio="10" rot="SR90" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32924,11 +32902,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="238.76" y1="215.9" x2="238.76" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="215.9" x2="238.76" y2="215.9" width="0.1524" layer="91"/>
 <junction x="238.76" y="215.9"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<wire x1="281.94" y1="215.9" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
@@ -33135,18 +33108,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY31" gate="GND" pin="GND"/>
-<wire x1="330.2" y1="58.42" x2="330.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="H1" gate="G$1" pin="MOUNT"/>
-<wire x1="330.2" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY32" gate="GND" pin="GND"/>
-<wire x1="368.3" y1="58.42" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="H2" gate="G$1" pin="MOUNT"/>
-<wire x1="368.3" y1="60.96" x2="373.38" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
@@ -33155,6 +33116,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="93.98" y="66.04"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="281.94" y1="210.82" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="D1" gate="D$1" pin="2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -33336,11 +33302,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="281.94" y1="226.06" x2="287.02" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="228.6" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <junction x="281.94" y="226.06"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="281.94" y1="223.52" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="BUO"/>
 <wire x1="274.32" y1="226.06" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="D$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -33618,9 +33584,9 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="302.26" y1="226.06" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="226.06" x2="309.88" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="226.06" x2="309.88" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="218.44" x2="274.32" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="208.28" x2="304.8" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="208.28" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="218.44" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="203.2" x2="304.8" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="203.2" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
 <junction x="304.8" y="226.06"/>
 <pinref part="C15" gate="G$1" pin="+"/>
 <pinref part="U2" gate="G$1" pin="FB"/>
@@ -33816,6 +33782,18 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="96.52" y1="20.32" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="L3" gate="A" pin="2"/>
 <wire x1="104.14" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="330.2" y1="58.42" x2="330.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<wire x1="330.2" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY31" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<wire x1="368.3" y1="58.42" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<wire x1="368.3" y1="60.96" x2="373.38" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="RX_N" class="0">
