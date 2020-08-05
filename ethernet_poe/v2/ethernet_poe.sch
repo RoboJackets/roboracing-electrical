@@ -32049,12 +32049,17 @@ In this library you will find frames that can be used to help organize a schemat
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.4064">
+<class number="0" name="default" width="0.2032" drill="0.4">
 <clearance class="0" value="0.2032"/>
 </class>
-<class number="1" name="power" width="0.3048" drill="0.4064">
+<class number="1" name="power" width="0.2032" drill="0.4">
 <clearance class="0" value="0.2032"/>
 <clearance class="1" value="0.2032"/>
+</class>
+<class number="2" name="ethernet" width="0.16" drill="0.3">
+<clearance class="2" value="0.1524"/>
+</class>
+<class number="3" name="spi" width="0.207" drill="0.35">
 </class>
 </classes>
 <parts>
@@ -32869,7 +32874,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="2">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="76.2" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
@@ -33361,7 +33366,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="228.6" y1="213.36" x2="228.6" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!SCS" class="0">
+<net name="!SCS" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="!SCSN"/>
 <wire x1="264.16" y1="142.24" x2="287.02" y2="142.24" width="0.1524" layer="91"/>
@@ -33377,7 +33382,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SCLK" class="0">
+<net name="SCLK" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="SCLK"/>
 <wire x1="264.16" y1="137.16" x2="266.7" y2="137.16" width="0.1524" layer="91"/>
@@ -33389,7 +33394,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="MISO" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="MISO"/>
 <wire x1="264.16" y1="132.08" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
@@ -33401,7 +33406,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
+<net name="MOSI" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="MOSI"/>
 <wire x1="264.16" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
@@ -33634,7 +33639,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <junction x="109.22" y="76.2"/>
 </segment>
 </net>
-<net name="RD_P" class="0">
+<net name="RD_P" class="2">
 <segment>
 <pinref part="J3" gate="A" pin="RD+"/>
 <wire x1="106.68" y1="233.68" x2="116.84" y2="233.68" width="0.1524" layer="91"/>
@@ -33643,7 +33648,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="108.458" y="234.188" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RX_P" class="0">
+<net name="RX_P" class="2">
 <segment>
 <wire x1="116.84" y1="243.84" x2="116.84" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="259.08" x2="139.7" y2="259.08" width="0.1524" layer="91"/>
@@ -33660,7 +33665,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="198.12" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RD_N" class="0">
+<net name="RD_N" class="2">
 <segment>
 <pinref part="J3" gate="A" pin="RD-"/>
 <wire x1="106.68" y1="231.14" x2="124.46" y2="231.14" width="0.1524" layer="91"/>
@@ -33796,7 +33801,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="SUPPLY32" gate="G$1" pin="AGND"/>
 </segment>
 </net>
-<net name="RX_N" class="0">
+<net name="RX_N" class="2">
 <segment>
 <wire x1="124.46" y1="248.92" x2="124.46" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="251.46" x2="149.86" y2="251.46" width="0.1524" layer="91"/>
@@ -33813,7 +33818,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="198.12" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TX_N" class="0">
+<net name="TX_N" class="2">
 <segment>
 <pinref part="J3" gate="A" pin="TD-"/>
 <wire x1="106.68" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
@@ -33833,7 +33838,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="198.12" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TX_P" class="0">
+<net name="TX_P" class="2">
 <segment>
 <pinref part="J3" gate="A" pin="TD+"/>
 <wire x1="106.68" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
@@ -33994,7 +33999,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="96.52" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!INT" class="0">
+<net name="!INT" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="!INTN"/>
 <wire x1="264.16" y1="96.52" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
