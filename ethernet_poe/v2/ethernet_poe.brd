@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="23" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GND" color="19" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,22 +22,22 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="PWR" color="44" fill="1" visible="no" active="yes"/>
+<layer number="15" name="PWR" color="44" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -183,7 +183,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGIwM2Qy" projecturn="a.cGVyc29uYWw6dWUyZGIwM2QyI0QyMDE4MDgxOTE0NDYxNzYyNg" f3durn="urn:adsk.wipprod:dm.lineage:MMdPgvoHQOOIa_rp3PUlMw" pcbguid="616449aa-8ae2-4616-ab5a-ed850704b8a8" lastpulledtime="" lastsyncedchangeguid="e8f9f385-2542-9c21-2824-e73b8ee6c264"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGIwM2Qy" projecturn="a.cGVyc29uYWw6dWUyZGIwM2QyI0QyMDE4MDgxOTE0NDYxNzYyNg" f3durn="urn:adsk.wipprod:dm.lineage:MMdPgvoHQOOIa_rp3PUlMw" pcbguid="616449aa-8ae2-4616-ab5a-ed850704b8a8" lastpulledtime="" lastsyncedchangeguid="e8f9f385-2542-9c21-2824-e73b8ee6c264" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
 <plain>
 <wire x1="2" y1="0" x2="43.5" y2="0" width="0" layer="20"/>
 <wire x1="45.5" y1="2.5" x2="45.5" y2="48.5" width="0" layer="20"/>
@@ -6481,7 +6481,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="1.368" y="34.5" size="1" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="0.968" y="34.5" size="1" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
-<element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10nF" x="10.75" y="35.35" smashed="yes" rot="MR270">
+<element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10000pF" x="10.75" y="35.35" smashed="yes" rot="MR270">
 <attribute name="NAME" x="9.888" y="37.485" size="1" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="12.655" y="35.985" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -6540,7 +6540,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="35.1" y="11.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="35.735" y="9.195" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="2.2mF, 50V" x="3.15" y="3.9" smashed="yes">
+<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="2200uF, 50V" x="3.15" y="3.9" smashed="yes">
 <attribute name="NAME" x="4.11" y="1.184" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="7" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
