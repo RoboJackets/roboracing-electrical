@@ -6434,11 +6434,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="18.285" y="32.512" size="1" layer="26" font="vector" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="14.285" y="31.045" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49, 1%" x="19.95" y="28.15" smashed="yes" rot="R90">
+<element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49.9, 1%" x="19.95" y="28.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.735" y="26.488" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="21.982" y="27.515" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49, 1%" x="21.2" y="30.4" smashed="yes" rot="R90">
+<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49.9, 1%" x="21.2" y="30.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.838" y="29.165" size="1" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="23.232" y="29.765" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -6540,7 +6540,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="35.1" y="11.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="35.735" y="9.195" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF, 50V" x="3.15" y="3.9" smashed="yes">
+<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF, 35V" x="3.15" y="3.9" smashed="yes">
 <attribute name="NAME" x="4.11" y="1.184" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="7" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
