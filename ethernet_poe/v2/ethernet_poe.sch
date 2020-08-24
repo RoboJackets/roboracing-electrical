@@ -32200,7 +32200,7 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="66.5k, 1%"/>
 <part name="+24V4" library="ethernet_poe" deviceset="+24V" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="2200uF, 50V"/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF, 50V"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+24V_FUSE3" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
 <part name="+24V_FUSE4" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>

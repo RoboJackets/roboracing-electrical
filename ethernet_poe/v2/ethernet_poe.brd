@@ -6540,7 +6540,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="35.1" y="11.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="35.735" y="9.195" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="2200uF, 50V" x="3.15" y="3.9" smashed="yes">
+<element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF, 50V" x="3.15" y="3.9" smashed="yes">
 <attribute name="NAME" x="4.11" y="1.184" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="7" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="3.15" y="3.9" size="1.778" layer="27" display="off"/>
