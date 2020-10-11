@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -112,6 +112,33 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="FSUSB42MUX" prefix="U">
+<description>USB Switch IC Channel 10-MSOP</description>
+<gates>
+<gate name="A" symbol="FSUSB42" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10-MSOP">
+<connects>
+<connect gate="A" pin="!OE" pad="10"/>
+<connect gate="A" pin="D+" pad="3"/>
+<connect gate="A" pin="D-" pad="4"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="HSD1+" pad="7"/>
+<connect gate="A" pin="HSD1-" pad="6"/>
+<connect gate="A" pin="HSD2+" pad="9"/>
+<connect gate="A" pin="HSD2-" pad="8"/>
+<connect gate="A" pin="SEL" pad="2"/>
+<connect gate="A" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="FSUSB42MUXCT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
