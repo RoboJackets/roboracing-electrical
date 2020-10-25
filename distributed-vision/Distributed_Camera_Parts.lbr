@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -65,23 +65,25 @@
 <smd name="6" x="0.7" y="0.65" dx="0.5" dy="0.4" layer="1"/>
 <smd name="1" x="-0.7" y="0.65" dx="0.5" dy="0.4" layer="1"/>
 <smd name="3" x="-0.7" y="-0.65" dx="0.5" dy="0.4" layer="1"/>
-<wire x1="-0.45" y1="1.05" x2="-0.45" y2="-1.05" width="0.08" layer="51"/>
-<wire x1="-0.45" y1="-1.05" x2="0.45" y2="-1.05" width="0.08" layer="51"/>
-<wire x1="0.45" y1="-1.05" x2="0.45" y2="1.05" width="0.08" layer="51"/>
-<wire x1="0.45" y1="1.05" x2="-0.45" y2="1.05" width="0.08" layer="51"/>
+<wire x1="-0.3992" y1="1.05" x2="-0.3992" y2="-1.05" width="0.08" layer="51"/>
+<wire x1="-0.3992" y1="-1.05" x2="0.3992" y2="-1.05" width="0.08" layer="51"/>
+<wire x1="0.3992" y1="-1.05" x2="0.3992" y2="1.05" width="0.08" layer="51"/>
+<wire x1="0.3992" y1="1.05" x2="-0.3992" y2="1.05" width="0.08" layer="51"/>
 <wire x1="-1.05" y1="1.2" x2="-1.05" y2="-1.2" width="0.06" layer="39"/>
 <wire x1="-1.05" y1="-1.2" x2="1.05" y2="-1.2" width="0.06" layer="39"/>
 <wire x1="1.05" y1="-1.2" x2="1.05" y2="1.2" width="0.06" layer="39"/>
 <wire x1="1.05" y1="1.2" x2="-1.05" y2="1.2" width="0.06" layer="39"/>
 <circle x="-0.2" y="0.7" radius="0.05" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="SP3003-02">
 <pin name="NC" x="-12.7" y="5.08" length="middle" direction="nc"/>
 <pin name="GND" x="-12.7" y="0" length="middle" direction="pwr"/>
-<pin name="IO1" x="-12.7" y="-5.08" length="middle"/>
-<pin name="VCC" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="IO1" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="IO2" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -101,10 +103,10 @@
 <device name="" package="SC70-5">
 <connects>
 <connect gate="SP3003-02JTG" pin="GND" pad="2"/>
-<connect gate="SP3003-02JTG" pin="IO1" pad="3"/>
+<connect gate="SP3003-02JTG" pin="IO1" pad="6"/>
 <connect gate="SP3003-02JTG" pin="IO2" pad="4"/>
 <connect gate="SP3003-02JTG" pin="NC" pad="1"/>
-<connect gate="SP3003-02JTG" pin="VCC" pad="6"/>
+<connect gate="SP3003-02JTG" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
