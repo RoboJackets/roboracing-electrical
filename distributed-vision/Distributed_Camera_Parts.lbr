@@ -77,6 +77,19 @@
 <text x="-2.54" y="1.27" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SOT23">
+<description>Link to datasheet: https://www.diodes.com/assets/Datasheets/AP2331.pdf</description>
+<smd name="3" x="0" y="1.2" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0.93" y="-1.2" dx="0.8" dy="1" layer="1"/>
+<smd name="1" x="-0.93" y="-1.2" dx="0.8" dy="1" layer="1"/>
+<wire x1="-1.35" y1="0.6" x2="-1.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.6" x2="1.35" y2="-0.6" width="0.127" layer="21"/>
+<circle x="-1" y="-0.25" radius="0.15" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="0.6" x2="1.35" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="-0.6" x2="1.35" y2="-0.6" width="0.127" layer="51"/>
+<text x="-1.27" y="2.54" size="1" layer="25" font="vector" ratio="10">&gt;SOT23</text>
+<text x="-1.27" y="-2.54" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SP3003-02">
@@ -91,6 +104,17 @@
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUES</text>
+</symbol>
+<symbol name="AP2331SA-7">
+<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
+<pin name="OUT" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="IN" x="-10.16" y="5.08" length="middle"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -111,6 +135,26 @@
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="F3302CT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2331SA-7" prefix="Q">
+<description>A single channel current-limited load switch</description>
+<gates>
+<gate name="AP2331SA-7" symbol="AP2331SA-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="AP2331SA-7" pin="GND" pad="1"/>
+<connect gate="AP2331SA-7" pin="IN" pad="3"/>
+<connect gate="AP2331SA-7" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="AP2331SA-7DICT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
