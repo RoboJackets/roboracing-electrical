@@ -86,7 +86,7 @@
 <wire x1="-2.032" y1="-2.54" x2="2.032" y2="-2.54" width="0.127" layer="21"/>
 <circle x="-1.651" y="2.286" radius="0.1" width="0.127" layer="21"/>
 </package>
-<package name="D-X-O-TH">
+<package name="USBR-A-D-F-O-TH">
 <pad name="T1" x="-3.5" y="5.33" drill="0.6" diameter="0.9"/>
 <pad name="T2" x="-1" y="5.33" drill="0.6" diameter="0.9"/>
 <pad name="T3" x="1" y="5.33" drill="0.6" diameter="0.9"/>
@@ -135,7 +135,7 @@
 <text x="-12.7" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="USBR-A">
+<symbol name="USBR-A-D-F-O-TH">
 <wire x1="-25.4" y1="20.32" x2="-25.4" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-20.32" x2="25.4" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-20.32" x2="25.4" y2="20.32" width="0.254" layer="94"/>
@@ -186,13 +186,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBR-A" prefix="U">
+<deviceset name="USBR-A-D-F-O-TH" prefix="J">
 <description>USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 8 Position Through Hole, Right Angle</description>
 <gates>
-<gate name="G$1" symbol="USBR-A" x="0" y="0"/>
+<gate name="G$1" symbol="USBR-A-D-F-O-TH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="D-X-O-TH">
+<device name="" package="USBR-A-D-F-O-TH">
 <connects>
 <connect gate="G$1" pin="BD+" pad="B3"/>
 <connect gate="G$1" pin="BD-" pad="B2"/>
@@ -204,7 +204,9 @@
 <connect gate="G$1" pin="TVCC" pad="T1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="SAM10376-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
