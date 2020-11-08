@@ -264,8 +264,8 @@
 <wire x1="-12.7" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-33.02" x2="12.7" y2="27.94" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="94"/>
-<text x="-4.55191875" y="30.7445" size="2.085240625" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-7.07473125" y="-37.5368" size="2.086790625" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-12.17191875" y="28.2045" size="2.085240625" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.15473125" y="-34.9968" size="2.086790625" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <pin name="VIND1_2" x="-17.78" y="22.86" length="middle" direction="pwr"/>
 <pin name="VIND1" x="-17.78" y="20.32" length="middle" direction="pwr"/>
 <pin name="VIND2_2" x="-17.78" y="17.78" length="middle" direction="pwr"/>
