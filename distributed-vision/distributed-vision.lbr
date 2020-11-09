@@ -320,8 +320,6 @@
 <wire x1="-38.5" y1="14.5" x2="-33.5" y2="14.5" width="0.1" layer="21"/>
 <text x="-40" y="-7.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-40" y="-9.024" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="-38" y="19.5" size="1.27" layer="51">M2.5 Screws 
-16mm?</text>
 </package>
 <package name="USON(10)">
 <smd name="3" x="-0.4175" y="0" dx="0.565" dy="0.4" layer="1"/>
@@ -775,13 +773,229 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="RASPBERRRY_COMPUTE_CM3" prefix="J">
+<description>RASPBERRY PI COMPUTE 3+ 16GB</description>
+<gates>
+<gate name="A" symbol="CM3PLUS_A" x="-104.14" y="27.94"/>
+<gate name="B" symbol="CM3PLUS_B" x="-17.78" y="27.94"/>
+<gate name="C" symbol="CM3PLUS_C" x="73.66" y="27.94"/>
+<gate name="D" symbol="CM3PLUS_D" x="119.38" y="27.94"/>
+</gates>
+<devices>
+<device name="" package="TE_1473149-4_WITH_CM3PLUS">
+<connects>
+<connect gate="A" pin="!EMMC_DISABLE" pad="2"/>
+<connect gate="A" pin="CAM0_CN" pad="144"/>
+<connect gate="A" pin="CAM0_CP" pad="142"/>
+<connect gate="A" pin="CAM0_DN0" pad="138"/>
+<connect gate="A" pin="CAM0_DN1" pad="150"/>
+<connect gate="A" pin="CAM0_DP0" pad="136"/>
+<connect gate="A" pin="CAM0_DP1" pad="148"/>
+<connect gate="A" pin="CAM1_CN" pad="149"/>
+<connect gate="A" pin="CAM1_CP" pad="147"/>
+<connect gate="A" pin="CAM1_DN0" pad="161"/>
+<connect gate="A" pin="CAM1_DN1" pad="155"/>
+<connect gate="A" pin="CAM1_DN2" pad="143"/>
+<connect gate="A" pin="CAM1_DN3" pad="137"/>
+<connect gate="A" pin="CAM1_DP0" pad="159"/>
+<connect gate="A" pin="CAM1_DP1" pad="153"/>
+<connect gate="A" pin="CAM1_DP2" pad="141"/>
+<connect gate="A" pin="CAM1_DP3" pad="135"/>
+<connect gate="A" pin="DSI0_CN" pad="105"/>
+<connect gate="A" pin="DSI0_CP" pad="107"/>
+<connect gate="A" pin="DSI0_DN0" pad="99"/>
+<connect gate="A" pin="DSI0_DN1" pad="93"/>
+<connect gate="A" pin="DSI0_DP0" pad="101"/>
+<connect gate="A" pin="DSI0_DP1" pad="95"/>
+<connect gate="A" pin="DSI1_CN" pad="102"/>
+<connect gate="A" pin="DSI1_CP" pad="100"/>
+<connect gate="A" pin="DSI1_DN0" pad="96"/>
+<connect gate="A" pin="DSI1_DN1" pad="120"/>
+<connect gate="A" pin="DSI1_DN2" pad="114"/>
+<connect gate="A" pin="DSI1_DN3" pad="108"/>
+<connect gate="A" pin="DSI1_DP0" pad="94"/>
+<connect gate="A" pin="DSI1_DP1" pad="118"/>
+<connect gate="A" pin="DSI1_DP2" pad="112"/>
+<connect gate="A" pin="DSI1_DP3" pad="106"/>
+<connect gate="A" pin="GPIO0" pad="3"/>
+<connect gate="A" pin="GPIO1" pad="5"/>
+<connect gate="A" pin="GPIO10" pad="33"/>
+<connect gate="A" pin="GPIO11" pad="35"/>
+<connect gate="A" pin="GPIO12" pad="45"/>
+<connect gate="A" pin="GPIO13" pad="47"/>
+<connect gate="A" pin="GPIO14" pad="51"/>
+<connect gate="A" pin="GPIO15" pad="53"/>
+<connect gate="A" pin="GPIO16" pad="57"/>
+<connect gate="A" pin="GPIO17" pad="59"/>
+<connect gate="A" pin="GPIO18" pad="63"/>
+<connect gate="A" pin="GPIO19" pad="65"/>
+<connect gate="A" pin="GPIO2" pad="9"/>
+<connect gate="A" pin="GPIO20" pad="69"/>
+<connect gate="A" pin="GPIO21" pad="71"/>
+<connect gate="A" pin="GPIO22" pad="75"/>
+<connect gate="A" pin="GPIO23" pad="77"/>
+<connect gate="A" pin="GPIO24" pad="81"/>
+<connect gate="A" pin="GPIO25" pad="83"/>
+<connect gate="A" pin="GPIO26" pad="87"/>
+<connect gate="A" pin="GPIO27" pad="89"/>
+<connect gate="A" pin="GPIO28" pad="28"/>
+<connect gate="A" pin="GPIO29" pad="30"/>
+<connect gate="A" pin="GPIO3" pad="11"/>
+<connect gate="A" pin="GPIO30" pad="34"/>
+<connect gate="A" pin="GPIO31" pad="36"/>
+<connect gate="A" pin="GPIO32" pad="46"/>
+<connect gate="A" pin="GPIO33" pad="48"/>
+<connect gate="A" pin="GPIO34" pad="52"/>
+<connect gate="A" pin="GPIO35" pad="54"/>
+<connect gate="A" pin="GPIO36" pad="58"/>
+<connect gate="A" pin="GPIO37" pad="60"/>
+<connect gate="A" pin="GPIO38" pad="64"/>
+<connect gate="A" pin="GPIO39" pad="66"/>
+<connect gate="A" pin="GPIO4" pad="15"/>
+<connect gate="A" pin="GPIO40" pad="70"/>
+<connect gate="A" pin="GPIO41" pad="72"/>
+<connect gate="A" pin="GPIO42" pad="76"/>
+<connect gate="A" pin="GPIO43" pad="78"/>
+<connect gate="A" pin="GPIO44" pad="82"/>
+<connect gate="A" pin="GPIO45" pad="84"/>
+<connect gate="A" pin="GPIO5" pad="17"/>
+<connect gate="A" pin="GPIO6" pad="21"/>
+<connect gate="A" pin="GPIO7" pad="23"/>
+<connect gate="A" pin="GPIO8" pad="27"/>
+<connect gate="A" pin="GPIO9" pad="29"/>
+<connect gate="A" pin="HDMI_CEC" pad="171"/>
+<connect gate="A" pin="HDMI_CLK_N" pad="111"/>
+<connect gate="A" pin="HDMI_CLK_P" pad="113"/>
+<connect gate="A" pin="HDMI_D0_N" pad="117"/>
+<connect gate="A" pin="HDMI_D0_P" pad="119"/>
+<connect gate="A" pin="HDMI_D1_N" pad="123"/>
+<connect gate="A" pin="HDMI_D1_P" pad="125"/>
+<connect gate="A" pin="HDMI_D2_N" pad="129"/>
+<connect gate="A" pin="HDMI_D2_P" pad="131"/>
+<connect gate="A" pin="HDMI_SCL" pad="175"/>
+<connect gate="A" pin="HDMI_SDA" pad="173"/>
+<connect gate="A" pin="RUN" pad="177"/>
+<connect gate="A" pin="USB_DM" pad="167"/>
+<connect gate="A" pin="USB_DP" pad="165"/>
+<connect gate="A" pin="USB_OTGID" pad="168"/>
+<connect gate="B" pin="1V8@1" pad="183"/>
+<connect gate="B" pin="1V8@2" pad="184"/>
+<connect gate="B" pin="1V8@3" pad="185"/>
+<connect gate="B" pin="1V8@4" pad="186"/>
+<connect gate="B" pin="3V3@1" pad="191"/>
+<connect gate="B" pin="3V3@2" pad="192"/>
+<connect gate="B" pin="3V3@3" pad="193"/>
+<connect gate="B" pin="3V3@4" pad="194"/>
+<connect gate="B" pin="EMMC_EN_N_1V8" pad="90"/>
+<connect gate="B" pin="GPIO0-27_VDD@1" pad="39"/>
+<connect gate="B" pin="GPIO0-27_VDD@2" pad="40"/>
+<connect gate="B" pin="GPIO28-45_VDD@1" pad="41"/>
+<connect gate="B" pin="GPIO28-45_VDD@2" pad="42"/>
+<connect gate="B" pin="HDMI_HPD_N_1V8" pad="88"/>
+<connect gate="B" pin="TVDAC" pad="166"/>
+<connect gate="B" pin="VBAT@1" pad="197"/>
+<connect gate="B" pin="VBAT@2" pad="198"/>
+<connect gate="B" pin="VBAT@3" pad="199"/>
+<connect gate="B" pin="VBAT@4" pad="200"/>
+<connect gate="B" pin="VC_TCK" pad="180"/>
+<connect gate="B" pin="VC_TDI" pad="174"/>
+<connect gate="B" pin="VC_TDO" pad="178"/>
+<connect gate="B" pin="VC_TMS" pad="176"/>
+<connect gate="B" pin="VC_TRST_N" pad="172"/>
+<connect gate="B" pin="VDAC@1" pad="189"/>
+<connect gate="B" pin="VDAC@2" pad="190"/>
+<connect gate="C" pin="GND@1" pad="1"/>
+<connect gate="C" pin="GND@10" pad="31"/>
+<connect gate="C" pin="GND@11" pad="32"/>
+<connect gate="C" pin="GND@12" pad="37"/>
+<connect gate="C" pin="GND@13" pad="38"/>
+<connect gate="C" pin="GND@14" pad="43"/>
+<connect gate="C" pin="GND@15" pad="44"/>
+<connect gate="C" pin="GND@16" pad="49"/>
+<connect gate="C" pin="GND@17" pad="50"/>
+<connect gate="C" pin="GND@18" pad="55"/>
+<connect gate="C" pin="GND@19" pad="56"/>
+<connect gate="C" pin="GND@2" pad="7"/>
+<connect gate="C" pin="GND@20" pad="61"/>
+<connect gate="C" pin="GND@21" pad="62"/>
+<connect gate="C" pin="GND@22" pad="67"/>
+<connect gate="C" pin="GND@23" pad="68"/>
+<connect gate="C" pin="GND@24" pad="73"/>
+<connect gate="C" pin="GND@25" pad="74"/>
+<connect gate="C" pin="GND@26" pad="79"/>
+<connect gate="C" pin="GND@27" pad="80"/>
+<connect gate="C" pin="GND@28" pad="85"/>
+<connect gate="C" pin="GND@29" pad="86"/>
+<connect gate="C" pin="GND@3" pad="8"/>
+<connect gate="C" pin="GND@30" pad="91"/>
+<connect gate="C" pin="GND@31" pad="92"/>
+<connect gate="C" pin="GND@32" pad="97"/>
+<connect gate="C" pin="GND@33" pad="98"/>
+<connect gate="C" pin="GND@34" pad="103"/>
+<connect gate="C" pin="GND@35" pad="104"/>
+<connect gate="C" pin="GND@36" pad="109"/>
+<connect gate="C" pin="GND@37" pad="110"/>
+<connect gate="C" pin="GND@38" pad="115"/>
+<connect gate="C" pin="GND@39" pad="116"/>
+<connect gate="C" pin="GND@4" pad="13"/>
+<connect gate="C" pin="GND@40" pad="121"/>
+<connect gate="C" pin="GND@41" pad="122"/>
+<connect gate="C" pin="GND@42" pad="127"/>
+<connect gate="C" pin="GND@43" pad="133"/>
+<connect gate="C" pin="GND@44" pad="134"/>
+<connect gate="C" pin="GND@45" pad="139"/>
+<connect gate="C" pin="GND@46" pad="140"/>
+<connect gate="C" pin="GND@47" pad="145"/>
+<connect gate="C" pin="GND@48" pad="146"/>
+<connect gate="C" pin="GND@49" pad="151"/>
+<connect gate="C" pin="GND@5" pad="14"/>
+<connect gate="C" pin="GND@50" pad="152"/>
+<connect gate="C" pin="GND@51" pad="157"/>
+<connect gate="C" pin="GND@52" pad="163"/>
+<connect gate="C" pin="GND@53" pad="164"/>
+<connect gate="C" pin="GND@54" pad="169"/>
+<connect gate="C" pin="GND@55" pad="170"/>
+<connect gate="C" pin="GND@56" pad="181"/>
+<connect gate="C" pin="GND@57" pad="182"/>
+<connect gate="C" pin="GND@58" pad="187"/>
+<connect gate="C" pin="GND@59" pad="188"/>
+<connect gate="C" pin="GND@6" pad="19"/>
+<connect gate="C" pin="GND@60" pad="195"/>
+<connect gate="C" pin="GND@61" pad="196"/>
+<connect gate="C" pin="GND@7" pad="20"/>
+<connect gate="C" pin="GND@8" pad="25"/>
+<connect gate="C" pin="GND@9" pad="26"/>
+<connect gate="C" pin="MH1" pad="MH1"/>
+<connect gate="C" pin="MH2" pad="MH2"/>
+<connect gate="D" pin="NC@1" pad="4"/>
+<connect gate="D" pin="NC@10" pad="126"/>
+<connect gate="D" pin="NC@11" pad="128"/>
+<connect gate="D" pin="NC@12" pad="130"/>
+<connect gate="D" pin="NC@13" pad="132"/>
+<connect gate="D" pin="NC@14" pad="154"/>
+<connect gate="D" pin="NC@15" pad="156"/>
+<connect gate="D" pin="NC@16" pad="158"/>
+<connect gate="D" pin="NC@17" pad="160"/>
+<connect gate="D" pin="NC@18" pad="162"/>
+<connect gate="D" pin="NC@2" pad="6"/>
+<connect gate="D" pin="NC@3" pad="10"/>
+<connect gate="D" pin="NC@4" pad="12"/>
+<connect gate="D" pin="NC@5" pad="16"/>
+<connect gate="D" pin="NC@6" pad="18"/>
+<connect gate="D" pin="NC@7" pad="22"/>
+<connect gate="D" pin="NC@8" pad="24"/>
+<connect gate="D" pin="NC@9" pad="124"/>
+<connect gate="D" pin="VDD_CORE_(DNC)" pad="179"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1690-1031-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
