@@ -26341,561 +26341,6 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Electronic_Inductors">
-<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-PD&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2019b, 2019-11-20&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="WE-PD_7345" urn="urn:adsk.eagle:footprint:13009183/1">
-<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD SMD Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;7345</description>
-<wire x1="-3.65" y1="-3.65" x2="3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="-3.65" x2="3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="3.65" x2="-3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="-3.65" y1="3.65" x2="-3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="1.5" x2="-3.75" y2="3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="3.75" x2="3.75" y2="3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="3.75" x2="3.75" y2="1.5" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="-1.5" x2="-3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="-3.75" x2="3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="-3.75" x2="3.75" y2="-1.5" width="0.2" layer="21"/>
-<smd name="1" x="-3.2" y="0" dx="2.2" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="3.2" y="0" dx="2.2" dy="1.6" layer="1" rot="R90"/>
-<text x="-3.255" y="-5.22" size="1.016" layer="27">&gt;VALUE</text>
-<text x="0.015" y="4.48" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<polygon width="0.1" layer="39">
-<vertex x="-4.25" y="3.95"/>
-<vertex x="4.25" y="3.95"/>
-<vertex x="4.25" y="-3.95"/>
-<vertex x="-4.25" y="-3.95"/>
-</polygon>
-<polygon width="0.1" layer="41">
-<vertex x="-3.55" y="3.55"/>
-<vertex x="3.55" y="3.55"/>
-<vertex x="3.55" y="1.15"/>
-<vertex x="2.35" y="1.15"/>
-<vertex x="2.35" y="-1.15"/>
-<vertex x="3.55" y="-1.15"/>
-<vertex x="3.55" y="-3.55"/>
-<vertex x="-3.55" y="-3.55"/>
-<vertex x="-3.55" y="-1.15"/>
-<vertex x="-2.35" y="-1.15"/>
-<vertex x="-2.35" y="1.15"/>
-<vertex x="-3.55" y="1.15"/>
-</polygon>
-<polygon width="0.1" layer="43">
-<vertex x="-3.55" y="3.55"/>
-<vertex x="3.55" y="3.55"/>
-<vertex x="3.55" y="1.15"/>
-<vertex x="2.35" y="1.15"/>
-<vertex x="2.35" y="-1.15"/>
-<vertex x="3.55" y="-1.15"/>
-<vertex x="3.55" y="-3.55"/>
-<vertex x="-3.55" y="-3.55"/>
-<vertex x="-3.55" y="-1.15"/>
-<vertex x="-2.35" y="-1.15"/>
-<vertex x="-2.35" y="1.15"/>
-<vertex x="-3.55" y="1.15"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="WE-PD_7345" urn="urn:adsk.eagle:package:13009199/2" type="model">
-<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD SMD Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;7345</description>
-<packageinstances>
-<packageinstance name="WE-PD_7345"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="L">
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.905" x2="1.27" y2="1.905" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="0" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-3.81" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-<circle x="-6.908" y="0.53" radius="0.1" width="0.4064" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WE-PD_7345" prefix="L">
-<description>&lt;b&gt;WE-PD SMT Power Inductor
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; AECQ 200 Qualified
-&lt;br&gt;Ultra low RDC and RAC
-&lt;br&gt;Highest possible saturation current based on Ferrite
-&lt;br&gt;Suitable for switching frequency up to 10MHz
-&lt;br&gt;Temperature dependent parameter available on Redexpert
-&lt;br&gt;Operating Temperature from -40°C to +125°C / +150°C
-&lt;br&gt;
-&lt;br&gt;
-
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Types
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;WE-PD: Since always with low loss material, tight tolerances and high saturation behavior compared to other manufacturers &lt;br&gt;in the market
-&lt;br&gt;WE-PD Robust: Plastic base improves the mechanical stability and efficiency
-&lt;br&gt;WE-PD Performance: MnZn core improves Saturation and RDC for highest efficiency
-&lt;br&gt;
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Switch Mode Power supplies from 0,1W up to 300W
-&lt;br&gt;Integrated DC DC Converter
-&lt;br&gt;Ideal for Switch Mode Power supplies with extreme high efficiency (&gt;95%)
-
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14825v209%20Family_WE-PD.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o14825v209%20Family_WE-PD.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD"&gt;https://katalog.we-online.com/en/pbs/WE-PD&lt;/a&gt;&lt;p&gt;
-
-
-Updated  by  Yingchun,Shan 2019-07-25&lt;br&gt;
-2019 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PD_7345">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13009199/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_744777001">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777001.pdf" constant="no"/>
-<attribute name="FRES" value="100MHz" constant="no"/>
-<attribute name="IR" value="6.84A" constant="no"/>
-<attribute name="ISAT" value="10.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777001 " constant="no"/>
-<attribute name="RDC-MAX" value="10mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="8.4mOhm" constant="no"/>
-<attribute name="VALUE" value="1uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777002">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777002.pdf" constant="no"/>
-<attribute name="FRES" value="60MHz" constant="no"/>
-<attribute name="IR" value="6A" constant="no"/>
-<attribute name="ISAT" value="6.5A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777002 " constant="no"/>
-<attribute name="RDC-MAX" value="20mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="13mOhm" constant="no"/>
-<attribute name="VALUE" value="2.2uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777003">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777003.pdf" constant="no"/>
-<attribute name="FRES" value="55MHz" constant="no"/>
-<attribute name="IR" value="3.5A" constant="no"/>
-<attribute name="ISAT" value="4.6A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777003 " constant="no"/>
-<attribute name="RDC-MAX" value="30mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="25mOhm" constant="no"/>
-<attribute name="VALUE" value="3.3uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777004">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777004.pdf" constant="no"/>
-<attribute name="FRES" value="37MHz" constant="no"/>
-<attribute name="IR" value="3.2A" constant="no"/>
-<attribute name="ISAT" value="4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777004 " constant="no"/>
-<attribute name="RDC-MAX" value="40mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="25mOhm" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477710">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477710.pdf" constant="no"/>
-<attribute name="FRES" value="26MHz" constant="no"/>
-<attribute name="IR" value="2A" constant="no"/>
-<attribute name="ISAT" value="2.6A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477710 " constant="no"/>
-<attribute name="RDC-MAX" value="49mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="45mOhm" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777112">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777112.pdf" constant="no"/>
-<attribute name="FRES" value="23MHz" constant="no"/>
-<attribute name="IR" value="1.82A" constant="no"/>
-<attribute name="ISAT" value="2.4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777112 " constant="no"/>
-<attribute name="RDC-MAX" value="58mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="54mOhm" constant="no"/>
-<attribute name="VALUE" value="12uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777115">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777115.pdf" constant="no"/>
-<attribute name="FRES" value="19.5MHz" constant="no"/>
-<attribute name="IR" value="1.6A" constant="no"/>
-<attribute name="ISAT" value="2.2A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777115 " constant="no"/>
-<attribute name="RDC-MAX" value="81mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="70mOhm" constant="no"/>
-<attribute name="VALUE" value="15uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777118">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777118.pdf" constant="no"/>
-<attribute name="FRES" value="19MHz" constant="no"/>
-<attribute name="IR" value="1.5A" constant="no"/>
-<attribute name="ISAT" value="2.05A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777118 " constant="no"/>
-<attribute name="RDC-MAX" value="91mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="80mOhm" constant="no"/>
-<attribute name="VALUE" value="18uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777122">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777122.pdf" constant="no"/>
-<attribute name="FRES" value="17MHz" constant="no"/>
-<attribute name="IR" value="1.41A" constant="no"/>
-<attribute name="ISAT" value="1.7A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777122 " constant="no"/>
-<attribute name="RDC-MAX" value="110mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="90mOhm" constant="no"/>
-<attribute name="VALUE" value="22uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777127">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777127.pdf" constant="no"/>
-<attribute name="FRES" value="15MHz" constant="no"/>
-<attribute name="IR" value="1.24A" constant="no"/>
-<attribute name="ISAT" value="1.55A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777127 " constant="no"/>
-<attribute name="RDC-MAX" value="150mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="117mOhm" constant="no"/>
-<attribute name="VALUE" value="27uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777133">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777133.pdf" constant="no"/>
-<attribute name="FRES" value="13MHz" constant="no"/>
-<attribute name="IR" value="1.13A" constant="no"/>
-<attribute name="ISAT" value="1.4A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777133 " constant="no"/>
-<attribute name="RDC-MAX" value="170mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="140mOhm" constant="no"/>
-<attribute name="VALUE" value="33uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777139">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777139.pdf" constant="no"/>
-<attribute name="FRES" value="12MHz" constant="no"/>
-<attribute name="IR" value="1.11A" constant="no"/>
-<attribute name="ISAT" value="1.23A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777139 " constant="no"/>
-<attribute name="RDC-MAX" value="230mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="145mOhm" constant="no"/>
-<attribute name="VALUE" value="39uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777147.pdf" constant="no"/>
-<attribute name="FRES" value="10.5MHz" constant="no"/>
-<attribute name="IR" value="1.03A" constant="no"/>
-<attribute name="ISAT" value="1.1A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777147 " constant="no"/>
-<attribute name="RDC-MAX" value="260mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="170mOhm" constant="no"/>
-<attribute name="VALUE" value="47uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777156">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777156.pdf" constant="no"/>
-<attribute name="FRES" value="10MHz" constant="no"/>
-<attribute name="IR" value="0.93A" constant="no"/>
-<attribute name="ISAT" value="1.05A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777156 " constant="no"/>
-<attribute name="RDC-MAX" value="350mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="210mOhm" constant="no"/>
-<attribute name="VALUE" value="56uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777168">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777168.pdf" constant="no"/>
-<attribute name="FRES" value="9MHz" constant="no"/>
-<attribute name="IR" value="0.87A" constant="no"/>
-<attribute name="ISAT" value="0.95A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777168 " constant="no"/>
-<attribute name="RDC-MAX" value="380mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="240mOhm" constant="no"/>
-<attribute name="VALUE" value="68uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777182">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777182.pdf" constant="no"/>
-<attribute name="FRES" value="8MHz" constant="no"/>
-<attribute name="IR" value="0.84A" constant="no"/>
-<attribute name="ISAT" value="0.9A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777182 " constant="no"/>
-<attribute name="RDC-MAX" value="430mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="260mOhm" constant="no"/>
-<attribute name="VALUE" value="82uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477720">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477720.pdf" constant="no"/>
-<attribute name="FRES" value="7.5MHz" constant="no"/>
-<attribute name="IR" value="0.79A" constant="no"/>
-<attribute name="ISAT" value="0.75A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477720 " constant="no"/>
-<attribute name="RDC-MAX" value="610mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="290mOhm" constant="no"/>
-<attribute name="VALUE" value="100uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777212">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777212.pdf" constant="no"/>
-<attribute name="FRES" value="6.7MHz" constant="no"/>
-<attribute name="IR" value="0.67A" constant="no"/>
-<attribute name="ISAT" value="0.7A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777212 " constant="no"/>
-<attribute name="RDC-MAX" value="660mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="400mOhm" constant="no"/>
-<attribute name="VALUE" value="120uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777215">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777215.pdf" constant="no"/>
-<attribute name="FRES" value="6MHz" constant="no"/>
-<attribute name="IR" value="0.52A" constant="no"/>
-<attribute name="ISAT" value="0.63A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777215 " constant="no"/>
-<attribute name="RDC-MAX" value="880mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="660mOhm" constant="no"/>
-<attribute name="VALUE" value="150uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777218">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777218.pdf" constant="no"/>
-<attribute name="FRES" value="5.3MHz" constant="no"/>
-<attribute name="IR" value="0.51A" constant="no"/>
-<attribute name="ISAT" value="0.56A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777218 " constant="no"/>
-<attribute name="RDC-MAX" value="980mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="680mOhm" constant="no"/>
-<attribute name="VALUE" value="180uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777222.pdf" constant="no"/>
-<attribute name="FRES" value="5MHz" constant="no"/>
-<attribute name="IR" value="0.44A" constant="no"/>
-<attribute name="ISAT" value="0.54A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777222 " constant="no"/>
-<attribute name="RDC-MAX" value="1170mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="920mOhm" constant="no"/>
-<attribute name="VALUE" value="220uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777233">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777233.pdf" constant="no"/>
-<attribute name="FRES" value="4MHz" constant="no"/>
-<attribute name="IR" value="0.39A" constant="no"/>
-<attribute name="ISAT" value="0.45A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777233 " constant="no"/>
-<attribute name="RDC-MAX" value="1860mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="1150mOhm" constant="no"/>
-<attribute name="VALUE" value="330uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777239">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777239.pdf" constant="no"/>
-<attribute name="FRES" value="3.8MHz" constant="no"/>
-<attribute name="IR" value="0.38A" constant="no"/>
-<attribute name="ISAT" value="0.42A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777239 " constant="no"/>
-<attribute name="RDC-MAX" value="2850mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="1250mOhm" constant="no"/>
-<attribute name="VALUE" value="390uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477724">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477724.pdf" constant="no"/>
-<attribute name="FRES" value="3.2MHz" constant="no"/>
-<attribute name="IR" value="0.29A" constant="no"/>
-<attribute name="ISAT" value="0.34A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477724 " constant="no"/>
-<attribute name="RDC-MAX" value="3010mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="1600mOhm" constant="no"/>
-<attribute name="VALUE" value="470uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477725">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477725.pdf" constant="no"/>
-<attribute name="FRES" value="3MHz" constant="no"/>
-<attribute name="IR" value="0.28A" constant="no"/>
-<attribute name="ISAT" value="0.31A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477725 " constant="no"/>
-<attribute name="RDC-MAX" value="3620mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="1720mOhm" constant="no"/>
-<attribute name="VALUE" value="560uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477726">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477726.pdf" constant="no"/>
-<attribute name="FRES" value="2.7MHz" constant="no"/>
-<attribute name="IR" value="0.23A" constant="no"/>
-<attribute name="ISAT" value="0.28A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477726 " constant="no"/>
-<attribute name="RDC-MAX" value="4630mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="2600mOhm" constant="no"/>
-<attribute name="VALUE" value="680uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_744777270">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744777270.pdf" constant="no"/>
-<attribute name="FRES" value="4.3MHz" constant="no"/>
-<attribute name="IR" value="0.43A" constant="no"/>
-<attribute name="ISAT" value="0.48A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744777270 " constant="no"/>
-<attribute name="RDC-MAX" value="1640mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="970mOhm" constant="no"/>
-<attribute name="VALUE" value="270uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477728">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477728.pdf" constant="no"/>
-<attribute name="FRES" value="2.5MHz" constant="no"/>
-<attribute name="IR" value="0.21A" constant="no"/>
-<attribute name="ISAT" value="0.26A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477728 " constant="no"/>
-<attribute name="RDC-MAX" value="5200mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="3000mOhm" constant="no"/>
-<attribute name="VALUE" value="820uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-<technology name="_74477730">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74477730.pdf" constant="no"/>
-<attribute name="FRES" value="2.2MHz" constant="no"/>
-<attribute name="IR" value="0.2A" constant="no"/>
-<attribute name="ISAT" value="0.25A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74477730 " constant="no"/>
-<attribute name="RDC-MAX" value="6000mOhm" constant="no"/>
-<attribute name="RDC-TYP" value="3270mOhm" constant="no"/>
-<attribute name="VALUE" value="1000uH" constant="no"/>
-<attribute name="VERSION" value="Standard" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
 <description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
 This library contains capacitors. 
@@ -31414,7 +30859,68 @@ In this library you will find frames that can be used to help organize a schemat
 <wire x1="-1.6" y1="1.4" x2="-1.2" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-1.4" x2="-1.2" y2="-1.4" width="0.2032" layer="21"/>
 </package>
+<package name="WE-PD_1210" urn="urn:adsk.eagle:footprint:13009185/1" locally_modified="yes">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1210</description>
+<wire x1="6" y1="-6" x2="6" y2="6" width="0.1" layer="51"/>
+<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.1" layer="51"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.1" layer="51"/>
+<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="3.1" x2="-6.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="6.1" x2="6.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-3.1" x2="-6.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-6.1" x2="6.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-6.1" x2="6.1" y2="-3.1" width="0.2" layer="21"/>
+<smd name="1" x="-4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<smd name="2" x="4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<text x="0.04" y="7.03" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.15" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.6" y="6.3"/>
+<vertex x="6.6" y="6.3"/>
+<vertex x="6.6" y="-6.3"/>
+<vertex x="-6.6" y="-6.3"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-5.9" y="5.9"/>
+<vertex x="5.9" y="5.9"/>
+<vertex x="5.9" y="2.75"/>
+<vertex x="3.45" y="2.75"/>
+<vertex x="3.45" y="-2.75"/>
+<vertex x="5.9" y="-2.75"/>
+<vertex x="5.9" y="-5.9"/>
+<vertex x="-5.9" y="-5.9"/>
+<vertex x="-5.9" y="-2.75"/>
+<vertex x="-3.45" y="-2.75"/>
+<vertex x="-3.45" y="2.75"/>
+<vertex x="-5.9" y="2.75"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-5.9" y="5.9"/>
+<vertex x="5.9" y="5.9"/>
+<vertex x="5.9" y="2.75"/>
+<vertex x="3.45" y="2.75"/>
+<vertex x="3.45" y="-2.75"/>
+<vertex x="5.9" y="-2.75"/>
+<vertex x="5.9" y="-5.9"/>
+<vertex x="-5.9" y="-5.9"/>
+<vertex x="-5.9" y="-2.75"/>
+<vertex x="-3.45" y="-2.75"/>
+<vertex x="-3.45" y="2.75"/>
+<vertex x="-5.9" y="2.75"/>
+</polygon>
+</package>
 </packages>
+<packages3d>
+<package3d name="WE-PD_1210" urn="urn:adsk.eagle:package:13009201/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1210</description>
+<packageinstances>
+<packageinstance name="WE-PD_1210"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="Q-SHIELD2">
 <description>&lt;h3&gt;Shielded Crystal Oscillator&lt;/h3&gt;
@@ -31447,6 +30953,19 @@ This one is shielded to reduce noise.
 <pin name="SHD2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="SHD1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="INDUCTOR">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="1.27" y2="1.905" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="-6.908" y="0.53" radius="0.1" width="0.4064" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ABM10W-25.0000MHZ-6-K1Z-T3" prefix="X" uservalue="yes">
@@ -31465,6 +30984,69 @@ This one is shielded to reduce noise.
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="535-13730-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7447709470" prefix="L">
+<description>&lt;b&gt;WE-PD SMT Power Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; AECQ 200 Qualified
+&lt;br&gt;Ultra low RDC and RAC
+&lt;br&gt;Highest possible saturation current based on Ferrite
+&lt;br&gt;Suitable for switching frequency up to 10MHz
+&lt;br&gt;Temperature dependent parameter available on Redexpert
+&lt;br&gt;Operating Temperature from -40°C to +125°C / +150°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Types
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;WE-PD: Since always with low loss material, tight tolerances and high saturation behavior compared to other manufacturers &lt;br&gt;in the market
+&lt;br&gt;WE-PD Robust: Plastic base improves the mechanical stability and efficiency
+&lt;br&gt;WE-PD Performance: MnZn core improves Saturation and RDC for highest efficiency
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Switch Mode Power supplies from 0,1W up to 300W
+&lt;br&gt;Integrated DC DC Converter
+&lt;br&gt;Ideal for Switch Mode Power supplies with extreme high efficiency (&gt;95%)
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14825v209%20Family_WE-PD.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14825v209%20Family_WE-PD.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-PD/"&gt;https://www.we-online.com/catalog/en/WE-PD/&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD"&gt;https://katalog.we-online.com/en/pbs/WE-PD&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by  Yingchun,Shan 2019-07-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD_1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009201/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447709470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7447709470.pdf"/>
+<attribute name="DKPN" value="732-1246-1-ND" constant="no"/>
+<attribute name="FRES" value="6.5MHz"/>
+<attribute name="IR" value="3.8A"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447709470 "/>
+<attribute name="RDC-MAX" value="60mOhm"/>
+<attribute name="RDC-TYP" value="46mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="VERSION" value="Standard"/>
 </technology>
 </technologies>
 </device>
@@ -31501,7 +31083,7 @@ This one is shielded to reduce noise.
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.220uF"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22nF, 50V"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.022uF, 50V"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22k"/>
 <part name="+3V3_D4" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -31577,14 +31159,14 @@ This one is shielded to reduce noise.
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75, 1%"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75, 1%"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75, 1%"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10000pF"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="L3" library="POE" deviceset="MPZ2012S601AT000" device=""/>
+<part name="L2" library="POE" deviceset="MPZ2012S601AT000" device=""/>
 <part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10000pF"/>
 <part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10000pF"/>
 <part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
@@ -31596,7 +31178,6 @@ This one is shielded to reduce noise.
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49.9, 1%"/>
 <part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="49.9, 1%"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="1M"/>
-<part name="L1" library="Wurth_Electronic_Inductors" deviceset="WE-PD_7345" device="" package3d_urn="urn:adsk.eagle:package:13009199/2" technology="_744777147" value="47uH"/>
 <part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF-POLAR" device="-PANASONIC_C-35V-20%" package3d_urn="urn:adsk.eagle:package:37430/1" value="22uF"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10000pF"/>
 <part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
@@ -31608,15 +31189,15 @@ This one is shielded to reduce noise.
 <part name="+24V2" library="ethernet_poe" deviceset="+24V" device=""/>
 <part name="+24V_FUSE1" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
 <part name="+24V_FUSE2" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="715k, 1%"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k, 1%"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30.1k, 1%"/>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="715k, 1%"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k, 1%"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30.1k, 1%"/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF, 50V"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF, 50V"/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="11.8k, 1%"/>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="66.5k, 1%"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="11.8k, 1%"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="66.5k, 1%"/>
 <part name="+24V4" library="ethernet_poe" deviceset="+24V" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -31631,10 +31212,10 @@ This one is shielded to reduce noise.
 </part>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="YLW"/>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="+3V3_D12" library="ethernet_poe" deviceset="+3V3_D" device=""/>
-<part name="D8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLU"/>
-<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
+<part name="D4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="BLU"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="+3V3_D13" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
@@ -31655,6 +31236,7 @@ This one is shielded to reduce noise.
 <part name="C20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
 <part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
 <part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
+<part name="L1" library="ethernet_poe_v2.1" deviceset="7447709470" device="" package3d_urn="urn:adsk.eagle:package:13009201/2" technology="_7447709470" value="47uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -31733,6 +31315,9 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <text x="249.428" y="207.518" size="1.778" layer="97">1.8A Rated</text>
 <text x="345.44" y="63.5" size="1.778" layer="97">#3 (or M2.5) Drill Size</text>
 <text x="25.146" y="63.246" size="1.778" layer="97">1A Rated</text>
+<text x="292.1" y="236.22" size="1.778" layer="97">L_out = ((V_in - V_out) * V_out)/ (I_rip * f_s * V_in)
+42.7uF = ((24-5)*5)/(0.25*370000*24)
+I_sat &gt; 3.5A</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="233.68" y="109.22" smashed="yes">
@@ -31761,7 +31346,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 </instance>
 <instance part="C1" gate="G$1" x="228.6" y="220.98" smashed="yes">
 <attribute name="NAME" x="224.917" y="218.44" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="233.807" y="214.122" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="233.807" y="211.582" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="228.6" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="230.886" y="209.296" size="1.778" layer="95"/>
@@ -31998,7 +31583,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="268.478" y="77.47" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="274.574" y="77.724" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R29" gate="G$1" x="33.02" y="228.6" smashed="yes">
+<instance part="R28" gate="G$1" x="33.02" y="228.6" smashed="yes">
 <attribute name="NAME" x="29.464" y="230.378" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="32.766" y="230.378" size="1.778" layer="96"/>
 </instance>
@@ -32022,7 +31607,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="SUPPLY24" gate="GND" x="127" y="17.78" smashed="yes">
 <attribute name="VALUE" x="127" y="15.24" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="L3" gate="A" x="104.14" y="22.86" smashed="yes">
+<instance part="L2" gate="A" x="104.14" y="22.86" smashed="yes">
 <attribute name="VALUE" x="111.8108" y="21.8948" size="1.778" layer="96" ratio="10" rot="SR0" align="top-center"/>
 <attribute name="NAME" x="110.0836" y="26.9748" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
@@ -32070,10 +31655,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="163.83" y="102.6414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="163.83" y="97.282" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L1" gate="G$1" x="294.64" y="226.06" smashed="yes">
-<attribute name="NAME" x="294.64" y="228.6" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="290.83" y="223.52" size="1.778" layer="96"/>
-</instance>
 <instance part="C29" gate="G$1" x="147.32" y="50.8" smashed="yes">
 <attribute name="NAME" x="148.336" y="51.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="46.609" size="1.778" layer="96"/>
@@ -32112,15 +31693,15 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="+24V_FUSE2" gate="G$1" x="114.3" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="115.57" y="142.24" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R30" gate="G$1" x="327.66" y="139.7" smashed="yes" rot="R270">
+<instance part="R27" gate="G$1" x="327.66" y="139.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="325.628" y="137.668" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="331.216" y="134.112" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R31" gate="G$1" x="327.66" y="124.46" smashed="yes" rot="R270">
+<instance part="R14" gate="G$1" x="327.66" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="328.93" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="328.93" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="327.66" y="109.22" smashed="yes" rot="R270">
+<instance part="R13" gate="G$1" x="327.66" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="325.628" y="105.156" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="330.962" y="104.902" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -32138,11 +31719,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="SUPPLY29" gate="GND" x="340.36" y="142.24" smashed="yes">
 <attribute name="VALUE" x="345.567" y="142.367" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R33" gate="G$1" x="401.32" y="114.3" smashed="yes" rot="R270">
+<instance part="R12" gate="G$1" x="401.32" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="399.3134" y="114.554" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="404.876" y="114.3" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="R34" gate="G$1" x="406.4" y="114.3" smashed="yes" rot="R270">
+<instance part="R11" gate="G$1" x="406.4" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="407.924" y="114.7826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="408.178" y="112.014" size="1.778" layer="96"/>
 </instance>
@@ -32185,18 +31766,18 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="55.372" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.372" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="53.34" y="134.62" smashed="yes" rot="R270">
+<instance part="R9" gate="G$1" x="53.34" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.8" y="134.62" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="55.88" y="134.62" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="+3V3_D12" gate="G$1" x="53.34" y="147.32" smashed="yes">
 <attribute name="VALUE" x="53.34" y="149.86" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D8" gate="G$1" x="66.04" y="124.46" smashed="yes">
+<instance part="D4" gate="G$1" x="66.04" y="124.46" smashed="yes">
 <attribute name="NAME" x="68.072" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.072" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="R36" gate="G$1" x="66.04" y="134.62" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="66.04" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.5" y="134.62" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="68.58" y="134.62" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
@@ -32243,6 +31824,10 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="C17" gate="G$1" x="109.22" y="71.12" smashed="yes">
 <attribute name="NAME" x="110.236" y="71.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.236" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="L1" gate="G$1" x="294.64" y="226.06" smashed="yes">
+<attribute name="NAME" x="294.64" y="228.6" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="290.83" y="223.52" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -32419,7 +32004,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="119.38" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="127" y1="22.86" x2="127" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="L3" gate="A" pin="1"/>
+<pinref part="L2" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
@@ -32588,12 +32173,12 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <junction x="279.4" y="81.28"/>
 </segment>
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="139.7" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="+3V3_D12" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="139.7" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="+3V3_D13" gate="G$1" pin="+3V3_D"/>
 </segment>
@@ -32612,7 +32197,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <pinref part="+24V1" gate="G$1" pin="+24V"/>
 <wire x1="327.66" y1="157.48" x2="327.66" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="IN"/>
@@ -32648,8 +32233,8 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="281.94" y1="223.52" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="BUO"/>
 <wire x1="274.32" y1="226.06" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="A" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -32882,8 +32467,8 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="320.04" y1="226.06" x2="320.04" y2="223.52" width="0.1524" layer="91"/>
 <junction x="320.04" y="226.06"/>
 <wire x1="320.04" y1="226.06" x2="330.2" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="F1" gate="A" pin="1"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -33000,7 +32585,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="VC2+"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="228.6" x2="38.1" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -33015,7 +32600,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="236.22" x2="22.86" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="228.6" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="226.06" x2="22.86" y2="226.06" width="0.1524" layer="91"/>
@@ -33037,7 +32622,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <segment>
 <pinref part="SUPPLY23" gate="G$1" pin="AGND"/>
 <wire x1="96.52" y1="20.32" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="L3" gate="A" pin="2"/>
+<pinref part="L2" gate="A" pin="2"/>
 <wire x1="104.14" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -33147,13 +32732,13 @@ V(IMONmax) = max ADC voltage = 5V</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="134.62" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="132.08" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="132.08" x2="337.82" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="UVLO"/>
 <wire x1="337.82" y1="139.7" x2="353.06" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="129.54" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
 <junction x="327.66" y="132.08"/>
 </segment>
@@ -33164,9 +32749,9 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="353.06" y1="137.16" x2="340.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="137.16" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="116.84" x2="327.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="116.84" x2="327.66" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="114.3" x2="327.66" y2="116.84" width="0.1524" layer="91"/>
 <junction x="327.66" y="116.84"/>
 </segment>
@@ -33181,7 +32766,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 </net>
 <net name="RTN" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="99.06" x2="342.9" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="99.06" x2="327.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="99.06" x2="327.66" y2="104.14" width="0.1524" layer="91"/>
@@ -33195,11 +32780,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="U4" gate="A" pin="MODE"/>
 <wire x1="353.06" y1="119.38" x2="350.52" y2="119.38" width="0.1524" layer="91"/>
 <junction x="350.52" y="119.38"/>
-<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="401.32" y1="109.22" x2="401.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="99.06" x2="393.7" y2="99.06" width="0.1524" layer="91"/>
 <junction x="350.52" y="99.06"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="393.7" y1="99.06" x2="350.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="109.22" x2="406.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="99.06" x2="401.32" y2="99.06" width="0.1524" layer="91"/>
@@ -33213,13 +32798,13 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <segment>
 <pinref part="U4" gate="A" pin="ILIM"/>
 <wire x1="393.7" y1="121.92" x2="401.32" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="401.32" y1="121.92" x2="401.32" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24_LOAD" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="119.38" x2="406.4" y2="127" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="IMON"/>
 <wire x1="406.4" y1="127" x2="393.7" y2="127" width="0.1524" layer="91"/>
@@ -33291,22 +32876,22 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="266.7" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D8" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="66.04" y1="119.38" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <label x="66.04" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="3V3_LED1" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="53.34" y1="129.54" x2="53.34" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_LED2" class="0">
 <segment>
-<pinref part="R36" gate="G$1" pin="2"/>
-<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="129.54" x2="66.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
