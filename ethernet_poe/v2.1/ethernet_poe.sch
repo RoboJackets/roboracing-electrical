@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -408,27 +408,6 @@
 <wire x1="8.128" y1="3.937" x2="8.128" y2="-17.653" width="0.127" layer="39"/>
 <wire x1="8.128" y1="-17.653" x2="-8.001" y2="-17.653" width="0.127" layer="39"/>
 <wire x1="-8.001" y1="-17.653" x2="-8.001" y2="3.937" width="0.127" layer="39"/>
-</package>
-<package name="OSCILLATOR-SMD-2.5X2" urn="urn:adsk.eagle:footprint:37501/1" locally_modified="yes">
-<description>&lt;h3&gt;4-SMD Oscillator&lt;/h3&gt;</description>
-<smd name="4" x="-0.8125" y="-0.6" dx="1.2" dy="0.85" layer="1"/>
-<smd name="3" x="0.8125" y="-0.6" dx="1.2" dy="0.85" layer="1"/>
-<smd name="2" x="0.8125" y="0.6" dx="1.2" dy="0.85" layer="1"/>
-<smd name="1" x="-0.8125" y="0.6" dx="1.2" dy="0.85" layer="1"/>
-<text x="0" y="2.032" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.25" y1="1.1" x2="-1.25" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="-1.1" x2="1.25" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="1.25" y1="-1.1" x2="1.25" y2="1.1" width="0.127" layer="51"/>
-<wire x1="1.25" y1="1.1" x2="-1.25" y2="1.1" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.4" x2="1.2" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-1.4" x2="1.2" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-1.4" x2="0.3" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="1.4" x2="-0.3" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="1.4" x2="-1.2" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.4" x2="-1.2" y2="-1.4" width="0.2032" layer="21"/>
 </package>
 <package name="PWP0016H_N">
 <smd name="1" x="-2.95" y="2.275" dx="0.4" dy="1.4" layer="1" rot="R90"/>
@@ -893,37 +872,6 @@ A ferrite bead is a passive electric component that suppresses high-frequency no
 <pin name="VC2+" x="-27.94" y="7.62" length="middle" direction="pas"/>
 <pin name="VC2-" x="-27.94" y="5.08" length="middle" direction="pas"/>
 </symbol>
-<symbol name="Q-SHIELD2">
-<description>&lt;h3&gt;Shielded Crystal Oscillator&lt;/h3&gt;
-&lt;p&gt;
-A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal of piezoelectric material to create an electrical signal with a precise frequency.
-&lt;/p&gt;
-&lt;p&gt;
-This one is shielded to reduce noise.
-&lt;/p&gt;</description>
-<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.651" y1="-1.524" x2="1.651" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.651" y1="1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
-<wire x1="2.286" y1="1.778" x2="2.286" y2="0" width="0.254" layer="94"/>
-<wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
-<text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="OUT" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="IN" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="SHD2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="SHD1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="TPS26600PWP">
 <pin name="IN" x="-20.32" y="12.7" length="middle" direction="pwr"/>
 <pin name="UVLO" x="-20.32" y="7.62" length="middle" direction="in"/>
@@ -1164,26 +1112,6 @@ Allows the flow of current in one direction
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="535-14148-ND "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ABM10-25.000MHZ-18-E30-T3">
-<gates>
-<gate name="X$1" symbol="Q-SHIELD2" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSCILLATOR-SMD-2.5X2">
-<connects>
-<connect gate="X$1" pin="IN" pad="1"/>
-<connect gate="X$1" pin="OUT" pad="3"/>
-<connect gate="X$1" pin="SHD1" pad="2"/>
-<connect gate="X$1" pin="SHD2" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="25MHz"/>
 </technology>
 </technologies>
 </device>
@@ -31463,6 +31391,87 @@ In this library you will find frames that can be used to help organize a schemat
 </deviceset>
 </devicesets>
 </library>
+<library name="ethernet_poe_v2.1">
+<packages>
+<package name="OSCILLATOR-SMD-2.5X2" urn="urn:adsk.eagle:footprint:37501/1" locally_modified="yes">
+<description>&lt;h3&gt;4-SMD Oscillator&lt;/h3&gt;</description>
+<smd name="1" x="-0.8125" y="-0.6" dx="1.2" dy="0.85" layer="1"/>
+<smd name="2" x="0.8125" y="-0.6" dx="1.2" dy="0.85" layer="1"/>
+<smd name="3" x="0.8125" y="0.6" dx="1.2" dy="0.85" layer="1"/>
+<smd name="4" x="-0.8125" y="0.6" dx="1.2" dy="0.85" layer="1"/>
+<text x="0" y="2.032" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="1" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.25" y1="1.1" x2="-1.25" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-1.1" x2="1.25" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1.1" x2="1.25" y2="1.1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1.1" x2="-1.25" y2="1.1" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.4" x2="1.2" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.2" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-1.4" x2="0.3" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="1.4" x2="-0.3" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="-1.2" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.2" y2="-1.4" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="Q-SHIELD2">
+<description>&lt;h3&gt;Shielded Crystal Oscillator&lt;/h3&gt;
+&lt;p&gt;
+A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal of piezoelectric material to create an electrical signal with a precise frequency.
+&lt;/p&gt;
+&lt;p&gt;
+This one is shielded to reduce noise.
+&lt;/p&gt;</description>
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="-1.524" x2="1.651" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="1.778" x2="2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
+<text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="OUT" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="IN" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="SHD2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="SHD1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABM10W-25.0000MHZ-6-K1Z-T3" prefix="X" uservalue="yes">
+<description>25MHz ±10ppm Crystal 6pF 50 Ohms 4-SMD, No Lead</description>
+<gates>
+<gate name="G$1" symbol="Q-SHIELD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSCILLATOR-SMD-2.5X2">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="SHD1" pad="2"/>
+<connect gate="G$1" pin="SHD2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="535-13730-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="REVISION" value="1.0"/>
@@ -31525,7 +31534,15 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPN" value="732-8598-1-ND"/>
+</part>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_07" device="" package3d_urn="urn:adsk.eagle:package:38129/1"/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -31534,7 +31551,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="S1" library="RoboJackets-Switches" deviceset="KMR2" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="+3V3_D8" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="U2" library="ethernet_poe" deviceset="IFX91041" device=""/>
 <part name="FB1" library="ethernet_poe" deviceset="742792023" device=""/>
@@ -31548,7 +31564,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10000pF"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22, 1%"/>
 <part name="+3V3_A5" library="ethernet_poe" deviceset="+3V3_A" device=""/>
@@ -31557,8 +31572,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="+3V3_D10" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="22uF"/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="+3V3_D11" library="ethernet_poe" deviceset="+3V3_D" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -31585,7 +31598,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="1M"/>
 <part name="L1" library="Wurth_Electronic_Inductors" deviceset="WE-PD_7345" device="" package3d_urn="urn:adsk.eagle:package:13009199/2" technology="_744777147" value="47uH"/>
 <part name="C29" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF-POLAR" device="-PANASONIC_C-35V-20%" package3d_urn="urn:adsk.eagle:package:37430/1" value="22uF"/>
-<part name="X1" library="ethernet_poe" deviceset="ABM10-25.000MHZ-18-E30-T3" device="" value="25MHz"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="10000pF"/>
 <part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
 <part name="C27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
@@ -31607,7 +31619,6 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="66.5k, 1%"/>
 <part name="+24V4" library="ethernet_poe" deviceset="+24V" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF, 35V"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+24V_FUSE3" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
 <part name="+24V_FUSE4" library="ethernet_poe" deviceset="+24V_FUSE" device=""/>
@@ -31630,6 +31641,20 @@ In this library you will find frames that can be used to help organize a schemat
 <part name="F1" library="ethernet_poe" deviceset="0ZCG0050AF2C" device="" value="1A (Trip)"/>
 <part name="D1" library="ethernet_poe" deviceset="NTS260ESFT3G" device=""/>
 <part name="D2" library="ethernet_poe" deviceset="NTS260ESFT3G" device=""/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-7" package3d_urn="urn:adsk.eagle:package:23345/1" value="100uF, 35V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DKPN" value="732-8942-1-ND"/>
+</part>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
+<part name="X1" library="ethernet_poe_v2.1" deviceset="ABM10W-25.0000MHZ-6-K1Z-T3" device="" value="25MHz"/>
+<part name="C20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
+<part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
+<part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -31850,6 +31875,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="C15" gate="G$1" x="309.88" y="220.98" smashed="yes">
 <attribute name="NAME" x="310.896" y="221.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="310.896" y="216.789" size="1.778" layer="96"/>
+<attribute name="DKPN" x="309.88" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="88.9" y="147.32" smashed="yes">
 <attribute name="VALUE" x="86.36" y="137.414" size="1.778" layer="96" font="vector"/>
@@ -31879,10 +31905,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="R20" gate="G$1" x="109.22" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="81.788" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="81.788" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C17" gate="G$1" x="109.22" y="71.12" smashed="yes">
-<attribute name="NAME" x="112.522" y="70.231" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.522" y="67.691" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V3_D8" gate="G$1" x="124.46" y="93.98" smashed="yes">
 <attribute name="VALUE" x="124.46" y="94.996" size="1.778" layer="96" align="bottom-center"/>
@@ -31931,10 +31953,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="141.351" y="220.98" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="149.733" y="218.186" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C21" gate="G$1" x="121.92" y="223.52" smashed="yes">
-<attribute name="NAME" x="122.936" y="224.155" size="1.778" layer="95"/>
-<attribute name="VALUE" x="122.936" y="219.329" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY21" gate="GND" x="121.92" y="213.36" smashed="yes">
 <attribute name="VALUE" x="121.92" y="211.328" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -31961,14 +31979,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="43.18" y="248.92" smashed="yes" rot="R180">
 <attribute name="VALUE" x="43.18" y="250.952" size="1.778" layer="96" rot="R180" align="top-center"/>
-</instance>
-<instance part="C18" gate="G$1" x="144.78" y="144.78" smashed="yes">
-<attribute name="NAME" x="145.796" y="145.415" size="1.778" layer="95"/>
-<attribute name="VALUE" x="145.796" y="140.589" size="1.778" layer="96"/>
-</instance>
-<instance part="C20" gate="G$1" x="154.94" y="144.78" smashed="yes">
-<attribute name="NAME" x="155.956" y="145.415" size="1.778" layer="95"/>
-<attribute name="VALUE" x="155.956" y="140.589" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V3_D11" gate="G$1" x="144.78" y="154.94" smashed="yes">
 <attribute name="VALUE" x="144.78" y="155.956" size="1.778" layer="96" align="bottom-center"/>
@@ -32068,10 +32078,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <attribute name="NAME" x="148.336" y="51.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="46.609" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="X$1" x="162.56" y="86.36" smashed="yes">
-<attribute name="NAME" x="160.02" y="92.456" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.02" y="90.17" size="1.778" layer="96"/>
-</instance>
 <instance part="C11" gate="G$1" x="193.04" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.675" y="110.744" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="188.849" y="110.744" size="1.778" layer="96" rot="R270"/>
@@ -32146,10 +32152,6 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="SUPPLY27" gate="GND" x="414.02" y="134.62" smashed="yes">
 <attribute name="VALUE" x="414.147" y="132.207" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C31" gate="G$1" x="414.02" y="144.78" smashed="yes">
-<attribute name="NAME" x="410.591" y="141.732" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="419.227" y="138.176" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="SUPPLY30" gate="GND" x="102.87" y="127" smashed="yes" rot="R90">
 <attribute name="VALUE" x="105.156" y="127" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -32217,6 +32219,31 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <instance part="D2" gate="A" x="33.02" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.02" y="81.28" size="1.778" layer="95" ratio="10" rot="SR180" align="bottom-center"/>
 </instance>
+<instance part="C31" gate="G$1" x="414.02" y="144.78" smashed="yes">
+<attribute name="NAME" x="410.591" y="142.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="419.227" y="139.192" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPN" x="414.02" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="144.78" y="144.78" smashed="yes">
+<attribute name="NAME" x="145.796" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.796" y="140.589" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="G$1" x="162.56" y="86.36" smashed="yes">
+<attribute name="NAME" x="160.02" y="92.456" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.02" y="90.17" size="1.778" layer="96"/>
+</instance>
+<instance part="C20" gate="G$1" x="154.94" y="144.78" smashed="yes">
+<attribute name="NAME" x="155.956" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="155.956" y="140.589" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="121.92" y="223.52" smashed="yes">
+<attribute name="NAME" x="122.936" y="224.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="122.936" y="219.329" size="1.778" layer="96"/>
+</instance>
+<instance part="C17" gate="G$1" x="109.22" y="71.12" smashed="yes">
+<attribute name="NAME" x="110.236" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.236" y="66.929" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32237,8 +32264,8 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <junction x="162.56" y="73.66"/>
 <wire x1="165.1" y1="81.28" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 <junction x="165.1" y="73.66"/>
-<pinref part="X1" gate="X$1" pin="SHD2"/>
-<pinref part="X1" gate="X$1" pin="SHD1"/>
+<pinref part="X1" gate="G$1" pin="SHD2"/>
+<pinref part="X1" gate="G$1" pin="SHD1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -32333,9 +32360,9 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="144.78" y1="218.44" x2="144.78" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="218.44" x2="121.92" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="VC1-"/>
@@ -32374,14 +32401,14 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="C29" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="139.7" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="-"/>
 <wire x1="144.78" y1="137.16" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="137.16" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
 <junction x="144.78" y="137.16"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
@@ -32427,11 +32454,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="93.98" y="66.04"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
@@ -32452,7 +32479,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="152.4" y1="99.06" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
 <junction x="152.4" y="86.36"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="X1" gate="X$1" pin="IN"/>
+<pinref part="X1" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -32467,7 +32494,7 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <wire x1="167.64" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <junction x="172.72" y="99.06"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="X1" gate="X$1" pin="OUT"/>
+<pinref part="X1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="+3V3_D" class="1">
@@ -32537,14 +32564,14 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <pinref part="+3V3_D10" gate="G$1" pin="+3V3_D"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="+"/>
 <wire x1="144.78" y1="147.32" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="149.86" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <junction x="144.78" y="149.86"/>
 <pinref part="+3V3_D11" gate="G$1" pin="+3V3_D"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -32916,11 +32943,11 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <segment>
 <pinref part="J3" gate="A" pin="CT"/>
 <wire x1="106.68" y1="228.6" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="228.6" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="226.06" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
 <junction x="121.92" y="228.6"/>
 <pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SPDLED" class="0">
@@ -33211,12 +33238,12 @@ V(IMONmax) = max ADC voltage = 5V</text>
 <label x="111.76" y="76.2" size="1.778" layer="95" xref="yes"/>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <junction x="109.22" y="76.2"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="76.2" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="!RSTN"/>
