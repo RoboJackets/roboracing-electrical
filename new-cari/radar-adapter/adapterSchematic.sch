@@ -18247,13 +18247,14 @@ and PB0(SS) tri-stated</text>
 <text x="345.44" y="88.9" size="3.81" layer="97">I2C</text>
 <text x="398.78" y="88.9" size="3.81" layer="97">UART</text>
 <text x="515.62" y="88.9" size="3.81" layer="97">SPI</text>
-<text x="342.9" y="149.86" size="1.27" layer="97" font="vector">Power indicators and
+<text x="342.9" y="149.86" size="1.27" layer="97" font="vector">Power indicator and
  UART level indicators</text>
 <text x="325.12" y="147.32" size="5.08" layer="97" font="vector">LEDs</text>
 <wire x1="322.58" y1="106.68" x2="322.58" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="322.58" y1="154.94" x2="373.38" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="373.38" y1="154.94" x2="373.38" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="373.38" y1="106.68" x2="322.58" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
+<text x="444.5" y="63.5" size="1.778" layer="95">S2</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="88.9" y="71.12" smashed="yes">
@@ -18828,17 +18829,17 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="SCLK"/>
 <wire x1="297.18" y1="144.78" x2="302.26" y2="144.78" width="0.1524" layer="91"/>
-<label x="302.26" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="302.26" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="156.21" y1="149.86" x2="158.75" y2="149.86" width="0.1524" layer="91"/>
-<label x="156.21" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="156.21" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SPI_5V" gate="G$1" pin="3"/>
 <wire x1="294.64" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
-<label x="284.48" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="487.68" y1="68.58" x2="482.6" y2="68.58" width="0.1524" layer="91"/>
@@ -18847,7 +18848,7 @@ and PB0(SS) tri-stated</text>
 <junction x="482.6" y="68.58"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<label x="477.52" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="477.52" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="477.52" y1="68.58" x2="482.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18980,7 +18981,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="/RESET"/>
 <wire x1="66.04" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
-<label x="63.5" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="63.5" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -18995,7 +18996,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
 <wire x1="156.21" y1="147.32" x2="158.75" y2="147.32" width="0.1524" layer="91"/>
-<label x="156.21" y="147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="156.21" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI_5" class="0">
@@ -19007,7 +19008,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="MOSI"/>
 <wire x1="297.18" y1="134.62" x2="302.26" y2="134.62" width="0.1524" layer="91"/>
-<label x="302.26" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="302.26" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
@@ -19017,7 +19018,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="SPI_5V" gate="G$1" pin="5"/>
 <wire x1="294.64" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
-<label x="284.48" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="541.02" y1="68.58" x2="535.94" y2="68.58" width="0.1524" layer="91"/>
@@ -19026,7 +19027,7 @@ and PB0(SS) tri-stated</text>
 <junction x="535.94" y="68.58"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<label x="530.86" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="530.86" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="530.86" y1="68.58" x2="535.94" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19039,17 +19040,17 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="MISO"/>
 <wire x1="297.18" y1="139.7" x2="302.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="302.26" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="302.26" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="156.21" y1="152.4" x2="158.75" y2="152.4" width="0.1524" layer="91"/>
-<label x="156.21" y="152.4" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<label x="156.21" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SPI_5V" gate="G$1" pin="4"/>
 <wire x1="294.64" y1="78.74" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
-<label x="284.48" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="487.68" y1="43.18" x2="482.6" y2="43.18" width="0.1524" layer="91"/>
@@ -19058,7 +19059,7 @@ and PB0(SS) tri-stated</text>
 <junction x="482.6" y="43.18"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<label x="477.52" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="477.52" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="477.52" y1="43.18" x2="482.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19094,7 +19095,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <wire x1="102.87" y1="157.48" x2="105.41" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<label x="105.41" y="157.48" size="1.016" layer="95" xref="yes"/>
+<label x="105.41" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="DATA_P" class="2">
@@ -19106,34 +19107,34 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="102.87" y1="152.4" x2="105.41" y2="152.4" width="0.1524" layer="91"/>
-<label x="105.41" y="152.4" size="1.016" layer="95" xref="yes"/>
+<label x="105.41" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INTERRUPT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE6(INT.6/AIN0)"/>
 <wire x1="114.3" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
-<label x="119.38" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="INTN"/>
 <wire x1="297.18" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="302.26" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="302.26" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PF0(ADC0)"/>
 <wire x1="114.3" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
-<label x="119.38" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="SCSN"/>
 <wire x1="297.18" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
-<label x="302.26" y="149.86" size="1.27" layer="95" xref="yes"/>
+<label x="302.26" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="119.38" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RST" class="0">
@@ -19145,14 +19146,14 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U$2" gate="POE-DEMO" pin="RSTN"/>
 <wire x1="266.7" y1="134.62" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
-<label x="264.16" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="264.16" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD2(INT2/RXD1)"/>
 <wire x1="114.3" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<label x="119.38" y="45.72" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="43.18" x2="396.24" y2="43.18" width="0.1524" layer="91"/>
@@ -19161,7 +19162,7 @@ and PB0(SS) tri-stated</text>
 <junction x="396.24" y="43.18"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<label x="391.16" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="391.16" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="391.16" y1="43.18" x2="396.24" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19169,7 +19170,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PD3(INT3/TXD1)"/>
 <wire x1="114.3" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
-<label x="119.38" y="48.26" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="68.58" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
@@ -19178,7 +19179,7 @@ and PB0(SS) tri-stated</text>
 <junction x="396.24" y="68.58"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<label x="391.16" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="391.16" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="391.16" y1="68.58" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19187,7 +19188,7 @@ and PB0(SS) tri-stated</text>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="142.24" x2="254.762" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="137.16" x2="264.16" y2="137.16" width="0.1524" layer="91"/>
-<label x="264.16" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="264.16" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="266.7" y1="137.16" x2="266.7" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="POE-DEMO" pin="+5V"/>
 <wire x1="266.7" y1="139.7" x2="266.7" y2="142.24" width="0.1524" layer="91"/>
@@ -19258,7 +19259,7 @@ and PB0(SS) tri-stated</text>
 <pinref part="U$2" gate="POE-DEMO" pin="+3V3_D"/>
 <wire x1="256.54" y1="149.86" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
-<label x="256.54" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="256.54" y="147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -19374,32 +19375,32 @@ and PB0(SS) tri-stated</text>
 <junction x="535.94" y="43.18"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<label x="530.86" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="530.86" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="530.86" y1="43.18" x2="535.94" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PF4(ADC4/TCK)"/>
 <wire x1="114.3" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<label x="119.38" y="109.22" size="1.016" layer="95" xref="yes"/>
+<label x="119.38" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CS0_5" class="0">
 <segment>
 <pinref part="SPI_5V" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
-<label x="284.48" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PF1(ADC1)"/>
 <wire x1="114.3" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
-<label x="119.38" y="111.76" size="1.016" layer="95" xref="yes"/>
+<label x="119.38" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CS1_3.3" class="0">
 <segment>
 <pinref part="SPI_3.3V" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="53.34" x2="284.48" y2="53.34" width="0.1524" layer="91"/>
-<label x="284.48" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="551.18" y1="43.18" x2="556.26" y2="43.18" width="0.1524" layer="91"/>
@@ -19408,7 +19409,7 @@ and PB0(SS) tri-stated</text>
 <junction x="556.26" y="43.18"/>
 <pinref part="Q8" gate="G$1" pin="S"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<label x="561.34" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="561.34" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="556.26" y1="43.18" x2="561.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19416,7 +19417,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="SPI_3.3V" gate="G$1" pin="3"/>
 <wire x1="294.64" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="284.48" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="50.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="497.84" y1="68.58" x2="502.92" y2="68.58" width="0.1524" layer="91"/>
@@ -19425,7 +19426,7 @@ and PB0(SS) tri-stated</text>
 <junction x="502.92" y="68.58"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<label x="508" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="508" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="502.92" y1="68.58" x2="508" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19433,7 +19434,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="SPI_3.3V" gate="G$1" pin="4"/>
 <wire x1="294.64" y1="48.26" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
-<label x="284.48" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="497.84" y1="43.18" x2="502.92" y2="43.18" width="0.1524" layer="91"/>
@@ -19442,7 +19443,7 @@ and PB0(SS) tri-stated</text>
 <junction x="502.92" y="43.18"/>
 <pinref part="Q6" gate="G$1" pin="S"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<label x="508" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="508" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="502.92" y1="43.18" x2="508" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19450,7 +19451,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="SPI_3.3V" gate="G$1" pin="5"/>
 <wire x1="294.64" y1="45.72" x2="284.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="284.48" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="551.18" y1="68.58" x2="556.26" y2="68.58" width="0.1524" layer="91"/>
@@ -19459,20 +19460,20 @@ and PB0(SS) tri-stated</text>
 <junction x="556.26" y="68.58"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<label x="561.34" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="561.34" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="556.26" y1="68.58" x2="561.34" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED3" class="0">
 <segment>
 <wire x1="454.66" y1="45.72" x2="457.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="457.2" y="45.72" size="1.016" layer="95" xref="yes"/>
+<label x="457.2" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P4"/>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="137.16" x2="353.06" y2="139.7" width="0.1524" layer="91"/>
-<label x="353.06" y="139.7" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="353.06" y="139.7" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -19486,18 +19487,18 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="U$4" gate="G$1" pin="P6"/>
 <wire x1="454.66" y1="50.8" x2="457.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="457.2" y="50.8" size="1.016" layer="95" xref="yes"/>
+<label x="457.2" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="137.16" x2="365.76" y2="139.7" width="0.1524" layer="91"/>
-<label x="365.76" y="139.7" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="365.76" y="139.7" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="UART_LVL" class="0">
 <segment>
 <wire x1="454.66" y1="58.42" x2="457.2" y2="58.42" width="0.1524" layer="91"/>
-<label x="457.2" y="58.42" size="1.016" layer="95" xref="yes"/>
+<label x="457.2" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P2"/>
 </segment>
 <segment>
@@ -19508,7 +19509,7 @@ and PB0(SS) tri-stated</text>
 <junction x="416.56" y="58.42"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<label x="416.56" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="416.56" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="416.56" y1="81.28" x2="416.56" y2="83.82" width="0.1524" layer="91"/>
@@ -19518,19 +19519,19 @@ and PB0(SS) tri-stated</text>
 <junction x="416.56" y="83.82"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<label x="416.56" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="416.56" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="UART" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
-<label x="205.74" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX_LVL" class="0">
 <segment>
 <pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<label x="205.74" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="411.48" y1="43.18" x2="416.56" y2="43.18" width="0.1524" layer="91"/>
@@ -19539,7 +19540,7 @@ and PB0(SS) tri-stated</text>
 <junction x="416.56" y="43.18"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<label x="421.64" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="421.64" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="416.56" y1="43.18" x2="421.64" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19547,7 +19548,7 @@ and PB0(SS) tri-stated</text>
 <segment>
 <pinref part="UART" gate="G$1" pin="3"/>
 <wire x1="215.9" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="205.74" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="411.48" y1="68.58" x2="416.56" y2="68.58" width="0.1524" layer="91"/>
@@ -19556,7 +19557,7 @@ and PB0(SS) tri-stated</text>
 <junction x="416.56" y="68.58"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<label x="421.64" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="421.64" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="416.56" y1="68.58" x2="421.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19568,18 +19569,18 @@ and PB0(SS) tri-stated</text>
 <junction x="340.36" y="68.58"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<label x="335.28" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="335.28" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="335.28" y1="68.58" x2="340.36" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C_5V" gate="G$1" pin="3"/>
 <wire x1="246.38" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
-<label x="236.22" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="236.22" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PD0(INT0/OC0B/SCL)"/>
 <wire x1="114.3" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<label x="119.38" y="40.64" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SCL_3.3" class="0">
@@ -19590,13 +19591,13 @@ and PB0(SS) tri-stated</text>
 <junction x="360.68" y="68.58"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<label x="365.76" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="365.76" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="360.68" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C_3.3V" gate="G$1" pin="3"/>
 <wire x1="246.38" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
-<label x="236.22" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="236.22" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA_5" class="0">
@@ -19607,18 +19608,18 @@ and PB0(SS) tri-stated</text>
 <junction x="340.36" y="43.18"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<label x="335.28" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="335.28" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="335.28" y1="43.18" x2="340.36" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C_5V" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
-<label x="236.22" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="236.22" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PD1(INT1/SDA)"/>
 <wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
-<label x="119.38" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="119.38" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SDA_3.3" class="0">
@@ -19629,13 +19630,13 @@ and PB0(SS) tri-stated</text>
 <junction x="360.68" y="43.18"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<label x="365.76" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="365.76" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="360.68" y1="43.18" x2="365.76" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C_3.3V" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
-<label x="236.22" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="236.22" y="50.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
