@@ -9479,9 +9479,23 @@ In this library you will find diodes and other circuit protection elements.
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="J2" library="distributed-vision" deviceset="RASPBERRRY_COMPUTE_CM3" device=""/>
 <part name="J3" library="distributed-vision" deviceset="XS10" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7"/>
+<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7"/>
 <part name="SUPPLY66" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
+<part name="SUPPLY68" library="RoboJackets-Supplies" deviceset="+5V" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="SUPPLY69" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY70" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY71" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="SUPPLY72" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY73" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY74" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="SUPPLY75" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY76" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9493,9 +9507,9 @@ In this library you will find diodes and other circuit protection elements.
 <attribute name="NAME" x="52.07" y="107.95" size="1.27" layer="95"/>
 <attribute name="VALUE" x="59.69" y="107.95" size="1.27" layer="96"/>
 </instance>
-<instance part="J2" gate="B" x="111.76" y="99.06" smashed="yes">
-<attribute name="NAME" x="120.65" y="102.87" size="1.27" layer="95"/>
-<attribute name="VALUE" x="128.27" y="102.87" size="1.27" layer="96"/>
+<instance part="J2" gate="B" x="-5.08" y="-48.26" smashed="yes">
+<attribute name="NAME" x="3.81" y="-44.45" size="1.27" layer="95"/>
+<attribute name="VALUE" x="11.43" y="-44.45" size="1.27" layer="96"/>
 </instance>
 <instance part="J2" gate="C" x="132.08" y="-2.54" smashed="yes">
 <attribute name="NAME" x="139.7" y="1.016" size="1.27" layer="95"/>
@@ -9505,20 +9519,67 @@ In this library you will find diodes and other circuit protection elements.
 <attribute name="NAME" x="134.62" y="36.322" size="1.27" layer="95"/>
 <attribute name="VALUE" x="142.24" y="36.576" size="1.27" layer="96"/>
 </instance>
-<instance part="J3" gate="A" x="-20.32" y="73.66" smashed="yes">
-<attribute name="NAME" x="-30.48" y="99.06" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-30.48" y="45.72" size="1.778" layer="96" align="top-left"/>
+<instance part="J3" gate="A" x="-22.86" y="73.66" smashed="yes">
+<attribute name="NAME" x="-33.02" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-33.02" y="45.72" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="5.08" y="53.34" smashed="yes" rot="R90">
+<instance part="R49" gate="G$1" x="5.08" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.5814" y="49.53" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="8.382" y="49.53" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="8.382" y="49.53" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="7.62" y="50.8" smashed="yes" rot="R90">
+<instance part="R50" gate="G$1" x="7.62" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.1214" y="46.99" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="10.922" y="46.99" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="10.922" y="46.99" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY66" gate="P" x="5.08" y="63.5" smashed="yes">
 <attribute name="VALUE" x="3.175" y="66.675" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY68" gate="G$1" x="-58.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="-60.325" y="61.595" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="-73.66" y="48.26" smashed="yes">
+<attribute name="NAME" x="-72.644" y="48.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-72.644" y="44.069" size="1.778" layer="96"/>
+</instance>
+<instance part="C34" gate="G$1" x="-66.04" y="48.26" smashed="yes">
+<attribute name="NAME" x="-65.024" y="48.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-65.024" y="44.069" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY69" gate="G$1" x="-73.66" y="38.1" smashed="yes">
+<attribute name="VALUE" x="-76.2" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY70" gate="G$1" x="-66.04" y="38.1" smashed="yes">
+<attribute name="VALUE" x="-68.58" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY71" gate="P" x="-5.08" y="22.86" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-3.175" y="19.685" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="-12.7" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.716" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-13.716" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY72" gate="G$1" x="-12.7" y="40.64" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-10.16" y="43.18" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY73" gate="G$1" x="5.08" y="96.52" smashed="yes">
+<attribute name="VALUE" x="2.54" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY74" gate="G$1" x="-53.34" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-55.88" y="91.44" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R24" gate="G$1" x="106.68" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="46.99" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="109.982" y="46.99" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R23" gate="G$1" x="111.76" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.2614" y="41.91" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="115.062" y="41.91" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY75" gate="G$1" x="106.68" y="40.64" smashed="yes">
+<attribute name="VALUE" x="104.14" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY76" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="VALUE" x="109.22" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9527,8 +9588,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO13" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO13"/>
-<wire x1="-2.54" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
-<label x="0" y="88.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="-5.08" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="2.54" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO13"/>
@@ -9539,8 +9600,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO06" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO06"/>
-<wire x1="-2.54" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
-<label x="0" y="86.36" size="1.778" layer="95" xref="yes"/>
+<wire x1="-5.08" y1="86.36" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="2.54" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO6"/>
@@ -9551,8 +9612,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO05" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO05"/>
-<wire x1="-2.54" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
-<label x="0" y="83.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="-5.08" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="2.54" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO5"/>
@@ -9564,13 +9625,13 @@ In this library you will find diodes and other circuit protection elements.
 <segment>
 <pinref part="J3" gate="A" pin="GPIO11"/>
 <pinref part="J2" gate="A" pin="GPIO11"/>
-<wire x1="-2.54" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO10"/>
-<wire x1="-2.54" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="GPIO10"/>
 <wire x1="25.4" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
@@ -9582,19 +9643,19 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="43.18" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="81.28" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="GPIO09"/>
-<wire x1="22.86" y1="73.66" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO02" class="0">
 <segment>
 <label x="10.16" y="43.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R49" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="43.18" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 <junction x="5.08" y="43.18"/>
 <pinref part="J3" gate="A" pin="GPIO02"/>
-<wire x1="-2.54" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="0" y1="50.8" x2="0" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9605,15 +9666,15 @@ In this library you will find diodes and other circuit protection elements.
 </net>
 <net name="GPIO03" class="0">
 <segment>
-<wire x1="2.54" y1="53.34" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="10.16" y="38.1" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="45.72" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<junction x="7.62" y="38.1"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
+<label x="10.16" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
+<junction x="7.62" y="35.56"/>
 <pinref part="J3" gate="A" pin="GPIO03"/>
-<wire x1="-2.54" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO3"/>
@@ -9623,19 +9684,34 @@ In this library you will find diodes and other circuit protection elements.
 </net>
 <net name="+3.3V" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="55.88" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY66" gate="P" pin="+3.3V"/>
 <wire x1="5.08" y1="60.96" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <junction x="5.08" y="58.42"/>
 </segment>
+<segment>
+<pinref part="J3" gate="A" pin="3V3@1"/>
+<wire x1="-5.08" y1="68.58" x2="-2.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="68.58" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="3V3@2"/>
+<wire x1="-5.08" y1="48.26" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="43.18" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-5.08" y="43.18"/>
+<pinref part="SUPPLY71" gate="P" pin="+3.3V"/>
+<wire x1="-5.08" y1="43.18" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-5.08" y="25.4"/>
+<wire x1="-12.7" y1="25.4" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="GPIO04" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO04"/>
-<wire x1="-2.54" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
 <label x="10.16" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -9647,8 +9723,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO07" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO07"/>
-<wire x1="-35.56" y1="78.74" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="-38.1" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-38.1" y1="78.74" x2="-40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="-40.64" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO7"/>
@@ -9659,8 +9735,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO08" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO08"/>
-<wire x1="-35.56" y1="76.2" x2="-38.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="-38.1" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-38.1" y1="76.2" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
+<label x="-40.64" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO8"/>
@@ -9671,8 +9747,8 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO12" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO12"/>
-<wire x1="-35.56" y1="86.36" x2="-38.1" y2="86.36" width="0.1524" layer="91"/>
-<label x="-38.1" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-38.1" y1="86.36" x2="-40.64" y2="86.36" width="0.1524" layer="91"/>
+<label x="-40.64" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO12"/>
@@ -9683,13 +9759,304 @@ In this library you will find diodes and other circuit protection elements.
 <net name="GPIO14" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="GPIO14"/>
-<wire x1="-35.56" y1="55.88" x2="-38.1" y2="55.88" width="0.1524" layer="91"/>
-<label x="-38.1" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-38.1" y1="55.88" x2="-40.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="-40.64" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="A" pin="GPIO14"/>
 <wire x1="43.18" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="40.64" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO15" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO15"/>
+<wire x1="-38.1" y1="58.42" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="-40.64" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO15"/>
+<wire x1="43.18" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+<label x="40.64" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO22"/>
+<wire x1="-5.08" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="GPIO22"/>
+<wire x1="25.4" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO27"/>
+<wire x1="43.18" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="35.56" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="GPIO27"/>
+<wire x1="22.86" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO17"/>
+<pinref part="J2" gate="A" pin="GPIO17"/>
+<wire x1="-5.08" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO19" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO19"/>
+<wire x1="-5.08" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
+<label x="2.54" y="91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO19"/>
+<wire x1="43.18" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="40.64" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO18" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO18"/>
+<wire x1="-38.1" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="-40.64" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO18"/>
+<wire x1="43.18" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="40.64" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO16" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO16"/>
+<wire x1="-38.1" y1="91.44" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="-40.64" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO16"/>
+<wire x1="43.18" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="40.64" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO20" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO20"/>
+<wire x1="-38.1" y1="93.98" x2="-40.64" y2="93.98" width="0.1524" layer="91"/>
+<label x="-40.64" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO20"/>
+<wire x1="43.18" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
+<label x="40.64" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO21" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO21"/>
+<wire x1="-38.1" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
+<label x="-40.64" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO21"/>
+<wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<label x="40.64" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO24" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO24"/>
+<wire x1="-38.1" y1="68.58" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="-40.64" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO24"/>
+<wire x1="43.18" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<label x="40.64" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO23" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO23"/>
+<wire x1="-38.1" y1="66.04" x2="-40.64" y2="66.04" width="0.1524" layer="91"/>
+<label x="-40.64" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO23"/>
+<wire x1="43.18" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+<label x="40.64" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO25" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO25"/>
+<wire x1="-38.1" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
+<label x="-40.64" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="A" pin="GPIO25"/>
+<wire x1="43.18" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<label x="40.64" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="J3" gate="A" pin="GPIO26"/>
+<wire x1="-5.08" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="GPIO26"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="SUPPLY68" gate="G$1" pin="+5V"/>
+<pinref part="J3" gate="A" pin="5V0@2"/>
+<wire x1="-58.42" y1="55.88" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="53.34" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="48.26" x2="-40.64" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="5V0@1"/>
+<wire x1="-40.64" y1="48.26" x2="-38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="50.8" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="50.8" x2="-40.64" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-40.64" y="48.26"/>
+<wire x1="-58.42" y1="53.34" x2="-66.04" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-58.42" y="53.34"/>
+<wire x1="-66.04" y1="53.34" x2="-73.66" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="53.34" x2="-73.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="53.34" x2="-66.04" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-66.04" y="53.34"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY69" gate="G$1" pin="GND"/>
+<wire x1="-73.66" y1="43.18" x2="-73.66" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="SUPPLY70" gate="G$1" pin="GND"/>
+<wire x1="-66.04" y1="43.18" x2="-66.04" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="38.1" x2="-12.7" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY72" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="A" pin="GND@6"/>
+<wire x1="-5.08" y1="96.52" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="GND@8"/>
+<wire x1="0" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="58.42" x2="0" y2="99.06" width="0.1524" layer="91"/>
+<junction x="0" y="99.06"/>
+<pinref part="SUPPLY73" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="A" pin="GND@1"/>
+<wire x1="-38.1" y1="88.9" x2="-43.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="GND@5"/>
+<wire x1="-43.18" y1="88.9" x2="-50.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="53.34" x2="-43.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="53.34" x2="-43.18" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-43.18" y="88.9"/>
+<pinref part="SUPPLY74" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="SUPPLY75" gate="G$1" pin="GND"/>
+<wire x1="106.68" y1="45.72" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="SUPPLY76" gate="G$1" pin="GND"/>
+<wire x1="111.76" y1="40.64" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAM0_SDA" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO0"/>
+<wire x1="43.18" y1="104.14" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<label x="43.18" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAM0_SCL" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO1"/>
+<wire x1="43.18" y1="101.6" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
+<label x="40.64" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAM1_SDA" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO28"/>
+<wire x1="104.14" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAM1_SCL" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO29"/>
+<wire x1="104.14" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<label x="109.22" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SD_DETECT" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO34"/>
+<wire x1="104.14" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAM1_IO1" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO37"/>
+<wire x1="104.14" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<label x="109.22" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO38_RESET" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO38"/>
+<wire x1="104.14" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<label x="109.22" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAM0_IO1" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO39"/>
+<wire x1="104.14" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<label x="109.22" y="73.66" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAM0_IO0" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO44"/>
+<wire x1="104.14" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<label x="111.76" y="60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="60.96" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
+<junction x="106.68" y="60.96"/>
+</segment>
+</net>
+<net name="CAM1_IO0" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="GPIO45"/>
+<wire x1="104.14" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="58.42" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<label x="114.3" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="50.8" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<junction x="111.76" y="55.88"/>
 </segment>
 </net>
 </nets>
