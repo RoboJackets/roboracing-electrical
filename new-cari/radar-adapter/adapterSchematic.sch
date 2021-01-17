@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18255,6 +18255,7 @@ and PB0(SS) tri-stated</text>
 <wire x1="373.38" y1="154.94" x2="373.38" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="373.38" y1="106.68" x2="322.58" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <text x="444.5" y="63.5" size="1.778" layer="95">S2</text>
+<text x="414.02" y="96.52" size="1.778" layer="91">https://www.nxp.com/docs/en/application-note/AN10441.pdf</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="88.9" y="71.12" smashed="yes">
