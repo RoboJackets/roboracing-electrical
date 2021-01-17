@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19133,9 +19133,6 @@ and PB0(SS) tri-stated</text>
 <wire x1="297.18" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="302.26" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
-<segment>
-<label x="119.38" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 </net>
 <net name="ETH_RST" class="0">
 <segment>
@@ -19359,12 +19356,6 @@ and PB0(SS) tri-stated</text>
 <net name="N$2" class="1">
 <segment>
 <junction x="236.22" y="142.24"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB0(SS)"/>
-<wire x1="114.3" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS1_5" class="0">
