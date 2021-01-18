@@ -1,0 +1,11 @@
+Use the below specs when ordering:
+
+Layers: 4
+Material: FR4
+Thickness 1.6
+Outer Copper Thickness: 1oz
+Inner Copper Thickness: 1oz
+Min Spacing: 6mil
+Min Hole Size: 0.3mm
+Via Process: Tenting Vias
+Impedance Control: None
