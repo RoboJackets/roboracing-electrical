@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19087,7 +19087,7 @@ and PB0(SS) tri-stated</text>
 <junction x="50.8" y="60.96"/>
 </segment>
 </net>
-<net name="DATA_N" class="2">
+<net name="DATA_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="D-"/>
 <wire x1="66.04" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
