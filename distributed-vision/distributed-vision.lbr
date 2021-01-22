@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1208,14 +1208,14 @@
 </symbol>
 <symbol name="CM3PLUS_D">
 <pin name="VDD_CORE_(DNC)" x="0" y="-22.86" direction="nc"/>
-<pin name="NC@1" x="43.18" y="-22.86" direction="pas" rot="R180"/>
-<pin name="NC@2" x="43.18" y="-20.32" direction="pas" rot="R180"/>
-<pin name="NC@3" x="43.18" y="-17.78" direction="pas" rot="R180"/>
-<pin name="NC@4" x="43.18" y="-15.24" direction="pas" rot="R180"/>
-<pin name="NC@5" x="43.18" y="-12.7" direction="pas" rot="R180"/>
-<pin name="NC@6" x="43.18" y="-10.16" direction="pas" rot="R180"/>
-<pin name="NC@7" x="43.18" y="-7.62" direction="pas" rot="R180"/>
-<pin name="NC@8" x="43.18" y="-5.08" direction="pas" rot="R180"/>
+<pin name="SDX_VDD" x="43.18" y="-22.86" direction="pas" rot="R180"/>
+<pin name="SDX_VDD1" x="43.18" y="-20.32" direction="pas" rot="R180"/>
+<pin name="SDX_CLK" x="43.18" y="-17.78" direction="pas" rot="R180"/>
+<pin name="SDX_CMD" x="43.18" y="-15.24" direction="pas" rot="R180"/>
+<pin name="SDX_D0" x="43.18" y="-12.7" direction="pas" rot="R180"/>
+<pin name="SDX_D1" x="43.18" y="-10.16" direction="pas" rot="R180"/>
+<pin name="SDX_D2" x="43.18" y="-7.62" direction="pas" rot="R180"/>
+<pin name="SDX_D3" x="43.18" y="-5.08" direction="pas" rot="R180"/>
 <pin name="NC@9" x="43.18" y="-2.54" direction="pas" rot="R180"/>
 <pin name="NC@10" x="43.18" y="0" direction="pas" rot="R180"/>
 <pin name="NC@11" x="0" y="-17.78" direction="pas"/>
@@ -1936,7 +1936,6 @@
 <connect gate="C" pin="GND@9" pad="26"/>
 <connect gate="C" pin="MH1" pad="MH1"/>
 <connect gate="C" pin="MH2" pad="MH2"/>
-<connect gate="D" pin="NC@1" pad="4"/>
 <connect gate="D" pin="NC@10" pad="126"/>
 <connect gate="D" pin="NC@11" pad="128"/>
 <connect gate="D" pin="NC@12" pad="130"/>
@@ -1946,14 +1945,15 @@
 <connect gate="D" pin="NC@16" pad="158"/>
 <connect gate="D" pin="NC@17" pad="160"/>
 <connect gate="D" pin="NC@18" pad="162"/>
-<connect gate="D" pin="NC@2" pad="6"/>
-<connect gate="D" pin="NC@3" pad="10"/>
-<connect gate="D" pin="NC@4" pad="12"/>
-<connect gate="D" pin="NC@5" pad="16"/>
-<connect gate="D" pin="NC@6" pad="18"/>
-<connect gate="D" pin="NC@7" pad="22"/>
-<connect gate="D" pin="NC@8" pad="24"/>
 <connect gate="D" pin="NC@9" pad="124"/>
+<connect gate="D" pin="SDX_CLK" pad="10"/>
+<connect gate="D" pin="SDX_CMD" pad="12"/>
+<connect gate="D" pin="SDX_D0" pad="16"/>
+<connect gate="D" pin="SDX_D1" pad="18"/>
+<connect gate="D" pin="SDX_D2" pad="22"/>
+<connect gate="D" pin="SDX_D3" pad="24"/>
+<connect gate="D" pin="SDX_VDD" pad="4"/>
+<connect gate="D" pin="SDX_VDD1" pad="6"/>
 <connect gate="D" pin="VDD_CORE_(DNC)" pad="179"/>
 </connects>
 <technologies>
