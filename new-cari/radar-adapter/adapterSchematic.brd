@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -7103,7 +7103,7 @@ design rules under a new name.</description>
 <board_group name="CLOCK"/>
 </groups>
 <elements>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF" x="82.55" y="33.02" smashed="yes">
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF" x="82.55" y="33.02" smashed="yes">
 <attribute name="NAME" x="81.534" y="34.417" size="1.27" layer="25" font="vector"/>
 <attribute name="POPULARITY" value="24" x="132.08" y="-44.45" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="132.08" y="-44.45" size="1.778" layer="27" display="off"/>
@@ -7111,7 +7111,7 @@ design rules under a new name.</description>
 <element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF" x="35.56" y="21.59" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.195" y="22.352" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF" x="77.47" y="10.16" smashed="yes" rot="R270">
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF" x="77.47" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.93" y="10.16" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="24" x="0" y="-45.72" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="0" y="-45.72" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7221,7 +7221,7 @@ design rules under a new name.</description>
 <element name="F3" library="RoboJackets-Fuses" package="F1206" value="0.3A" x="82.55" y="24.13" smashed="yes">
 <attribute name="NAME" x="78.01" y="23.471" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF" x="74.93" y="22.86" smashed="yes" rot="R270">
+<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF" x="74.93" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.39" y="24.13" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="24" x="74.93" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="74.93" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
