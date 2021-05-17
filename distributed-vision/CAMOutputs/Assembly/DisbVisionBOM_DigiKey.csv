@@ -1,64 +1,64 @@
-﻿"Manufacturer Part Number","Manufacturer","Digi-Key Part Number","Customer Reference","Reference Designator","Packaging","Part Status","Quantity","Unit Price","Extended Price","Quantity Available","Mfg Std Lead Time","Description","RoHS Status","Lead Free Status","REACH Status"
-"CL10B223KB8NNNC","Samsung Electro-Mechanics","1276-1104-1-ND","","C123","Cut Tape (CT)","Active","1","0,09000","$0,09","49039","28 Weeks","CAP CER 0.022UF 50V X7R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"C0603X104K5RAC3316","KEMET","399-C0603X104K5RAC3316CT-ND","","C120","Cut Tape (CT)","Active","1","0,18000","$0,18","1264","31 Weeks","CAP CER 0603 0.1UF 50V X7R 10%","ROHS3 Compliant","Lead free","REACH Unaffected"
-"0603ZC224KAT2A","AVX Corporation","478-1243-1-ND","","C124, C126","Cut Tape (CT)","Active","2","0,11000","$0,22","50221","16 Weeks","CAP CER 0.22UF 10V X7R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"1-84952-5","TE Connectivity AMP Connectors","A101391CT-ND","","J8, J9","Cut Tape (CT)","Active","2","0,86000","$1,72","11215","17 Weeks","CONN FPC BOTTOM 15POS 1.00MM R/A","RoHS Compliant","Lead free","Not Available"
-"IFSC1515AHER100M01","Vishay Dale","541-1406-1-ND","","Select One...","Cut Tape (CT)","Active","3","0,53000","$1,59","1621","14 Weeks","FIXED IND 10UH 1.3A 170 MOHM SMD","ROHS3 Compliant","Lead free","Not Available"
-"06035C103JAT2A","AVX Corporation","478-5007-1-ND","","C118, C119","Cut Tape (CT)","Active","2","0,09000","$0,18","260368","16 Weeks","CAP CER 10000PF 50V X7R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"06035C103KAT4A","AVX Corporation","478-10055-1-ND","","Select One...","Cut Tape (CT)","Active","19","0,03200","$0,60","430036","16 Weeks","CAP CER 10000PF 50V X7R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"06035G103ZAT2A","AVX Corporation","478-1254-1-ND","","C122","Cut Tape (CT)","Active","1","0,14000","$0,14","21213","16 Weeks","CAP CER 10000PF 50V Y5V 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CRCW0603100KDHEAP","Vishay Dale","541-100KAYCT-ND","","R23, R24","Cut Tape (CT)","Active","2","0,27000","$0,54","17479","40 Weeks","RES SMD 100K OHM 0.5% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CGA3E2X7R1E104K080AA","TDK Corporation","445-5667-1-ND","","Select One...","Cut Tape (CT)","Active","22","0,04900","$1,07","578328","16 Weeks","CAP CER 0.1UF 25V X7R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CL05B104KO5NNNC","Samsung Electro-Mechanics","1276-1001-1-ND","","C60, C63, C68","Cut Tape (CT)","Active","3","0,09000","$0,27","2262803","28 Weeks","CAP CER 0.1UF 16V X7R 0402","ROHS3 Compliant","Lead free","REACH Unaffected"
-"C3216X5R1A107M160AC","TDK Corporation","445-6007-1-ND","","Select One...","Cut Tape (CT)","Active","2","1,28000","$2,56","626603","16 Weeks","CAP CER 100UF 10V X5R 1206","ROHS3 Compliant","Lead free","REACH Unaffected"
-"M55342K12B10E0RS3","Vishay Dale","1135-1057-1-ND","","R13, R14,R78,R79","Cut Tape (CT)","Active","4","1,62000","$6,48","8718","9 Weeks","RES SMD 10K OHM 1% 1/10W 0603","RoHS non-compliant","Contains lead","Not Available"
-"VJ0402Y103KXXAC","Vishay Vitramon","720-1362-1-ND","","C61","Cut Tape (CT)","Active","1","0,32000","$0,32","397259","52 Weeks","CAP CER 10000PF 25V X7R 0402","ROHS3 Compliant","Lead free","Not Available"
-"04026D106MAT2A","AVX Corporation","478-10059-1-ND","","C73","Cut Tape (CT)","Active","1","0,41000","$0,41","413","16 Weeks","CAP CER 10UF 6.3V X5R 0402","ROHS3 Compliant","Lead free","REACH Unaffected"
-"C1608X5R1C106M080AB","TDK Corporation","445-9065-1-ND","","C7, C12, C17, C22, C35, C102, C103","Cut Tape (CT)","Active","7","0,62000","$4,34","486891","16 Weeks","CAP CER 10UF 16V X5R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"RCS060311K8FKEA","Vishay Dale","541-RCS060311K8FKEACT-ND","","R86","Cut Tape (CT)","Active","1","0,14000","$0,14","4665","38 Weeks","RES SMD 11.8K OHM 1% 1/4W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW080512K4FKEAHP","Vishay Dale","541-12.4KTCT-ND","","R27","Cut Tape (CT)","Active","1","0,24000","$0,24","973","52 Weeks","RES SMD 12.4K OHM 1% 1/2W 0805","ROHS3 Compliant","Lead free","Not Available"
-"TNPW060312K7BEEA","Vishay Dale","541-3584-1-ND","","R11","Cut Tape (CT)","Active","1","0,51000","$0,51","9310","45 Weeks","RES 12.7K OHM 0.1% 1/8W 0603","ROHS3 Compliant","Lead free","Not Available"
-"RCS080512K0FKEA","Vishay Dale","541-10502-1-ND","","R26","Cut Tape (CT)","Active","1","0,24000","$0,24","3044","38 Weeks","RES SMD 12K OHM 1% 0.4W 0805","ROHS3 Compliant","Lead free","Not Available"
-"CRCW08051M00FKEAHP","Vishay Dale","541-1.00MTCT-ND","","R39","Cut Tape (CT)","Active","1","0,24000","$0,24","452","52 Weeks","RES SMD 1M OHM 1% 1/2W 0805","ROHS3 Compliant","Lead free","Not Available"
-"C1005X5R1E105K050BC","TDK Corporation","445-9066-1-ND","","C14, C64","Cut Tape (CT)","Active","2","0,16000","$0,32","371423","20 Weeks","CAP CER 1UF 25V X5R 0402","ROHS3 Compliant","Lead free","REACH Unaffected"
-"C1608X5R1H105K080AB","TDK Corporation","445-7468-1-ND","","C127","Cut Tape (CT)","Active","1","0,19000","$0,19","152658","20 Weeks","CAP CER 1UF 50V X5R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"GRT188R61H225KE13D","Murata Electronics","490-12332-1-ND","","C128","Cut Tape (CT)","Active","1","0,30000","$0,30","32225","27 Weeks","CAP CER 2.2UF 50V X5R 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW060320K0FKEC","Vishay Dale","541-2993-1-ND","","R84","Cut Tape (CT)","Active","1","0,10000","$0,10","5051","52 Weeks","RES SMD 20K OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CAY16-22R0F4LF","Bourns Inc.","CAY16-22R0F4LFCT-ND","","RN42, RN43","Cut Tape (CT)","Active","2","0,09000","$0,18","1549","20 Weeks","RES ARRAY 4 RES 22 OHM 1206","ROHS3 Compliant","Lead free","REACH Unaffected"
-"RCS060322K0FKEA","Vishay Dale","541-10441-1-ND","","R77","Cut Tape (CT)","Active","1","0,14000","$0,14","4794","38 Weeks","RES SMD 22K OHM 1% 1/4W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW060322K0JNEAC","Vishay Dale","541-CRCW060322K0JNEACCT-ND","","R82","Cut Tape (CT)","Active","1","0,09000","$0,09","57297","22 Weeks","RES 22K OHM 5% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CL10A226MQ8NRNE","Samsung Electro-Mechanics","1276-2868-1-ND","","C23, C24","Cut Tape (CT)","Active","2","0,28000","$0,56","331193","28 Weeks","CAP CER 22UF 6.3V X5R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"C2012JB1V226M125AC","TDK Corporation","445-11527-1-ND","","C26, C27, C28, C29","Cut Tape (CT)","Last Time Buy","4","0,93000","$3,72","76206","28 Weeks","CAP CER 22UF 35V JB 0805","ROHS3 Compliant","Lead free","REACH Unaffected"
-"ECS-250-18-36B-CKY-TR","ECS Inc.","XC3051CT-ND","","Q7","Cut Tape (CT)","Active","1","0,40000","$0,40","4713","18 Weeks","CRYSTAL 25.0000MHZ 18PF SMD","ROHS3 Compliant","Lead free","Not Available"
-"SF-0603F200-2","Bourns Inc.","SF-0603F200-2CT-ND","","F1, F2","Cut Tape (CT)","Active","2","0,72000","$1,44","3350","14 Weeks","FUSE BOARD MOUNT 2A 32VDC 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CRCW060330K1FKEAC","Vishay Dale","541-5345-1-ND","","R85","Cut Tape (CT)","Active","1","0,09000","$0,09","37715","22 Weeks","RES 30.1K OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"RCS060331K6FKEA","Vishay Dale","541-RCS060331K6FKEACT-ND","","R10","Cut Tape (CT)","Active","1","0,14000","$0,14","4659","38 Weeks","RES SMD 31.6K OHM 1% 1/4W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW0603330RJNEA","Vishay Dale","541-330GCT-ND","","R97","Cut Tape (CT)","Active","1","0,10000","$0,10","8906","52 Weeks","RES SMD 330 OHM 5% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CL05C330JB5NNNC","Samsung Electro-Mechanics","1276-1272-1-ND","","C65, C66","Cut Tape (CT)","Active","2","0,09000","$0,18","6223678","28 Weeks","CAP CER 33PF 50V C0G/NP0 0402","ROHS3 Compliant","Lead free","REACH Unaffected"
-"34EWMSP12M6RT","Grayhill Inc.","GH7540CT-ND","","S2","Cut Tape (CT)","Active","1","4,84000","$4,84","2354","6 Weeks","SWITCH TOGGLE SPDT 0.4VA 20V","RoHS Compliant","Lead free","REACH Unaffected"
-"CRCW08054K70JNEAIF","Vishay Dale","541-CRCW08054K70JNEAIFCT-ND","","R28, R30, R32, R40","Cut Tape (CT)","Active","4","0,56000","$2,24","4513","52 Weeks","RES SMD 4.7K OHM 5% 1/8W 0805","ROHS3 Compliant","Lead free","Not Available"
-"CRCW06034K70JNEA","Vishay Dale","541-4.7KGCT-ND","","R16, R20, R21, R22, R96","Cut Tape (CT)","Active","5","0,10000","$0,50","5145","52 Weeks","RES SMD 4.7K OHM 5% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"GRM155R60G475ME47D","Murata Electronics","490-11980-1-ND","","C62","Cut Tape (CT)","Active","1","0,14000","$0,14","190836","23 Weeks","CAP CER 4.7UF 4V X5R 0402","ROHS3 Compliant","Lead free","Not Available"
-"CL10A475KL8NRNC","Samsung Electro-Mechanics","1276-6794-1-ND","","C43, C44","Cut Tape (CT)","Active","2","0,43000","$0,86","135083","28 Weeks","CAP CER 4.7UF 35V X5R 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CRCW0603470RJNEBC","Vishay Dale","541-4055-1-ND","","R74, R75, R98","Cut Tape (CT)","Active","3","0,09000","$0,27","41700","22 Weeks","RES 470 OHM 5% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"TMK107BJ474KAHT","Taiyo Yuden","587-3476-1-ND","","C25","Cut Tape (CT)","Active","1","0,15000","$0,15","9439","27 Weeks","CAP CER 0.47UF 25V X5R 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW060347K0FKEAC","Vishay Dale","541-4021-1-ND","","R8, R9","Cut Tape (CT)","Active","2","0,09000","$0,18","4798","22 Weeks","RES 47K OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"7447709470","Würth Elektronik","732-1246-1-ND","","L9","Cut Tape (CT)","Active","1","2,41000","$2,41","2985","36 Weeks","FIXED IND 47UH 3.8A 60 MOHM SMD","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CRCW040249R9FKTD","Vishay Dale","541-2963-1-ND","","R80, R81","Cut Tape (CT)","Active","2","0,15000","$0,30","16855","40 Weeks","RES SMD 49.9 OHM 1% 1/16W 0402","RoHS non-compliant","Contains lead","Not Available"
-"IHSM4825ER4R7L","Vishay Dale","541-1555-1-ND","","L1, L2","Cut Tape (CT)","Active","2","4,49000","$8,98","141","41 Weeks","FIXED IND 4.7UH 4A 47 MOHM SMD","ROHS3 Compliant","Lead free","Not Available"
-"TNPW06035K10BEEA","Vishay Dale","541-2035-1-ND","","R7","Cut Tape (CT)","Active","1","0,51000","$0,51","4400","45 Weeks","RES 5.1K OHM 0.1% 1/8W 0603","ROHS3 Compliant","Lead free","Not Available"
-"CRCW060366K5FKEB","Vishay Dale","541-CRCW060366K5FKEBCT-ND","","R87","Cut Tape (CT)","Active","1","0,09000","$0,09","9238","52 Weeks","RES SMD 66.5K OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"RC0603FR-07715KL","Yageo","311-715KHRCT-ND","","R83","Cut Tape (CT)","Active","1","0,09000","$0,09","44486","20 Weeks","RES SMD 715K OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","REACH Unaffected"
-"RCA060375R0FKEA","Vishay Dale","541-2196-1-ND","","R73, R76","Cut Tape (CT)","Active","2","0,09000","$0,18","6292","52 Weeks","RES SMD 75 OHM 1% 1/10W 0603","ROHS3 Compliant","Lead free","Not Available"
-"ARJM11C7-114-BA-EW2","Abracon LLC","535-14168-ND","","J12","Tray","Active","1","2,97000","$2,97","512","18 Weeks","CONN JACK 1PORT 100 BASE-T PCB","RoHS Compliant","Lead free","REACH Affected"
-"DM3D-SF","Hirose Electric Co Ltd","HR1941CT-ND","","J6","Cut Tape (CT)","Active","1","1,49000","$1,49","6493","12 Weeks","CONN MICRO SD CARD PUSH-PULL","RoHS Compliant","Lead free","Not Available"
-"XZVG53W-8","SunLED","1497-1215-1-ND","","D3, D5, D7","Cut Tape (CT)","Active","3","0,35000","$1,05","215752","8 Weeks","LED GREEN CLEAR CHIP SMD","ROHS3 Compliant","Lead free","REACH Unaffected"
-"TLF50211ELXUMA2","Infineon Technologies","TLF50211ELXUMA2CT-ND","","U11","Cut Tape (CT)","Active","1","1,97000","$1,97","481","43 Weeks","IC REG DC/DC CONVERTER","ROHS3 Compliant","Lead free","REACH Unaffected"
-"B2B-XH-A(LF)(SN)","JST Sales America Inc.","455-2247-ND","","X1","Bulk","Active","1","0,14000","$0,14","87544","24 Weeks","CONN HEADER VERT 2POS 2.5MM","ROHS3 Compliant","Lead free","REACH Unaffected"
-"LAN9513-JZX","Microchip Technology","LAN9513-JZX-ND","","U3","Tray","Active","1","5,34000","$5,34","799","52 Weeks","IC USB 2.0 ETHER CTRLR 64QFN","ROHS3 Compliant","Lead free","REACH Unaffected"
-"LM26420XMH/NOPB","Texas Instruments","296-LM26420XMH/NOPB-ND","","U1","Tube","Active","1","4,05000","$4,05","1428","6 Weeks","IC REG BUCK ADJ 2A DL 20HTSSOP","ROHS3 Compliant","Lead free","REACH Unaffected"
-"SMD26PL-TP","Micro Commercial Co","SMD26PL-TPMSCT-ND","","D10","Cut Tape (CT)","Active","1","0,45000","$0,45","90059","24 Weeks","DIODE SCHOTTKY 60V 2A SOD123FL","ROHS3 Compliant","Lead free","REACH Unaffected"
-"CM3+/16GB","Raspberry Pi","1690-1031-ND","","J2","Bulk","Active","1","35,00000","$35,00","0","52 Weeks","RASPBERRY PI COMPUTE 3+ 16GB","Not Available","Not Available","Not Available"
-"SP3003-02XTG","Littelfuse Inc.","F3302CT-ND","","U8, U9","Cut Tape (CT)","Active","2","0,94000","$1,88","2282","20 Weeks","TVS DIODE 6V 15V SOT553","ROHS3 Compliant","Lead free","Not Available"
-"TPS26602PWPT","Texas Instruments","296-44811-1-ND","","U12","Cut Tape (CT)","Active","1","2,59000","$2,59","1148","6 Weeks","IC PWR MGMT EFUSE 60V 16HTSSOP","ROHS3 Compliant","Lead free","REACH Unaffected"
-"USBR-A-D-F-O-TH","Samtec Inc.","SAM10376-ND","","J1","Tray","Active","1","1,61000","$1,61","46","8 Weeks","CONN RCPT USB2.0 TYPEA 8POS R/A","ROHS3 Compliant","Lead free","REACH Unaffected"
+﻿Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Reference Designator,Packaging,Part Status,Quantity,Unit Price,Extended Price,Quantity Available,Mfg Std Lead Time,Description,RoHS Status,Lead Free Status,REACH Status
+CL10B223KB8NNNC,Samsung Electro-Mechanics,1276-1104-1-ND,,C123,Cut Tape (CT),Active,1,"0,09000","$0,09",49039,28 Weeks,CAP CER 0.022UF 50V X7R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+C0603X104K5RAC3316,KEMET,399-C0603X104K5RAC3316CT-ND,,C120,Cut Tape (CT),Active,1,"0,18000","$0,18",1264,31 Weeks,CAP CER 0603 0.1UF 50V X7R 10%,ROHS3 Compliant,Lead free,REACH Unaffected
+0603ZC224KAT2A,AVX Corporation,478-1243-1-ND,,"C124, C126",Cut Tape (CT),Active,2,"0,11000","$0,22",50221,16 Weeks,CAP CER 0.22UF 10V X7R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+1-84952-5,TE Connectivity AMP Connectors,A101391CT-ND,,"J8, J9",Cut Tape (CT),Active,2,"0,86000","$1,72",11215,17 Weeks,CONN FPC BOTTOM 15POS 1.00MM R/A,RoHS Compliant,Lead free,Not Available
+IFSC1515AHER100M01,Vishay Dale,541-1406-1-ND,,"L4, L7, L8",Cut Tape (CT),Active,3,"0,53000","$1,59",1621,14 Weeks,FIXED IND 10UH 1.3A 170 MOHM SMD,ROHS3 Compliant,Lead free,Not Available
+06035C103JAT2A,AVX Corporation,478-5007-1-ND,,"C118, C119",Cut Tape (CT),Active,2,"0,09000","$0,18",260368,16 Weeks,CAP CER 10000PF 50V X7R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+06035C103KAT4A,AVX Corporation,478-10055-1-ND,,"C4, C8, C9, C13, C18, C19, C20, C33, C51, C52, C58, C75, C76, C77, C80, C85, C86, C117, C121",Cut Tape (CT),Active,19,"0,03200","$0,60",430036,16 Weeks,CAP CER 10000PF 50V X7R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+06035G103ZAT2A,AVX Corporation,478-1254-1-ND,,C122,Cut Tape (CT),Active,1,"0,14000","$0,14",21213,16 Weeks,CAP CER 10000PF 50V Y5V 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+CRCW0603100KDHEAP,Vishay Dale,541-100KAYCT-ND,,"R23, R24",Cut Tape (CT),Active,2,"0,27000","$0,54",17479,40 Weeks,RES SMD 100K OHM 0.5% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+CGA3E2X7R1E104K080AA,TDK Corporation,445-5667-1-ND,,"C5, C6, C10, C15, C16, C21, C42, C45, C46, C50, C69, C70, C71, C78, C81, C82, C83, C84, C88, C91, C72, C79",Cut Tape (CT),Active,22,"0,04900","$1,07",578328,16 Weeks,CAP CER 0.1UF 25V X7R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+CL05B104KO5NNNC,Samsung Electro-Mechanics,1276-1001-1-ND,,"C60, C63, C68",Cut Tape (CT),Active,3,"0,09000","$0,27",2262803,28 Weeks,CAP CER 0.1UF 16V X7R 0402,ROHS3 Compliant,Lead free,REACH Unaffected
+C3216X5R1A107M160AC,TDK Corporation,445-6007-1-ND,,"C125, C129",Cut Tape (CT),Active,2,"128,000","$2,56",626603,16 Weeks,CAP CER 100UF 10V X5R 1206,ROHS3 Compliant,Lead free,REACH Unaffected
+M55342K12B10E0RS3,Vishay Dale,1135-1057-1-ND,,"R13, R14,R78,R79",Cut Tape (CT),Active,4,"162,000","$6,48",8718,9 Weeks,RES SMD 10K OHM 1% 1/10W 0603,RoHS non-compliant,Contains lead,Not Available
+VJ0402Y103KXXAC,Vishay Vitramon,720-1362-1-ND,,C61,Cut Tape (CT),Active,1,"0,32000","$0,32",397259,52 Weeks,CAP CER 10000PF 25V X7R 0402,ROHS3 Compliant,Lead free,Not Available
+04026D106MAT2A,AVX Corporation,478-10059-1-ND,,C73,Cut Tape (CT),Active,1,"0,41000","$0,41",413,16 Weeks,CAP CER 10UF 6.3V X5R 0402,ROHS3 Compliant,Lead free,REACH Unaffected
+C1608X5R1C106M080AB,TDK Corporation,445-9065-1-ND,,"C7, C12, C17, C22, C35, C102, C103",Cut Tape (CT),Active,7,"0,62000","$4,34",486891,16 Weeks,CAP CER 10UF 16V X5R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+RCS060311K8FKEA,Vishay Dale,541-RCS060311K8FKEACT-ND,,R86,Cut Tape (CT),Active,1,"0,14000","$0,14",4665,38 Weeks,RES SMD 11.8K OHM 1% 1/4W 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW080512K4FKEAHP,Vishay Dale,541-12.4KTCT-ND,,R27,Cut Tape (CT),Active,1,"0,24000","$0,24",973,52 Weeks,RES SMD 12.4K OHM 1% 1/2W 0805,ROHS3 Compliant,Lead free,Not Available
+TNPW060312K7BEEA,Vishay Dale,541-3584-1-ND,,R11,Cut Tape (CT),Active,1,"0,51000","$0,51",9310,45 Weeks,RES 12.7K OHM 0.1% 1/8W 0603,ROHS3 Compliant,Lead free,Not Available
+RCS080512K0FKEA,Vishay Dale,541-10502-1-ND,,R26,Cut Tape (CT),Active,1,"0,24000","$0,24",3044,38 Weeks,RES SMD 12K OHM 1% 0.4W 0805,ROHS3 Compliant,Lead free,Not Available
+CRCW08051M00FKEAHP,Vishay Dale,541-1.00MTCT-ND,,R39,Cut Tape (CT),Active,1,"0,24000","$0,24",452,52 Weeks,RES SMD 1M OHM 1% 1/2W 0805,ROHS3 Compliant,Lead free,Not Available
+C1005X5R1E105K050BC,TDK Corporation,445-9066-1-ND,,"C14, C64",Cut Tape (CT),Active,2,"0,16000","$0,32",371423,20 Weeks,CAP CER 1UF 25V X5R 0402,ROHS3 Compliant,Lead free,REACH Unaffected
+C1608X5R1H105K080AB,TDK Corporation,445-7468-1-ND,,C127,Cut Tape (CT),Active,1,"0,19000","$0,19",152658,20 Weeks,CAP CER 1UF 50V X5R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+GRT188R61H225KE13D,Murata Electronics,490-12332-1-ND,,C128,Cut Tape (CT),Active,1,"0,30000","$0,30",32225,27 Weeks,CAP CER 2.2UF 50V X5R 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW060320K0FKEC,Vishay Dale,541-2993-1-ND,,R84,Cut Tape (CT),Active,1,"0,10000","$0,10",5051,52 Weeks,RES SMD 20K OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+CAY16-22R0F4LF,Bourns Inc.,CAY16-22R0F4LFCT-ND,,"RN42, RN43",Cut Tape (CT),Active,2,"0,09000","$0,18",1549,20 Weeks,RES ARRAY 4 RES 22 OHM 1206,ROHS3 Compliant,Lead free,REACH Unaffected
+RCS060322K0FKEA,Vishay Dale,541-10441-1-ND,,R77,Cut Tape (CT),Active,1,"0,14000","$0,14",4794,38 Weeks,RES SMD 22K OHM 1% 1/4W 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW060322K0JNEAC,Vishay Dale,541-CRCW060322K0JNEACCT-ND,,R82,Cut Tape (CT),Active,1,"0,09000","$0,09",57297,22 Weeks,RES 22K OHM 5% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+CL10A226MQ8NRNE,Samsung Electro-Mechanics,1276-2868-1-ND,,"C23, C24",Cut Tape (CT),Active,2,"0,28000","$0,56",331193,28 Weeks,CAP CER 22UF 6.3V X5R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+C2012JB1V226M125AC,TDK Corporation,445-11527-1-ND,,"C26, C27, C28, C29",Cut Tape (CT),Last Time Buy,4,"0,93000","$3,72",76206,28 Weeks,CAP CER 22UF 35V JB 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+ECS-250-18-36B-CKY-TR,ECS Inc.,XC3051CT-ND,,Q7,Cut Tape (CT),Active,1,"0,40000","$0,40",4713,18 Weeks,CRYSTAL 25.0000MHZ 18PF SMD,ROHS3 Compliant,Lead free,Not Available
+SF-0603F200-2,Bourns Inc.,SF-0603F200-2CT-ND,,"F1, F2",Cut Tape (CT),Active,2,"0,72000","$1,44",3350,14 Weeks,FUSE BOARD MOUNT 2A 32VDC 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+CRCW060330K1FKEAC,Vishay Dale,541-5345-1-ND,,R85,Cut Tape (CT),Active,1,"0,09000","$0,09",37715,22 Weeks,RES 30.1K OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+RCS060331K6FKEA,Vishay Dale,541-RCS060331K6FKEACT-ND,,R10,Cut Tape (CT),Active,1,"0,14000","$0,14",4659,38 Weeks,RES SMD 31.6K OHM 1% 1/4W 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW0603330RJNEA,Vishay Dale,541-330GCT-ND,,R97,Cut Tape (CT),Active,1,"0,10000","$0,10",8906,52 Weeks,RES SMD 330 OHM 5% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+CL05C330JB5NNNC,Samsung Electro-Mechanics,1276-1272-1-ND,,"C65, C66",Cut Tape (CT),Active,2,"0,09000","$0,18",6223678,28 Weeks,CAP CER 33PF 50V C0G/NP0 0402,ROHS3 Compliant,Lead free,REACH Unaffected
+34EWMSP12M6RT,Grayhill Inc.,GH7540CT-ND,,S2,Cut Tape (CT),Active,1,"484,000","$4,84",2354,6 Weeks,SWITCH TOGGLE SPDT 0.4VA 20V,RoHS Compliant,Lead free,REACH Unaffected
+CRCW08054K70JNEAIF,Vishay Dale,541-CRCW08054K70JNEAIFCT-ND,,"R28, R30, R32, R40",Cut Tape (CT),Active,4,"0,56000","$2,24",4513,52 Weeks,RES SMD 4.7K OHM 5% 1/8W 0805,ROHS3 Compliant,Lead free,Not Available
+CRCW06034K70JNEA,Vishay Dale,541-4.7KGCT-ND,,"R16, R20, R21, R22, R96",Cut Tape (CT),Active,5,"0,10000","$0,50",5145,52 Weeks,RES SMD 4.7K OHM 5% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+GRM155R60G475ME47D,Murata Electronics,490-11980-1-ND,,C62,Cut Tape (CT),Active,1,"0,14000","$0,14",190836,23 Weeks,CAP CER 4.7UF 4V X5R 0402,ROHS3 Compliant,Lead free,Not Available
+CL10A475KL8NRNC,Samsung Electro-Mechanics,1276-6794-1-ND,,"C43, C44",Cut Tape (CT),Active,2,"0,43000","$0,86",135083,28 Weeks,CAP CER 4.7UF 35V X5R 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+CRCW0603470RJNEBC,Vishay Dale,541-4055-1-ND,,"R74, R75, R98",Cut Tape (CT),Active,3,"0,09000","$0,27",41700,22 Weeks,RES 470 OHM 5% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+TMK107BJ474KAHT,Taiyo Yuden,587-3476-1-ND,,C25,Cut Tape (CT),Active,1,"0,15000","$0,15",9439,27 Weeks,CAP CER 0.47UF 25V X5R 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW060347K0FKEAC,Vishay Dale,541-4021-1-ND,,"R8, R9",Cut Tape (CT),Active,2,"0,09000","$0,18",4798,22 Weeks,RES 47K OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+7447709470,Würth Elektronik,732-1246-1-ND,,L9,Cut Tape (CT),Active,1,"241,000","$2,41",2985,36 Weeks,FIXED IND 47UH 3.8A 60 MOHM SMD,ROHS3 Compliant,Lead free,REACH Unaffected
+CRCW040249R9FKTD,Vishay Dale,541-2963-1-ND,,"R80, R81",Cut Tape (CT),Active,2,"0,15000","$0,30",16855,40 Weeks,RES SMD 49.9 OHM 1% 1/16W 0402,RoHS non-compliant,Contains lead,Not Available
+IHSM4825ER4R7L,Vishay Dale,541-1555-1-ND,,"L1, L2",Cut Tape (CT),Active,2,"449,000","$8,98",141,41 Weeks,FIXED IND 4.7UH 4A 47 MOHM SMD,ROHS3 Compliant,Lead free,Not Available
+TNPW06035K10BEEA,Vishay Dale,541-2035-1-ND,,R7,Cut Tape (CT),Active,1,"0,51000","$0,51",4400,45 Weeks,RES 5.1K OHM 0.1% 1/8W 0603,ROHS3 Compliant,Lead free,Not Available
+CRCW060366K5FKEB,Vishay Dale,541-CRCW060366K5FKEBCT-ND,,R87,Cut Tape (CT),Active,1,"0,09000","$0,09",9238,52 Weeks,RES SMD 66.5K OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+RC0603FR-07715KL,Yageo,311-715KHRCT-ND,,R83,Cut Tape (CT),Active,1,"0,09000","$0,09",44486,20 Weeks,RES SMD 715K OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,REACH Unaffected
+RCA060375R0FKEA,Vishay Dale,541-2196-1-ND,,"R73, R76",Cut Tape (CT),Active,2,"0,09000","$0,18",6292,52 Weeks,RES SMD 75 OHM 1% 1/10W 0603,ROHS3 Compliant,Lead free,Not Available
+ARJM11C7-114-BA-EW2,Abracon LLC,535-14168-ND,,J12,Tray,Active,1,"297,000","$2,97",512,18 Weeks,CONN JACK 1PORT 100 BASE-T PCB,RoHS Compliant,Lead free,REACH Affected
+DM3D-SF,Hirose Electric Co Ltd,HR1941CT-ND,,J6,Cut Tape (CT),Active,1,"149,000","$1,49",6493,12 Weeks,CONN MICRO SD CARD PUSH-PULL,RoHS Compliant,Lead free,Not Available
+XZVG53W-8,SunLED,1497-1215-1-ND,,"D3, D5, D7",Cut Tape (CT),Active,3,"0,35000","$1,05",215752,8 Weeks,LED GREEN CLEAR CHIP SMD,ROHS3 Compliant,Lead free,REACH Unaffected
+TLF50211ELXUMA2,Infineon Technologies,TLF50211ELXUMA2CT-ND,,U11,Cut Tape (CT),Active,1,"197,000","$1,97",481,43 Weeks,IC REG DC/DC CONVERTER,ROHS3 Compliant,Lead free,REACH Unaffected
+B2B-XH-A(LF)(SN),JST Sales America Inc.,455-2247-ND,,X1,Bulk,Active,1,"0,14000","$0,14",87544,24 Weeks,CONN HEADER VERT 2POS 2.5MM,ROHS3 Compliant,Lead free,REACH Unaffected
+LAN9513-JZX,Microchip Technology,LAN9513-JZX-ND,,U3,Tray,Active,1,"534,000","$5,34",799,52 Weeks,IC USB 2.0 ETHER CTRLR 64QFN,ROHS3 Compliant,Lead free,REACH Unaffected
+LM26420XMH/NOPB,Texas Instruments,296-LM26420XMH/NOPB-ND,,U1,Tube,Active,1,"405,000","$4,05",1428,6 Weeks,IC REG BUCK ADJ 2A DL 20HTSSOP,ROHS3 Compliant,Lead free,REACH Unaffected
+SMD26PL-TP,Micro Commercial Co,SMD26PL-TPMSCT-ND,,D10,Cut Tape (CT),Active,1,"0,45000","$0,45",90059,24 Weeks,DIODE SCHOTTKY 60V 2A SOD123FL,ROHS3 Compliant,Lead free,REACH Unaffected
+CM3+/16GB,Raspberry Pi,1690-1031-ND,,J2,Bulk,Active,1,"3,500,000","$35,00",0,52 Weeks,RASPBERRY PI COMPUTE 3+ 16GB,Not Available,Not Available,Not Available
+SP3003-02XTG,Littelfuse Inc.,F3302CT-ND,,"U8, U9",Cut Tape (CT),Active,2,"0,94000","$1,88",2282,20 Weeks,TVS DIODE 6V 15V SOT553,ROHS3 Compliant,Lead free,Not Available
+TPS26602PWPT,Texas Instruments,296-44811-1-ND,,U12,Cut Tape (CT),Active,1,"259,000","$2,59",1148,6 Weeks,IC PWR MGMT EFUSE 60V 16HTSSOP,ROHS3 Compliant,Lead free,REACH Unaffected
+USBR-A-D-F-O-TH,Samtec Inc.,SAM10376-ND,,J1,Tray,Active,1,"161,000","$1,61",46,8 Weeks,CONN RCPT USB2.0 TYPEA 8POS R/A,ROHS3 Compliant,Lead free,REACH Unaffected
