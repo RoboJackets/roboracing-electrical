@@ -31467,7 +31467,7 @@ chip</description>
 <part name="R32" library="RoboJackets-Resistors" deviceset="ERJ-L06KF50MV" device="" value="4.7k"/>
 <part name="SUPPLY132" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY133" library="RoboJackets-Supplies" deviceset="GND" device=""/>
-<part name="R40" library="RoboJackets-Resistors" deviceset="ERJ-L06KF50MV" device="" value="4k7"/>
+<part name="R40" library="RoboJackets-Resistors" deviceset="ERJ-L06KF50MV" device="" value="4.7k"/>
 <part name="R39" library="RoboJackets-Resistors" deviceset="ERJ-L06KF50MV" device="" value="1M"/>
 <part name="C66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="33pF"/>
 <part name="C65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="33pF"/>
