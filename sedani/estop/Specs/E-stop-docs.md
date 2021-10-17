@@ -8,7 +8,7 @@
  * Must have indicator LEDs on remote to show state
  
 # Information flow block diagram
-![sedani-e-stop-information-flow.png](/sedani-e-stop-information-flow.png)
+![sedani-e-stop-information-flow.png](sedani-e-stop-information-flow.png)
 
 # Receiver
 Every loop, we check for a new radio message. If there is one, check if it is a valid GO or STOP message. If yes, set flag to start or stop car. If no valid messages received for a certain length of time, automatically stop car.
@@ -35,10 +35,10 @@ See code comments - will be more up-to-date.
 
 ## Hardware
 Connect the PCB to the control board by the 7 unboxed pins of the 11 pin header. Solder 0 ohm resistors for R2-R5 on the back of the board:
-![e-stop-sedani-solderbridges.png](/e-stop-sedani-solderbridges.png)
+![e-stop-sedani-solderbridges.png](e-stop-sedani-solderbridges.png)
 
 Make sure to remove diodes 2 and 3 from the control board. Otherwise, **the e-stop will enable the car when it is just indicating the auxiliary switch is on.**
-![control_board_3.1_removed_diode.PNG](/control_board_3.1_removed_diode.PNG)
+![control_board_3.1_removed_diode.PNG](control_board_3.1_removed_diode.PNG)
 
 ### LEDs
  * The Green LED is for the 5V line.
@@ -52,7 +52,7 @@ Every TRANSMIT_PERIOD ms, send out a message. If no ACK received, retry several 
 ## Hardware
 
 ### Remote wiring diagram
-![remote-wiring-diagram.svg](/remote-wiring-diagram.svg)
+![remote-wiring-diagram.svg](remote-wiring-diagram.svg)
 
 ### LEDs
  * Green is power
