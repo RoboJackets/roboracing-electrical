@@ -1,11 +1,11 @@
 # RoboRacing Electrical
 This is a repository for the RoboJackets' RoboRacing Electrical team.
 
-## bigoli
-Contains current files associated with Bigoli, including the mbed shield and system diagram (coming soon).
+## rigatoni
+Contains current files associated with Rigatoni.
 
-## macaroni
-Contains current files associated with Macaroni, including the system diagram (coming soon).
+## sedani
+Contains current files associated with Sedani.
 
-## discont
+## archive
 Contains old files no longer in use on the current robots.
