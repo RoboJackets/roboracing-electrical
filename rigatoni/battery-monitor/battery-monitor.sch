@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14921,12 +14921,12 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="DKPT" value="160-1446-1-ND"/>
 </part>
 <part name="U3" library="RoboRacing_STM" deviceset="STM32H743ZIT6" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5 kΩ"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="55 kΩ"/>
 <part name="J1" library="drive_brake" deviceset="S2B-XH-A_(LF)(SN)" device=""/>
 <part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="J2" library="con-omron" library_urn="urn:adsk.eagle:library:167" deviceset="XF2*-25?" device="55-41A" package3d_urn="urn:adsk.eagle:package:9078/1" technology="C"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5 kΩ"/>
 </parts>
 <sheets>
 <sheet>
@@ -15150,10 +15150,6 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <attribute name="NAME" x="386.4356" y="169.1386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="385.8006" y="113.2586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="R1" gate="G$1" x="264.16" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="267.97" y="23.9014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="267.97" y="28.702" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R3" gate="G$1" x="264.16" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="267.97" y="34.0614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="267.97" y="38.862" size="1.778" layer="96" rot="R180"/>
@@ -15245,6 +15241,10 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <instance part="J2" gate="-25" x="342.9" y="-2.54" smashed="yes">
 <attribute name="NAME" x="345.44" y="-3.302" size="1.524" layer="95"/>
 </instance>
+<instance part="R1" gate="G$1" x="264.16" y="25.4" smashed="yes">
+<attribute name="NAME" x="260.35" y="26.8986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="260.35" y="22.098" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15326,7 +15326,6 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <junction x="142.24" y="109.22"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="25.4" x2="274.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="282.194" y1="29.464" x2="274.32" y2="29.464" width="0.1524" layer="91"/>
@@ -15338,6 +15337,7 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <wire x1="274.32" y1="17.78" x2="274.32" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="17.78" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
 <junction x="274.32" y="17.78"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ETH_RST" class="3">
@@ -15597,7 +15597,6 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="254" y1="35.56" x2="254" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="254" y1="30.48" x2="254" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="254" y1="25.4" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
@@ -15608,6 +15607,7 @@ Schematic: https://www.analog.com/media/en/technical-documentation/data-sheets/1
 <junction x="254" y="25.4"/>
 <wire x1="254" y1="17.78" x2="259.08" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="PA1"/>
