@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -39624,7 +39624,7 @@ D7</text>
 <attribute name="VALUE" x="287.02" y="170.18" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY24" gate="G$1" x="259.08" y="175.26" smashed="yes">
-<attribute name="VALUE" x="259.08" y="178.054" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="261.62" y="178.054" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="276.86" y="190.5" smashed="yes">
 <attribute name="VALUE" x="274.955" y="187.325" size="1.778" layer="96"/>
