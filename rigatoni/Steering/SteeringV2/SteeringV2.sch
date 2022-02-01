@@ -13203,6 +13203,7 @@ Used in manufacturing several products at SparkFun.
 <part name="SUPPLY26" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY28" library="RoboJackets-Supplies" deviceset="+5V" device=""/>
+<part name="SUPPLY25" library="RoboJackets-Supplies" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13386,13 +13387,13 @@ rated @ 25V</text>
 <attribute name="NAME" x="-29.464" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-29.464" y="84.709" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="-124.46" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="-119.888" y="90.551" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-119.888" y="95.885" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D1" gate="G$1" x="-124.46" y="88.9" smashed="yes">
+<attribute name="NAME" x="-127.889" y="84.328" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-122.555" y="84.328" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="D2" gate="G$1" x="0" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.572" y="90.551" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="4.572" y="95.885" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D2" gate="G$1" x="0" y="88.9" smashed="yes">
+<attribute name="NAME" x="-3.429" y="84.328" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="1.905" y="84.328" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="SUPPLY20" gate="P" x="81.28" y="15.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="84.455" y="17.145" size="1.778" layer="96"/>
@@ -13427,6 +13428,9 @@ rated @ 25V</text>
 </instance>
 <instance part="SUPPLY28" gate="G$1" x="106.68" y="129.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="109.855" y="131.445" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="81.28" y="20.32" smashed="yes" rot="R270">
+<attribute name="VALUE" x="84.455" y="22.225" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13558,13 +13562,6 @@ rated @ 25V</text>
 <pinref part="U1" gate="G$1" pin="2!OE"/>
 <pinref part="SUPPLY26" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="F1" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-132.08" y1="93.98" x2="-127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13836,7 +13833,6 @@ rated @ 25V</text>
 <wire x1="12.7" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="93.98" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="5.08" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <junction x="10.16" y="93.98"/>
 </segment>
@@ -13859,6 +13855,11 @@ rated @ 25V</text>
 <wire x1="104.14" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <junction x="104.14" y="129.54"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$3" pin="+5V_CN8"/>
+<pinref part="SUPPLY25" gate="G$1" pin="+5V"/>
+<wire x1="63.5" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -13866,25 +13867,6 @@ rated @ 25V</text>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-161.29" y1="93.98" x2="-161.29" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="-30.48" y1="88.9" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="Q1" gate="A" pin="D"/>
-<wire x1="-119.38" y1="93.98" x2="-111.76" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="F2" gate="G$1" pin="2"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-5.08" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -13917,6 +13899,18 @@ rated @ 25V</text>
 <junction x="48.26" y="127"/>
 <pinref part="U1" gate="G$1" pin="2DIR"/>
 <wire x1="33.02" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="Q1" gate="A" pin="D"/>
+<wire x1="-116.84" y1="93.98" x2="-111.76" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="-132.08" y1="93.98" x2="-127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
