@@ -220,7 +220,7 @@ STM32 Nucleo-144</text>
 <circle x="18" y="25" radius="2.236065625" width="0.1524" layer="21"/>
 <circle x="140" y="25" radius="2.236065625" width="0.1524" layer="21"/>
 <circle x="140" y="71" radius="2.236065625" width="0.1524" layer="21"/>
-<text x="16" y="67" size="1.778" layer="25">M3</text>
+<text x="16" y="66" size="1.778" layer="25">M3</text>
 <text x="16" y="28" size="1.778" layer="25">M3</text>
 <text x="138" y="28" size="1.778" layer="25">M3</text>
 <text x="138" y="66" size="1.778" layer="25">M3</text>
