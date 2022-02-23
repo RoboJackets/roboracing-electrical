@@ -11952,12 +11952,6 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-2.286" y1="-1.1176" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
 <wire x1="-2.1336" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-2.286" y1="0" x2="-2.1336" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.334503125" y="-2.159"/>
-<vertex x="-3.334503125" y="2.159"/>
-<vertex x="3.334503125" y="2.159"/>
-<vertex x="3.334503125" y="-2.159"/>
-</polygon>
 <wire x1="-2.794" y1="4.9276" x2="-2.794" y2="5.2832" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="0" x2="2.794" y2="4.9276" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="4.9276" x2="2.794" y2="5.2832" width="0.1524" layer="47"/>
@@ -12032,19 +12026,11 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-3.9624" y1="0" x2="-4.1148" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-4.1148" y1="0" x2="-3.9624" y2="0" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.2192" y="1.9177"/>
-<vertex x="1.2192" y="1.9177"/>
-<vertex x="1.2192" y="-1.9177"/>
-<vertex x="-1.2192" y="-1.9177"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.2192" y="1.9177"/>
-<vertex x="1.2192" y="1.9177"/>
-<vertex x="1.2192" y="-1.9177"/>
-<vertex x="-1.2192" y="-1.9177"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="39"/>
 </package>
 <package name="DO-214BA_MCH-M">
 <smd name="1" x="-2.257" y="0" dx="2.174" dy="2.2598" layer="1"/>
@@ -12067,12 +12053,6 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-2.286" y1="1.9812" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
 <wire x1="-2.1844" y1="0" x2="-2.3368" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-2.3368" y1="0" x2="-2.1844" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.5345" y="-2.159"/>
-<vertex x="-3.5345" y="2.159"/>
-<vertex x="3.5345" y="2.159"/>
-<vertex x="3.5345" y="-2.159"/>
-</polygon>
 <wire x1="-2.794" y1="4.9276" x2="-2.794" y2="5.2832" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="0" x2="2.794" y2="4.9276" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="4.9276" x2="2.794" y2="5.2832" width="0.1524" layer="47"/>
@@ -12147,19 +12127,11 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-4.1656" y1="0" x2="-4.318" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-4.318" y1="0" x2="-4.1656" y2="0" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.1192" y="1.9177"/>
-<vertex x="1.1192" y="1.9177"/>
-<vertex x="1.1192" y="-1.9177"/>
-<vertex x="-1.1192" y="-1.9177"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.1192" y="1.9177"/>
-<vertex x="1.1192" y="1.9177"/>
-<vertex x="1.1192" y="-1.9177"/>
-<vertex x="-1.1192" y="-1.9177"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="39"/>
 </package>
 <package name="DO-214BA_MCH-L">
 <smd name="1" x="-2.157" y="0" dx="1.574" dy="2.2198" layer="1"/>
@@ -12182,12 +12154,6 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-2.286" y1="1.9812" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
 <wire x1="-2.0828" y1="0" x2="-2.2352" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-2.2352" y1="0" x2="-2.0828" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.1345" y="-2.159"/>
-<vertex x="-3.1345" y="2.159"/>
-<vertex x="3.1345" y="2.159"/>
-<vertex x="3.1345" y="-2.159"/>
-</polygon>
 <wire x1="-2.794" y1="4.9276" x2="-2.794" y2="5.2832" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="0" x2="2.794" y2="4.9276" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="4.9276" x2="2.794" y2="5.2832" width="0.1524" layer="47"/>
@@ -12262,19 +12228,11 @@ In this library you will find diodes and other circuit protection elements.
 <wire x1="-3.7592" y1="0" x2="-3.9116" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-3.9116" y1="0" x2="-3.7592" y2="0" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.3192" y="1.9177"/>
-<vertex x="1.3192" y="1.9177"/>
-<vertex x="1.3192" y="-1.9177"/>
-<vertex x="-1.3192" y="-1.9177"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.3192" y="1.9177"/>
-<vertex x="1.3192" y="1.9177"/>
-<vertex x="1.3192" y="-1.9177"/>
-<vertex x="-1.3192" y="-1.9177"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
