@@ -13225,21 +13225,20 @@ Used in manufacturing several products at SparkFun.
 <text x="-182.88" y="119.38" size="2.54" layer="97">POWER 12V to 5V</text>
 <wire x1="20.32" y1="127" x2="20.32" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-96.52" y1="38.1" x2="-96.52" y2="-60.96" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-96.52" y1="-60.96" x2="-96.52" y2="-63.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="-86.36" x2="101.6" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="38.1" x2="-96.52" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
 <text x="-15.24" y="35.56" size="1.778" layer="97">NUCLEO HEADER CONNECTIONS</text>
-<wire x1="121.92" y1="-2.54" x2="121.92" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="121.92" y1="-40.64" x2="190.5" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="190.5" y1="-40.64" x2="190.5" y2="-2.54" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="190.5" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="97" style="shortdash"/>
-<text x="121.92" y="-5.08" size="1.778" layer="97">SCREW TERMINAL FOR ODRIVE UART COMM</text>
+<wire x1="129.54" y1="-12.7" x2="129.54" y2="-50.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="129.54" y1="-50.8" x2="198.12" y2="-50.8" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="198.12" y1="-50.8" x2="198.12" y2="-12.7" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="198.12" y1="-12.7" x2="129.54" y2="-12.7" width="0.1524" layer="97" style="shortdash"/>
+<text x="129.54" y="-15.24" size="1.778" layer="97">SCREW TERMINAL FOR ODRIVE UART COMM</text>
 <wire x1="-193.04" y1="33.02" x2="-193.04" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-193.04" y1="-40.64" x2="-119.38" y2="-40.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-119.38" y1="-40.64" x2="-119.38" y2="33.02" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-119.38" y1="33.02" x2="-193.04" y2="33.02" width="0.1524" layer="97" style="shortdash"/>
 <text x="-190.5" y="27.94" size="1.778" layer="97">LINEAR POT CONNECTORS</text>
-<text x="124.46" y="-38.1" size="1.778" layer="97">*Note: ODrive powered directly on ~52v battery</text>
+<text x="132.08" y="-48.26" size="1.778" layer="97">*Note: ODrive powered directly on ~52v battery</text>
 <text x="-73.66" y="109.22" size="1.778" layer="97">·       TPSM84205EAB DC/DC Converter</text>
 <wire x1="-96.52" y1="-60.96" x2="-200.66" y2="-60.96" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-200.66" y1="-60.96" x2="-200.66" y2="-124.46" width="0.1524" layer="97" style="shortdash"/>
@@ -13248,15 +13247,12 @@ Used in manufacturing several products at SparkFun.
 <wire x1="-71.12" y1="-86.36" x2="101.6" y2="-86.36" width="0.1524" layer="97" style="shortdash"/>
 <text x="-71.12" y="73.66" size="1.27" layer="97">*Note: C2 should be
 rated @ 25V</text>
-<wire x1="22.86" y1="137.16" x2="22.86" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="210.82" y1="40.64" x2="210.82" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="210.82" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="22.86" y1="134.62" x2="22.86" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="210.82" y1="0" x2="210.82" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="210.82" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="22.86" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="139.7" y1="40.64" x2="139.7" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="139.7" y1="0" x2="144.78" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="144.78" y1="0" x2="205.74" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="205.74" y1="0" x2="210.82" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="210.82" y1="0" x2="210.82" y2="40.64" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="139.7" y1="0" x2="210.82" y2="0" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-214.63" y="-137.16" smashed="yes"/>
@@ -13286,12 +13282,12 @@ rated @ 25V</text>
 <instance part="SUPPLY5" gate="G$1" x="-88.9" y="76.2" smashed="yes">
 <attribute name="VALUE" x="-91.44" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="162.56" y="-20.32" smashed="yes">
-<attribute name="NAME" x="160.02" y="-12.446" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.02" y="-28.194" size="1.778" layer="96" align="top-left"/>
+<instance part="J4" gate="G$1" x="170.18" y="-30.48" smashed="yes">
+<attribute name="NAME" x="167.64" y="-22.606" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="-38.354" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="152.4" y="-33.02" smashed="yes">
-<attribute name="VALUE" x="149.86" y="-35.56" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="G$1" x="160.02" y="-43.18" smashed="yes">
+<attribute name="VALUE" x="157.48" y="-45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="-149.86" y="12.7" smashed="yes">
 <attribute name="NAME" x="-152.4" y="20.574" size="1.778" layer="95"/>
@@ -13438,8 +13434,8 @@ rated @ 25V</text>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
 <pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="152.4" y1="-30.48" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-25.4" x2="154.94" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-40.64" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-35.56" x2="162.56" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="GND"/>
@@ -13555,8 +13551,8 @@ rated @ 25V</text>
 <net name="USART_A_TX" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="-20.32" x2="144.78" y2="-20.32" width="0.1524" layer="91"/>
-<label x="144.78" y="-20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="-30.48" x2="152.4" y2="-30.48" width="0.1524" layer="91"/>
+<label x="152.4" y="-30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$6" pin="D1/USART_A_TX"/>
@@ -13567,8 +13563,8 @@ rated @ 25V</text>
 <net name="USART_A_RX" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-15.24" x2="144.78" y2="-15.24" width="0.1524" layer="91"/>
-<label x="144.78" y="-15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="152.4" y="-25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$6" pin="D0/USART_A_RX"/>
