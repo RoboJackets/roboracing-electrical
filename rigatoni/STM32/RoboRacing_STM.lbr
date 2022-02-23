@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -889,12 +889,6 @@
 <wire x1="-2.286" y1="-1.1176" x2="-2.286" y2="-1.9812" width="0.1524" layer="51"/>
 <wire x1="-2.1336" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-2.286" y1="0" x2="-2.1336" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-3.334503125" y="-2.159"/>
-<vertex x="-3.334503125" y="2.159"/>
-<vertex x="3.334503125" y="2.159"/>
-<vertex x="3.334503125" y="-2.159"/>
-</polygon>
 <wire x1="-2.794" y1="4.9276" x2="-2.794" y2="5.2832" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="0" x2="2.794" y2="4.9276" width="0.1524" layer="47"/>
 <wire x1="2.794" y1="4.9276" x2="2.794" y2="5.2832" width="0.1524" layer="47"/>
@@ -969,19 +963,11 @@
 <wire x1="-3.9624" y1="0" x2="-4.1148" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-4.1148" y1="0" x2="-3.9624" y2="0" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.2192" y="1.9177"/>
-<vertex x="1.2192" y="1.9177"/>
-<vertex x="1.2192" y="-1.9177"/>
-<vertex x="-1.2192" y="-1.9177"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.2192" y="1.9177"/>
-<vertex x="1.2192" y="1.9177"/>
-<vertex x="1.2192" y="-1.9177"/>
-<vertex x="-1.2192" y="-1.9177"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="39"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="39"/>
 </package>
 <package name="DO-214BA_MCH-M">
 <smd name="1" x="-2.257" y="0" dx="2.174" dy="2.2598" layer="1"/>
