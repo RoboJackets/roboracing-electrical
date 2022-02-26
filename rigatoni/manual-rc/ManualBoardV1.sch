@@ -16992,6 +16992,10 @@ Used in manufacturing several products at SparkFun.
 <part name="SUPPLY17" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY24" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY25" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY26" library="RoboJackets-Supplies" deviceset="GND" device=""/>
+<part name="SUPPLY27" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17240,6 +17244,18 @@ rated @ 25V</text>
 <instance part="SUPPLY23" gate="G$1" x="22.86" y="101.6" smashed="yes">
 <attribute name="VALUE" x="20.32" y="99.06" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY24" gate="G$1" x="-15.24" y="104.14" smashed="yes">
+<attribute name="VALUE" x="-17.78" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="-50.8" y="93.98" smashed="yes">
+<attribute name="VALUE" x="-53.34" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY26" gate="G$1" x="-86.36" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-88.9" y="104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY27" gate="G$1" x="152.4" y="-96.52" smashed="yes" rot="R90">
+<attribute name="VALUE" x="154.94" y="-99.06" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17434,6 +17450,30 @@ rated @ 25V</text>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="TVS_1" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="109.22" x2="-15.24" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="99.06" x2="-50.8" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="-86.36" y1="109.22" x2="-86.36" y2="115.57" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-86.36" y1="115.57" x2="-87.63" y2="115.57" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$6" pin="AGND_CN10"/>
+<pinref part="U4" gate="G$6" pin="GND_CN10"/>
+<wire x1="144.78" y1="-93.98" x2="144.78" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY27" gate="G$1" pin="GND"/>
+<wire x1="149.86" y1="-96.52" x2="144.78" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="144.78" y="-96.52"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -17537,12 +17577,6 @@ rated @ 25V</text>
 <pinref part="U4" gate="G$6" pin="D6/TIMER_A_PWM1"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="78.74" y1="-68.58" x2="71.12" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$6" pin="D3/TIMER_A_PWM3"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <wire x1="78.74" y1="-66.04" x2="55.88" y2="-66.04" width="0.1524" layer="91"/>
@@ -17619,23 +17653,10 @@ rated @ 25V</text>
 <pinref part="SUPPLY11" gate="G$1" pin="+5V"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="N$18" class="0">
 <segment>
-<pinref part="TVS_1" gate="G$1" pin="A"/>
-<wire x1="-15.24" y1="109.22" x2="-15.24" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="-86.36" y1="109.22" x2="-86.36" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="115.57" x2="-87.63" y2="115.57" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="99.06" x2="-50.8" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$6" pin="D3/TIMER_A_PWM3"/>
+<wire x1="71.12" y1="-68.58" x2="78.74" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
