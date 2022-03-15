@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -191,6 +191,8 @@
 <wire x1="1.03" y1="0" x2="70.77" y2="0" width="0" layer="20"/>
 <wire x1="70.77" y1="133.29" x2="1.03" y2="133.29" width="0" layer="20"/>
 <wire x1="1.03" y1="133.29" x2="1.03" y2="0" width="0" layer="20"/>
+<text x="11" y="24" size="1.778" layer="21">Manual RC Board V1</text>
+<text x="11" y="21" size="1.778" layer="21">Robojackets Roboracing Electrical</text>
 </plain>
 <libraries>
 <library name="capacitor-wima" urn="urn:adsk.eagle:library:116">
@@ -2247,7 +2249,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1uF" x="19.72" y="95.25" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.901" y="96.502" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="22.498" y="95.901" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="38" x="-123.79" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.672" y="96.901" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -2266,13 +2268,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.98" y="128.7" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="63" x="201.46" y="175.69" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="201.46" y="175.69" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="47.79" y="128.7" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="47.79" y="127.7" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CR1" library="RoboRacing_STM" package="DO-214BA_MCH" value="LSM115JE3/TR13" x="32.59" y="128.27" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="-67.74" y="142.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LSM115JE3/TR13" x="-67.74" y="142.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Microchip" x="-67.74" y="142.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.8666" y="128.905" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="39.8666" y="130.905" size="1.27" layer="27" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="34.3172" y="128.905" size="1.27" layer="21" ratio="6" rot="SR180"/>
 </element>
 <element name="D2" library="RoboJackets-LEDs" package="LED-0603" value="Yellow" x="18.27" y="120.38" smashed="yes" rot="R180">
@@ -2286,8 +2288,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="52.36" y="128.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="F1" library="RoboJackets-Fuses" package="F0603" value="630mA" x="23.16" y="128.27" smashed="yes">
-<attribute name="NAME" x="21.51" y="129.12" size="1" layer="25" font="vector"/>
-<attribute name="VALUE" x="21.51" y="127.42" size="1" layer="27" font="vector" align="top-left"/>
+<attribute name="NAME" x="21.51" y="130.12" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="21.51" y="126.42" size="1" layer="27" font="vector" align="top-left"/>
 </element>
 <element name="F2" library="RoboJackets-Fuses" package="F0603" value="1.875A" x="50.45" y="112.27" smashed="yes">
 <attribute name="NAME" x="48.8" y="113.12" size="1" layer="25" font="vector"/>
@@ -2299,12 +2301,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="2.92" y="123.27" size="1" layer="27" font="vector" align="top-left"/>
 </element>
 <element name="L513SRD" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="" x="65.9" y="124.19" smashed="yes">
-<attribute name="NAME" x="69.075" y="124.7234" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="62.075" y="119.7234" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="93" x="91.3" y="-32.02" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="69.1004" y="122.3866" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LTW-420D7(1)" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="" x="20.94" y="64.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.765" y="63.7466" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="27.765" y="60.7466" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="93" x="-89.55" y="207.79" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17.7396" y="66.0834" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -2325,7 +2327,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="24.3174" y="85.2856" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1 KΩ" x="54.58" y="124.19" smashed="yes">
-<attribute name="NAME" x="58.04" y="123.4854" size="0.9906" layer="25" ratio="10"/>
+<attribute name="NAME" x="54.04" y="121.4854" size="0.9906" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="48" x="113" y="-37.1" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="113" y="-37.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.9544" y="123.7074" size="0.9906" layer="27" ratio="10"/>
@@ -2361,10 +2363,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.0974" y="68.0756" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="500R" x="12.38" y="120.38" smashed="yes">
-<attribute name="NAME" x="11.745" y="121.015" size="1.27" layer="25"/>
+<attribute name="NAME" x="11.745" y="122.015" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="77" x="77.15" y="-34.56" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="77.15" y="-34.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.745" y="118.475" size="1.27" layer="27"/>
+<attribute name="VALUE" x="10.745" y="117.475" size="1.27" layer="27"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="150 Ω" x="47.04" y="65.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.3354" y="67.99" size="0.9906" layer="25" ratio="10" rot="R270"/>
@@ -2379,15 +2381,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="52.0174" y="60.0756" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="147R" x="62.71" y="129.81" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.345" y="129.175" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="63.345" y="128.175" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="77" x="-8.41" y="284.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-8.41" y="284.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="63.345" y="131.715" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="69.345" y="130.715" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="TVS_1" library="RoboJackets-Diodes" package="SOD-323" value="D5V0L1B2WS-7" x="39.62" y="127.48" smashed="yes" rot="R270">
 <attribute name="DKPN" value="D5V0L1B2WS-7DICT-ND" x="-116.59" y="70.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="40.636" y="129.258" size="1" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="37.588" y="129.258" size="1" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="40.636" y="128.258" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="35.588" y="125.258" size="1" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="D1" library="RoboRacing Manual Board" package="4-PIN" value="NTE30156" x="49.5" y="42.71" smashed="yes" rot="R90">
 <attribute name="DKPN" value="2368-NTE30156-ND " x="49.5" y="42.71" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2401,7 +2403,7 @@ design rules under a new name.</description>
 </element>
 <element name="U2" library="RoboRacing Manual Board" package="R304SB" value="R304SB" x="63.36" y="111.57" smashed="yes">
 <attribute name="DKPN" value="N/A" x="63.36" y="111.57" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="62.09" y="107.76" size="1.778" layer="27"/>
+<attribute name="VALUE" x="61.09" y="114.76" size="1.778" layer="27"/>
 </element>
 <element name="U5" library="RoboRacing_STM" package="TPSM84205EAB" value="TPSM84205EAB" x="43" y="119" smashed="yes" rot="R180">
 <attribute name="DKPN" value="296-47074-ND" x="43" y="119" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2646,10 +2648,10 @@ design rules under a new name.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="U5" pad="VIN"/>
 <wire x1="34.796996875" y1="128.27" x2="35.156996875" y2="128.63" width="0.1524" layer="1"/>
-<wire x1="35.156996875" y1="128.63" x2="39.62" y2="128.63" width="0.1524" layer="1"/>
+<wire x1="35.156996875" y1="128.63" x2="39.62" y2="128.63" width="0.3048" layer="1"/>
 <wire x1="45.25" y1="129.02" x2="44.86" y2="128.63" width="0.1524" layer="1"/>
-<wire x1="44.86" y1="128.63" x2="39.62" y2="128.63" width="0.1524" layer="1"/>
-<wire x1="45.25" y1="129.02" x2="45.25" y2="119.29" width="0.1524" layer="1"/>
+<wire x1="44.86" y1="128.63" x2="39.62" y2="128.63" width="0.3048" layer="1"/>
+<wire x1="45.25" y1="129.02" x2="45.25" y2="119.29" width="0.3048" layer="1"/>
 <wire x1="45.25" y1="119.29" x2="45.54" y2="119" width="0.1524" layer="1"/>
 </signal>
 <signal name="5V_MAIN">
@@ -2666,21 +2668,21 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="J1" pad="P$2"/>
 <contactref element="F1" pad="1"/>
-<wire x1="22.31" y1="128.27" x2="15.92" y2="128.27" width="0.1524" layer="1"/>
+<wire x1="22.31" y1="128.27" x2="15.92" y2="128.27" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="F1" pad="2"/>
 <contactref element="D2" pad="A"/>
 <contactref element="CR1" pad="2"/>
-<wire x1="19.147" y1="120.38" x2="21.38" y2="120.38" width="0.1524" layer="1"/>
-<wire x1="24.01" y1="123.01" x2="24.01" y2="128.27" width="0.1524" layer="1"/>
-<wire x1="21.38" y1="120.38" x2="24.01" y2="123.01" width="0.1524" layer="1"/>
-<wire x1="30.383003125" y1="128.27" x2="24.01" y2="128.27" width="0.1524" layer="1"/>
+<wire x1="19.147" y1="120.38" x2="21.38" y2="120.38" width="0.3048" layer="1"/>
+<wire x1="24.01" y1="123.01" x2="24.01" y2="128.27" width="0.3048" layer="1"/>
+<wire x1="21.38" y1="120.38" x2="24.01" y2="123.01" width="0.3048" layer="1"/>
+<wire x1="30.383003125" y1="128.27" x2="24.01" y2="128.27" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="D2" pad="C"/>
 <contactref element="R6" pad="2"/>
-<wire x1="13.23" y1="120.38" x2="17.393" y2="120.38" width="0.1524" layer="1"/>
+<wire x1="13.23" y1="120.38" x2="17.393" y2="120.38" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="D3" pad="C"/>
