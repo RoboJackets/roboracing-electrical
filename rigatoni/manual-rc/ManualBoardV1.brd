@@ -188,12 +188,17 @@
 </layers>
 <board>
 <plain>
-<wire x1="1.03" y1="0" x2="70.77" y2="0" width="0" layer="20"/>
-<wire x1="70.77" y1="133.29" x2="1.03" y2="133.29" width="0" layer="20"/>
-<wire x1="1.03" y1="133.29" x2="1.03" y2="0" width="0" layer="20"/>
 <text x="11" y="24" size="1.778" layer="21">Manual RC Board V1</text>
 <text x="11" y="19" size="1.778" layer="21">Robojackets 
 Roboracing Electrical</text>
+<wire x1="1" y1="2.3" x2="1" y2="131.7" width="0" layer="20"/>
+<wire x1="1" y1="131.7" x2="3" y2="133.7" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="133.7" x2="69" y2="133.7" width="0" layer="20"/>
+<wire x1="69" y1="133.7" x2="71" y2="131.7" width="0" layer="20" curve="-90"/>
+<wire x1="71" y1="131.7" x2="71" y2="2.3" width="0" layer="20"/>
+<wire x1="71" y1="2.3" x2="69" y2="0.3" width="0" layer="20" curve="-90"/>
+<wire x1="69" y1="0.3" x2="3" y2="0.3" width="0" layer="20"/>
+<wire x1="3" y1="0.3" x2="1" y2="2.3" width="0" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="capacitor-wima" urn="urn:adsk.eagle:library:116">
