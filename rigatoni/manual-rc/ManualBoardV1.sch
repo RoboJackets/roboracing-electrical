@@ -9,25 +9,25 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -3860,13 +3860,13 @@ naming: grid - package width</description>
 <wire x1="1.4" y1="-0.5" x2="-0.4" y2="-0.5" width="0.127" layer="39"/>
 </package>
 <package name="4-PIN">
-<pad name="P$4" x="0" y="0" drill="0.6" diameter="1.016" shape="square"/>
-<pad name="P$3" x="0" y="1.25" drill="0.6" diameter="1.016" shape="square"/>
-<pad name="P$2" x="0" y="2.5" drill="0.6" diameter="1.016" shape="square"/>
-<pad name="P$1" x="0" y="3.75" drill="0.6" diameter="1.016" shape="square"/>
-<wire x1="-3" y1="-1" x2="-3" y2="5" width="0.127" layer="39"/>
-<wire x1="-3" y1="5" x2="3" y2="5" width="0.127" layer="39"/>
-<wire x1="3" y1="5" x2="3" y2="-1" width="0.127" layer="39"/>
+<pad name="P$4" x="0" y="0" drill="0.8" diameter="1.016" shape="square"/>
+<pad name="P$3" x="0" y="2" drill="0.8" diameter="1.016" shape="square"/>
+<pad name="P$2" x="0" y="4" drill="0.8" diameter="1.016" shape="square"/>
+<pad name="P$1" x="0" y="6" drill="0.8" diameter="1.016" shape="square"/>
+<wire x1="-3" y1="-1" x2="-3" y2="7.54" width="0.127" layer="39"/>
+<wire x1="-3" y1="7.54" x2="3" y2="7.54" width="0.127" layer="39"/>
+<wire x1="3" y1="7.54" x2="3" y2="-1" width="0.127" layer="39"/>
 <wire x1="3" y1="-1" x2="-3" y2="-1" width="0.127" layer="39"/>
 <text x="-3" y="6" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-3" size="1.27" layer="27">&gt;VALUE</text>
@@ -3887,27 +3887,27 @@ naming: grid - package width</description>
 <text x="-2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="R304SB">
-<pad name="P$3A" x="0" y="0" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$2A" x="0" y="1" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$1A" x="0" y="2" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$3B" x="1" y="0" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$3C" x="2" y="0" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$3D" x="3" y="0" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$3E" x="4" y="0" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$2E" x="4" y="1" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$1E" x="4" y="2" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$1D" x="3" y="2" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$1C" x="2" y="2" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$1B" x="1" y="2" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$2B" x="1" y="1" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$2C" x="2" y="1" drill="0.6" diameter="0.8128" shape="square"/>
-<pad name="P$2D" x="3" y="1" drill="0.6" diameter="0.8128" shape="square"/>
-<text x="-1.27" y="5.08" size="1.778" layer="25">&gt;NAME</text>
+<pad name="P$3A" x="0" y="0" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$2A" x="0" y="2.54" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$1A" x="0" y="5.08" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$3B" x="2.54" y="0" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$3C" x="5.08" y="0" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$3D" x="7.62" y="0" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$3E" x="10.16" y="0" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$2E" x="10.16" y="2.54" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$1E" x="10.16" y="5.08" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$1D" x="7.62" y="5.08" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$1C" x="5.08" y="5.08" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$1B" x="2.54" y="5.08" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$2B" x="2.54" y="2.54" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$2C" x="5.08" y="2.54" drill="1.02" diameter="1.27" shape="square"/>
+<pad name="P$2D" x="7.62" y="2.54" drill="1.02" diameter="1.27" shape="square"/>
+<text x="-1.27" y="7.62" size="1.778" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-<wire x1="-1" y1="-1" x2="-1" y2="3" width="0.1524" layer="39"/>
-<wire x1="-1" y1="3" x2="5" y2="3" width="0.1524" layer="39"/>
-<wire x1="5" y1="3" x2="5" y2="-1" width="0.1524" layer="39"/>
-<wire x1="5" y1="-1" x2="-1" y2="-1" width="0.1524" layer="39"/>
+<wire x1="-1" y1="-1" x2="-1" y2="6.81" width="0.1524" layer="39"/>
+<wire x1="-1" y1="6.81" x2="11.35" y2="6.81" width="0.1524" layer="39"/>
+<wire x1="11.35" y1="6.81" x2="11.35" y2="-1" width="0.1524" layer="39"/>
+<wire x1="11.35" y1="-1" x2="-1" y2="-1" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
