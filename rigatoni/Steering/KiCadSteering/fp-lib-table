@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SteeringV2")(type "KiCad")(uri "$(KIPRJMOD)/SteeringV2.pretty")(options "")(descr ""))
+)

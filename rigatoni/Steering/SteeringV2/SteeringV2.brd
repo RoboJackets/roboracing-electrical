@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -6240,9 +6240,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="59.69" y1="54.61" x2="59.69" y2="64.77" width="0.3" layer="16"/>
 <via x="59.69" y="64.77" extent="1-16" drill="0.35"/>
 <wire x1="59.69" y1="64.77" x2="56.3074" y2="68.1526" width="0.3" layer="1"/>
-<wire x1="53.1004625" y1="69.22" x2="52.07" y2="69.22" width="0.3" layer="1"/>
-<wire x1="56.3074" y1="68.1526" x2="54.1678625" y2="68.1526" width="0.3" layer="1"/>
-<wire x1="54.1678625" y1="68.1526" x2="53.1004625" y2="69.22" width="0.3" layer="1"/>
+<wire x1="56.3074" y1="68.1526" x2="53.1374" y2="68.1526" width="0.3" layer="1"/>
+<wire x1="53.1374" y1="68.1526" x2="52.07" y2="69.22" width="0.3" layer="1"/>
 </signal>
 <signal name="LINPOT_A2">
 <contactref element="J7" pad="3"/>
