@@ -1068,9 +1068,6 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DKPN" "296-47074-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
     (symbol "TPSM84205EAB_0_0"
       (rectangle (start -7.62 -7.62) (end 7.62 7.62)
         (stroke (width 0.254) (type default))

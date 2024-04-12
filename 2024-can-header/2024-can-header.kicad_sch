@@ -2,7 +2,13 @@
 
   (uuid 92cdadbe-eba9-43be-ae7b-de0562f8a189)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "CAN to Ethernet")
+    (date "2024-04-11")
+    (rev "1")
+  )
 
   (lib_symbols
     (symbol "Connector:Barrel_Jack" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
@@ -556,26 +562,20 @@
       )
     )
     (symbol "RoboRacing:TPSM84205EAB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U1" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "U" (at -0.7727 9.1394 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Value" "TPSM84205EAB" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "TPSM84205EAB" (at -7.62 12.7 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Footprint" "RoboRacing:TPSM84205EAB" (at 0 17.78 0)
+      (property "Footprint" "TPSM84205EAB:TPSM84205EAB" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm84203.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1712864330127&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftpsm84203" (at 0 -35.56 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "DigiKey Part Number" "296-47074-ND" (at 22.86 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Part Description" "Linear Regulator Replacement DC DC Converter 1 Output 5V 1.5A 7V - 28V Input" (at 0 -22.86 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TPSM84205EAB_0_0"
-        (rectangle (start -7.62 7.62) (end 7.62 -7.62)
+        (rectangle (start -7.62 -7.62) (end 7.62 7.62)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
