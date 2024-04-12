@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\JMACHALE\RoboJackets\roboracing-electrical\2024-can-header\2024-can-header.kicad_sch</source>
+    <date>4/11/2024 9:41:38 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2024-can-header.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Nucleo/" tstamps="/31c135c6-491f-479f-8e76-22ab6563d4e2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nucleo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1096-1-ND</field>
+        <field name="Part Description">10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)</field>
+        <field name="Part Name">CL21A106KOQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey Part Number" value="1276-1096-1-ND"/>
+      <property name="Part Name" value="CL21A106KOQNNNE"/>
+      <property name="Part Description" value="10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14d5bf8-7842-4e8c-a650-b53ce588f767</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-3376-1-ND</field>
+        <field name="Part Description">47 µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)</field>
+        <field name="Part Name">CL32A476KOJNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey Part Number" value="1276-3376-1-ND"/>
+      <property name="Part Name" value="CL32A476KOJNNNE"/>
+      <property name="Part Description" value="47 µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af5dbe1a-611c-407f-b61f-0b298bde0229</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-3376-1-ND</field>
+        <field name="Part Description">47 µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)</field>
+        <field name="Part Name">CL32A476KOJNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey Part Number" value="1276-3376-1-ND"/>
+      <property name="Part Name" value="CL32A476KOJNNNE"/>
+      <property name="Part Description" value="47 µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e75b9a8-c245-487e-a995-f39540487f81</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>Schottky - LSM115JE3/TR13</value>
+      <footprint>RoboRacing:DO-214BA_MCH</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/794/LSM115J.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">150-LSM115JE3/TR13CT-ND</field>
+        <field name="Part Description">Diode 15 V 1A Surface Mount DO-214BA</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="DigiKey Part Number" value="150-LSM115JE3/TR13CT-ND"/>
+      <property name="Part Description" value="Diode 15 V 1A Surface Mount DO-214BA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dfc64c2-9fc8-462c-939a-b480b3226ff2</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">732-4981-1-ND</field>
+        <field name="Part Description">Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="Part Name">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DigiKey Part Number" value="732-4981-1-ND"/>
+      <property name="Part Name" value="150060YS75000"/>
+      <property name="Part Description" value="Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fd42346-4cda-499a-a97a-bbd2173ded8c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TVS - D5V0L1B2WS-7</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D5V0L1B2WS.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">D5V0L1B2WS-7DICT-ND</field>
+        <field name="Part Description">14V Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount SOD-323</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="DigiKey Part Number" value="D5V0L1B2WS-7DICT-ND"/>
+      <property name="Part Description" value="14V Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d990b589-b684-4523-b1ef-e5af1ae87c31</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060GS75000.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">732-4971-1-ND</field>
+        <field name="Part Description">Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)</field>
+        <field name="Part Name">150060GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DigiKey Part Number" value="732-4971-1-ND"/>
+      <property name="Part Name" value="150060GS75000"/>
+      <property name="Part Description" value="Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6646e0c8-ef3e-47e3-a7a8-df0f488bbb9c</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse 500mA</value>
+      <footprint>Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2q-series.pdf</datasheet>
+      <fields>
+        <field name="Part Description">500 mA 32 V AC 63 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0603 (1608 Metric)</field>
+        <field name="Part Name">C2Q 500</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Part Name" value="C2Q 500"/>
+      <property name="Part Description" value="500 mA 32 V AC 63 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0603 (1608 Metric)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7f0da9a-9268-4ce0-821e-f0ea479c3022</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack</value>
+      <footprint>RoboRacing:CUI_PJ-037A</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/pj-037a.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">CP-037A-ND</field>
+        <field name="Part Description">Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole, Right Angle</field>
+        <field name="Part Name">PJ-037A</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="DigiKey Part Number" value="CP-037A-ND"/>
+      <property name="Part Name" value="PJ-037A"/>
+      <property name="Part Description" value="Power Barrel Connector Jack 2.10mm ID (0.083&quot;), 5.50mm OD (0.217&quot;) Through Hole, Right Angle"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a4582b-7e36-4a37-b1eb-89e3d4ae74b0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>499R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-499HRCT-ND</field>
+        <field name="Part Description">499 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="Part Name">RC0603FR-07499RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey Part Number" value="311-499HRCT-ND"/>
+      <property name="Part Name" value="RC0603FR-07499RL"/>
+      <property name="Part Description" value="499 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>086fec98-2488-46c5-bbc1-2c4522f6d284</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>150R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">YAG3568CT-ND</field>
+        <field name="Part Description">150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</field>
+        <field name="Part Name">AC0603FR-07150RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey Part Number" value="YAG3568CT-ND"/>
+      <property name="Part Name" value="AC0603FR-07150RL"/>
+      <property name="Part Description" value="150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e24d8fd-036d-4227-a587-16557cdc4fa8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPSM84205EAB</value>
+      <footprint>RoboRacing:TPSM84205EAB</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpsm84203.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1712864330127&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftpsm84203</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">296-47074-ND</field>
+        <field name="Part Description">Linear Regulator Replacement DC DC Converter 1 Output 5V 1.5A 7V - 28V Input</field>
+      </fields>
+      <libsource lib="RoboRacing" part="TPSM84205EAB" description=""/>
+      <property name="DigiKey Part Number" value="296-47074-ND"/>
+      <property name="Part Description" value="Linear Regulator Replacement DC DC Converter 1 Output 5V 1.5A 7V - 28V Input"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="2024-can-header.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>258a9655-f5a4-4d15-a9fc-ef82588000ba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RoboRacing" part="NUCLEO-H743ZI-HEADER">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUCLEO-H743ZI-HEADER</field>
+        <field name="Footprint">RoboRacing:NUCLEO-H743ZI</field>
+        <field name="PARTREV">8</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="CN7_1" name="D16/I2S_A_MCK" type="bidirectional"/>
+        <pin num="CN7_2" name="D15/I2C_A_SCL" type="bidirectional"/>
+        <pin num="CN7_3" name="D17/I2S_A_SD" type="bidirectional"/>
+        <pin num="CN7_4" name="D14/I2C_A_SDA" type="bidirectional"/>
+        <pin num="CN7_5" name="D18/I2S_A_CK" type="bidirectional"/>
+        <pin num="CN7_6" name="AREF" type="power_in"/>
+        <pin num="CN7_7" name="D19/I2S_A_WS" type="bidirectional"/>
+        <pin num="CN7_8" name="GND_CN7" type="power_in"/>
+        <pin num="CN7_9" name="D20/I2S_B_WS" type="bidirectional"/>
+        <pin num="CN7_10" name="D13/SPI_A_SCK" type="bidirectional"/>
+        <pin num="CN7_11" name="D21/I2S_B_MCK" type="bidirectional"/>
+        <pin num="CN7_12" name="D12/SPI_A_MISO" type="bidirectional"/>
+        <pin num="CN7_13" name="D22/I2S_B_SD/SPI_B_MOSI" type="bidirectional"/>
+        <pin num="CN7_14" name="D11/SPI_A_MOSI/TIM_E_PWM1" type="bidirectional"/>
+        <pin num="CN7_15" name="D23/I2S_B_CK/SPI_B_SCK" type="bidirectional"/>
+        <pin num="CN7_16" name="D10/SPI_A_CS/TIM_B_PWM3" type="bidirectional"/>
+        <pin num="CN7_17" name="D24/SPI_B_NSS" type="bidirectional"/>
+        <pin num="CN7_18" name="D9/TIMER_B_PWM2" type="bidirectional"/>
+        <pin num="CN7_19" name="D25/SPI_B_MISO" type="bidirectional"/>
+        <pin num="CN7_20" name="D8/IO" type="bidirectional"/>
+        <pin num="CN8_1" name="NC_CN8" type="no_connect"/>
+        <pin num="CN8_2" name="D43/SDMMC_D0" type="bidirectional"/>
+        <pin num="CN8_3" name="IOREF_CN8" type="bidirectional"/>
+        <pin num="CN8_4" name="D44/SDMMC_D1/I2S_A_CKIN" type="bidirectional"/>
+        <pin num="CN8_5" name="RESET_CN8" type="bidirectional"/>
+        <pin num="CN8_6" name="D45/SDMMC_D2" type="bidirectional"/>
+        <pin num="CN8_7" name="+3V3_CN8" type="power_in"/>
+        <pin num="CN8_8" name="D46/SDMMC_D3" type="bidirectional"/>
+        <pin num="CN8_9" name="+5V_CN8" type="power_in"/>
+        <pin num="CN8_10" name="D47/SDMMC_CK" type="bidirectional"/>
+        <pin num="CN8_11" name="GND_CN8" type="power_in"/>
+        <pin num="CN8_12" name="D48/SDMMC_CMD" type="bidirectional"/>
+        <pin num="CN8_13" name="GND_CN8__1" type="power_in"/>
+        <pin num="CN8_14" name="D49/IO" type="bidirectional"/>
+        <pin num="CN8_15" name="VIN_CN8" type="power_in"/>
+        <pin num="CN8_16" name="D50/IO" type="bidirectional"/>
+        <pin num="CN9_1" name="A0/ADC123_IN3" type="input"/>
+        <pin num="CN9_2" name="D51/USART_B_SCLK" type="bidirectional"/>
+        <pin num="CN9_3" name="A1/ADC123_IN10" type="input"/>
+        <pin num="CN9_4" name="D52/USART_B_RX" type="bidirectional"/>
+        <pin num="CN9_5" name="A2/ADC123_IN13" type="input"/>
+        <pin num="CN9_6" name="D53/USART_B_TX" type="bidirectional"/>
+        <pin num="CN9_7" name="A3/ADC3_IN9" type="input"/>
+        <pin num="CN9_8" name="D54/USART_B_RTS" type="bidirectional"/>
+        <pin num="CN9_9" name="A4/ADC3_IN15/I2C1_SDA" type="input"/>
+        <pin num="CN9_10" name="D55/USART_B_CTS" type="bidirectional"/>
+        <pin num="CN9_11" name="A5/ADC3_IN8/I2C1_SCL" type="input"/>
+        <pin num="CN9_12" name="GND_CN9" type="power_in"/>
+        <pin num="CN9_13" name="D72/NC" type="bidirectional"/>
+        <pin num="CN9_14" name="D56/SAI_A_MCLK" type="bidirectional"/>
+        <pin num="CN9_15" name="D71/IO" type="bidirectional"/>
+        <pin num="CN9_16" name="D57/SAI_A_FS" type="bidirectional"/>
+        <pin num="CN9_17" name="D70/I2C_B_SMBA" type="bidirectional"/>
+        <pin num="CN9_18" name="D58/SAI_A_SCK" type="bidirectional"/>
+        <pin num="CN9_19" name="D69/I2C_B_SCL" type="bidirectional"/>
+        <pin num="CN9_20" name="D59/SAI_A_SD" type="bidirectional"/>
+        <pin num="CN9_21" name="D68/I2C_B_SDA" type="bidirectional"/>
+        <pin num="CN9_22" name="D60/SAI_B_SD" type="bidirectional"/>
+        <pin num="CN9_23" name="GND_CN9__1" type="power_in"/>
+        <pin num="CN9_24" name="D61/SAI_B_SCK" type="bidirectional"/>
+        <pin num="CN9_25" name="D67/CAN_RX" type="input"/>
+        <pin num="CN9_26" name="D62/SAI_B_MCLK" type="bidirectional"/>
+        <pin num="CN9_27" name="D66/CAN_TX" type="output"/>
+        <pin num="CN9_28" name="D63/SAI_B_FS" type="bidirectional"/>
+        <pin num="CN9_29" name="D65/IO" type="bidirectional"/>
+        <pin num="CN9_30" name="D64/IO" type="bidirectional"/>
+        <pin num="CN10_1" name="AVDD_CN10" type="power_in"/>
+        <pin num="CN10_2" name="D7/IO" type="bidirectional"/>
+        <pin num="CN10_3" name="AGND_CN10" type="power_in"/>
+        <pin num="CN10_4" name="D6/TIMER_A_PWM1" type="bidirectional"/>
+        <pin num="CN10_5" name="GND_CN10" type="power_in"/>
+        <pin num="CN10_6" name="D5/TIMER_A_PWM2" type="bidirectional"/>
+        <pin num="CN10_7" name="A6/ADC_A_IN" type="input"/>
+        <pin num="CN10_8" name="D4/IO" type="bidirectional"/>
+        <pin num="CN10_9" name="A7/ADC_B_IN" type="input"/>
+        <pin num="CN10_10" name="D3/TIMER_A_PWM3" type="bidirectional"/>
+        <pin num="CN10_11" name="A8/ADC_C_IN" type="input"/>
+        <pin num="CN10_12" name="D2/IO" type="bidirectional"/>
+        <pin num="CN10_13" name="D26/IO" type="bidirectional"/>
+        <pin num="CN10_14" name="D1/USART_A_TX" type="output"/>
+        <pin num="CN10_15" name="D27/IO" type="bidirectional"/>
+        <pin num="CN10_16" name="D0/USART_A_RX" type="input"/>
+        <pin num="CN10_17" name="GND_CN10__1" type="power_in"/>
+        <pin num="CN10_18" name="D42/TIMER_A_PWM1N" type="bidirectional"/>
+        <pin num="CN10_19" name="D28/IO" type="bidirectional"/>
+        <pin num="CN10_20" name="D41/TIMER_A_ETR" type="bidirectional"/>
+        <pin num="CN10_21" name="D29/IO" type="bidirectional"/>
+        <pin num="CN10_22" name="GND_CN10__2" type="power_in"/>
+        <pin num="CN10_23" name="D30/IO" type="bidirectional"/>
+        <pin num="CN10_24" name="D40/TIMER_A_PWM2N" type="bidirectional"/>
+        <pin num="CN10_25" name="D31/IO" type="bidirectional"/>
+        <pin num="CN10_26" name="D39/TIMER_A_PWM3N" type="bidirectional"/>
+        <pin num="CN10_27" name="GND_CN10__3" type="power_in"/>
+        <pin num="CN10_28" name="D38/IO" type="bidirectional"/>
+        <pin num="CN10_29" name="D32/TIMER_C_PWM1" type="bidirectional"/>
+        <pin num="CN10_30" name="D37/TIMER_A_BKIN1" type="bidirectional"/>
+        <pin num="CN10_31" name="D33/TIMER_D_PWM1" type="bidirectional"/>
+        <pin num="CN10_32" name="D36/TIMER_C_PWM2" type="bidirectional"/>
+        <pin num="CN10_33" name="D34/TIMER_B_ETR" type="bidirectional"/>
+        <pin num="CN10_34" name="D35/TIMER_C_PWM3" type="bidirectional"/>
+        <pin num="CN11_1" name="PC10" type="bidirectional"/>
+        <pin num="CN11_2" name="PC11" type="bidirectional"/>
+        <pin num="CN11_3" name="PC12" type="bidirectional"/>
+        <pin num="CN11_4" name="PD2" type="bidirectional"/>
+        <pin num="CN11_5" name="VDD" type="power_in"/>
+        <pin num="CN11_6" name="E5V" type="power_in"/>
+        <pin num="CN11_7" name="BOOT0" type="bidirectional"/>
+        <pin num="CN11_8" name="GND_CN11" type="power_in"/>
+        <pin num="CN11_9" name="PF6" type="bidirectional"/>
+        <pin num="CN11_10" name="NC" type="no_connect"/>
+        <pin num="CN11_11" name="PF7" type="bidirectional"/>
+        <pin num="CN11_12" name="IOREF" type="bidirectional"/>
+        <pin num="CN11_13" name="PA13" type="bidirectional"/>
+        <pin num="CN11_14" name="RESET" type="bidirectional"/>
+        <pin num="CN11_15" name="PA14" type="bidirectional"/>
+        <pin num="CN11_16" name="+3V3" type="power_in"/>
+        <pin num="CN11_17" name="PA15" type="bidirectional"/>
+        <pin num="CN11_18" name="+5V" type="power_in"/>
+        <pin num="CN11_19" name="GND_CN11__1" type="power_in"/>
+        <pin num="CN11_20" name="GND_CN11__2" type="power_in"/>
+        <pin num="CN11_21" name="PB7" type="bidirectional"/>
+        <pin num="CN11_22" name="GND_CN11__3" type="power_in"/>
+        <pin num="CN11_23" name="PC13" type="bidirectional"/>
+        <pin num="CN11_24" name="VIN" type="power_in"/>
+        <pin num="CN11_25" name="PC14" type="bidirectional"/>
+        <pin num="CN11_26" name="NC__1" type="no_connect"/>
+        <pin num="CN11_27" name="PC15" type="bidirectional"/>
+        <pin num="CN11_28" name="PA0" type="bidirectional"/>
+        <pin num="CN11_29" name="PH0" type="bidirectional"/>
+        <pin num="CN11_30" name="PA1" type="bidirectional"/>
+        <pin num="CN11_31" name="PH1" type="bidirectional"/>
+        <pin num="CN11_32" name="PA4" type="bidirectional"/>
+        <pin num="CN11_33" name="VBAT" type="power_in"/>
+        <pin num="CN11_34" name="PB0" type="bidirectional"/>
+        <pin num="CN11_35" name="PC2" type="bidirectional"/>
+        <pin num="CN11_36" name="PC1" type="bidirectional"/>
+        <pin num="CN11_37" name="PC3" type="bidirectional"/>
+        <pin num="CN11_38" name="PC0" type="bidirectional"/>
+        <pin num="CN11_39" name="PD4" type="bidirectional"/>
+        <pin num="CN11_40" name="PD3" type="bidirectional"/>
+        <pin num="CN11_41" name="PD5" type="bidirectional"/>
+        <pin num="CN11_42" name="PG2" type="bidirectional"/>
+        <pin num="CN11_43" name="PD6" type="bidirectional"/>
+        <pin num="CN11_44" name="PG3" type="bidirectional"/>
+        <pin num="CN11_45" name="PD7" type="bidirectional"/>
+        <pin num="CN11_46" name="PE2" type="bidirectional"/>
+        <pin num="CN11_47" name="PE3" type="bidirectional"/>
+        <pin num="CN11_48" name="PE4" type="bidirectional"/>
+        <pin num="CN11_49" name="GND_CN11__4" type="power_in"/>
+        <pin num="CN11_50" name="PE5" type="bidirectional"/>
+        <pin num="CN11_51" name="PF1" type="bidirectional"/>
+        <pin num="CN11_52" name="PF2" type="bidirectional"/>
+        <pin num="CN11_53" name="PF0" type="bidirectional"/>
+        <pin num="CN11_54" name="PF8" type="bidirectional"/>
+        <pin num="CN11_55" name="PD1" type="bidirectional"/>
+        <pin num="CN11_56" name="PF9" type="bidirectional"/>
+        <pin num="CN11_57" name="PD0" type="bidirectional"/>
+        <pin num="CN11_58" name="PG1" type="bidirectional"/>
+        <pin num="CN11_59" name="PG0" type="bidirectional"/>
+        <pin num="CN11_60" name="GND_CN11__5" type="power_in"/>
+        <pin num="CN11_61" name="PE1" type="bidirectional"/>
+        <pin num="CN11_62" name="PE6" type="bidirectional"/>
+        <pin num="CN11_63" name="PG9" type="bidirectional"/>
+        <pin num="CN11_64" name="PG15" type="bidirectional"/>
+        <pin num="CN11_65" name="PG12" type="bidirectional"/>
+        <pin num="CN11_66" name="PG10" type="bidirectional"/>
+        <pin num="CN11_67" name="NC__2" type="no_connect"/>
+        <pin num="CN11_68" name="PG13" type="bidirectional"/>
+        <pin num="CN11_69" name="PD9" type="bidirectional"/>
+        <pin num="CN11_70" name="PG11" type="bidirectional"/>
+        <pin num="CN11_71" name="GND_CN11__6" type="power_in"/>
+        <pin num="CN11_72" name="GND_CN11__7" type="power_in"/>
+        <pin num="CN12_1" name="PC9" type="bidirectional"/>
+        <pin num="CN12_2" name="PC8" type="bidirectional"/>
+        <pin num="CN12_3" name="PB8" type="bidirectional"/>
+        <pin num="CN12_4" name="PC6" type="bidirectional"/>
+        <pin num="CN12_5" name="PB9" type="bidirectional"/>
+        <pin num="CN12_6" name="PC5" type="bidirectional"/>
+        <pin num="CN12_7" name="AVDD_CN12" type="power_in"/>
+        <pin num="CN12_8" name="U5V" type="power_in"/>
+        <pin num="CN12_9" name="GND_CN12" type="power_in"/>
+        <pin num="CN12_10" name="PD8" type="bidirectional"/>
+        <pin num="CN12_11" name="PA5" type="bidirectional"/>
+        <pin num="CN12_12" name="PA12" type="bidirectional"/>
+        <pin num="CN12_13" name="PA6" type="bidirectional"/>
+        <pin num="CN12_14" name="PA11" type="bidirectional"/>
+        <pin num="CN12_15" name="PA7" type="bidirectional"/>
+        <pin num="CN12_16" name="PB12" type="bidirectional"/>
+        <pin num="CN12_17" name="PB6" type="bidirectional"/>
+        <pin num="CN12_18" name="PB11" type="bidirectional"/>
+        <pin num="CN12_19" name="PC7" type="bidirectional"/>
+        <pin num="CN12_20" name="GND_CN12__1" type="power_in"/>
+        <pin num="CN12_21" name="PA9" type="bidirectional"/>
+        <pin num="CN12_22" name="PB2" type="bidirectional"/>
+        <pin num="CN12_23" name="PA8" type="bidirectional"/>
+        <pin num="CN12_24" name="PB1" type="bidirectional"/>
+        <pin num="CN12_25" name="PB10" type="bidirectional"/>
+        <pin num="CN12_26" name="PB15" type="bidirectional"/>
+        <pin num="CN12_27" name="PB4" type="bidirectional"/>
+        <pin num="CN12_28" name="PB14" type="bidirectional"/>
+        <pin num="CN12_29" name="PB5" type="bidirectional"/>
+        <pin num="CN12_30" name="PB13" type="bidirectional"/>
+        <pin num="CN12_31" name="PB3" type="bidirectional"/>
+        <pin num="CN12_32" name="AGND_CN12" type="power_in"/>
+        <pin num="CN12_33" name="PA10" type="bidirectional"/>
+        <pin num="CN12_34" name="PC4" type="bidirectional"/>
+        <pin num="CN12_35" name="PA2" type="bidirectional"/>
+        <pin num="CN12_36" name="PF5" type="bidirectional"/>
+        <pin num="CN12_37" name="PA3" type="bidirectional"/>
+        <pin num="CN12_38" name="PF4" type="bidirectional"/>
+        <pin num="CN12_39" name="GND_CN12__2" type="power_in"/>
+        <pin num="CN12_40" name="PE8" type="bidirectional"/>
+        <pin num="CN12_41" name="PD13" type="bidirectional"/>
+        <pin num="CN12_42" name="PF10" type="bidirectional"/>
+        <pin num="CN12_43" name="PD12" type="bidirectional"/>
+        <pin num="CN12_44" name="PE7" type="bidirectional"/>
+        <pin num="CN12_45" name="PD11" type="bidirectional"/>
+        <pin num="CN12_46" name="PD14" type="bidirectional"/>
+        <pin num="CN12_47" name="PE10" type="bidirectional"/>
+        <pin num="CN12_48" name="PD15" type="bidirectional"/>
+        <pin num="CN12_49" name="PE12" type="bidirectional"/>
+        <pin num="CN12_50" name="PF14" type="bidirectional"/>
+        <pin num="CN12_51" name="PE14" type="bidirectional"/>
+        <pin num="CN12_52" name="PE9" type="bidirectional"/>
+        <pin num="CN12_53" name="PE15" type="bidirectional"/>
+        <pin num="CN12_54" name="GND_CN12__3" type="power_in"/>
+        <pin num="CN12_55" name="PE13" type="bidirectional"/>
+        <pin num="CN12_56" name="PE11" type="bidirectional"/>
+        <pin num="CN12_57" name="PF13" type="bidirectional"/>
+        <pin num="CN12_58" name="PF3" type="bidirectional"/>
+        <pin num="CN12_59" name="PF12" type="bidirectional"/>
+        <pin num="CN12_60" name="PF15" type="bidirectional"/>
+        <pin num="CN12_61" name="PG14" type="bidirectional"/>
+        <pin num="CN12_62" name="PF11" type="bidirectional"/>
+        <pin num="CN12_63" name="GND_CN12__4" type="power_in"/>
+        <pin num="CN12_64" name="PE0" type="bidirectional"/>
+        <pin num="CN12_65" name="PD10" type="bidirectional"/>
+        <pin num="CN12_66" name="PG8" type="bidirectional"/>
+        <pin num="CN12_67" name="PG7" type="bidirectional"/>
+        <pin num="CN12_68" name="PG5" type="bidirectional"/>
+        <pin num="CN12_69" name="PG4" type="bidirectional"/>
+        <pin num="CN12_70" name="PG6" type="bidirectional"/>
+        <pin num="CN12_71" name="GND_CN12__5" type="power_in"/>
+        <pin num="CN12_72" name="GND_CN12__6" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RoboRacing" part="TPSM84205EAB">
+      <docs>https://www.ti.com/lit/ds/symlink/tpsm84203.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1712864330127&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftpsm84203</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">TPSM84205EAB</field>
+        <field name="Footprint">RoboRacing:TPSM84205EAB</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpsm84203.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1712864330127&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftpsm84203</field>
+        <field name="DigiKey Part Number">296-47074-ND</field>
+        <field name="Part Description">Linear Regulator Replacement DC DC Converter 1 Output 5V 1.5A 7V - 28V Input</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="VIN" name="VIN" type="input"/>
+        <pin num="VOUT" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="RoboRacing">
+      <uri>C:/Users/JMACHALE/RoboJackets/roboracing-electrical/kicad-libraries/RoboRacing.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="+5V">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="VOUT" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(CR1-A)">
+      <node ref="CR1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(CR1-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="U1" pin="VIN" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
