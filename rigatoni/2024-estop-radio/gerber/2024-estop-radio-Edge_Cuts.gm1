@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*
+G04 #@! TF.CreationDate,2024-04-15T21:05:51-04:00*
+G04 #@! TF.ProjectId,2024-estop-radio,32303234-2d65-4737-946f-702d72616469,1*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.7) date 2024-04-15 21:05:51*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X51404040Y-22218886D02*
+X112754040Y-22218886D01*
+X112754040Y-140268886D01*
+X51404040Y-140268886D01*
+X51404040Y-22218886D01*
+M02*
